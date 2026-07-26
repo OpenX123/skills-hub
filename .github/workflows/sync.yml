@@ -1,0 +1,91 @@
+name: sync-registry
+
+on:
+  schedule:
+    # 每天 19:00 UTC = 北京时间次日 03:00
+    - cron: '0 19 * * *'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: '忽略增量缓存,全量重抓'
+        type: boolean
+        default: false
+
+concurrency:
+  group: sync-registry
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    # secrets 不能直接出现在 step 的 if 里,得先落到 job 级 env 上
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # 浅克隆的上游副本可以跨轮复用,命中后整轮抓取会快一个数量级
+      - name: Restore upstream cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            data/cache
+            data/raw
+          key: skills-hub-cache-${{ github.run_id }}
+          restore-keys: skills-hub-cache-
+
+      # 抓取 + 归一化。翻译单独一步,好让没配 key 时也能正常出 registry。
+      - name: Sync
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          node src/cli.js sync ${{ inputs.force && '--force' || '' }} --no-translate --quiet
+
+      # 增量翻译:data/translations.json 已提交,这里只翻当轮新出现的描述。
+      # 没配 ANTHROPIC_API_KEY 时该步跳过,条目保留 needsTranslation 标记,不会伪造译文。
+      - name: Translate new descriptions
+        if: ${{ env.ANTHROPIC_API_KEY != '' }}
+        run: |
+          node src/cli.js translate --status
+          node src/cli.js translate --provider=anthropic-api
+          node src/cli.js build
+          node src/cli.js site
+
+      - name: Stats
+        run: node src/cli.js stats
+
+      - name: Commit registry
+        run: |
+          git config user.name  'skills-hub-bot'
+          git config user.email 'skills-hub-bot@users.noreply.github.com'
+          # web/public/data 是 Next 站的数据源,漏掉的话 Pages 上的站会停在旧数据
+          git add registry sources site web/public/data
+          # 没配 ANTHROPIC_API_KEY 时译文缓存不存在,git add 缺失路径会直接报错
+          if [ -f data/translations.json ]; then git add data/translations.json; fi
+          if git diff --staged --quiet; then
+            echo "registry 无变化"
+          else
+            TOTAL=$(node -e "console.log(require('./registry/stats.json').total)")
+            CANON=$(node -e "console.log(require('./registry/stats.json').canonical)")
+            ZH=$(node -e "console.log(require('./registry/stats.json').translation.withZh)")
+            git commit -m "chore(registry): 同步 ${TOTAL} 条 / canonical ${CANON} / 中文 ${ZH}"
+            git push
+          fi
+
+      - name: Upload reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: registry-reports
+          path: |
+            registry/stats.json
+            registry/risk-report.json
+          retention-days: 30

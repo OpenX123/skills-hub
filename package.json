@@ -1,0 +1,17 @@
+{
+  "name": "skills-hub",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "跨端 Agent 资源注册表 — 抓取、归一、去重、分类、审计 skill / subagent / command / rules / plugin / mcp",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "crawl": "node src/cli.js crawl",
+    "build": "node src/cli.js build",
+    "sync": "node src/cli.js sync",
+    "stats": "node src/cli.js stats",
+    "search": "node src/cli.js search"
+  }
+}

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>skills-hub · 跨端 Agent 资源目录</title>
+<meta name="description" content="skill / subagent / command / rules / plugin / MCP 的聚合目录,带去重、分类与安全审计。">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>&#129513;</text></svg>">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap topbar">
+    <a class="brand" href="#/">
+      <span class="logo">🧩</span>
+      <span class="brandtext"><b>skills-hub</b><i>跨端 Agent 资源目录</i></span>
+    </a>
+    <nav class="nav">
+      <a href="#/" data-route="list">目录</a>
+      <a href="#/audit" data-route="audit">审计</a>
+      <a href="#/sources" data-route="sources">数据源</a>
+      <a href="#/stats" data-route="stats">底表</a>
+    </nav>
+    <button id="theme" class="ghost" title="切换主题">◐</button>
+  </div>
+</header>
+
+<main class="wrap" id="app">
+  <section id="view-list">
+    <div class="hero">
+      <div class="hero-num"><b id="hero-total">—</b><span>条目</span></div>
+      <div class="hero-num"><b id="hero-canon">—</b><span>canonical</span></div>
+      <div class="hero-num"><b id="hero-rec">—</b><span>推荐</span></div>
+      <div class="hero-num warn"><b id="hero-risk">—</b><span>风险标记</span></div>
+      <div class="hero-meta" id="hero-time"></div>
+    </div>
+
+    <div class="searchrow">
+      <input id="q" type="search" placeholder="搜索名称 / 描述 / 仓库…  (支持中英文)" autocomplete="off" spellcheck="false">
+      <span id="qcount" class="qcount"></span>
+    </div>
+
+    <div class="sorts" id="sorts"></div>
+
+    <div class="layout">
+      <aside class="filters" id="filters"></aside>
+      <div class="results">
+        <div id="rows" class="rows"></div>
+        <div id="sentinel"></div>
+        <div id="empty" class="empty" hidden>没有匹配的条目 — 试试放宽筛选</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="view-audit" hidden></section>
+  <section id="view-sources" hidden></section>
+  <section id="view-stats" hidden></section>
+</main>
+
+<div id="drawer" class="drawer" hidden>
+  <div class="drawer-bg" data-close></div>
+  <article class="drawer-panel" id="drawer-body"></article>
+</div>
+
+<footer class="wrap foot">
+  <span>数据由本仓库 <code>node src/cli.js sync</code> 抓取生成 · 三层去重 · 文本层审计基线</span>
+</footer>
+
+<script src="data/meta.js"></script>
+<script src="data/core.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,2103 @@
+{
+  "generatedAt": "2026-07-26T08:09:02.265Z",
+  "type": "subagent",
+  "label": {
+    "zh": "子代理",
+    "en": "Subagent"
+  },
+  "total": 43,
+  "entries": [
+    {
+      "id": "subagent:davila7/claude-code-templates:.claude/agents/agent-expert.md#agent-expert",
+      "type": "subagent",
+      "name": "agent-expert",
+      "description": {
+        "zh": null,
+        "en": "Use this agent when creating specialized Claude Code agents for the claude-code-templates components system. Specializes in agent design, prompt engineering, domain expertise modeling, and agent best practices. Examples: <example>Context: User wants to create a new specialized agent. user: 'I need to create an agent that specializes in React performance optimization' assistant: 'I'll use the agent-expert agent to create a comprehensive React performance agent with proper domain expertise and practical examples' <commentary>Since the user needs to create a specialized agent, use the agent-exper",
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "meta"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": ".claude/agents/agent-expert.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/.claude/agents/agent-expert.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 70,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 29910,
+      "curatedMentions": 2
+    },
+    {
+      "id": "subagent:davila7/claude-code-templates:.claude/agents/catalog-generator.md#catalog-generator",
+      "type": "subagent",
+      "name": "catalog-generator",
+      "description": {
+        "zh": null,
+        "en": "Regenerates the component catalog (docs/components.json) by running the Python script. Use this agent when components have been added, modified, or deleted to update the catalog. Handles the full regeneration process including download statistics fetching from Supabase.",
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "data"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": ".claude/agents/catalog-generator.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/.claude/agents/catalog-generator.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 70,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 29910,
+      "curatedMentions": 2
+    },
+    {
+      "id": "subagent:davila7/claude-code-templates:.claude/agents/cli-ui-designer.md#cli-ui-designer",
+      "type": "subagent",
+      "name": "cli-ui-designer",
+      "description": {
+        "zh": null,
+        "en": "CLI interface design specialist. Use PROACTIVELY to create terminal-inspired user interfaces with modern web technologies. Expert in CLI aesthetics, terminal themes, and command-line UX patterns.",
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": ".claude/agents/cli-ui-designer.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/.claude/agents/cli-ui-designer.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 70,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 29910,
+      "curatedMentions": 2
+    },
+    {
+      "id": "subagent:davila7/claude-code-templates:.claude/agents/command-expert.md#command-expert",
+      "type": "subagent",
+      "name": "command-expert",
+      "description": {
+        "zh": null,
+        "en": "Use this agent when creating CLI commands for the claude-code-templates components system. Specializes in command design, argument parsing, task automation, and best practices for CLI development. Examples: <example>Context: User wants to create a new CLI command. user: 'I need to create a command that optimizes images in a project' assistant: 'I'll use the command-expert agent to create a comprehensive image optimization command with proper argument handling and batch processing' <commentary>Since the user needs to create a CLI command, use the command-expert agent for proper command structur",
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "design",
+        "media"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": ".claude/agents/command-expert.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/.claude/agents/command-expert.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 70,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 29910,
+      "curatedMentions": 2
+    },
+    {
+      "id": "subagent:davila7/claude-code-templates:.claude/agents/component-researcher.md#component-researcher",
+      "type": "subagent",
+      "name": "component-researcher",
+      "description": {
+        "zh": null,
+        "en": "Investigates best practices and improvement opportunities for Claude Code components using web search and codebase analysis. Returns structured research reports without modifying files.",
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "research",
+        "coding",
+        "meta"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": ".claude/agents/component-researcher.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/.claude/agents/component-researcher.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 70,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 29910,
+      "curatedMentions": 2
+    },
+    {
+      "id": "subagent:davila7/claude-code-templates:.claude/agents/deployer.md#deployer",
+      "type": "subagent",
+      "name": "deployer",
+      "description": {
+        "zh": null,
+        "en": "Assists with deploy verification and troubleshooting. Deployments happen automatically via GitHub Actions on push to main. Use when the user needs to check deploy status or debug deploy issues.",
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "devops"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": ".claude/agents/deployer.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/.claude/agents/deployer.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 70,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 29910,
+      "curatedMentions": 2
+    },
+    {
+      "id": "subagent:davila7/claude-code-templates:.claude/agents/linear-tracker.md#linear-tracker",
+      "type": "subagent",
+      "name": "linear-tracker",
+      "description": {
+        "zh": null,
+        "en": "Manages Linear issues for the Component Reviews project. Handles CRUD operations for review tracking, finding next components to review, and reporting results.",
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": ".claude/agents/linear-tracker.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/.claude/agents/linear-tracker.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 70,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 29910,
+      "curatedMentions": 2
+    },
+    {
+      "id": "subagent:davila7/claude-code-templates:.claude/agents/mcp-expert.md#mcp-expert",
+      "type": "subagent",
+      "name": "mcp-expert",
+      "description": {
+        "zh": null,
+        "en": "Use this agent when creating Model Context Protocol (MCP) integrations for the cli-tool components system. Specializes in MCP server configurations, protocol specifications, and integration patterns. Examples: <example>Context: User wants to create a new MCP integration. user: 'I need to create an MCP for Stripe API integration' assistant: 'I'll use the mcp-expert agent to create a comprehensive Stripe MCP integration with proper authentication and API methods' <commentary>Since the user needs to create an MCP integration, use the mcp-expert agent for proper MCP structure and implementation.</",
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding",
+        "integration"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": ".claude/agents/mcp-expert.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/.claude/agents/mcp-expert.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 70,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 29910,
+      "curatedMentions": 2
+    },
+    {
+      "id": "subagent:davila7/claude-code-templates:.claude/agents/blog-writer.md#blog-writer",
+      "type": "subagent",
+      "name": "blog-writer",
+      "description": {
+        "zh": null,
+        "en": "Use this agent to create blog articles for aitmpl.com from Claude Code Templates components. Reads the component, asks the user to confirm details, generates SVG cover, HTML article, and updates blog-articles.json. Examples: <example>Context: User wants a blog for a component. user: 'Create a blog article for cli-tool/components/hooks/security/secret-scanner.json' assistant: 'I'll use the blog-writer agent to create the full blog article with cover image and proper structure' <commentary>The user wants a blog article from a component, use blog-writer for the full pipeline.</commentary></exampl",
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "meta"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": ".claude/agents/blog-writer.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/.claude/agents/blog-writer.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 69,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "low",
+        "score": 4
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 29910,
+      "curatedMentions": 2
+    },
+    {
+      "id": "subagent:davila7/claude-code-templates:.claude/agents/component-reviewer.md#component-reviewer",
+      "type": "subagent",
+      "name": "component-reviewer",
+      "description": {
+        "zh": null,
+        "en": "Expert component reviewer for Claude Code Templates. Use PROACTIVELY when adding or modifying components in cli-tool/components/ directory (agents, commands, MCPs, hooks, settings, skills, loops). Validates format, required fields, naming conventions, and security.",
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding",
+        "security"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": ".claude/agents/component-reviewer.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/.claude/agents/component-reviewer.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 69,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "low",
+        "score": 4
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 29910,
+      "curatedMentions": 2
+    },
+    {
+      "id": "subagent:davila7/claude-code-templates:.claude/agents/build-checker.md#build-checker",
+      "type": "subagent",
+      "name": "build-checker",
+      "description": {
+        "zh": null,
+        "en": "Runs pre-deploy build checks on the dashboard. Validates Astro build, checks for common esbuild/JSX issues, verifies API endpoints compile, and reports errors with fixes. Use before merging PRs that touch dashboard/.",
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data",
+        "coding",
+        "devops"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": ".claude/agents/build-checker.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/.claude/agents/build-checker.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 67,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "low",
+        "score": 10
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 29910,
+      "curatedMentions": 2
+    },
+    {
+      "id": "subagent:davila7/claude-code-templates:.claude/agents/component-improver.md#component-improver",
+      "type": "subagent",
+      "name": "component-improver",
+      "description": {
+        "zh": null,
+        "en": "Applies researched improvements to Claude Code components, validates changes with the component-reviewer agent, and creates pull requests. The only agent that modifies files and creates PRs.",
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "meta"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": ".claude/agents/component-improver.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/.claude/agents/component-improver.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 67,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "low",
+        "score": 10
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 29910,
+      "curatedMentions": 2
+    },
+    {
+      "id": "subagent:davila7/claude-code-templates:.claude/agents/component-migrator.md#component-migrator",
+      "type": "subagent",
+      "name": "component-migrator",
+      "description": {
+        "zh": null,
+        "en": "Migrates components (agents, commands, skills, hooks, settings, MCPs) from external GitHub repositories to claude-code-templates, validates them with component-reviewer, and regenerates the catalog",
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "meta"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": ".claude/agents/component-migrator.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/.claude/agents/component-migrator.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 67,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "low",
+        "score": 10
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 29910,
+      "curatedMentions": 2
+    },
+    {
+      "id": "subagent:davila7/claude-code-templates:.claude/agents/docusaurus-expert.md#docusaurus-expert",
+      "type": "subagent",
+      "name": "docusaurus-expert",
+      "description": {
+        "zh": null,
+        "en": "Docusaurus documentation specialist. Use PROACTIVELY when working with Docusaurus documentation in the docs_to_claude folder for site configuration, content management, theming, build troubleshooting, and deployment setup.",
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": ".claude/agents/docusaurus-expert.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/.claude/agents/docusaurus-expert.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 67,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "low",
+        "score": 10
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 29910,
+      "curatedMentions": 2
+    },
+    {
+      "id": "subagent:davila7/claude-code-templates:.claude/agents/frontend-developer.md#frontend-developer",
+      "type": "subagent",
+      "name": "frontend-developer",
+      "description": {
+        "zh": null,
+        "en": "Frontend development specialist for React applications and responsive design. Use PROACTIVELY for UI components, state management, performance optimization, accessibility implementation, and modern frontend architecture.",
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": ".claude/agents/frontend-developer.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/.claude/agents/frontend-developer.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 67,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "low",
+        "score": 10
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 29910,
+      "curatedMentions": 2
+    },
+    {
+      "id": "subagent:xu-xiang/everything-claude-code-zh:agents/architect.md#architect",
+      "type": "subagent",
+      "name": "architect",
+      "description": {
+        "zh": "用于系统设计、可扩展性及技术决策的软件架构专家。在规划新功能、重构大型系统或做出架构决策时请主动（PROACTIVELY）使用。",
+        "en": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "zh",
+      "categories": [
+        "coding",
+        "design"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "xu-xiang/everything-claude-code-zh",
+        "path": "agents/architect.md",
+        "url": "https://github.com/xu-xiang/everything-claude-code-zh/blob/HEAD/agents/architect.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 42,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 1750,
+      "curatedMentions": 0
+    },
+    {
+      "id": "subagent:xu-xiang/everything-claude-code-zh:agents/planner.md#planner",
+      "type": "subagent",
+      "name": "planner",
+      "description": {
+        "zh": "复杂功能与重构的专家级规划专员。当用户请求功能实现、架构变更或复杂重构时，应主动（PROACTIVELY）使用。针对规划任务自动激活。",
+        "en": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "zh",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "xu-xiang/everything-claude-code-zh",
+        "path": "agents/planner.md",
+        "url": "https://github.com/xu-xiang/everything-claude-code-zh/blob/HEAD/agents/planner.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 42,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 1750,
+      "curatedMentions": 0
+    },
+    {
+      "id": "subagent:xu-xiang/everything-claude-code-zh:agents/code-reviewer.md#code-reviewer",
+      "type": "subagent",
+      "name": "code-reviewer",
+      "description": {
+        "zh": "资深代码审查（Code Review）专家。主动审查代码的质量、安全性与可维护性。在编写或修改代码后立即使用。所有代码变更**必须使用**此工具。",
+        "en": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "zh",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "xu-xiang/everything-claude-code-zh",
+        "path": "agents/code-reviewer.md",
+        "url": "https://github.com/xu-xiang/everything-claude-code-zh/blob/HEAD/agents/code-reviewer.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 41,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "low",
+        "score": 4
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 1750,
+      "curatedMentions": 0
+    },
+    {
+      "id": "subagent:xu-xiang/everything-claude-code-zh:agents/database-reviewer.md#database-reviewer",
+      "type": "subagent",
+      "name": "database-reviewer",
+      "description": {
+        "zh": "PostgreSQL 数据库专家，专注于查询优化、架构设计、安全性和性能。在编写 SQL、创建迁移、设计架构或排查数据库性能问题时主动（PROACTIVELY）使用。集成了 Supabase 最佳实践。",
+        "en": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "zh",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "xu-xiang/everything-claude-code-zh",
+        "path": "agents/database-reviewer.md",
+        "url": "https://github.com/xu-xiang/everything-claude-code-zh/blob/HEAD/agents/database-reviewer.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 41,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "low",
+        "score": 4
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 1750,
+      "curatedMentions": 0
+    },
+    {
+      "id": "subagent:xu-xiang/everything-claude-code-zh:agents/python-reviewer.md#python-reviewer",
+      "type": "subagent",
+      "name": "python-reviewer",
+      "description": {
+        "zh": "专业的 Python 代码审查员，擅长 PEP 8 规范、Pythonic 惯用法、类型提示（Type Hints）、安全性与性能。适用于所有 Python 代码变更。在 Python 项目中必须使用（MUST BE USED）。",
+        "en": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "mixed",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "xu-xiang/everything-claude-code-zh",
+        "path": "agents/python-reviewer.md",
+        "url": "https://github.com/xu-xiang/everything-claude-code-zh/blob/HEAD/agents/python-reviewer.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 41,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "low",
+        "score": 4
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 1750,
+      "curatedMentions": 0
+    },
+    {
+      "id": "subagent:xu-xiang/everything-claude-code-zh:agents/refactor-cleaner.md#refactor-cleaner",
+      "type": "subagent",
+      "name": "refactor-cleaner",
+      "description": {
+        "zh": "冗余代码清理与合并专家。主动用于移除未使用的代码、重复项并进行重构。运行分析工具（knip、depcheck、ts-prune）来识别冗余代码并安全地将其移除。",
+        "en": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "zh",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "xu-xiang/everything-claude-code-zh",
+        "path": "agents/refactor-cleaner.md",
+        "url": "https://github.com/xu-xiang/everything-claude-code-zh/blob/HEAD/agents/refactor-cleaner.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 41,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "low",
+        "score": 4
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 1750,
+      "curatedMentions": 0
+    },
+    {
+      "id": "subagent:xu-xiang/everything-claude-code-zh:agents/security-reviewer.md#security-reviewer",
+      "type": "subagent",
+      "name": "security-reviewer",
+      "description": {
+        "zh": "安全漏洞检测与修复专家。在编写处理用户输入、身份认证、API 端点或敏感数据的代码后，应主动（PROACTIVELY）使用此智能体。它可以标记敏感信息（Secrets）、SSRF、注入（Injection）、不安全的加密以及 OWASP Top 10 漏洞。",
+        "en": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "zh",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "xu-xiang/everything-claude-code-zh",
+        "path": "agents/security-reviewer.md",
+        "url": "https://github.com/xu-xiang/everything-claude-code-zh/blob/HEAD/agents/security-reviewer.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 41,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "low",
+        "score": 4
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 1750,
+      "curatedMentions": 0
+    },
+    {
+      "id": "subagent:xu-xiang/everything-claude-code-zh:agents/build-error-resolver.md#build-error-resolver",
+      "type": "subagent",
+      "name": "build-error-resolver",
+      "description": {
+        "zh": "构建与 TypeScript 错误修复专家。当构建失败或出现类型错误时，请主动（PROACTIVELY）使用。仅修复构建/类型错误，保持最小差异（diff），不进行架构性修改。重点是快速使构建通过（get the build green）。",
+        "en": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "zh",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "xu-xiang/everything-claude-code-zh",
+        "path": "agents/build-error-resolver.md",
+        "url": "https://github.com/xu-xiang/everything-claude-code-zh/blob/HEAD/agents/build-error-resolver.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 39,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "low",
+        "score": 10
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 1750,
+      "curatedMentions": 0
+    },
+    {
+      "id": "subagent:xu-xiang/everything-claude-code-zh:agents/chief-of-staff.md#chief-of-staff",
+      "type": "subagent",
+      "name": "chief-of-staff",
+      "description": {
+        "zh": "个人通讯幕僚 (Chief of Staff)，负责分拣电子邮件、Slack、LINE 和 Messenger。将消息分类为 4 个级别 (skip/info_only/meeting_info/action_required)，生成草稿回复，并通过钩子 (Hooks) 强制执行发送后的后续跟进。适用于管理多渠道通讯工作流。",
+        "en": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "mixed",
+      "categories": [
+        "meta",
+        "coding",
+        "integration"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "xu-xiang/everything-claude-code-zh",
+        "path": "agents/chief-of-staff.md",
+        "url": "https://github.com/xu-xiang/everything-claude-code-zh/blob/HEAD/agents/chief-of-staff.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 39,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "low",
+        "score": 10
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 1750,
+      "curatedMentions": 0
+    },
+    {
+      "id": "subagent:xu-xiang/everything-claude-code-zh:agents/doc-updater.md#doc-updater",
+      "type": "subagent",
+      "name": "doc-updater",
+      "description": {
+        "zh": "文档与代码映射图（Codemap）专家。主动用于更新代码映射图和文档。运行 /update-codemaps 和 /update-docs，生成 docs/CODEMAPS/*，更新 README 和指南（Guides）。",
+        "en": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "mixed",
+      "categories": [
+        "coding",
+        "document"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "xu-xiang/everything-claude-code-zh",
+        "path": "agents/doc-updater.md",
+        "url": "https://github.com/xu-xiang/everything-claude-code-zh/blob/HEAD/agents/doc-updater.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 39,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "low",
+        "score": 10
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 1750,
+      "curatedMentions": 0
+    },
+    {
+      "id": "subagent:xu-xiang/everything-claude-code-zh:agents/e2e-runner.md#e2e-runner",
+      "type": "subagent",
+      "name": "e2e-runner",
+      "description": {
+        "zh": "端到端（E2E）测试专家，优先使用 Vercel Agent Browser，并以 Playwright 作为兜底方案。主动执行 E2E 测试的生成、维护和运行。负责管理测试旅程、隔离不稳定测试、上传测试产物（截图、视频、追踪文件），并确保关键业务流程正常运行。",
+        "en": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "zh",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "xu-xiang/everything-claude-code-zh",
+        "path": "agents/e2e-runner.md",
+        "url": "https://github.com/xu-xiang/everything-claude-code-zh/blob/HEAD/agents/e2e-runner.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 39,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "low",
+        "score": 10
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 1750,
+      "curatedMentions": 0
+    },
+    {
+      "id": "subagent:xu-xiang/everything-claude-code-zh:agents/go-build-resolver.md#go-build-resolver",
+      "type": "subagent",
+      "name": "go-build-resolver",
+      "description": {
+        "zh": "Go 构建、vet 及编译错误修复专家。负责修复构建错误、go vet 问题和 Linter 警告，坚持以最小改动为原则。当 Go 构建失败时使用。",
+        "en": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "zh",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "xu-xiang/everything-claude-code-zh",
+        "path": "agents/go-build-resolver.md",
+        "url": "https://github.com/xu-xiang/everything-claude-code-zh/blob/HEAD/agents/go-build-resolver.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 39,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "low",
+        "score": 10
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 1750,
+      "curatedMentions": 0
+    },
+    {
+      "id": "subagent:xu-xiang/everything-claude-code-zh:agents/go-reviewer.md#go-reviewer",
+      "type": "subagent",
+      "name": "go-reviewer",
+      "description": {
+        "zh": "专家级 Go 代码审查员 (Expert Go code reviewer)，专注于地道的 Go 编写习惯、并发模式、错误处理和性能。适用于所有 Go 代码变更。Go 项目必须使用。",
+        "en": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "zh",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "xu-xiang/everything-claude-code-zh",
+        "path": "agents/go-reviewer.md",
+        "url": "https://github.com/xu-xiang/everything-claude-code-zh/blob/HEAD/agents/go-reviewer.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 39,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "low",
+        "score": 10
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 1750,
+      "curatedMentions": 0
+    },
+    {
+      "id": "subagent:xu-xiang/everything-claude-code-zh:agents/tdd-guide.md#tdd-guide",
+      "type": "subagent",
+      "name": "tdd-guide",
+      "description": {
+        "zh": "测试驱动开发（TDD）专家，强制执行“测试先行”方法论。在开发新功能、修复 Bug 或进行代码重构时请主动使用。确保 80% 以上的测试覆盖率。",
+        "en": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "zh",
+      "categories": [
+        "testing",
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "xu-xiang/everything-claude-code-zh",
+        "path": "agents/tdd-guide.md",
+        "url": "https://github.com/xu-xiang/everything-claude-code-zh/blob/HEAD/agents/tdd-guide.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 39,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "low",
+        "score": 10
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 1750,
+      "curatedMentions": 0
+    },
+    {
+      "id": "subagent:joneqian/claude-skills-suite:agents/architect.md#architect",
+      "type": "subagent",
+      "name": "architect",
+      "description": {
+        "zh": null,
+        "en": "Software architecture specialist for system design, scalability, and technical decision-making. Use PROACTIVELY when planning new features, refactoring large systems, or making architectural decisions.",
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "pm",
+        "design"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "joneqian/claude-skills-suite",
+        "path": "agents/architect.md",
+        "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/agents/architect.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 32,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 26,
+      "curatedMentions": 0
+    },
+    {
+      "id": "subagent:joneqian/claude-skills-suite:agents/planner.md#planner",
+      "type": "subagent",
+      "name": "planner",
+      "description": {
+        "zh": null,
+        "en": "Expert planning specialist for complex features and refactoring. Use PROACTIVELY when users request feature implementation, architectural changes, or complex refactoring. Automatically activated for planning tasks.",
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "pm"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "joneqian/claude-skills-suite",
+        "path": "agents/planner.md",
+        "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/agents/planner.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 32,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 26,
+      "curatedMentions": 0
+    },
+    {
+      "id": "subagent:joneqian/claude-skills-suite:agents/code-reviewer.md#code-reviewer",
+      "type": "subagent",
+      "name": "code-reviewer",
+      "description": {
+        "zh": null,
+        "en": "Expert code review specialist. Proactively reviews code for quality, security, and maintainability. Use immediately after writing or modifying code. MUST BE USED for all code changes.",
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "security",
+        "writing"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "joneqian/claude-skills-suite",
+        "path": "agents/code-reviewer.md",
+        "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/agents/code-reviewer.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 31,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "low",
+        "score": 4
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 26,
+      "curatedMentions": 0
+    },
+    {
+      "id": "subagent:joneqian/claude-skills-suite:agents/mysql-database-reviewer.md#mysql-database-reviewer",
+      "type": "subagent",
+      "name": "mysql-database-reviewer",
+      "description": {
+        "zh": null,
+        "en": "MySQL database specialist for query optimization, schema design, security, and performance. Use PROACTIVELY when writing SQL, creating migrations, designing schemas, or troubleshooting database performance.",
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database",
+        "security",
+        "writing"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "joneqian/claude-skills-suite",
+        "path": "agents/mysql-database-reviewer.md",
+        "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/agents/mysql-database-reviewer.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 31,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "low",
+        "score": 4
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 26,
+      "curatedMentions": 0
+    },
+    {
+      "id": "subagent:joneqian/claude-skills-suite:agents/security-reviewer.md#security-reviewer",
+      "type": "subagent",
+      "name": "security-reviewer",
+      "description": {
+        "zh": null,
+        "en": "Security vulnerability detection and remediation specialist. Use PROACTIVELY after writing code that handles user input, authentication, API endpoints, or sensitive data. Flags secrets, SSRF, injection, unsafe crypto, and OWASP Top 10 vulnerabilities.",
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "joneqian/claude-skills-suite",
+        "path": "agents/security-reviewer.md",
+        "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/agents/security-reviewer.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 31,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "low",
+        "score": 4
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 26,
+      "curatedMentions": 0
+    },
+    {
+      "id": "subagent:joneqian/claude-skills-suite:agents/postgre-database-reviewer.md#database-reviewer",
+      "type": "subagent",
+      "name": "database-reviewer",
+      "description": {
+        "zh": null,
+        "en": "PostgreSQL database specialist for query optimization, schema design, security, and performance. Use PROACTIVELY when writing SQL, creating migrations, designing schemas, or troubleshooting database performance. Incorporates Supabase best practices.",
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "database",
+        "writing"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "joneqian/claude-skills-suite",
+        "path": "agents/postgre-database-reviewer.md",
+        "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/agents/postgre-database-reviewer.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 30,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "low",
+        "score": 6
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 26,
+      "curatedMentions": 0
+    },
+    {
+      "id": "subagent:joneqian/claude-skills-suite:agents/build-error-resolver.md#build-error-resolver",
+      "type": "subagent",
+      "name": "build-error-resolver",
+      "description": {
+        "zh": null,
+        "en": "Build and TypeScript error resolution specialist. Use PROACTIVELY when build fails or type errors occur. Fixes build/type errors only with minimal diffs, no architectural edits. Focuses on getting the build green quickly.",
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "joneqian/claude-skills-suite",
+        "path": "agents/build-error-resolver.md",
+        "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/agents/build-error-resolver.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 29,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "low",
+        "score": 10
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 26,
+      "curatedMentions": 0
+    },
+    {
+      "id": "subagent:joneqian/claude-skills-suite:agents/doc-updater.md#doc-updater",
+      "type": "subagent",
+      "name": "doc-updater",
+      "description": {
+        "zh": null,
+        "en": "Documentation and codemap specialist. Use PROACTIVELY for updating codemaps and documentation. Runs /update-codemaps and /update-docs, generates docs/CODEMAPS/*, updates READMEs and guides.",
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "joneqian/claude-skills-suite",
+        "path": "agents/doc-updater.md",
+        "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/agents/doc-updater.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 29,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "low",
+        "score": 10
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 26,
+      "curatedMentions": 0
+    },
+    {
+      "id": "subagent:joneqian/claude-skills-suite:agents/e2e-runner.md#e2e-runner",
+      "type": "subagent",
+      "name": "e2e-runner",
+      "description": {
+        "zh": null,
+        "en": "End-to-end testing specialist using Vercel Agent Browser (preferred) with Playwright fallback. Use PROACTIVELY for generating, maintaining, and running E2E tests. Manages test journeys, quarantines flaky tests, uploads artifacts (screenshots, videos, traces), and ensures critical user flows work.",
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "joneqian/claude-skills-suite",
+        "path": "agents/e2e-runner.md",
+        "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/agents/e2e-runner.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 29,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "low",
+        "score": 10
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 26,
+      "curatedMentions": 0
+    },
+    {
+      "id": "subagent:joneqian/claude-skills-suite:agents/product-manager.md#product-manager",
+      "type": "subagent",
+      "name": "product-manager",
+      "description": {
+        "zh": null,
+        "en": "Use this agent when you need to transform vague product ideas into comprehensive Product Requirements Documents (PRDs). This agent excels at requirement gathering, analysis, and documentation for UI/UX designers and development teams.",
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "joneqian/claude-skills-suite",
+        "path": "agents/product-manager.md",
+        "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/agents/product-manager.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 29,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "low",
+        "score": 10
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 26,
+      "curatedMentions": 0
+    },
+    {
+      "id": "subagent:joneqian/claude-skills-suite:agents/refactor-cleaner.md#refactor-cleaner",
+      "type": "subagent",
+      "name": "refactor-cleaner",
+      "description": {
+        "zh": null,
+        "en": "Dead code cleanup and consolidation specialist. Use PROACTIVELY for removing unused code, duplicates, and refactoring. Runs analysis tools (knip, depcheck, ts-prune) to identify dead code and safely removes it.",
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "joneqian/claude-skills-suite",
+        "path": "agents/refactor-cleaner.md",
+        "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/agents/refactor-cleaner.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 29,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "low",
+        "score": 10
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 26,
+      "curatedMentions": 0
+    },
+    {
+      "id": "subagent:joneqian/claude-skills-suite:agents/tdd-guide.md#tdd-guide",
+      "type": "subagent",
+      "name": "tdd-guide",
+      "description": {
+        "zh": null,
+        "en": "Test-Driven Development specialist enforcing write-tests-first methodology. Use PROACTIVELY when writing new features, fixing bugs, or refactoring code. Ensures 80%+ test coverage.",
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "joneqian/claude-skills-suite",
+        "path": "agents/tdd-guide.md",
+        "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/agents/tdd-guide.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 29,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "low",
+        "score": 10
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 26,
+      "curatedMentions": 0
+    },
+    {
+      "id": "subagent:joneqian/claude-skills-suite:agents/ui-ux-designer.md#ui-ux-designer",
+      "type": "subagent",
+      "name": "ui-ux-designer",
+      "description": {
+        "zh": null,
+        "en": "Use this agent when you need to create design specifications, visual guidelines, or user experience documentation based on product requirements.",
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "joneqian/claude-skills-suite",
+        "path": "agents/ui-ux-designer.md",
+        "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/agents/ui-ux-designer.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 29,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "low",
+        "score": 10
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 26,
+      "curatedMentions": 0
+    },
+    {
+      "id": "subagent:joneqian/claude-skills-suite:agents/vue3-frontend-developer.md#vue3-frontend-developer",
+      "type": "subagent",
+      "name": "vue3-frontend-developer",
+      "description": {
+        "zh": null,
+        "en": "Use this agent when you need to implement modern frontend applications using Vue3, TypeScript, and Tailwind CSS. Triggers include developing Vue PC pages, creating Vue web applications, building Vue3 projects, implementing Vue components, converting designs to Vue code, building dashboards, creating admin panels, developing e-commerce frontends, or any Vue3 frontend development task.",
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "joneqian/claude-skills-suite",
+        "path": "agents/vue3-frontend-developer.md",
+        "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/agents/vue3-frontend-developer.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 29,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "low",
+        "score": 10
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 26,
+      "curatedMentions": 0
+    }
+  ]
+}

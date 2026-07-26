@@ -1,0 +1,12 @@
+node_modules/
+
+# 抓取中间产物:上游浅克隆副本、逐仓原始解析结果、运行日志、翻译分片队列
+# registry/ 与 data/translations.json 是要提交的产物
+data/cache/
+data/raw/
+data/logs/
+data/snapshots/
+data/translate-queue/
+*.log
+.DS_Store
+Thumbs.db

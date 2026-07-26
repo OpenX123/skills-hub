@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-26",
+  "_note": "分层种子源。tier 0=官方规范基准 / 1=元索引(可展开长尾) / 2=人工精选内容源 / 3=长尾。role: content=仓库内含真实资源文件; curated-index=README 榜单,只采集链接作为交叉命中投票信号; both=两者皆有; tool=生态工具仓库。所有 repo 已于 2026-07-26 验证可访问。",
+
+  "registries": [
+    {
+      "id": "mcp-official",
+      "kind": "mcp-registry",
+      "tier": 0,
+      "enabled": true,
+      "url": "https://registry.modelcontextprotocol.io/v0/servers",
+      "incremental": "updated_since",
+      "note": "官方 MCP Registry,免鉴权,支持 updated_since 增量"
+    },
+    {
+      "id": "skills-sh",
+      "kind": "http-api",
+      "tier": 0,
+      "enabled": false,
+      "url": "https://www.skills.sh/api/v1",
+      "auth": "vercel-oidc",
+      "envVar": "VERCEL_OIDC_TOKEN",
+      "note": "2026-07-26 实测全部端点返回 401,需 Vercel OIDC token。拿到 token 后置 enabled=true,即可接管全量榜单 / 安装量 / hot 时间序列 / 官方审计结论"
+    }
+  ],
+
+  "repos": [
+    { "repo": "anthropics/skills",                        "tier": 0, "role": "content",        "lang": "en", "note": "官方 skill,解析器规范基准" },
+    { "repo": "vercel-labs/skills",                       "tier": 0, "role": "tool",           "lang": "en", "note": "skills.sh CLI 源码,MIT" },
+    { "repo": "openclaw/clawhub",                         "tier": 0, "role": "tool",           "lang": "en", "note": "OpenClaw skill registry" },
+
+    { "repo": "Chat2AnyLLM/awesome-claude-skills",        "tier": 1, "role": "curated-index",  "lang": "en", "note": "追踪 2200+ 源仓库,长尾展开的主种子表" },
+    { "repo": "Chat2AnyLLM/awesome-repo-configs",         "tier": 1, "role": "curated-index",  "lang": "en", "note": "上游仓库配置(branch/path)" },
+    { "repo": "punkpeye/awesome-mcp-servers",             "tier": 1, "role": "curated-index",  "lang": "en", "note": "MCP 长列表" },
+
+    { "repo": "obra/superpowers",                         "tier": 2, "role": "content",        "lang": "en", "note": "实战验证的核心 skill 库" },
+    { "repo": "davila7/claude-code-templates",            "tier": 2, "role": "content",        "lang": "en", "note": "aitmpl.com,五类资源齐全" },
+    { "repo": "beshkenadze/claude-skills-marketplace",    "tier": 2, "role": "content",        "lang": "en" },
+    { "repo": "obviousworks/Claude-AI-skills-collection-2026", "tier": 2, "role": "curated-index", "lang": "en", "note": "名字叫 collection,实际只有 3 个说明文档,无资源文件" },
+    { "repo": "GetBindu/awesome-claude-code-and-skills",  "tier": 2, "role": "curated-index",  "lang": "en", "note": "纯 README 榜单" },
+    { "repo": "ComposioHQ/awesome-claude-skills",         "tier": 2, "role": "both",           "lang": "en", "note": "1000+ production-ready" },
+    { "repo": "travisvn/awesome-claude-skills",           "tier": 2, "role": "curated-index",  "lang": "en" },
+    { "repo": "BehiSecc/awesome-claude-skills",           "tier": 2, "role": "curated-index",  "lang": "en" },
+    { "repo": "GiladShoham/awesome-claude-plugins",       "tier": 2, "role": "curated-index",  "lang": "en" },
+    { "repo": "spencerpauly/awesome-cursor-skills",       "tier": 2, "role": "curated-index",  "lang": "en" },
+
+    { "repo": "laolaoshiren/claude-code-skills-zh",       "tier": 2, "role": "both",           "lang": "zh", "note": "406+ 中文精选" },
+    { "repo": "helloianneo/awesome-claude-code-skills",   "tier": 2, "role": "curated-index",  "lang": "zh", "note": "纯 README 榜单,带推荐等级,可直接作质量信号" },
+    { "repo": "xu-xiang/everything-claude-code-zh",       "tier": 2, "role": "content",        "lang": "zh", "note": "agents/skills/hooks/commands/rules/MCP 五类齐全" },
+    { "repo": "joneqian/claude-skills-suite",             "tier": 2, "role": "content",        "lang": "zh" },
+    { "repo": "huangwb8/skills",                          "tier": 2, "role": "content",        "lang": "zh", "note": "Agent Skills 开放标准 pipeline" },
+    { "repo": "dontbesilent2025/dbskill",                 "tier": 2, "role": "content",        "lang": "zh", "note": "自有 skill 源,canonical 优先" },
+
+    { "repo": "PatrickJS/awesome-cursorrules",            "tier": 2, "role": "content",        "lang": "en", "note": "rules 主源" },
+    { "repo": "sanjeed5/awesome-cursor-rules-mdc",        "tier": 2, "role": "content",        "lang": "en", "note": ".mdc rules" },
+    { "repo": "nedcodes-ok/cursorrules-collection",       "tier": 2, "role": "content",        "lang": "en", "note": "110+ tested rules" }
+  ],
+
+  "excluded": [
+    { "source": "skillsmp.com",         "reason": "声称 2,330,640 条,数量级不可信,抓取会污染索引" },
+    { "source": "claudemarketplaces.com", "reason": "无公开 API,仅页面抓取,二手数据且有 ToS 风险。仅作排序交叉验证" },
+    { "source": "agent-skills.cc",      "reason": "同上" },
+    { "source": "lobehub.com/skills",   "reason": "同上" }
+  ]
+}
