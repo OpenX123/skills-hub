@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T20:20:00.501Z",
+  "generatedAt": "2026-07-28T20:14:54.683Z",
   "category": {
     "key": "meta",
     "zh": "Agent 基建",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 410,
+  "total": 418,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/skill-creator/skill.md#skill-creator",
@@ -241,7 +241,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 261531,
+      "stars": 262639,
       "curatedMentions": 8
     },
     {
@@ -295,7 +295,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 261531,
+      "stars": 262639,
       "curatedMentions": 8
     },
     {
@@ -348,7 +348,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 261531,
+      "stars": 262639,
       "curatedMentions": 8
     },
     {
@@ -403,7 +403,7 @@
       "variantCount": 1,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 261531,
+      "stars": 262639,
       "curatedMentions": 8
     },
     {
@@ -457,7 +457,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 261531,
+      "stars": 262639,
       "curatedMentions": 8
     },
     {
@@ -512,7 +512,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 261531,
+      "stars": 262639,
       "curatedMentions": 8
     },
     {
@@ -566,7 +566,277 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 261531,
+      "stars": 262639,
+      "curatedMentions": 8
+    },
+    {
+      "id": "skill:obra/superpowers:skills/dispatching-parallel-agents/skill.md#dispatching-parallel-agents",
+      "type": "skill",
+      "name": "dispatching-parallel-agents",
+      "description": {
+        "zh": null,
+        "en": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "obra/superpowers",
+        "path": "skills/dispatching-parallel-agents/SKILL.md",
+        "url": "https://github.com/obra/superpowers/blob/HEAD/skills/dispatching-parallel-agents/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 96,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 1,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 262639,
+      "curatedMentions": 8
+    },
+    {
+      "id": "skill:obra/superpowers:skills/executing-plans/skill.md#executing-plans",
+      "type": "skill",
+      "name": "executing-plans",
+      "description": {
+        "zh": null,
+        "en": "Use when you have a written implementation plan to execute in a separate session with review checkpoints",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "obra/superpowers",
+        "path": "skills/executing-plans/SKILL.md",
+        "url": "https://github.com/obra/superpowers/blob/HEAD/skills/executing-plans/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 96,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 262639,
+      "curatedMentions": 8
+    },
+    {
+      "id": "skill:obra/superpowers:skills/finishing-a-development-branch/skill.md#finishing-a-development-branch",
+      "type": "skill",
+      "name": "finishing-a-development-branch",
+      "description": {
+        "zh": null,
+        "en": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "obra/superpowers",
+        "path": "skills/finishing-a-development-branch/SKILL.md",
+        "url": "https://github.com/obra/superpowers/blob/HEAD/skills/finishing-a-development-branch/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 96,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 262639,
+      "curatedMentions": 8
+    },
+    {
+      "id": "skill:obra/superpowers:skills/using-git-worktrees/skill.md#using-git-worktrees",
+      "type": "skill",
+      "name": "using-git-worktrees",
+      "description": {
+        "zh": null,
+        "en": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "obra/superpowers",
+        "path": "skills/using-git-worktrees/SKILL.md",
+        "url": "https://github.com/obra/superpowers/blob/HEAD/skills/using-git-worktrees/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 96,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 262639,
+      "curatedMentions": 8
+    },
+    {
+      "id": "skill:obra/superpowers:skills/verification-before-completion/skill.md#verification-before-completion",
+      "type": "skill",
+      "name": "verification-before-completion",
+      "description": {
+        "zh": null,
+        "en": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "obra/superpowers",
+        "path": "skills/verification-before-completion/SKILL.md",
+        "url": "https://github.com/obra/superpowers/blob/HEAD/skills/verification-before-completion/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 96,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 1,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 262639,
       "curatedMentions": 8
     },
     {
@@ -623,276 +893,6 @@
       "familySize": 0,
       "stars": 70870,
       "curatedMentions": 5
-    },
-    {
-      "id": "skill:obra/superpowers:skills/dispatching-parallel-agents/skill.md#dispatching-parallel-agents",
-      "type": "skill",
-      "name": "dispatching-parallel-agents",
-      "description": {
-        "zh": null,
-        "en": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "meta",
-        "coding"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "obra/superpowers",
-        "path": "skills/dispatching-parallel-agents/SKILL.md",
-        "url": "https://github.com/obra/superpowers/blob/HEAD/skills/dispatching-parallel-agents/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 95,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 1,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 261531,
-      "curatedMentions": 8
-    },
-    {
-      "id": "skill:obra/superpowers:skills/executing-plans/skill.md#executing-plans",
-      "type": "skill",
-      "name": "executing-plans",
-      "description": {
-        "zh": null,
-        "en": "Use when you have a written implementation plan to execute in a separate session with review checkpoints",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "meta",
-        "coding"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "obra/superpowers",
-        "path": "skills/executing-plans/SKILL.md",
-        "url": "https://github.com/obra/superpowers/blob/HEAD/skills/executing-plans/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 95,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 261531,
-      "curatedMentions": 8
-    },
-    {
-      "id": "skill:obra/superpowers:skills/finishing-a-development-branch/skill.md#finishing-a-development-branch",
-      "type": "skill",
-      "name": "finishing-a-development-branch",
-      "description": {
-        "zh": null,
-        "en": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "meta",
-        "coding"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "obra/superpowers",
-        "path": "skills/finishing-a-development-branch/SKILL.md",
-        "url": "https://github.com/obra/superpowers/blob/HEAD/skills/finishing-a-development-branch/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 95,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 261531,
-      "curatedMentions": 8
-    },
-    {
-      "id": "skill:obra/superpowers:skills/using-git-worktrees/skill.md#using-git-worktrees",
-      "type": "skill",
-      "name": "using-git-worktrees",
-      "description": {
-        "zh": null,
-        "en": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "meta",
-        "coding"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "obra/superpowers",
-        "path": "skills/using-git-worktrees/SKILL.md",
-        "url": "https://github.com/obra/superpowers/blob/HEAD/skills/using-git-worktrees/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 95,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 261531,
-      "curatedMentions": 8
-    },
-    {
-      "id": "skill:obra/superpowers:skills/verification-before-completion/skill.md#verification-before-completion",
-      "type": "skill",
-      "name": "verification-before-completion",
-      "description": {
-        "zh": null,
-        "en": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "meta",
-        "coding"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "obra/superpowers",
-        "path": "skills/verification-before-completion/SKILL.md",
-        "url": "https://github.com/obra/superpowers/blob/HEAD/skills/verification-before-completion/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 95,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 1,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 261531,
-      "curatedMentions": 8
     },
     {
       "id": "plugin:composiohq/awesome-claude-skills:composio-skills/.claude-plugin/marketplace.json#developer-growth-analysis",
@@ -1091,7 +1091,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 261531,
+      "stars": 262639,
       "curatedMentions": 8
     },
     {
@@ -1141,7 +1141,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 261531,
+      "stars": 262639,
       "curatedMentions": 8
     },
     {
@@ -1191,7 +1191,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 261531,
+      "stars": 262639,
       "curatedMentions": 8
     },
     {
@@ -11380,6 +11380,60 @@
       "curatedMentions": 1
     },
     {
+      "id": "skill:laolaoshiren/claude-code-skills-zh:skills/skill-curator/skill.md#skill-curator",
+      "type": "skill",
+      "name": "skill-curator",
+      "description": {
+        "zh": "中文 Skill 收录评估器。用于核验 GitHub 上的 Claude Code、Codex、Agent Skills、Plugin、MCP、CLI 或 Agent 工作流是否值得加入精选列表；检查真实资产、安装方式、活跃度、重复项和安全边界，并生成分类、中文描述与可追溯证据。",
+        "en": null,
+        "zhEngine": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "zh",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "laolaoshiren/claude-code-skills-zh",
+        "path": "skills/skill-curator/SKILL.md",
+        "url": "https://github.com/laolaoshiren/claude-code-skills-zh/blob/HEAD/skills/skill-curator/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 54,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 693,
+      "curatedMentions": 1
+    },
+    {
       "id": "rules:patrickjs/awesome-cursorrules:rules/semiotic-react-dataviz-cursorrules-prompt-file.mdc#semiotic-react-dataviz-cursorrules-prompt-file",
       "type": "rules",
       "name": "semiotic-react-dataviz-cursorrules-prompt-file",
@@ -11428,60 +11482,6 @@
       "templateFamily": null,
       "familySize": 0,
       "stars": 40434,
-      "curatedMentions": 1
-    },
-    {
-      "id": "skill:laolaoshiren/claude-code-skills-zh:skills/skill-curator/skill.md#skill-curator",
-      "type": "skill",
-      "name": "skill-curator",
-      "description": {
-        "zh": "中文 Skill 收录评估器。用于核验 GitHub 上的 Claude Code、Codex、Agent Skills、Plugin、MCP、CLI 或 Agent 工作流是否值得加入精选列表；检查真实资产、安装方式、活跃度、重复项和安全边界，并生成分类、中文描述与可追溯证据。",
-        "en": null,
-        "zhEngine": null,
-        "needsTranslation": [
-          "en"
-        ]
-      },
-      "lang": "zh",
-      "categories": [
-        "meta",
-        "coding"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "laolaoshiren/claude-code-skills-zh",
-        "path": "skills/skill-curator/SKILL.md",
-        "url": "https://github.com/laolaoshiren/claude-code-skills-zh/blob/HEAD/skills/skill-curator/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 53,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 685,
       "curatedMentions": 1
     },
     {
@@ -15770,6 +15770,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:altmetric/altmetric-mcp:com.altmetric.mcp/altmetric-mcp#com.altmetric.mcp-altmetric-mcp",
+      "type": "mcp",
+      "name": "com.altmetric.mcp/altmetric-mcp",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Altmetric APIs - track research attention across news, policy, social media, and more",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "research",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "altmetric/altmetric-mcp",
+        "path": "com.altmetric.mcp/altmetric-mcp",
+        "url": "https://github.com/altmetric/altmetric-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:alyiox/mcp-samsclub-ads:io.github.alyiox/mcp-samsclub-ads#sam's-club-sponsored-ads-apis",
       "type": "mcp",
       "name": "Sam's Club Sponsored Ads APIs",
@@ -16287,6 +16337,55 @@
         "repo": "blackaxgit/agent-mcp-hub",
         "path": "io.github.blackaxgit/agent-mcp-hub",
         "url": "https://github.com/blackaxgit/agent-mcp-hub",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:blockscout/mcp-server:com.blockscout/mcp-server#com.blockscout-mcp-server",
+      "type": "mcp",
+      "name": "com.blockscout/mcp-server",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Blockscout",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "blockscout/mcp-server",
+        "path": "com.blockscout/mcp-server",
+        "url": "https://github.com/blockscout/mcp-server",
         "tier": 0
       },
       "quality": {
@@ -17451,6 +17550,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:davidcrowe/acp-mcp-server:com.agenticcontrolplane/acp-mcp-server#com.agenticcontrolplane-acp-mcp-server",
+      "type": "mcp",
+      "name": "com.agenticcontrolplane/acp-mcp-server",
+      "description": {
+        "zh": null,
+        "en": "See, price, and control every tool call your AI agents make: policy checks, cost, and audit tools.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "davidcrowe/acp-mcp-server",
+        "path": "com.agenticcontrolplane/acp-mcp-server",
+        "url": "https://github.com/davidcrowe/acp-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:einvoice-dev1/invoicehub-mcp:io.github.einvoice-dev1/invoicehub-mcp#io.github.einvoice-dev1-invoicehub-mcp",
       "type": "mcp",
       "name": "io.github.einvoice-dev1/invoicehub-mcp",
@@ -17522,6 +17670,55 @@
         "repo": "evanfollis/skillfoundry-products",
         "path": "io.github.evanfollis/preflight",
         "url": "https://github.com/evanfollis/skillfoundry-products",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:extentos/mcp-server:com.extentos/mcp-server#com.extentos-mcp-server",
+      "type": "mcp",
+      "name": "com.extentos/mcp-server",
+      "description": {
+        "zh": null,
+        "en": "Build smart-glasses apps with AI agents: scaffold, validate, and simulate before real hardware.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "extentos/mcp-server",
+        "path": "com.extentos/mcp-server",
+        "url": "https://github.com/extentos/mcp-server",
         "tier": 0
       },
       "quality": {
@@ -17869,6 +18066,55 @@
         "repo": "Grinv/anilist-mcp-server",
         "path": "io.github.Grinv/anilist-mcp-server",
         "url": "https://github.com/Grinv/anilist-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:gtm-api/linkedin-mcp:com.gtm-api/linkedin-mcp#gtm-api-linkedin-mcp-server",
+      "type": "mcp",
+      "name": "GTM API: LinkedIn MCP Server",
+      "description": {
+        "zh": null,
+        "en": "Managed LinkedIn MCP server for AI agents: search, connect, message and enrich on accounts you own.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "gtm-api/linkedin-mcp",
+        "path": "com.gtm-api/linkedin-mcp",
+        "url": "https://github.com/gtm-api/linkedin-mcp",
         "tier": 0
       },
       "quality": {
@@ -18488,6 +18734,106 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:ai.writingmate/writingmate-mcp#writingmate-mcp",
+      "type": "mcp",
+      "name": "Writingmate MCP",
+      "description": {
+        "zh": null,
+        "en": "Use AI models for chat, image, and video generation from Claude Code and other MCP hosts.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media",
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.writingmate/writingmate-mcp",
+        "url": "https://registry.modelcontextprotocol.io/?q=ai.writingmate%2Fwritingmate-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:app.locize.mcp/server#locize",
+      "type": "mcp",
+      "name": "Locize",
+      "description": {
+        "zh": null,
+        "en": "Locize TMS: 26 tools for translations, TM/glossary/styleguide/screenshot context, versions. OAuth.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "app.locize.mcp/server",
+        "url": "https://www.locize.com/docs/integration/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:app.netlify.agent-rescue-desk/production-triage#agent-rescue-desk-production-triage",
       "type": "mcp",
       "name": "Agent Rescue Desk Production Triage",
@@ -19054,6 +19400,55 @@
         "repo": "MuhDur/oraclemcp",
         "path": "io.github.MuhDur/oraclemcp",
         "url": "https://github.com/MuhDur/oraclemcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:nanocorp-hq/agentarena:app.nanocorp.agentarena/agent-coliseum-mcp#agent-coliseum-mcp",
+      "type": "mcp",
+      "name": "Agent Coliseum MCP",
+      "description": {
+        "zh": null,
+        "en": "Free Streamable HTTP MCP arena for 1v1 AI agent skill battles and Gladiator Badges.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "nanocorp-hq/agentarena",
+        "path": "app.nanocorp.agentarena/agent-coliseum-mcp",
+        "url": "https://github.com/nanocorp-hq/agentarena",
         "tier": 0
       },
       "quality": {

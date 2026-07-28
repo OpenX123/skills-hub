@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T20:20:00.501Z",
+  "generatedAt": "2026-07-28T20:14:54.683Z",
   "category": {
     "key": "design",
     "zh": "设计创意",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 386,
+  "total": 388,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/brand-guidelines/skill.md#brand-guidelines",
@@ -669,7 +669,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 261531,
+      "stars": 262639,
       "curatedMentions": 8
     },
     {
@@ -6169,7 +6169,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 69,
+        "score": 68,
         "gates": {
           "security": true,
           "schema": true,
@@ -6184,61 +6184,6 @@
         "score": 21
       },
       "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 29943,
-      "curatedMentions": 2
-    },
-    {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/scientific/latex-posters/skill.md#latex-posters",
-      "type": "skill",
-      "name": "latex-posters",
-      "description": {
-        "zh": null,
-        "en": "Create professional research posters in LaTeX using beamerposter, tikzposter, or baposter. Support for conference presentations, academic posters, and scientific communication. Includes layout design, color schemes, multi-column formats, figure integration, and poster-specific best practices for visual communication.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "document",
-        "design",
-        "research"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "davila7/claude-code-templates",
-        "path": "cli-tool/components/skills/scientific/latex-posters/SKILL.md",
-        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/scientific/latex-posters/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 69,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": false,
-          "alive": true
-        },
-        "passed": false,
-        "recommended": false
-      },
-      "risk": {
-        "level": "medium",
-        "score": 21
-      },
-      "duplicateOf": "skill:davila7/claude-code-templates:cli-tool/components/skills/scientific/pptx-posters/skill.md#latex-posters",
       "nearDuplicateOf": null,
       "dupCount": 0,
       "variantCount": 0,
@@ -6299,6 +6244,61 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:senior-prompt-engineer",
       "familySize": 5,
+      "stars": 29943,
+      "curatedMentions": 2
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/scientific/latex-posters/skill.md#latex-posters",
+      "type": "skill",
+      "name": "latex-posters",
+      "description": {
+        "zh": null,
+        "en": "Create professional research posters in LaTeX using beamerposter, tikzposter, or baposter. Support for conference presentations, academic posters, and scientific communication. Includes layout design, color schemes, multi-column formats, figure integration, and poster-specific best practices for visual communication.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "design",
+        "research"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/scientific/latex-posters/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/scientific/latex-posters/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 68,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": false,
+          "alive": true
+        },
+        "passed": false,
+        "recommended": false
+      },
+      "risk": {
+        "level": "medium",
+        "score": 21
+      },
+      "duplicateOf": "skill:davila7/claude-code-templates:cli-tool/components/skills/scientific/pptx-posters/skill.md#latex-posters",
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
       "stars": 29943,
       "curatedMentions": 2
     },
@@ -19126,6 +19126,55 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:3doptix/skills:com.3doptix/optical-design#3doptix",
+      "type": "mcp",
+      "name": "3DOptix",
+      "description": {
+        "zh": null,
+        "en": "Optical design, simulation and analysis with GPU-powered ray tracing. Import from Zemax and CAD.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "3doptix/skills",
+        "path": "com.3doptix/optical-design",
+        "url": "https://github.com/3doptix/skills",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:aa-on-ai/agentic-design-system:io.github.aa-on-ai/agentic-design-system#agentic-design-system",
       "type": "mcp",
       "name": "Agentic Design System",
@@ -19197,6 +19246,57 @@
         "repo": "AKzar1el/mcp-geo",
         "path": "io.github.AKzar1el/digestseo-mcp",
         "url": "https://github.com/AKzar1el/mcp-geo",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:bloopodotai/bloopo-marketplace:ai.bloopo/bloopo#bloopo-—-ai-ad-&-creative-studio",
+      "type": "mcp",
+      "name": "Bloopo — AI Ad & Creative Studio",
+      "description": {
+        "zh": null,
+        "en": "Turn one sentence into finished ads: video ads, UGC, product photos, voiceover, brand kits, A/B.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design",
+        "business",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "BloopodotAI/bloopo-marketplace",
+        "path": "ai.bloopo/bloopo",
+        "url": "https://github.com/BloopodotAI/bloopo-marketplace",
         "tier": 0
       },
       "quality": {

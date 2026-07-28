@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T20:20:00.501Z",
+  "generatedAt": "2026-07-28T20:14:54.683Z",
   "category": {
     "key": "security",
     "zh": "安全审计",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 205,
+  "total": 206,
   "entries": [
     {
       "id": "skill:composiohq/awesome-claude-skills:composio-skills/ahrefs-automation/skill.md#ahrefs-automation",
@@ -4556,7 +4556,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 60,
+        "score": 59,
         "gates": {
           "security": true,
           "schema": true,
@@ -4609,7 +4609,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 60,
+        "score": 59,
         "gates": {
           "security": true,
           "schema": true,
@@ -4664,7 +4664,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 60,
+        "score": 59,
         "gates": {
           "security": true,
           "schema": true,
@@ -6683,6 +6683,274 @@
       "curatedMentions": 1
     },
     {
+      "id": "skill:laolaoshiren/claude-code-skills-zh:skills/dep-auditor/skill.md#dep-auditor",
+      "type": "skill",
+      "name": "dep-auditor",
+      "description": {
+        "zh": "审计 Node.js、Python、Go、Rust、JVM、Ruby 项目的依赖漏洞、版本健康度与许可证事实；当用户要求检查 package.json、lockfile、requirements、go.mod、Cargo.toml、pom.xml、Gemfile.lock，或生成不改依赖的中文审计报告时使用",
+        "en": null,
+        "zhEngine": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "mixed",
+      "categories": [
+        "coding",
+        "security"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "laolaoshiren/claude-code-skills-zh",
+        "path": "skills/dep-auditor/SKILL.md",
+        "url": "https://github.com/laolaoshiren/claude-code-skills-zh/blob/HEAD/skills/dep-auditor/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 54,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 693,
+      "curatedMentions": 1
+    },
+    {
+      "id": "skill:laolaoshiren/claude-code-skills-zh:skills/env-manager/skill.md#env-manager",
+      "type": "skill",
+      "name": "env-manager",
+      "description": {
+        "zh": "环境变量管理器：扫描、校验、同步 .env 文件，生成安全配置模板",
+        "en": null,
+        "zhEngine": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "zh",
+      "categories": [
+        "coding",
+        "security"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "laolaoshiren/claude-code-skills-zh",
+        "path": "skills/env-manager/SKILL.md",
+        "url": "https://github.com/laolaoshiren/claude-code-skills-zh/blob/HEAD/skills/env-manager/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 54,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 693,
+      "curatedMentions": 1
+    },
+    {
+      "id": "skill:laolaoshiren/claude-code-skills-zh:skills/eslint-fix/skill.md#eslint-fix",
+      "type": "skill",
+      "name": "eslint-fix",
+      "description": {
+        "zh": "安全诊断并修复 ESLint error、warning 和配置兼容问题。用于用户要求运行 lint、解释 ESLint 报错、限定范围自动修复或迁移 ESLint 配置时；优先使用项目锁定的包管理器与版本，先预检再修改，不自动下载最新版或批量改写无关源码。",
+        "en": null,
+        "zhEngine": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "zh",
+      "categories": [
+        "coding",
+        "security"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "laolaoshiren/claude-code-skills-zh",
+        "path": "skills/eslint-fix/SKILL.md",
+        "url": "https://github.com/laolaoshiren/claude-code-skills-zh/blob/HEAD/skills/eslint-fix/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 54,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 693,
+      "curatedMentions": 1
+    },
+    {
+      "id": "skill:laolaoshiren/claude-code-skills-zh:skills/github-actions-gen/skill.md#github-actions-gen",
+      "type": "skill",
+      "name": "github-actions-gen",
+      "description": {
+        "zh": "分析真实项目并生成或修订安全、可验证的 GitHub Actions workflow；当用户要求创建 CI、测试矩阵、构建、Release、部署、缓存、Secrets、OIDC、PR 自动化或排查 workflow 配置时使用",
+        "en": null,
+        "zhEngine": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "mixed",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "laolaoshiren/claude-code-skills-zh",
+        "path": "skills/github-actions-gen/SKILL.md",
+        "url": "https://github.com/laolaoshiren/claude-code-skills-zh/blob/HEAD/skills/github-actions-gen/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 54,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 693,
+      "curatedMentions": 1
+    },
+    {
+      "id": "skill:laolaoshiren/claude-code-skills-zh:skills/security-audit/skill.md#security-audit",
+      "type": "skill",
+      "name": "security-audit",
+      "description": {
+        "zh": "代码安全审计 - 漏洞扫描、依赖检查、安全最佳实践",
+        "en": null,
+        "zhEngine": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "zh",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "laolaoshiren/claude-code-skills-zh",
+        "path": "skills/security-audit/SKILL.md",
+        "url": "https://github.com/laolaoshiren/claude-code-skills-zh/blob/HEAD/skills/security-audit/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 54,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 693,
+      "curatedMentions": 1
+    },
+    {
       "id": "rules:sanjeed5/awesome-cursor-rules-mdc:rules-mdc/google-maps-js.mdc#google-maps-js",
       "type": "rules",
       "name": "google-maps-js",
@@ -6730,274 +6998,6 @@
       "templateFamily": null,
       "familySize": 0,
       "stars": 3557,
-      "curatedMentions": 1
-    },
-    {
-      "id": "skill:laolaoshiren/claude-code-skills-zh:skills/dep-auditor/skill.md#dep-auditor",
-      "type": "skill",
-      "name": "dep-auditor",
-      "description": {
-        "zh": "审计 Node.js、Python、Go、Rust、JVM、Ruby 项目的依赖漏洞、版本健康度与许可证事实；当用户要求检查 package.json、lockfile、requirements、go.mod、Cargo.toml、pom.xml、Gemfile.lock，或生成不改依赖的中文审计报告时使用",
-        "en": null,
-        "zhEngine": null,
-        "needsTranslation": [
-          "en"
-        ]
-      },
-      "lang": "mixed",
-      "categories": [
-        "coding",
-        "security"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "laolaoshiren/claude-code-skills-zh",
-        "path": "skills/dep-auditor/SKILL.md",
-        "url": "https://github.com/laolaoshiren/claude-code-skills-zh/blob/HEAD/skills/dep-auditor/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 53,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 685,
-      "curatedMentions": 1
-    },
-    {
-      "id": "skill:laolaoshiren/claude-code-skills-zh:skills/env-manager/skill.md#env-manager",
-      "type": "skill",
-      "name": "env-manager",
-      "description": {
-        "zh": "环境变量管理器：扫描、校验、同步 .env 文件，生成安全配置模板",
-        "en": null,
-        "zhEngine": null,
-        "needsTranslation": [
-          "en"
-        ]
-      },
-      "lang": "zh",
-      "categories": [
-        "coding",
-        "security"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "laolaoshiren/claude-code-skills-zh",
-        "path": "skills/env-manager/SKILL.md",
-        "url": "https://github.com/laolaoshiren/claude-code-skills-zh/blob/HEAD/skills/env-manager/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 53,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 685,
-      "curatedMentions": 1
-    },
-    {
-      "id": "skill:laolaoshiren/claude-code-skills-zh:skills/eslint-fix/skill.md#eslint-fix",
-      "type": "skill",
-      "name": "eslint-fix",
-      "description": {
-        "zh": "安全诊断并修复 ESLint error、warning 和配置兼容问题。用于用户要求运行 lint、解释 ESLint 报错、限定范围自动修复或迁移 ESLint 配置时；优先使用项目锁定的包管理器与版本，先预检再修改，不自动下载最新版或批量改写无关源码。",
-        "en": null,
-        "zhEngine": null,
-        "needsTranslation": [
-          "en"
-        ]
-      },
-      "lang": "zh",
-      "categories": [
-        "coding",
-        "security"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "laolaoshiren/claude-code-skills-zh",
-        "path": "skills/eslint-fix/SKILL.md",
-        "url": "https://github.com/laolaoshiren/claude-code-skills-zh/blob/HEAD/skills/eslint-fix/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 53,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 685,
-      "curatedMentions": 1
-    },
-    {
-      "id": "skill:laolaoshiren/claude-code-skills-zh:skills/github-actions-gen/skill.md#github-actions-gen",
-      "type": "skill",
-      "name": "github-actions-gen",
-      "description": {
-        "zh": "分析真实项目并生成或修订安全、可验证的 GitHub Actions workflow；当用户要求创建 CI、测试矩阵、构建、Release、部署、缓存、Secrets、OIDC、PR 自动化或排查 workflow 配置时使用",
-        "en": null,
-        "zhEngine": null,
-        "needsTranslation": [
-          "en"
-        ]
-      },
-      "lang": "mixed",
-      "categories": [
-        "security"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "laolaoshiren/claude-code-skills-zh",
-        "path": "skills/github-actions-gen/SKILL.md",
-        "url": "https://github.com/laolaoshiren/claude-code-skills-zh/blob/HEAD/skills/github-actions-gen/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 53,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 685,
-      "curatedMentions": 1
-    },
-    {
-      "id": "skill:laolaoshiren/claude-code-skills-zh:skills/security-audit/skill.md#security-audit",
-      "type": "skill",
-      "name": "security-audit",
-      "description": {
-        "zh": "代码安全审计 - 漏洞扫描、依赖检查、安全最佳实践",
-        "en": null,
-        "zhEngine": null,
-        "needsTranslation": [
-          "en"
-        ]
-      },
-      "lang": "zh",
-      "categories": [
-        "security"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "laolaoshiren/claude-code-skills-zh",
-        "path": "skills/security-audit/SKILL.md",
-        "url": "https://github.com/laolaoshiren/claude-code-skills-zh/blob/HEAD/skills/security-audit/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 53,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 685,
       "curatedMentions": 1
     },
     {
@@ -7084,7 +7084,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 50,
+        "score": 51,
         "gates": {
           "security": true,
           "schema": true,
@@ -7104,7 +7104,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 685,
+      "stars": 693,
       "curatedMentions": 1
     },
     {
@@ -9957,6 +9957,55 @@
         "repo": "Synvoya/codeinspectus",
         "path": "io.github.Synvoya/codeinspectus",
         "url": "https://github.com/Synvoya/codeinspectus",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:upinar/contrastapi:com.contrastcyber/api#contrastapi",
+      "type": "mcp",
+      "name": "ContrastAPI",
+      "description": {
+        "zh": null,
+        "en": "55 tools, 7 Resources, Sigma rules, email SPF/DMARC, MITRE, CVE/KEV, risk_score. No key.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "UPinar/contrastapi",
+        "path": "com.contrastcyber/api",
+        "url": "https://github.com/UPinar/contrastapi",
         "tier": 0
       },
       "quality": {

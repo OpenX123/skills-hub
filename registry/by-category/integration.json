@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T20:20:00.501Z",
+  "generatedAt": "2026-07-28T20:14:54.683Z",
   "category": {
     "key": "integration",
     "zh": "三方集成",
@@ -85,7 +85,7 @@
       }
     ]
   },
-  "total": 67,
+  "total": 68,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/slack-gif-creator/skill.md#slack-gif-creator",
@@ -2856,7 +2856,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 54,
         "gates": {
           "security": true,
           "schema": true,
@@ -2876,7 +2876,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 685,
+      "stars": 693,
       "curatedMentions": 1
     },
     {
@@ -3390,7 +3390,57 @@
       "name": "RoughSketch",
       "description": {
         "zh": null,
-        "en": "List, read, preview, and create RoughSketch sketches in the user's own Google Drive.",
+        "en": "Search, read, preview, create, update, rename, arrange and trash sketches in your Google Drive.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "app.roughsketch/roughsketch",
+        "url": "https://roughsketch.app",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.mandateshield/payment-authority#mandateshield-ai-payment-evidence",
+      "type": "mcp",
+      "name": "MandateShield AI Payment Evidence",
+      "description": {
+        "zh": null,
+        "en": "Analyzes delegated AI payment authority and exposes supported Stripe/x402 evidence contracts.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -3405,8 +3455,8 @@
       ],
       "source": {
         "repo": null,
-        "path": "app.roughsketch/roughsketch",
-        "url": "https://roughsketch.app",
+        "path": "com.mandateshield/payment-authority",
+        "url": "https://mandateshield.com/connect",
         "tier": 0
       },
       "quality": {
