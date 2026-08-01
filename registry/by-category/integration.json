@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T20:17:46.649Z",
+  "generatedAt": "2026-08-01T20:08:21.893Z",
   "category": {
     "key": "integration",
     "zh": "三方集成",
@@ -85,7 +85,7 @@
       }
     ]
   },
-  "total": 77,
+  "total": 85,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/slack-gif-creator/skill.md#slack-gif-creator",
@@ -3186,6 +3186,56 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:replenishradar/mcp:io.github.replenishradar/mcp#replenishradar",
+      "type": "mcp",
+      "name": "ReplenishRadar",
+      "description": {
+        "zh": null,
+        "en": "Shopify + Amazon inventory planning, forecasting & replenishment over MCP (50 tools).",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "pm",
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ReplenishRadar/MCP",
+        "path": "io.github.ReplenishRadar/MCP",
+        "url": "https://github.com/ReplenishRadar/MCP",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
       "id": "mcp:acjlabs/catalog-normalizer:com.acjlabs/catalog-normalizer#catalog-attribute-normalizer",
       "type": "mcp",
       "name": "Catalog Attribute Normalizer",
@@ -3208,6 +3258,55 @@
         "repo": "acjlabs/catalog-normalizer",
         "path": "com.acjlabs/catalog-normalizer",
         "url": "https://github.com/acjlabs/catalog-normalizer",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:ainative-studio/ainative-zerodb-memory-mcp:io.github.ainative-studio/ainative-zerodb-memory-mcp#io.github.ainative-studio-ainative-zerodb-memory-mcp",
+      "type": "mcp",
+      "name": "io.github.AINative-Studio/ainative-zerodb-memory-mcp",
+      "description": {
+        "zh": null,
+        "en": "ZeroDB agent-memory MCP — 18 tools: memory + write-back to Slack, Gmail, Calendar, GitHub.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "AINative-Studio/ainative-zerodb-memory-mcp",
+        "path": "io.github.AINative-Studio/ainative-zerodb-memory-mcp",
+        "url": "https://github.com/AINative-Studio/ainative-zerodb-memory-mcp",
         "tier": 0
       },
       "quality": {
@@ -3258,6 +3357,55 @@
         "repo": "bayramcsb/email2chat-mcp",
         "path": "io.github.bayramcsb/email2chat-mcp",
         "url": "https://github.com/bayramcsb/email2chat-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:cappyeo/discord-mcp:io.github.cappyeo/discord-mcp#discord-mcp",
+      "type": "mcp",
+      "name": "Discord MCP",
+      "description": {
+        "zh": null,
+        "en": "Connect MCP-compatible AI clients to Discord through a typed local server with 192 tools.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "cappyeo/discord-mcp",
+        "path": "io.github.cappyeo/discord-mcp",
+        "url": "https://github.com/cappyeo/discord-mcp",
         "tier": 0
       },
       "quality": {
@@ -3434,6 +3582,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:djr4/datavessel-mcp-public:io.github.djr4/datavessel#io.github.djr4-datavessel",
+      "type": "mcp",
+      "name": "io.github.djr4/datavessel",
+      "description": {
+        "zh": null,
+        "en": "100+ read/write tools: GA4, Search Console, Google/Meta Ads, Shopify, WooCommerce, Shopware. BYOK.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration",
+        "research",
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "djr4/datavessel-mcp-public",
+        "path": "io.github.djr4/datavessel",
+        "url": "https://github.com/djr4/datavessel-mcp-public",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:domdomegg/gmail-mcp:io.github.domdomegg/gmail-mcp#gmail",
       "type": "mcp",
       "name": "Gmail",
@@ -3534,6 +3733,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:isaiahdupree/commercebridge:io.github.isaiahdupree/commercebridge#io.github.isaiahdupree-commercebridge",
+      "type": "mcp",
+      "name": "io.github.IsaiahDupree/commercebridge",
+      "description": {
+        "zh": null,
+        "en": "Remote MCP connector for eBay, Shopify, Best Buy & Etsy marketplace data via the Commerce API",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "IsaiahDupree/commercebridge",
+        "path": "io.github.IsaiahDupree/commercebridge",
+        "url": "https://github.com/IsaiahDupree/commercebridge",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:justjuice55/tgden-api:io.github.justjuice55/tgden#tgden-—-telegram-catalog",
       "type": "mcp",
       "name": "tgden — Telegram catalog",
@@ -3556,6 +3804,56 @@
         "repo": "JustJuice55/tgden-api",
         "path": "io.github.JustJuice55/tgden",
         "url": "https://github.com/JustJuice55/tgden-api",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:limited-horizon/replenishradar:io.github.limited-horizon/replenishradar#replenishradar",
+      "type": "mcp",
+      "name": "ReplenishRadar",
+      "description": {
+        "zh": null,
+        "en": "Shopify + Amazon inventory planning, forecasting & replenishment over MCP (49 tools).",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "pm",
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Limited-Horizon/ReplenishRadar",
+        "path": "io.github.Limited-Horizon/replenishradar",
+        "url": "https://github.com/Limited-Horizon/ReplenishRadar",
         "tier": 0
       },
       "quality": {
@@ -3731,6 +4029,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.datavessel/mcp#datavessel",
+      "type": "mcp",
+      "name": "datavessel",
+      "description": {
+        "zh": null,
+        "en": "200+ read/write tools for GA4, Search Console, Google Ads, Shopify, WooCommerce, Shopware & more.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration",
+        "research",
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.datavessel/mcp",
+        "url": "https://datavessel.io",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mindstone/mcp-servers:io.github.mindstone/mcp-server-slack#slack",
       "type": "mcp",
       "name": "Slack",
@@ -3804,6 +4153,57 @@
         "repo": "mkpoli/gmail-mcp",
         "path": "io.github.mkpoli/gmail-mcp",
         "url": "https://github.com/mkpoli/gmail-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mrrefactoring/atlassian-dc-mcp:io.github.mrrefactoring/atlassian-dc-mcp-jira#io.github.mrrefactoring-atlassian-dc-mcp-jira",
+      "type": "mcp",
+      "name": "io.github.MrRefactoring/atlassian-dc-mcp-jira",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Atlassian Jira Data Center - search, view, and create issues",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "pm",
+        "integration",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "MrRefactoring/atlassian-dc-mcp",
+        "path": "io.github.MrRefactoring/atlassian-dc-mcp-jira",
+        "url": "https://github.com/MrRefactoring/atlassian-dc-mcp",
         "tier": 0
       },
       "quality": {

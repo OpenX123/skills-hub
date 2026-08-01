@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T20:17:46.649Z",
+  "generatedAt": "2026-08-01T20:08:21.893Z",
   "category": {
     "key": "design",
     "zh": "设计创意",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 408,
+  "total": 413,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/brand-guidelines/skill.md#brand-guidelines",
@@ -6169,7 +6169,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 69,
+        "score": 68,
         "gates": {
           "security": true,
           "schema": true,
@@ -6184,61 +6184,6 @@
         "score": 21
       },
       "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 30030,
-      "curatedMentions": 2
-    },
-    {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/scientific/latex-posters/skill.md#latex-posters",
-      "type": "skill",
-      "name": "latex-posters",
-      "description": {
-        "zh": null,
-        "en": "Create professional research posters in LaTeX using beamerposter, tikzposter, or baposter. Support for conference presentations, academic posters, and scientific communication. Includes layout design, color schemes, multi-column formats, figure integration, and poster-specific best practices for visual communication.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "document",
-        "design",
-        "research"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "davila7/claude-code-templates",
-        "path": "cli-tool/components/skills/scientific/latex-posters/SKILL.md",
-        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/scientific/latex-posters/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 69,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": false,
-          "alive": true
-        },
-        "passed": false,
-        "recommended": false
-      },
-      "risk": {
-        "level": "medium",
-        "score": 21
-      },
-      "duplicateOf": "skill:davila7/claude-code-templates:cli-tool/components/skills/scientific/pptx-posters/skill.md#latex-posters",
       "nearDuplicateOf": null,
       "dupCount": 0,
       "variantCount": 0,
@@ -6299,6 +6244,61 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:senior-prompt-engineer",
       "familySize": 5,
+      "stars": 30030,
+      "curatedMentions": 2
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/scientific/latex-posters/skill.md#latex-posters",
+      "type": "skill",
+      "name": "latex-posters",
+      "description": {
+        "zh": null,
+        "en": "Create professional research posters in LaTeX using beamerposter, tikzposter, or baposter. Support for conference presentations, academic posters, and scientific communication. Includes layout design, color schemes, multi-column formats, figure integration, and poster-specific best practices for visual communication.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "design",
+        "research"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/scientific/latex-posters/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/scientific/latex-posters/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 68,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": false,
+          "alive": true
+        },
+        "passed": false,
+        "recommended": false
+      },
+      "risk": {
+        "level": "medium",
+        "score": 21
+      },
+      "duplicateOf": "skill:davila7/claude-code-templates:cli-tool/components/skills/scientific/pptx-posters/skill.md#latex-posters",
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
       "stars": 30030,
       "curatedMentions": 2
     },
@@ -19772,6 +19772,156 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:giacomomaria81/scorm-mcp-server:io.github.giacomomaria81/scorm-mcp-server#scorm-packager-(html-→-scorm-2004)",
+      "type": "mcp",
+      "name": "SCORM Packager (HTML → SCORM 2004)",
+      "description": {
+        "zh": null,
+        "en": "Turn HTML or Claude Design bundles into LMS-ready SCORM 2004 packages — offline, tracked.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "giacomomaria81/scorm-mcp-server",
+        "path": "io.github.giacomomaria81/scorm-mcp-server",
+        "url": "https://github.com/giacomomaria81/scorm-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:grarcht/shuttle:io.github.grarcht/shuttle#shuttle",
+      "type": "mcp",
+      "name": "Shuttle",
+      "description": {
+        "zh": null,
+        "en": "Android framework and solution that prevents TransactionTooLargeException crashes by design.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "grarcht/Shuttle",
+        "path": "io.github.grarcht/shuttle",
+        "url": "https://github.com/grarcht/Shuttle",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:kasayodotcom/identityforge-mcp:io.identityforge/mcp#identity-forge",
+      "type": "mcp",
+      "name": "Identity Forge",
+      "description": {
+        "zh": null,
+        "en": "Design kits, brand naming, and domain research for coding agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design",
+        "research",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "KasayoDotCom/identityforge-mcp",
+        "path": "io.identityforge/mcp",
+        "url": "https://github.com/KasayoDotCom/identityforge-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:le-vai/designesy-org:io.github.le-vai/designesy-org#designesy",
       "type": "mcp",
       "name": "Designesy",
@@ -20268,6 +20418,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.thomas0369/wortwert#io.github.thomas0369-wortwert",
+      "type": "mcp",
+      "name": "io.github.thomas0369/wortwert",
+      "description": {
+        "zh": null,
+        "en": "Gematria and pattern decoder for words, sacred texts, news, dates, and Human Design.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.thomas0369/wortwert",
+        "url": "https://wortwert.mcp-hub.stream",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mediaassist/imejis-mcp:io.imejis/imejis#imejis",
       "type": "mcp",
       "name": "Imejis",
@@ -20290,6 +20489,57 @@
         "repo": "MediaAssist/imejis-mcp",
         "path": "io.imejis/imejis",
         "url": "https://github.com/MediaAssist/imejis-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:memi-design/memi:io.github.sarveshsea/memi#memi",
+      "type": "mcp",
+      "name": "memi",
+      "description": {
+        "zh": null,
+        "en": "Memi is the read-only design engineering audit and skill layer for coding agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "security",
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "memi-design/memi",
+        "path": "io.github.sarveshsea/memi",
+        "url": "https://github.com/memi-design/memi",
         "tier": 0
       },
       "quality": {

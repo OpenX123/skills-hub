@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T20:17:46.649Z",
+  "generatedAt": "2026-08-01T20:08:21.893Z",
   "category": {
     "key": "devops",
     "zh": "运维部署",
@@ -97,7 +97,7 @@
       }
     ]
   },
-  "total": 195,
+  "total": 206,
   "entries": [
     {
       "id": "skill:composiohq/awesome-claude-skills:composio-skills/cloudflare-api-key-automation/skill.md#cloudflare-api-key-automation",
@@ -3537,60 +3537,6 @@
       "curatedMentions": 2
     },
     {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/scientific/clinical-reports/skill.md#clinical-reports",
-      "type": "skill",
-      "name": "clinical-reports",
-      "description": {
-        "zh": null,
-        "en": "Write comprehensive clinical reports including case reports (CARE guidelines), diagnostic reports (radiology/pathology/lab), clinical trial reports (ICH-E3, SAE, CSR), and patient documentation (SOAP, H&P, discharge summaries). Full support with templates, regulatory compliance (HIPAA, FDA, ICH-GCP), and validation tools.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding",
-        "devops"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "davila7/claude-code-templates",
-        "path": "cli-tool/components/skills/scientific/clinical-reports/SKILL.md",
-        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/scientific/clinical-reports/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 69,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "medium",
-        "score": 21
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 30030,
-      "curatedMentions": 2
-    },
-    {
       "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/supply-chain-guard/skill.md#supply-chain-guard",
       "type": "skill",
       "name": "supply-chain-guard",
@@ -3742,6 +3688,60 @@
       "risk": {
         "level": "low",
         "score": 8
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 30030,
+      "curatedMentions": 2
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/scientific/clinical-reports/skill.md#clinical-reports",
+      "type": "skill",
+      "name": "clinical-reports",
+      "description": {
+        "zh": null,
+        "en": "Write comprehensive clinical reports including case reports (CARE guidelines), diagnostic reports (radiology/pathology/lab), clinical trial reports (ICH-E3, SAE, CSR), and patient documentation (SOAP, H&P, discharge summaries). Full support with templates, regulatory compliance (HIPAA, FDA, ICH-GCP), and validation tools.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "devops"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/scientific/clinical-reports/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/scientific/clinical-reports/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 68,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "medium",
+        "score": 21
       },
       "duplicateOf": null,
       "nearDuplicateOf": null,
@@ -8999,6 +8999,105 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:sidd27/infrawise:io.github.sidd27/infrawise#infrawise",
+      "type": "mcp",
+      "name": "Infrawise",
+      "description": {
+        "zh": null,
+        "en": "Live AWS, database & Kafka infrastructure context for AI coding assistants via MCP.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Sidd27/infrawise",
+        "path": "io.github.Sidd27/infrawise",
+        "url": "https://github.com/Sidd27/infrawise",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:xmpuspus/cloudwright:io.github.xmpuspus/cloudwright#io.github.xmpuspus-cloudwright",
+      "type": "mcp",
+      "name": "io.github.xmpuspus/cloudwright",
+      "description": {
+        "zh": null,
+        "en": "Natural-language cloud architecture: deployable Terraform/Pulumi, cost, compliance control mapping.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "xmpuspus/cloudwright",
+        "path": "io.github.xmpuspus/cloudwright",
+        "url": "https://github.com/xmpuspus/cloudwright",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
       "id": "mcp:zb-ss/servonaut:dev.servonaut/servonaut#servonaut",
       "type": "mcp",
       "name": "Servonaut",
@@ -9347,6 +9446,154 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:isaiahdupree/calendar-bridge:io.github.isaiahdupree/calendar-bridge#io.github.isaiahdupree-calendar-bridge",
+      "type": "mcp",
+      "name": "io.github.IsaiahDupree/calendar-bridge",
+      "description": {
+        "zh": null,
+        "en": "Connects ChatGPT to your Apple Calendar via a local Mac agent + Vercel relay",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "IsaiahDupree/calendar-bridge",
+        "path": "io.github.IsaiahDupree/calendar-bridge",
+        "url": "https://github.com/IsaiahDupree/calendar-bridge",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:isaiahdupree/devstack-mcp:io.github.isaiahdupree/devstack-mcp#io.github.isaiahdupree-devstack-mcp",
+      "type": "mcp",
+      "name": "io.github.IsaiahDupree/devstack-mcp",
+      "description": {
+        "zh": null,
+        "en": "Dev-registry data: npm/PyPI/Docker/VS Code packages, dep graphs, vulns, 50+ ecosystems.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "IsaiahDupree/devstack-mcp",
+        "path": "io.github.IsaiahDupree/devstack-mcp",
+        "url": "https://github.com/IsaiahDupree/devstack-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:isaiahdupree/messages-bridge:io.github.isaiahdupree/messages-bridge#io.github.isaiahdupree-messages-bridge",
+      "type": "mcp",
+      "name": "io.github.IsaiahDupree/messages-bridge",
+      "description": {
+        "zh": null,
+        "en": "MCP connector for iMessage & Contacts via a local Mac agent + Vercel relay",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "IsaiahDupree/messages-bridge",
+        "path": "io.github.IsaiahDupree/messages-bridge",
+        "url": "https://github.com/IsaiahDupree/messages-bridge",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:juliusolsson05/workflow-mcp:io.github.juliusolsson05/workflow-mcp#workflow-mcp",
       "type": "mcp",
       "name": "Workflow MCP",
@@ -9369,6 +9616,56 @@
         "repo": "Juliusolsson05/workflow-mcp",
         "path": "io.github.Juliusolsson05/workflow-mcp",
         "url": "https://github.com/Juliusolsson05/workflow-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:jyswee/taufunctions:io.github.jyswee/taufunctions#io.github.jyswee-taufunctions",
+      "type": "mcp",
+      "name": "io.github.jyswee/taufunctions",
+      "description": {
+        "zh": null,
+        "en": "Serverless functions for coding agents. Deploy, invoke, monitor. 13 tools, stdio or remote SSE.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jyswee/taufunctions",
+        "path": "io.github.jyswee/taufunctions",
+        "url": "https://github.com/jyswee/taufunctions",
         "tier": 0
       },
       "quality": {
@@ -9794,6 +10091,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:polterguy/magic:io.github.polterguy/magic#magic-cloud",
+      "type": "mcp",
+      "name": "Magic Cloud",
+      "description": {
+        "zh": null,
+        "en": "Self-hosted low-code platform (Docker); its MCP endpoint runs on your own instance, not via npx.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "polterguy/magic",
+        "path": "io.github.polterguy/magic",
+        "url": "https://github.com/polterguy/magic",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:rustok-org/mcp:io.github.rustok-org/rustok-wallet#io.github.rustok-org-rustok-wallet",
       "type": "mcp",
       "name": "io.github.rustok-org/rustok-wallet",
@@ -9991,6 +10338,154 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:turbopress-de/turbometrics-mcp:io.github.turbopress-de/turbometrics-mcp#io.github.turbopress-de-turbometrics-mcp",
+      "type": "mcp",
+      "name": "io.github.turbopress-de/turbometrics-mcp",
+      "description": {
+        "zh": null,
+        "en": "Website performance monitoring: scans, Core Web Vitals, RUM data and alerts.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "turbopress-de/turbometrics-mcp",
+        "path": "io.github.turbopress-de/turbometrics-mcp",
+        "url": "https://github.com/turbopress-de/turbometrics-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:vmware-skills/vmware-avi:io.github.vmware-skills/vmware-avi#vmware-avi",
+      "type": "mcp",
+      "name": "VMware AVI",
+      "description": {
+        "zh": null,
+        "en": "VMware AVI (NSX ALB) load balancer plus AKO Kubernetes ops — 29 MCP tools.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "vmware-skills/VMware-AVI",
+        "path": "io.github.vmware-skills/vmware-avi",
+        "url": "https://github.com/vmware-skills/VMware-AVI",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:vmware-skills/vmware-monitor:io.github.vmware-skills/vmware-monitor#vmware-monitor",
+      "type": "mcp",
+      "name": "VMware Monitor",
+      "description": {
+        "zh": null,
+        "en": "Read-only VMware vCenter/ESXi monitoring with 27 MCP tools. Code-level safety.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "vmware-skills/VMware-Monitor",
+        "path": "io.github.vmware-skills/vmware-monitor",
+        "url": "https://github.com/vmware-skills/VMware-Monitor",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:wyre-technology/saas-alerts-mcp:io.github.wyre-technology/saas-alerts-mcp#saas-alerts",
       "type": "mcp",
       "name": "SaaS Alerts",
@@ -10064,6 +10559,55 @@
         "repo": "your-ko/mcp-k8s-ro",
         "path": "io.github.your-ko/mcp-k8s-ro",
         "url": "https://github.com/your-ko/mcp-k8s-ro",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:zvmzaretsky/fabtally-chain-mcp:io.github.zvmzaretsky/fabtally-chain#fabtally-chain",
+      "type": "mcp",
+      "name": "FabTally Chain",
+      "description": {
+        "zh": null,
+        "en": "On-chain monitoring reads: ENS/Basename expiry, gas, token unlocks & Chainlink oracle health.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "zvmzaretsky/fabtally-chain-mcp",
+        "path": "io.github.zvmzaretsky/fabtally-chain",
+        "url": "https://github.com/zvmzaretsky/fabtally-chain-mcp",
         "tier": 0
       },
       "quality": {

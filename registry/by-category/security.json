@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T20:17:46.649Z",
+  "generatedAt": "2026-08-01T20:08:21.893Z",
   "category": {
     "key": "security",
     "zh": "安全审计",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 247,
+  "total": 258,
   "entries": [
     {
       "id": "skill:composiohq/awesome-claude-skills:composio-skills/ahrefs-automation/skill.md#ahrefs-automation",
@@ -10281,6 +10281,104 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:1clawai/1claw-mcp:io.github.1clawai/1claw-mcp#1claw-vault",
+      "type": "mcp",
+      "name": "1Claw Vault",
+      "description": {
+        "zh": null,
+        "en": "HSM-backed vault secrets for AI agents (JIT fetch) plus prompt-injection and threat scanning.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "1clawAI/1claw-mcp",
+        "path": "io.github.1clawAI/1claw-mcp",
+        "url": "https://github.com/1clawAI/1claw-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:agentready-market/agentready:io.github.agentready-market/audit#io.github.agentready-market-audit",
+      "type": "mcp",
+      "name": "io.github.agentready-market/audit",
+      "description": {
+        "zh": null,
+        "en": "Can an AI shopping agent find, understand and BUY on a store? Deterministic e-commerce audit /100.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "agentready-market/agentready",
+        "path": "io.github.agentready-market/audit",
+        "url": "https://github.com/agentready-market/agentready",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:andrewdryga/emisar:dev.emisar/emisar#emisar",
       "type": "mcp",
       "name": "emisar",
@@ -10352,6 +10450,55 @@
         "repo": "Arakiss/nahuali",
         "path": "io.github.Arakiss/nahuali",
         "url": "https://github.com/Arakiss/nahuali",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:aryanspv/har-forensics-mcp:io.github.aryanspv/har-forensics-mcp#io.github.aryanspv-har-forensics-mcp",
+      "type": "mcp",
+      "name": "io.github.aryanspv/har-forensics-mcp",
+      "description": {
+        "zh": null,
+        "en": "Audit a .har capture: third-party risk, leaked credentials, JWT checks, redaction. No network calls.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "aryanspv/har-forensics-mcp",
+        "path": "io.github.aryanspv/har-forensics-mcp",
+        "url": "https://github.com/aryanspv/har-forensics-mcp",
         "tier": 0
       },
       "quality": {
@@ -11069,6 +11216,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:jyswee/authshore:io.github.jyswee/authshore#io.github.jyswee-authshore",
+      "type": "mcp",
+      "name": "io.github.jyswee/authshore",
+      "description": {
+        "zh": null,
+        "en": "Auth infrastructure for coding agents. User pools, secrets vault, token management. As easy as git.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jyswee/authshore",
+        "path": "io.github.jyswee/authshore",
+        "url": "https://github.com/jyswee/authshore",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:jyswee/secretcarousel:io.github.jyswee/secretcarousel#io.github.jyswee-secretcarousel",
       "type": "mcp",
       "name": "io.github.jyswee/secretcarousel",
@@ -11091,6 +11288,55 @@
         "repo": "jyswee/secretcarousel",
         "path": "io.github.jyswee/secretcarousel",
         "url": "https://github.com/jyswee/secretcarousel",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:kernora-ai/agent-sec:ai.kernora/agent-sec#ai.kernora-agent-sec",
+      "type": "mcp",
+      "name": "ai.kernora/agent-sec",
+      "description": {
+        "zh": null,
+        "en": "Zero-install security baseline for AI coding agents — OWASP/CWE-cited rules over MCP.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "kernora-ai/agent-sec",
+        "path": "ai.kernora/agent-sec",
+        "url": "https://github.com/kernora-ai/agent-sec",
         "tier": 0
       },
       "quality": {
@@ -11516,6 +11762,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.framekeep/public#framekeep-public-discovery",
+      "type": "mcp",
+      "name": "Framekeep Public Discovery",
+      "description": {
+        "zh": null,
+        "en": "Read-only discovery of Framekeep capabilities, security boundaries, and public resources.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.framekeep/public",
+        "url": "https://framekeep.com/capabilities",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.infosecjobboard/jobs#infosec-job-board",
       "type": "mcp",
       "name": "InfoSec Job Board",
@@ -11913,6 +12208,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.rezearcher/cve-triage#io.github.rezearcher-cve-triage",
+      "type": "mcp",
+      "name": "io.github.rezearcher/cve-triage",
+      "description": {
+        "zh": null,
+        "en": "x402 CVE triage MCP: EPSS + CISA KEV -> exploit priority, $0.01 per query.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.rezearcher/cve-triage",
+        "url": "https://x402-cve-triage.sigrunner.workers.dev",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.sealsecurity/mcp#seal-security",
       "type": "mcp",
       "name": "Seal Security",
@@ -11984,6 +12328,57 @@
         "repo": null,
         "path": "sg.com.aevumsecurity/agent-surface",
         "url": "https://aevumsecurity.com.sg",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:memi-design/memi:io.github.sarveshsea/memi#memi",
+      "type": "mcp",
+      "name": "memi",
+      "description": {
+        "zh": null,
+        "en": "Memi is the read-only design engineering audit and skill layer for coding agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "security",
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "memi-design/memi",
+        "path": "io.github.sarveshsea/memi",
+        "url": "https://github.com/memi-design/memi",
         "tier": 0
       },
       "quality": {
@@ -12554,6 +12949,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:taplid/taplid:io.github.taplid/taplid#taplid",
+      "type": "mcp",
+      "name": "Taplid",
+      "description": {
+        "zh": null,
+        "en": "Audit AI responses and artifacts with ALLOW, REVIEW, or BLOCK decisions and trust scores.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "taplid/taplid",
+        "path": "io.github.taplid/taplid",
+        "url": "https://github.com/taplid/taplid",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:tide-foundation/raziel-mcp:io.github.tide-foundation/raziel#raziel",
       "type": "mcp",
       "name": "Raziel",
@@ -12702,6 +13146,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:vmware-skills/vmware-nsx-security:io.github.vmware-skills/vmware-nsx-security#vmware-nsx-security",
+      "type": "mcp",
+      "name": "VMware NSX Security",
+      "description": {
+        "zh": null,
+        "en": "VMware NSX security: DFW policies, security groups, tags, Traceflow, IDPS — 21 MCP tools.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "vmware-skills/VMware-NSX-Security",
+        "path": "io.github.vmware-skills/vmware-nsx-security",
+        "url": "https://github.com/vmware-skills/VMware-NSX-Security",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:vulncheck-oss/mcp:io.github.vulncheck-oss/mcp#vulncheck",
       "type": "mcp",
       "name": "VulnCheck",
@@ -12775,6 +13268,55 @@
         "repo": "wyre-technology/saas-alerts-mcp",
         "path": "io.github.wyre-technology/saas-alerts-mcp",
         "url": "https://github.com/wyre-technology/saas-alerts-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:yarrasys/kdbx:io.github.yarrasys/kdbx#kdbx",
+      "type": "mcp",
+      "name": "kdbx",
+      "description": {
+        "zh": null,
+        "en": "Read-only access to secrets in a local KeePassXC vault. Runs commands with them injected.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "yarrasys/kdbx",
+        "path": "io.github.yarrasys/kdbx",
+        "url": "https://github.com/yarrasys/kdbx",
         "tier": 0
       },
       "quality": {
