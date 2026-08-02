@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T20:08:21.893Z",
+  "generatedAt": "2026-08-02T20:10:05.394Z",
   "category": {
     "key": "document",
     "zh": "文档处理",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 165,
+  "total": 174,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/docx/skill.md#docx",
@@ -1233,6 +1233,61 @@
       "curatedMentions": 5
     },
     {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/creative-design/patentfig/skill.md#patentfig",
+      "type": "skill",
+      "name": "patentfig",
+      "description": {
+        "zh": null,
+        "en": "Generate patent-office-compliant figures via the PatentFig AI API — patent line art from text (PNG or SVG), vectorize drawings to SVG/DXF/vector PDF, AI-upscale images, and convert to filing-ready TIFF/PDF/PNG. Use when the user asks for patent drawings, patent figures, invention diagrams, USPTO/EPO-compliant line art, vectorizing a drawing for CAD, or preparing figures for a patent filing. Requires a PATENTFIG_API_KEY environment variable.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "coding",
+        "design"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/creative-design/patentfig/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/creative-design/patentfig/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 75,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 30062,
+      "curatedMentions": 2
+    },
+    {
       "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/development/codex/skill.md#codex",
       "type": "skill",
       "name": "codex",
@@ -1283,7 +1338,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -1337,7 +1392,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -1392,7 +1447,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -1445,7 +1500,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -1498,7 +1553,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -1553,7 +1608,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -1606,7 +1661,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -1659,7 +1714,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -1712,7 +1767,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -1765,7 +1820,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -1818,7 +1873,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -1871,7 +1926,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -1924,7 +1979,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -1978,7 +2033,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -2032,7 +2087,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -2087,7 +2142,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -2140,7 +2195,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -2193,7 +2248,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -2248,7 +2303,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -2302,7 +2357,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -2355,7 +2410,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -2408,7 +2463,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -2461,7 +2516,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -2515,7 +2570,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -2570,7 +2625,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -2625,7 +2680,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -2680,7 +2735,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -2734,7 +2789,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -2789,7 +2844,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -2844,7 +2899,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -2899,7 +2954,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -2953,7 +3008,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -3008,7 +3063,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -3061,7 +3116,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -3115,7 +3170,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -3169,7 +3224,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -3222,7 +3277,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -3275,7 +3330,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -3329,7 +3384,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -3382,7 +3437,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -3436,7 +3491,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -3489,7 +3544,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -3542,7 +3597,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -3597,7 +3652,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -3650,7 +3705,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -3703,7 +3758,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -3756,7 +3811,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -3811,7 +3866,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -3865,7 +3920,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -3920,7 +3975,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -3974,7 +4029,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -4009,7 +4064,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 68,
+        "score": 69,
         "gates": {
           "security": true,
           "schema": true,
@@ -4029,7 +4084,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -4064,7 +4119,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 68,
+        "score": 69,
         "gates": {
           "security": true,
           "schema": true,
@@ -4084,7 +4139,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -4117,7 +4172,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 68,
+        "score": 69,
         "gates": {
           "security": true,
           "schema": true,
@@ -4137,7 +4192,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -4171,7 +4226,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 68,
+        "score": 69,
         "gates": {
           "security": true,
           "schema": true,
@@ -4191,7 +4246,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -4225,7 +4280,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 68,
+        "score": 69,
         "gates": {
           "security": true,
           "schema": true,
@@ -4245,7 +4300,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -4280,7 +4335,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 68,
+        "score": 69,
         "gates": {
           "security": true,
           "schema": true,
@@ -4300,7 +4355,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30030,
+      "stars": 30062,
       "curatedMentions": 2
     },
     {
@@ -4335,7 +4390,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 62,
+        "score": 61,
         "gates": {
           "security": true,
           "schema": true,
@@ -6932,6 +6987,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:frontsail-ai/aspicio:io.github.frontsail-ai/aspicio#aspicio",
+      "type": "mcp",
+      "name": "Aspicio",
+      "description": {
+        "zh": null,
+        "en": "DXF and PDF/X-4 for AI agents: structured facts, PNG renders, an interactive in-chat viewer.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "frontsail-ai/aspicio",
+        "path": "io.github.frontsail-ai/aspicio",
+        "url": "https://github.com/frontsail-ai/aspicio",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:getmdkit/mdkit:online.mdkit/mdkit#mdkit",
       "type": "mcp",
       "name": "Mdkit",
@@ -7104,6 +7208,56 @@
         "repo": "Jack-mi/vibelawyer",
         "path": "io.github.Jack-mi/vibelawyer",
         "url": "https://github.com/Jack-mi/vibelawyer",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:jcaiagent7143-ui/sendpage-mcp:com.sendpageapp/sendpage#com.sendpageapp-sendpage",
+      "type": "mcp",
+      "name": "com.sendpageapp/sendpage",
+      "description": {
+        "zh": null,
+        "en": "Publish an HTML document as a link anyone can open in one tap, plus PDF, image and Word export.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jcaiagent7143-ui/sendpage-mcp",
+        "path": "com.sendpageapp/sendpage",
+        "url": "https://github.com/jcaiagent7143-ui/sendpage-mcp",
         "tier": 0
       },
       "quality": {
@@ -7773,6 +7927,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:fr.verifier-ma-facture/validateur#vérifier-ma-facture-(factur-x)",
+      "type": "mcp",
+      "name": "Vérifier ma facture (Factur-X)",
+      "description": {
+        "zh": null,
+        "en": "Conformité Factur-X : 21 critères PDF/A-3, XML CII EN 16931 et BR-FR. Analyse locale, gratuite.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "fr.verifier-ma-facture/validateur",
+        "url": "https://verifier-ma-facture.fr",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.janf19/rejstrik-mcp#io.github.janf19-rejstrik-mcp",
       "type": "mcp",
       "name": "io.github.janF19/rejstrik-mcp",
@@ -7872,6 +8075,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:nl.briefverzenden/post#briefverzenden-—-fysieke-post",
+      "type": "mcp",
+      "name": "Briefverzenden — fysieke post",
+      "description": {
+        "zh": null,
+        "en": "Verstuur een echte brief per post in 22 landen: lever een PDF aan, wij printen en posten hem.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "nl.briefverzenden/post",
+        "url": "https://www.briefverzenden.nl/agents",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:md-log/md-log-mcp:com.md-log/md-log-mcp#com.md-log-md-log-mcp",
       "type": "mcp",
       "name": "com.md-log/md-log-mcp",
@@ -7944,6 +8196,55 @@
         "repo": "mlawsonking/MCP",
         "path": "io.github.mlawsonking/web-tools-mcp",
         "url": "https://github.com/mlawsonking/MCP",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mrslbt/pdf-it:io.github.mrslbt/pdf-it#io.github.mrslbt-pdf-it",
+      "type": "mcp",
+      "name": "io.github.mrslbt/pdf-it",
+      "description": {
+        "zh": null,
+        "en": "Native PDF renderer for AI markdown. Cover, TOC, page-numbered footer. Fonts embedded, zero config.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "mrslbt/pdf-it",
+        "path": "io.github.mrslbt/pdf-it",
+        "url": "https://github.com/mrslbt/pdf-it",
         "tier": 0
       },
       "quality": {
@@ -8093,6 +8394,57 @@
         "repo": "OnourImpram/mneme",
         "path": "io.github.OnourImpram/mneme",
         "url": "https://github.com/OnourImpram/mneme",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:paperandbeyond23-gif/propzapi-skills:io.github.paperandbeyond23-gif/propzapi#io.github.paperandbeyond23-gif-propzapi",
+      "type": "mcp",
+      "name": "io.github.paperandbeyond23-gif/propzapi",
+      "description": {
+        "zh": null,
+        "en": "Image generation API: render HTML/CSS templates to PNG, JPEG, WebP or PDF, plus URL screenshots.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "design",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "paperandbeyond23-gif/propzapi-skills",
+        "path": "io.github.paperandbeyond23-gif/propzapi",
+        "url": "https://github.com/paperandbeyond23-gif/propzapi-skills",
         "tier": 0
       },
       "quality": {
@@ -8442,6 +8794,105 @@
         "repo": "thrain-ai/blackout-pdf",
         "path": "ai.thrain/blackout",
         "url": "https://github.com/thrain-ai/blackout-pdf",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:twocents-page/twocents-mcp:page.twocents/twocents#twocents",
+      "type": "mcp",
+      "name": "twocents",
+      "description": {
+        "zh": null,
+        "en": "Human feedback for AI agents: share HTML, get a live review link, read anchored notes as markdown.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "twocents-page/twocents-mcp",
+        "path": "page.twocents/twocents",
+        "url": "https://github.com/twocents-page/twocents-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:tyler-mitchell/type-atlas:io.github.tyler-mitchell/type-atlas#type-atlas",
+      "type": "mcp",
+      "name": "Type Atlas",
+      "description": {
+        "zh": null,
+        "en": "Editor-grade TypeScript, Markdown, and JSON intelligence for coding agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "tyler-mitchell/type-atlas",
+        "path": "io.github.tyler-mitchell/type-atlas",
+        "url": "https://github.com/tyler-mitchell/type-atlas",
         "tier": 0
       },
       "quality": {

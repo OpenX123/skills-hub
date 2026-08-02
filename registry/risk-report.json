@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-01T20:08:21.893Z",
+  "generatedAt": "2026-08-02T20:10:05.394Z",
   "engine": "text-baseline/v2",
-  "scanned": 5693,
-  "flagged": 139,
+  "scanned": 5981,
+  "flagged": 140,
   "byLevel": {
-    "clean": 5554,
-    "low": 105,
+    "clean": 5841,
+    "low": 106,
     "medium": 33,
     "high": 1
   },
@@ -3928,6 +3928,32 @@
           "where": "body",
           "line": 642,
           "evidence": "http://127.0.0.1:5001/invocations"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/productivity/doc-chaser-lite/skill.md#doc-chaser-lite",
+      "name": "doc-chaser-lite",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/productivity/doc-chaser-lite/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/productivity/doc-chaser-lite/SKILL.md",
+      "level": "low",
+      "score": 4,
+      "counts": {
+        "low": 1
+      },
+      "flags": [
+        {
+          "id": "promo-link",
+          "severity": "low",
+          "title": {
+            "zh": "推广/返利链接",
+            "en": "Promotional / affiliate link"
+          },
+          "where": "body",
+          "line": 57,
+          "evidence": "https://moailoops.gumroad.com/l/accountant-cowork-kit?utm_source=lite-footer"
         }
       ]
     },
