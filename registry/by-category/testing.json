@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T20:24:51.074Z",
+  "generatedAt": "2026-08-04T20:22:06.223Z",
   "category": {
     "key": "testing",
     "zh": "测试质量",
@@ -73,7 +73,7 @@
       }
     ]
   },
-  "total": 245,
+  "total": 253,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/webapp-testing/skill.md#webapp-testing",
@@ -7875,7 +7875,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 711,
+      "stars": 725,
       "curatedMentions": 1
     },
     {
@@ -7928,7 +7928,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 711,
+      "stars": 725,
       "curatedMentions": 1
     },
     {
@@ -7982,7 +7982,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 711,
+      "stars": 725,
       "curatedMentions": 1
     },
     {
@@ -11244,202 +11244,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "rules:nedcodes-ok/cursorrules-collection:rules/practices/testing.cursorrules#testing.cursorrules",
-      "type": "rules",
-      "name": "testing.cursorrules",
-      "description": {
-        "zh": null,
-        "en": "- Use Arrange-Act-Assert (AAA) pattern consistently - One assertion concept per test (multiple asserts OK if testing one behavior) - Name tests: whatIsBeingTested_scenario_expectedBehavior - Keep tests independent — no shared mutable state between tests",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "testing"
-      ],
-      "targets": [
-        "cursor"
-      ],
-      "source": {
-        "repo": "nedcodes-ok/cursorrules-collection",
-        "path": "rules/practices/testing.cursorrules",
-        "url": "https://github.com/nedcodes-ok/cursorrules-collection/blob/HEAD/rules/practices/testing.cursorrules",
-        "tier": 2
-      },
-      "quality": {
-        "score": 29,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 35,
-      "curatedMentions": 0
-    },
-    {
-      "id": "rules:nedcodes-ok/cursorrules-collection:rules/tools/cypress.cursorrules#cypress.cursorrules",
-      "type": "rules",
-      "name": "cypress.cursorrules",
-      "description": {
-        "zh": null,
-        "en": "You are an expert in Cypress E2E testing. Follow these rules:",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "testing"
-      ],
-      "targets": [
-        "cursor"
-      ],
-      "source": {
-        "repo": "nedcodes-ok/cursorrules-collection",
-        "path": "rules/tools/cypress.cursorrules",
-        "url": "https://github.com/nedcodes-ok/cursorrules-collection/blob/HEAD/rules/tools/cypress.cursorrules",
-        "tier": 2
-      },
-      "quality": {
-        "score": 29,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": false,
-          "alive": true
-        },
-        "passed": false,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": "rules:nedcodes-ok/cursorrules-collection:rules-mdc/tools/cypress.mdc#cypress",
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 35,
-      "curatedMentions": 0
-    },
-    {
-      "id": "rules:nedcodes-ok/cursorrules-collection:rules/tools/jest.cursorrules#jest.cursorrules",
-      "type": "rules",
-      "name": "jest.cursorrules",
-      "description": {
-        "zh": null,
-        "en": "You are an expert in Jest testing. Follow these rules:",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "testing"
-      ],
-      "targets": [
-        "cursor"
-      ],
-      "source": {
-        "repo": "nedcodes-ok/cursorrules-collection",
-        "path": "rules/tools/jest.cursorrules",
-        "url": "https://github.com/nedcodes-ok/cursorrules-collection/blob/HEAD/rules/tools/jest.cursorrules",
-        "tier": 2
-      },
-      "quality": {
-        "score": 29,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 35,
-      "curatedMentions": 0
-    },
-    {
-      "id": "rules:nedcodes-ok/cursorrules-collection:rules/tools/pytest.cursorrules#pytest.cursorrules",
-      "type": "rules",
-      "name": "pytest.cursorrules",
-      "description": {
-        "zh": null,
-        "en": "You are an expert in pytest testing. Follow these rules:",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "testing"
-      ],
-      "targets": [
-        "cursor"
-      ],
-      "source": {
-        "repo": "nedcodes-ok/cursorrules-collection",
-        "path": "rules/tools/pytest.cursorrules",
-        "url": "https://github.com/nedcodes-ok/cursorrules-collection/blob/HEAD/rules/tools/pytest.cursorrules",
-        "tier": 2
-      },
-      "quality": {
-        "score": 29,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": false,
-          "alive": true
-        },
-        "passed": false,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": "rules:nedcodes-ok/cursorrules-collection:rules-mdc/tools/pytest.mdc#pytest",
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 35,
-      "curatedMentions": 0
-    },
-    {
       "id": "subagent:joneqian/claude-skills-suite:agents/e2e-runner.md#e2e-runner",
       "type": "subagent",
       "name": "e2e-runner",
@@ -11584,6 +11388,202 @@
       "templateFamily": null,
       "familySize": 0,
       "stars": 3,
+      "curatedMentions": 0
+    },
+    {
+      "id": "rules:nedcodes-ok/cursorrules-collection:rules/practices/testing.cursorrules#testing.cursorrules",
+      "type": "rules",
+      "name": "testing.cursorrules",
+      "description": {
+        "zh": null,
+        "en": "- Use Arrange-Act-Assert (AAA) pattern consistently - One assertion concept per test (multiple asserts OK if testing one behavior) - Name tests: whatIsBeingTested_scenario_expectedBehavior - Keep tests independent — no shared mutable state between tests",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "cursor"
+      ],
+      "source": {
+        "repo": "nedcodes-ok/cursorrules-collection",
+        "path": "rules/practices/testing.cursorrules",
+        "url": "https://github.com/nedcodes-ok/cursorrules-collection/blob/HEAD/rules/practices/testing.cursorrules",
+        "tier": 2
+      },
+      "quality": {
+        "score": 28,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 35,
+      "curatedMentions": 0
+    },
+    {
+      "id": "rules:nedcodes-ok/cursorrules-collection:rules/tools/cypress.cursorrules#cypress.cursorrules",
+      "type": "rules",
+      "name": "cypress.cursorrules",
+      "description": {
+        "zh": null,
+        "en": "You are an expert in Cypress E2E testing. Follow these rules:",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "cursor"
+      ],
+      "source": {
+        "repo": "nedcodes-ok/cursorrules-collection",
+        "path": "rules/tools/cypress.cursorrules",
+        "url": "https://github.com/nedcodes-ok/cursorrules-collection/blob/HEAD/rules/tools/cypress.cursorrules",
+        "tier": 2
+      },
+      "quality": {
+        "score": 28,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": false,
+          "alive": true
+        },
+        "passed": false,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": "rules:nedcodes-ok/cursorrules-collection:rules-mdc/tools/cypress.mdc#cypress",
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 35,
+      "curatedMentions": 0
+    },
+    {
+      "id": "rules:nedcodes-ok/cursorrules-collection:rules/tools/jest.cursorrules#jest.cursorrules",
+      "type": "rules",
+      "name": "jest.cursorrules",
+      "description": {
+        "zh": null,
+        "en": "You are an expert in Jest testing. Follow these rules:",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "cursor"
+      ],
+      "source": {
+        "repo": "nedcodes-ok/cursorrules-collection",
+        "path": "rules/tools/jest.cursorrules",
+        "url": "https://github.com/nedcodes-ok/cursorrules-collection/blob/HEAD/rules/tools/jest.cursorrules",
+        "tier": 2
+      },
+      "quality": {
+        "score": 28,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 35,
+      "curatedMentions": 0
+    },
+    {
+      "id": "rules:nedcodes-ok/cursorrules-collection:rules/tools/pytest.cursorrules#pytest.cursorrules",
+      "type": "rules",
+      "name": "pytest.cursorrules",
+      "description": {
+        "zh": null,
+        "en": "You are an expert in pytest testing. Follow these rules:",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "cursor"
+      ],
+      "source": {
+        "repo": "nedcodes-ok/cursorrules-collection",
+        "path": "rules/tools/pytest.cursorrules",
+        "url": "https://github.com/nedcodes-ok/cursorrules-collection/blob/HEAD/rules/tools/pytest.cursorrules",
+        "tier": 2
+      },
+      "quality": {
+        "score": 28,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": false,
+          "alive": true
+        },
+        "passed": false,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": "rules:nedcodes-ok/cursorrules-collection:rules-mdc/tools/pytest.mdc#pytest",
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 35,
       "curatedMentions": 0
     },
     {
@@ -11984,6 +11984,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:coaspe/sap-abap-mcp:io.github.coaspe/sap-abap-mcp#sap-abap-mcp",
+      "type": "mcp",
+      "name": "SAP ABAP MCP",
+      "description": {
+        "zh": null,
+        "en": "Develop, test, analyze, and operate SAP ABAP systems through ADT from AI coding agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Coaspe/sap-abap-mcp",
+        "path": "io.github.Coaspe/sap-abap-mcp",
+        "url": "https://github.com/Coaspe/sap-abap-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:karzone/testatlas:io.github.karzone/testatlas.mcp#testatlas",
       "type": "mcp",
       "name": "TestAtlas",
@@ -12083,6 +12133,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:kriskraw80/mychart-mcp-server:io.github.kriskraw80/mychart#io.github.kriskraw80-mychart",
+      "type": "mcp",
+      "name": "io.github.kriskraw80/mychart",
+      "description": {
+        "zh": null,
+        "en": "Connects to Epic MyChart patient portals: interactive login, list and download your own test results",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "kriskraw80/mychart-mcp-server",
+        "path": "io.github.kriskraw80/mychart",
+        "url": "https://github.com/kriskraw80/mychart-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:lambdatest/mcp-server-guide:io.github.lambdatest/mcp#testmu-ai-(formerly-lambdatest)",
       "type": "mcp",
       "name": "TestMu AI (formerly LambdaTest)",
@@ -12105,6 +12204,154 @@
         "repo": "LambdaTest/mcp-server-guide",
         "path": "io.github.LambdaTest/mcp",
         "url": "https://github.com/LambdaTest/mcp-server-guide",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:marian-kamenistak/elc-toolkit:io.engineeringleaders/elc-toolkit#io.engineeringleaders-elc-toolkit",
+      "type": "mcp",
+      "name": "io.engineeringleaders/elc-toolkit",
+      "description": {
+        "zh": null,
+        "en": "Leadership-ratio benchmark, partnership ROI builder, community-launch readiness test. ELC data.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "marian-kamenistak/elc-toolkit",
+        "path": "io.engineeringleaders/elc-toolkit",
+        "url": "https://github.com/marian-kamenistak/elc-toolkit",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.drivings/driving-test-study#drivings",
+      "type": "mcp",
+      "name": "Drivings",
+      "description": {
+        "zh": null,
+        "en": "Published driving guides, source-backed UK and US test-centre search, and study-plan previews.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.drivings/driving-test-study",
+        "url": "https://mcp.drivings.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:dk.humanified/council-consult#dk.humanified-council-consult",
+      "type": "mcp",
+      "name": "dk.humanified/council-consult",
+      "description": {
+        "zh": null,
+        "en": "Stress-test a decision through named thinkers' lenses: assumptions, counter-arguments, receipt.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "dk.humanified/council-consult",
+        "url": "https://registry.modelcontextprotocol.io/?q=dk.humanified%2Fcouncil-consult",
         "tier": 0
       },
       "quality": {
@@ -12205,6 +12452,56 @@
         "repo": null,
         "path": "pw.xtester/xtester",
         "url": "https://xtester.pw/mcp/install",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:st.seedfa/seedfast#seedfast",
+      "type": "mcp",
+      "name": "Seedfast",
+      "description": {
+        "zh": null,
+        "en": "Generates relationally valid test data in a PostgreSQL database from its live schema.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database",
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "st.seedfa/seedfast",
+        "url": "https://seedfa.st",
         "tier": 0
       },
       "quality": {
@@ -12480,6 +12777,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:sekharsdet/five46:io.github.sekharsdet/five46#five46",
+      "type": "mcp",
+      "name": "five46",
+      "description": {
+        "zh": null,
+        "en": "BYOK, fully local AI agent that tests your app/API and writes a real Playwright spec on success.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "sekharsdet/five46",
+        "path": "io.github.sekharsdet/five46",
+        "url": "https://github.com/sekharsdet/five46",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:smbcloudxyz/smbcloud-cli:io.github.smbcloudxyz/xcrs#xcrs-mobile-&-tv-automation",
       "type": "mcp",
       "name": "XCRS Mobile & TV Automation",
@@ -12702,6 +13048,56 @@
         "repo": "vilaabo/zephyr-scale-mcp",
         "path": "io.github.vilaabo/zephyr-scale-mcp",
         "url": "https://github.com/vilaabo/zephyr-scale-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:yzonur/sap-adt-mcp:io.github.yzonur/sap-adt-mcp#io.github.yzonur-sap-adt-mcp",
+      "type": "mcp",
+      "name": "io.github.yzonur/sap-adt-mcp",
+      "description": {
+        "zh": null,
+        "en": "Give Claude live access to SAP ABAP via ADT: read, search, check, test, and edit objects.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "yzonur/sap-adt-mcp",
+        "path": "io.github.yzonur/sap-adt-mcp",
+        "url": "https://github.com/yzonur/sap-adt-mcp",
         "tier": 0
       },
       "quality": {

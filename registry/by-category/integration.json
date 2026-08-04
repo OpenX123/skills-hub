@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T20:24:51.074Z",
+  "generatedAt": "2026-08-04T20:22:06.223Z",
   "category": {
     "key": "integration",
     "zh": "三方集成",
@@ -85,7 +85,7 @@
       }
     ]
   },
-  "total": 92,
+  "total": 96,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/slack-gif-creator/skill.md#slack-gif-creator",
@@ -2876,7 +2876,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 711,
+      "stars": 725,
       "curatedMentions": 1
     },
     {
@@ -3113,7 +3113,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 29,
+        "score": 28,
         "gates": {
           "security": true,
           "schema": true,
@@ -3287,6 +3287,56 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:jtalk22/slack-mcp-server:io.github.jtalk22/slack-mcp-server#slack-mcp-server",
+      "type": "mcp",
+      "name": "Slack MCP Server",
+      "description": {
+        "zh": null,
+        "en": "Slack MCP without OAuth — 21 tools, session-based. Free OSS; hosted has a free tier, Pro $19/mo.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jtalk22/slack-mcp-server",
+        "path": "io.github.jtalk22/slack-mcp-server",
+        "url": "https://github.com/jtalk22/slack-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
       "id": "mcp:orygnscode/omnicord:io.github.orygnscode/omnicord#io.github.orygnscode-omnicord",
       "type": "mcp",
       "name": "io.github.OrygnsCode/omnicord",
@@ -3309,6 +3359,55 @@
         "repo": "OrygnsCode/Omnicord",
         "path": "io.github.OrygnsCode/omnicord",
         "url": "https://github.com/OrygnsCode/Omnicord",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:pasympa/discord-mcp:io.github.pasympa/discord-mcp#io.github.pasympa-discord-mcp",
+      "type": "mcp",
+      "name": "io.github.PaSympa/discord-mcp",
+      "description": {
+        "zh": null,
+        "en": "A lightweight, multi-guild Discord MCP server with 95+ tools",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "PaSympa/discord-mcp",
+        "path": "io.github.PaSympa/discord-mcp",
+        "url": "https://github.com/PaSympa/discord-mcp",
         "tier": 0
       },
       "quality": {
@@ -4103,6 +4202,106 @@
         "repo": null,
         "path": "app.roughsketch/roughsketch",
         "url": "https://roughsketch.app",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.52choujiang/wechat-channels-insights#socialdatax-微信视频号-wechat-channels-mcp",
+      "type": "mcp",
+      "name": "SocialDataX 微信视频号 WeChat Channels MCP",
+      "description": {
+        "zh": null,
+        "en": "WeChat Channels videos, comments, users, transcripts, and Official Account article details.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration",
+        "writing",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.52choujiang/wechat-channels-insights",
+        "url": "https://registry.modelcontextprotocol.io/?q=com.52choujiang%2Fwechat-channels-insights",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.gocushy/mcp#com.gocushy-mcp",
+      "type": "mcp",
+      "name": "com.gocushy/mcp",
+      "description": {
+        "zh": null,
+        "en": "The checkout your AI runs — bumps, upsells, subscriptions, tax and affiliates on your own Stripe.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.gocushy/mcp",
+        "url": "https://gocushy.com",
         "tier": 0
       },
       "quality": {

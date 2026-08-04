@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T20:24:51.074Z",
+  "generatedAt": "2026-08-04T20:22:06.223Z",
   "category": {
     "key": "database",
     "zh": "数据库",
@@ -69,7 +69,7 @@
       }
     ]
   },
-  "total": 147,
+  "total": 151,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/claude-api/skill.md#claude-api",
@@ -4053,7 +4053,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 711,
+      "stars": 725,
       "curatedMentions": 1
     },
     {
@@ -5661,6 +5661,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "plugin:beshkenadze/claude-skills-marketplace:.claude-plugin/marketplace.json#zenstack",
+      "type": "plugin",
+      "name": "zenstack",
+      "description": {
+        "zh": null,
+        "en": "ZenStack access policies and enhanced Prisma ORM. Use when defining access control rules (@@allow/@@deny), integrating with tRPC, setting up auth(), or working with ZModel schemas.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "beshkenadze/claude-skills-marketplace",
+        "path": ".claude-plugin/marketplace.json",
+        "url": "https://github.com/beshkenadze/claude-skills-marketplace/blob/HEAD/.claude-plugin/marketplace.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 28,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 3,
+      "curatedMentions": 0
+    },
+    {
       "id": "rules:nedcodes-ok/cursorrules-collection:rules/practices/database-migrations.cursorrules#database-migrations.cursorrules",
       "type": "rules",
       "name": "database-migrations.cursorrules",
@@ -5687,7 +5736,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 29,
+        "score": 28,
         "gates": {
           "security": true,
           "schema": true,
@@ -5736,7 +5785,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 29,
+        "score": 28,
         "gates": {
           "security": true,
           "schema": true,
@@ -5787,7 +5836,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 29,
+        "score": 28,
         "gates": {
           "security": true,
           "schema": true,
@@ -5836,7 +5885,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 29,
+        "score": 28,
         "gates": {
           "security": true,
           "schema": true,
@@ -5885,7 +5934,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 29,
+        "score": 28,
         "gates": {
           "security": true,
           "schema": true,
@@ -5934,7 +5983,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 29,
+        "score": 28,
         "gates": {
           "security": true,
           "schema": true,
@@ -5984,7 +6033,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 29,
+        "score": 28,
         "gates": {
           "security": true,
           "schema": true,
@@ -6005,55 +6054,6 @@
       "templateFamily": "nedcodes-ok/cursorrules-collection:sequelize",
       "familySize": 2,
       "stars": 35,
-      "curatedMentions": 0
-    },
-    {
-      "id": "plugin:beshkenadze/claude-skills-marketplace:.claude-plugin/marketplace.json#zenstack",
-      "type": "plugin",
-      "name": "zenstack",
-      "description": {
-        "zh": null,
-        "en": "ZenStack access policies and enhanced Prisma ORM. Use when defining access control rules (@@allow/@@deny), integrating with tRPC, setting up auth(), or working with ZModel schemas.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "database"
-      ],
-      "targets": [
-        "claude-code"
-      ],
-      "source": {
-        "repo": "beshkenadze/claude-skills-marketplace",
-        "path": ".claude-plugin/marketplace.json",
-        "url": "https://github.com/beshkenadze/claude-skills-marketplace/blob/HEAD/.claude-plugin/marketplace.json",
-        "tier": 2
-      },
-      "quality": {
-        "score": 28,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 3,
       "curatedMentions": 0
     },
     {
@@ -6079,6 +6079,56 @@
         "repo": "AIops-tools/Postgres-AIops",
         "path": "io.github.AIops-tools/postgres-aiops",
         "url": "https://github.com/AIops-tools/Postgres-AIops",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:aiven-open/mcp-aiven:io.aiven/mcp#aiven-mcp",
+      "type": "mcp",
+      "name": "Aiven MCP",
+      "description": {
+        "zh": null,
+        "en": "Provision PostgreSQL, manage Apache Kafka, and deploy apps with Aiven - all from your AI assistant.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database",
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "aiven-open/mcp-aiven",
+        "path": "io.aiven/mcp",
+        "url": "https://github.com/aiven-open/mcp-aiven",
         "tier": 0
       },
       "quality": {
@@ -6897,6 +6947,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:kimhyeongrae0/orangerail:io.github.kimhyeongrae0/orangerail#io.github.kimhyeongrae0-orangerail",
+      "type": "mcp",
+      "name": "io.github.KimHyeongRae0/orangerail",
+      "description": {
+        "zh": null,
+        "en": "Turns your Prisma schema into typed MCP tools, with destructive writes gated behind human approval",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "KimHyeongRae0/orangerail",
+        "path": "io.github.KimHyeongRae0/orangerail",
+        "url": "https://github.com/KimHyeongRae0/orangerail",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:kychee-com/run402:com.run402/mcp#run402",
       "type": "mcp",
       "name": "Run402",
@@ -7047,6 +7146,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:cloud.wavehouse/mcp#wavehouse-cloud",
+      "type": "mcp",
+      "name": "WaveHouse Cloud",
+      "description": {
+        "zh": null,
+        "en": "Browse, query, and administer your managed WaveHouse + ClickHouse projects (schema, pipes, policy).",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "cloud.wavehouse/mcp",
+        "url": "https://wavehouse.cloud",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.mcpgatepro/pgauditor#pgauditor",
       "type": "mcp",
       "name": "PGAuditor",
@@ -7119,6 +7268,56 @@
         "repo": null,
         "path": "com.tenantsdb/tenantsdb",
         "url": "https://tenantsdb.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:st.seedfa/seedfast#seedfast",
+      "type": "mcp",
+      "name": "Seedfast",
+      "description": {
+        "zh": null,
+        "en": "Generates relationally valid test data in a PostgreSQL database from its live schema.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database",
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "st.seedfa/seedfast",
+        "url": "https://seedfa.st",
         "tier": 0
       },
       "quality": {

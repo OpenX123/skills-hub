@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T20:24:51.074Z",
+  "generatedAt": "2026-08-04T20:22:06.223Z",
   "category": {
     "key": "security",
     "zh": "安全审计",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 282,
+  "total": 294,
   "entries": [
     {
       "id": "skill:composiohq/awesome-claude-skills:composio-skills/ahrefs-automation/skill.md#ahrefs-automation",
@@ -6733,7 +6733,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 711,
+      "stars": 725,
       "curatedMentions": 1
     },
     {
@@ -6787,7 +6787,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 711,
+      "stars": 725,
       "curatedMentions": 1
     },
     {
@@ -6841,7 +6841,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 711,
+      "stars": 725,
       "curatedMentions": 1
     },
     {
@@ -6894,7 +6894,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 711,
+      "stars": 725,
       "curatedMentions": 1
     },
     {
@@ -6947,7 +6947,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 711,
+      "stars": 725,
       "curatedMentions": 1
     },
     {
@@ -7104,7 +7104,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 711,
+      "stars": 725,
       "curatedMentions": 1
     },
     {
@@ -9587,206 +9587,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "rules:nedcodes-ok/cursorrules-collection:rules/practices/code-review.cursorrules#code-review.cursorrules",
-      "type": "rules",
-      "name": "code-review.cursorrules",
-      "description": {
-        "zh": null,
-        "en": "- Review for: correctness, readability, maintainability, security - Be specific — point to the line, suggest the fix - Ask questions instead of making demands - Approve when good enough — don't block on style preferences",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding",
-        "security"
-      ],
-      "targets": [
-        "cursor"
-      ],
-      "source": {
-        "repo": "nedcodes-ok/cursorrules-collection",
-        "path": "rules/practices/code-review.cursorrules",
-        "url": "https://github.com/nedcodes-ok/cursorrules-collection/blob/HEAD/rules/practices/code-review.cursorrules",
-        "tier": 2
-      },
-      "quality": {
-        "score": 29,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 35,
-      "curatedMentions": 0
-    },
-    {
-      "id": "rules:nedcodes-ok/cursorrules-collection:rules/practices/git-workflow.cursorrules#git-workflow.cursorrules",
-      "type": "rules",
-      "name": "git-workflow.cursorrules",
-      "description": {
-        "zh": null,
-        "en": "- Write clear commit messages: imperative mood, under 72 chars - Format: type(scope): description (feat, fix, refactor, docs, test, chore) - One logical change per commit — don't mix refactors with features - Never commit secrets, credentials, or .env files",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding",
-        "security"
-      ],
-      "targets": [
-        "cursor"
-      ],
-      "source": {
-        "repo": "nedcodes-ok/cursorrules-collection",
-        "path": "rules/practices/git-workflow.cursorrules",
-        "url": "https://github.com/nedcodes-ok/cursorrules-collection/blob/HEAD/rules/practices/git-workflow.cursorrules",
-        "tier": 2
-      },
-      "quality": {
-        "score": 29,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 35,
-      "curatedMentions": 0
-    },
-    {
-      "id": "rules:nedcodes-ok/cursorrules-collection:rules/practices/security.cursorrules#security.cursorrules",
-      "type": "rules",
-      "name": "security.cursorrules",
-      "description": {
-        "zh": null,
-        "en": "- Validate ALL user input — type, length, format, range - Use allowlists over denylists for input validation - Sanitize output based on context (HTML, SQL, shell, URL) - Never trust client-side validation alone",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "security"
-      ],
-      "targets": [
-        "cursor"
-      ],
-      "source": {
-        "repo": "nedcodes-ok/cursorrules-collection",
-        "path": "rules/practices/security.cursorrules",
-        "url": "https://github.com/nedcodes-ok/cursorrules-collection/blob/HEAD/rules/practices/security.cursorrules",
-        "tier": 2
-      },
-      "quality": {
-        "score": 29,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 35,
-      "curatedMentions": 0
-    },
-    {
-      "id": "rules:nedcodes-ok/cursorrules-collection:rules/tools/nextauth.cursorrules#nextauth.cursorrules",
-      "type": "rules",
-      "name": "nextauth.cursorrules",
-      "description": {
-        "zh": null,
-        "en": "- Define auth config in a single auth.ts file at the project root - Use environment variables for all provider secrets (GITHUB_ID, GOOGLE_SECRET, etc.) - Always configure a database adapter for production (Prisma, Drizzle, etc.) - Set NEXTAUTH_SECRET in environment — never hardcode",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "security",
-        "coding",
-        "database"
-      ],
-      "targets": [
-        "cursor"
-      ],
-      "source": {
-        "repo": "nedcodes-ok/cursorrules-collection",
-        "path": "rules/tools/nextauth.cursorrules",
-        "url": "https://github.com/nedcodes-ok/cursorrules-collection/blob/HEAD/rules/tools/nextauth.cursorrules",
-        "tier": 2
-      },
-      "quality": {
-        "score": 29,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": false,
-          "alive": true
-        },
-        "passed": false,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": "rules:nedcodes-ok/cursorrules-collection:rules-mdc/tools/nextauth.mdc#nextauth",
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 35,
-      "curatedMentions": 0
-    },
-    {
       "id": "plugin:beshkenadze/claude-skills-marketplace:.claude-plugin/marketplace.json#code-reviewer",
       "type": "plugin",
       "name": "code-reviewer",
@@ -9886,6 +9686,206 @@
       "curatedMentions": 0
     },
     {
+      "id": "rules:nedcodes-ok/cursorrules-collection:rules/practices/code-review.cursorrules#code-review.cursorrules",
+      "type": "rules",
+      "name": "code-review.cursorrules",
+      "description": {
+        "zh": null,
+        "en": "- Review for: correctness, readability, maintainability, security - Be specific — point to the line, suggest the fix - Ask questions instead of making demands - Approve when good enough — don't block on style preferences",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "security"
+      ],
+      "targets": [
+        "cursor"
+      ],
+      "source": {
+        "repo": "nedcodes-ok/cursorrules-collection",
+        "path": "rules/practices/code-review.cursorrules",
+        "url": "https://github.com/nedcodes-ok/cursorrules-collection/blob/HEAD/rules/practices/code-review.cursorrules",
+        "tier": 2
+      },
+      "quality": {
+        "score": 28,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 35,
+      "curatedMentions": 0
+    },
+    {
+      "id": "rules:nedcodes-ok/cursorrules-collection:rules/practices/git-workflow.cursorrules#git-workflow.cursorrules",
+      "type": "rules",
+      "name": "git-workflow.cursorrules",
+      "description": {
+        "zh": null,
+        "en": "- Write clear commit messages: imperative mood, under 72 chars - Format: type(scope): description (feat, fix, refactor, docs, test, chore) - One logical change per commit — don't mix refactors with features - Never commit secrets, credentials, or .env files",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "security"
+      ],
+      "targets": [
+        "cursor"
+      ],
+      "source": {
+        "repo": "nedcodes-ok/cursorrules-collection",
+        "path": "rules/practices/git-workflow.cursorrules",
+        "url": "https://github.com/nedcodes-ok/cursorrules-collection/blob/HEAD/rules/practices/git-workflow.cursorrules",
+        "tier": 2
+      },
+      "quality": {
+        "score": 28,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 35,
+      "curatedMentions": 0
+    },
+    {
+      "id": "rules:nedcodes-ok/cursorrules-collection:rules/practices/security.cursorrules#security.cursorrules",
+      "type": "rules",
+      "name": "security.cursorrules",
+      "description": {
+        "zh": null,
+        "en": "- Validate ALL user input — type, length, format, range - Use allowlists over denylists for input validation - Sanitize output based on context (HTML, SQL, shell, URL) - Never trust client-side validation alone",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "cursor"
+      ],
+      "source": {
+        "repo": "nedcodes-ok/cursorrules-collection",
+        "path": "rules/practices/security.cursorrules",
+        "url": "https://github.com/nedcodes-ok/cursorrules-collection/blob/HEAD/rules/practices/security.cursorrules",
+        "tier": 2
+      },
+      "quality": {
+        "score": 28,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 35,
+      "curatedMentions": 0
+    },
+    {
+      "id": "rules:nedcodes-ok/cursorrules-collection:rules/tools/nextauth.cursorrules#nextauth.cursorrules",
+      "type": "rules",
+      "name": "nextauth.cursorrules",
+      "description": {
+        "zh": null,
+        "en": "- Define auth config in a single auth.ts file at the project root - Use environment variables for all provider secrets (GITHUB_ID, GOOGLE_SECRET, etc.) - Always configure a database adapter for production (Prisma, Drizzle, etc.) - Set NEXTAUTH_SECRET in environment — never hardcode",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "coding",
+        "database"
+      ],
+      "targets": [
+        "cursor"
+      ],
+      "source": {
+        "repo": "nedcodes-ok/cursorrules-collection",
+        "path": "rules/tools/nextauth.cursorrules",
+        "url": "https://github.com/nedcodes-ok/cursorrules-collection/blob/HEAD/rules/tools/nextauth.cursorrules",
+        "tier": 2
+      },
+      "quality": {
+        "score": 28,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": false,
+          "alive": true
+        },
+        "passed": false,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": "rules:nedcodes-ok/cursorrules-collection:rules-mdc/tools/nextauth.mdc#nextauth",
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 35,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:bobaba99/motionlint:io.github.bobaba99/motionlint#motionlint",
       "type": "mcp",
       "name": "MotionLint",
@@ -9909,6 +9909,56 @@
         "repo": "bobaba99/motionlint",
         "path": "io.github.bobaba99/motionlint",
         "url": "https://github.com/bobaba99/motionlint",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:drzamarian/n8n-mcp-community:io.github.drzamarian/n8n-mcp-community#n8n-mcp-community",
+      "type": "mcp",
+      "name": "n8n MCP Community",
+      "description": {
+        "zh": null,
+        "en": "A security-focused MCP server for self-hosted n8n Community Edition.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "drzamarian/n8n-mcp-community",
+        "path": "io.github.drzamarian/n8n-mcp-community",
+        "url": "https://github.com/drzamarian/n8n-mcp-community",
         "tier": 0
       },
       "quality": {
@@ -11164,6 +11214,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:charlacsina/openaeo-audit:dev.openaeo/audit#openaeo",
+      "type": "mcp",
+      "name": "OpenAEO",
+      "description": {
+        "zh": null,
+        "en": "Audit a site for AI search visibility and write the fixes: robots.txt, llms.txt, JSON-LD. Free, MIT.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "charlacsina/openaeo-audit",
+        "path": "dev.openaeo/audit",
+        "url": "https://github.com/charlacsina/openaeo-audit",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:d08m/crazyseo:io.github.d08m/crazyseo#crazyseo",
       "type": "mcp",
       "name": "CrazySEO",
@@ -11656,6 +11756,106 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:horizungroup/horizun-msproject-mcp:io.github.horizungroup/horizun-msproject-mcp#microsoft-project",
+      "type": "mcp",
+      "name": "Microsoft Project",
+      "description": {
+        "zh": null,
+        "en": "Audit, reschedule and author Microsoft Project schedules. No Java, no Project install.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "HorizunGroup/horizun-msproject-mcp",
+        "path": "io.github.HorizunGroup/horizun-msproject-mcp",
+        "url": "https://github.com/HorizunGroup/horizun-msproject-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:houtini-ai/seo-audit:io.github.houtini-ai/seo-audit-console#io.github.houtini-ai-seo-audit-console",
+      "type": "mcp",
+      "name": "io.github.houtini-ai/seo-audit-console",
+      "description": {
+        "zh": null,
+        "en": "Technical SEO audits in Claude: GSC + first-party crawl + DataForSEO. 93 prioritised checks + fixes.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "houtini-ai/seo-audit",
+        "path": "io.github.houtini-ai/seo-audit-console",
+        "url": "https://github.com/houtini-ai/seo-audit",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:hs3434/sandbox-env-mcp:io.github.hs3434/sandbox-env-mcp#sandbox-env-mcp",
       "type": "mcp",
       "name": "Sandbox Env MCP",
@@ -11804,12 +12004,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:jblaz6335/mcp-server-aidatamarketplace:io.github.jblaz6335/ai-data-marketplace#dopaminedesk-agent-data-arcade",
+      "id": "mcp:jblaz6335/mcp-server-aidatamarketplace:io.github.jblaz6335/ai-data-marketplace#dopaminedesk-x402-marketplace",
       "type": "mcp",
-      "name": "DopamineDesk Agent Data Arcade",
+      "name": "DopamineDesk x402 Marketplace",
       "description": {
         "zh": null,
-        "en": "Call 43 audited, pay-per-use data and security products with x402 v2 USDC payments on Base.",
+        "en": "Call 66 audited x402 data, verification, and security products with capped auto-pay on Base.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -12149,12 +12349,61 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:kryptosai/mcp-seatbelt:io.github.kryptosai/mcp-seatbelt#io.github.kryptosai-mcp-seatbelt",
+      "type": "mcp",
+      "name": "io.github.KryptosAI/mcp-seatbelt",
+      "description": {
+        "zh": null,
+        "en": "MCP runtime security proxy. Blocks dangerous AI agent tool calls with a policy engine.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "KryptosAI/mcp-seatbelt",
+        "path": "io.github.KryptosAI/mcp-seatbelt",
+        "url": "https://github.com/KryptosAI/mcp-seatbelt",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:leandropg19/cuba-memorys:io.github.leandropg19/cuba-memorys#io.github.leandropg19-cuba-memorys",
       "type": "mcp",
       "name": "io.github.LeandroPG19/cuba-memorys",
       "description": {
         "zh": null,
-        "en": "Persistent memory MCP server. 29 tools, BM25+MMR+OOD retrieval, CFR-21 audit, code graph.",
+        "en": "Persistent memory MCP server. 29 tools, BM25+MMR+OOD retrieval, tamper-evident audit, code graph.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -13140,6 +13389,106 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.vpatser1/mcp-server-security-scanner#io.github.vpatser1-mcp-server-security-scanner",
+      "type": "mcp",
+      "name": "io.github.vpatser1/mcp-server-security-scanner",
+      "description": {
+        "zh": null,
+        "en": "Scan MCP configs for 30+ CVEs, prompt injection, tool poisoning; validate OAuth configs",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.vpatser1/mcp-server-security-scanner",
+        "url": "https://aivp-mcp.vercel.app",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.vpatser1/seo-audit-tool#io.github.vpatser1-seo-audit-tool",
+      "type": "mcp",
+      "name": "io.github.vpatser1/seo-audit-tool",
+      "description": {
+        "zh": null,
+        "en": "SEO page audits with 0-100 scoring, keyword analysis, link checking, sitemap validation",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.vpatser1/seo-audit-tool",
+        "url": "https://aivp-mcp.vercel.app",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.sealsecurity/mcp#seal-security",
       "type": "mcp",
       "name": "Seal Security",
@@ -13162,6 +13511,56 @@
         "repo": null,
         "path": "io.sealsecurity/mcp",
         "url": "https://app.sealsecurity.io",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:nz.tier1.mcp/it-assessment#tier1-it-assessment",
+      "type": "mcp",
+      "name": "Tier1 IT Assessment",
+      "description": {
+        "zh": null,
+        "en": "Read-only IT Health Check, domain security, recommendations, resources, and indicative pricing.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "nz.tier1.mcp/it-assessment",
+        "url": "https://mcp.tier1.nz/resources/it-health-check#mcp",
         "tier": 0
       },
       "quality": {
@@ -13785,6 +14184,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:pete-builds/mcp-unifi:io.github.pete-builds/unifi#unifi-gateway",
+      "type": "mcp",
+      "name": "UniFi Gateway",
+      "description": {
+        "zh": null,
+        "en": "Safe-by-default UniFi MCP: Network + Protect + Access, multi-site, dry-run, audit log.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "pete-builds/mcp-unifi",
+        "path": "io.github.pete-builds/unifi",
+        "url": "https://github.com/pete-builds/mcp-unifi",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:phasespace-labs/palinode:io.github.phasespace-labs/palinode#palinode",
       "type": "mcp",
       "name": "Palinode",
@@ -14082,6 +14530,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:tenova-labs/swt3-ai:io.tenova/swt3-witness#swt3-ai-witness",
+      "type": "mcp",
+      "name": "SWT3 AI Witness",
+      "description": {
+        "zh": null,
+        "en": "Cryptographic AI governance + audit. 32 tools, 34 frameworks. EU AI Act, NIST, OWASP, CMMC, SR 11-7",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "tenova-labs/swt3-ai",
+        "path": "io.tenova/swt3-witness",
+        "url": "https://github.com/tenova-labs/swt3-ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:threadlinqs-cmd/intelthreadlinqs-mcp:com.threadlinqs/intelthreadlinqs-mcp#com.threadlinqs-intelthreadlinqs-mcp",
       "type": "mcp",
       "name": "com.threadlinqs/intelthreadlinqs-mcp",
@@ -14204,6 +14701,56 @@
         "repo": "tidynest/raven-nest-mcp",
         "path": "io.github.tidynest/raven-nest-mcp",
         "url": "https://github.com/tidynest/raven-nest-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:unaibamir/agent-abilities-for-mcp:io.github.unaibamir/agent-abilities-for-mcp#agent-abilities-for-mcp",
+      "type": "mcp",
+      "name": "Agent Abilities for MCP",
+      "description": {
+        "zh": null,
+        "en": "Self-hosted WordPress MCP server with per-capability permission controls and a full audit log.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "unaibamir/agent-abilities-for-mcp",
+        "path": "io.github.unaibamir/agent-abilities-for-mcp",
+        "url": "https://github.com/unaibamir/agent-abilities-for-mcp",
         "tier": 0
       },
       "quality": {
@@ -14400,6 +14947,55 @@
         "repo": "vulncheck-oss/mcp",
         "path": "io.github.vulncheck-oss/mcp",
         "url": "https://github.com/vulncheck-oss/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:wearewarp/mcp-server:com.wearewarp.www/freight#warp-freight",
+      "type": "mcp",
+      "name": "Warp Freight",
+      "description": {
+        "zh": null,
+        "en": "Track, document, and audit freight across 20,000+ carriers and 50+ cross-docks.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "wearewarp/mcp-server",
+        "path": "com.wearewarp.www/freight",
+        "url": "https://github.com/wearewarp/mcp-server",
         "tier": 0
       },
       "quality": {

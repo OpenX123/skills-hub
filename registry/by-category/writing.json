@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T20:24:51.074Z",
+  "generatedAt": "2026-08-04T20:22:06.223Z",
   "category": {
     "key": "writing",
     "zh": "内容写作",
@@ -85,7 +85,7 @@
       }
     ]
   },
-  "total": 337,
+  "total": 355,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/pptx/skill.md#pptx",
@@ -979,6 +979,59 @@
         "repo": "davila7/claude-code-templates",
         "path": "cli-tool/components/skills/gmod-addon-maker/SKILL.md",
         "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/gmod-addon-maker/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 75,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 30081,
+      "curatedMentions": 2
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/productivity/avoid-ai-writing/skill.md#avoid-ai-writing",
+      "type": "skill",
+      "name": "avoid-ai-writing",
+      "description": {
+        "zh": null,
+        "en": "Audit and rewrite content to remove AI writing patterns (\"AI-isms\"). Use this skill when asked to \"remove AI-isms,\" \"clean up AI writing,\" \"edit writing for AI patterns,\" \"audit writing for AI tells,\" or \"make this sound less like AI.\" Supports a detect-only mode, an edit-in-place mode for files, an optional voice profile (casual / professional / technical / warm / blunt), and an iterate-to-convergence pass.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/productivity/avoid-ai-writing/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/productivity/avoid-ai-writing/SKILL.md",
         "tier": 2
       },
       "quality": {
@@ -13938,7 +13991,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 711,
+      "stars": 725,
       "curatedMentions": 1
     },
     {
@@ -13992,7 +14045,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 711,
+      "stars": 725,
       "curatedMentions": 1
     },
     {
@@ -14046,7 +14099,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 711,
+      "stars": 725,
       "curatedMentions": 1
     },
     {
@@ -15045,6 +15098,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "plugin:beshkenadze/claude-skills-marketplace:.claude-plugin/marketplace.json#swiftui-developer",
+      "type": "plugin",
+      "name": "swiftui-developer",
+      "description": {
+        "zh": null,
+        "en": "Develop SwiftUI applications for iOS/macOS. Use when writing SwiftUI views, managing state, or building Apple platform UIs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "beshkenadze/claude-skills-marketplace",
+        "path": ".claude-plugin/marketplace.json",
+        "url": "https://github.com/beshkenadze/claude-skills-marketplace/blob/HEAD/.claude-plugin/marketplace.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 28,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 3,
+      "curatedMentions": 0
+    },
+    {
       "id": "rules:nedcodes-ok/cursorrules-collection:rules/practices/accessibility.cursorrules#accessibility.cursorrules",
       "type": "rules",
       "name": "accessibility.cursorrules",
@@ -15071,7 +15173,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 29,
+        "score": 28,
         "gates": {
           "security": true,
           "schema": true,
@@ -15121,7 +15223,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 29,
+        "score": 28,
         "gates": {
           "security": true,
           "schema": true,
@@ -15145,12 +15247,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "plugin:beshkenadze/claude-skills-marketplace:.claude-plugin/marketplace.json#swiftui-developer",
-      "type": "plugin",
-      "name": "swiftui-developer",
+      "id": "mcp:antohins/seo-tools-mcp:io.github.antohins/seo-tools-mcp-aparser#seo-tools-a-parser-bridge",
+      "type": "mcp",
+      "name": "SEO Tools: A-Parser bridge",
       "description": {
         "zh": null,
-        "en": "Develop SwiftUI applications for iOS/macOS. Use when writing SwiftUI views, managing state, or building Apple platform UIs.",
+        "en": "Bridge to a self-hosted A-Parser: SERP, suggests and 150+ parsers via its API (read-only).",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -15161,16 +15263,16 @@
         "writing"
       ],
       "targets": [
-        "claude-code"
+        "mcp-client"
       ],
       "source": {
-        "repo": "beshkenadze/claude-skills-marketplace",
-        "path": ".claude-plugin/marketplace.json",
-        "url": "https://github.com/beshkenadze/claude-skills-marketplace/blob/HEAD/.claude-plugin/marketplace.json",
-        "tier": 2
+        "repo": "antohins/seo-tools-mcp",
+        "path": "io.github.antohins/seo-tools-mcp-aparser",
+        "url": "https://github.com/antohins/seo-tools-mcp",
+        "tier": 0
       },
       "quality": {
-        "score": 28,
+        "score": 24,
         "gates": {
           "security": true,
           "schema": true,
@@ -15190,8 +15292,310 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 3,
-      "curatedMentions": 0
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:antohins/seo-tools-mcp:io.github.antohins/seo-tools-mcp-gsc#seo-tools-google-search-console",
+      "type": "mcp",
+      "name": "SEO Tools: Google Search Console",
+      "description": {
+        "zh": null,
+        "en": "Google Search Console: Search Analytics, URL Inspection, sitemaps (read-only, OAuth/service acct).",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "research",
+        "writing",
+        "data"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "antohins/seo-tools-mcp",
+        "path": "io.github.antohins/seo-tools-mcp-gsc",
+        "url": "https://github.com/antohins/seo-tools-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:antohins/seo-tools-mcp:io.github.antohins/seo-tools-mcp-metrika#seo-tools-yandex.metrica",
+      "type": "mcp",
+      "name": "SEO Tools: Yandex.Metrica",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Yandex.Metrica Stat API (read-only).",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "antohins/seo-tools-mcp",
+        "path": "io.github.antohins/seo-tools-mcp-metrika",
+        "url": "https://github.com/antohins/seo-tools-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:antohins/seo-tools-mcp:io.github.antohins/seo-tools-mcp-wordstat#seo-tools-yandex-wordstat",
+      "type": "mcp",
+      "name": "SEO Tools: Yandex Wordstat",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Yandex Wordstat keyword frequencies (official API v2). Free Yandex Cloud Search API.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "meta",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "antohins/seo-tools-mcp",
+        "path": "io.github.antohins/seo-tools-mcp-wordstat",
+        "url": "https://github.com/antohins/seo-tools-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:antohins/seo-tools-mcp:io.github.antohins/seo-tools-mcp-xmlriver#seo-tools-xmlriver-serp-(google-+-yandex)",
+      "type": "mcp",
+      "name": "SEO Tools: XMLRiver SERP (Google + Yandex)",
+      "description": {
+        "zh": null,
+        "en": "Google & Yandex SERP, image/news verticals and URL indexation checks via XMLRiver (read-only).",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "antohins/seo-tools-mcp",
+        "path": "io.github.antohins/seo-tools-mcp-xmlriver",
+        "url": "https://github.com/antohins/seo-tools-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:antohins/seo-tools-mcp:io.github.antohins/seo-tools-mcp-xmlstock#seo-tools-xmlstock-serp-(google-+-yandex)",
+      "type": "mcp",
+      "name": "SEO Tools: XMLStock SERP (Google + Yandex)",
+      "description": {
+        "zh": null,
+        "en": "Google & Yandex SERP + Yandex Wordstat via XMLStock (read-only).",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "antohins/seo-tools-mcp",
+        "path": "io.github.antohins/seo-tools-mcp-xmlstock",
+        "url": "https://github.com/antohins/seo-tools-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:antohins/seo-tools-mcp:io.github.antohins/seo-tools-mcp-ywm#seo-tools-yandex.webmaster",
+      "type": "mcp",
+      "name": "SEO Tools: Yandex.Webmaster",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Yandex.Webmaster search queries (read-only).",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "meta",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "antohins/seo-tools-mcp",
+        "path": "io.github.antohins/seo-tools-mcp-ywm",
+        "url": "https://github.com/antohins/seo-tools-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
     },
     {
       "id": "mcp:beckettlab/beckett-godot-mcp:io.github.beckettlab/beckett-godot-mcp#beckett-mcp-for-godot",
@@ -15249,7 +15653,7 @@
       "name": "Signs of AI Writing",
       "description": {
         "zh": null,
-        "en": "Bilingual (EN/ES) AI-writing detection that shows the evidence, plus originality checking.",
+        "en": "AI-writing detection (EN/ES) that shows the evidence: named tells, hidden characters, citations.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -15790,6 +16194,106 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:houtini-ai/seo-audit:io.github.houtini-ai/seo-audit-console#io.github.houtini-ai-seo-audit-console",
+      "type": "mcp",
+      "name": "io.github.houtini-ai/seo-audit-console",
+      "description": {
+        "zh": null,
+        "en": "Technical SEO audits in Claude: GSC + first-party crawl + DataForSEO. 93 prioritised checks + fixes.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "houtini-ai/seo-audit",
+        "path": "io.github.houtini-ai/seo-audit-console",
+        "url": "https://github.com/houtini-ai/seo-audit",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:inhabitants/sapiens-mcp:com.sapiensinteticos/sapiens#sapiens-sintéticos",
+      "type": "mcp",
+      "name": "Sapiens Sintéticos",
+      "description": {
+        "zh": null,
+        "en": "Operate your Sapiens Sintéticos AI studio: generate image, article, voice, music and video.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media",
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "inhabitants/sapiens-mcp",
+        "path": "com.sapiensinteticos/sapiens",
+        "url": "https://github.com/inhabitants/sapiens-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:legalithm-org/legalithm:io.github.pedrammadani/legalithm-mcp-server#io.github.pedrammadani-legalithm-mcp-server",
       "type": "mcp",
       "name": "io.github.PedramMadani/legalithm-mcp-server",
@@ -15945,7 +16449,7 @@
       "name": "com.ainetcafe/ai-netcafe",
       "description": {
         "zh": null,
-        "en": "Compare LLM cost/latency on one prompt; PDF translate, PPTX, cited research. No key needed.",
+        "en": "Publish your app to managed hosting with one call; compare LLM cost; PDF translate, PPTX, research.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -15964,6 +16468,107 @@
         "repo": "mario03690/ai-netcafe",
         "path": "com.ainetcafe/ai-netcafe",
         "url": "https://github.com/mario03690/ai-netcafe",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:app.safeship/mcp#safeship",
+      "type": "mcp",
+      "name": "Safeship",
+      "description": {
+        "zh": null,
+        "en": "API monitoring from your editor. Checks the JSON your endpoints return, not just the status code.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops",
+        "coding",
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "app.safeship/mcp",
+        "url": "https://safeship.app/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:blog.tenjin/tenjin#tenjin",
+      "type": "mcp",
+      "name": "Tenjin",
+      "description": {
+        "zh": null,
+        "en": "Search, read & publish paid essays. Pay-per-read in USDC on Base (x402); wallet-only, no account.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "research",
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "blog.tenjin/tenjin",
+        "url": "https://tenjin.blog/agents",
         "tier": 0
       },
       "quality": {
@@ -16042,6 +16647,106 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:coach.prose/prose-coach#prose-coach",
+      "type": "mcp",
+      "name": "Prose Coach",
+      "description": {
+        "zh": null,
+        "en": "Deterministic writing filter. Marks 43 AI patterns with the line and the fix.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "coach.prose/prose-coach",
+        "url": "https://registry.modelcontextprotocol.io/?q=coach.prose%2Fprose-coach",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.52choujiang/wechat-channels-insights#socialdatax-微信视频号-wechat-channels-mcp",
+      "type": "mcp",
+      "name": "SocialDataX 微信视频号 WeChat Channels MCP",
+      "description": {
+        "zh": null,
+        "en": "WeChat Channels videos, comments, users, transcripts, and Official Account article details.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration",
+        "writing",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.52choujiang/wechat-channels-insights",
+        "url": "https://registry.modelcontextprotocol.io/?q=com.52choujiang%2Fwechat-channels-insights",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.momenticmarketing/momentic#com.momenticmarketing-momentic",
       "type": "mcp",
       "name": "com.momenticmarketing/momentic",
@@ -16064,6 +16769,55 @@
         "repo": null,
         "path": "com.momenticmarketing/momentic",
         "url": "https://momenticmarketing.com/agent-tools",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.papacasper/mcp-toolbelt#mcp-toolbelt",
+      "type": "mcp",
+      "name": "mcp-toolbelt",
+      "description": {
+        "zh": null,
+        "en": "Pay-per-call web, SEO, DNS, and network tools via the x402 protocol.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.papacasper/mcp-toolbelt",
+        "url": "https://registry.modelcontextprotocol.io/?q=com.papacasper%2Fmcp-toolbelt",
         "tier": 0
       },
       "quality": {
@@ -16339,6 +17093,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.vidmoat/vidmoat#vidmoat",
+      "type": "mcp",
+      "name": "Vidmoat",
+      "description": {
+        "zh": null,
+        "en": "AI video editor: create projects, edit timelines, add captions and effects, and render videos.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.vidmoat/vidmoat",
+        "url": "https://www.vidmoat.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:dev.cite42/mcp#dev.cite42-mcp",
       "type": "mcp",
       "name": "dev.cite42/mcp",
@@ -16413,6 +17217,56 @@
         "repo": null,
         "path": "io.github.retampweb/pa1m-seo",
         "url": "https://registry.modelcontextprotocol.io/?q=io.github.retampweb%2Fpa1m-seo",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.vpatser1/seo-audit-tool#io.github.vpatser1-seo-audit-tool",
+      "type": "mcp",
+      "name": "io.github.vpatser1/seo-audit-tool",
+      "description": {
+        "zh": null,
+        "en": "SEO page audits with 0-100 scoring, keyword analysis, link checking, sitemap validation",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.vpatser1/seo-audit-tool",
+        "url": "https://aivp-mcp.vercel.app",
         "tier": 0
       },
       "quality": {
@@ -16662,6 +17516,56 @@
         "repo": "NeoZi12/dispatchseo",
         "path": "io.github.NeoZi12/dispatchseo",
         "url": "https://github.com/NeoZi12/dispatchseo",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:notnull92/hera-agent-unity:io.github.notnull92/hera-agent-unity#hera-agent-unity",
+      "type": "mcp",
+      "name": "Hera Agent Unity",
+      "description": {
+        "zh": null,
+        "en": "Control and verify a live Unity Editor through a local, low-token MCP server.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "NotNull92/hera-agent-unity",
+        "path": "io.github.NotNull92/hera-agent-unity",
+        "url": "https://github.com/NotNull92/hera-agent-unity",
         "tier": 0
       },
       "quality": {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T20:24:51.074Z",
+  "generatedAt": "2026-08-04T20:22:06.223Z",
   "category": {
     "key": "design",
     "zh": "设计创意",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 430,
+  "total": 440,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/brand-guidelines/skill.md#brand-guidelines",
@@ -6224,7 +6224,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 69,
+        "score": 68,
         "gates": {
           "security": true,
           "schema": true,
@@ -6239,61 +6239,6 @@
         "score": 21
       },
       "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 30081,
-      "curatedMentions": 2
-    },
-    {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/scientific/latex-posters/skill.md#latex-posters",
-      "type": "skill",
-      "name": "latex-posters",
-      "description": {
-        "zh": null,
-        "en": "Create professional research posters in LaTeX using beamerposter, tikzposter, or baposter. Support for conference presentations, academic posters, and scientific communication. Includes layout design, color schemes, multi-column formats, figure integration, and poster-specific best practices for visual communication.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "document",
-        "design",
-        "research"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "davila7/claude-code-templates",
-        "path": "cli-tool/components/skills/scientific/latex-posters/SKILL.md",
-        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/scientific/latex-posters/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 69,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": false,
-          "alive": true
-        },
-        "passed": false,
-        "recommended": false
-      },
-      "risk": {
-        "level": "medium",
-        "score": 21
-      },
-      "duplicateOf": "skill:davila7/claude-code-templates:cli-tool/components/skills/scientific/pptx-posters/skill.md#latex-posters",
       "nearDuplicateOf": null,
       "dupCount": 0,
       "variantCount": 0,
@@ -6354,6 +6299,61 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:senior-prompt-engineer",
       "familySize": 5,
+      "stars": 30081,
+      "curatedMentions": 2
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/scientific/latex-posters/skill.md#latex-posters",
+      "type": "skill",
+      "name": "latex-posters",
+      "description": {
+        "zh": null,
+        "en": "Create professional research posters in LaTeX using beamerposter, tikzposter, or baposter. Support for conference presentations, academic posters, and scientific communication. Includes layout design, color schemes, multi-column formats, figure integration, and poster-specific best practices for visual communication.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "design",
+        "research"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/scientific/latex-posters/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/scientific/latex-posters/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 68,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": false,
+          "alive": true
+        },
+        "passed": false,
+        "recommended": false
+      },
+      "risk": {
+        "level": "medium",
+        "score": 21
+      },
+      "duplicateOf": "skill:davila7/claude-code-templates:cli-tool/components/skills/scientific/pptx-posters/skill.md#latex-posters",
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
       "stars": 30081,
       "curatedMentions": 2
     },
@@ -18637,154 +18637,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "rules:nedcodes-ok/cursorrules-collection:rules/frameworks/shadcn-ui.cursorrules#shadcn-ui.cursorrules",
-      "type": "rules",
-      "name": "shadcn-ui.cursorrules",
-      "description": {
-        "zh": null,
-        "en": "- Import components from @/components/ui/, never from shadcn source - Use the CLI to add new components: npx shadcn-ui@latest add [component] - Do not modify files in components/ui/ directly — extend with wrapper components instead - Always check if a component exists before creating a custom version",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "design"
-      ],
-      "targets": [
-        "cursor"
-      ],
-      "source": {
-        "repo": "nedcodes-ok/cursorrules-collection",
-        "path": "rules/frameworks/shadcn-ui.cursorrules",
-        "url": "https://github.com/nedcodes-ok/cursorrules-collection/blob/HEAD/rules/frameworks/shadcn-ui.cursorrules",
-        "tier": 2
-      },
-      "quality": {
-        "score": 29,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 35,
-      "curatedMentions": 0
-    },
-    {
-      "id": "rules:nedcodes-ok/cursorrules-collection:rules/frameworks/tailwind-css.cursorrules#tailwind-css.cursorrules",
-      "type": "rules",
-      "name": "tailwind-css.cursorrules",
-      "description": {
-        "zh": null,
-        "en": "You are an expert Tailwind CSS developer. Follow these rules:",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "design"
-      ],
-      "targets": [
-        "cursor"
-      ],
-      "source": {
-        "repo": "nedcodes-ok/cursorrules-collection",
-        "path": "rules/frameworks/tailwind-css.cursorrules",
-        "url": "https://github.com/nedcodes-ok/cursorrules-collection/blob/HEAD/rules/frameworks/tailwind-css.cursorrules",
-        "tier": 2
-      },
-      "quality": {
-        "score": 29,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 35,
-      "curatedMentions": 0
-    },
-    {
-      "id": "rules:nedcodes-ok/cursorrules-collection:rules/practices/api-design.cursorrules#api-design.cursorrules",
-      "type": "rules",
-      "name": "api-design.cursorrules",
-      "description": {
-        "zh": null,
-        "en": "You are an expert API designer. Follow these rules:",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "design",
-        "coding"
-      ],
-      "targets": [
-        "cursor"
-      ],
-      "source": {
-        "repo": "nedcodes-ok/cursorrules-collection",
-        "path": "rules/practices/api-design.cursorrules",
-        "url": "https://github.com/nedcodes-ok/cursorrules-collection/blob/HEAD/rules/practices/api-design.cursorrules",
-        "tier": 2
-      },
-      "quality": {
-        "score": 29,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": false,
-          "alive": true
-        },
-        "passed": false,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": "rules:nedcodes-ok/cursorrules-collection:rules-mdc/practices/api-design.mdc#api-design",
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 35,
-      "curatedMentions": 0
-    },
-    {
       "id": "subagent:joneqian/claude-skills-suite:agents/product-manager.md#product-manager",
       "type": "subagent",
       "name": "product-manager",
@@ -19078,6 +18930,154 @@
       "templateFamily": null,
       "familySize": 0,
       "stars": 3,
+      "curatedMentions": 0
+    },
+    {
+      "id": "rules:nedcodes-ok/cursorrules-collection:rules/frameworks/shadcn-ui.cursorrules#shadcn-ui.cursorrules",
+      "type": "rules",
+      "name": "shadcn-ui.cursorrules",
+      "description": {
+        "zh": null,
+        "en": "- Import components from @/components/ui/, never from shadcn source - Use the CLI to add new components: npx shadcn-ui@latest add [component] - Do not modify files in components/ui/ directly — extend with wrapper components instead - Always check if a component exists before creating a custom version",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design"
+      ],
+      "targets": [
+        "cursor"
+      ],
+      "source": {
+        "repo": "nedcodes-ok/cursorrules-collection",
+        "path": "rules/frameworks/shadcn-ui.cursorrules",
+        "url": "https://github.com/nedcodes-ok/cursorrules-collection/blob/HEAD/rules/frameworks/shadcn-ui.cursorrules",
+        "tier": 2
+      },
+      "quality": {
+        "score": 28,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 35,
+      "curatedMentions": 0
+    },
+    {
+      "id": "rules:nedcodes-ok/cursorrules-collection:rules/frameworks/tailwind-css.cursorrules#tailwind-css.cursorrules",
+      "type": "rules",
+      "name": "tailwind-css.cursorrules",
+      "description": {
+        "zh": null,
+        "en": "You are an expert Tailwind CSS developer. Follow these rules:",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design"
+      ],
+      "targets": [
+        "cursor"
+      ],
+      "source": {
+        "repo": "nedcodes-ok/cursorrules-collection",
+        "path": "rules/frameworks/tailwind-css.cursorrules",
+        "url": "https://github.com/nedcodes-ok/cursorrules-collection/blob/HEAD/rules/frameworks/tailwind-css.cursorrules",
+        "tier": 2
+      },
+      "quality": {
+        "score": 28,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 35,
+      "curatedMentions": 0
+    },
+    {
+      "id": "rules:nedcodes-ok/cursorrules-collection:rules/practices/api-design.cursorrules#api-design.cursorrules",
+      "type": "rules",
+      "name": "api-design.cursorrules",
+      "description": {
+        "zh": null,
+        "en": "You are an expert API designer. Follow these rules:",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design",
+        "coding"
+      ],
+      "targets": [
+        "cursor"
+      ],
+      "source": {
+        "repo": "nedcodes-ok/cursorrules-collection",
+        "path": "rules/practices/api-design.cursorrules",
+        "url": "https://github.com/nedcodes-ok/cursorrules-collection/blob/HEAD/rules/practices/api-design.cursorrules",
+        "tier": 2
+      },
+      "quality": {
+        "score": 28,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": false,
+          "alive": true
+        },
+        "passed": false,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": "rules:nedcodes-ok/cursorrules-collection:rules-mdc/practices/api-design.mdc#api-design",
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 35,
       "curatedMentions": 0
     },
     {
@@ -19627,6 +19627,156 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:alvinindra/figma-mcp-rust:io.github.alvinindra/figma-mcp-rust#io.github.alvinindra-figma-mcp-rust",
+      "type": "mcp",
+      "name": "io.github.alvinindra/figma-mcp-rust",
+      "description": {
+        "zh": null,
+        "en": "Figma MCP server in Rust: plugin bridge, no API token, no rate limits, 73 tools.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "design",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "alvinindra/figma-mcp-rust",
+        "path": "io.github.alvinindra/figma-mcp-rust",
+        "url": "https://github.com/alvinindra/figma-mcp-rust",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:amzscout-corp/amzscout-skill-mcp:io.github.amzscout-corp/amzscout-skill-mcp#amzscout-skill-+-mcp",
+      "type": "mcp",
+      "name": "AMZScout Skill + MCP",
+      "description": {
+        "zh": null,
+        "en": "Amazon research from AMZScout data: analyze products & niches, keywords/PPC, and brand catalogs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "research",
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "amzscout-corp/amzscout-skill-mcp",
+        "path": "io.github.amzscout-corp/amzscout-skill-mcp",
+        "url": "https://github.com/amzscout-corp/amzscout-skill-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:biosshot/easyeda-copilot:io.github.biosshot/easyeda-copilot#easyeda-copilot",
+      "type": "mcp",
+      "name": "EasyEDA Copilot",
+      "description": {
+        "zh": null,
+        "en": "Connect MCP clients to EasyEDA Desktop for schematic and PCB design, routing, inspection, and DRC.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "biosshot/easyeda-copilot",
+        "path": "io.github.biosshot/easyeda-copilot",
+        "url": "https://github.com/biosshot/easyeda-copilot",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:bloopodotai/bloopo-marketplace:ai.bloopo/bloopo#bloopo-—-ai-ad-&-creative-studio",
       "type": "mcp",
       "name": "Bloopo — AI Ad & Creative Studio",
@@ -19900,6 +20050,56 @@
         "repo": "developerz-ai/ui-debugger-mcp",
         "path": "io.github.developerz-ai/ui-debugger-mcp",
         "url": "https://github.com/developerz-ai/ui-debugger-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:dinglebear-ai/labby:ai.dinglebear/labby#labby",
+      "type": "mcp",
+      "name": "Labby",
+      "description": {
+        "zh": null,
+        "en": "Rust MCP gateway with Code Mode, authentication, setup, logs, CLI, HTTP API, and operator web UI.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "dinglebear-ai/labby",
+        "path": "ai.dinglebear/labby",
+        "url": "https://github.com/dinglebear-ai/labby",
         "tier": 0
       },
       "quality": {
@@ -20670,6 +20870,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.jamesprompt/james#james-prompt",
+      "type": "mcp",
+      "name": "James Prompt",
+      "description": {
+        "zh": null,
+        "en": "AI agent for business strategy and business design — run strategy missions and 15 analyses.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.jamesprompt/james",
+        "url": "https://jamesprompt.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.octolens/octolens#com.octolens-octolens",
       "type": "mcp",
       "name": "com.octolens/octolens",
@@ -20820,6 +21069,105 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:dev.rossdata/data-dictionary#ross-erp-data-dictionary",
+      "type": "mcp",
+      "name": "Ross ERP Data Dictionary",
+      "description": {
+        "zh": null,
+        "en": "Structure-only reference for the vanilla Ross ERP 8.0 schema, UI menu tree, and program catalog.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "dev.rossdata/data-dictionary",
+        "url": "https://rossdata.dev",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.referodesign/refero#refero",
+      "type": "mcp",
+      "name": "Refero",
+      "description": {
+        "zh": null,
+        "en": "Search curated design styles, real product screens, and user flows for evidence-based design work.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.referodesign/refero",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.referodesign%2Frefero",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.thomas0369/wortwert#io.github.thomas0369-wortwert",
       "type": "mcp",
       "name": "io.github.thomas0369/wortwert",
@@ -20842,6 +21190,55 @@
         "repo": null,
         "path": "io.github.thomas0369/wortwert",
         "url": "https://wortwert.mcp-hub.stream",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.vpatser1/mcp-schema-designer#io.github.vpatser1-mcp-schema-designer",
+      "type": "mcp",
+      "name": "io.github.vpatser1/mcp-schema-designer",
+      "description": {
+        "zh": null,
+        "en": "Design database schemas from natural language, validate SQL, generate migrations and types",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.vpatser1/mcp-schema-designer",
+        "url": "https://aivp-mcp.vercel.app",
         "tier": 0
       },
       "quality": {
@@ -21189,6 +21586,104 @@
         "repo": "naruto1031/uproad-plugin",
         "path": "design.uproad/uproad",
         "url": "https://github.com/naruto1031/uproad-plugin",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:neozhehan/figma-edit-mcp:io.github.neozhehan/figma-edit-mcp#io.github.neozhehan-figma-edit-mcp",
+      "type": "mcp",
+      "name": "io.github.neozhehan/figma-edit-mcp",
+      "description": {
+        "zh": null,
+        "en": "Programmatically read, create, and modify Figma designs via MCP.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "neozhehan/figma-edit-mcp",
+        "path": "io.github.neozhehan/figma-edit-mcp",
+        "url": "https://github.com/neozhehan/figma-edit-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:northwest999/eu-safety-gate-recall-mcp:io.github.northwest999/eu-safety-gate-recalls#eu-safety-gate-product-recalls",
+      "type": "mcp",
+      "name": "EU Safety Gate Product Recalls",
+      "description": {
+        "zh": null,
+        "en": "Is this product recalled in the EU? 46,506 official Safety Gate alerts by GTIN, brand or name.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "NorthWest999/eu-safety-gate-recall-mcp",
+        "path": "io.github.NorthWest999/eu-safety-gate-recalls",
+        "url": "https://github.com/NorthWest999/eu-safety-gate-recall-mcp",
         "tier": 0
       },
       "quality": {
