@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T00:39:36.230Z",
+  "generatedAt": "2026-08-07T19:50:42.759Z",
   "category": {
     "key": "security",
     "zh": "安全审计",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 315,
+  "total": 334,
   "entries": [
     {
       "id": "skill:composiohq/awesome-claude-skills:composio-skills/ahrefs-automation/skill.md#ahrefs-automation",
@@ -6574,7 +6574,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 725,
+      "stars": 741,
       "curatedMentions": 1
     },
     {
@@ -6628,7 +6628,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 725,
+      "stars": 741,
       "curatedMentions": 1
     },
     {
@@ -6682,7 +6682,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 725,
+      "stars": 741,
       "curatedMentions": 1
     },
     {
@@ -6735,7 +6735,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 725,
+      "stars": 741,
       "curatedMentions": 1
     },
     {
@@ -6788,7 +6788,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 725,
+      "stars": 741,
       "curatedMentions": 1
     },
     {
@@ -6945,7 +6945,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 725,
+      "stars": 741,
       "curatedMentions": 1
     },
     {
@@ -6978,7 +6978,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 47,
+        "score": 46,
         "gates": {
           "security": true,
           "schema": true,
@@ -7031,7 +7031,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 47,
+        "score": 46,
         "gates": {
           "security": true,
           "schema": true,
@@ -7084,7 +7084,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 47,
+        "score": 46,
         "gates": {
           "security": true,
           "schema": true,
@@ -7137,7 +7137,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 47,
+        "score": 46,
         "gates": {
           "security": true,
           "schema": true,
@@ -7190,7 +7190,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 47,
+        "score": 46,
         "gates": {
           "security": true,
           "schema": true,
@@ -8965,57 +8965,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "command:joneqian/claude-skills-suite:commands/full-review.md#full-review",
-      "type": "command",
-      "name": "full-review",
-      "description": {
-        "zh": null,
-        "en": "Run comprehensive code review on target files by orchestrating code-reviewer, security-auditor, and test-writer. Summarize all findings by priority.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "security",
-        "coding",
-        "testing"
-      ],
-      "targets": [
-        "claude-code"
-      ],
-      "source": {
-        "repo": "joneqian/claude-skills-suite",
-        "path": "commands/full-review.md",
-        "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/commands/full-review.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 32,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 26,
-      "curatedMentions": 0
-    },
-    {
       "id": "rules:nedcodes-ok/cursorrules-collection:rules-mdc/practices/security.mdc#security",
       "type": "rules",
       "name": "security",
@@ -9172,6 +9121,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "command:joneqian/claude-skills-suite:commands/full-review.md#full-review",
+      "type": "command",
+      "name": "full-review",
+      "description": {
+        "zh": null,
+        "en": "Run comprehensive code review on target files by orchestrating code-reviewer, security-auditor, and test-writer. Summarize all findings by priority.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "coding",
+        "testing"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "joneqian/claude-skills-suite",
+        "path": "commands/full-review.md",
+        "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/commands/full-review.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 31,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 26,
+      "curatedMentions": 0
+    },
+    {
       "id": "skill:joneqian/claude-skills-suite:skills/mysql-patterns/skill.md#mysql-patterns",
       "type": "skill",
       "name": "mysql-patterns",
@@ -9202,7 +9202,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 32,
+        "score": 31,
         "gates": {
           "security": true,
           "schema": true,
@@ -11302,6 +11302,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:builtbygo/wphealthkit-mcp:com.wphealthkit/mcp-server#wp-healthkit",
+      "type": "mcp",
+      "name": "WP HealthKit",
+      "description": {
+        "zh": null,
+        "en": "Security audits for WordPress plugins and themes — 62 verification layers, fix plans and SBOMs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "BuiltByGo/wphealthkit-mcp",
+        "path": "com.wphealthkit/mcp-server",
+        "url": "https://github.com/BuiltByGo/wphealthkit-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:charlacsina/openaeo-audit:dev.openaeo/audit#openaeo",
       "type": "mcp",
       "name": "OpenAEO",
@@ -11893,6 +11943,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:gorgon-cyber/gorgon-scout-mcp:io.github.gorgon-cyber/gorgon-scout#io.github.gorgon-cyber-gorgon-scout",
+      "type": "mcp",
+      "name": "io.github.Gorgon-Cyber/gorgon-scout",
+      "description": {
+        "zh": null,
+        "en": "Run AI-driven web-app and API security scans (DAST) from Claude or any MCP agent. Windows.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Gorgon-Cyber/gorgon-scout-mcp",
+        "path": "io.github.Gorgon-Cyber/gorgon-scout",
+        "url": "https://github.com/Gorgon-Cyber/gorgon-scout-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:heidihelena/vahtian:io.github.heidihelena/vahtian#vahtian",
       "type": "mcp",
       "name": "Vahtian",
@@ -12097,7 +12196,7 @@
       "name": "io.github.houtini-ai/seo-audit-console",
       "description": {
         "zh": null,
-        "en": "Technical SEO audits in Claude: GSC + first-party crawl + DataForSEO. 93 prioritised checks + fixes.",
+        "en": "Technical SEO in Claude: GSC + crawl + DataForSEO - audit, market sizing, content recon.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -12105,8 +12204,8 @@
       },
       "lang": "en",
       "categories": [
-        "writing",
-        "security"
+        "security",
+        "writing"
       ],
       "targets": [
         "mcp-client"
@@ -12982,6 +13081,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:ai.aisecuritygateway/mcp-gateway#ai-security-gateway-—-mcp-gateway",
+      "type": "mcp",
+      "name": "AI Security Gateway — MCP Gateway",
+      "description": {
+        "zh": null,
+        "en": "Security & DLP proxy for MCP: tool-poisoning scans, PII redaction on tool args/results. Beta.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.aisecuritygateway/mcp-gateway",
+        "url": "https://registry.modelcontextprotocol.io/?q=ai.aisecuritygateway%2Fmcp-gateway",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:ai.arketo/arketo#arketo",
       "type": "mcp",
       "name": "Arketo",
@@ -13054,6 +13202,105 @@
         "repo": null,
         "path": "ai.beket/audit",
         "url": "https://beket.ai/guides/using-the-beket-ai-mcp/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.etincel/etincel-nonfiction#ai.etincel-etincel-nonfiction",
+      "type": "mcp",
+      "name": "ai.etincel/etincel-nonfiction",
+      "description": {
+        "zh": null,
+        "en": "Trainable non-fiction writing voice, presets, and an anti-AI-tells audit for Claude, via MCP.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.etincel/etincel-nonfiction",
+        "url": "https://etincel.ai/connect",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.occludra/mcp-gateway#occludra-—-mcp-gateway-(ai-security-gateway)",
+      "type": "mcp",
+      "name": "Occludra — MCP Gateway (AI Security Gateway)",
+      "description": {
+        "zh": null,
+        "en": "Security & DLP proxy for MCP: tool-poisoning scans, PII redaction on tool args/results. Beta.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.occludra/mcp-gateway",
+        "url": "https://registry.modelcontextprotocol.io/?q=ai.occludra%2Fmcp-gateway",
         "tier": 0
       },
       "quality": {
@@ -13823,6 +14070,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.scanlabsai/scanner#scanlabsai-security-scanner",
+      "type": "mcp",
+      "name": "ScanLabsAI Security Scanner",
+      "description": {
+        "zh": null,
+        "en": "Scan a website for vulnerabilities: OWASP Top 10, CVEs, SSL, headers - with plain-English fixes",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.scanlabsai/scanner",
+        "url": "https://scanlabsai.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.seogrep/seogrep#seogrep",
       "type": "mcp",
       "name": "SeoGrep",
@@ -14221,6 +14517,106 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.yawlabs/electron-mcp#io.github.yawlabs-electron-mcp",
+      "type": "mcp",
+      "name": "io.github.YawLabs/electron-mcp",
+      "description": {
+        "zh": null,
+        "en": "Electron.js MCP server — IPC scaffolding, security auditing, build tooling for AI assistants",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.YawLabs/electron-mcp",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.YawLabs%2Felectron-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.yawlabs/npmjs-mcp#io.github.yawlabs-npmjs-mcp",
+      "type": "mcp",
+      "name": "io.github.YawLabs/npmjs-mcp",
+      "description": {
+        "zh": null,
+        "en": "npm registry MCP server — package intelligence, security audits, dependency analysis",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.YawLabs/npmjs-mcp",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.YawLabs%2Fnpmjs-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.sealsecurity/mcp#seal-security",
       "type": "mcp",
       "name": "Seal Security",
@@ -14342,6 +14738,55 @@
         "repo": null,
         "path": "nz.tier1.mcp/it-assessment",
         "url": "https://mcp.tier1.nz/resources/it-health-check#mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:realestate.secrets/property-intelligence#secrets.realestate",
+      "type": "mcp",
+      "name": "Secrets.RealEstate",
+      "description": {
+        "zh": null,
+        "en": "French address intelligence: 18.6M sold prices, energy, risk, crime and schools — each sourced.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "realestate.secrets/property-intelligence",
+        "url": "https://registry.modelcontextprotocol.io/?q=realestate.secrets%2Fproperty-intelligence",
         "tier": 0
       },
       "quality": {
@@ -15410,6 +15855,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:sylin-org/ghostlight:org.sylin/ghostlight#org.sylin-ghostlight",
+      "type": "mcp",
+      "name": "org.sylin/ghostlight",
+      "description": {
+        "zh": null,
+        "en": "Visible local browser automation in signed-in Chromium, with optional policy and audit.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "sylin-org/ghostlight",
+        "path": "org.sylin/ghostlight",
+        "url": "https://github.com/sylin-org/ghostlight",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:taplid/taplid:io.github.taplid/taplid#taplid",
       "type": "mcp",
       "name": "Taplid",
@@ -15854,6 +16348,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:vasparshin/aictrl-team-skills:io.github.vasparshin/aictrl#aictrl",
+      "type": "mcp",
+      "name": "aictrl",
+      "description": {
+        "zh": null,
+        "en": "Governance layer for AI coding agents: knowledge-graph grounding, session audit, policy controls.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "vasparshin/aictrl-team-skills",
+        "path": "io.github.vasparshin/aictrl",
+        "url": "https://github.com/vasparshin/aictrl-team-skills",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:vmware-skills/vmware-nsx-security:io.github.vmware-skills/vmware-nsx-security#vmware-nsx-security",
       "type": "mcp",
       "name": "VMware NSX Security",
@@ -16001,6 +16545,304 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:whois-api-llc/wxa-mcp-server:io.github.whois-api-llc/mcp-whoisxmlapi#io.github.whois-api-llc-mcp-whoisxmlapi",
+      "type": "mcp",
+      "name": "io.github.whois-api-llc/mcp-whoisxmlapi",
+      "description": {
+        "zh": null,
+        "en": "32 WHOIS, DNS, IP, threat intelligence, email, and bulk tools for AI agents via WhoisXML API.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "whois-api-llc/wxa-mcp-server",
+        "path": "io.github.whois-api-llc/mcp-whoisxmlapi",
+        "url": "https://github.com/whois-api-llc/wxa-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:wyre-technology/abnormal-mcp:io.github.wyre-technology/abnormal-mcp#abnormal-security",
+      "type": "mcp",
+      "name": "Abnormal Security",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Abnormal Security — AI-powered email threat detection, cases, and remediation.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "wyre-technology/abnormal-mcp",
+        "path": "io.github.wyre-technology/abnormal-mcp",
+        "url": "https://github.com/wyre-technology/abnormal-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:wyre-technology/datto-rmm-mcp:io.github.wyre-technology/datto-rmm-mcp#datto-rmm",
+      "type": "mcp",
+      "name": "Datto RMM",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Datto RMM — devices, alerts, sites, jobs, and audit data.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "wyre-technology/datto-rmm-mcp",
+        "path": "io.github.wyre-technology/datto-rmm-mcp",
+        "url": "https://github.com/wyre-technology/datto-rmm-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:wyre-technology/knowbe4-mcp:io.github.wyre-technology/knowbe4-mcp#knowbe4",
+      "type": "mcp",
+      "name": "KnowBe4",
+      "description": {
+        "zh": null,
+        "en": "MCP server for KnowBe4 security awareness training — users, groups, training, phishing campaigns.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "wyre-technology/knowbe4-mcp",
+        "path": "io.github.wyre-technology/knowbe4-mcp",
+        "url": "https://github.com/wyre-technology/knowbe4-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:wyre-technology/mimecast-mcp:io.github.wyre-technology/mimecast-mcp#mimecast",
+      "type": "mcp",
+      "name": "Mimecast",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Mimecast email security: message queue, held messages, domains, and threats.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "wyre-technology/mimecast-mcp",
+        "path": "io.github.wyre-technology/mimecast-mcp",
+        "url": "https://github.com/wyre-technology/mimecast-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:wyre-technology/proofpoint-mcp:io.github.wyre-technology/proofpoint-mcp#proofpoint",
+      "type": "mcp",
+      "name": "Proofpoint",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Proofpoint TAP — threat intelligence, forensics, quarantine, and email security.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "wyre-technology/proofpoint-mcp",
+        "path": "io.github.wyre-technology/proofpoint-mcp",
+        "url": "https://github.com/wyre-technology/proofpoint-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:wyre-technology/saas-alerts-mcp:io.github.wyre-technology/saas-alerts-mcp#saas-alerts",
       "type": "mcp",
       "name": "SaaS Alerts",
@@ -16025,6 +16867,56 @@
         "repo": "wyre-technology/saas-alerts-mcp",
         "path": "io.github.wyre-technology/saas-alerts-mcp",
         "url": "https://github.com/wyre-technology/saas-alerts-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:wyre-technology/spamtitan-mcp:io.github.wyre-technology/spamtitan-mcp#spamtitan",
+      "type": "mcp",
+      "name": "SpamTitan",
+      "description": {
+        "zh": null,
+        "en": "MCP server for SpamTitan email security — quarantine, allow/block lists, and policy management.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "wyre-technology/spamtitan-mcp",
+        "path": "io.github.wyre-technology/spamtitan-mcp",
+        "url": "https://github.com/wyre-technology/spamtitan-mcp",
         "tier": 0
       },
       "quality": {
@@ -16175,6 +17067,57 @@
         "repo": "ym2629/launchops",
         "path": "io.github.ym2629/lavela",
         "url": "https://github.com/ym2629/launchops",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:zubovartemiy/graneth-mcp:com.graneth/mcp-server#graneth",
+      "type": "mcp",
+      "name": "Graneth",
+      "description": {
+        "zh": null,
+        "en": "Pre-flight check for AI coding agents: hallucinated packages + secrets, 6 ecosystems, no account.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "coding",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "zubovartemiy/graneth-mcp",
+        "path": "com.graneth/mcp-server",
+        "url": "https://github.com/zubovartemiy/graneth-mcp",
         "tier": 0
       },
       "quality": {

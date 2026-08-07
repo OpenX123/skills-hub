@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T00:39:36.230Z",
+  "generatedAt": "2026-08-07T19:50:42.759Z",
   "category": {
     "key": "database",
     "zh": "数据库",
@@ -69,7 +69,7 @@
       }
     ]
   },
-  "total": 158,
+  "total": 161,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/claude-api/skill.md#claude-api",
@@ -122,7 +122,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 164308,
+      "stars": 166879,
       "curatedMentions": 8
     },
     {
@@ -4054,7 +4054,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 725,
+      "stars": 741,
       "curatedMentions": 1
     },
     {
@@ -5400,6 +5400,59 @@
       "curatedMentions": 0
     },
     {
+      "id": "skill:joneqian/claude-skills-suite:skills/sequelize-patterns/skill.md#sequelize-patterns",
+      "type": "skill",
+      "name": "sequelize-patterns",
+      "description": {
+        "zh": null,
+        "en": "Sequelize Node.js ORM for SQL databases. Use for database models, migrations, associations, queries, transactions, validations, hooks, and working with PostgreSQL, MySQL, MariaDB, SQLite, SQL Server.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "joneqian/claude-skills-suite",
+        "path": "skills/sequelize-patterns/SKILL.md",
+        "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/skills/sequelize-patterns/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 32,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "low",
+        "score": 14
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 26,
+      "curatedMentions": 0
+    },
+    {
       "id": "skill:joneqian/claude-skills-suite:skills/mysql-patterns/skill.md#mysql-patterns",
       "type": "skill",
       "name": "mysql-patterns",
@@ -5430,7 +5483,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 32,
+        "score": 31,
         "gates": {
           "security": true,
           "schema": true,
@@ -5483,7 +5536,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 32,
+        "score": 31,
         "gates": {
           "security": true,
           "schema": true,
@@ -5496,59 +5549,6 @@
       "risk": {
         "level": "clean",
         "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 26,
-      "curatedMentions": 0
-    },
-    {
-      "id": "skill:joneqian/claude-skills-suite:skills/sequelize-patterns/skill.md#sequelize-patterns",
-      "type": "skill",
-      "name": "sequelize-patterns",
-      "description": {
-        "zh": null,
-        "en": "Sequelize Node.js ORM for SQL databases. Use for database models, migrations, associations, queries, transactions, validations, hooks, and working with PostgreSQL, MySQL, MariaDB, SQLite, SQL Server.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "database"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "joneqian/claude-skills-suite",
-        "path": "skills/sequelize-patterns/SKILL.md",
-        "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/skills/sequelize-patterns/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 32,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "low",
-        "score": 14
       },
       "duplicateOf": null,
       "nearDuplicateOf": null,
@@ -7495,6 +7495,104 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.yawlabs/postgres-mcp#io.github.yawlabs-postgres-mcp",
+      "type": "mcp",
+      "name": "io.github.YawLabs/postgres-mcp",
+      "description": {
+        "zh": null,
+        "en": "PostgreSQL MCP server - query, schema introspection, explain, and health checks for AI assistants",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.YawLabs/postgres-mcp",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.YawLabs%2Fpostgres-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.yawlabs/redis-mcp#io.github.yawlabs-redis-mcp",
+      "type": "mcp",
+      "name": "io.github.YawLabs/redis-mcp",
+      "description": {
+        "zh": null,
+        "en": "Read-first Redis MCP: SCAN key explorer, keyspace/TTL/memory/slowlog stats, DBA advisor",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.YawLabs/redis-mcp",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.YawLabs%2Fredis-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:st.seedfa/seedfast#seedfast",
       "type": "mcp",
       "name": "Seedfast",
@@ -7767,6 +7865,56 @@
         "repo": "phatngoit/MCP-DB",
         "path": "io.github.phatngoit/mcp-db-connect",
         "url": "https://github.com/phatngoit/MCP-DB",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:ramaaditya49/titen:io.github.ramaaditya49/titen-memory#titen-memory",
+      "type": "mcp",
+      "name": "Titen Memory",
+      "description": {
+        "zh": null,
+        "en": "Evidence-grounded agent memory with mandatory provenance, on local SQLite or Cloudflare D1",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops",
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "RamaAditya49/titen",
+        "path": "io.github.RamaAditya49/titen-memory",
+        "url": "https://github.com/RamaAditya49/titen",
         "tier": 0
       },
       "quality": {
