@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T20:23:54.967Z",
+  "generatedAt": "2026-08-07T00:39:36.230Z",
   "category": {
     "key": "meta",
     "zh": "Agent 基建",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 869,
+  "total": 916,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/skill-creator/skill.md#skill-creator",
@@ -135,59 +135,6 @@
       "familySize": 0,
       "stars": 164308,
       "curatedMentions": 8
-    },
-    {
-      "id": "skill:composiohq/awesome-claude-skills:skill-creator/skill.md#skill-creator",
-      "type": "skill",
-      "name": "skill-creator",
-      "description": {
-        "zh": null,
-        "en": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "meta"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "ComposioHQ/awesome-claude-skills",
-        "path": "skill-creator/SKILL.md",
-        "url": "https://github.com/ComposioHQ/awesome-claude-skills/blob/HEAD/skill-creator/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 100,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 70870,
-      "curatedMentions": 5
     },
     {
       "id": "skill:obra/superpowers:skills/brainstorming/skill.md#brainstorming",
@@ -570,6 +517,59 @@
       "curatedMentions": 8
     },
     {
+      "id": "skill:composiohq/awesome-claude-skills:skill-creator/skill.md#skill-creator",
+      "type": "skill",
+      "name": "skill-creator",
+      "description": {
+        "zh": null,
+        "en": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "ComposioHQ/awesome-claude-skills",
+        "path": "skill-creator/SKILL.md",
+        "url": "https://github.com/ComposioHQ/awesome-claude-skills/blob/HEAD/skill-creator/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 99,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 70870,
+      "curatedMentions": 5
+    },
+    {
       "id": "skill:composiohq/awesome-claude-skills:developer-growth-analysis/skill.md#developer-growth-analysis",
       "type": "skill",
       "name": "developer-growth-analysis",
@@ -895,156 +895,6 @@
       "curatedMentions": 8
     },
     {
-      "id": "plugin:composiohq/awesome-claude-skills:composio-skills/.claude-plugin/marketplace.json#developer-growth-analysis",
-      "type": "plugin",
-      "name": "developer-growth-analysis",
-      "description": {
-        "zh": null,
-        "en": "Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and areas for improvement, curates relevant learning resources from HackerNews, and automatically sends a personalized growth report to your Slack DMs.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding",
-        "business",
-        "meta"
-      ],
-      "targets": [
-        "claude-code"
-      ],
-      "source": {
-        "repo": "ComposioHQ/awesome-claude-skills",
-        "path": "composio-skills/.claude-plugin/marketplace.json",
-        "url": "https://github.com/ComposioHQ/awesome-claude-skills/blob/HEAD/composio-skills/.claude-plugin/marketplace.json",
-        "tier": 2
-      },
-      "quality": {
-        "score": 91,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 70870,
-      "curatedMentions": 5
-    },
-    {
-      "id": "plugin:composiohq/awesome-claude-skills:composio-skills/.claude-plugin/marketplace.json#skill-creator",
-      "type": "plugin",
-      "name": "skill-creator",
-      "description": {
-        "zh": null,
-        "en": "Provides guidance for creating effective Claude Skills that extend capabilities with specialized knowledge, workflows, and tool integrations.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "meta"
-      ],
-      "targets": [
-        "claude-code"
-      ],
-      "source": {
-        "repo": "ComposioHQ/awesome-claude-skills",
-        "path": "composio-skills/.claude-plugin/marketplace.json",
-        "url": "https://github.com/ComposioHQ/awesome-claude-skills/blob/HEAD/composio-skills/.claude-plugin/marketplace.json",
-        "tier": 2
-      },
-      "quality": {
-        "score": 91,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 70870,
-      "curatedMentions": 5
-    },
-    {
-      "id": "plugin:composiohq/awesome-claude-skills:connect-apps-plugin/.claude-plugin/plugin.json#connect-apps",
-      "type": "plugin",
-      "name": "connect-apps",
-      "description": {
-        "zh": null,
-        "en": "Manage auth and connect to 500+ apps using Composio. Perform real actions from Claude Code - send emails, create issues, post messages, and more.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding",
-        "meta"
-      ],
-      "targets": [
-        "claude-code"
-      ],
-      "source": {
-        "repo": "ComposioHQ/awesome-claude-skills",
-        "path": "connect-apps-plugin/.claude-plugin/plugin.json",
-        "url": "https://github.com/ComposioHQ/awesome-claude-skills/blob/HEAD/connect-apps-plugin/.claude-plugin/plugin.json",
-        "tier": 2
-      },
-      "quality": {
-        "score": 91,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 70870,
-      "curatedMentions": 5
-    },
-    {
       "id": "plugin:obra/superpowers:.claude-plugin/marketplace.json#superpowers",
       "type": "plugin",
       "name": "superpowers",
@@ -1195,6 +1045,156 @@
       "curatedMentions": 8
     },
     {
+      "id": "plugin:composiohq/awesome-claude-skills:composio-skills/.claude-plugin/marketplace.json#developer-growth-analysis",
+      "type": "plugin",
+      "name": "developer-growth-analysis",
+      "description": {
+        "zh": null,
+        "en": "Analyzes your recent Claude Code chat history to identify coding patterns, development gaps, and areas for improvement, curates relevant learning resources from HackerNews, and automatically sends a personalized growth report to your Slack DMs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "business",
+        "meta"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "ComposioHQ/awesome-claude-skills",
+        "path": "composio-skills/.claude-plugin/marketplace.json",
+        "url": "https://github.com/ComposioHQ/awesome-claude-skills/blob/HEAD/composio-skills/.claude-plugin/marketplace.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 90,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 70870,
+      "curatedMentions": 5
+    },
+    {
+      "id": "plugin:composiohq/awesome-claude-skills:composio-skills/.claude-plugin/marketplace.json#skill-creator",
+      "type": "plugin",
+      "name": "skill-creator",
+      "description": {
+        "zh": null,
+        "en": "Provides guidance for creating effective Claude Skills that extend capabilities with specialized knowledge, workflows, and tool integrations.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "ComposioHQ/awesome-claude-skills",
+        "path": "composio-skills/.claude-plugin/marketplace.json",
+        "url": "https://github.com/ComposioHQ/awesome-claude-skills/blob/HEAD/composio-skills/.claude-plugin/marketplace.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 90,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 70870,
+      "curatedMentions": 5
+    },
+    {
+      "id": "plugin:composiohq/awesome-claude-skills:connect-apps-plugin/.claude-plugin/plugin.json#connect-apps",
+      "type": "plugin",
+      "name": "connect-apps",
+      "description": {
+        "zh": null,
+        "en": "Manage auth and connect to 500+ apps using Composio. Perform real actions from Claude Code - send emails, create issues, post messages, and more.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "meta"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "ComposioHQ/awesome-claude-skills",
+        "path": "connect-apps-plugin/.claude-plugin/plugin.json",
+        "url": "https://github.com/ComposioHQ/awesome-claude-skills/blob/HEAD/connect-apps-plugin/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 90,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 70870,
+      "curatedMentions": 5
+    },
+    {
       "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/agents-crewai/skill.md#crewai-multi-agent",
       "type": "skill",
       "name": "crewai-multi-agent",
@@ -1246,7 +1246,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -1301,7 +1301,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -1354,7 +1354,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -1409,7 +1409,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -1464,7 +1464,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -1517,7 +1517,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -1570,7 +1570,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -1625,7 +1625,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -1679,7 +1679,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -1733,7 +1733,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -1787,7 +1787,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -1841,7 +1841,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -1895,7 +1895,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -1949,7 +1949,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -2003,7 +2003,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -2056,7 +2056,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -2109,7 +2109,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -2162,7 +2162,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -2216,7 +2216,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -2271,7 +2271,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -2324,7 +2324,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -2378,7 +2378,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -2433,7 +2433,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -2488,7 +2488,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -2543,7 +2543,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -2598,7 +2598,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -2653,7 +2653,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -2707,7 +2707,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -2762,7 +2762,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -2817,7 +2817,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -2872,7 +2872,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -2927,7 +2927,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -2982,7 +2982,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -3037,7 +3037,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -3090,7 +3090,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -3145,7 +3145,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -3200,7 +3200,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -3255,7 +3255,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -3310,7 +3310,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -3365,7 +3365,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -3420,7 +3420,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -3475,7 +3475,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -3530,7 +3530,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -3585,7 +3585,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -3639,7 +3639,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -3689,7 +3689,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -3740,7 +3740,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -3791,7 +3791,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -3841,7 +3841,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -3892,7 +3892,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -3947,7 +3947,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:senior-prompt-engineer",
       "familySize": 5,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -4002,7 +4002,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:senior-prompt-engineer",
       "familySize": 5,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -4052,7 +4052,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -4102,7 +4102,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -4152,7 +4152,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -4202,7 +4202,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -4252,7 +4252,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -4303,7 +4303,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -4353,7 +4353,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -4403,7 +4403,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -4453,7 +4453,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -4503,7 +4503,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -4553,7 +4553,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -4603,7 +4603,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -4653,7 +4653,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -4703,7 +4703,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30120,
+      "stars": 30136,
       "curatedMentions": 2
     },
     {
@@ -4711,7 +4711,7 @@
       "type": "skill",
       "name": "dbs-bridge",
       "description": {
-        "zh": "Agent 基建：把任意 skill 或 skill 集合目录桥接到 Claude Code（~/.claude/skills）、Codex（~/.codex/skills）、WorkBuddy（~/.workbuddy/skills）和 Grok（~/.grok/skills）。支持 dbskill 仓库内 skill，也支持外部 skill 绝对路径。Claude / Codex / WorkBuddy 使用软链，Grok 生成带 user_invocable: true 的薄 bridge。默认不写 ~/.agents/skills，避免 Codex 同时扫描 ~/.codex/skills 和 ~/.agents/skills 时重复显示；只有用户明确需要豆包 Mac App / Trae Solo 等通用 Agents 时才使用 --with-agents。 触发方式：/dbs-bridge、/bridge、「桥接这个 skill」「桥接整个 skills 目录」「把这个 skill 接到 Claude Code、Codex、WorkBuddy 和 Grok」「让多个 Agent 都能调用这个 skill」「给豆包/Trae 也桥接」「取消桥接」「查看桥接状态」 Bridge any skill folder or directory of skill folders t",
+        "zh": "将单个 Skill 或 Skill 集合桥接到 Claude Code、Codex、WorkBuddy、Grok 和通用 Agents。用户要求跨 Agent 安装、同步、查看或取消 Skill 链接时使用。",
         "en": null,
         "zhEngine": null,
         "needsTranslation": [
@@ -4757,7 +4757,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 8995,
+      "stars": 9289,
       "curatedMentions": 1
     },
     {
@@ -4788,7 +4788,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -4838,7 +4838,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -4889,7 +4889,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -4939,7 +4939,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -4989,7 +4989,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -5039,7 +5039,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -5089,7 +5089,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -5139,7 +5139,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -5189,7 +5189,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -5239,7 +5239,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -5289,7 +5289,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -5339,7 +5339,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -5389,7 +5389,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -5439,7 +5439,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -5489,7 +5489,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -5539,7 +5539,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -5589,7 +5589,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -5639,7 +5639,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -5689,7 +5689,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -5739,7 +5739,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -5789,7 +5789,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -5839,7 +5839,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -5889,7 +5889,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -5939,7 +5939,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -5989,7 +5989,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -6039,7 +6039,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -6089,7 +6089,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -6139,7 +6139,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -6189,7 +6189,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -6239,7 +6239,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -6289,7 +6289,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -6339,7 +6339,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -6389,7 +6389,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -6439,7 +6439,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -6489,7 +6489,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -6539,7 +6539,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -6589,7 +6589,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -6639,7 +6639,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -6689,7 +6689,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -6739,7 +6739,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -6789,7 +6789,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -6839,7 +6839,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -6889,7 +6889,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -6939,7 +6939,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -6989,7 +6989,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -7039,7 +7039,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -7089,7 +7089,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -7139,7 +7139,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -7190,7 +7190,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -7240,7 +7240,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -7290,7 +7290,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -7340,7 +7340,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -7390,7 +7390,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -7440,7 +7440,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -7490,7 +7490,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -7540,7 +7540,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -7590,7 +7590,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -7641,7 +7641,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -7691,7 +7691,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -7741,7 +7741,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -7791,7 +7791,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -7842,7 +7842,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -7892,7 +7892,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -7942,7 +7942,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -7992,7 +7992,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -8042,7 +8042,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -8092,7 +8092,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -8142,7 +8142,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -8192,7 +8192,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -8242,7 +8242,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -8292,7 +8292,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -8342,7 +8342,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -8392,7 +8392,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -8442,7 +8442,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -8492,7 +8492,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -8542,7 +8542,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -8592,7 +8592,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -8642,7 +8642,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -8692,7 +8692,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -8742,7 +8742,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -8792,7 +8792,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -8843,7 +8843,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -8893,7 +8893,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -8943,7 +8943,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -8994,7 +8994,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -9044,7 +9044,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -9094,7 +9094,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -9145,7 +9145,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -9195,7 +9195,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -9245,7 +9245,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -9296,7 +9296,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -9346,7 +9346,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -9396,7 +9396,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -9446,7 +9446,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -9496,7 +9496,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -9546,7 +9546,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -9596,7 +9596,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -9646,7 +9646,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -9697,7 +9697,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -9748,7 +9748,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -9799,7 +9799,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -9849,7 +9849,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -9899,7 +9899,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -9949,7 +9949,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -9999,7 +9999,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -10049,7 +10049,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -10099,7 +10099,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -10149,7 +10149,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -10199,7 +10199,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -10250,7 +10250,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -10301,7 +10301,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -10351,7 +10351,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -10401,7 +10401,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -10451,7 +10451,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -10501,7 +10501,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -10551,7 +10551,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -10601,7 +10601,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -10652,7 +10652,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -10702,7 +10702,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -10752,7 +10752,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -10802,7 +10802,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -10851,7 +10851,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -10901,7 +10901,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -10925,22 +10925,21 @@
       "curatedMentions": 1
     },
     {
-      "id": "skill:dontbesilent2025/dbskill:skills/dbs-skill-cleaner/skill.md#dbs-skill-cleaner",
+      "id": "skill:dontbesilent2025/dbskill:skills/dbs-agent-migration/skill.md#dbs-agent-migration",
       "type": "skill",
-      "name": "dbs-skill-cleaner",
+      "name": "dbs-agent-migration",
       "description": {
-        "zh": "本地 skill 清理器。扫描 Claude Code、Codex、Grok、通用 Agents 及指定目录中的 skill，识别广告导流、隐蔽商业意图、任务劫持、可疑外部调用、敏感数据读取等违背用户授权的内容；默认只出报告，经用户确认后隔离问题 skill。 触发方式：/dbs-skill-cleaner、/清理 skill、/检查 skill、「扫描本地 skill」「检测 skill 广告」「清除有问题的 skill」「审查我的 skill」 Local skill cleaner. Scans installed or specified skills for advertising, covert commercial intent, task hijacking, suspicious external calls, and sensitive-data access. Reports first and quarantines only after explicit confirmation. Trigger: /dbs-skill-cleaner, /clean skills, /check skills, \"scan my local skills\", \"detect skill ads\", \"clean problematic skills\"",
+        "zh": "审计项目规则文件、识别真源、统一命名并生成桥接，把项目迁移成多端一致的 Agent 工作台。用户要求迁移 Claude Code、Codex、Grok、通用 Agents 或整理 AGENTS.md 时使用。",
         "en": null,
         "zhEngine": null,
         "needsTranslation": [
           "en"
         ]
       },
-      "lang": "mixed",
+      "lang": "zh",
       "categories": [
-        "business",
-        "meta",
-        "document"
+        "database",
+        "meta"
       ],
       "targets": [
         "claude-code",
@@ -10951,12 +10950,12 @@
       ],
       "source": {
         "repo": "dontbesilent2025/dbskill",
-        "path": "skills/dbs-skill-cleaner/SKILL.md",
-        "url": "https://github.com/dontbesilent2025/dbskill/blob/HEAD/skills/dbs-skill-cleaner/SKILL.md",
+        "path": "skills/dbs-agent-migration/SKILL.md",
+        "url": "https://github.com/dontbesilent2025/dbskill/blob/HEAD/skills/dbs-agent-migration/SKILL.md",
         "tier": 2
       },
       "quality": {
-        "score": 61,
+        "score": 60,
         "gates": {
           "security": true,
           "schema": true,
@@ -10967,8 +10966,8 @@
         "recommended": true
       },
       "risk": {
-        "level": "low",
-        "score": 8
+        "level": "clean",
+        "score": 0
       },
       "duplicateOf": null,
       "nearDuplicateOf": null,
@@ -10976,7 +10975,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 8995,
+      "stars": 9289,
       "curatedMentions": 1
     },
     {
@@ -11077,7 +11076,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 8995,
+      "stars": 9289,
       "curatedMentions": 1
     },
     {
@@ -11127,7 +11126,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 8995,
+      "stars": 9289,
       "curatedMentions": 1
     },
     {
@@ -11177,7 +11176,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 8995,
+      "stars": 9289,
       "curatedMentions": 1
     },
     {
@@ -11208,7 +11207,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 55,
+        "score": 54,
         "gates": {
           "security": true,
           "schema": true,
@@ -11257,7 +11256,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 55,
+        "score": 54,
         "gates": {
           "security": true,
           "schema": true,
@@ -11306,7 +11305,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 55,
+        "score": 54,
         "gates": {
           "security": true,
           "schema": true,
@@ -11356,7 +11355,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 55,
+        "score": 54,
         "gates": {
           "security": true,
           "schema": true,
@@ -11485,56 +11484,6 @@
       "curatedMentions": 1
     },
     {
-      "id": "rules:sanjeed5/awesome-cursor-rules-mdc:rules-mdc/git.mdc#git",
-      "type": "rules",
-      "name": "git",
-      "description": {
-        "zh": null,
-        "en": "This guide defines the definitive Git best practices for our team, ensuring clean history, efficient collaboration, and high code quality through structured workflows, commit standards, and automated hooks.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding",
-        "meta"
-      ],
-      "targets": [
-        "cursor"
-      ],
-      "source": {
-        "repo": "sanjeed5/awesome-cursor-rules-mdc",
-        "path": "rules-mdc/git.mdc",
-        "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/HEAD/rules-mdc/git.mdc",
-        "tier": 2
-      },
-      "quality": {
-        "score": 52,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "low",
-        "score": 10
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 3557,
-      "curatedMentions": 1
-    },
-    {
       "id": "skill:huangwb8/skills:awesome-code/agents/multi-agent-coordinator/skill.md#multi-agent-coordinator",
       "type": "skill",
       "name": "multi-agent-coordinator",
@@ -11565,7 +11514,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 51,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -11585,7 +11534,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 46,
+      "stars": 47,
       "curatedMentions": 1
     },
     {
@@ -11619,7 +11568,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 51,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -11639,7 +11588,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 46,
+      "stars": 47,
       "curatedMentions": 1
     },
     {
@@ -11674,7 +11623,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 51,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -11694,7 +11643,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 46,
+      "stars": 47,
       "curatedMentions": 1
     },
     {
@@ -11729,7 +11678,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 51,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -11749,7 +11698,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 46,
+      "stars": 47,
       "curatedMentions": 1
     },
     {
@@ -11783,7 +11732,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 51,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -11803,7 +11752,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 46,
+      "stars": 47,
       "curatedMentions": 1
     },
     {
@@ -11838,7 +11787,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 51,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -11858,7 +11807,57 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 46,
+      "stars": 47,
+      "curatedMentions": 1
+    },
+    {
+      "id": "rules:sanjeed5/awesome-cursor-rules-mdc:rules-mdc/git.mdc#git",
+      "type": "rules",
+      "name": "git",
+      "description": {
+        "zh": null,
+        "en": "This guide defines the definitive Git best practices for our team, ensuring clean history, efficient collaboration, and high code quality through structured workflows, commit standards, and automated hooks.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "meta"
+      ],
+      "targets": [
+        "cursor"
+      ],
+      "source": {
+        "repo": "sanjeed5/awesome-cursor-rules-mdc",
+        "path": "rules-mdc/git.mdc",
+        "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/HEAD/rules-mdc/git.mdc",
+        "tier": 2
+      },
+      "quality": {
+        "score": 51,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "low",
+        "score": 10
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 3557,
       "curatedMentions": 1
     },
     {
@@ -11912,7 +11911,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 46,
+      "stars": 47,
       "curatedMentions": 1
     },
     {
@@ -14133,6 +14132,104 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:firecrawl/firecrawl-mcp-server:io.github.firecrawl/firecrawl-mcp-server#firecrawl-mcp-server",
+      "type": "mcp",
+      "name": "Firecrawl MCP Server",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Firecrawl — search, scrape, and interact with the web.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "firecrawl/firecrawl-mcp-server",
+        "path": "io.github.firecrawl/firecrawl-mcp-server",
+        "url": "https://github.com/firecrawl/firecrawl-mcp-server.git",
+        "tier": 0
+      },
+      "quality": {
+        "score": 32,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 2
+    },
+    {
+      "id": "mcp:github/github-mcp-server:io.github.github/github-mcp-server#github",
+      "type": "mcp",
+      "name": "GitHub",
+      "description": {
+        "zh": null,
+        "en": "Connect AI assistants to GitHub - manage repos, issues, PRs, and workflows through natural language.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "github/github-mcp-server",
+        "path": "io.github.github/github-mcp-server",
+        "url": "https://github.com/github/github-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 32,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 2
+    },
+    {
       "id": "mcp:wonderwhy-er/desktopcommandermcp:io.github.wonderwhy-er/desktop-commander#desktop-commander",
       "type": "mcp",
       "name": "Desktop Commander",
@@ -15982,55 +16079,6 @@
       "curatedMentions": 1
     },
     {
-      "id": "mcp:firecrawl/firecrawl-mcp-server:io.github.firecrawl/firecrawl-mcp-server#firecrawl-mcp-server",
-      "type": "mcp",
-      "name": "Firecrawl MCP Server",
-      "description": {
-        "zh": null,
-        "en": "MCP server for Firecrawl — search, scrape, and interact with the web.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "meta"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "firecrawl/firecrawl-mcp-server",
-        "path": "io.github.firecrawl/firecrawl-mcp-server",
-        "url": "https://github.com/firecrawl/firecrawl-mcp-server.git",
-        "tier": 0
-      },
-      "quality": {
-        "score": 24,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 1
-    },
-    {
       "id": "mcp:fkiene/llmtrim:io.github.fkiene/llmtrim#llmtrim",
       "type": "mcp",
       "name": "llmtrim",
@@ -16299,55 +16347,6 @@
         "repo": "gblinproject/GBLIN-MCP",
         "path": "io.github.gblinproject/gblin-mcp-server",
         "url": "https://github.com/gblinproject/GBLIN-MCP",
-        "tier": 0
-      },
-      "quality": {
-        "score": 24,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 1
-    },
-    {
-      "id": "mcp:github/github-mcp-server:io.github.github/github-mcp-server#github",
-      "type": "mcp",
-      "name": "GitHub",
-      "description": {
-        "zh": null,
-        "en": "Connect AI assistants to GitHub - manage repos, issues, PRs, and workflows through natural language.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "meta"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "github/github-mcp-server",
-        "path": "io.github.github/github-mcp-server",
-        "url": "https://github.com/github/github-mcp-server",
         "tier": 0
       },
       "quality": {
@@ -16876,7 +16875,7 @@
       "name": "Slack MCP Server",
       "description": {
         "zh": null,
-        "en": "Slack MCP without OAuth — 21 tools, session-based. Free OSS; hosted has a free tier, Pro $19/mo.",
+        "en": "Slack for AI agents: DMs, search, threads, triage, actions - browser-session or hosted OAuth.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -18404,6 +18403,55 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:smaniches/semantic-scholar-mcp:io.github.smaniches/semantic-scholar-mcp#semantic-scholar-mcp-server",
+      "type": "mcp",
+      "name": "Semantic Scholar MCP Server",
+      "description": {
+        "zh": null,
+        "en": "MCP server for the Semantic Scholar API: search 200M+ papers, citations, authors, recommendations.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "smaniches/semantic-scholar-mcp",
+        "path": "io.github.smaniches/semantic-scholar-mcp",
+        "url": "https://github.com/smaniches/semantic-scholar-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
       "id": "mcp:soapyred/freightutils-mcp:io.github.soapyred/freightutils#freightutils-mcp-server",
       "type": "mcp",
       "name": "FreightUtils MCP Server",
@@ -19018,6 +19066,55 @@
         "repo": "abhishekjkrsna/swapi-mcp",
         "path": "io.github.abhishekjkrsna/swapi-mcp",
         "url": "https://github.com/abhishekjkrsna/swapi-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:accentist/buyking-mcp:io.github.accentist/buyking-mcp#buyking-mcp-server",
+      "type": "mcp",
+      "name": "BuyKing MCP Server",
+      "description": {
+        "zh": null,
+        "en": "세일프라자 AI 사자왕 Bㅏ이킹의 핫딜 시맨틱 검색 서버. 쿠팡, 알리익스프레스, 11번가, G마켓 등 국내외 방대한 초특가/핫딜 정보를 시맨틱 검색으로 제공합니다.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "accentist/buyking-mcp",
+        "path": "io.github.accentist/buyking-mcp",
+        "url": "https://github.com/accentist/buyking-mcp",
         "tier": 0
       },
       "quality": {
@@ -20733,6 +20830,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:andresolbach/nodriver-mcp-server:io.github.andresolbach/nodriver-mcp-server#nodriver-—-undetected-browser-automation",
+      "type": "mcp",
+      "name": "nodriver — undetected browser automation",
+      "description": {
+        "zh": null,
+        "en": "Undetected, anti-bot-resistant Chrome automation. 57 tools. Stealth chrome-devtools-mcp alternative.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "andresolbach/nodriver-mcp-server",
+        "path": "io.github.andresolbach/nodriver-mcp-server",
+        "url": "https://github.com/andresolbach/nodriver-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:anthonypuggs/ausecon-mcp-server:io.github.anthonypuggs/ausecon-mcp-server#australian-economic-data-(abs,-rba-&-apra)",
       "type": "mcp",
       "name": "Australian Economic Data (ABS, RBA & APRA)",
@@ -21347,6 +21493,56 @@
         "repo": "Backtest360/backtest360-mcp",
         "path": "com.backtest360/backtest360",
         "url": "https://github.com/Backtest360/backtest360-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:baktun-studio/linebreak-gate:com.linebreakapp/linebreak-gate#linebreak-gate-&-spec-bridge",
+      "type": "mcp",
+      "name": "LineBreak Gate & Spec Bridge",
+      "description": {
+        "zh": null,
+        "en": "Approved acceptance criteria served over MCP to Claude Code, Cursor, or Codex. Git-only, sealed.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Baktun-Studio/linebreak-gate",
+        "path": "com.linebreakapp/linebreak-gate",
+        "url": "https://github.com/Baktun-Studio/linebreak-gate",
         "tier": 0
       },
       "quality": {
@@ -22120,7 +22316,7 @@
       "name": "io.github.bruchris/canvas-lms-mcp",
       "description": {
         "zh": null,
-        "en": "TypeScript MCP server for Canvas LMS — 115 read+write tools across 17 domains.",
+        "en": "TypeScript MCP server for Canvas LMS — 163 tools across 41 domains.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -22410,6 +22606,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:chriphil70/mediamiddleware:io.github.chriphil70/clipforge#clipforge",
+      "type": "mcp",
+      "name": "ClipForge",
+      "description": {
+        "zh": null,
+        "en": "Trim, watermark, extract audio, and convert video to 9:16 vertical via API or MCP server.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "chriphil70/MediaMiddleware",
+        "path": "io.github.chriphil70/clipforge",
+        "url": "https://github.com/chriphil70/MediaMiddleware",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:chrischall/honeybook-mcp:io.github.chrischall/honeybook-mcp#io.github.chrischall-honeybook-mcp",
       "type": "mcp",
       "name": "io.github.chrischall/honeybook-mcp",
@@ -22432,6 +22678,56 @@
         "repo": "chrischall/honeybook-mcp",
         "path": "io.github.chrischall/honeybook-mcp",
         "url": "https://github.com/chrischall/honeybook-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:christopherhbutler/cdbx.ai:ai.cdbx/mcp-server#ai.cdbx-mcp-server",
+      "type": "mcp",
+      "name": "ai.cdbx/mcp-server",
+      "description": {
+        "zh": null,
+        "en": "cdbx MCP server for Experiments, Projects, and sandboxed code execution (Python, Go, C#, Rust).",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ChristopherHButler/cdbx.ai",
+        "path": "ai.cdbx/mcp-server",
+        "url": "https://github.com/ChristopherHButler/cdbx.ai",
         "tier": 0
       },
       "quality": {
@@ -24332,6 +24628,104 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:cyanheads/gbif-biodiversity-mcp-server:io.github.cyanheads/gbif-biodiversity-mcp-server#io.github.cyanheads-gbif-biodiversity-mcp-server",
+      "type": "mcp",
+      "name": "io.github.cyanheads/gbif-biodiversity-mcp-server",
+      "description": {
+        "zh": null,
+        "en": "Search GBIF species taxonomy, occurrence records, datasets, and publishers.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "cyanheads/gbif-biodiversity-mcp-server",
+        "path": "io.github.cyanheads/gbif-biodiversity-mcp-server",
+        "url": "https://github.com/cyanheads/gbif-biodiversity-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:cyanheads/imf-mcp-server:io.github.cyanheads/imf-mcp-server#io.github.cyanheads-imf-mcp-server",
+      "type": "mcp",
+      "name": "io.github.cyanheads/imf-mcp-server",
+      "description": {
+        "zh": null,
+        "en": "Query IMF SDMX 3.0 macroeconomic dataflows — WEO, BOP, CPI, exchange rates, 190 countries.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "cyanheads/imf-mcp-server",
+        "path": "io.github.cyanheads/imf-mcp-server",
+        "url": "https://github.com/cyanheads/imf-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:cyanheads/nhtsa-vehicle-safety-mcp-server:io.github.cyanheads/nhtsa-vehicle-safety-mcp-server#io.github.cyanheads-nhtsa-vehicle-safety-mcp-server",
       "type": "mcp",
       "name": "io.github.cyanheads/nhtsa-vehicle-safety-mcp-server",
@@ -24600,6 +24994,55 @@
         "repo": "cyanheads/openaq-mcp-server",
         "path": "io.github.cyanheads/openaq-mcp-server",
         "url": "https://github.com/cyanheads/openaq-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:cyanheads/openchargemap-mcp-server:io.github.cyanheads/openchargemap-mcp-server#io.github.cyanheads-openchargemap-mcp-server",
+      "type": "mcp",
+      "name": "io.github.cyanheads/openchargemap-mcp-server",
+      "description": {
+        "zh": null,
+        "en": "Find EV charging stations, detail, and reliability check-ins via the global Open Charge Map.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "cyanheads/openchargemap-mcp-server",
+        "path": "io.github.cyanheads/openchargemap-mcp-server",
+        "url": "https://github.com/cyanheads/openchargemap-mcp-server",
         "tier": 0
       },
       "quality": {
@@ -25810,6 +26253,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:dljrealty/guesty-mcp-server:io.github.dljrealty/guesty#guesty-mcp-server",
+      "type": "mcp",
+      "name": "Guesty MCP Server",
+      "description": {
+        "zh": null,
+        "en": "Guesty property-management MCP. Read-only: reservations, listings, calendar, guests, revenue.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "DLJRealty/guesty-mcp-server",
+        "path": "io.github.DLJRealty/guesty",
+        "url": "https://github.com/DLJRealty/guesty-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:doc2mcp/doc2mcp-registry:io.github.doc2mcp/freefirecommunity#freefirecommunity",
       "type": "mcp",
       "name": "freefirecommunity",
@@ -26276,6 +26768,55 @@
         "repo": "einvoice-dev1/invoicehub-mcp",
         "path": "io.github.einvoice-dev1/invoicehub-mcp",
         "url": "https://github.com/einvoice-dev1/invoicehub-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:eldermoraes/swapi.build:build.swapi/star-wars#star-wars-mcp",
+      "type": "mcp",
+      "name": "Star Wars MCP",
+      "description": {
+        "zh": null,
+        "en": "Star Wars API (SWAPI) as a remote MCP server: films, people, planets, species, starships, vehicles.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "eldermoraes/swapi.build",
+        "path": "build.swapi/star-wars",
+        "url": "https://github.com/eldermoraes/swapi.build",
         "tier": 0
       },
       "quality": {
@@ -26947,6 +27488,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:fisher521/bookmarks-mcp:io.github.fisher521/bookmarks-mcp#io.github.fisher521-bookmarks-mcp",
+      "type": "mcp",
+      "name": "io.github.Fisher521/bookmarks-mcp",
+      "description": {
+        "zh": null,
+        "en": "Read-only MCP server for browser bookmarks: Chrome, Safari, Firefox, and read-later exports.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Fisher521/bookmarks-mcp",
+        "path": "io.github.Fisher521/bookmarks-mcp",
+        "url": "https://github.com/Fisher521/bookmarks-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:fisher521/burn-mcp-server:io.github.fisher521/burn-mcp-server#io.github.fisher521-burn-mcp-server",
       "type": "mcp",
       "name": "io.github.Fisher521/burn-mcp-server",
@@ -26969,6 +27559,55 @@
         "repo": "Fisher521/burn-mcp-server",
         "path": "io.github.Fisher521/burn-mcp-server",
         "url": "https://github.com/Fisher521/burn-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:flujo-app/mcp-cad-studio:io.github.mario-andreschak/mcp-cad-studio#mcp-cad-studio",
+      "type": "mcp",
+      "name": "MCP CAD Studio",
+      "description": {
+        "zh": null,
+        "en": "A self-contained parametric CAD studio MCP server with an interactive MCP App.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "flujo-app/mcp-cad-studio",
+        "path": "io.github.mario-andreschak/mcp-cad-studio",
+        "url": "https://github.com/flujo-app/mcp-cad-studio",
         "tier": 0
       },
       "quality": {
@@ -27094,6 +27733,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:forgeopslabs/appstore-mcp:io.github.forgeopslabs/appstore-mcp#app-store-connect",
+      "type": "mcp",
+      "name": "App Store Connect",
+      "description": {
+        "zh": null,
+        "en": "MCP server for the Apple App Store Connect API - 114 annotated tools, optional read-only mode.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "forgeopslabs/appstore-mcp",
+        "path": "io.github.forgeopslabs/appstore-mcp",
+        "url": "https://github.com/forgeopslabs/appstore-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:freema/mcp-jira-stdio:io.github.freema/mcp-jira-stdio#io.github.freema-mcp-jira-stdio",
       "type": "mcp",
       "name": "io.github.freema/mcp-jira-stdio",
@@ -27167,6 +27855,55 @@
         "repo": "frndchagas/coolify-mcp",
         "path": "io.github.frndchagas/coolify-mcp",
         "url": "https://github.com/frndchagas/coolify-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:frndchagas/expo-android:io.github.frndchagas/expo-android#expo-android-mcp",
+      "type": "mcp",
+      "name": "Expo Android MCP",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Android emulator automation via ADB.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "frndchagas/expo-android",
+        "path": "io.github.frndchagas/expo-android",
+        "url": "https://github.com/frndchagas/expo-android",
         "tier": 0
       },
       "quality": {
@@ -27695,7 +28432,7 @@
       "name": "SCORM Packager (HTML → SCORM 2004)",
       "description": {
         "zh": null,
-        "en": "Turn HTML, Claude Design bundles or Teach on Mars exports into SCORM 2004/1.2 packages.",
+        "en": "Turn HTML, Claude Design bundles or mobile-learning exports into SCORM 2004/1.2 packages.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -28084,6 +28821,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:hashi-kazu/ai-test-process-mcp:io.github.hashi-kazu/ai-test-process-mcp#io.github.hashi-kazu-ai-test-process-mcp",
+      "type": "mcp",
+      "name": "io.github.Hashi-Kazu/ai-test-process-mcp",
+      "description": {
+        "zh": null,
+        "en": "AI-assisted MCP server for JSTQB-based test planning, design, review, and analysis.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "pm",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Hashi-Kazu/ai-test-process-mcp",
+        "path": "io.github.Hashi-Kazu/ai-test-process-mcp",
+        "url": "https://github.com/Hashi-Kazu/ai-test-process-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:herbertkokholm/cite-caddy:dk.herbertkokholm.citecaddy/cite-caddy#cite-caddy",
       "type": "mcp",
       "name": "Cite Caddy",
@@ -28404,6 +29192,104 @@
         "repo": "Hushlor/mcp-server-tauri",
         "path": "io.github.Hushlor/mcp-server-tauri",
         "url": "https://github.com/Hushlor/mcp-server-tauri",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:hythe-dev/hythe:dev.hythe/hythe#dev.hythe-hythe",
+      "type": "mcp",
+      "name": "dev.hythe/hythe",
+      "description": {
+        "zh": null,
+        "en": "HYTHE — coordination bus + shared truth for AI agent fleets — self-hosted MCP server + stdio bridge.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "hythe-dev/hythe",
+        "path": "dev.hythe/hythe",
+        "url": "https://github.com/hythe-dev/hythe",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:idle-sync/db-conn-mcp:io.github.idle-sync/db-conn-mcp#io.github.idle-sync-db-conn-mcp",
+      "type": "mcp",
+      "name": "io.github.Idle-Sync/db-conn-mcp",
+      "description": {
+        "zh": null,
+        "en": "A dead-simple, self-hosted MCP server for securely querying databases via AI agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Idle-Sync/db-conn-mcp",
+        "path": "io.github.Idle-Sync/db-conn-mcp",
+        "url": "https://github.com/Idle-Sync/db-conn-mcp",
         "tier": 0
       },
       "quality": {
@@ -29023,6 +29909,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:jcucci/dotnet-sherlock-mcp:io.github.jcucci/dotnet-sherlock-mcp#io.github.jcucci-dotnet-sherlock-mcp",
+      "type": "mcp",
+      "name": "io.github.jcucci/dotnet-sherlock-mcp",
+      "description": {
+        "zh": null,
+        "en": ".NET assembly introspection MCP server with advanced reflection and type analysis capabilities",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jcucci/dotnet-sherlock-mcp",
+        "path": "io.github.jcucci/dotnet-sherlock-mcp",
+        "url": "https://github.com/jcucci/dotnet-sherlock-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:jeff-nasseri/mikrotik-mcp:io.github.jeff-nasseri/mikrotik-mcp#io.github.jeff-nasseri-mikrotik-mcp",
       "type": "mcp",
       "name": "io.github.jeff-nasseri/mikrotik-mcp",
@@ -29045,6 +29980,55 @@
         "repo": "jeff-nasseri/mikrotik-mcp",
         "path": "io.github.jeff-nasseri/mikrotik-mcp",
         "url": "https://github.com/jeff-nasseri/mikrotik-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:jkawamoto/mcp-florence2:io.github.jkawamoto/mcp-florence2#io.github.jkawamoto-mcp-florence2",
+      "type": "mcp",
+      "name": "io.github.jkawamoto/mcp-florence2",
+      "description": {
+        "zh": null,
+        "en": "An MCP server for processing images using Florence-2",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jkawamoto/mcp-florence2",
+        "path": "io.github.jkawamoto/mcp-florence2",
+        "url": "https://github.com/jkawamoto/mcp-florence2",
         "tier": 0
       },
       "quality": {
@@ -29291,6 +30275,55 @@
         "repo": "juan-sibbo/gam-seller-mcp-node",
         "path": "io.github.juan-sibbo/gam-seller-mcp-node",
         "url": "https://github.com/juan-sibbo/gam-seller-mcp-node",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:justinasrolando-cpu/seenpaid:io.github.justinasrolando-cpu/seenpaid#io.github.justinasrolando-cpu-seenpaid",
+      "type": "mcp",
+      "name": "io.github.justinasrolando-cpu/seenpaid",
+      "description": {
+        "zh": null,
+        "en": "Open-source, self-hosted posting layer with an MCP server for AI agents. 25+ platforms.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "justinasrolando-cpu/seenpaid",
+        "path": "io.github.justinasrolando-cpu/seenpaid",
+        "url": "https://github.com/justinasrolando-cpu/seenpaid",
         "tier": 0
       },
       "quality": {
@@ -29613,6 +30646,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:kartegagithub/laviya-agent-skills:io.github.kartegagithub/laviya-agent-skills#io.github.kartegagithub-laviya-agent-skills",
+      "type": "mcp",
+      "name": "io.github.kartegagithub/laviya-agent-skills",
+      "description": {
+        "zh": null,
+        "en": "Laviya AI Orchestration MCP runtime for IDE and agent integrations.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "kartegagithub/laviya-agent-skills",
+        "path": "io.github.kartegagithub/laviya-agent-skills",
+        "url": "https://github.com/kartegagithub/laviya-agent-skills",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:kevmoz/macaroonnetwork:com.macaroonnetwork/mcp-server#macaroon-network",
       "type": "mcp",
       "name": "Macaroon Network",
@@ -29733,6 +30815,56 @@
         "repo": "kirbah/mcp-youtube",
         "path": "io.github.kirbah/mcp-youtube",
         "url": "https://github.com/kirbah/mcp-youtube",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:kitdevua/video-vision-mcp:io.github.kitdevua/video-vision-mcp#io.github.kitdevua-video-vision-mcp",
+      "type": "mcp",
+      "name": "io.github.KitDevUA/video-vision-mcp",
+      "description": {
+        "zh": null,
+        "en": "Analyze any video (local file or URL) into frames + transcript for Claude Code",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "KitDevUA/video-vision-mcp",
+        "path": "io.github.KitDevUA/video-vision-mcp",
+        "url": "https://github.com/KitDevUA/video-vision-mcp",
         "tier": 0
       },
       "quality": {
@@ -29983,6 +31115,55 @@
         "repo": "kmdesle/sendinel-ai",
         "path": "ai.sendinel/mcp-server",
         "url": "https://github.com/kmdesle/sendinel-ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:krayinc/docbase-mcp-server:io.github.krayinc/docbase#io.github.krayinc-docbase",
+      "type": "mcp",
+      "name": "io.github.krayinc/docbase",
+      "description": {
+        "zh": null,
+        "en": "DocBase MCP server for AI agents",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "krayinc/docbase-mcp-server",
+        "path": "io.github.krayinc/docbase",
+        "url": "https://github.com/krayinc/docbase-mcp-server",
         "tier": 0
       },
       "quality": {
@@ -33566,55 +34747,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:io.github.openimagedebugger/oid-mcp#openimagedebugger-mcp",
-      "type": "mcp",
-      "name": "OpenImageDebugger MCP",
-      "description": {
-        "zh": null,
-        "en": "MCP server giving AI agents eyes on OpenImageDebugger buffers in live gdb/lldb sessions",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "meta"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "io.github.OpenImageDebugger/oid-mcp",
-        "url": "https://registry.modelcontextprotocol.io/?q=io.github.OpenImageDebugger%2Foid-mcp",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:mcp-official:io.github.quwentao2005/ensp-nexus#ensp-nexus",
       "type": "mcp",
       "name": "eNSP Nexus",
@@ -34082,6 +35214,55 @@
         "repo": null,
         "path": "net.spintax/mcp",
         "url": "https://spintax.net/docs/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:nz.co.badbuddy.www/mcp#badbuddy",
+      "type": "mcp",
+      "name": "BadBuddy",
+      "description": {
+        "zh": null,
+        "en": "Find public badminton activities and venues in New Zealand through a read-only MCP server.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "nz.co.badbuddy.www/mcp",
+        "url": "https://www.badbuddy.co.nz/developers/mcp",
         "tier": 0
       },
       "quality": {
@@ -34654,6 +35835,104 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mindstone/mcp-servers:io.github.mindstone/mcp-server-gamma#gamma",
+      "type": "mcp",
+      "name": "Gamma",
+      "description": {
+        "zh": null,
+        "en": "Gamma AI presentation generation MCP server for Model Context Protocol hosts",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "mindstone/mcp-servers",
+        "path": "io.github.mindstone/mcp-server-gamma",
+        "url": "https://github.com/mindstone/mcp-servers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mindstone/mcp-servers:io.github.mindstone/mcp-server-google-workspace#google-workspace",
+      "type": "mcp",
+      "name": "Google Workspace",
+      "description": {
+        "zh": null,
+        "en": "Google Workspace MCP server for Gmail, Calendar, Drive, Docs, Sheets, Slides, Contacts, and more",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "mindstone/mcp-servers",
+        "path": "io.github.mindstone/mcp-server-google-workspace",
+        "url": "https://github.com/mindstone/mcp-servers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mindstone/mcp-servers:io.github.mindstone/mcp-server-microsoft-mail#microsoft-365-mail",
       "type": "mcp",
       "name": "Microsoft 365 Mail",
@@ -34753,6 +36032,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mindstone/mcp-servers:io.github.mindstone/mcp-server-mixmax#mixmax",
+      "type": "mcp",
+      "name": "Mixmax",
+      "description": {
+        "zh": null,
+        "en": "Mixmax email productivity MCP server for Model Context Protocol hosts",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "mindstone/mcp-servers",
+        "path": "io.github.mindstone/mcp-server-mixmax",
+        "url": "https://github.com/mindstone/mcp-servers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mindstone/mcp-servers:io.github.mindstone/mcp-server-retell-ai#retell-ai",
       "type": "mcp",
       "name": "Retell AI",
@@ -34774,6 +36102,56 @@
       "source": {
         "repo": "mindstone/mcp-servers",
         "path": "io.github.mindstone/mcp-server-retell-ai",
+        "url": "https://github.com/mindstone/mcp-servers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mindstone/mcp-servers:io.github.mindstone/mcp-server-runway#runway-ml",
+      "type": "mcp",
+      "name": "Runway ML",
+      "description": {
+        "zh": null,
+        "en": "Runway ML MCP server: AI video, image, audio, voice generation, and task management",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "mindstone/mcp-servers",
+        "path": "io.github.mindstone/mcp-server-runway",
         "url": "https://github.com/mindstone/mcp-servers",
         "tier": 0
       },
@@ -34873,6 +36251,55 @@
       "source": {
         "repo": "mindstone/mcp-servers",
         "path": "io.github.mindstone/mcp-server-vanta",
+        "url": "https://github.com/mindstone/mcp-servers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mindstone/mcp-servers:io.github.mindstone/mcp-server-zendesk#zendesk",
+      "type": "mcp",
+      "name": "Zendesk",
+      "description": {
+        "zh": null,
+        "en": "Zendesk MCP server for Model Context Protocol hosts",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "mindstone/mcp-servers",
+        "path": "io.github.mindstone/mcp-server-zendesk",
         "url": "https://github.com/mindstone/mcp-servers",
         "tier": 0
       },
@@ -35469,6 +36896,56 @@
         "repo": "mwieczorkiewicz/opcua-mcp",
         "path": "io.github.mwieczorkiewicz/opcua-mcp",
         "url": "https://github.com/mwieczorkiewicz/opcua-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mysleekdesigns/crawlforge-mcp:io.github.mysleekdesigns/crawlforge-mcp-server#io.github.mysleekdesigns-crawlforge-mcp-server",
+      "type": "mcp",
+      "name": "io.github.mysleekdesigns/crawlforge-mcp-server",
+      "description": {
+        "zh": null,
+        "en": "Web scraping, crawling, deep research & autonomous extraction — 27 MCP tools, clean Markdown/JSON",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "research",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "mysleekdesigns/crawlforge-mcp",
+        "path": "io.github.mysleekdesigns/crawlforge-mcp-server",
+        "url": "https://github.com/mysleekdesigns/crawlforge-mcp",
         "tier": 0
       },
       "quality": {
@@ -36388,6 +37865,106 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:odrin/rhizome-mcp:io.github.odrin/rhizome-mcp#rhizome-mcp",
+      "type": "mcp",
+      "name": "Rhizome MCP",
+      "description": {
+        "zh": null,
+        "en": "Local-first MCP server for task tracking and coordination of autonomous AI coding agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Odrin/rhizome-mcp",
+        "path": "io.github.Odrin/rhizome-mcp",
+        "url": "https://github.com/Odrin/rhizome-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:odu33104/rive-mcp:io.github.odu33104/rive-mcp#io.github.odu33104-rive-mcp",
+      "type": "mcp",
+      "name": "io.github.ODU33104/rive-mcp",
+      "description": {
+        "zh": null,
+        "en": "Free, editor-less MCP server for Rive: create, edit, inspect, render and preview .riv animations",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ODU33104/rive-mcp",
+        "path": "io.github.ODU33104/rive-mcp",
+        "url": "https://github.com/ODU33104/rive-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:ondata/ckan-mcp-server:io.github.aborruso/ckan-mcp-server#io.github.aborruso-ckan-mcp-server",
       "type": "mcp",
       "name": "io.github.aborruso/ckan-mcp-server",
@@ -36638,6 +38215,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:openimagedebugger/openimagedebugger:io.github.openimagedebugger/oid-mcp#openimagedebugger-mcp",
+      "type": "mcp",
+      "name": "OpenImageDebugger MCP",
+      "description": {
+        "zh": null,
+        "en": "MCP server giving AI agents eyes on OpenImageDebugger buffers in live gdb/lldb sessions",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "OpenImageDebugger/OpenImageDebugger",
+        "path": "io.github.OpenImageDebugger/oid-mcp",
+        "url": "https://github.com/OpenImageDebugger/OpenImageDebugger",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:ordersofmagnitudellc/x402:io.github.ordersofmagnitudellc/mcp-package#io.github.ordersofmagnitudellc-mcp-package",
       "type": "mcp",
       "name": "io.github.OrdersOfMagnitudeLLC/mcp-package",
@@ -36710,6 +38336,56 @@
         "repo": "osauer/canary",
         "path": "io.github.osauer/canary",
         "url": "https://github.com/osauer/canary",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:oye-collective/actvt-macos-releases:io.actvt/actvt#actvt",
+      "type": "mcp",
+      "name": "Actvt",
+      "description": {
+        "zh": null,
+        "en": "Query live Mac system metrics, listening ports, and Claude Code and Codex session history.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "oye-collective/actvt-macos-releases",
+        "path": "io.actvt/actvt",
+        "url": "https://github.com/oye-collective/actvt-macos-releases",
         "tier": 0
       },
       "quality": {
@@ -37180,6 +38856,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:planetabhi/figma-mcp-server:io.github.planetabhi/figma-mcp-server#figma-mcp-server",
+      "type": "mcp",
+      "name": "Figma MCP Server",
+      "description": {
+        "zh": null,
+        "en": "A local MCP server with full Figma REST API coverage.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "planetabhi/figma-mcp-server",
+        "path": "io.github.planetabhi/figma-mcp-server",
+        "url": "https://github.com/planetabhi/figma-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:polydoc-tech/polydoc-mcp:tech.polydoc/polydoc-mcp#polydoc",
       "type": "mcp",
       "name": "PolyDoc",
@@ -37302,6 +39028,56 @@
         "repo": "ProfessionalWiki/MediaWiki-MCP-Server",
         "path": "io.github.ProfessionalWiki/mediawiki-mcp-server",
         "url": "https://github.com/ProfessionalWiki/MediaWiki-MCP-Server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:prophet-git/one-brain-plugin:io.github.prophet-git/one-brain#io.github.prophet-git-one-brain",
+      "type": "mcp",
+      "name": "io.github.Prophet-git/one-brain",
+      "description": {
+        "zh": null,
+        "en": "Shared memory for a team in Claude Code: what one person records, everyone has.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Prophet-git/one-brain-plugin",
+        "path": "io.github.Prophet-git/one-brain",
+        "url": "https://github.com/Prophet-git/one-brain-plugin",
         "tier": 0
       },
       "quality": {
@@ -37897,6 +39673,56 @@
         "repo": "psyb0t/rankrat",
         "path": "io.github.psyb0t/rankrat",
         "url": "https://github.com/psyb0t/rankrat",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:pvliesdonk/image-generation-mcp:io.github.pvliesdonk/image-generation-mcp#image-generation-mcp-server",
+      "type": "mcp",
+      "name": "Image Generation MCP Server",
+      "description": {
+        "zh": null,
+        "en": "MCP server for AI image generation via OpenAI, Stable Diffusion (SD WebUI), or placeholders.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "pvliesdonk/image-generation-mcp",
+        "path": "io.github.pvliesdonk/image-generation-mcp",
+        "url": "https://github.com/pvliesdonk/image-generation-mcp",
         "tier": 0
       },
       "quality": {
@@ -40565,6 +42391,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:shigechika/cloudarmor-mcp:io.github.shigechika/cloudarmor-mcp#cloud-armor-waf-patrol-mcp",
+      "type": "mcp",
+      "name": "Cloud Armor WAF Patrol MCP",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Google Cloud Armor WAF log patrol: deny summaries and false-positive checks",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "shigechika/cloudarmor-mcp",
+        "path": "io.github.shigechika/cloudarmor-mcp",
+        "url": "https://github.com/shigechika/cloudarmor-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:shigechika/eos-mcp:io.github.shigechika/eos-mcp#eos-mcp",
       "type": "mcp",
       "name": "EOS MCP",
@@ -41251,6 +43126,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:smartbear/smartbear-mcp:com.smartbear/smartbear-mcp#smartbear-mcp",
+      "type": "mcp",
+      "name": "SmartBear MCP",
+      "description": {
+        "zh": null,
+        "en": "MCP server for AI access to SmartBear tools, including BugSnag, Reflect, Swagger, PactFlow, QTM4J.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "SmartBear/smartbear-mcp",
+        "path": "com.smartbear/smartbear-mcp",
+        "url": "https://github.com/SmartBear/smartbear-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:smiaware/mcp-server:com.smiaware.mcp/smi-aware-assistant#smi-aware-assistant",
       "type": "mcp",
       "name": "SMI Aware Assistant",
@@ -41793,6 +43717,155 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:stumason/polar-flow-server:io.github.stumason/polar-flow-server#polar-health-data-(self-hosted)",
+      "type": "mcp",
+      "name": "Polar Health Data (self-hosted)",
+      "description": {
+        "zh": null,
+        "en": "Self-hosted Polar health analytics with a built-in MCP server: sleep, HRV, workouts, baselines.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "StuMason/polar-flow-server",
+        "path": "io.github.StuMason/polar-flow-server",
+        "url": "https://github.com/StuMason/polar-flow-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:subodhkc/mcp-tenant-isolation:io.github.subodhkc/mcp-tenant-isolation#io.github.subodhkc-mcp-tenant-isolation",
+      "type": "mcp",
+      "name": "io.github.subodhkc/mcp-tenant-isolation",
+      "description": {
+        "zh": null,
+        "en": "Static analysis scanner for MCP server code and multi-tenant SaaS applications.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "subodhkc/mcp-tenant-isolation",
+        "path": "io.github.subodhkc/mcp-tenant-isolation",
+        "url": "https://github.com/subodhkc/mcp-tenant-isolation",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:suigar-gaming/ts-sdks:io.github.suigar-gaming/mcp#io.github.suigar-gaming-mcp",
+      "type": "mcp",
+      "name": "io.github.Suigar-Gaming/mcp",
+      "description": {
+        "zh": null,
+        "en": "MCP server and MCP App for building and inspecting Suigar transactions on Sui.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Suigar-Gaming/ts-sdks",
+        "path": "io.github.Suigar-Gaming/mcp",
+        "url": "https://github.com/Suigar-Gaming/ts-sdks",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:surendranb/google-analytics-mcp:io.github.surendranb/google-analytics-mcp#io.github.surendranb-google-analytics-mcp",
       "type": "mcp",
       "name": "io.github.surendranb/google-analytics-mcp",
@@ -41914,6 +43987,56 @@
         "repo": "tallyfy/mcp-public",
         "path": "com.tallyfy/mcp-server",
         "url": "https://github.com/tallyfy/mcp-public",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:taranis-ai/taranis-mcp-server:io.github.taranis-ai/taranis-mcp-server#taranis-ai",
+      "type": "mcp",
+      "name": "Taranis AI",
+      "description": {
+        "zh": null,
+        "en": "Search stories and discover OSINT sources in Taranis AI.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "research",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "taranis-ai/taranis-mcp-server",
+        "path": "io.github.taranis-ai/taranis-mcp-server",
+        "url": "https://github.com/taranis-ai/taranis-mcp-server",
         "tier": 0
       },
       "quality": {
@@ -42214,6 +44337,55 @@
         "repo": "TomasLucasUTN/godot-mcp-bridge",
         "path": "io.github.TomasLucasUTN/godot-mcp-bridge",
         "url": "https://github.com/TomasLucasUTN/godot-mcp-bridge",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:tomcat65/engram:io.github.tomcat65/engram#io.github.tomcat65-engram",
+      "type": "mcp",
+      "name": "io.github.tomcat65/engram",
+      "description": {
+        "zh": null,
+        "en": "Coordination bus + shared truth for AI agent fleets — self-hosted MCP server + stdio bridge.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "tomcat65/engram",
+        "path": "io.github.tomcat65/engram",
+        "url": "https://github.com/tomcat65/engram",
         "tier": 0
       },
       "quality": {
@@ -42736,6 +44908,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:vectros-ai/vectros-mcp-server:io.github.vectros-ai/mcp-server#io.github.vectros-ai-mcp-server",
+      "type": "mcp",
+      "name": "io.github.vectros-ai/mcp-server",
+      "description": {
+        "zh": null,
+        "en": "Typed record store + hybrid search over MCP: deterministic lookups + semantic memory, per-customer.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "vectros-ai/vectros-mcp-server",
+        "path": "io.github.vectros-ai/mcp-server",
+        "url": "https://github.com/vectros-ai/vectros-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:vibgrate/cli:com.vibgrate/ai-context#com.vibgrate-ai-context",
       "type": "mcp",
       "name": "com.vibgrate/ai-context",
@@ -42759,6 +44980,55 @@
         "repo": "vibgrate/cli",
         "path": "com.vibgrate/ai-context",
         "url": "https://github.com/vibgrate/cli",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:victoriametrics/mcp-vmanomaly:io.github.victoriametrics/mcp-vmanomaly#io.github.victoriametrics-mcp-vmanomaly",
+      "type": "mcp",
+      "name": "io.github.VictoriaMetrics/mcp-vmanomaly",
+      "description": {
+        "zh": null,
+        "en": "MCP Server for vmanomaly - VictoriaMetrics anomaly detection",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "VictoriaMetrics/mcp-vmanomaly",
+        "path": "io.github.VictoriaMetrics/mcp-vmanomaly",
+        "url": "https://github.com/VictoriaMetrics/mcp-vmanomaly",
         "tier": 0
       },
       "quality": {
@@ -43402,6 +45672,55 @@
         "repo": "wyre-technology/saas-alerts-mcp",
         "path": "io.github.wyre-technology/saas-alerts-mcp",
         "url": "https://github.com/wyre-technology/saas-alerts-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:xzxzzx-ai/bilibili-mcp:io.github.xzxzzx-ai/bilibili-mcp#bilibili-mcp-server",
+      "type": "mcp",
+      "name": "Bilibili MCP Server",
+      "description": {
+        "zh": null,
+        "en": "Bilibili MCP tool for video metadata, transcripts, subtitles, and comment summarization",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "XZXZZX-Ai/bilibili-mcp",
+        "path": "io.github.XZXZZX-Ai/bilibili-mcp",
+        "url": "https://github.com/XZXZZX-Ai/bilibili-mcp",
         "tier": 0
       },
       "quality": {
