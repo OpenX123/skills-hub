@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-10T19:53:30.575Z",
+  "generatedAt": "2026-08-11T19:59:26.287Z",
   "engine": "text-baseline/v2",
-  "scanned": 7939,
-  "flagged": 140,
+  "scanned": 8238,
+  "flagged": 141,
   "byLevel": {
-    "clean": 7799,
-    "low": 106,
+    "clean": 8097,
+    "low": 107,
     "medium": 33,
     "high": 1
   },
@@ -4114,12 +4114,12 @@
       ]
     },
     {
-      "id": "rules:patrickjs/awesome-cursorrules:rules/nestjs-anti-hallucination-cursorrules-prompt-file.mdc#nestjs-anti-hallucination-cursorrules-prompt-file",
-      "name": "nestjs-anti-hallucination-cursorrules-prompt-file",
-      "type": "rules",
-      "repo": "PatrickJS/awesome-cursorrules",
-      "path": "rules/nestjs-anti-hallucination-cursorrules-prompt-file.mdc",
-      "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/HEAD/rules/nestjs-anti-hallucination-cursorrules-prompt-file.mdc",
+      "id": "skill:dontbesilent2025/dbskill:skills/dbs-content-risk-check/skill.md#dbs-content-risk-check",
+      "name": "dbs-content-risk-check",
+      "type": "skill",
+      "repo": "dontbesilent2025/dbskill",
+      "path": "skills/dbs-content-risk-check/SKILL.md",
+      "url": "https://github.com/dontbesilent2025/dbskill/blob/HEAD/skills/dbs-content-risk-check/SKILL.md",
       "level": "low",
       "score": 4,
       "counts": {
@@ -4127,15 +4127,15 @@
       },
       "flags": [
         {
-          "id": "sql-destructive",
+          "id": "paid-funnel",
           "severity": "low",
           "title": {
-            "zh": "SQL 破坏性语句",
-            "en": "Destructive SQL statement"
+            "zh": "付费导流",
+            "en": "Paid funnel"
           },
           "where": "body",
-          "line": 237,
-          "evidence": "DROP TABLE"
+          "line": 197,
+          "evidence": "限时优惠"
         }
       ]
     },
@@ -4162,6 +4162,32 @@
           "where": "body",
           "line": 405,
           "evidence": "加微信"
+        }
+      ]
+    },
+    {
+      "id": "rules:patrickjs/awesome-cursorrules:rules/nestjs-anti-hallucination-cursorrules-prompt-file.mdc#nestjs-anti-hallucination-cursorrules-prompt-file",
+      "name": "nestjs-anti-hallucination-cursorrules-prompt-file",
+      "type": "rules",
+      "repo": "PatrickJS/awesome-cursorrules",
+      "path": "rules/nestjs-anti-hallucination-cursorrules-prompt-file.mdc",
+      "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/HEAD/rules/nestjs-anti-hallucination-cursorrules-prompt-file.mdc",
+      "level": "low",
+      "score": 4,
+      "counts": {
+        "low": 1
+      },
+      "flags": [
+        {
+          "id": "sql-destructive",
+          "severity": "low",
+          "title": {
+            "zh": "SQL 破坏性语句",
+            "en": "Destructive SQL statement"
+          },
+          "where": "body",
+          "line": 237,
+          "evidence": "DROP TABLE"
         }
       ]
     },
