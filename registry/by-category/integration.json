@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T19:59:57.745Z",
+  "generatedAt": "2026-08-13T19:55:04.686Z",
   "category": {
     "key": "integration",
     "zh": "三方集成",
@@ -85,7 +85,7 @@
       }
     ]
   },
-  "total": 114,
+  "total": 117,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/slack-gif-creator/skill.md#slack-gif-creator",
@@ -138,7 +138,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 166879,
+      "stars": 168927,
       "curatedMentions": 8
     },
     {
@@ -458,7 +458,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 166879,
+      "stars": 168927,
       "curatedMentions": 8
     },
     {
@@ -2227,7 +2227,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 9412,
+      "stars": 9463,
       "curatedMentions": 1
     },
     {
@@ -2477,7 +2477,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 9412,
+      "stars": 9463,
       "curatedMentions": 1
     },
     {
@@ -2876,7 +2876,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 750,
+      "stars": 761,
       "curatedMentions": 1
     },
     {
@@ -3292,7 +3292,7 @@
       "name": "Slack MCP Server",
       "description": {
         "zh": null,
-        "en": "Slack for AI agents: DMs, search, threads, triage, actions - browser-session or hosted OAuth.",
+        "en": "Catch up on Slack without reading it. Unreads, threads, search. Browser-session or hosted OAuth.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -3583,6 +3583,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:alexeyleshchenko/fast-mcp-telegram:io.github.alexeyleshchenko/fast-mcp-telegram#io.github.alexeyleshchenko-fast-mcp-telegram",
+      "type": "mcp",
+      "name": "io.github.alexeyleshchenko/fast-mcp-telegram",
+      "description": {
+        "zh": null,
+        "en": "Multi-tenant Telegram gateway for AI agents — HTTP+stdio, 8 tools, MTProto User API",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "alexeyleshchenko/fast-mcp-telegram",
+        "path": "io.github.alexeyleshchenko/fast-mcp-telegram",
+        "url": "https://github.com/alexeyleshchenko/fast-mcp-telegram",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:bayramcsb/email2chat-mcp:io.github.bayramcsb/email2chat-mcp#email2chat",
       "type": "mcp",
       "name": "Email2Chat",
@@ -3638,7 +3687,7 @@
       "name": "Discord MCP",
       "description": {
         "zh": null,
-        "en": "Connect AI clients to a caller-owned Discord bot with 203 tools over stdio or authenticated HTTP.",
+        "en": "Connect AI clients to a caller-owned Discord bot with 208 tools over stdio or authenticated HTTP.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -4626,6 +4675,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.tintin-x/tryon#tintin-tryon",
+      "type": "mcp",
+      "name": "Tintin Tryon",
+      "description": {
+        "zh": null,
+        "en": "AI product photography for fashion sellers: Shopify photo audits, seasonal guides, AI try-on.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.tintin-x/tryon",
+        "url": "https://tintin-x.com/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:de.kannkidas/sponsorship#kann-ki-das-sponsoring",
       "type": "mcp",
       "name": "Kann KI das? Sponsoring",
@@ -4798,6 +4897,56 @@
         "repo": null,
         "path": "io.github.flowpackplugin/flowpack",
         "url": "https://flowpack.pages.dev",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.taylorwilsdon/workspace-mcp#io.github.taylorwilsdon-workspace-mcp",
+      "type": "mcp",
+      "name": "io.github.taylorwilsdon/workspace-mcp",
+      "description": {
+        "zh": null,
+        "en": "Google Workspace MCP server for Gmail, Drive, Calendar, Docs, Sheets, Slides, Forms, Tasks, Chat.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.taylorwilsdon/workspace-mcp",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.taylorwilsdon%2Fworkspace-mcp",
         "tier": 0
       },
       "quality": {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T19:59:57.745Z",
+  "generatedAt": "2026-08-13T19:55:04.686Z",
   "category": {
     "key": "devops",
     "zh": "运维部署",
@@ -97,7 +97,7 @@
       }
     ]
   },
-  "total": 278,
+  "total": 286,
   "entries": [
     {
       "id": "skill:composiohq/awesome-claude-skills:composio-skills/cloudflare-api-key-automation/skill.md#cloudflare-api-key-automation",
@@ -3537,60 +3537,6 @@
       "curatedMentions": 2
     },
     {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/scientific/clinical-reports/skill.md#clinical-reports",
-      "type": "skill",
-      "name": "clinical-reports",
-      "description": {
-        "zh": null,
-        "en": "Write comprehensive clinical reports including case reports (CARE guidelines), diagnostic reports (radiology/pathology/lab), clinical trial reports (ICH-E3, SAE, CSR), and patient documentation (SOAP, H&P, discharge summaries). Full support with templates, regulatory compliance (HIPAA, FDA, ICH-GCP), and validation tools.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding",
-        "devops"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "davila7/claude-code-templates",
-        "path": "cli-tool/components/skills/scientific/clinical-reports/SKILL.md",
-        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/scientific/clinical-reports/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 69,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "medium",
-        "score": 21
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 30217,
-      "curatedMentions": 2
-    },
-    {
       "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/supply-chain-guard/skill.md#supply-chain-guard",
       "type": "skill",
       "name": "supply-chain-guard",
@@ -3742,6 +3688,60 @@
       "risk": {
         "level": "low",
         "score": 8
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 30217,
+      "curatedMentions": 2
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/scientific/clinical-reports/skill.md#clinical-reports",
+      "type": "skill",
+      "name": "clinical-reports",
+      "description": {
+        "zh": null,
+        "en": "Write comprehensive clinical reports including case reports (CARE guidelines), diagnostic reports (radiology/pathology/lab), clinical trial reports (ICH-E3, SAE, CSR), and patient documentation (SOAP, H&P, discharge summaries). Full support with templates, regulatory compliance (HIPAA, FDA, ICH-GCP), and validation tools.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "devops"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/scientific/clinical-reports/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/scientific/clinical-reports/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 68,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "medium",
+        "score": 21
       },
       "duplicateOf": null,
       "nearDuplicateOf": null,
@@ -10234,6 +10234,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:costory-io/costory-finops-mcp-skills:io.costory/finops#costory-finops-mcp",
+      "type": "mcp",
+      "name": "Costory FinOps MCP",
+      "description": {
+        "zh": null,
+        "en": "FinOps MCP: query allocated, correlated cloud and AI cost across AWS, GCP, Azure and Snowflake.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "costory-io/costory-finops-mcp-skills",
+        "path": "io.costory/finops",
+        "url": "https://github.com/costory-io/costory-finops-mcp-skills",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:cpz-lab/cpzai-mcp-server:com.cpz-lab.mcp/cpzai#cpzai",
       "type": "mcp",
       "name": "CPZAI",
@@ -10583,6 +10632,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:flujo-app/mcp-sandbox-computer-vm-for-ai:io.github.flujo-app/mcp-sandbox-computer-vm-for-ai#mcp-sandbox-computer-vm-for-ai",
+      "type": "mcp",
+      "name": "MCP Sandbox Computer VM for AI",
+      "description": {
+        "zh": null,
+        "en": "Named Docker and Fly Machine sandbox computers with an interactive MCP App dashboard.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data",
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "flujo-app/mcp-sandbox-computer-vm-for-ai",
+        "path": "io.github.flujo-app/mcp-sandbox-computer-vm-for-ai",
+        "url": "https://github.com/flujo-app/mcp-sandbox-computer-vm-for-ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:hs3434/sandbox-env-mcp:io.github.hs3434/sandbox-env-mcp#sandbox-env-mcp",
       "type": "mcp",
       "name": "Sandbox Env MCP",
@@ -10901,6 +11000,55 @@
         "repo": "IsaiahDupree/messages-bridge",
         "path": "io.github.IsaiahDupree/messages-bridge",
         "url": "https://github.com/IsaiahDupree/messages-bridge",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:isoprest/omniwatchguard-mcp:com.omniwatchguard/mcp#com.omniwatchguard-mcp",
+      "type": "mcp",
+      "name": "com.omniwatchguard/mcp",
+      "description": {
+        "zh": null,
+        "en": "AI-powered website change monitoring - manage monitors and alerts via MCP.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Isoprest/omniwatchguard-mcp",
+        "path": "com.omniwatchguard/mcp",
+        "url": "https://github.com/Isoprest/omniwatchguard-mcp",
         "tier": 0
       },
       "quality": {
@@ -12165,6 +12313,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:dev.harvis/harvis#harvis.dev",
+      "type": "mcp",
+      "name": "harvis.dev",
+      "description": {
+        "zh": null,
+        "en": "Deploy static sites from AI agents: deploy_site publishes files and returns a live URL in seconds.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "dev.harvis/harvis",
+        "url": "https://harvis.dev",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:dev.reapx/docker-containers#reapx-docker-containers-hub-images,-tags-and-pulls",
       "type": "mcp",
       "name": "reapx Docker containers - Hub images, tags and pulls",
@@ -12485,6 +12682,56 @@
         "repo": null,
         "path": "io.github.Shareed2k/honey",
         "url": "https://github.com/shareed2k/honey",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.springrolldev/springroll#springroll",
+      "type": "mcp",
+      "name": "SpringRoll",
+      "description": {
+        "zh": null,
+        "en": "Register, deploy, review, and govern internal applications built with coding agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.springrolldev/springroll",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.springrolldev%2Fspringroll",
         "tier": 0
       },
       "quality": {
@@ -13455,6 +13702,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:shotintoeternity/pocketnook-mcp:io.github.shotintoeternity/pocketnook#io.github.shotintoeternity-pocketnook",
+      "type": "mcp",
+      "name": "io.github.shotintoeternity/pocketnook",
+      "description": {
+        "zh": null,
+        "en": "Deploy repositories or local folders to private Pocketnook URLs from any MCP client.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "shotintoeternity/pocketnook-mcp",
+        "path": "io.github.shotintoeternity/pocketnook",
+        "url": "https://github.com/shotintoeternity/pocketnook-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:signalfx/splunk-o11y-mcp-connect:io.github.signalfx/splunk-o11y-mcp-connect#splunk-observability",
       "type": "mcp",
       "name": "Splunk Observability",
@@ -13799,6 +14095,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:tp322d/lastping-app:dev.lastping/lastping#lastping",
+      "type": "mcp",
+      "name": "LastPing",
+      "description": {
+        "zh": null,
+        "en": "Monitoring that agents set up for themselves — cron jobs, CI/CD pipelines and AI agent runs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "tp322d/lastping-app",
+        "path": "dev.lastping/lastping",
+        "url": "https://github.com/tp322d/lastping-app",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:turbopress-de/turbometrics-mcp:io.github.turbopress-de/turbometrics-mcp#io.github.turbopress-de-turbometrics-mcp",
       "type": "mcp",
       "name": "io.github.turbopress-de/turbometrics-mcp",
@@ -13821,6 +14166,57 @@
         "repo": "turbopress-de/turbometrics-mcp",
         "path": "io.github.turbopress-de/turbometrics-mcp",
         "url": "https://github.com/turbopress-de/turbometrics-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:vladimirbakalov/secretguard-mcp:io.github.vladimirbakalov/secretguard-mcp#io.github.vladimirbakalov-secretguard-mcp",
+      "type": "mcp",
+      "name": "io.github.vladimirbakalov/secretguard-mcp",
+      "description": {
+        "zh": null,
+        "en": "Scans code for hardcoded secrets (AWS, Stripe, GitHub, JWTs) before an AI agent commits it.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "coding",
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "vladimirbakalov/secretguard-mcp",
+        "path": "io.github.vladimirbakalov/secretguard-mcp",
+        "url": "https://github.com/vladimirbakalov/secretguard-mcp",
         "tier": 0
       },
       "quality": {

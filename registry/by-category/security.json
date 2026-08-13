@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T19:59:57.745Z",
+  "generatedAt": "2026-08-13T19:55:04.686Z",
   "category": {
     "key": "security",
     "zh": "安全审计",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 382,
+  "total": 391,
   "entries": [
     {
       "id": "skill:composiohq/awesome-claude-skills:composio-skills/ahrefs-automation/skill.md#ahrefs-automation",
@@ -4325,7 +4325,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 9412,
+      "stars": 9463,
       "curatedMentions": 1
     },
     {
@@ -4380,7 +4380,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 9412,
+      "stars": 9463,
       "curatedMentions": 1
     },
     {
@@ -4630,7 +4630,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 9412,
+      "stars": 9463,
       "curatedMentions": 1
     },
     {
@@ -4679,7 +4679,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 9412,
+      "stars": 9463,
       "curatedMentions": 1
     },
     {
@@ -4730,7 +4730,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 9412,
+      "stars": 9463,
       "curatedMentions": 1
     },
     {
@@ -6679,7 +6679,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 750,
+      "stars": 761,
       "curatedMentions": 1
     },
     {
@@ -6733,7 +6733,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 750,
+      "stars": 761,
       "curatedMentions": 1
     },
     {
@@ -6787,7 +6787,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 750,
+      "stars": 761,
       "curatedMentions": 1
     },
     {
@@ -6840,7 +6840,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 750,
+      "stars": 761,
       "curatedMentions": 1
     },
     {
@@ -6893,7 +6893,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 750,
+      "stars": 761,
       "curatedMentions": 1
     },
     {
@@ -7050,7 +7050,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 750,
+      "stars": 761,
       "curatedMentions": 1
     },
     {
@@ -9433,57 +9433,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "subagent:joneqian/claude-skills-suite:agents/postgre-database-reviewer.md#database-reviewer",
-      "type": "subagent",
-      "name": "database-reviewer",
-      "description": {
-        "zh": null,
-        "en": "PostgreSQL database specialist for query optimization, schema design, security, and performance. Use PROACTIVELY when writing SQL, creating migrations, designing schemas, or troubleshooting database performance. Incorporates Supabase best practices.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "security",
-        "database",
-        "writing"
-      ],
-      "targets": [
-        "claude-code"
-      ],
-      "source": {
-        "repo": "joneqian/claude-skills-suite",
-        "path": "agents/postgre-database-reviewer.md",
-        "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/agents/postgre-database-reviewer.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 30,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "low",
-        "score": 6
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 26,
-      "curatedMentions": 0
-    },
-    {
       "id": "subagent:joneqian/claude-skills-suite:agents/security-reviewer.md#security-reviewer",
       "type": "subagent",
       "name": "security-reviewer",
@@ -9522,6 +9471,57 @@
       "risk": {
         "level": "low",
         "score": 4
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 26,
+      "curatedMentions": 0
+    },
+    {
+      "id": "subagent:joneqian/claude-skills-suite:agents/postgre-database-reviewer.md#database-reviewer",
+      "type": "subagent",
+      "name": "database-reviewer",
+      "description": {
+        "zh": null,
+        "en": "PostgreSQL database specialist for query optimization, schema design, security, and performance. Use PROACTIVELY when writing SQL, creating migrations, designing schemas, or troubleshooting database performance. Incorporates Supabase best practices.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "database",
+        "writing"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "joneqian/claude-skills-suite",
+        "path": "agents/postgre-database-reviewer.md",
+        "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/agents/postgre-database-reviewer.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 29,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "low",
+        "score": 6
       },
       "duplicateOf": null,
       "nearDuplicateOf": null,
@@ -9981,12 +9981,12 @@
       "curatedMentions": 1
     },
     {
-      "id": "mcp:fronesis-labs/dcl-webhook:com.fronesislabs/dcl-trust-oracle#com.fronesislabs-dcl-trust-oracle",
+      "id": "mcp:fronesis-labs/dcl-webhook:com.fronesislabs/dcl-trust-oracle#dcl-trust-oracle-—-ai-llm-output-audit-(x402-mcp)",
       "type": "mcp",
-      "name": "com.fronesislabs/dcl-trust-oracle",
+      "name": "DCL Trust Oracle — AI/LLM Output Audit (x402 MCP)",
       "description": {
         "zh": null,
-        "en": "Deterministic AI audit layer for LLM/agent outputs: policy checks, tamper-evident log, x402.",
+        "en": "AI/LLM agent output audit MCP: policy eval, tamper-evident chain, AI safety, x402 USDC on Base.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -10276,6 +10276,55 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:mambalabsdev/mcp-domain-deliverability-checker:com.mambabuilt/mcp-domain-deliverability-checker#com.mambabuilt-mcp-domain-deliverability-checker",
+      "type": "mcp",
+      "name": "com.mambabuilt/mcp-domain-deliverability-checker",
+      "description": {
+        "zh": null,
+        "en": "Audit a domain email deliverability via Apify: SPF, DKIM, DMARC, MX, blacklist, catch-all, age.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "mambalabsdev/mcp-domain-deliverability-checker",
+        "path": "com.mambabuilt/mcp-domain-deliverability-checker",
+        "url": "https://github.com/mambalabsdev/mcp-domain-deliverability-checker",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
       "id": "mcp:ogasurfproject-jpg/horizon-shield:io.github.ogasurfproject-jpg/horizon-shield#horizon-shield-—-construction-&-renovation-estimate-auditor",
       "type": "mcp",
       "name": "HORIZON SHIELD — construction & renovation estimate auditor",
@@ -10399,6 +10448,55 @@
         "repo": "rm-rf-prod/GroundTruth-MCP",
         "path": "io.github.rm-rf-prod/groundtruth",
         "url": "https://github.com/rm-rf-prod/GroundTruth-MCP",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:sgateway/s-gw:io.github.sgateway/s-gw#s-gw",
+      "type": "mcp",
+      "name": "s-gw",
+      "description": {
+        "zh": null,
+        "en": "Keep credentials out of AI coding agents with local approvals, scoped injection, and audit trails.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "sgateway/s-gw",
+        "path": "io.github.sgateway/s-gw",
+        "url": "https://github.com/sgateway/s-gw",
         "tier": 0
       },
       "quality": {
@@ -10824,7 +10922,7 @@
       "name": "io.github.agentready-market/audit",
       "description": {
         "zh": null,
-        "en": "Can an AI shopping agent find, understand and BUY on a store? Deterministic e-commerce audit /100.",
+        "en": "AgentReady.market audit: can an AI shopping agent find, understand and BUY on this store? /100.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -11604,6 +11702,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:attestifyagent/attestify-os:io.github.attestifyagent/attestify-os#io.github.attestifyagent-attestify-os",
+      "type": "mcp",
+      "name": "io.github.attestifyagent/attestify-os",
+      "description": {
+        "zh": null,
+        "en": "Governed agent execution: x402 payments, budgets, receipts, verification, and audit.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "attestifyagent/attestify-os",
+        "path": "io.github.attestifyagent/attestify-os",
+        "url": "https://github.com/attestifyagent/attestify-os",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:batcatchina/zhenghe-mcp:top.zheng-he/zhenghe-mcp#zhenghe-—-正和支付路由与资本保全金库",
       "type": "mcp",
       "name": "Zhenghe — 正和支付路由与资本保全金库",
@@ -12150,6 +12297,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:darksider4all/leadgen-mcp:io.github.darksider4all/leadgen-mcp#leadgen-mcp",
+      "type": "mcp",
+      "name": "Leadgen MCP",
+      "description": {
+        "zh": null,
+        "en": "Romanian business-registry lookup, director search, contact extraction, and WHOIS/DNS audit.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "darksider4all/leadgen-mcp",
+        "path": "io.github.darksider4all/leadgen-mcp",
+        "url": "https://github.com/darksider4all/leadgen-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:datakoot/security-intel-mcp:com.datakoot/security-intel-mcp#com.datakoot-security-intel-mcp",
       "type": "mcp",
       "name": "com.datakoot/security-intel-mcp",
@@ -12395,6 +12592,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:dvlop/mail7-mcp:net.mail7/email-validation#mail7-email-validation",
+      "type": "mcp",
+      "name": "Mail7 Email Validation",
+      "description": {
+        "zh": null,
+        "en": "Verify email addresses, clean lists, and audit a domain SPF, DKIM, DMARC and MX setup.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "dvlop/mail7-mcp",
+        "path": "net.mail7/email-validation",
+        "url": "https://github.com/dvlop/mail7-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:ecoa-org/ecoa:dev.ecoa/ecoa#dev.ecoa-ecoa",
       "type": "mcp",
       "name": "dev.ecoa/ecoa",
@@ -12498,7 +12744,7 @@
       "name": "io.github.eobi/nemesis-shield",
       "description": {
         "zh": null,
-        "en": "Positive-security protection for every app, API, LLM and edge function, added as you build.",
+        "en": "Positive-security for apps, APIs, LLMs and edge, plus fraud scoring and identity/AML screening.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -12615,6 +12861,55 @@
         "repo": "fedlinllc/fedlin-mcp-server",
         "path": "io.github.fedlinllc/fedlin-mcp-server",
         "url": "https://github.com/fedlinllc/fedlin-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:firatmio/mcp-audit-proxy:io.github.firatmio/mcp-audit-proxy#mcp-audit",
+      "type": "mcp",
+      "name": "mcp-audit",
+      "description": {
+        "zh": null,
+        "en": "Transparent audit proxy for MCP servers: logs every tool call, flags poisoning and rug pulls.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "firatmio/mcp-audit-proxy",
+        "path": "io.github.firatmio/mcp-audit-proxy",
+        "url": "https://github.com/firatmio/mcp-audit-proxy",
         "tier": 0
       },
       "quality": {
@@ -16553,6 +16848,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:work.agentexchange.tooldrift/monitor#work.agentexchange.tooldrift-monitor",
+      "type": "mcp",
+      "name": "work.agentexchange.tooldrift/monitor",
+      "description": {
+        "zh": null,
+        "en": "Check if an MCP server tool changed or hides injection patterns before you trust it.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "work.agentexchange.tooldrift/monitor",
+        "url": "https://tooldrift.agentexchange.work",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcpcustoms/mcp-customs:io.github.mcpcustoms/mcp-customs#mcp-customs",
       "type": "mcp",
       "name": "MCP Customs",
@@ -18628,6 +18973,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:vladimirbakalov/secretguard-mcp:io.github.vladimirbakalov/secretguard-mcp#io.github.vladimirbakalov-secretguard-mcp",
+      "type": "mcp",
+      "name": "io.github.vladimirbakalov/secretguard-mcp",
+      "description": {
+        "zh": null,
+        "en": "Scans code for hardcoded secrets (AWS, Stripe, GitHub, JWTs) before an AI agent commits it.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "coding",
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "vladimirbakalov/secretguard-mcp",
+        "path": "io.github.vladimirbakalov/secretguard-mcp",
+        "url": "https://github.com/vladimirbakalov/secretguard-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:vmware-skills/vmware-nsx-security:io.github.vmware-skills/vmware-nsx-security#vmware-nsx-security",
       "type": "mcp",
       "name": "VMware NSX Security",
@@ -18947,6 +19343,56 @@
         "repo": "wyre-technology/abnormal-mcp",
         "path": "io.github.wyre-technology/abnormal-mcp",
         "url": "https://github.com/wyre-technology/abnormal-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:wyre-technology/avanan-mcp:io.github.wyre-technology/avanan-mcp#avanan",
+      "type": "mcp",
+      "name": "Avanan",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Check Point Harmony Email & Collaboration (Avanan) email security.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "wyre-technology/avanan-mcp",
+        "path": "io.github.wyre-technology/avanan-mcp",
+        "url": "https://github.com/wyre-technology/avanan-mcp",
         "tier": 0
       },
       "quality": {

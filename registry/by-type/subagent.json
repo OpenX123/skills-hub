@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T19:59:57.745Z",
+  "generatedAt": "2026-08-13T19:55:04.686Z",
   "type": "subagent",
   "label": {
     "zh": "子代理",
@@ -1651,57 +1651,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "subagent:joneqian/claude-skills-suite:agents/postgre-database-reviewer.md#database-reviewer",
-      "type": "subagent",
-      "name": "database-reviewer",
-      "description": {
-        "zh": null,
-        "en": "PostgreSQL database specialist for query optimization, schema design, security, and performance. Use PROACTIVELY when writing SQL, creating migrations, designing schemas, or troubleshooting database performance. Incorporates Supabase best practices.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "security",
-        "database",
-        "writing"
-      ],
-      "targets": [
-        "claude-code"
-      ],
-      "source": {
-        "repo": "joneqian/claude-skills-suite",
-        "path": "agents/postgre-database-reviewer.md",
-        "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/agents/postgre-database-reviewer.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 30,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "low",
-        "score": 6
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 26,
-      "curatedMentions": 0
-    },
-    {
       "id": "subagent:joneqian/claude-skills-suite:agents/security-reviewer.md#security-reviewer",
       "type": "subagent",
       "name": "security-reviewer",
@@ -1740,6 +1689,57 @@
       "risk": {
         "level": "low",
         "score": 4
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 26,
+      "curatedMentions": 0
+    },
+    {
+      "id": "subagent:joneqian/claude-skills-suite:agents/postgre-database-reviewer.md#database-reviewer",
+      "type": "subagent",
+      "name": "database-reviewer",
+      "description": {
+        "zh": null,
+        "en": "PostgreSQL database specialist for query optimization, schema design, security, and performance. Use PROACTIVELY when writing SQL, creating migrations, designing schemas, or troubleshooting database performance. Incorporates Supabase best practices.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "database",
+        "writing"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "joneqian/claude-skills-suite",
+        "path": "agents/postgre-database-reviewer.md",
+        "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/agents/postgre-database-reviewer.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 29,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "low",
+        "score": 6
       },
       "duplicateOf": null,
       "nearDuplicateOf": null,
