@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T19:45:17.782Z",
+  "generatedAt": "2026-08-15T19:19:11.534Z",
   "category": {
     "key": "data",
     "zh": "数据分析",
@@ -77,7 +77,7 @@
       }
     ]
   },
-  "total": 206,
+  "total": 213,
   "entries": [
     {
       "id": "skill:composiohq/awesome-claude-skills:document-skills/xlsx/skill.md#xlsx",
@@ -5449,6 +5449,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:arose26/statcan-mcp:io.github.arose26/statcan-mcp#io.github.arose26-statcan-mcp",
+      "type": "mcp",
+      "name": "io.github.arose26/statcan-mcp",
+      "description": {
+        "zh": null,
+        "en": "Statistics Canada's 8,200+ data tables: CPI, GDP, labour force, housing. No API key.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "arose26/statcan-mcp",
+        "path": "io.github.arose26/statcan-mcp",
+        "url": "https://github.com/arose26/statcan-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:askads/mcp-yandex-direct:io.github.askads/mcp-yandex-direct#yandex-direct-mcp",
       "type": "mcp",
       "name": "Yandex Direct MCP",
@@ -6490,6 +6539,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:edycutjong/bagos:io.github.edycutjong/bagos#bagos",
+      "type": "mcp",
+      "name": "BagOS",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Bags on Solana: token analytics, trade quotes, and gated write operations.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "edycutjong/bagos",
+        "path": "io.github.edycutjong/bagos",
+        "url": "https://github.com/edycutjong/bagos",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:fabienfrfr/pbix-atlas:io.github.fabienfrfr/pbix-atlas#io.github.fabienfrfr-pbix-atlas",
       "type": "mcp",
       "name": "io.github.fabienfrfr/pbix-atlas",
@@ -7086,6 +7185,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:hypd-ai/ads-mcp-plugin:io.github.hypd-ai/ads#hypd-ai-paid-ads-&-analytics",
+      "type": "mcp",
+      "name": "HYPD AI - Paid Ads & Analytics",
+      "description": {
+        "zh": null,
+        "en": "Google Ads, Meta (Facebook) Ads, GA4 and Merchant Center analysis in plain language. Read-only.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business",
+        "data"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "HYPD-AI/ads-mcp-plugin",
+        "path": "io.github.HYPD-AI/ads",
+        "url": "https://github.com/HYPD-AI/ads-mcp-plugin",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:imnmv/clauder:io.github.imnmv/clauder#clauder-rstudio-mcp-server",
       "type": "mcp",
       "name": "ClaudeR - RStudio MCP Server",
@@ -7141,7 +7290,7 @@
       "name": "io.github.jyswee/analyga",
       "description": {
         "zh": null,
-        "en": "Revenue analytics for AI-native SaaS that counts agent (MCP/AI) traffic — 13 MCP tools.",
+        "en": "Agent-first analytics: stats, events, funnels, network rollups, server-side ingest & billing.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -7677,6 +7826,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:ai.b77/web-analytics#web-analytics",
+      "type": "mcp",
+      "name": "Web Analytics",
+      "description": {
+        "zh": null,
+        "en": "Ask about your website traffic in chat.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.b77/web-analytics",
+        "url": "https://b77.ai/apps/web-analytics",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:ai.izap/whatsapp#ai.izap-whatsapp",
       "type": "mcp",
       "name": "ai.izap/whatsapp",
@@ -7994,6 +8192,56 @@
         "repo": null,
         "path": "com.jobmojito/jobmojito",
         "url": "https://jobmojito.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.mcpsearchconsole/search-console#google-search-console-mcp",
+      "type": "mcp",
+      "name": "Google Search Console MCP",
+      "description": {
+        "zh": null,
+        "en": "Google Search Console analytics, URL inspection and sitemaps, plus PageSpeed, robots and TLS checks.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "research",
+        "data"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.mcpsearchconsole/search-console",
+        "url": "https://mcpsearchconsole.com",
         "tier": 0
       },
       "quality": {
@@ -8339,6 +8587,55 @@
         "repo": null,
         "path": "com.timzinin.api/apify-market-intelligence",
         "url": "https://registry.modelcontextprotocol.io/?q=com.timzinin.api%2Fapify-market-intelligence",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.timzinin.api/location-demand-intelligence#location-&-demand-intelligence",
+      "type": "mcp",
+      "name": "Location & Demand Intelligence",
+      "description": {
+        "zh": null,
+        "en": "Pay-per-call where-and-when-to-operate signals from official local statistics.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.timzinin.api/location-demand-intelligence",
+        "url": "https://registry.modelcontextprotocol.io/?q=com.timzinin.api%2Flocation-demand-intelligence",
         "tier": 0
       },
       "quality": {
@@ -9531,6 +9828,57 @@
         "repo": "prodocik/asohawk",
         "path": "io.github.prodocik/asohawk",
         "url": "https://github.com/prodocik/asohawk",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:psyb0t/rankrat:io.github.psyb0t/rankrat#rankrat",
+      "type": "mcp",
+      "name": "Rankrat",
+      "description": {
+        "zh": null,
+        "en": "Self-hosted MCP for owned-site SEO, search analytics, indexing, monitoring, and safe remediation.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops",
+        "data",
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "psyb0t/rankrat",
+        "path": "io.github.psyb0t/rankrat",
+        "url": "https://github.com/psyb0t/rankrat",
         "tier": 0
       },
       "quality": {

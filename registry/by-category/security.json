@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T19:45:17.782Z",
+  "generatedAt": "2026-08-15T19:19:11.534Z",
   "category": {
     "key": "security",
     "zh": "安全审计",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 401,
+  "total": 411,
   "entries": [
     {
       "id": "skill:composiohq/awesome-claude-skills:composio-skills/ahrefs-automation/skill.md#ahrefs-automation",
@@ -8693,7 +8693,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 41,
+        "score": 40,
         "gates": {
           "security": true,
           "schema": true,
@@ -10128,6 +10128,57 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:helm-protocol/openttt-mcp:io.github.helm-protocol/openttt-pot#io.github.helm-protocol-openttt-pot",
+      "type": "mcp",
+      "name": "io.github.Helm-Protocol/openttt-pot",
+      "description": {
+        "zh": null,
+        "en": "Cryptographic audit trail for Claude Code workflows — tamper-proof timestamps, IETF TTTPS compliant.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding",
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Helm-Protocol/openttt-mcp",
+        "path": "io.github.Helm-Protocol/openttt-pot",
+        "url": "https://github.com/Helm-Protocol/openttt-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
       "id": "mcp:jamesdfinance-dev/lazaretto-mcp:io.github.jamesdfinance-dev/lazaretto#io.github.jamesdfinance-dev-lazaretto",
       "type": "mcp",
       "name": "io.github.jamesdfinance-dev/lazaretto",
@@ -11456,6 +11507,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:aistoryhub/etincel:ai.etincel/etincel-nonfiction#ai.etincel-etincel-nonfiction",
+      "type": "mcp",
+      "name": "ai.etincel/etincel-nonfiction",
+      "description": {
+        "zh": null,
+        "en": "Trainable non-fiction writing voice, presets, and an anti-AI-tells audit for Claude, via MCP.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "AIStoryHub/etincel",
+        "path": "ai.etincel/etincel-nonfiction",
+        "url": "https://github.com/AIStoryHub/etincel",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:alialrikabi313/hares:io.github.alialrikabi313/hares#hares-—-mcp-security-scanner",
       "type": "mcp",
       "name": "Hares — MCP security scanner",
@@ -11625,6 +11726,105 @@
         "repo": "Arakiss/nahuali",
         "path": "io.github.Arakiss/nahuali",
         "url": "https://github.com/Arakiss/nahuali",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:arose26/make-audit-mcp:io.github.arose26/make-audit-mcp#io.github.arose26-make-audit-mcp",
+      "type": "mcp",
+      "name": "io.github.arose26/make-audit-mcp",
+      "description": {
+        "zh": null,
+        "en": "Audit Make.com blueprints before importing: hardcoded secrets, dangling refs, risky settings.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "arose26/make-audit-mcp",
+        "path": "io.github.arose26/make-audit-mcp",
+        "url": "https://github.com/arose26/make-audit-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:arose26/xlsx-audit-mcp:io.github.arose26/xlsx-audit-mcp#io.github.arose26-xlsx-audit-mcp",
+      "type": "mcp",
+      "name": "io.github.arose26/xlsx-audit-mcp",
+      "description": {
+        "zh": null,
+        "en": "Audit Excel workbooks: formula dependency tracing, circular references, risk smells. Local only.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "arose26/xlsx-audit-mcp",
+        "path": "io.github.arose26/xlsx-audit-mcp",
+        "url": "https://github.com/arose26/xlsx-audit-mcp",
         "tier": 0
       },
       "quality": {
@@ -12549,7 +12749,7 @@
       "name": "io.github.DigitalCurrensy/aio-geo",
       "description": {
         "zh": null,
-        "en": "AIO.GEO stdio MCP: audit, dry-run fixes, rescore, doctor. Not LLM rankings.",
+        "en": "AIO.GEO: audit, dry-run fixes, rescore, doctor. Remote + stdio. Not LLM rankings.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -12762,6 +12962,56 @@
         "repo": "ecoa-org/ecoa",
         "path": "dev.ecoa/ecoa",
         "url": "https://github.com/ecoa-org/ecoa",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:eltociear/my-molt-agent:io.github.eltociear/repo-security-scanner#repo-security-scanner-—-malicious-code-&-supply-chain",
+      "type": "mcp",
+      "name": "Repo Security Scanner — Malicious Code & Supply Chain",
+      "description": {
+        "zh": null,
+        "en": "Audit GitHub repos for malicious and supply-chain code before you depend on them.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "eltociear/my-molt-agent",
+        "path": "io.github.eltociear/repo-security-scanner",
+        "url": "https://github.com/eltociear/my-molt-agent",
         "tier": 0
       },
       "quality": {
@@ -14322,6 +14572,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:krzysztof318/mailfathom:io.github.krzysztof318/mailfathom#mailfathom",
+      "type": "mcp",
+      "name": "MailFathom",
+      "description": {
+        "zh": null,
+        "en": "Security-first, self-hosted email archive with read-only search and cited answers for AI agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Krzysztof318/MailFathom",
+        "path": "io.github.Krzysztof318/mailfathom",
+        "url": "https://github.com/Krzysztof318/MailFathom",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:kubaopoczka/tripwire-guard:io.github.kubaopoczka/tripwire-guard#tripwire-guard-—-evidence-first-injection-scanner",
       "type": "mcp",
       "name": "Tripwire Guard — evidence-first injection scanner",
@@ -14989,56 +15289,6 @@
         "repo": null,
         "path": "ai.beket/audit",
         "url": "https://beket.ai/guides/using-the-beket-ai-mcp/",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:mcp-official:ai.etincel/etincel-nonfiction#ai.etincel-etincel-nonfiction",
-      "type": "mcp",
-      "name": "ai.etincel/etincel-nonfiction",
-      "description": {
-        "zh": null,
-        "en": "Trainable non-fiction writing voice, presets, and an anti-AI-tells audit for Claude, via MCP.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "writing",
-        "security"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "ai.etincel/etincel-nonfiction",
-        "url": "https://etincel.ai/connect",
         "tier": 0
       },
       "quality": {
@@ -16203,6 +16453,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.tutorializer/tutorializer#com.tutorializer-tutorializer",
+      "type": "mcp",
+      "name": "com.tutorializer/tutorializer",
+      "description": {
+        "zh": null,
+        "en": "Audit localized tutorials and safely maintain project metadata and pronunciation rules.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.tutorializer/tutorializer",
+        "url": "https://www.tutorializer.com/developers/#mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.validoria/validoria-mcp#com.validoria-validoria-mcp",
       "type": "mcp",
       "name": "com.validoria/validoria-mcp",
@@ -16473,6 +16772,55 @@
         "repo": null,
         "path": "io.github.enzoduit/agentfabric",
         "url": "https://registry.modelcontextprotocol.io/?q=io.github.enzoduit%2Fagentfabric",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.insivotron/agent-utility-mcp#agent-utility-mcp",
+      "type": "mcp",
+      "name": "Agent Utility MCP",
+      "description": {
+        "zh": null,
+        "en": "Deterministic security preflight for AI agents. Analyze URLs, files and shell commands before use.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.insivotron/agent-utility-mcp",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.insivotron%2Fagent-utility-mcp",
         "tier": 0
       },
       "quality": {
@@ -16872,6 +17220,55 @@
         "repo": null,
         "path": "io.sealsecurity/mcp",
         "url": "https://app.sealsecurity.io",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:net.bottletech.kashif/audit#kashif",
+      "type": "mcp",
+      "name": "Kashif",
+      "description": {
+        "zh": null,
+        "en": "Scores a website's online presence 0-100 and lists the top issues to fix. English/Arabic.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "net.bottletech.kashif/audit",
+        "url": "https://kashif.bottletech.net",
         "tier": 0
       },
       "quality": {
@@ -18875,6 +19272,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:swnotmetal/project-koma:io.github.swnotmetal/koma-gate-mcp#koma-gate-mcp",
+      "type": "mcp",
+      "name": "Koma Gate MCP",
+      "description": {
+        "zh": null,
+        "en": "Classifies prompt injection, jailbreaks, and out-of-scope user input before agents act on it.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "swnotmetal/Project-Koma",
+        "path": "io.github.swnotmetal/koma-gate-mcp",
+        "url": "https://github.com/swnotmetal/Project-Koma",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:sylenzor/rigelonchain:io.github.sylenzor/solana-mcp#io.github.sylenzor-solana-mcp",
       "type": "mcp",
       "name": "io.github.sylenzor/solana-mcp",
@@ -19292,6 +19738,56 @@
         "repo": "unaibamir/agent-abilities-for-mcp",
         "path": "io.github.unaibamir/agent-abilities-for-mcp",
         "url": "https://github.com/unaibamir/agent-abilities-for-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:uxlint-net/uxlint-cli:io.github.uxlint-net/uxlint#uxlint",
+      "type": "mcp",
+      "name": "uxlint",
+      "description": {
+        "zh": null,
+        "en": "Audit a site's UX the way a design-literate reviewer would, with a concrete fix for every finding.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design",
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "uxlint-net/uxlint-cli",
+        "path": "io.github.uxlint-net/uxlint",
+        "url": "https://github.com/uxlint-net/uxlint-cli",
         "tier": 0
       },
       "quality": {
