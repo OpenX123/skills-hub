@@ -1,12 +1,61 @@
 {
-  "generatedAt": "2026-08-16T19:18:24.748Z",
+  "generatedAt": "2026-08-17T19:24:34.789Z",
   "type": "plugin",
   "label": {
     "zh": "插件",
     "en": "Plugin"
   },
-  "total": 180,
+  "total": 182,
   "entries": [
+    {
+      "id": "plugin:anthropics/skills:.claude-plugin/marketplace.json#claude-academy-guide",
+      "type": "plugin",
+      "name": "claude-academy-guide",
+      "description": {
+        "zh": null,
+        "en": "Recommends relevant Claude Academy courses, tutorials, and use cases when users ask how to use Claude",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "anthropics/skills",
+        "path": ".claude-plugin/marketplace.json",
+        "url": "https://github.com/anthropics/skills/blob/HEAD/.claude-plugin/marketplace.json",
+        "tier": 0
+      },
+      "quality": {
+        "score": 91,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 169955,
+      "curatedMentions": 8
+    },
     {
       "id": "plugin:anthropics/skills:.claude-plugin/marketplace.json#claude-api",
       "type": "plugin",
@@ -53,7 +102,56 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 168927,
+      "stars": 169955,
+      "curatedMentions": 8
+    },
+    {
+      "id": "plugin:anthropics/skills:.claude-plugin/marketplace.json#discernment-nudge",
+      "type": "plugin",
+      "name": "discernment-nudge",
+      "description": {
+        "zh": null,
+        "en": "Appends two or three short follow-up questions after a substantive answer to help users check key facts, probe the reasoning, and notice missing context",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "anthropics/skills",
+        "path": ".claude-plugin/marketplace.json",
+        "url": "https://github.com/anthropics/skills/blob/HEAD/.claude-plugin/marketplace.json",
+        "tier": 0
+      },
+      "quality": {
+        "score": 91,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 169955,
       "curatedMentions": 8
     },
     {
@@ -102,7 +200,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 168927,
+      "stars": 169955,
       "curatedMentions": 8
     },
     {
@@ -153,7 +251,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 168927,
+      "stars": 169955,
       "curatedMentions": 8
     },
     {
