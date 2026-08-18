@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-17T19:24:34.789Z",
+  "generatedAt": "2026-08-18T19:24:26.615Z",
   "engine": "text-baseline/v2",
-  "scanned": 9588,
-  "flagged": 141,
+  "scanned": 10054,
+  "flagged": 142,
   "byLevel": {
-    "clean": 9447,
+    "clean": 9912,
     "low": 107,
-    "medium": 33,
+    "medium": 34,
     "high": 1
   },
   "note": "静态文本匹配基线,用于筛出需人工复核的条目,不构成终审判决",
@@ -567,6 +567,43 @@
           "where": "script",
           "line": 1,
           "evidence": "allowed-tools: Bash(无约束)"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/media/speech/skill.md#speech",
+      "name": "speech",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/media/speech/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/media/speech/SKILL.md",
+      "level": "medium",
+      "score": 21,
+      "counts": {
+        "medium": 2
+      },
+      "flags": [
+        {
+          "id": "raw-endpoint",
+          "severity": "medium",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "script",
+          "line": 129,
+          "evidence": "https://127.0.0.1/audio.mp3\")"
+        },
+        {
+          "id": "raw-endpoint",
+          "severity": "medium",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "script",
+          "line": 148,
+          "evidence": "https://198.18.0.10/audio.mp3\")"
         }
       ]
     },

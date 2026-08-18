@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T19:24:34.789Z",
+  "generatedAt": "2026-08-18T19:24:26.615Z",
   "category": {
     "key": "media",
     "zh": "音视频图像",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 242,
+  "total": 256,
   "entries": [
     {
       "id": "skill:composiohq/awesome-claude-skills:video-downloader/skill.md#youtube-downloader",
@@ -1426,59 +1426,6 @@
       "curatedMentions": 2
     },
     {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/media/speech/skill.md#speech",
-      "type": "skill",
-      "name": "speech",
-      "description": {
-        "zh": null,
-        "en": "Use when the user asks for text-to-speech narration or voiceover, accessibility reads, audio prompts, or batch speech generation via the OpenAI Audio API; run the bundled CLI (`scripts/text_to_speech.py`) with built-in voices and require `OPENAI_API_KEY` for live calls. Custom voice creation is out of scope.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "media"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "davila7/claude-code-templates",
-        "path": "cli-tool/components/skills/media/speech/SKILL.md",
-        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/media/speech/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 75,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 30275,
-      "curatedMentions": 2
-    },
-    {
       "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/media/transcribe/skill.md#transcribe",
       "type": "skill",
       "name": "transcribe",
@@ -2393,6 +2340,60 @@
       "curatedMentions": 2
     },
     {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/media/speech/skill.md#speech",
+      "type": "skill",
+      "name": "speech",
+      "description": {
+        "zh": null,
+        "en": "Use when the user asks for text-to-speech narration or voiceover, accessibility reads, audio prompts, or batch speech generation. OpenAI remains the default; Atlas Cloud is an explicit optional backend for asynchronous multilingual speech. Custom voice creation is out of scope.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media",
+        "coding"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/media/speech/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/media/speech/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 69,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "medium",
+        "score": 21
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 30275,
+      "curatedMentions": 2
+    },
+    {
       "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/development/senior-computer-vision/skill.md#senior-computer-vision",
       "type": "skill",
       "name": "senior-computer-vision",
@@ -2497,7 +2498,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 9463,
+      "stars": 9593,
       "curatedMentions": 1
     },
     {
@@ -2552,7 +2553,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 9463,
+      "stars": 9593,
       "curatedMentions": 1
     },
     {
@@ -2607,7 +2608,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 9463,
+      "stars": 9593,
       "curatedMentions": 1
     },
     {
@@ -2707,7 +2708,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 9463,
+      "stars": 9593,
       "curatedMentions": 1
     },
     {
@@ -2757,7 +2758,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 9463,
+      "stars": 9593,
       "curatedMentions": 1
     },
     {
@@ -2808,7 +2809,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 9463,
+      "stars": 9593,
       "curatedMentions": 1
     },
     {
@@ -4029,6 +4030,55 @@
         "repo": "KyaniteLabs/kinocut",
         "path": "io.github.KyaniteLabs/kinocut",
         "url": "https://github.com/KyaniteLabs/kinocut",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:legolev/mediamcp:io.github.legolev/mediamcp#io.github.legolev-mediamcp",
+      "type": "mcp",
+      "name": "io.github.legolev/mediamcp",
+      "description": {
+        "zh": null,
+        "en": "Generate and edit images and video via OpenRouter or any OpenAI-compatible API.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "legolev/mediamcp",
+        "path": "io.github.legolev/mediamcp",
+        "url": "https://github.com/legolev/mediamcp",
         "tier": 0
       },
       "quality": {
@@ -6341,6 +6391,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:https://gitlab.com/pictomancer.ai/pig-gateway:ai.pictomancer/image-processing#ai.pictomancer-image-processing",
+      "type": "mcp",
+      "name": "ai.pictomancer/image-processing",
+      "description": {
+        "zh": null,
+        "en": "Image processing for AI agents: resize, convert, compress, crop, and web-ready AI-generated images.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "https://gitlab.com/pictomancer.ai/pig-gateway",
+        "path": "ai.pictomancer/image-processing",
+        "url": "https://gitlab.com/pictomancer.ai/pig-gateway",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:imaginevid/imaginevid-agent-tools-ai:io.imaginevid/imaginevid-ai-generation#io.imaginevid-imaginevid-ai-generation",
       "type": "mcp",
       "name": "io.imaginevid/imaginevid-ai-generation",
@@ -7876,6 +7975,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:co.trypitch/pitch#pitch",
+      "type": "mcp",
+      "name": "Pitch",
+      "description": {
+        "zh": null,
+        "en": "Turn a product URL into a narrated cinematic demo video, launch video, or deck.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "co.trypitch/pitch",
+        "url": "https://trypitch.co",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.52choujiang/wechat-channels-insights#socialdatax-微信视频号-wechat-channels-mcp",
       "type": "mcp",
       "name": "SocialDataX 微信视频号 WeChat Channels MCP",
@@ -8469,6 +8617,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.nicevois/rvc-training#com.nicevois-rvc-training",
+      "type": "mcp",
+      "name": "com.nicevois/rvc-training",
+      "description": {
+        "zh": null,
+        "en": "Train portable RVC v2 voice models from audio in the cloud and download the .pth, .index, and ZIP.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.nicevois/rvc-training",
+        "url": "https://nicevois.com/agent-api",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.nuditok/nuditok#com.nuditok-nuditok",
       "type": "mcp",
       "name": "com.nuditok/nuditok",
@@ -8914,12 +9111,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:dev.ffpipe/ffpipe#ffpipe-—-video-conversion",
+      "id": "mcp:mcp-official:dev.ffpipe/ffpipe#ffpipe-—-video-conversion,-probe-&-frames",
       "type": "mcp",
-      "name": "ffpipe — video conversion",
+      "name": "ffpipe — video conversion, probe & frames",
       "description": {
         "zh": null,
-        "en": "Convert any video to web-ready MP4, paid per job with x402 (USDC on Base) — no account or API key.",
+        "en": "Convert, probe, and split video into frames — real FFmpeg, paid per job with x402 on Base.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -9034,6 +9231,251 @@
         "repo": null,
         "path": "io.autosophia/agent-video",
         "url": "https://autosophia.io",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.evozim/audio-anonymizer-voice-scrambler-mcp#execute-audio-anonymizer-voice-scrambler-mcp",
+      "type": "mcp",
+      "name": "Execute audio-anonymizer-voice-scrambler-mcp",
+      "description": {
+        "zh": null,
+        "en": "Premium agentic endpoint for audio-anonymizer-voice-scrambler-mcp.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.Evozim/audio-anonymizer-voice-scrambler-mcp",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.Evozim%2Faudio-anonymizer-voice-scrambler-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.evozim/audio-description-mcp#execute-audio-description-mcp",
+      "type": "mcp",
+      "name": "Execute audio-description-mcp",
+      "description": {
+        "zh": null,
+        "en": "Premium agentic endpoint for audio-description-mcp.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.Evozim/audio-description-mcp",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.Evozim%2Faudio-description-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.evozim/audio-watermarking-detector-mcp#execute-audio-watermarking-detector-mcp",
+      "type": "mcp",
+      "name": "Execute audio-watermarking-detector-mcp",
+      "description": {
+        "zh": null,
+        "en": "Premium agentic endpoint for audio-watermarking-detector-mcp.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.Evozim/audio-watermarking-detector-mcp",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.Evozim%2Faudio-watermarking-detector-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.evozim/copyrighted-music-fingerprint-matcher-mcp#execute-copyrighted-music-fingerprint-matcher-mcp",
+      "type": "mcp",
+      "name": "Execute copyrighted-music-fingerprint-matcher-mcp",
+      "description": {
+        "zh": null,
+        "en": "Premium agentic endpoint for copyrighted-music-fingerprint-matcher-mcp.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.Evozim/copyrighted-music-fingerprint-matcher-mcp",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.Evozim%2Fcopyrighted-music-fingerprint-matcher-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.helloelo-fr/storystudio#storystudio",
+      "type": "mcp",
+      "name": "StoryStudio",
+      "description": {
+        "zh": null,
+        "en": "AI image, video, voice and music generation over MCP, routed to Veo 3.1, Seedance 2.0 and more.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.HelloElo-Fr/storystudio",
+        "url": "https://storystudio.cc",
         "tier": 0
       },
       "quality": {
@@ -10119,6 +10561,55 @@
         "repo": "modelrunner/modelrunner-mcp",
         "path": "ai.modelrunner/mcp",
         "url": "https://github.com/modelrunner/modelrunner-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:molkex/mcp-flow-google:io.github.molkex/openflow#openflow",
+      "type": "mcp",
+      "name": "openFlow",
+      "description": {
+        "zh": null,
+        "en": "Generate images and video on Google Flow (Veo, Nano Banana) from any MCP client",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "molkex/mcp-flow-google",
+        "path": "io.github.molkex/openflow",
+        "url": "https://github.com/molkex/mcp-flow-google",
         "tier": 0
       },
       "quality": {
@@ -11542,6 +12033,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:short-pixel-optimizer/com.shortpixel.mcp:com.shortpixel.mcp/optimize#shortpixel-image-optimizer",
+      "type": "mcp",
+      "name": "ShortPixel Image Optimizer",
+      "description": {
+        "zh": null,
+        "en": "Optimize public image URLs via the ShortPixel SPIO API for AI agents",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "short-pixel-optimizer/com.shortpixel.mcp",
+        "path": "com.shortpixel.mcp/optimize",
+        "url": "https://github.com/short-pixel-optimizer/com.shortpixel.mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:shunyagatha/vecline:io.github.shunyagatha/vecline#io.github.shunyagatha-vecline",
       "type": "mcp",
       "name": "io.github.shunyagatha/vecline",
@@ -11613,6 +12153,56 @@
         "repo": "sonilo-ai/sonilo-mcp",
         "path": "io.github.sonilo-ai/sonilo-mcp",
         "url": "https://github.com/sonilo-ai/sonilo-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:squared-lemons-ltd/podmule-plugin:com.podmule/podmule#podmule",
+      "type": "mcp",
+      "name": "PodMule",
+      "description": {
+        "zh": null,
+        "en": "Search, draft and manage your podcast workspace from your agent.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Squared-Lemons-Ltd/podmule-plugin",
+        "path": "com.podmule/podmule",
+        "url": "https://github.com/Squared-Lemons-Ltd/podmule-plugin",
         "tier": 0
       },
       "quality": {
@@ -11987,12 +12577,61 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:tokportal/tokportal-mcp:com.tokportal/mcp#tokportal",
+      "type": "mcp",
+      "name": "TokPortal",
+      "description": {
+        "zh": null,
+        "en": "Managed TikTok/Instagram/YouTube accounts + video posting at scale, operated by human managers.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "tokportal/tokportal-mcp",
+        "path": "com.tokportal/mcp",
+        "url": "https://github.com/tokportal/tokportal-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:tommasosavorana/diggercamp-mcp:com.diggercamp/music-similarity#diggercamp",
       "type": "mcp",
       "name": "diggercamp",
       "description": {
         "zh": null,
-        "en": "Find independent music by how it sounds — similar tracks and playlists from a track link.",
+        "en": "Find independent music by how it sounds: similar tracks and playlists from a track link.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -12036,7 +12675,7 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:trendsapi/trends-mcp:ai.trendsapi/spotify#spotify-trends-api",
+      "id": "mcp:trendsapi-ai/trends-mcp:ai.trendsapi/spotify#spotify-trends-api",
       "type": "mcp",
       "name": "Spotify Trends API",
       "description": {
@@ -12055,9 +12694,9 @@
         "mcp-client"
       ],
       "source": {
-        "repo": "trendsapi/trends-mcp",
+        "repo": "trendsapi-ai/trends-mcp",
         "path": "ai.trendsapi/spotify",
-        "url": "https://github.com/trendsapi/trends-mcp",
+        "url": "https://github.com/trendsapi-ai/trends-mcp",
         "tier": 0
       },
       "quality": {
@@ -12085,7 +12724,7 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:trendsmcp/trends-mcp:ai.trendsmcp/spotify#spotify-trends-mcp",
+      "id": "mcp:trendsmcp-ai/trends-mcp:ai.trendsmcp/spotify#spotify-trends-mcp",
       "type": "mcp",
       "name": "Spotify Trends MCP",
       "description": {
@@ -12105,9 +12744,59 @@
         "mcp-client"
       ],
       "source": {
-        "repo": "trendsmcp/Trends-MCP",
+        "repo": "trendsmcp-ai/Trends-MCP",
         "path": "ai.trendsmcp/spotify",
-        "url": "https://github.com/trendsmcp/Trends-MCP",
+        "url": "https://github.com/trendsmcp-ai/Trends-MCP",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:unrealugc/mcp:com.unrealugc/mcp#unrealugc",
+      "type": "mcp",
+      "name": "UnrealUGC",
+      "description": {
+        "zh": null,
+        "en": "Generate and manage AI UGC video ads through eleven typed MCP tools",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "UnrealUGC/mcp",
+        "path": "com.unrealugc/mcp",
+        "url": "https://github.com/UnrealUGC/mcp",
         "tier": 0
       },
       "quality": {
