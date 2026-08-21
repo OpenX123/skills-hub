@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T19:28:10.906Z",
+  "generatedAt": "2026-08-21T19:23:08.891Z",
   "category": {
     "key": "integration",
     "zh": "三方集成",
@@ -85,7 +85,7 @@
       }
     ]
   },
-  "total": 151,
+  "total": 161,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/slack-gif-creator/skill.md#slack-gif-creator",
@@ -138,7 +138,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 169955,
+      "stars": 170848,
       "curatedMentions": 8
     },
     {
@@ -226,7 +226,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 95,
+        "score": 94,
         "gates": {
           "security": true,
           "schema": true,
@@ -280,7 +280,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 95,
+        "score": 94,
         "gates": {
           "security": true,
           "schema": true,
@@ -458,7 +458,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 169955,
+      "stars": 170848,
       "curatedMentions": 8
     },
     {
@@ -1035,7 +1035,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 83,
+        "score": 82,
         "gates": {
           "security": true,
           "schema": true,
@@ -2907,7 +2907,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 39,
+        "score": 38,
         "gates": {
           "security": true,
           "schema": true,
@@ -2961,7 +2961,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 36,
+        "score": 35,
         "gates": {
           "security": true,
           "schema": true,
@@ -3014,7 +3014,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 36,
+        "score": 35,
         "gates": {
           "security": true,
           "schema": true,
@@ -3856,6 +3856,55 @@
         "repo": "alexeyleshchenko/fast-mcp-telegram",
         "path": "io.github.alexeyleshchenko/fast-mcp-telegram",
         "url": "https://github.com/alexeyleshchenko/fast-mcp-telegram",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:baltocodes/vintage-postcard:fr.vintage-postcard/boutique#vintage-postcard",
+      "type": "mcp",
+      "name": "Vintage Postcard",
+      "description": {
+        "zh": null,
+        "en": "Affiches vintage : catalogue, devis livraison comprise et paiement Stripe.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "BaltoCodes/vintage-postcard",
+        "path": "fr.vintage-postcard/boutique",
+        "url": "https://github.com/BaltoCodes/vintage-postcard",
         "tier": 0
       },
       "quality": {
@@ -5027,6 +5076,154 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-dir/discord-mcp:io.github.mcp-dir/discord-mcp#discord",
+      "type": "mcp",
+      "name": "Discord",
+      "description": {
+        "zh": null,
+        "en": "Connect a Discord bot (bot token from the developer portal) to read/send messages, list guilds and c",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "mcp-dir/discord-mcp",
+        "path": "io.github.mcp-dir/discord-mcp",
+        "url": "https://github.com/mcp-dir/discord-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-dir/kommo-mcp:io.github.mcp-dir/kommo-mcp#kommo",
+      "type": "mcp",
+      "name": "Kommo",
+      "description": {
+        "zh": null,
+        "en": "Kommo CRM (formerly amoCRM), the conversation-first sales CRM (WhatsApp, Instagram, Telegram) used b",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business",
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "mcp-dir/kommo-mcp",
+        "path": "io.github.mcp-dir/kommo-mcp",
+        "url": "https://github.com/mcp-dir/kommo-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-dir/stripe-mcp:io.github.mcp-dir/stripe-mcp#stripe",
+      "type": "mcp",
+      "name": "Stripe",
+      "description": {
+        "zh": null,
+        "en": "Payments and billing on Stripe with the full official REST API (api.stripe.com), covers the entire d",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "mcp-dir/stripe-mcp",
+        "path": "io.github.mcp-dir/stripe-mcp",
+        "url": "https://github.com/mcp-dir/stripe-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:ad.inside/inside-ads#inside-ads",
       "type": "mcp",
       "name": "Inside Ads",
@@ -5099,6 +5296,55 @@
         "repo": null,
         "path": "ai.sharewatch/sharewatch",
         "url": "https://registry.modelcontextprotocol.io/?q=ai.sharewatch%2Fsharewatch",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:app.bestappify/shopify-app-store#bestappify-—-shopify-app-store-intelligence",
+      "type": "mcp",
+      "name": "BestAppify — Shopify App Store Intelligence",
+      "description": {
+        "zh": null,
+        "en": "Shopify App Store intelligence: keyword ranks, competitors, reviews, revenue. Free tier.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "app.bestappify/shopify-app-store",
+        "url": "https://bestappify.com/mcp",
         "tier": 0
       },
       "quality": {
@@ -5915,6 +6161,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.sumhound/sumhound-mcp#sumhound-—-e-commerce-platform-changes-&-seller-deadlines",
+      "type": "mcp",
+      "name": "Sumhound — e-commerce platform changes & seller deadlines",
+      "description": {
+        "zh": null,
+        "en": "Curated Amazon/Shopify/TikTok Shop changes (fees, policies, APIs) & upcoming seller deadlines.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.sumhound/sumhound-mcp",
+        "url": "https://sumhound.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.theaitoolsindex/aitoolsindex#the-ai-tools-index",
       "type": "mcp",
       "name": "The AI Tools Index",
@@ -5987,6 +6282,56 @@
         "repo": null,
         "path": "com.tintin-x/tryon",
         "url": "https://tintin-x.com/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.ultimatewebscraper/web-scraper#ultimate-web-scraper",
+      "type": "mcp",
+      "name": "Ultimate Web Scraper",
+      "description": {
+        "zh": null,
+        "en": "Scrape and crawl websites into queryable tables: products, emails, leads, Shopify catalogs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "research",
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.ultimatewebscraper/web-scraper",
+        "url": "https://ultimatewebscraper.com/mcp",
         "tier": 0
       },
       "quality": {
@@ -6434,6 +6779,55 @@
         "repo": "mcp-telegram/mcp-telegram",
         "path": "io.github.mcp-telegram/mcp-telegram",
         "url": "https://github.com/mcp-telegram/mcp-telegram",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mediazione/awraiter:ai.awraiter/telegram#awraiter-—-telegram-channels",
+      "type": "mcp",
+      "name": "AwrAIter — Telegram channels",
+      "description": {
+        "zh": null,
+        "en": "Telegram channels you administer: analytics, content plans, scheduled publishing. No userbot",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "MediaZione/AwrAiter",
+        "path": "ai.awraiter/telegram",
+        "url": "https://github.com/MediaZione/AwrAiter",
         "tier": 0
       },
       "quality": {
@@ -6982,6 +7376,104 @@
         "repo": "pefman/nordicmcp.eu",
         "path": "eu.nordicmcp/stripe",
         "url": "https://github.com/pefman/nordicmcp.eu",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:piotr-agier/google-drive-mcp:io.github.piotr-agier/google-drive-mcp#google-drive-mcp",
+      "type": "mcp",
+      "name": "Google Drive MCP",
+      "description": {
+        "zh": null,
+        "en": "Secure access to Google Drive, Docs, Sheets, Slides, and Calendar through MCP.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "piotr-agier/google-drive-mcp",
+        "path": "io.github.piotr-agier/google-drive-mcp",
+        "url": "https://github.com/piotr-agier/google-drive-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:pipeshub-ai/mcp-server:io.github.pipeshub-ai/mcp#pipeshub",
+      "type": "mcp",
+      "name": "PipesHub",
+      "description": {
+        "zh": null,
+        "en": "Permissioned search and cited answers over Slack, Drive, Gmail, Jira, and 50+ workplace sources.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "pipeshub-ai/mcp-server",
+        "path": "io.github.pipeshub-ai/mcp",
+        "url": "https://github.com/pipeshub-ai/mcp-server",
         "tier": 0
       },
       "quality": {
