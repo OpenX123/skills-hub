@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T19:20:02.671Z",
+  "generatedAt": "2026-08-23T19:19:56.900Z",
   "category": {
     "key": "media",
     "zh": "音视频图像",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 301,
+  "total": 312,
   "entries": [
     {
       "id": "skill:composiohq/awesome-claude-skills:video-downloader/skill.md#youtube-downloader",
@@ -2498,7 +2498,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 9593,
+      "stars": 9683,
       "curatedMentions": 1
     },
     {
@@ -2553,7 +2553,61 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 9593,
+      "stars": 9683,
+      "curatedMentions": 1
+    },
+    {
+      "id": "skill:dontbesilent2025/dbskill:skills/dbs-standard-answer/skill.md#dbs-standard-answer",
+      "type": "skill",
+      "name": "dbs-standard-answer",
+      "description": {
+        "zh": "先从用户的理论、观点、案例、方法或现实困境中挖掘相关行业、学科、作者和可信理论，直接回答问题；再寻找结构同构的历史成功、失败与反例，提炼带条件的标准答案。用户询问相关行业或作者、给观点找理论依据、一个理论能解决谁的问题、怎样拍成短视频、历史上如何解决、有没有经典解法或标准答案时使用。",
+        "en": null,
+        "zhEngine": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "zh",
+      "categories": [
+        "writing",
+        "media"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "dontbesilent2025/dbskill",
+        "path": "skills/dbs-standard-answer/SKILL.md",
+        "url": "https://github.com/dontbesilent2025/dbskill/blob/HEAD/skills/dbs-standard-answer/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 64,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 9683,
       "curatedMentions": 1
     },
     {
@@ -2608,7 +2662,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 9593,
+      "stars": 9683,
       "curatedMentions": 1
     },
     {
@@ -2708,7 +2762,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 9593,
+      "stars": 9683,
       "curatedMentions": 1
     },
     {
@@ -2758,7 +2812,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 9593,
+      "stars": 9683,
       "curatedMentions": 1
     },
     {
@@ -2809,7 +2863,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 9593,
+      "stars": 9683,
       "curatedMentions": 1
     },
     {
@@ -3765,7 +3819,7 @@
       "name": "Gradus Notation",
       "description": {
         "zh": null,
-        "en": "Render music notation (SVG/MusicXML/MIDI) + theory search. Free tool from the Gradus curriculum.",
+        "en": "Gradus Notation + Harmonic Analyzer + Engraver: music tools for any AI agent. Free, no auth.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -3773,7 +3827,6 @@
       },
       "lang": "en",
       "categories": [
-        "research",
         "media"
       ],
       "targets": [
@@ -6214,6 +6267,55 @@
         "repo": "CommonlandsAbbe/commonlands-mcp",
         "path": "com.commonlands/optics-mcp",
         "url": "https://github.com/CommonlandsAbbe/commonlands-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:cripacx/mediagen:io.github.cripacx/mediagen#io.github.cripacx-mediagen",
+      "type": "mcp",
+      "name": "io.github.Cripacx/mediagen",
+      "description": {
+        "zh": null,
+        "en": "Generate images and video from text prompts across Gemini, OpenAI and Kie AI.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Cripacx/mediagen",
+        "path": "io.github.Cripacx/mediagen",
+        "url": "https://github.com/Cripacx/mediagen",
         "tier": 0
       },
       "quality": {
@@ -9312,6 +9414,104 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.beeimg/beeimg#beeimg-image-hosting",
+      "type": "mcp",
+      "name": "BeeIMG Image Hosting",
+      "description": {
+        "zh": null,
+        "en": "Upload, delete, and manage images on BeeIMG. Supports URL and file uploads with premium plan info.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.beeimg/beeimg",
+        "url": "https://beeimg.com/mcp-setup",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.beeimg/mcp#beeimg-image-hosting",
+      "type": "mcp",
+      "name": "BeeIMG Image Hosting",
+      "description": {
+        "zh": null,
+        "en": "Upload, delete, and manage images on BeeIMG. Supports URL and file uploads with premium plan info.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.beeimg/mcp",
+        "url": "https://beeimg.com/mcp-setup",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.blitzreels/blitzreels#blitzreels-video-editor",
       "type": "mcp",
       "name": "BlitzReels Video Editor",
@@ -9385,6 +9585,300 @@
         "repo": null,
         "path": "com.desaira/desaira",
         "url": "https://desaira.com/mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.dyndns-server.noon-ai/automatic-face-anonymization-mcp#automatic-face-anonymization-image-video-mcp-—-noonai-dis",
+      "type": "mcp",
+      "name": "Automatic Face Anonymization Image/Video MCP — NoonAI DIS",
+      "description": {
+        "zh": null,
+        "en": "Automatic face detection, anonymization, and de-identification by NoonAI DIS.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.dyndns-server.noon-ai/automatic-face-anonymization-mcp",
+        "url": "https://noon-ai.dyndns-server.com/mcp-proof",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.dyndns-server.noon-ai/face-blur-redaction-mcp#automatic-face-blur-redaction-image-video-mcp-—-noonai-dis",
+      "type": "mcp",
+      "name": "Automatic Face Blur/Redaction Image/Video MCP — NoonAI DIS",
+      "description": {
+        "zh": null,
+        "en": "Automatic face blur, redaction, and de-identification by NoonAI DIS.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.dyndns-server.noon-ai/face-blur-redaction-mcp",
+        "url": "https://noon-ai.dyndns-server.com/mcp-proof",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.dyndns-server.noon-ai/image-video-anonymization-mcp#automatic-image-video-face-detection,-blur-redaction-&-de-id",
+      "type": "mcp",
+      "name": "Automatic Image/Video Face Detection, Blur/Redaction & De-identification MCP — NoonAI DIS",
+      "description": {
+        "zh": null,
+        "en": "Automatic image/video face detection, blur/redaction, and de-identification by NoonAI DIS.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.dyndns-server.noon-ai/image-video-anonymization-mcp",
+        "url": "https://noon-ai.dyndns-server.com/mcp-proof",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.dyndns-server.noon-ai/noonai-dis-mcp-server#automatic-image-video-face-detection,-blur-redaction-&-de-id",
+      "type": "mcp",
+      "name": "Automatic Image/Video Face Detection, Blur/Redaction & De-identification MCP — NoonAI DIS",
+      "description": {
+        "zh": null,
+        "en": "Automatic image/video face detection, blur/redaction, and de-identification by NoonAI DIS.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.dyndns-server.noon-ai/noonai-dis-mcp-server",
+        "url": "https://noon-ai.dyndns-server.com/mcp-proof",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.dyndns-server.noon-ai/video-anonymization-mcp#automatic-image-video-face-detection,-blur-redaction-&-de-id",
+      "type": "mcp",
+      "name": "Automatic Image/Video Face Detection, Blur/Redaction & De-identification MCP — NoonAI DIS",
+      "description": {
+        "zh": null,
+        "en": "Automatic image/video face detection, blur/redaction, and de-identification by NoonAI DIS.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.dyndns-server.noon-ai/video-anonymization-mcp",
+        "url": "https://noon-ai.dyndns-server.com/mcp-proof",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.dyndns-server.noon-ai/video-mosaic-masking-mcp#automatic-video-mosaic,-face-masking-&-de-identification-mcp",
+      "type": "mcp",
+      "name": "Automatic Video Mosaic, Face Masking & De-identification MCP — NoonAI DIS",
+      "description": {
+        "zh": null,
+        "en": "Automatic video mosaic, face masking, and privacy de-identification by NoonAI DIS.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.dyndns-server.noon-ai/video-mosaic-masking-mcp",
+        "url": "https://noon-ai.dyndns-server.com/mcp-proof",
         "tier": 0
       },
       "quality": {
@@ -12638,6 +13132,56 @@
         "repo": "nexus-mcp-infra/url-metadata-api",
         "path": "io.github.nexus-mcp-infra/url-metadata-api",
         "url": "https://github.com/nexus-mcp-infra/url-metadata-api",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:nhatvu148/video-transcriber-mcp-rs:io.github.nhatvu148/video-transcriber-mcp#video-transcriber",
+      "type": "mcp",
+      "name": "Video Transcriber",
+      "description": {
+        "zh": null,
+        "en": "Transcribe videos from 1000+ platforms or local files offline, and search across every transcript",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "nhatvu148/video-transcriber-mcp-rs",
+        "path": "io.github.nhatvu148/video-transcriber-mcp",
+        "url": "https://github.com/nhatvu148/video-transcriber-mcp-rs",
         "tier": 0
       },
       "quality": {

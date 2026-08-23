@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T19:20:02.671Z",
+  "generatedAt": "2026-08-23T19:19:56.900Z",
   "category": {
     "key": "database",
     "zh": "数据库",
@@ -69,7 +69,7 @@
       }
     ]
   },
-  "total": 202,
+  "total": 206,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/claude-api/skill.md#claude-api",
@@ -1716,7 +1716,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 9593,
+      "stars": 9683,
       "curatedMentions": 1
     },
     {
@@ -2015,7 +2015,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 9593,
+      "stars": 9683,
       "curatedMentions": 1
     },
     {
@@ -6800,6 +6800,55 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:servosity/msp-skills:io.github.servosity/immybot-mcp#immybot-mcp",
+      "type": "mcp",
+      "name": "ImmyBot MCP",
+      "description": {
+        "zh": null,
+        "en": "Every ImmyBot endpoint typed, plus a local SQLite mirror that answers the cross-tenant questions",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "servosity/msp-skills",
+        "path": "io.github.Servosity/immybot-mcp",
+        "url": "https://github.com/servosity/msp-skills",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
       "id": "mcp:servosity/msp-skills:io.github.servosity/quickbooks-mcp#quickbooks-online-mcp",
       "type": "mcp",
       "name": "QuickBooks Online MCP",
@@ -7394,6 +7443,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:boringsql/dryrun:io.github.boringsql/dryrun#dryrun",
+      "type": "mcp",
+      "name": "dryrun",
+      "description": {
+        "zh": null,
+        "en": "PostgreSQL schema intelligence from a committed snapshot. No connection, no credentials.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "boringSQL/dryrun",
+        "path": "io.github.boringSQL/dryrun",
+        "url": "https://github.com/boringSQL/dryrun",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:chris221/ftp-ssh-mcp:io.github.chris221/ftp-ssh-mcp#io.github.chris221-ftp-ssh-mcp",
       "type": "mcp",
       "name": "io.github.Chris221/ftp-ssh-mcp",
@@ -7517,6 +7615,55 @@
         "repo": "CodesWhat/portkey-admin-mcp",
         "path": "io.github.CodesWhat/portkey-admin-mcp",
         "url": "https://github.com/CodesWhat/portkey-admin-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:dockndevai/mcp-clickhouse:io.github.dockndevai/mcp-clickhouse#io.github.dockndevai-mcp-clickhouse",
+      "type": "mcp",
+      "name": "io.github.dockndevai/mcp-clickhouse",
+      "description": {
+        "zh": null,
+        "en": "ClickHouse query & management for AI agents — SQL-classified read/write/destructive gating.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "dockndevai/mcp-clickhouse",
+        "path": "io.github.dockndevai/mcp-clickhouse",
+        "url": "https://github.com/dockndevai/mcp-clickhouse",
         "tier": 0
       },
       "quality": {
@@ -7691,12 +7838,62 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:gistrec/mcp-mysql-client:io.github.gistrec/mcp-mysql-client#mysql-mcp",
+      "type": "mcp",
+      "name": "MySQL MCP",
+      "description": {
+        "zh": null,
+        "en": "MCP server for one MySQL database: schema, read-only queries and guarded writes.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "gistrec/mcp-mysql-client",
+        "path": "io.github.gistrec/mcp-mysql-client",
+        "url": "https://github.com/gistrec/mcp-mysql-client",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:giulioder/re-call:io.github.giulioder/re-call#re-call-mcp-memory-server",
       "type": "mcp",
       "name": "RE-call MCP Memory Server",
       "description": {
         "zh": null,
-        "en": "Trustworthy Postgres plus pgvector memory for AI agents.",
+        "en": "Agent memory on your own Postgres that flags superseded facts and abstains instead of guessing.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
