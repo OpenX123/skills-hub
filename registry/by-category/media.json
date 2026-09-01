@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T23:06:11.620Z",
+  "generatedAt": "2026-09-01T21:34:47.008Z",
   "category": {
     "key": "media",
     "zh": "音视频图像",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 377,
+  "total": 388,
   "entries": [
     {
       "id": "skill:composiohq/awesome-claude-skills:video-downloader/skill.md#youtube-downloader",
@@ -2498,7 +2498,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 9805,
+      "stars": 9850,
       "curatedMentions": 1
     },
     {
@@ -2553,7 +2553,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 9805,
+      "stars": 9850,
       "curatedMentions": 1
     },
     {
@@ -2607,7 +2607,61 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 9805,
+      "stars": 9850,
+      "curatedMentions": 1
+    },
+    {
+      "id": "skill:dontbesilent2025/dbskill:skills/dbs-video-extract/skill.md#dbs-video-extract",
+      "type": "skill",
+      "name": "dbs-video-extract",
+      "description": {
+        "zh": "接收抖音、小红书、微信视频号等短视频链接或分享文案，查询作品／账号数据并提取语音文字稿，按作者和标题归档为 Markdown。用户希望完整解析短视频、取得数据或文字稿时使用；运行前检查 TikHub 与轻抖使用凭证，缺少时用新手能理解的方式引导购买和安全配置。",
+        "en": null,
+        "zhEngine": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "zh",
+      "categories": [
+        "writing",
+        "media"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "dontbesilent2025/dbskill",
+        "path": "skills/dbs-video-extract/SKILL.md",
+        "url": "https://github.com/dontbesilent2025/dbskill/blob/HEAD/skills/dbs-video-extract/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 64,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 9850,
       "curatedMentions": 1
     },
     {
@@ -2662,7 +2716,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 9805,
+      "stars": 9850,
       "curatedMentions": 1
     },
     {
@@ -2762,7 +2816,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 9805,
+      "stars": 9850,
       "curatedMentions": 1
     },
     {
@@ -2812,7 +2866,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 9805,
+      "stars": 9850,
       "curatedMentions": 1
     },
     {
@@ -2863,7 +2917,57 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 9805,
+      "stars": 9850,
+      "curatedMentions": 1
+    },
+    {
+      "id": "plugin:dontbesilent2025/dbskill:.claude-plugin/marketplace.json#dbs-video-extract",
+      "type": "plugin",
+      "name": "dbs-video-extract",
+      "description": {
+        "zh": "接收抖音、小红书、微信视频号等短视频链接或分享文案，查询作品／账号数据并提取语音文字稿，按作者和标题归档为 Markdown。用户希望完整解析短视频、取得数据或文字稿时使用；运行前检查 TikHub 与轻抖使用凭证，缺少时用新手能理解的方式引导购买和安全配置。",
+        "en": null,
+        "zhEngine": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "zh",
+      "categories": [
+        "writing",
+        "media"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "dontbesilent2025/dbskill",
+        "path": ".claude-plugin/marketplace.json",
+        "url": "https://github.com/dontbesilent2025/dbskill/blob/HEAD/.claude-plugin/marketplace.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 55,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 9850,
       "curatedMentions": 1
     },
     {
@@ -3984,6 +4088,104 @@
         "repo": "Explorer-64/imagcon-mcp",
         "path": "io.github.Explorer-64/imagcon-mcp",
         "url": "https://github.com/Explorer-64/imagcon-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:forgemeshlabs/imagegen-mcp:io.github.forgemeshlabs/imagegen-mcp#io.github.forgemeshlabs-imagegen-mcp",
+      "type": "mcp",
+      "name": "io.github.forgemeshlabs/imagegen-mcp",
+      "description": {
+        "zh": null,
+        "en": "AI image generation MCP — generate, bg removal, 4x upscale, or full pro pipeline. USDC/Base.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "forgemeshlabs/imagegen-mcp",
+        "path": "io.github.forgemeshlabs/imagegen-mcp",
+        "url": "https://github.com/forgemeshlabs/imagegen-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:forgemeshlabs/voice-mcp:io.github.forgemeshlabs/voice-mcp#io.github.forgemeshlabs-voice-mcp",
+      "type": "mcp",
+      "name": "io.github.forgemeshlabs/voice-mcp",
+      "description": {
+        "zh": null,
+        "en": "Give Your Agent A Voice: x402 pay-per-call speech with 20 voices, 10 personas, 31 languages.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "forgemeshlabs/voice-mcp",
+        "path": "io.github.forgemeshlabs/voice-mcp",
+        "url": "https://github.com/forgemeshlabs/voice-mcp",
         "tier": 0
       },
       "quality": {
@@ -5723,6 +5925,55 @@
         "repo": "aicontentdrop/aicontentdrop",
         "path": "com.aicontentdrop/ai-content-drop",
         "url": "https://github.com/aicontentdrop/aicontentdrop",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:aicut-pro/aicut-mcp:pro.aicut/aicut#aicut",
+      "type": "mcp",
+      "name": "aicut",
+      "description": {
+        "zh": null,
+        "en": "Generate AI videos, images, audio and staged AI Video Story episodes, and publish them to social.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "aicut-pro/aicut-mcp",
+        "path": "pro.aicut/aicut",
+        "url": "https://github.com/aicut-pro/aicut-mcp",
         "tier": 0
       },
       "quality": {
@@ -7604,6 +7855,55 @@
         "repo": "Gandr-AI/gandr-mcp",
         "path": "io.github.Gandr-AI/gandr-mcp",
         "url": "https://github.com/Gandr-AI/gandr-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:garalex/promoshot:io.github.garalex/promoshot#io.github.garalex-promoshot",
+      "type": "mcp",
+      "name": "io.github.GarAlex/promoshot",
+      "description": {
+        "zh": null,
+        "en": "Headless MCP: author and render PromoShot .promo video projects (stills, GIFs, video).",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "GarAlex/promoshot",
+        "path": "io.github.GarAlex/promoshot",
+        "url": "https://github.com/GarAlex/promoshot",
         "tier": 0
       },
       "quality": {
@@ -11000,6 +11300,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.animgen/animgen#animgen",
+      "type": "mcp",
+      "name": "AnimGen",
+      "description": {
+        "zh": null,
+        "en": "Create AI animations and export transparent sprite sheets, alpha video, frames, and game assets.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.animgen/animgen",
+        "url": "https://animgen.com/developers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.arcalune/music#arcalune-music",
       "type": "mcp",
       "name": "Arcalune Music",
@@ -13340,6 +13689,55 @@
         "repo": null,
         "path": "io.autosophia/agent-video",
         "url": "https://autosophia.io",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.flownode/flownode#flownode",
+      "type": "mcp",
+      "name": "FlowNode",
+      "description": {
+        "zh": null,
+        "en": "Generate images, video, audio and 3D with FlowNode; results land in your asset library.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.flownode/flownode",
+        "url": "https://www.flownode.io",
         "tier": 0
       },
       "quality": {
@@ -16177,6 +16575,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:onepunchtechnology/tinify-ai-mcp-server:io.github.onepunchtechnology/tinify-ai#io.github.onepunchtechnology-tinify-ai",
+      "type": "mcp",
+      "name": "io.github.onepunchtechnology/tinify-ai",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Tinify image optimization — one tool, max optimization",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "onepunchtechnology/tinify-ai-mcp-server",
+        "path": "io.github.onepunchtechnology/tinify-ai",
+        "url": "https://github.com/onepunchtechnology/tinify-ai-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:oxbshw/watch-skill:io.github.oxbshw/watch-skill#io.github.oxbshw-watch-skill",
       "type": "mcp",
       "name": "io.github.oxbshw/watch-skill",
@@ -17718,6 +18166,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:smeet666/mcp-tvsubtitles:io.github.smeet666/mcp-tvsubtitles#io.github.smeet666-mcp-tvsubtitles",
+      "type": "mcp",
+      "name": "io.github.smeet666/mcp-tvsubtitles",
+      "description": {
+        "zh": null,
+        "en": "Search TV series on tvsubtitles.net, read a season's subtitle coverage and one record. No API key.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "media",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "smeet666/mcp-tvsubtitles",
+        "path": "io.github.smeet666/mcp-tvsubtitles",
+        "url": "https://github.com/smeet666/mcp-tvsubtitles",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:soboljem/transcribe-mcp:io.github.soboljem/transcribe-mcp#io.github.soboljem-transcribe-mcp",
       "type": "mcp",
       "name": "io.github.Soboljem/transcribe-mcp",
@@ -18876,6 +19375,55 @@
         "repo": "yanlingLabs/video-extract-mcp",
         "path": "com.yanlinglabs/video-extract-mcp",
         "url": "https://github.com/yanlingLabs/video-extract-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:yumaheymans/genmagic-mcp:io.github.yumaheymans/genmagic#genmagic",
+      "type": "mcp",
+      "name": "GenMagic",
+      "description": {
+        "zh": null,
+        "en": "Generate text, images, speech, music, and video with any AI model, from one credit balance.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "yumaheymans/genmagic-mcp",
+        "path": "io.github.yumaheymans/genmagic",
+        "url": "https://github.com/yumaheymans/genmagic-mcp",
         "tier": 0
       },
       "quality": {

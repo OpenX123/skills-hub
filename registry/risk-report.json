@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-31T23:06:11.620Z",
+  "generatedAt": "2026-09-01T21:34:47.008Z",
   "engine": "text-baseline/v2",
-  "scanned": 14426,
-  "flagged": 142,
+  "scanned": 14692,
+  "flagged": 141,
   "byLevel": {
-    "clean": 14284,
-    "low": 107,
+    "clean": 14551,
+    "low": 106,
     "medium": 34,
     "high": 1
   },
@@ -3263,43 +3263,6 @@
           "where": "body",
           "line": 44,
           "evidence": "systemctl enable"
-        }
-      ]
-    },
-    {
-      "id": "skill:dontbesilent2025/dbskill:skills/dbs-skill-cleaner/skill.md#dbs-skill-cleaner",
-      "name": "dbs-skill-cleaner",
-      "type": "skill",
-      "repo": "dontbesilent2025/dbskill",
-      "path": "skills/dbs-skill-cleaner/SKILL.md",
-      "url": "https://github.com/dontbesilent2025/dbskill/blob/HEAD/skills/dbs-skill-cleaner/SKILL.md",
-      "level": "low",
-      "score": 8,
-      "counts": {
-        "low": 2
-      },
-      "flags": [
-        {
-          "id": "contact-solicitation",
-          "severity": "low",
-          "title": {
-            "zh": "导流联系方式",
-            "en": "Contact solicitation"
-          },
-          "where": "body",
-          "line": 54,
-          "evidence": "加微信"
-        },
-        {
-          "id": "contact-solicitation",
-          "severity": "low",
-          "title": {
-            "zh": "导流联系方式",
-            "en": "Contact solicitation"
-          },
-          "where": "script",
-          "line": 22,
-          "evidence": "加微信"
         }
       ]
     },

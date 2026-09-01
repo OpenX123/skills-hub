@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T23:06:11.620Z",
+  "generatedAt": "2026-09-01T21:34:47.008Z",
   "category": {
     "key": "testing",
     "zh": "测试质量",
@@ -73,7 +73,7 @@
       }
     ]
   },
-  "total": 360,
+  "total": 361,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/webapp-testing/skill.md#webapp-testing",
@@ -125,7 +125,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 170848,
+      "stars": 173003,
       "curatedMentions": 8
     },
     {
@@ -392,7 +392,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 170848,
+      "stars": 173003,
       "curatedMentions": 8
     },
     {
@@ -3944,7 +3944,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 9805,
+      "stars": 9850,
       "curatedMentions": 1
     },
     {
@@ -12674,6 +12674,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:artjack/verdict:io.github.artjack/verdict#verdict-qa",
+      "type": "mcp",
+      "name": "Verdict QA",
+      "description": {
+        "zh": null,
+        "en": "Read-only MCP server over Verdict QA state: verdicts, findings, flaky quarantine, history.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ArtJack/verdict",
+        "path": "io.github.ArtJack/verdict",
+        "url": "https://github.com/ArtJack/verdict",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:backas03/vitaminmcp:io.github.backas03/vitaminmcp#vitaminmcp",
       "type": "mcp",
       "name": "VitaminMCP",
@@ -16640,55 +16690,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:space.arakelproof.proof/arakel#arakel-intervalproof",
-      "type": "mcp",
-      "name": "ARAKEL IntervalProof",
-      "description": {
-        "zh": null,
-        "en": "Federal Register event verification with free coverage/quote and signed interval proofs.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "testing"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "space.arakelproof.proof/arakel",
-        "url": "https://registry.modelcontextprotocol.io/?q=space.arakelproof.proof%2Farakel",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:mcp-official:st.seedfa/seedfast#seedfast",
       "type": "mcp",
       "name": "Seedfast",
@@ -17800,6 +17801,57 @@
         "repo": "smbcloudXYZ/smbcloud-cli",
         "path": "io.github.smbcloudXYZ/xcrs",
         "url": "https://github.com/smbcloudXYZ/smbcloud-cli",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:smeet666/mcp-tvsubtitles:io.github.smeet666/mcp-tvsubtitles#io.github.smeet666-mcp-tvsubtitles",
+      "type": "mcp",
+      "name": "io.github.smeet666/mcp-tvsubtitles",
+      "description": {
+        "zh": null,
+        "en": "Search TV series on tvsubtitles.net, read a season's subtitle coverage and one record. No API key.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "media",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "smeet666/mcp-tvsubtitles",
+        "path": "io.github.smeet666/mcp-tvsubtitles",
+        "url": "https://github.com/smeet666/mcp-tvsubtitles",
         "tier": 0
       },
       "quality": {

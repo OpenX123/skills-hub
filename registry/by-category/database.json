@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T23:06:11.620Z",
+  "generatedAt": "2026-09-01T21:34:47.008Z",
   "category": {
     "key": "database",
     "zh": "数据库",
@@ -69,7 +69,7 @@
       }
     ]
   },
-  "total": 232,
+  "total": 235,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/claude-api/skill.md#claude-api",
@@ -122,7 +122,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 170848,
+      "stars": 173003,
       "curatedMentions": 8
     },
     {
@@ -1716,7 +1716,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 9805,
+      "stars": 9850,
       "curatedMentions": 1
     },
     {
@@ -2015,7 +2015,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 9805,
+      "stars": 9850,
       "curatedMentions": 1
     },
     {
@@ -6255,6 +6255,55 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:clickhouse/mcp-clickhouse:io.github.clickhouse/mcp-clickhouse#clickhouse",
+      "type": "mcp",
+      "name": "ClickHouse",
+      "description": {
+        "zh": null,
+        "en": "Official ClickHouse MCP server for querying and exploring ClickHouse clusters and chDB.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ClickHouse/mcp-clickhouse",
+        "path": "io.github.ClickHouse/mcp-clickhouse",
+        "url": "https://github.com/ClickHouse/mcp-clickhouse",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
       "id": "mcp:devopam/mcpg:io.github.devopam/mcpg#io.github.devopam-mcpg",
       "type": "mcp",
       "name": "io.github.devopam/mcpg",
@@ -9072,6 +9121,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:gordonkjlee/factmem:io.github.gordonkjlee/factmem#factmem",
+      "type": "mcp",
+      "name": "FactMem",
+      "description": {
+        "zh": null,
+        "en": "A local memory engine. You own the SQLite file. Not Mem0's hosted OpenMemory MCP.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "gordonkjlee/factmem",
+        "path": "io.github.gordonkjlee/factmem",
+        "url": "https://github.com/gordonkjlee/factmem",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:imashishkh21/atlaso:io.github.imashishkh21/atlaso#io.github.imashishkh21-atlaso",
       "type": "mcp",
       "name": "io.github.imashishkh21/atlaso",
@@ -9888,6 +9986,56 @@
         "repo": null,
         "path": "io.github.awaw999iw-ai/migration-exception-resolver",
         "url": "https://registry.modelcontextprotocol.io/?q=io.github.awaw999iw-ai%2Fmigration-exception-resolver",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.cloudquery/mcp#io.github.cloudquery-mcp",
+      "type": "mcp",
+      "name": "io.github.cloudquery/mcp",
+      "description": {
+        "zh": null,
+        "en": "CloudQuery MCP server for asset inventory data. Supports CLI, PostgreSQL, and Platform modes.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.cloudquery/mcp",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.cloudquery%2Fmcp",
         "tier": 0
       },
       "quality": {
