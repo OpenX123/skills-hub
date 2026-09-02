@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-01T21:34:47.008Z",
+  "generatedAt": "2026-09-02T21:33:39.716Z",
   "engine": "text-baseline/v2",
-  "scanned": 14692,
+  "scanned": 14969,
   "flagged": 141,
   "byLevel": {
-    "clean": 14551,
+    "clean": 14828,
     "low": 106,
     "medium": 34,
     "high": 1
@@ -2429,6 +2429,32 @@
       ]
     },
     {
+      "id": "skill:laolaoshiren/claude-code-skills-zh:skills/git-workflow/skill.md#git-workflow",
+      "name": "git-workflow",
+      "type": "skill",
+      "repo": "laolaoshiren/claude-code-skills-zh",
+      "path": "skills/git-workflow/SKILL.md",
+      "url": "https://github.com/laolaoshiren/claude-code-skills-zh/blob/HEAD/skills/git-workflow/SKILL.md",
+      "level": "low",
+      "score": 10,
+      "counts": {
+        "high": 1
+      },
+      "flags": [
+        {
+          "id": "destructive-ops",
+          "severity": "high",
+          "title": {
+            "zh": "破坏性操作",
+            "en": "Destructive operation"
+          },
+          "where": "body",
+          "line": 95,
+          "evidence": "git push --force"
+        }
+      ]
+    },
+    {
       "id": "rules:sanjeed5/awesome-cursor-rules-mdc:rules-mdc/css.mdc#css",
       "name": "css",
       "type": "rules",
@@ -2607,32 +2633,6 @@
           "where": "body",
           "line": 259,
           "evidence": "白色隐藏文本样式:color: white"
-        }
-      ]
-    },
-    {
-      "id": "skill:laolaoshiren/claude-code-skills-zh:skills/git-workflow/skill.md#git-workflow",
-      "name": "git-workflow",
-      "type": "skill",
-      "repo": "laolaoshiren/claude-code-skills-zh",
-      "path": "skills/git-workflow/SKILL.md",
-      "url": "https://github.com/laolaoshiren/claude-code-skills-zh/blob/HEAD/skills/git-workflow/SKILL.md",
-      "level": "low",
-      "score": 10,
-      "counts": {
-        "high": 1
-      },
-      "flags": [
-        {
-          "id": "destructive-ops",
-          "severity": "high",
-          "title": {
-            "zh": "破坏性操作",
-            "en": "Destructive operation"
-          },
-          "where": "body",
-          "line": 95,
-          "evidence": "git push --force"
         }
       ]
     },
