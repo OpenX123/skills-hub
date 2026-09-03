@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T21:33:39.716Z",
+  "generatedAt": "2026-09-03T21:33:41.479Z",
   "category": {
     "key": "document",
     "zh": "文档处理",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 451,
+  "total": 468,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/docx/skill.md#docx",
@@ -133,7 +133,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 173003,
+      "stars": 173599,
       "curatedMentions": 8
     },
     {
@@ -186,7 +186,7 @@
       "variantCount": 1,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 173003,
+      "stars": 173599,
       "curatedMentions": 8
     },
     {
@@ -240,7 +240,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 173003,
+      "stars": 173599,
       "curatedMentions": 8
     },
     {
@@ -293,7 +293,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 173003,
+      "stars": 173599,
       "curatedMentions": 8
     },
     {
@@ -824,7 +824,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 173003,
+      "stars": 173599,
       "curatedMentions": 8
     },
     {
@@ -5090,11 +5090,11 @@
       "curatedMentions": 1
     },
     {
-      "id": "skill:huangwb8/skills:skills/alpha/write-skill-readme/skill.md#write-skill-readme",
+      "id": "skill:huangwb8/skills:skills/alpha/write-readme/skill.md#write-readme",
       "type": "skill",
-      "name": "write-skill-readme",
+      "name": "write-readme",
       "description": {
-        "zh": "当用户明确要求\"生成技能 README\"、\"编写用户指南\"或\"更新技能文档\"时使用。为 Agent Skills 编写符合最佳实践的 README.md 用户使用指南。自动分析技能结构（SKILL.md、config.yaml、scripts/），按模板生成小白友好的文档。",
+        "zh": "为任意 GitHub 项目创建或改写高质量、可执行、证据驱动的双语 README；当用户说“写 README / README.md / 项目说明 / 文档首页 / GitHub 项目介绍”，或需要把 Agent Skill、库、CLI、Web 应用、服务、数据/机器学习项目整理成中文 README.md 与英文 README_EN.md 时使用。优先读取项目事实并验证命令、链接和功能，不凭空编造。",
         "en": null,
         "zhEngine": null,
         "needsTranslation": [
@@ -5103,6 +5103,7 @@
       },
       "lang": "zh",
       "categories": [
+        "meta",
         "document",
         "coding"
       ],
@@ -5115,8 +5116,8 @@
       ],
       "source": {
         "repo": "huangwb8/skills",
-        "path": "skills/alpha/write-skill-readme/SKILL.md",
-        "url": "https://github.com/huangwb8/skills/blob/HEAD/skills/alpha/write-skill-readme/SKILL.md",
+        "path": "skills/alpha/write-readme/SKILL.md",
+        "url": "https://github.com/huangwb8/skills/blob/HEAD/skills/alpha/write-readme/SKILL.md",
         "tier": 2
       },
       "quality": {
@@ -5554,7 +5555,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 46,
+        "score": 45,
         "gates": {
           "security": true,
           "schema": true,
@@ -5608,7 +5609,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 46,
+        "score": 45,
         "gates": {
           "security": true,
           "schema": true,
@@ -5663,7 +5664,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 46,
+        "score": 45,
         "gates": {
           "security": true,
           "schema": true,
@@ -5718,7 +5719,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 46,
+        "score": 45,
         "gates": {
           "security": true,
           "schema": true,
@@ -5773,7 +5774,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 46,
+        "score": 45,
         "gates": {
           "security": true,
           "schema": true,
@@ -6245,7 +6246,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 32,
+        "score": 31,
         "gates": {
           "security": true,
           "schema": true,
@@ -6690,6 +6691,55 @@
         "repo": "ganapativs/microcharts",
         "path": "io.github.ganapativs/microcharts",
         "url": "https://github.com/ganapativs/microcharts",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:geml-spec/geml:io.github.geml-spec/geml#geml-—-a-plain-text-document-format-built-to-be-edited-in-pl",
+      "type": "mcp",
+      "name": "GEML — a plain-text document format built to be edited in place, one section at a time",
+      "description": {
+        "zh": null,
+        "en": "One section in, one section out — on Markdown/GEML files, bad writes refused.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "geml-spec/geml",
+        "path": "io.github.geml-spec/geml",
+        "url": "https://github.com/geml-spec/geml",
         "tier": 0
       },
       "quality": {
@@ -8105,6 +8155,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:amersarhan/pdffr:io.github.amersarhan/pdffr-mcp#pdffr",
+      "type": "mcp",
+      "name": "pdffr",
+      "description": {
+        "zh": null,
+        "en": "Local, private PDF to Markdown for agents: geometry-first parsing, OCR only where needed.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "AmerSarhan/PDFFR",
+        "path": "io.github.AmerSarhan/pdffr-mcp",
+        "url": "https://github.com/AmerSarhan/PDFFR",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:animal-ltd/agent-wiki-plugin:com.getagentwiki/agent-wiki#com.getagentwiki-agent-wiki",
       "type": "mcp",
       "name": "com.getagentwiki/agent-wiki",
@@ -9166,56 +9265,6 @@
         "repo": "caelum29/calibre-mcp",
         "path": "io.github.caelum29/calibre-mcp",
         "url": "https://github.com/caelum29/calibre-mcp",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:calibratedghosts/pagesnap:io.sslip.142-93-197-141.pagesnap/pagesnap#pagesnap",
-      "type": "mcp",
-      "name": "Pagesnap",
-      "description": {
-        "zh": null,
-        "en": "Remote MCP for Markdown, screenshots, PDFs, crawl, extract, diff and monitors. Free; AI-operated.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "document",
-        "research"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "CalibratedGhosts/PageSnap",
-        "path": "io.sslip.142-93-197-141.pagesnap/pagesnap",
-        "url": "https://github.com/CalibratedGhosts/PageSnap",
         "tier": 0
       },
       "quality": {
@@ -11129,6 +11178,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:extend-hq/extend-agent-plugin:ai.extend/extend#ai.extend-extend",
+      "type": "mcp",
+      "name": "ai.extend/extend",
+      "description": {
+        "zh": null,
+        "en": "Turn documents into structured data: parse, extract, classify, split, and fill PDF forms.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "extend-hq/extend-agent-plugin",
+        "path": "ai.extend/extend",
+        "url": "https://github.com/extend-hq/extend-agent-plugin",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:fisher-byte/markovo:io.github.fisher-byte/markovo#markovo-file-to-markdown",
       "type": "mcp",
       "name": "Markovo File to Markdown",
@@ -11348,55 +11446,6 @@
         "repo": "fullbleed-engine/fullbleed-official",
         "path": "io.github.fullbleed-engine/fullbleed-mcp",
         "url": "https://github.com/fullbleed-engine/fullbleed-official",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:geml-spec/geml:io.github.geml-spec/geml#geml-—-a-plain-text-document-format-built-to-be-edited-in-pl",
-      "type": "mcp",
-      "name": "GEML — a plain-text document format built to be edited in place, one section at a time",
-      "description": {
-        "zh": null,
-        "en": "One section in, one section out — on Markdown/GEML files, bad writes refused.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "document"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "geml-spec/geml",
-        "path": "io.github.geml-spec/geml",
-        "url": "https://github.com/geml-spec/geml",
         "tier": 0
       },
       "quality": {
@@ -11646,6 +11695,55 @@
         "repo": "HelgDemidov/refigure",
         "path": "io.github.HelgDemidov/refigure",
         "url": "https://github.com/HelgDemidov/refigure",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:heubme2020/datasinking:io.github.heubme2020/datasinking#datasinking",
+      "type": "mcp",
+      "name": "DataSinking",
+      "description": {
+        "zh": null,
+        "en": "Full-text Asian financial reports (China, Korea, Japan) as clean Markdown — 6 tools for RAG agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "heubme2020/datasinking",
+        "path": "io.github.heubme2020/datasinking",
+        "url": "https://github.com/heubme2020/datasinking",
         "tier": 0
       },
       "quality": {
@@ -11991,6 +12089,56 @@
         "repo": "invisible-hand/docs-md.com",
         "path": "com.docs-md/markdown-share",
         "url": "https://github.com/invisible-hand/docs-md.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:io-oi-ai/web2md:org.web2md/web2md#org.web2md-web2md",
+      "type": "mcp",
+      "name": "org.web2md/web2md",
+      "description": {
+        "zh": null,
+        "en": "MCP Server for Web2MD — convert URLs to Markdown from Claude Desktop, Cursor, etc.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "io-oi-ai/web2md",
+        "path": "org.web2md/web2md",
+        "url": "https://github.com/io-oi-ai/web2md",
         "tier": 0
       },
       "quality": {
@@ -12711,6 +12859,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:kookerella-ltd/kookerella.fsworddsl:io.github.marknicholls/fsworddsl-mcp#word-mcp-server-(fsworddsl)",
+      "type": "mcp",
+      "name": "Word MCP Server (FsWordDsl)",
+      "description": {
+        "zh": null,
+        "en": "Word tools for AI agents: read/write, decompile to F#/C#/XML/JSON, or build from XML/JSON.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Kookerella-Ltd/Kookerella.FsWordDsl",
+        "path": "io.github.MarkNicholls/fsworddsl-mcp",
+        "url": "https://github.com/Kookerella-Ltd/Kookerella.FsWordDsl",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:koraynar/doc-extract-mcp:io.github.koraynar/doc-extract-mcp#io.github.koraynar-doc-extract-mcp",
       "type": "mcp",
       "name": "io.github.koraynar/doc-extract-mcp",
@@ -13061,7 +13259,7 @@
       "name": "APICK",
       "description": {
         "zh": null,
-        "en": "APICK Korean data APIs: business registry, parcel tracking, OCR, conversion, search",
+        "en": "APICK Korean data APIs: business registry, OCR, search, conversion and asynchronous TTS",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -13070,7 +13268,8 @@
       "lang": "en",
       "categories": [
         "document",
-        "research"
+        "research",
+        "media"
       ],
       "targets": [
         "mcp-client"
@@ -14286,6 +14485,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:ai.fonzi/talent#fonzi-for-candidates",
+      "type": "mcp",
+      "name": "Fonzi for Candidates",
+      "description": {
+        "zh": null,
+        "en": "Apply to Fonzi, manage your profile and resume, browse Companies, and answer Interview Requests.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.fonzi/talent",
+        "url": "https://talent.fonzi.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:ai.latlong/map-mcp#latlong-maps",
       "type": "mcp",
       "name": "LatLong Maps",
@@ -14949,6 +15198,57 @@
         "repo": null,
         "path": "co.gitresume/gitresume",
         "url": "https://gitresume.co",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.abyssale/mcp#abyssale",
+      "type": "mcp",
+      "name": "Abyssale",
+      "description": {
+        "zh": null,
+        "en": "Browse, generate and import Abyssale designs — banners, video, PDF — from your AI client.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "research",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.abyssale/mcp",
+        "url": "https://abyssale.com",
         "tier": 0
       },
       "quality": {
@@ -15641,6 +15941,55 @@
         "repo": null,
         "path": "com.fluentedi/tools",
         "url": "https://fluentedi.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.honeycomb-tech.ailis/ailis#ailis",
+      "type": "mcp",
+      "name": "ailis",
+      "description": {
+        "zh": null,
+        "en": "Save to-dos from AI chats to the iPhone lock screen. Say the trigger word and it shows up as a card.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.honeycomb-tech.ailis/ailis",
+        "url": "https://ailis.honeycomb-tech.com",
         "tier": 0
       },
       "quality": {
@@ -18330,6 +18679,104 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:pro.publifye/junifye#junifye",
+      "type": "mcp",
+      "name": "Junifye",
+      "description": {
+        "zh": null,
+        "en": "Write books, studies & commentaries with your AI — EPUB, print-ready PDF, web reader, ISBN, RTL",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "pro.publifye/junifye",
+        "url": "https://junifye.publifye.pro",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:pro.publifye/lexifye#lexifye",
+      "type": "mcp",
+      "name": "Lexifye",
+      "description": {
+        "zh": null,
+        "en": "Build dictionaries & glossaries with AI: entries, senses, versions, print PDF, EPUB, web reader, RTL",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "pro.publifye/lexifye",
+        "url": "https://lexifye.publifye.pro",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:pro.resumemd/resumemd#resumemd",
       "type": "mcp",
       "name": "ResumeMD",
@@ -19565,6 +20012,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:oscardvs/zoteus:io.github.oscardvs/zoteus#io.github.oscardvs-zoteus",
+      "type": "mcp",
+      "name": "io.github.oscardvs/zoteus",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Zotero: search, citations, safe writes, semantic search, and PDF passages.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "document",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "oscardvs/zoteus",
+        "path": "io.github.oscardvs/zoteus",
+        "url": "https://github.com/oscardvs/zoteus",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:paperandbeyond23-gif/propzapi-skills:io.github.paperandbeyond23-gif/propzapi#io.github.paperandbeyond23-gif-propzapi",
       "type": "mcp",
       "name": "io.github.paperandbeyond23-gif/propzapi",
@@ -19640,6 +20138,55 @@
         "repo": "phasespace-labs/palinode",
         "path": "io.github.phasespace-labs/palinode",
         "url": "https://github.com/phasespace-labs/palinode",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:plutext/docx4j-mcp:io.github.plutext/docx4j-mcp#docx4j-word-documents",
+      "type": "mcp",
+      "name": "docx4j Word documents",
+      "description": {
+        "zh": null,
+        "en": "Read, convert and fill Word (.docx) documents: templates, Markdown/HTML in and out, PDF with math.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "plutext/docx4j-mcp",
+        "path": "io.github.plutext/docx4j-mcp",
+        "url": "https://github.com/plutext/docx4j-mcp",
         "tier": 0
       },
       "quality": {
@@ -20912,7 +21459,7 @@
       "name": "HiPo Work",
       "description": {
         "zh": null,
-        "en": "AI-agent recruitment platform for resume import, job publishing, and candidate matching.",
+        "en": "hipowork is an AI-agent recruitment platform for resume import,job publishing,candidate matching.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -21405,6 +21952,104 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:theluckystrike/mcp-servers:io.github.theluckystrike/contract-clause-library-proposal-template-docx#io.github.theluckystrike-contract-clause-library-proposal-te",
+      "type": "mcp",
+      "name": "io.github.theluckystrike/contract-clause-library-proposal-template-docx",
+      "description": {
+        "zh": null,
+        "en": "A personal library of reusable contract and proposal clauses, assembled into a real Word .docx.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "theluckystrike/mcp-servers",
+        "path": "io.github.theluckystrike/contract-clause-library-proposal-template-docx",
+        "url": "https://github.com/theluckystrike/mcp-servers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:theluckystrike/mcp-servers:io.github.theluckystrike/docx-document-generator-proposal-contract-markdown#io.github.theluckystrike-docx-document-generator-proposal-co",
+      "type": "mcp",
+      "name": "io.github.theluckystrike/docx-document-generator-proposal-contract-markdown",
+      "description": {
+        "zh": null,
+        "en": "Create real Word .docx files from your AI chat: proposals, quotes, contracts, statements of work.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "theluckystrike/mcp-servers",
+        "path": "io.github.theluckystrike/docx-document-generator-proposal-contract-markdown",
+        "url": "https://github.com/theluckystrike/mcp-servers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:theluckystrike/mcp-servers:io.github.theluckystrike/excel-spreadsheet-xlsx-csv#io.github.theluckystrike-excel-spreadsheet-xlsx-csv",
       "type": "mcp",
       "name": "io.github.theluckystrike/excel-spreadsheet-xlsx-csv",
@@ -21552,6 +22197,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:theluckystrike/mcp-servers:io.github.theluckystrike/invoices-invoicing#io.github.theluckystrike-invoices-invoicing",
+      "type": "mcp",
+      "name": "io.github.theluckystrike/invoices-invoicing",
+      "description": {
+        "zh": null,
+        "en": "Invoices and invoicing from your AI chat: PDF generation, numbering, VAT, overdue reports.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "theluckystrike/mcp-servers",
+        "path": "io.github.theluckystrike/invoices-invoicing",
+        "url": "https://github.com/theluckystrike/mcp-servers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:theluckystrike/mcp-servers:io.github.theluckystrike/office-suite-time-invoice-expense-excel-price#io.github.theluckystrike-office-suite-time-invoice-expense-e",
       "type": "mcp",
       "name": "io.github.theluckystrike/office-suite-time-invoice-expense-excel-price",
@@ -21574,6 +22268,104 @@
       "source": {
         "repo": "theluckystrike/mcp-servers",
         "path": "io.github.theluckystrike/office-suite-time-invoice-expense-excel-price",
+        "url": "https://github.com/theluckystrike/mcp-servers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:theluckystrike/mcp-servers:io.github.theluckystrike/pdf-merge-split-stamp-extract-pages#io.github.theluckystrike-pdf-merge-split-stamp-extract-pages",
+      "type": "mcp",
+      "name": "io.github.theluckystrike/pdf-merge-split-stamp-extract-pages",
+      "description": {
+        "zh": null,
+        "en": "Merge, split, extract, rotate, reorder and stamp PDF pages from your AI chat: mark an invoice.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "theluckystrike/mcp-servers",
+        "path": "io.github.theluckystrike/pdf-merge-split-stamp-extract-pages",
+        "url": "https://github.com/theluckystrike/mcp-servers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:theluckystrike/mcp-servers:io.github.theluckystrike/resume-cover-letter-docx-generator#io.github.theluckystrike-resume-cover-letter-docx-generator",
+      "type": "mcp",
+      "name": "io.github.theluckystrike/resume-cover-letter-docx-generator",
+      "description": {
+        "zh": null,
+        "en": "Tailor a resume and write a cover letter as real Word .docx files, from facts you stored once..",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "theluckystrike/mcp-servers",
+        "path": "io.github.theluckystrike/resume-cover-letter-docx-generator",
         "url": "https://github.com/theluckystrike/mcp-servers",
         "tier": 0
       },
@@ -21749,7 +22541,7 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:traviseric/teneo-production:io.github.traviseric/teneo-book-mcp#teneo-book-generation",
+      "id": "mcp:traviseric/teneo-book-mcp:io.github.traviseric/teneo-book-mcp#teneo-book-generation",
       "type": "mcp",
       "name": "Teneo Book Generation",
       "description": {
@@ -21768,9 +22560,9 @@
         "mcp-client"
       ],
       "source": {
-        "repo": "Traviseric/teneo-production",
+        "repo": "Traviseric/teneo-book-mcp",
         "path": "io.github.Traviseric/teneo-book-mcp",
-        "url": "https://github.com/Traviseric/teneo-production",
+        "url": "https://github.com/Traviseric/teneo-book-mcp",
         "tier": 0
       },
       "quality": {
@@ -21820,6 +22612,56 @@
         "repo": "TrendTweekers/mintpdf",
         "path": "io.github.TrendTweekers/mintpdf",
         "url": "https://github.com/TrendTweekers/mintpdf",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:triumphist230/writulos-final:com.writulos/scribe#com.writulos-scribe",
+      "type": "mcp",
+      "name": "com.writulos/scribe",
+      "description": {
+        "zh": null,
+        "en": "Generate clean markdown documentation for your code — one file, or up to 20 in one batch.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Triumphist230/Writulos-final",
+        "path": "com.writulos/scribe",
+        "url": "https://github.com/Triumphist230/Writulos-final",
         "tier": 0
       },
       "quality": {

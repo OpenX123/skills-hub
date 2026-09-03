@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T21:33:39.716Z",
+  "generatedAt": "2026-09-03T21:33:41.479Z",
   "category": {
     "key": "database",
     "zh": "数据库",
@@ -69,7 +69,7 @@
       }
     ]
   },
-  "total": 236,
+  "total": 265,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/claude-api/skill.md#claude-api",
@@ -122,7 +122,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 173003,
+      "stars": 173599,
       "curatedMentions": 8
     },
     {
@@ -5376,7 +5376,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 32,
+        "score": 31,
         "gates": {
           "security": true,
           "schema": true,
@@ -5397,6 +5397,59 @@
       "templateFamily": null,
       "familySize": 0,
       "stars": 3,
+      "curatedMentions": 0
+    },
+    {
+      "id": "skill:joneqian/claude-skills-suite:skills/sequelize-patterns/skill.md#sequelize-patterns",
+      "type": "skill",
+      "name": "sequelize-patterns",
+      "description": {
+        "zh": null,
+        "en": "Sequelize Node.js ORM for SQL databases. Use for database models, migrations, associations, queries, transactions, validations, hooks, and working with PostgreSQL, MySQL, MariaDB, SQLite, SQL Server.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "joneqian/claude-skills-suite",
+        "path": "skills/sequelize-patterns/SKILL.md",
+        "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/skills/sequelize-patterns/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 31,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "low",
+        "score": 14
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 26,
       "curatedMentions": 0
     },
     {
@@ -5430,7 +5483,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 31,
+        "score": 30,
         "gates": {
           "security": true,
           "schema": true,
@@ -5483,7 +5536,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 31,
+        "score": 30,
         "gates": {
           "security": true,
           "schema": true,
@@ -5496,59 +5549,6 @@
       "risk": {
         "level": "clean",
         "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 26,
-      "curatedMentions": 0
-    },
-    {
-      "id": "skill:joneqian/claude-skills-suite:skills/sequelize-patterns/skill.md#sequelize-patterns",
-      "type": "skill",
-      "name": "sequelize-patterns",
-      "description": {
-        "zh": null,
-        "en": "Sequelize Node.js ORM for SQL databases. Use for database models, migrations, associations, queries, transactions, validations, hooks, and working with PostgreSQL, MySQL, MariaDB, SQLite, SQL Server.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "database"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "joneqian/claude-skills-suite",
-        "path": "skills/sequelize-patterns/SKILL.md",
-        "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/skills/sequelize-patterns/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 31,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "low",
-        "score": 14
       },
       "duplicateOf": null,
       "nearDuplicateOf": null,
@@ -7933,9 +7933,9 @@
       "curatedMentions": 1
     },
     {
-      "id": "mcp:smaniches/alphafold-sovereign-mcp:io.github.smaniches/alphafold-sovereign-mcp#io.github.smaniches-alphafold-sovereign-mcp",
+      "id": "mcp:smaniches/alphafold-sovereign-mcp:io.github.smaniches/alphafold-sovereign-mcp#alphafold-sovereign-mcp",
       "type": "mcp",
-      "name": "io.github.smaniches/alphafold-sovereign-mcp",
+      "name": "AlphaFold Sovereign MCP",
       "description": {
         "zh": null,
         "en": "MCP server for AlphaFold and 8 other biomedical data sources with a local SQLite knowledge graph",
@@ -9689,6 +9689,1430 @@
         "repo": "mattpicone/upgradelens",
         "path": "io.github.mattpicone/upgradelens",
         "url": "https://github.com/mattpicone/upgradelens",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/elasticsearch-mongodb-redis-stack-generator-elasticsearch-elasticsearch#ai.getvda-elasticsearch-mongodb-redis-stack-generator-elasti",
+      "type": "mcp",
+      "name": "ai.getvda/elasticsearch-mongodb-redis-stack-generator-elasticsearch-elasticsearch",
+      "description": {
+        "zh": null,
+        "en": "Elasticsearch + MongoDB + Redis Stack Generator (Elasticsearch/Elasticsearch)",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/elasticsearch-mongodb-redis-stack-generator-elasticsearch-elasticsearch",
+        "url": "https://elasticsearch-mongodb-redis-stack-generator-el-d8f067.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/elasticsearch-redis-mysql-stack-generator#ai.getvda-elasticsearch-redis-mysql-stack-generator",
+      "type": "mcp",
+      "name": "ai.getvda/elasticsearch-redis-mysql-stack-generator",
+      "description": {
+        "zh": null,
+        "en": "Elasticsearch + Redis + MySQL Stack Generator",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/elasticsearch-redis-mysql-stack-generator",
+        "url": "https://elasticsearch-redis-mysql-stack-generator.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/elasticsearch-redis-stack-generator-elasticsearch-elasticsearch#ai.getvda-elasticsearch-redis-stack-generator-elasticsearch-",
+      "type": "mcp",
+      "name": "ai.getvda/elasticsearch-redis-stack-generator-elasticsearch-elasticsearch",
+      "description": {
+        "zh": null,
+        "en": "Elasticsearch + Redis Stack Generator (Official Image)",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/elasticsearch-redis-stack-generator-elasticsearch-elasticsearch",
+        "url": "https://elasticsearch-redis-stack-generator-elasticsea-588e3e.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/elasticsearch-redis-stack-generator#ai.getvda-elasticsearch-redis-stack-generator",
+      "type": "mcp",
+      "name": "ai.getvda/elasticsearch-redis-stack-generator",
+      "description": {
+        "zh": null,
+        "en": "Elasticsearch + Redis Stack Generator",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/elasticsearch-redis-stack-generator",
+        "url": "https://elasticsearch-redis-stack-generator.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/kafka-and-postgres-monitoring-stack#ai.getvda-kafka-and-postgres-monitoring-stack",
+      "type": "mcp",
+      "name": "ai.getvda/kafka-and-postgres-monitoring-stack",
+      "description": {
+        "zh": null,
+        "en": "Kafka and Postgres Monitoring Stack",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops",
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/kafka-and-postgres-monitoring-stack",
+        "url": "https://postgres-prometheus-kafka-stack-generator.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/kafka-minio-redis-stack-generator#ai.getvda-kafka-minio-redis-stack-generator",
+      "type": "mcp",
+      "name": "ai.getvda/kafka-minio-redis-stack-generator",
+      "description": {
+        "zh": null,
+        "en": "Kafka + MinIO + Redis Stack Generator",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/kafka-minio-redis-stack-generator",
+        "url": "https://kafka-minio-redis-stack-generator.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/kafka-redis-minio-stack-generator#ai.getvda-kafka-redis-minio-stack-generator",
+      "type": "mcp",
+      "name": "ai.getvda/kafka-redis-minio-stack-generator",
+      "description": {
+        "zh": null,
+        "en": "Kafka + Redis + MinIO Stack Generator",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/kafka-redis-minio-stack-generator",
+        "url": "https://kafka-redis-minio-stack-generator.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/memcached-mongodb-redis-compose-generator#ai.getvda-memcached-mongodb-redis-compose-generator",
+      "type": "mcp",
+      "name": "ai.getvda/memcached-mongodb-redis-compose-generator",
+      "description": {
+        "zh": null,
+        "en": "Memcached + MongoDB + Redis Compose Generator",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/memcached-mongodb-redis-compose-generator",
+        "url": "https://memcached-mongodb-redis-compose-generator.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/minio-and-redis-storage-stack#ai.getvda-minio-and-redis-storage-stack",
+      "type": "mcp",
+      "name": "ai.getvda/minio-and-redis-storage-stack",
+      "description": {
+        "zh": null,
+        "en": "MinIO and Redis Storage Stack",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/minio-and-redis-storage-stack",
+        "url": "https://redis-minio-stack-generator-minio-minio.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/minio-postgres-redis-stack-generator#ai.getvda-minio-postgres-redis-stack-generator",
+      "type": "mcp",
+      "name": "ai.getvda/minio-postgres-redis-stack-generator",
+      "description": {
+        "zh": null,
+        "en": "MinIO + Postgres + Redis Stack Generator",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/minio-postgres-redis-stack-generator",
+        "url": "https://minio-postgres-redis-stack-generator.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/mysql-redis-compose-generator-adminer#ai.getvda-mysql-redis-compose-generator-adminer",
+      "type": "mcp",
+      "name": "ai.getvda/mysql-redis-compose-generator-adminer",
+      "description": {
+        "zh": null,
+        "en": "MySQL + Redis Compose Generator (Adminer)",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/mysql-redis-compose-generator-adminer",
+        "url": "https://mysql-redis-compose-generator-adminer.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/mysql-redis-compose-generator-nginx#ai.getvda-mysql-redis-compose-generator-nginx",
+      "type": "mcp",
+      "name": "ai.getvda/mysql-redis-compose-generator-nginx",
+      "description": {
+        "zh": null,
+        "en": "MySQL + Redis Compose Generator (Nginx)",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database",
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/mysql-redis-compose-generator-nginx",
+        "url": "https://mysql-redis-compose-generator-nginx.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/mysql-redis-compose-generator#ai.getvda-mysql-redis-compose-generator",
+      "type": "mcp",
+      "name": "ai.getvda/mysql-redis-compose-generator",
+      "description": {
+        "zh": null,
+        "en": "MySQL + Redis Compose Generator",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/mysql-redis-compose-generator",
+        "url": "https://mysql-redis-compose-generator.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/nats-mysql-redis-stack-generator#ai.getvda-nats-mysql-redis-stack-generator",
+      "type": "mcp",
+      "name": "ai.getvda/nats-mysql-redis-stack-generator",
+      "description": {
+        "zh": null,
+        "en": "Nats Mysql Redis Stack Generator",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/nats-mysql-redis-stack-generator",
+        "url": "https://nats-mysql-redis-stack-generator.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/nginx-redis-stack-generator#ai.getvda-nginx-redis-stack-generator",
+      "type": "mcp",
+      "name": "ai.getvda/nginx-redis-stack-generator",
+      "description": {
+        "zh": null,
+        "en": "Nginx + Redis Stack Generator",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops",
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/nginx-redis-stack-generator",
+        "url": "https://nginx-redis-stack-generator.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/postgres-grafana-stack-generator#ai.getvda-postgres-grafana-stack-generator",
+      "type": "mcp",
+      "name": "ai.getvda/postgres-grafana-stack-generator",
+      "description": {
+        "zh": null,
+        "en": "Postgres + Grafana Stack Generator",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/postgres-grafana-stack-generator",
+        "url": "https://postgres-grafana-stack-generator.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/postgres-kafka-prometheus-stack-generator#ai.getvda-postgres-kafka-prometheus-stack-generator",
+      "type": "mcp",
+      "name": "ai.getvda/postgres-kafka-prometheus-stack-generator",
+      "description": {
+        "zh": null,
+        "en": "Postgres + Kafka + Prometheus Stack Generator",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/postgres-kafka-prometheus-stack-generator",
+        "url": "https://postgres-kafka-prometheus-stack-generator.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/postgres-kafka-stack-generator#ai.getvda-postgres-kafka-stack-generator",
+      "type": "mcp",
+      "name": "ai.getvda/postgres-kafka-stack-generator",
+      "description": {
+        "zh": null,
+        "en": "Postgres + Kafka Stack Generator",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/postgres-kafka-stack-generator",
+        "url": "https://postgres-kafka-stack-generator.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/postgres-minio-stack-generator#ai.getvda-postgres-minio-stack-generator",
+      "type": "mcp",
+      "name": "ai.getvda/postgres-minio-stack-generator",
+      "description": {
+        "zh": null,
+        "en": "Postgres + MinIO Stack Generator",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/postgres-minio-stack-generator",
+        "url": "https://postgres-minio-stack-generator.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/postgres-prometheus-stack-generator#ai.getvda-postgres-prometheus-stack-generator",
+      "type": "mcp",
+      "name": "ai.getvda/postgres-prometheus-stack-generator",
+      "description": {
+        "zh": null,
+        "en": "Postgres + Prometheus Stack Generator",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/postgres-prometheus-stack-generator",
+        "url": "https://postgres-prometheus-stack-generator.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/postgres-redis-compose-generator#ai.getvda-postgres-redis-compose-generator",
+      "type": "mcp",
+      "name": "ai.getvda/postgres-redis-compose-generator",
+      "description": {
+        "zh": null,
+        "en": "Postgres + Redis Compose Generator",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/postgres-redis-compose-generator",
+        "url": "https://postgres-redis-compose-generator.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/rabbitmq-elasticsearch-mongodb-stack-generator#ai.getvda-rabbitmq-elasticsearch-mongodb-stack-generator",
+      "type": "mcp",
+      "name": "ai.getvda/rabbitmq-elasticsearch-mongodb-stack-generator",
+      "description": {
+        "zh": null,
+        "en": "RabbitMQ + Elasticsearch + MongoDB Stack Generator",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/rabbitmq-elasticsearch-mongodb-stack-generator",
+        "url": "https://rabbitmq-elasticsearch-mongodb-stack-generator.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/rabbitmq-elasticsearch-mysql-stack-generator#ai.getvda-rabbitmq-elasticsearch-mysql-stack-generator",
+      "type": "mcp",
+      "name": "ai.getvda/rabbitmq-elasticsearch-mysql-stack-generator",
+      "description": {
+        "zh": null,
+        "en": "RabbitMQ + Elasticsearch + MySQL Stack Generator",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/rabbitmq-elasticsearch-mysql-stack-generator",
+        "url": "https://rabbitmq-elasticsearch-mysql-stack-generator.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/rabbitmq-elasticsearch-postgres-stack-generator-elasticsearch-elasticsearch#ai.getvda-rabbitmq-elasticsearch-postgres-stack-generator-el",
+      "type": "mcp",
+      "name": "ai.getvda/rabbitmq-elasticsearch-postgres-stack-generator-elasticsearch-elasticsearch",
+      "description": {
+        "zh": null,
+        "en": "RabbitMQ + Elasticsearch + Postgres Stack Generator (Elasticsearch/Elasticsearch)",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/rabbitmq-elasticsearch-postgres-stack-generator-elasticsearch-elasticsearch",
+        "url": "https://rabbitmq-elasticsearch-postgres-stack-generato-053bcf.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/rabbitmq-elasticsearch-postgres-stack-generator-mongo#ai.getvda-rabbitmq-elasticsearch-postgres-stack-generator-mo",
+      "type": "mcp",
+      "name": "ai.getvda/rabbitmq-elasticsearch-postgres-stack-generator-mongo",
+      "description": {
+        "zh": null,
+        "en": "RabbitMQ + Elasticsearch + Postgres Stack Generator (Mongo)",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/rabbitmq-elasticsearch-postgres-stack-generator-mongo",
+        "url": "https://rabbitmq-elasticsearch-postgres-stack-generator-mongo.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/rabbitmq-postgres-mongodb-stack-generator#ai.getvda-rabbitmq-postgres-mongodb-stack-generator",
+      "type": "mcp",
+      "name": "ai.getvda/rabbitmq-postgres-mongodb-stack-generator",
+      "description": {
+        "zh": null,
+        "en": "RabbitMQ + Postgres + MongoDB Stack Generator",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/rabbitmq-postgres-mongodb-stack-generator",
+        "url": "https://rabbitmq-postgres-mongodb-stack-generator.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/rabbitmq-redis-stack-generator#ai.getvda-rabbitmq-redis-stack-generator",
+      "type": "mcp",
+      "name": "ai.getvda/rabbitmq-redis-stack-generator",
+      "description": {
+        "zh": null,
+        "en": "RabbitMQ + Redis Stack Generator",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/rabbitmq-redis-stack-generator",
+        "url": "https://rabbitmq-redis-stack-generator.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/redis-minio-postgres-stack-generator#ai.getvda-redis-minio-postgres-stack-generator",
+      "type": "mcp",
+      "name": "ai.getvda/redis-minio-postgres-stack-generator",
+      "description": {
+        "zh": null,
+        "en": "Redis + MinIO + Postgres Stack Generator",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/redis-minio-postgres-stack-generator",
+        "url": "https://redis-minio-postgres-stack-generator.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/redis-minio-stack-generator#ai.getvda-redis-minio-stack-generator",
+      "type": "mcp",
+      "name": "ai.getvda/redis-minio-stack-generator",
+      "description": {
+        "zh": null,
+        "en": "Redis + MinIO Stack Generator",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/redis-minio-stack-generator",
+        "url": "https://redis-minio-stack-generator.getvda.ai",
         "tier": 0
       },
       "quality": {

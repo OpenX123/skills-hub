@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T21:33:39.716Z",
+  "generatedAt": "2026-09-03T21:33:41.479Z",
   "category": {
     "key": "meta",
     "zh": "Agent 基建",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 2109,
+  "total": 2170,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/skill-creator/skill.md#skill-creator",
@@ -133,7 +133,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 173003,
+      "stars": 173599,
       "curatedMentions": 8
     },
     {
@@ -12071,6 +12071,61 @@
       "curatedMentions": 1
     },
     {
+      "id": "skill:huangwb8/skills:skills/alpha/write-readme/skill.md#write-readme",
+      "type": "skill",
+      "name": "write-readme",
+      "description": {
+        "zh": "为任意 GitHub 项目创建或改写高质量、可执行、证据驱动的双语 README；当用户说“写 README / README.md / 项目说明 / 文档首页 / GitHub 项目介绍”，或需要把 Agent Skill、库、CLI、Web 应用、服务、数据/机器学习项目整理成中文 README.md 与英文 README_EN.md 时使用。优先读取项目事实并验证命令、链接和功能，不凭空编造。",
+        "en": null,
+        "zhEngine": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "zh",
+      "categories": [
+        "meta",
+        "document",
+        "coding"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "huangwb8/skills",
+        "path": "skills/alpha/write-readme/SKILL.md",
+        "url": "https://github.com/huangwb8/skills/blob/HEAD/skills/alpha/write-readme/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 52,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 48,
+      "curatedMentions": 1
+    },
+    {
       "id": "skill:huangwb8/skills:skills/beta/find-best-skill/skill.md#find-best-skill",
       "type": "skill",
       "name": "find-best-skill",
@@ -12315,7 +12370,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 46,
+        "score": 45,
         "gates": {
           "security": true,
           "schema": true,
@@ -12369,7 +12424,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 46,
+        "score": 45,
         "gates": {
           "security": true,
           "schema": true,
@@ -12423,7 +12478,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 46,
+        "score": 45,
         "gates": {
           "security": true,
           "schema": true,
@@ -12477,7 +12532,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 46,
+        "score": 45,
         "gates": {
           "security": true,
           "schema": true,
@@ -12531,7 +12586,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 46,
+        "score": 45,
         "gates": {
           "security": true,
           "schema": true,
@@ -12584,7 +12639,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 46,
+        "score": 45,
         "gates": {
           "security": true,
           "schema": true,
@@ -13959,7 +14014,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 37,
+        "score": 36,
         "gates": {
           "security": true,
           "schema": true,
@@ -14009,7 +14064,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 37,
+        "score": 36,
         "gates": {
           "security": true,
           "schema": true,
@@ -14062,7 +14117,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 37,
+        "score": 36,
         "gates": {
           "security": true,
           "schema": true,
@@ -14112,115 +14167,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 37,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 1757,
-      "curatedMentions": 0
-    },
-    {
-      "id": "skill:xu-xiang/everything-claude-code-zh:docs/ja-jp/skills/verification-loop/skill.md#verification-loop",
-      "type": "skill",
-      "name": "verification-loop",
-      "description": {
-        "zh": "针对 Claude Code 会话的全面验证系统。",
-        "en": null,
-        "zhEngine": null,
-        "needsTranslation": [
-          "en"
-        ]
-      },
-      "lang": "zh",
-      "categories": [
-        "coding",
-        "meta"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "xu-xiang/everything-claude-code-zh",
-        "path": "docs/ja-JP/skills/verification-loop/SKILL.md",
-        "url": "https://github.com/xu-xiang/everything-claude-code-zh/blob/HEAD/docs/ja-JP/skills/verification-loop/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 37,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 1757,
-      "curatedMentions": 0
-    },
-    {
-      "id": "skill:xu-xiang/everything-claude-code-zh:docs/zh-tw/skills/verification-loop/skill.md#verification-loop",
-      "type": "skill",
-      "name": "verification-loop",
-      "description": {
-        "zh": "Claude Code 工作階段的完整驗證系統。",
-        "en": null,
-        "zhEngine": null,
-        "needsTranslation": [
-          "en"
-        ]
-      },
-      "lang": "zh",
-      "categories": [
-        "coding",
-        "meta"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "xu-xiang/everything-claude-code-zh",
-        "path": "docs/zh-TW/skills/verification-loop/SKILL.md",
-        "url": "https://github.com/xu-xiang/everything-claude-code-zh/blob/HEAD/docs/zh-TW/skills/verification-loop/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 37,
+        "score": 36,
         "gates": {
           "security": true,
           "schema": true,
@@ -14294,6 +14241,114 @@
       "templateFamily": null,
       "familySize": 0,
       "stars": 3,
+      "curatedMentions": 0
+    },
+    {
+      "id": "skill:xu-xiang/everything-claude-code-zh:docs/ja-jp/skills/verification-loop/skill.md#verification-loop",
+      "type": "skill",
+      "name": "verification-loop",
+      "description": {
+        "zh": "针对 Claude Code 会话的全面验证系统。",
+        "en": null,
+        "zhEngine": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "zh",
+      "categories": [
+        "coding",
+        "meta"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "xu-xiang/everything-claude-code-zh",
+        "path": "docs/ja-JP/skills/verification-loop/SKILL.md",
+        "url": "https://github.com/xu-xiang/everything-claude-code-zh/blob/HEAD/docs/ja-JP/skills/verification-loop/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 36,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 1757,
+      "curatedMentions": 0
+    },
+    {
+      "id": "skill:xu-xiang/everything-claude-code-zh:docs/zh-tw/skills/verification-loop/skill.md#verification-loop",
+      "type": "skill",
+      "name": "verification-loop",
+      "description": {
+        "zh": "Claude Code 工作階段的完整驗證系統。",
+        "en": null,
+        "zhEngine": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "zh",
+      "categories": [
+        "coding",
+        "meta"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "xu-xiang/everything-claude-code-zh",
+        "path": "docs/zh-TW/skills/verification-loop/SKILL.md",
+        "url": "https://github.com/xu-xiang/everything-claude-code-zh/blob/HEAD/docs/zh-TW/skills/verification-loop/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 36,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 1757,
       "curatedMentions": 0
     },
     {
@@ -14783,7 +14838,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 31,
+        "score": 30,
         "gates": {
           "security": true,
           "schema": true,
@@ -16573,6 +16628,55 @@
         "repo": "cahthuranag/mcp-server",
         "path": "io.github.cahthuranag/mcp-server",
         "url": "https://github.com/cahthuranag/mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:cameronrye/gopher-mcp:io.github.cameronrye/gopher-mcp#gopher-&-gemini-mcp-server",
+      "type": "mcp",
+      "name": "Gopher & Gemini MCP Server",
+      "description": {
+        "zh": null,
+        "en": "Browse Gopher and Gemini resources safely: SSRF protection, TLS/TOFU, structured JSON output.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "cameronrye/gopher-mcp",
+        "path": "io.github.cameronrye/gopher-mcp",
+        "url": "https://github.com/cameronrye/gopher-mcp",
         "tier": 0
       },
       "quality": {
@@ -19479,7 +19583,7 @@
       "name": "io.github.iris-eval/mcp-server",
       "description": {
         "zh": null,
-        "en": "The agent eval standard for MCP. Score every agent output for quality, safety, and cost.",
+        "en": "Stop shipping agents on vibes. Score every agent output for quality, safety, and cost.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -20066,6 +20170,57 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:lorenzo-cambiaghi/lynxmcp:io.github.lorenzo-cambiaghi/lynx#io.github.lorenzo-cambiaghi-lynx",
+      "type": "mcp",
+      "name": "io.github.lorenzo-cambiaghi/lynx",
+      "description": {
+        "zh": null,
+        "en": "100% local MCP server for semantic code search: AST chunking, hybrid retrieval, code knowledge graph",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "lorenzo-cambiaghi/LynxMCP",
+        "path": "io.github.lorenzo-cambiaghi/lynx",
+        "url": "https://github.com/lorenzo-cambiaghi/LynxMCP",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
       "id": "mcp:madeinplutofabio/vibe-revert:com.viberevert/viberevert#viberevert",
       "type": "mcp",
       "name": "VibeRevert",
@@ -20236,6 +20391,56 @@
         "repo": "maxaeo/maxaeo-ai-visibility-mcp",
         "path": "io.github.maxaeo/maxaeo-ai-visibility-mcp",
         "url": "https://github.com/maxaeo/maxaeo-ai-visibility-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:mindscapehq/mcp-server-raygun:io.github.mindscapehq/mcp-server-raygun#raygun",
+      "type": "mcp",
+      "name": "Raygun",
+      "description": {
+        "zh": null,
+        "en": "Investigate errors, track deployments, analyze performance, and manage application monitoring",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "MindscapeHQ/mcp-server-raygun",
+        "path": "io.github.MindscapeHQ/mcp-server-raygun",
+        "url": "https://github.com/MindscapeHQ/mcp-server-raygun",
         "tier": 0
       },
       "quality": {
@@ -22794,7 +22999,7 @@
       "name": "Banco Central do Brasil (BCB) — SGS Time Series MCP Server",
       "description": {
         "zh": null,
-        "en": "Banco Central do Brasil (BCB): SGS series, Focus expectations, PTAX, stats + provenance. 15 tools.",
+        "en": "Banco Central do Brasil (BCB): SGS series, Focus expectations, PTAX, stats + provenance. 17 tools.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -22938,9 +23143,9 @@
       "curatedMentions": 1
     },
     {
-      "id": "mcp:smaniches/alphafold-sovereign-mcp:io.github.smaniches/alphafold-sovereign-mcp#io.github.smaniches-alphafold-sovereign-mcp",
+      "id": "mcp:smaniches/alphafold-sovereign-mcp:io.github.smaniches/alphafold-sovereign-mcp#alphafold-sovereign-mcp",
       "type": "mcp",
-      "name": "io.github.smaniches/alphafold-sovereign-mcp",
+      "name": "AlphaFold Sovereign MCP",
       "description": {
         "zh": null,
         "en": "MCP server for AlphaFold and 8 other biomedical data sources with a local SQLite knowledge graph",
@@ -23924,6 +24129,55 @@
       "familySize": 0,
       "stars": null,
       "curatedMentions": 1
+    },
+    {
+      "id": "mcp:0xsims/rubric-mcp-py:io.github.0xsims/rubric-mcp-server#io.github.0xsims-rubric-mcp-server",
+      "type": "mcp",
+      "name": "io.github.0xsims/rubric-mcp-server",
+      "description": {
+        "zh": null,
+        "en": "Attest agent decisions and verify records on a public ledger. Evidence, not just data.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "0xsims/rubric-mcp-py",
+        "path": "io.github.0xsims/rubric-mcp-server",
+        "url": "https://github.com/0xsims/rubric-mcp-py",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
     },
     {
       "id": "mcp:1shizaan/debugai-mcp:io.github.1shizaan/debugai-mcp#io.github.1shizaan-debugai-mcp",
@@ -28187,6 +28441,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:anselmoo/mcp-server-analyzer:io.github.anselmoo/mcp-server-analyzer#io.github.anselmoo-mcp-server-analyzer",
+      "type": "mcp",
+      "name": "io.github.Anselmoo/mcp-server-analyzer",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Python, JavaScript, and TypeScript code analysis with Ruff, ty, Vulture, and Biome",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Anselmoo/mcp-server-analyzer",
+        "path": "io.github.Anselmoo/mcp-server-analyzer",
+        "url": "https://github.com/Anselmoo/mcp-server-analyzer",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:anthonypuggs/ausecon-mcp-server:io.github.anthonypuggs/ausecon-mcp-server#australian-economic-data-(abs,-rba-&-apra)",
       "type": "mcp",
       "name": "Australian Economic Data (ABS, RBA & APRA)",
@@ -31252,6 +31556,253 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:boy-373/12306-train-mcp:cn.pianam.mcp/12306-train-mcp#china-12306-train-tickets-mcp",
+      "type": "mcp",
+      "name": "China 12306 Train Tickets MCP",
+      "description": {
+        "zh": null,
+        "en": "MCP server for China Railway 12306 ticket availability: schedules and seats by Chinese station name.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "pm"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "boy-373/12306-train-mcp",
+        "path": "cn.pianam.mcp/12306-train-mcp",
+        "url": "https://github.com/boy-373/12306-train-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:boy-373/exchange-rate-mcp:cn.pianam.mcp/exchange-rate-mcp#exchange-rate-mcp",
+      "type": "mcp",
+      "name": "Exchange Rate MCP",
+      "description": {
+        "zh": null,
+        "en": "MCP server for live currency exchange rates and conversion, ISO codes and Chinese currency names.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "boy-373/exchange-rate-mcp",
+        "path": "cn.pianam.mcp/exchange-rate-mcp",
+        "url": "https://github.com/boy-373/exchange-rate-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:boy-373/hot-trending-mcp:cn.pianam.mcp/hot-trending-mcp#china-hot-trending-mcp",
+      "type": "mcp",
+      "name": "China Hot Trending MCP",
+      "description": {
+        "zh": null,
+        "en": "MCP server aggregating hot-search boards from 8 Chinese platforms (Weibo, Zhihu, Bilibili, Douyin).",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "boy-373/hot-trending-mcp",
+        "path": "cn.pianam.mcp/hot-trending-mcp",
+        "url": "https://github.com/boy-373/hot-trending-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:boy-373/ip-location-mcp:cn.pianam.mcp/ip-location-mcp#ip-location-mcp",
+      "type": "mcp",
+      "name": "IP Location MCP",
+      "description": {
+        "zh": null,
+        "en": "MCP server for IPv4 geolocation with Chinese output: country/region/city, ISP and ASN.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "boy-373/ip-location-mcp",
+        "path": "cn.pianam.mcp/ip-location-mcp",
+        "url": "https://github.com/boy-373/ip-location-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:boy-373/weather-mcp-china:cn.pianam.mcp/weather-mcp-china#weather-forecast-mcp",
+      "type": "mcp",
+      "name": "Weather Forecast MCP",
+      "description": {
+        "zh": null,
+        "en": "MCP server for current weather and multi-day forecasts worldwide, Chinese city names and output.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "boy-373/weather-mcp-china",
+        "path": "cn.pianam.mcp/weather-mcp-china",
+        "url": "https://github.com/boy-373/weather-mcp-china",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:breezedelegate/wisp-mcp:io.github.breezedelegate/wisp-mcp#wisp-mcp",
       "type": "mcp",
       "name": "Wisp MCP",
@@ -32607,55 +33158,6 @@
         "repo": "chriphil70/MediaMiddleware",
         "path": "io.github.chriphil70/clipforge",
         "url": "https://github.com/chriphil70/MediaMiddleware",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:chrischall/honeybook-mcp:io.github.chrischall/honeybook-mcp#io.github.chrischall-honeybook-mcp",
-      "type": "mcp",
-      "name": "io.github.chrischall/honeybook-mcp",
-      "description": {
-        "zh": null,
-        "en": "HoneyBook client-portal MCP server for Claude — view contracts and invoices from wedding vendors",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "meta"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "chrischall/honeybook-mcp",
-        "path": "io.github.chrischall/honeybook-mcp",
-        "url": "https://github.com/chrischall/honeybook-mcp",
         "tier": 0
       },
       "quality": {
@@ -49646,6 +50148,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:doritoman90000/universal-game-modder:io.github.doritoman90000/universal-game-modder#io.github.doritoman90000-universal-game-modder",
+      "type": "mcp",
+      "name": "io.github.doritoman90000/universal-game-modder",
+      "description": {
+        "zh": null,
+        "en": "Local MCP server: detects a game's engine and gives agents native binary analysis/patching tools.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "doritoman90000/universal-game-modder",
+        "path": "io.github.doritoman90000/universal-game-modder",
+        "url": "https://github.com/doritoman90000/universal-game-modder",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:dreliq9/caid-mcp:io.github.dreliq9/caid-mcp#caid-mcp-server",
       "type": "mcp",
       "name": "CAiD MCP Server",
@@ -50384,6 +50935,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:ecomkit-com-ua/horoshop-mcp:io.github.ecomkit-com-ua/horoshop#io.github.ecomkit-com-ua-horoshop",
+      "type": "mcp",
+      "name": "io.github.ecomkit-com-ua/horoshop",
+      "description": {
+        "zh": null,
+        "en": "MCP server for the Horoshop e-commerce API — orders, catalog, customers, webhooks",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ecomkit-com-ua/horoshop-mcp",
+        "path": "io.github.ecomkit-com-ua/horoshop",
+        "url": "https://github.com/ecomkit-com-ua/horoshop-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:edisontaimu9-ui/chakudya-mcp-server:io.github.edisontaimu9-ui/chakudya-mcp-server#io.github.edisontaimu9-ui-chakudya-mcp-server",
       "type": "mcp",
       "name": "io.github.edisontaimu9-ui/chakudya-mcp-server",
@@ -50457,6 +51057,104 @@
         "repo": "edycutjong/bagos",
         "path": "io.github.edycutjong/bagos",
         "url": "https://github.com/edycutjong/bagos",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:ee324/a2awire:com.a2awire/data-new-mcp-server-agent-tools-index#new-mcp-server-directory-(agent-tools-index)",
+      "type": "mcp",
+      "name": "New MCP Server Directory (Agent Tools Index)",
+      "description": {
+        "zh": null,
+        "en": "Daily feed of newly published MCP servers from the official registry.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ee324/a2awire",
+        "path": "com.a2awire/data-new-mcp-server-agent-tools-index",
+        "url": "https://github.com/ee324/a2awire",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:ee324/a2awire:com.a2awire/mcpindexwatch#new-mcp-server-directory-(agent-tools-index)",
+      "type": "mcp",
+      "name": "New MCP Server Directory (Agent Tools Index)",
+      "description": {
+        "zh": null,
+        "en": "Daily feed of newly published MCP servers from the official registry.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ee324/a2awire",
+        "path": "com.a2awire/mcpindexwatch",
+        "url": "https://github.com/ee324/a2awire",
         "tier": 0
       },
       "quality": {
@@ -53252,6 +53950,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:george-bobby/mcp-modal:io.github.george-bobby/mcp-modal#mcp-modal-server",
+      "type": "mcp",
+      "name": "MCP Modal Server",
+      "description": {
+        "zh": null,
+        "en": "MCP server for managing Modal apps, containers, volumes, and secrets.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "george-bobby/mcp-modal",
+        "path": "io.github.george-bobby/mcp-modal",
+        "url": "https://github.com/george-bobby/mcp-modal",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:georgeracu/google-jules-mcp-server:io.github.georgeracu/google-jules-mcp-server#io.github.georgeracu-google-jules-mcp-server",
       "type": "mcp",
       "name": "io.github.georgeracu/google-jules-mcp-server",
@@ -54115,6 +54863,104 @@
         "repo": "gosswerner1-max/lazyrelay",
         "path": "io.github.gosswerner1-max/lazyrelay-mcp-server",
         "url": "https://github.com/gosswerner1-max/lazyrelay",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:gregdog/mcp-server-theopenlane:io.github.gregdog/mcp-server-theopenlane#openlane-mcp-server",
+      "type": "mcp",
+      "name": "Openlane MCP Server",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Openlane GRC: controls, evidence, policies, risks, workflows, and approvals.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "GregDog/mcp-server-theopenlane",
+        "path": "io.github.GregDog/mcp-server-theopenlane",
+        "url": "https://github.com/GregDog/mcp-server-theopenlane",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:gregoirecasoetto/monnet-mcp:ai.monnet/mcp#ai.monnet-mcp",
+      "type": "mcp",
+      "name": "ai.monnet/mcp",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Monnet — motions, plans, files, approvals, and the team's company brain.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "GregoireCasoetto/monnet-mcp",
+        "path": "ai.monnet/mcp",
+        "url": "https://github.com/GregoireCasoetto/monnet-mcp",
         "tier": 0
       },
       "quality": {
@@ -57059,6 +57905,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:io-oi-ai/web2md:org.web2md/web2md#org.web2md-web2md",
+      "type": "mcp",
+      "name": "org.web2md/web2md",
+      "description": {
+        "zh": null,
+        "en": "MCP Server for Web2MD — convert URLs to Markdown from Claude Desktop, Cursor, etc.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "io-oi-ai/web2md",
+        "path": "org.web2md/web2md",
+        "url": "https://github.com/io-oi-ai/web2md",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:ionasrobert/tacitus-mcp-server:io.github.ionasrobert/tacitus-mcp-server#io.github.ionasrobert-tacitus-mcp-server",
       "type": "mcp",
       "name": "io.github.ionasrobert/tacitus-mcp-server",
@@ -57213,7 +58109,7 @@
       "name": "IronWallet",
       "description": {
         "zh": null,
-        "en": "Non-custodial IronWallet MCP: local signing, balances, transfers, and swaps.",
+        "en": "Non-custodial crypto wallet MCP: check balances, sign and send transfers, and swap tokens locally.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -57230,6 +58126,55 @@
         "repo": "ironwallet/ironwallet-agent-kit",
         "path": "io.ironwallet/mcp-server",
         "url": "https://github.com/ironwallet/ironwallet-agent-kit",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:isiomac/memstack:io.github.isiomac/memstack#io.github.isiomac-memstack",
+      "type": "mcp",
+      "name": "io.github.isiomaC/memstack",
+      "description": {
+        "zh": null,
+        "en": "MCP server for persistent, searchable memory for AI agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "isiomaC/memstack",
+        "path": "io.github.isiomaC/memstack",
+        "url": "https://github.com/isiomaC/memstack",
         "tier": 0
       },
       "quality": {
@@ -58315,6 +59260,55 @@
         "repo": "JGPAS/mcp-first-server",
         "path": "io.github.JGPAS/mcp-first-server",
         "url": "https://github.com/JGPAS/mcp-first-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:jinyangwang27/people-context:io.github.jinyangwang27/people-context#io.github.jinyangwang27-people-context",
+      "type": "mcp",
+      "name": "io.github.JinyangWang27/people-context",
+      "description": {
+        "zh": null,
+        "en": "Local-first MCP server giving AI agents contextual knowledge about the people in your life",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "JinyangWang27/people-context",
+        "path": "io.github.JinyangWang27/people-context",
+        "url": "https://github.com/JinyangWang27/people-context",
         "tier": 0
       },
       "quality": {
@@ -60707,6 +61701,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:kookerella-ltd/kookerella.fsworddsl:io.github.marknicholls/fsworddsl-mcp#word-mcp-server-(fsworddsl)",
+      "type": "mcp",
+      "name": "Word MCP Server (FsWordDsl)",
+      "description": {
+        "zh": null,
+        "en": "Word tools for AI agents: read/write, decompile to F#/C#/XML/JSON, or build from XML/JSON.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Kookerella-Ltd/Kookerella.FsWordDsl",
+        "path": "io.github.MarkNicholls/fsworddsl-mcp",
+        "url": "https://github.com/Kookerella-Ltd/Kookerella.FsWordDsl",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:krayinc/docbase-mcp-server:io.github.krayinc/docbase#io.github.krayinc-docbase",
       "type": "mcp",
       "name": "io.github.krayinc/docbase",
@@ -62256,6 +63300,55 @@
         "repo": "lucaspmgomess/querido-diario-mcp-server",
         "path": "io.github.lucaspmgomess/querido-diario-mcp-server",
         "url": "https://github.com/lucaspmgomess/querido-diario-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:lukegskw/caldav-mcp:io.github.lukegskw/caldav-mcp#caldav-mcp-server",
+      "type": "mcp",
+      "name": "CalDAV MCP Server",
+      "description": {
+        "zh": null,
+        "en": "A TypeScript MCP server for iCloud Calendar with native multi-VALARM support.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "lukegskw/caldav-mcp",
+        "path": "io.github.lukegskw/caldav-mcp",
+        "url": "https://github.com/lukegskw/caldav-mcp",
         "tier": 0
       },
       "quality": {
@@ -65486,6 +66579,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:ai.everyn/everyn#everyn",
+      "type": "mcp",
+      "name": "Everyn",
+      "description": {
+        "zh": null,
+        "en": "Use Everyn's hosted MCP server to turn datasets into reviewed, exportable results.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.everyn/everyn",
+        "url": "https://www.everyn.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:ai.flamel/public-content#flamel-public-content",
       "type": "mcp",
       "name": "Flamel Public Content",
@@ -65608,6 +66750,1088 @@
         "repo": null,
         "path": "ai.gessa/mcp-server",
         "url": "https://gessa.ai/assets/for-agents/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/llm-observability-orchestration-agent-langchain-community#ai.getvda-llm-observability-orchestration-agent-langchain-co",
+      "type": "mcp",
+      "name": "ai.getvda/llm-observability-orchestration-agent-langchain-community",
+      "description": {
+        "zh": null,
+        "en": "LLM Observability & Orchestration Agent (LangChain Community)",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/llm-observability-orchestration-agent-langchain-community",
+        "url": "https://llm-observability-orchestration-agent-langchai-c1a755.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/llm-observability-orchestration-agent-langchain#ai.getvda-llm-observability-orchestration-agent-langchain",
+      "type": "mcp",
+      "name": "ai.getvda/llm-observability-orchestration-agent-langchain",
+      "description": {
+        "zh": null,
+        "en": "LLM Observability & Orchestration Agent (Langchain)",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/llm-observability-orchestration-agent-langchain",
+        "url": "https://langchain-langchain-core-langsmit-d042fc.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/llm-observability-orchestration#ai.getvda-llm-observability-orchestration",
+      "type": "mcp",
+      "name": "ai.getvda/llm-observability-orchestration",
+      "description": {
+        "zh": null,
+        "en": "LLM Observability & Orchestration Agent",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/llm-observability-orchestration",
+        "url": "https://llm-observability-orchestration.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/llm-orchestration-agent-2-df5979#ai.getvda-llm-orchestration-agent-2-df5979",
+      "type": "mcp",
+      "name": "ai.getvda/llm-orchestration-agent-2-df5979",
+      "description": {
+        "zh": null,
+        "en": "LLM Orchestration Agent 2",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/llm-orchestration-agent-2-df5979",
+        "url": "https://llm-orchestration-agent-2-df5979.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/llm-orchestration-agent-2#ai.getvda-llm-orchestration-agent-2",
+      "type": "mcp",
+      "name": "ai.getvda/llm-orchestration-agent-2",
+      "description": {
+        "zh": null,
+        "en": "MCP-Native LLM Orchestration Agent",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/llm-orchestration-agent-2",
+        "url": "https://llm-orchestration-agent-2.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/llm-orchestration-agent-cryptography#ai.getvda-llm-orchestration-agent-cryptography",
+      "type": "mcp",
+      "name": "ai.getvda/llm-orchestration-agent-cryptography",
+      "description": {
+        "zh": null,
+        "en": "LLM Orchestration Agent (Cryptography)",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/llm-orchestration-agent-cryptography",
+        "url": "https://llm-orchestration-agent-cryptography.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/llm-orchestration-agent-d0a1a1#ai.getvda-llm-orchestration-agent-d0a1a1",
+      "type": "mcp",
+      "name": "ai.getvda/llm-orchestration-agent-d0a1a1",
+      "description": {
+        "zh": null,
+        "en": "LLM Orchestration Agent",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/llm-orchestration-agent-d0a1a1",
+        "url": "https://llm-orchestration-agent-d0a1a1.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/llm-orchestration-agent-d2feb0#ai.getvda-llm-orchestration-agent-d2feb0",
+      "type": "mcp",
+      "name": "ai.getvda/llm-orchestration-agent-d2feb0",
+      "description": {
+        "zh": null,
+        "en": "LangSmith-Traced LLM Orchestration Agent",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/llm-orchestration-agent-d2feb0",
+        "url": "https://llm-orchestration-agent-d2feb0.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/llm-orchestration-agent-langchain-anthropic#ai.getvda-llm-orchestration-agent-langchain-anthropic",
+      "type": "mcp",
+      "name": "ai.getvda/llm-orchestration-agent-langchain-anthropic",
+      "description": {
+        "zh": null,
+        "en": "LLM Orchestration Agent (Langchain Anthropic)",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/llm-orchestration-agent-langchain-anthropic",
+        "url": "https://llm-orchestration-agent-langchain-anthropic.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/llm-orchestration-agent-langchain-core#ai.getvda-llm-orchestration-agent-langchain-core",
+      "type": "mcp",
+      "name": "ai.getvda/llm-orchestration-agent-langchain-core",
+      "description": {
+        "zh": null,
+        "en": "LLM Orchestration Agent (Langchain Core)",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/llm-orchestration-agent-langchain-core",
+        "url": "https://llm-orchestration-agent-langchain-core.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/llm-orchestration-agent-langchain-openai#ai.getvda-llm-orchestration-agent-langchain-openai",
+      "type": "mcp",
+      "name": "ai.getvda/llm-orchestration-agent-langchain-openai",
+      "description": {
+        "zh": null,
+        "en": "LLM Orchestration Agent (Langchain Openai)",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/llm-orchestration-agent-langchain-openai",
+        "url": "https://llm-orchestration-agent-langchain-openai.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/llm-orchestration-agent-langchain#ai.getvda-llm-orchestration-agent-langchain",
+      "type": "mcp",
+      "name": "ai.getvda/llm-orchestration-agent-langchain",
+      "description": {
+        "zh": null,
+        "en": "LLM Orchestration Agent (Langchain)",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/llm-orchestration-agent-langchain",
+        "url": "https://llm-orchestration-agent-langchain.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/llm-orchestration-agent-langgraph#ai.getvda-llm-orchestration-agent-langgraph",
+      "type": "mcp",
+      "name": "ai.getvda/llm-orchestration-agent-langgraph",
+      "description": {
+        "zh": null,
+        "en": "LLM Orchestration Agent (Langgraph)",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/llm-orchestration-agent-langgraph",
+        "url": "https://llm-orchestration-agent-langgraph.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/llm-orchestration-agent-langsmith#ai.getvda-llm-orchestration-agent-langsmith",
+      "type": "mcp",
+      "name": "ai.getvda/llm-orchestration-agent-langsmith",
+      "description": {
+        "zh": null,
+        "en": "LLM Orchestration Agent (Langsmith)",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/llm-orchestration-agent-langsmith",
+        "url": "https://llm-orchestration-agent-langsmith.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/llm-orchestration-agent-mcp#ai.getvda-llm-orchestration-agent-mcp",
+      "type": "mcp",
+      "name": "ai.getvda/llm-orchestration-agent-mcp",
+      "description": {
+        "zh": null,
+        "en": "LLM Orchestration Agent (Mcp)",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/llm-orchestration-agent-mcp",
+        "url": "https://llm-orchestration-agent-mcp.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/llm-orchestration-agent-openai#ai.getvda-llm-orchestration-agent-openai",
+      "type": "mcp",
+      "name": "ai.getvda/llm-orchestration-agent-openai",
+      "description": {
+        "zh": null,
+        "en": "LLM Orchestration Agent (Openai)",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/llm-orchestration-agent-openai",
+        "url": "https://llm-orchestration-agent-openai.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/llm-orchestration-agent-opentelemetry-api#ai.getvda-llm-orchestration-agent-opentelemetry-api",
+      "type": "mcp",
+      "name": "ai.getvda/llm-orchestration-agent-opentelemetry-api",
+      "description": {
+        "zh": null,
+        "en": "LLM Orchestration Agent (Opentelemetry Api)",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/llm-orchestration-agent-opentelemetry-api",
+        "url": "https://llm-orchestration-agent-opentelemetry-api.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/llm-orchestration-agent-opentelemetry-instrumentation-fastapi#ai.getvda-llm-orchestration-agent-opentelemetry-instrumentat",
+      "type": "mcp",
+      "name": "ai.getvda/llm-orchestration-agent-opentelemetry-instrumentation-fastapi",
+      "description": {
+        "zh": null,
+        "en": "LLM Orchestration Agent (Opentelemetry Instrumentation Fastapi)",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/llm-orchestration-agent-opentelemetry-instrumentation-fastapi",
+        "url": "https://llm-orchestration-agent-opentelemetry-instrume-a529e4.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/llm-orchestration-jwt-agent#ai.getvda-llm-orchestration-jwt-agent",
+      "type": "mcp",
+      "name": "ai.getvda/llm-orchestration-jwt-agent",
+      "description": {
+        "zh": null,
+        "en": "LLM Orchestration JWT Agent",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/llm-orchestration-jwt-agent",
+        "url": "https://llm-orchestration-jwt-agent.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/llm-orchestration-mcp-agent#ai.getvda-llm-orchestration-mcp-agent",
+      "type": "mcp",
+      "name": "ai.getvda/llm-orchestration-mcp-agent",
+      "description": {
+        "zh": null,
+        "en": "LLM Orchestration MCP Agent",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/llm-orchestration-mcp-agent",
+        "url": "https://llm-orchestration-mcp-agent.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/llm-orchestration-observability-agent#ai.getvda-llm-orchestration-observability-agent",
+      "type": "mcp",
+      "name": "ai.getvda/llm-orchestration-observability-agent",
+      "description": {
+        "zh": null,
+        "en": "LLM Orchestration Observability Agent",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/llm-orchestration-observability-agent",
+        "url": "https://llm-orchestration-observability-agent.getvda.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getvda/llm-orchestration-traced-agent#ai.getvda-llm-orchestration-traced-agent",
+      "type": "mcp",
+      "name": "ai.getvda/llm-orchestration-traced-agent",
+      "description": {
+        "zh": null,
+        "en": "LLM Orchestration Traced Agent",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getvda/llm-orchestration-traced-agent",
+        "url": "https://llm-orchestration-traced-agent.getvda.ai",
         "tier": 0
       },
       "quality": {
@@ -66644,6 +68868,55 @@
         "repo": null,
         "path": "com.adaptlypost/mcp-server",
         "url": "https://registry.modelcontextprotocol.io/?q=com.adaptlypost%2Fmcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.alchemy/mcp#alchemy-mcp-server",
+      "type": "mcp",
+      "name": "Alchemy MCP Server",
+      "description": {
+        "zh": null,
+        "en": "Blockchain data across 100+ chains: token prices, NFTs, transfers, simulation, traces, Solana DAS",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.alchemy/mcp",
+        "url": "https://docs.alchemy.com/docs/alchemy-mcp-server",
         "tier": 0
       },
       "quality": {
@@ -69955,6 +72228,106 @@
         "repo": null,
         "path": "io.github.cloudquery/mcp",
         "url": "https://registry.modelcontextprotocol.io/?q=io.github.cloudquery%2Fmcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.codywatters/riveter#io.github.codywatters-riveter",
+      "type": "mcp",
+      "name": "io.github.CodyWatters/riveter",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Riveter's enrichment, scraping, and monitoring API",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops",
+        "research",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.CodyWatters/riveter",
+        "url": "https://docs.riveterhq.com/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.daredev256/fcpxml-mcp-server#io.github.daredev256-fcpxml-mcp-server",
+      "type": "mcp",
+      "name": "io.github.DareDev256/fcpxml-mcp-server",
+      "description": {
+        "zh": null,
+        "en": "Final Cut Pro automation: 13 grouped tools, 88 operations. FCPXML edit, QC, transcript, preview.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.DareDev256/fcpxml-mcp-server",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.DareDev256%2Ffcpxml-mcp-server",
         "tier": 0
       },
       "quality": {
@@ -77235,6 +79608,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mohitbansal321/ai-usage-mcp:io.github.mohitbansal321/ai-usage-mcp#ai-usage",
+      "type": "mcp",
+      "name": "AI Usage",
+      "description": {
+        "zh": null,
+        "en": "Reports real token usage and cost from Claude Code and OpenCode data. Nothing leaves your machine.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "MohitBansal321/ai-usage-mcp",
+        "path": "io.github.MohitBansal321/ai-usage-mcp",
+        "url": "https://github.com/MohitBansal321/ai-usage-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mongodb-js/mongodb-mcp-server:io.github.mongodb-js/mongodb-mcp-server#io.github.mongodb-js-mongodb-mcp-server",
       "type": "mcp",
       "name": "io.github.mongodb-js/mongodb-mcp-server",
@@ -77780,6 +80203,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:ms-methos/jsonfabrica-mcp-server:io.github.ms-methos/jsonfabrica-mcp-server#jsonfabrica",
+      "type": "mcp",
+      "name": "JsonFabrica",
+      "description": {
+        "zh": null,
+        "en": "Generate realistic, relational synthetic JSON test data from templates, via the JsonFabrica API.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ms-methos/jsonfabrica-mcp-server",
+        "path": "io.github.ms-methos/jsonfabrica-mcp-server",
+        "url": "https://github.com/ms-methos/jsonfabrica-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mspstack/mcp-connectwise-psa:io.github.mspstack/mcp-connectwise-psa#connectwise-psa",
       "type": "mcp",
       "name": "ConnectWise PSA",
@@ -77928,12 +80401,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:muhdur/oraclemcp:io.github.muhdur/oraclemcp#oraclemcp",
+      "id": "mcp:muhammetali/asc-mcp-server:io.github.muhammetali/asc-mcp-server#io.github.muhammetali-asc-mcp-server",
       "type": "mcp",
-      "name": "oraclemcp",
+      "name": "io.github.muhammetali/asc-mcp-server",
       "description": {
         "zh": null,
-        "en": "Engine-free, governed Oracle Database MCP server with a fail-closed SQL guard (unofficial).",
+        "en": "App Store Connect MCP Server for AI coding agents",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -77947,9 +80420,9 @@
         "mcp-client"
       ],
       "source": {
-        "repo": "MuhDur/oraclemcp",
-        "path": "io.github.MuhDur/oraclemcp",
-        "url": "https://github.com/MuhDur/oraclemcp",
+        "repo": "muhammetali/asc-mcp-server",
+        "path": "io.github.muhammetali/asc-mcp-server",
+        "url": "https://github.com/muhammetali/asc-mcp-server",
         "tier": 0
       },
       "quality": {
@@ -77977,12 +80450,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:munhq/chat-recall:io.github.munhq/chat-recall#chat-recall",
+      "id": "mcp:muhammetali/gpc-mcp-server:io.github.muhammetali/gpc-mcp-server#io.github.muhammetali-gpc-mcp-server",
       "type": "mcp",
-      "name": "chat-recall",
+      "name": "io.github.muhammetali/gpc-mcp-server",
       "description": {
         "zh": null,
-        "en": "One searchable memory across Claude Code, Gemini, Codex, OpenCode, Antigravity and Cursor sessions.",
+        "en": "Google Play Console MCP Server for AI coding agents",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -77990,16 +80463,113 @@
       },
       "lang": "en",
       "categories": [
-        "meta",
-        "coding"
+        "meta"
       ],
       "targets": [
         "mcp-client"
       ],
       "source": {
-        "repo": "munhq/chat-recall",
-        "path": "io.github.munhq/chat-recall",
-        "url": "https://github.com/munhq/chat-recall",
+        "repo": "muhammetali/gpc-mcp-server",
+        "path": "io.github.muhammetali/gpc-mcp-server",
+        "url": "https://github.com/muhammetali/gpc-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:muhammetali/recraft-mcp-server:io.github.muhammetali/recraft-mcp-server#io.github.muhammetali-recraft-mcp-server",
+      "type": "mcp",
+      "name": "io.github.muhammetali/recraft-mcp-server",
+      "description": {
+        "zh": null,
+        "en": "Recraft AI Image Generation MCP Server for AI coding agents",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "muhammetali/recraft-mcp-server",
+        "path": "io.github.muhammetali/recraft-mcp-server",
+        "url": "https://github.com/muhammetali/recraft-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:muhdur/oraclemcp:io.github.muhdur/oraclemcp#oraclemcp",
+      "type": "mcp",
+      "name": "oraclemcp",
+      "description": {
+        "zh": null,
+        "en": "Engine-free, governed Oracle Database MCP server with a fail-closed SQL guard (unofficial).",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "MuhDur/oraclemcp",
+        "path": "io.github.MuhDur/oraclemcp",
+        "url": "https://github.com/MuhDur/oraclemcp",
         "tier": 0
       },
       "quality": {
@@ -78891,6 +81461,56 @@
         "repo": "neturely/okffs",
         "path": "io.github.neturely/okffs",
         "url": "https://github.com/neturely/okffs",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:newrelic-experimental/preflight:io.github.newrelic-experimental/preflight#io.github.newrelic-experimental-preflight",
+      "type": "mcp",
+      "name": "io.github.newrelic-experimental/preflight",
+      "description": {
+        "zh": null,
+        "en": "New Relic MCP server for observing AI coding assistants (Claude Code, Cursor, Copilot, etc.)",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "newrelic-experimental/preflight",
+        "path": "io.github.newrelic-experimental/preflight",
+        "url": "https://github.com/newrelic-experimental/preflight",
         "tier": 0
       },
       "quality": {
@@ -81454,7 +84074,7 @@
       "name": "io.github.oscardvs/zoteus",
       "description": {
         "zh": null,
-        "en": "The everything Zotero MCP server — Web API v3 + local API, safe writes, citations, search.",
+        "en": "MCP server for Zotero: search, citations, safe writes, semantic search, and PDF passages.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -81463,6 +84083,7 @@
       "lang": "en",
       "categories": [
         "meta",
+        "document",
         "research"
       ],
       "targets": [
@@ -81745,6 +84366,105 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:paoloricciuti/letmediff:it.letmediff/mcp#letmediff-mcp",
+      "type": "mcp",
+      "name": "Letmediff MCP",
+      "description": {
+        "zh": null,
+        "en": "The official Letmediff MCP server helping you review your code with an agent first workflow",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "paoloricciuti/letmediff",
+        "path": "it.letmediff/mcp",
+        "url": "https://github.com/paoloricciuti/letmediff",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:parker-fawcett/rebuild-dossier:com.parkerfawcett/rebuild-dossier#rebuild-dossier",
+      "type": "mcp",
+      "name": "Rebuild Dossier",
+      "description": {
+        "zh": null,
+        "en": "MCP server that reverse-engineers a locked rebuild spec from an existing app.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Parker-Fawcett/rebuild-dossier",
+        "path": "com.parkerfawcett/rebuild-dossier",
+        "url": "https://github.com/Parker-Fawcett/rebuild-dossier",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:parksanggwon/admob-mcp-server:io.github.parksanggwon/admob-mcp-server#io.github.parksanggwon-admob-mcp-server",
       "type": "mcp",
       "name": "io.github.ParkSangGwon/admob-mcp-server",
@@ -81816,57 +84536,6 @@
         "repo": "parseablehq/parseable-mcp-server",
         "path": "io.github.parseablehq/parseable-mcp-server",
         "url": "https://github.com/parseablehq/parseable-mcp-server",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:pasichdev/docket:io.github.pasichdev/docket#io.github.pasichdev-docket",
-      "type": "mcp",
-      "name": "io.github.pasichDev/docket",
-      "description": {
-        "zh": null,
-        "en": "Shared TODO/backlog MCP server with claim tracking, web UI, and encrypted local storage.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "pm",
-        "meta",
-        "design"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "pasichDev/docket",
-        "path": "io.github.pasichDev/docket",
-        "url": "https://github.com/pasichDev/docket",
         "tier": 0
       },
       "quality": {
@@ -82838,6 +85507,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:polyxmedia/txn-dev-mcp-server:dev.txn/mcp-server#dev.txn-mcp-server",
+      "type": "mcp",
+      "name": "dev.txn/mcp-server",
+      "description": {
+        "zh": null,
+        "en": "Wallets, payments and human hiring for AI agents: pay other agents, escrow a budget, hire a person.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "polyxmedia/txn-dev-mcp-server",
+        "path": "dev.txn/mcp-server",
+        "url": "https://github.com/polyxmedia/txn-dev-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:pooriaarab/supportsheep:io.github.pooriaarab/supportsheep#io.github.pooriaarab-supportsheep",
       "type": "mcp",
       "name": "io.github.pooriaarab/supportsheep",
@@ -83207,6 +85925,55 @@
         "repo": "profitelligence/profitelligence-mcp-server",
         "path": "io.github.profitelligence/mcp-server",
         "url": "https://github.com/profitelligence/profitelligence-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:promptbranch/promptbranch:io.github.promptbranch/promptbranch#promptbranch",
+      "type": "mcp",
+      "name": "PromptBranch",
+      "description": {
+        "zh": null,
+        "en": "Local-first MCP server for versioning, searching, evaluating, and improving AI prompts.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "PromptBranch/promptbranch",
+        "path": "io.github.PromptBranch/promptbranch",
+        "url": "https://github.com/PromptBranch/promptbranch",
         "tier": 0
       },
       "quality": {
@@ -89880,55 +92647,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:sheetrender/sheetrender-mcp:io.github.sheetrender/sheetrender-mcp#io.github.sheetrender-sheetrender-mcp",
-      "type": "mcp",
-      "name": "io.github.sheetrender/sheetrender-mcp",
-      "description": {
-        "zh": null,
-        "en": "MCP server for SheetRender: render PDFs from HTML templates and spreadsheet data.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "meta"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "sheetrender/sheetrender-mcp",
-        "path": "io.github.sheetrender/sheetrender-mcp",
-        "url": "https://github.com/sheetrender/sheetrender-mcp",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:shennawardana23/mcp-dino:io.github.shennawardana23/mcp-dino#io.github.shennawardana23-mcp-dino",
       "type": "mcp",
       "name": "io.github.shennawardana23/mcp-dino",
@@ -91083,6 +93801,56 @@
         "repo": "SigNoz/signoz-mcp-server",
         "path": "io.github.SigNoz/signoz-mcp-server",
         "url": "https://github.com/SigNoz/signoz-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:silbercue/public-browser:io.github.silbercue/public-browser#public-browser",
+      "type": "mcp",
+      "name": "Public Browser",
+      "description": {
+        "zh": null,
+        "en": "The most token-efficient MCP server for Chrome automation — a Playwright MCP alternative.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Silbercue/public-browser",
+        "path": "io.github.Silbercue/public-browser",
+        "url": "https://github.com/Silbercue/public-browser",
         "tier": 0
       },
       "quality": {
@@ -92808,6 +95576,56 @@
         "repo": "ste7/novacal-mcp-server",
         "path": "io.github.ste7/novacal-mcp-server",
         "url": "https://github.com/ste7/novacal-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:steve228uk/metro-mcp:io.github.steve228uk/metro-mcp#metro-mcp",
+      "type": "mcp",
+      "name": "Metro MCP",
+      "description": {
+        "zh": null,
+        "en": "MCP server for React Native/Expo runtime debugging, inspection, and automation via Metro/CDP",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "steve228uk/metro-mcp",
+        "path": "io.github.steve228uk/metro-mcp",
+        "url": "https://github.com/steve228uk/metro-mcp",
         "tier": 0
       },
       "quality": {
@@ -96446,6 +99264,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:va1bhav512/kdenlive-mcp-server:io.github.va1bhav512/kdenlive-mcp-server#kdenlive-mcp-server",
+      "type": "mcp",
+      "name": "Kdenlive MCP Server",
+      "description": {
+        "zh": null,
+        "en": "Kdenlive video editing MCP - 36 tools for project, timeline, filters and melt rendering",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Va1bhav512/kdenlive-mcp-server",
+        "path": "io.github.Va1bhav512/kdenlive-mcp-server",
+        "url": "https://github.com/Va1bhav512/kdenlive-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:vaaraio/vaara:io.github.vaaraio/vaara-server#vaara-mcp-server",
       "type": "mcp",
       "name": "Vaara MCP Server",
@@ -96517,6 +99384,55 @@
         "repo": "vaisala-xweather/xweather-mcp-registry",
         "path": "com.xweather/weather",
         "url": "https://github.com/vaisala-xweather/xweather-mcp-registry",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:vb-tyagi/capx-cafe:io.github.vb-tyagi/capx-cafe#capx-café",
+      "type": "mcp",
+      "name": "capx café",
+      "description": {
+        "zh": null,
+        "en": "Agent-native X (Twitter) posting as one MCP server; every post clears a server-side guardrail.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "vb-tyagi/capx-cafe",
+        "path": "io.github.vb-tyagi/capx-cafe",
+        "url": "https://github.com/vb-tyagi/capx-cafe",
         "tier": 0
       },
       "quality": {
@@ -104592,6 +107508,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:zoominfo/zoominfo-mcp-plugin:io.github.zoominfo/zoominfo-mcp#zoominfo",
+      "type": "mcp",
+      "name": "ZoomInfo",
+      "description": {
+        "zh": null,
+        "en": "Official ZoomInfo MCP server. Search and enrich companies, contacts, and buyer intent signals.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Zoominfo/zoominfo-mcp-plugin",
+        "path": "io.github.Zoominfo/zoominfo-mcp",
+        "url": "https://github.com/Zoominfo/zoominfo-mcp-plugin",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:zscaler/zscaler-mcp-server:io.github.zscaler/zscaler-mcp-server#zscaler-zero-trust-exchange",
       "type": "mcp",
       "name": "Zscaler Zero Trust Exchange",
@@ -104714,6 +107680,56 @@
         "repo": "zubovartemiy/graneth-mcp",
         "path": "com.graneth/mcp-server",
         "url": "https://github.com/zubovartemiy/graneth-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:zwitbaum/mcp-devops-on-prem:io.github.zwitbaum/mcp-devops-on-prem#azure-devops-on-premises",
+      "type": "mcp",
+      "name": "Azure DevOps On-Premises",
+      "description": {
+        "zh": null,
+        "en": "MCP server for on-premises Azure DevOps Server and TFS: repos, pull requests, work items, and wiki.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "zwitbaum/mcp-devops-on-prem",
+        "path": "io.github.zwitbaum/mcp-devops-on-prem",
+        "url": "https://github.com/zwitbaum/mcp-devops-on-prem",
         "tier": 0
       },
       "quality": {
