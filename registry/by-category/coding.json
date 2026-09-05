@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T21:12:34.742Z",
+  "generatedAt": "2026-09-05T20:55:42.955Z",
   "category": {
     "key": "coding",
     "zh": "编码开发",
@@ -109,7 +109,7 @@
       }
     ]
   },
-  "total": 3454,
+  "total": 3472,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/algorithmic-art/skill.md#algorithmic-art",
@@ -129158,7 +129158,7 @@
       "type": "skill",
       "name": "bensz-collect-bugs",
       "description": {
-        "zh": "当 Bensz 系列 skills 在真实用户环境中因 skill 设计缺陷而出现 bug，或用户明确说“我想 report bensz skills bugs”“帮我公开上报 bensz skills 的 bug”时使用。该 skill 负责把 bug 规范化记录到 `~/.bensz-skills/bugs/`，并在用户明确要求公开报告时通过本地 `gh` 轻量上传到 `huangwb8/bensz-bugs`，全程严禁修改用户本地 Claude Code/Codex 中已安装 skills 的源代码。",
+        "zh": "这是一个用于 Bensz Agent Skill 与基础设施设计缺陷留痕和按需上报的 Agent Skill。当 Bensz Agent Skill 在真实用户环境中因设计缺陷而出现 bug，或用户明确说“我想 report bensz skills bugs”“帮我公开上报 bensz skills 的 bug”时使用。该 Skill 负责把 bug 规范化记录到 `~/.bensz-skills/bugs/`，并在用户明确要求公开报告时通过本地 `gh` 轻量上传到 `huangwb8/bensz-bugs`，全程严禁修改用户本地 Claude Code/Codex 中已安装 Skills 的源代码。",
         "en": null,
         "zhEngine": null,
         "needsTranslation": [
@@ -129429,14 +129429,14 @@
       "type": "skill",
       "name": "git-publish-release",
       "description": {
-        "zh": "当用户明确要求\"发布项目到 GitHub\"、\"创建 GitHub Release\"或\"生成 Release Notes\"时使用。智能分析 tag 间历史变化，生成专业且吸引人的 Release Notes，自动创建 GitHub Release。支持首次发布、常规版本、预发布版本（alpha/beta/rc），自动识别 prerelease 标记。",
+        "zh": "当用户明确要求\"发布项目到 GitHub\"、\"创建 GitHub Release\"或\"生成 Release Notes\"时使用。智能分析 tag 间历史变化并生成专业的 Release Notes；明确发布/创建请求时自动创建 GitHub Release，单独的 notes/历史总结请求仅生成预览，除非用户随后确认发布。支持首次发布、常规版本、预发布版本（alpha/beta/rc），自动识别 prerelease 标记。",
         "en": null,
         "zhEngine": null,
         "needsTranslation": [
           "en"
         ]
       },
-      "lang": "mixed",
+      "lang": "zh",
       "categories": [
         "coding"
       ],
@@ -139543,7 +139543,7 @@
       "name": "io.github.nikolai-vysotskyi/trace-mcp",
       "description": {
         "zh": null,
-        "en": "Framework-aware code intelligence: 81 languages, 87 frameworks, 177 tools, 40–50% fewer tokens",
+        "en": "Code intelligence for agents: 81 languages, 87 frameworks, 177 tools, 90.6% fewer PR-review tokens",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -148872,6 +148872,55 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:adrianczuczka/mason:com.adrianczuczka/mason#com.adrianczuczka-mason",
+      "type": "mcp",
+      "name": "com.adrianczuczka/mason",
+      "description": {
+        "zh": null,
+        "en": "Engineering decisions, change impact, documentation audits, and CI evidence for coding assistants.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "adrianczuczka/mason",
+        "path": "com.adrianczuczka/mason",
+        "url": "https://github.com/adrianczuczka/mason",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
       "id": "mcp:alexcloudstar/makers.page-mcp:io.github.alexcloudstar/makers-page-mcp#io.github.alexcloudstar-makers-page-mcp",
       "type": "mcp",
       "name": "io.github.alexcloudstar/makers-page-mcp",
@@ -152000,6 +152049,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:adrianov/abcop:io.github.adrianov/abcop#abcop",
+      "type": "mcp",
+      "name": "abcop",
+      "description": {
+        "zh": null,
+        "en": "ABC complexity gate for AI-written code with an MCP inspection tool.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "adrianov/abcop",
+        "path": "io.github.adrianov/abcop",
+        "url": "https://github.com/adrianov/abcop",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:aesopfrom0/todoglow-releases:app.devglow/todoglow#todoglow",
       "type": "mcp",
       "name": "todoglow",
@@ -152022,6 +152120,55 @@
         "repo": "aesopfrom0/todoglow-releases",
         "path": "app.devglow/todoglow",
         "url": "https://github.com/aesopfrom0/todoglow-releases",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:agentic-hil/agentic-hil:io.github.agentic-hil/agentic-hil#agentic-hil",
+      "type": "mcp",
+      "name": "Agentic HIL",
+      "description": {
+        "zh": null,
+        "en": "Develop firmware on the real board behind a debug probe: flash, reset, UART and CAN, policy-gated.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "agentic-hil/agentic-hil",
+        "path": "io.github.agentic-hil/agentic-hil",
+        "url": "https://github.com/agentic-hil/agentic-hil",
         "tier": 0
       },
       "quality": {
@@ -154128,6 +154275,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:behnamjalalico/codecortex:io.github.behnamjalalico/codecortex-context-engine#codecortex-context-engine",
+      "type": "mcp",
+      "name": "CodeCortex Context Engine",
+      "description": {
+        "zh": null,
+        "en": "Context intelligence for AI coding agents: navigation, impact, memory, guarded edits.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "BehnamJalaliCo/CodeCortex",
+        "path": "io.github.BehnamJalaliCo/codecortex-context-engine",
+        "url": "https://github.com/BehnamJalaliCo/CodeCortex",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:beppetemp/cartographer:io.github.beppetemp/cartographer#cartographer",
       "type": "mcp",
       "name": "Cartographer",
@@ -154427,6 +154623,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:boy-373/devtools-mcp:cn.pianam.mcp/devtools-mcp#cn.pianam.mcp-devtools-mcp",
+      "type": "mcp",
+      "name": "cn.pianam.mcp/devtools-mcp",
+      "description": {
+        "zh": null,
+        "en": "Developer toolkit: UUID, timestamp, unit conversion, JSON tools, and QR code (SVG). Free.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "boy-373/devtools-mcp",
+        "path": "cn.pianam.mcp/devtools-mcp",
+        "url": "https://github.com/boy-373/devtools-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:bruchris/canvas-lms-mcp:io.github.bruchris/canvas-lms-mcp#io.github.bruchris-canvas-lms-mcp",
       "type": "mcp",
       "name": "io.github.bruchris/canvas-lms-mcp",
@@ -154549,6 +154794,55 @@
         "repo": "bvolpato/ivygrep",
         "path": "io.github.bvolpato/ivygrep",
         "url": "https://github.com/bvolpato/ivygrep",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:bwalvoord/gumball:com.gumballtools/json-to-types#json-to-types",
+      "type": "mcp",
+      "name": "JSON to Types",
+      "description": {
+        "zh": null,
+        "en": "Convert JSON samples into TypeScript interfaces and Zod schemas, with inference caveats.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "bwalvoord/gumball",
+        "path": "com.gumballtools/json-to-types",
+        "url": "https://github.com/bwalvoord/gumball",
         "tier": 0
       },
       "quality": {
@@ -155341,6 +155635,56 @@
         "repo": "colossal1598/ship-MCP",
         "path": "io.github.colossal1598/ship-mcp",
         "url": "https://github.com/colossal1598/ship-MCP",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:com55/pyside6-mcp:io.github.com55/pyside6-mcp#pyside6-mcp",
+      "type": "mcp",
+      "name": "PySide6 MCP",
+      "description": {
+        "zh": null,
+        "en": "Playwright-style MCP to inspect, control, and debug PySide6 desktop GUIs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "com55/pyside6-mcp",
+        "path": "io.github.com55/pyside6-mcp",
+        "url": "https://github.com/com55/pyside6-mcp",
         "tier": 0
       },
       "quality": {
@@ -157251,6 +157595,104 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:ee324/a2awire:com.a2awire/data-npm-release-node-package-javascript-dependency#npm-release-tracker-—-new-node.js-packages-&-javascript-depe",
+      "type": "mcp",
+      "name": "npm Release Tracker — new Node.js packages & JavaScript dependency updates (npmwatch)",
+      "description": {
+        "zh": null,
+        "en": "New npm package releases and JavaScript dependency updates, hourly from npm.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ee324/a2awire",
+        "path": "com.a2awire/data-npm-release-node-package-javascript-dependency",
+        "url": "https://github.com/ee324/a2awire",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:ee324/a2awire:com.a2awire/data-pypi-release-package-release-python-dependency#pypi-release-tracker-—-new-python-packages-&-dependency-upda",
+      "type": "mcp",
+      "name": "PyPI Release Tracker — new Python packages & dependency updates (pypiwatch)",
+      "description": {
+        "zh": null,
+        "en": "New PyPI package releases and Python dependency updates, hourly from PyPI RSS.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ee324/a2awire",
+        "path": "com.a2awire/data-pypi-release-package-release-python-dependency",
+        "url": "https://github.com/ee324/a2awire",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:eezz4/zzop:io.github.eezz4/zzop#zzop",
       "type": "mcp",
       "name": "zzop",
@@ -158807,6 +159249,104 @@
         "repo": "hacksurvivor/pathmark",
         "path": "io.github.hacksurvivor/pathmark",
         "url": "https://github.com/hacksurvivor/pathmark",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:halflifezyf2680/mpm-coding:io.github.halflifezyf2680/mpm-coding#mpm-coding",
+      "type": "mcp",
+      "name": "MPM-Coding",
+      "description": {
+        "zh": null,
+        "en": "Tool-first MCP: AST nav, impact/flow, task chains, memo/recall.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "halflifezyf2680/MPM-Coding",
+        "path": "io.github.halflifezyf2680/mpm-coding",
+        "url": "https://github.com/halflifezyf2680/MPM-Coding",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:halflifezyf2680/skill-shelf:io.github.halflifezyf2680/skill-shelf#skill-shelf-(rust-singleton-daemon)",
+      "type": "mcp",
+      "name": "Skill Shelf (Rust singleton daemon)",
+      "description": {
+        "zh": null,
+        "en": "Progressive group routing for 524 professional skills via Rust daemon stdio shim.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "halflifezyf2680/skill-shelf",
+        "path": "io.github.halflifezyf2680/skill-shelf",
+        "url": "https://github.com/halflifezyf2680/skill-shelf",
         "tier": 0
       },
       "quality": {
@@ -161527,6 +162067,55 @@
         "repo": "koment-dev/koment",
         "path": "io.github.koment-dev/koment",
         "url": "https://github.com/koment-dev/koment",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:koragraph/koragraphmcp:in.koragraph/koragraph#koragraph",
+      "type": "mcp",
+      "name": "Koragraph",
+      "description": {
+        "zh": null,
+        "en": "Local multi-repo code graph over MCP. Blast radius, call graphs, and memory anchored to code.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Koragraph/KoragraphMCP",
+        "path": "in.koragraph/koragraph",
+        "url": "https://github.com/Koragraph/KoragraphMCP",
         "tier": 0
       },
       "quality": {
@@ -164368,6 +164957,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.coderbuds/insights#coderbuds",
+      "type": "mcp",
+      "name": "Coderbuds",
+      "description": {
+        "zh": null,
+        "en": "Your team's shipping standards, org map and delivery metrics, inside your coding agent.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.coderbuds/insights",
+        "url": "https://coderbuds.com/docs/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.dibind/daitk-total-import-cost#daitk-(dibblee-ai-tool-kit)-total-import-cost",
       "type": "mcp",
       "name": "DAITK (Dibblee AI Tool Kit) - Total Import Cost",
@@ -165159,6 +165797,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.wontopos/mcp#com.wontopos-mcp",
+      "type": "mcp",
+      "name": "com.wontopos/mcp",
+      "description": {
+        "zh": null,
+        "en": "Wontopos (WOS) long-term memory (beta) - one memory across Claude Code, Cursor, and your agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.wontopos/mcp",
+        "url": "https://wontopos.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.yaktool/invoice#com.yaktool-invoice",
       "type": "mcp",
       "name": "com.yaktool/invoice",
@@ -165775,6 +166463,57 @@
         "repo": null,
         "path": "dev.reviewgate/reviewgate",
         "url": "https://reviewgate.dev",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:dev.weakspot/weakspot#dev.weakspot-weakspot",
+      "type": "mcp",
+      "name": "dev.weakspot/weakspot",
+      "description": {
+        "zh": null,
+        "en": "Audit Solidity and Rust smart contracts from your editor. Pays per audit in USDC over x402.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "security",
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "dev.weakspot/weakspot",
+        "url": "https://weakspot.dev",
         "tier": 0
       },
       "quality": {
@@ -170958,55 +171697,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:pasichdev/docket:io.github.pasichdev/docket#io.github.pasichdev-docket",
-      "type": "mcp",
-      "name": "io.github.pasichDev/docket",
-      "description": {
-        "zh": null,
-        "en": "One shared workspace for your AI coding agents. Local-first and self-hostable.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "pasichDev/docket",
-        "path": "io.github.pasichDev/docket",
-        "url": "https://github.com/pasichDev/docket",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:perforce/perforce-agentic-gateway:io.github.perforce/perforce-agentic-gateway#perforce-agentic-gateway",
       "type": "mcp",
       "name": "Perforce Agentic Gateway",
@@ -172938,6 +173628,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:sebastienrousseau/corral:io.github.sebastienrousseau/corral#corral",
+      "type": "mcp",
+      "name": "Corral",
+      "description": {
+        "zh": null,
+        "en": "Search code and symbols across every clone in your Corral workspace. Zero network calls.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "sebastienrousseau/corral",
+        "path": "io.github.sebastienrousseau/corral",
+        "url": "https://github.com/sebastienrousseau/corral",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:sebastienrousseau/noyalib-mcp:io.github.sebastienrousseau/noyalib-mcp#io.github.sebastienrousseau-noyalib-mcp",
       "type": "mcp",
       "name": "io.github.sebastienrousseau/noyalib-mcp",
@@ -174124,6 +174864,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:souvikdu/perfonext-render-mcp:io.github.souvikdu/perfonext-render-mcp#perfonext-render-mcp",
+      "type": "mcp",
+      "name": "Perfonext Render MCP",
+      "description": {
+        "zh": null,
+        "en": "MCP server for analyzing React Profiler exports: rerenders, commit spikes, slow components.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "souvikdu/perfonext-render-mcp",
+        "path": "io.github.souvikdu/perfonext-render-mcp",
+        "url": "https://github.com/souvikdu/perfonext-render-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:steve228uk/metro-mcp:io.github.steve228uk/metro-mcp#metro-mcp",
       "type": "mcp",
       "name": "Metro MCP",
@@ -174397,6 +175187,55 @@
         "repo": "sunsatosolutions/Vulcanus",
         "path": "io.github.sunsatosolutions/vulcanus",
         "url": "https://github.com/sunsatosolutions/Vulcanus",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:surajkgoyal/myopic:io.github.surajkgoyal/myopic#io.github.surajkgoyal-myopic",
+      "type": "mcp",
+      "name": "io.github.SurajKGoyal/myopic",
+      "description": {
+        "zh": null,
+        "en": "Code-review MCP: review a GitLab MR or GitHub PR against the whole codebase, not just the diff.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "SurajKGoyal/myopic",
+        "path": "io.github.SurajKGoyal/myopic",
+        "url": "https://github.com/SurajKGoyal/myopic",
         "tier": 0
       },
       "quality": {
@@ -175780,6 +176619,55 @@
         "repo": "uditk2/review-assist",
         "path": "io.github.uditk2/review-assist-mcp",
         "url": "https://github.com/uditk2/review-assist",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:ugur-murat-alt/agz-rust-coder:io.github.ugur-murat-alt/agz-rust-coder#agz-rust-coder",
+      "type": "mcp",
+      "name": "AGZ Rust Coder",
+      "description": {
+        "zh": null,
+        "en": "Bounded, source-write-free Rust correctness tools grounded in Cargo and rustc output.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ugur-murat-alt/agz-rust-coder",
+        "path": "io.github.ugur-murat-alt/agz-rust-coder",
+        "url": "https://github.com/ugur-murat-alt/agz-rust-coder",
         "tier": 0
       },
       "quality": {

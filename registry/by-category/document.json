@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T21:12:34.742Z",
+  "generatedAt": "2026-09-05T20:55:42.955Z",
   "category": {
     "key": "document",
     "zh": "文档处理",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 483,
+  "total": 497,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/docx/skill.md#docx",
@@ -7017,12 +7017,12 @@
       "curatedMentions": 1
     },
     {
-      "id": "mcp:korovin-aa97/talkthrough-mcp:io.github.korovin-aa97/talkthrough-mcp#io.github.korovin-aa97-talkthrough-mcp",
+      "id": "mcp:korovin-aa97/talkthrough-mcp:io.github.korovin-aa97/talkthrough-mcp#talkthrough",
       "type": "mcp",
-      "name": "io.github.korovin-aa97/talkthrough-mcp",
+      "name": "Talkthrough",
       "description": {
         "zh": null,
-        "en": "Local MCP server: screen recordings into transcript, exact frames, OCR, wall-clock evidence.",
+        "en": "Local MCP server: recordings or public video URLs into transcript, frames, OCR, wall-clock evidence.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -7031,7 +7031,8 @@
       "lang": "en",
       "categories": [
         "meta",
-        "document"
+        "document",
+        "media"
       ],
       "targets": [
         "mcp-client"
@@ -9265,6 +9266,55 @@
         "repo": "caelum29/calibre-mcp",
         "path": "io.github.caelum29/calibre-mcp",
         "url": "https://github.com/caelum29/calibre-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:cafra-house/office-worker-mcp:io.github.cafra-house/office-worker-mcp#the-office-worker",
+      "type": "mcp",
+      "name": "The Office Worker",
+      "description": {
+        "zh": null,
+        "en": "Local-first document MCP for AI agents: create, read, secure and sign PDF/Word/Excel/PPTX.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "CaFra-House/office-worker-mcp",
+        "path": "io.github.CaFra-House/office-worker-mcp",
+        "url": "https://github.com/CaFra-House/office-worker-mcp",
         "tier": 0
       },
       "quality": {
@@ -11622,6 +11672,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:gronare/notes-vault-mcp:io.github.gronare/notes-vault-mcp#notes-vault",
+      "type": "mcp",
+      "name": "Notes Vault",
+      "description": {
+        "zh": null,
+        "en": "Indexed search, schema-checked writes and session hooks for a markdown notes vault",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "research",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "gronare/notes-vault-mcp",
+        "path": "io.github.gronare/notes-vault-mcp",
+        "url": "https://github.com/gronare/notes-vault-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:groupdocs-markdown/groupdocs.markdown.mcp:io.github.groupdocs-markdown/groupdocs-markdown-mcp#io.github.groupdocs-markdown-groupdocs-markdown-mcp",
       "type": "mcp",
       "name": "io.github.groupdocs-markdown/groupdocs-markdown-mcp",
@@ -11842,6 +11943,56 @@
         "repo": "heubme2020/datasinking",
         "path": "io.github.heubme2020/datasinking",
         "url": "https://github.com/heubme2020/datasinking",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:hevangel/batch-review-mcp:io.github.hevangel/batch-review-mcp#batch-review",
+      "type": "mcp",
+      "name": "Batch Review",
+      "description": {
+        "zh": null,
+        "en": "Git diff and markdown review with a web UI plus MCP stdio for AI agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "hevangel/batch-review-mcp",
+        "path": "io.github.hevangel/batch-review-mcp",
+        "url": "https://github.com/hevangel/batch-review-mcp",
         "tier": 0
       },
       "quality": {
@@ -12956,6 +13107,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:kolapsis/gofact:io.github.kolapsis/gofact#io.github.kolapsis-gofact",
+      "type": "mcp",
+      "name": "io.github.kOlapsis/gofact",
+      "description": {
+        "zh": null,
+        "en": "Creates compliant French e-invoices locally: Factur-X PDF/A-3 with EN 16931 CII XML, legal numbering",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "kOlapsis/gofact",
+        "path": "io.github.kOlapsis/gofact",
+        "url": "https://github.com/kOlapsis/gofact",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:kookerella-ltd/kookerella.fsopenxmldsl:io.github.marknicholls/fsopenxmldsl-mcp#excel-mcp-server-(fsopenxmldsl)",
       "type": "mcp",
       "name": "Excel MCP Server (FsOpenXmlDsl)",
@@ -13770,6 +13970,55 @@
         "repo": "Luci-hue/microscrape",
         "path": "io.github.Luci-hue/microscrape",
         "url": "https://github.com/Luci-hue/microscrape",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:magiautonomous/casper-tools:io.github.magiautonomous/casper-tools#casper-tools",
+      "type": "mcp",
+      "name": "Casper Tools",
+      "description": {
+        "zh": null,
+        "en": "12 agent utilities: JSON, regex, cron, hash, base64, URL, color, diff, CSV, JWT, Markdown, UUID.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "magiautonomous/casper-tools",
+        "path": "io.github.magiautonomous/casper-tools",
+        "url": "https://github.com/magiautonomous/casper-tools",
         "tier": 0
       },
       "quality": {
@@ -15966,6 +16215,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.editalmd/editalmd#com.editalmd-editalmd",
+      "type": "mcp",
+      "name": "com.editalmd/editalmd",
+      "description": {
+        "zh": null,
+        "en": "Brazilian public procurement (PNCP): search, deadlines, tender markdown, alerts and watches.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.editalmd/editalmd",
+        "url": "https://editalmd.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.emdly/emdly#emdly",
       "type": "mcp",
       "name": "emdly",
@@ -16236,6 +16535,56 @@
         "repo": null,
         "path": "com.ifillpdf/pdf",
         "url": "https://www.ifillpdf.com/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.johnsessentials/johns-essentials#john's-essentials",
+      "type": "mcp",
+      "name": "John's Essentials",
+      "description": {
+        "zh": null,
+        "en": "144 deterministic file tools: PDF, image, media, convert, analyze. Connect in one click (OAuth).",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.johnsessentials/johns-essentials",
+        "url": "https://johnsessentials.com/docs/mcp",
         "tier": 0
       },
       "quality": {
@@ -16925,6 +17274,56 @@
         "repo": null,
         "path": "com.skillforge99/render-api",
         "url": "https://skillforge99.com/render/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.statementtobudget.www/bank-statement-converter#statement-to-budget",
+      "type": "mcp",
+      "name": "Statement to Budget",
+      "description": {
+        "zh": null,
+        "en": "Turn bank statement PDFs, CSVs, XLSX and OFX into categorised transactions plus a summary.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.statementtobudget.www/bank-statement-converter",
+        "url": "https://statementtobudget.com/for-agents",
         "tier": 0
       },
       "quality": {
@@ -17642,6 +18041,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.climik/excel-normalizer#excel-semantic-normalizer",
+      "type": "mcp",
+      "name": "Excel Semantic Normalizer",
+      "description": {
+        "zh": null,
+        "en": "Normalizes messy Excel spreadsheets into canonical JSON, mapping any headers to 19 standard fields.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.climik/excel-normalizer",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.climik%2Fexcel-normalizer",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.freshfos/dropcoin-invoice#io.github.freshfos-dropcoin-invoice",
       "type": "mcp",
       "name": "io.github.freshfos/dropcoin-invoice",
@@ -18289,7 +18737,7 @@
       "name": "io.github.Toinedotcom/toolforte",
       "description": {
         "zh": null,
-        "en": "25 tools: exact IBAN/VAT/cron/regex utilities plus renders to hosted PDF, screenshot and QR files.",
+        "en": "Exact IBAN, VAT, cron, regex answers; HTML/URL to hosted PDF or screenshot; agent memory; workflows.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -18799,6 +19247,55 @@
         "repo": null,
         "path": "nl.briefverzenden/post",
         "url": "https://www.briefverzenden.nl/agents",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:pro.adorellc/markfetch#pro.adorellc-markfetch",
+      "type": "mcp",
+      "name": "pro.adorellc/markfetch",
+      "description": {
+        "zh": null,
+        "en": "Any web page as clean Markdown for agents. Hosted, no install. Free tier; Pro adds JS rendering.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "pro.adorellc/markfetch",
+        "url": "https://markfetch.adorellc.pro",
         "tier": 0
       },
       "quality": {
@@ -20859,6 +21356,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:ravixalgorithm/onto-mcp:io.github.ravixalgorithm/onto#onto",
+      "type": "mcp",
+      "name": "Onto",
+      "description": {
+        "zh": null,
+        "en": "Clean Markdown and AI-readability scoring for any URL. Built for AI agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ravixalgorithm/onto-mcp",
+        "path": "io.github.ravixalgorithm/onto",
+        "url": "https://github.com/ravixalgorithm/onto-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:reinlainer/postmd-mcp-server:io.github.reinlainer/postmd-mcp-server#io.github.reinlainer-postmd-mcp-server",
       "type": "mcp",
       "name": "io.github.reinlainer/postmd-mcp-server",
@@ -22048,6 +22594,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:surfer42069/ionluz-mcp:io.github.surfer42069/ionluz#ionluz-—-solar-quotes-(brazil)",
+      "type": "mcp",
+      "name": "ionluz — solar quotes (Brazil)",
+      "description": {
+        "zh": null,
+        "en": "Solar quotes for Brazilian installers: kWp sizing, own pricing, payback under Law 14.300, PDF.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business",
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "surfer42069/ionluz-mcp",
+        "path": "io.github.surfer42069/ionluz",
+        "url": "https://github.com/surfer42069/ionluz-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:synpulse8-opensource/pulse8-ai-cortex-knowledge-vault:io.github.synpulse8-opensource/pulse8-ai-cortex-knowledge-vault#io.github.synpulse8-opensource-pulse8-ai-cortex-knowledge-va",
       "type": "mcp",
       "name": "io.github.synpulse8-opensource/pulse8-ai-cortex-knowledge-vault",
@@ -22736,6 +23332,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:theluckystrike/mcp-servers:io.github.theluckystrike/letterhead#io.github.theluckystrike-letterhead",
+      "type": "mcp",
+      "name": "io.github.theluckystrike/letterhead",
+      "description": {
+        "zh": null,
+        "en": "Print your business letterhead on Word docs, proposals and contracts from chat.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "theluckystrike/mcp-servers",
+        "path": "io.github.theluckystrike/letterhead",
+        "url": "https://github.com/theluckystrike/mcp-servers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:theluckystrike/mcp-servers:io.github.theluckystrike/office-suite-time-invoice-expense-excel-price#io.github.theluckystrike-office-suite-time-invoice-expense-e",
       "type": "mcp",
       "name": "io.github.theluckystrike/office-suite-time-invoice-expense-excel-price",
@@ -22807,6 +23452,55 @@
       "source": {
         "repo": "theluckystrike/mcp-servers",
         "path": "io.github.theluckystrike/pdf-merge-split-stamp-extract-pages",
+        "url": "https://github.com/theluckystrike/mcp-servers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:theluckystrike/mcp-servers:io.github.theluckystrike/purchase-order#io.github.theluckystrike-purchase-order",
+      "type": "mcp",
+      "name": "io.github.theluckystrike/purchase-order",
+      "description": {
+        "zh": null,
+        "en": "Purchase orders for suppliers: VAT line items, a delivery date, an A4 PDF, mark received.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "theluckystrike/mcp-servers",
+        "path": "io.github.theluckystrike/purchase-order",
         "url": "https://github.com/theluckystrike/mcp-servers",
         "tier": 0
       },

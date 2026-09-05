@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T21:12:34.742Z",
+  "generatedAt": "2026-09-05T20:55:42.955Z",
   "category": {
     "key": "business",
     "zh": "商业营销",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 462,
+  "total": 468,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/claude-api/skill.md#claude-api",
@@ -4963,7 +4963,7 @@
       "name": "Hermoso",
       "description": {
         "zh": null,
-        "en": "768 tools, all usable alone: ad research, video ads, 10 publishing channels, 11 ad platforms.",
+        "en": "781 tools, all usable alone: ad research, video ads, 10 publishing channels, 11 ad platforms.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -5159,12 +5159,12 @@
       "curatedMentions": 1
     },
     {
-      "id": "mcp:nowork-studio/notfair-plugin:io.github.nowork-studio/notfair#notfair-ads",
+      "id": "mcp:nowork-studio/notfair-plugin:io.github.nowork-studio/notfair#notfair",
       "type": "mcp",
-      "name": "NotFair Ads",
+      "name": "NotFair",
       "description": {
         "zh": null,
-        "en": "Hosted OAuth MCP for Google, Meta, X, and LinkedIn Ads, GA4, and Search Console.",
+        "en": "OAuth MCP for Google, Meta, X and LinkedIn Ads, Search Console, GA4 and GoHighLevel.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -5172,6 +5172,7 @@
       },
       "lang": "en",
       "categories": [
+        "research",
         "business"
       ],
       "targets": [
@@ -7708,6 +7709,55 @@
         "repo": "cyanheads/openfec-mcp-server",
         "path": "io.github.cyanheads/openfec-mcp-server",
         "url": "https://github.com/cyanheads/openfec-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:da-troll/planhat-mcp:io.github.da-troll/planhat-mcp#planhat-mcp",
+      "type": "mcp",
+      "name": "Planhat MCP",
+      "description": {
+        "zh": null,
+        "en": "Connect Planhat CRM to Claude and other MCP clients with 60 local tools across 12 resource types.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "da-troll/Planhat-MCP",
+        "path": "io.github.da-troll/planhat-mcp",
+        "url": "https://github.com/da-troll/Planhat-MCP",
         "tier": 0
       },
       "quality": {
@@ -11804,55 +11854,6 @@
         "repo": null,
         "path": "ai.aivonic/mcp",
         "url": "https://aivonic.ai",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:mcp-official:ai.astrofabric/mcp#ai.astrofabric-mcp",
-      "type": "mcp",
-      "name": "ai.astrofabric/mcp",
-      "description": {
-        "zh": null,
-        "en": "Agentic growth platform: a mission agent plus metered SEO, ads, outbound and CRM ops tools.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "business"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "ai.astrofabric/mcp",
-        "url": "https://www.astrofabric.ai",
         "tier": 0
       },
       "quality": {
@@ -16273,6 +16274,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:fr.aucadastre/aucadastre#aucadastre",
+      "type": "mcp",
+      "name": "Aucadastre",
+      "description": {
+        "zh": null,
+        "en": "A French address, all public facts: parcel, zoning, risks, permits, sales, energy labels. No key.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "fr.aucadastre/aucadastre",
+        "url": "https://aucadastre.fr/api",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:fr.aurentia/mcp-server#aurentia",
       "type": "mcp",
       "name": "Aurentia",
@@ -18179,6 +18229,55 @@
         "repo": null,
         "path": "tv.popoff/data",
         "url": "https://popoff.tv/data",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:uk.co.sellermcp/terra-natural-seller-mcp#terra-natural-seller-mcp",
+      "type": "mcp",
+      "name": "Terra Natural Seller MCP",
+      "description": {
+        "zh": null,
+        "en": "Connect Amazon Seller Central to Claude or ChatGPT via MCP. Orders, inventory, pricing, fees, FBA.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "uk.co.sellermcp/terra-natural-seller-mcp",
+        "url": "https://sellermcp.co.uk/",
         "tier": 0
       },
       "quality": {
@@ -21290,6 +21389,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:surfer42069/ionluz-mcp:io.github.surfer42069/ionluz#ionluz-—-solar-quotes-(brazil)",
+      "type": "mcp",
+      "name": "ionluz — solar quotes (Brazil)",
+      "description": {
+        "zh": null,
+        "en": "Solar quotes for Brazilian installers: kWp sizing, own pricing, payback under Law 14.300, PDF.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business",
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "surfer42069/ionluz-mcp",
+        "path": "io.github.surfer42069/ionluz",
+        "url": "https://github.com/surfer42069/ionluz-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:tereno-xyz/tereno-mcp:xyz.tereno/tereno#tereno-on-base",
       "type": "mcp",
       "name": "Tereno on Base",
@@ -21312,6 +21461,55 @@
         "repo": "tereno-xyz/tereno-mcp",
         "path": "xyz.tereno/tereno",
         "url": "https://github.com/tereno-xyz/tereno-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:theburdz/amz-vault-mcp:io.github.theburdz/amz-vault#io.github.theburdz-amz-vault",
+      "type": "mcp",
+      "name": "io.github.TheBurdz/amz-vault",
+      "description": {
+        "zh": null,
+        "en": "Amazon Seller Central + Ads: settlement-accurate P&L, full PPC, every write staged for approval.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "TheBurdz/amz-vault-mcp",
+        "path": "io.github.TheBurdz/amz-vault",
+        "url": "https://github.com/TheBurdz/amz-vault-mcp",
         "tier": 0
       },
       "quality": {
@@ -23197,6 +23395,104 @@
         "repo": "ym2629/launchops",
         "path": "io.github.ym2629/lavela",
         "url": "https://github.com/ym2629/launchops",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:yyunozor/ndex-pricing:app.nd-x/ndex-pricing#ndex-pricing",
+      "type": "mcp",
+      "name": "NDEX Pricing",
+      "description": {
+        "zh": null,
+        "en": "Swiss market prices for video games and consoles, with provenance. Read-only, OAuth 2.1.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Yyunozor/ndex-pricing",
+        "path": "app.nd-x/ndex-pricing",
+        "url": "https://github.com/Yyunozor/ndex-pricing",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:zafety-vibin/grimoire-mcp:bot.ttrpg/grimoire#grimoire",
+      "type": "mcp",
+      "name": "Grimoire",
+      "description": {
+        "zh": null,
+        "en": "Campaign manager for D&D and TTRPG GMs: your AI reads and writes a live typed campaign database.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "zafety-vibin/grimoire-mcp",
+        "path": "bot.ttrpg/grimoire",
+        "url": "https://github.com/zafety-vibin/grimoire-mcp",
         "tier": 0
       },
       "quality": {

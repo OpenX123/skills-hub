@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T21:12:34.742Z",
+  "generatedAt": "2026-09-05T20:55:42.955Z",
   "category": {
     "key": "writing",
     "zh": "内容写作",
@@ -85,7 +85,7 @@
       }
     ]
   },
-  "total": 503,
+  "total": 512,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/pptx/skill.md#pptx",
@@ -16763,6 +16763,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:bearscloud/wildberries-agent-integration:io.github.bearscloud/wildberries-agent-integration#io.github.bearscloud-wildberries-agent-integration",
+      "type": "mcp",
+      "name": "io.github.BearsCLOUD/wildberries-agent-integration",
+      "description": {
+        "zh": null,
+        "en": "Бесплатная русскоязычная аналитика Wildberries, SEO, калькуляторы и прогноз пополнения через MCP.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "BearsCLOUD/wildberries-agent-integration",
+        "path": "io.github.BearsCLOUD/wildberries-agent-integration",
+        "url": "https://github.com/BearsCLOUD/wildberries-agent-integration",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:beatapi/beatdesign:io.github.erickkkyt/beatdesign#beatdesign",
       "type": "mcp",
       "name": "BeatDesign",
@@ -17309,12 +17358,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:csoai-org/meok-article-50-kit-mcp:io.github.csoai-org/meok-article-50-kit-mcp#io.github.csoai-org-meok-article-50-kit-mcp",
+      "id": "mcp:csoai-org/ll144-bias-audit-mcp:io.github.csoai-org/ll144-bias-audit-mcp#io.github.csoai-org-ll144-bias-audit-mcp",
       "type": "mcp",
-      "name": "io.github.CSOAI-ORG/meok-article-50-kit-mcp",
+      "name": "io.github.CSOAI-ORG/ll144-bias-audit-mcp",
       "description": {
         "zh": null,
-        "en": "EU AI Act Article 50 compliance kit — high-risk AI system readiness checker",
+        "en": "NYC Local Law 144 AEDT bias audit — selection rate, impact ratio (4/5ths), public summary",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -17322,15 +17371,16 @@
       },
       "lang": "en",
       "categories": [
+        "security",
         "writing"
       ],
       "targets": [
         "mcp-client"
       ],
       "source": {
-        "repo": "CSOAI-ORG/meok-article-50-kit-mcp",
-        "path": "io.github.CSOAI-ORG/meok-article-50-kit-mcp",
-        "url": "https://github.com/CSOAI-ORG/meok-article-50-kit-mcp",
+        "repo": "CSOAI-ORG/ll144-bias-audit-mcp",
+        "path": "io.github.CSOAI-ORG/ll144-bias-audit-mcp",
+        "url": "https://github.com/CSOAI-ORG/ll144-bias-audit-mcp",
         "tier": 0
       },
       "quality": {
@@ -17381,55 +17431,6 @@
         "repo": "CSOAI-ORG/meok-cra-art14-reporter-mcp",
         "path": "io.github.CSOAI-ORG/meok-cra-art14-reporter-mcp",
         "url": "https://github.com/CSOAI-ORG/meok-cra-art14-reporter-mcp",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:csoai-org/meok-dpia-edpb-template-mcp:io.github.csoai-org/meok-dpia-edpb-template-mcp#io.github.csoai-org-meok-dpia-edpb-template-mcp",
-      "type": "mcp",
-      "name": "io.github.CSOAI-ORG/meok-dpia-edpb-template-mcp",
-      "description": {
-        "zh": null,
-        "en": "DPIA generator for the EDPB harmonised template (adopted 14 Apr 2026) with EU AI Act Article 26(9)",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "writing"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "CSOAI-ORG/meok-dpia-edpb-template-mcp",
-        "path": "io.github.CSOAI-ORG/meok-dpia-edpb-template-mcp",
-        "url": "https://github.com/CSOAI-ORG/meok-dpia-edpb-template-mcp",
         "tier": 0
       },
       "quality": {
@@ -19241,6 +19242,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:integrallis/rankcli.dev:io.github.integrallis/rankcli-mcp-server#rankcli",
+      "type": "mcp",
+      "name": "RankCLI",
+      "description": {
+        "zh": null,
+        "en": "Free, local SEO + GEO audits for AI assistants - no signup, nothing leaves your machine.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "integrallis/rankcli.dev",
+        "path": "io.github.integrallis/rankcli-mcp-server",
+        "url": "https://github.com/integrallis/rankcli.dev",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:its-fortunatefolly/hubvibe:io.github.its-fortunatefolly/hubvibe#hubvibe-site-audits",
       "type": "mcp",
       "name": "HubVibe Site Audits",
@@ -19413,6 +19464,55 @@
         "repo": "karandaid/hugov2.karandeepsingh.ca",
         "path": "io.github.karandaid/karandeepsingh-blog",
         "url": "https://github.com/karandaid/hugov2.karandeepsingh.ca",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:kendall8388/keyframe-it:io.github.kendall8388/keyframe#io.github.kendall8388-keyframe",
+      "type": "mcp",
+      "name": "io.github.kendall8388/keyframe",
+      "description": {
+        "zh": null,
+        "en": "Build, inspect and export editable 2D skeletal animations in the free Keyframe.it browser editor.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "kendall8388/Keyframe-it",
+        "path": "io.github.kendall8388/keyframe",
+        "url": "https://github.com/kendall8388/Keyframe-it",
         "tier": 0
       },
       "quality": {
@@ -21133,12 +21233,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:com.mcpsearchconsole/gsc-seo-analytics#seo-analytics-—-google-search-console-mcp",
+      "id": "mcp:mcp-official:com.mcpsearchconsole/gsc-seo-analytics#seo-analytics-&-insights-—-google-search-console-mcp",
       "type": "mcp",
-      "name": "SEO Analytics — Google Search Console MCP",
+      "name": "SEO Analytics & Insights — Google Search Console MCP",
       "description": {
         "zh": null,
-        "en": "SEO analytics from Google Search Console: keyword rankings, clicks, impressions, CTR. Read-only.",
+        "en": "SEO analytics from Google Search Console: rankings, clicks, CTR, striking-distance insights, charts.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -21831,6 +21931,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.statementtobudget.www/bank-statement-converter#statement-to-budget",
+      "type": "mcp",
+      "name": "Statement to Budget",
+      "description": {
+        "zh": null,
+        "en": "Turn bank statement PDFs, CSVs, XLSX and OFX into categorised transactions plus a summary.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.statementtobudget.www/bank-statement-converter",
+        "url": "https://statementtobudget.com/for-agents",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.timzinin.api/seo-tools#seo-tools",
       "type": "mcp",
       "name": "SEO Tools",
@@ -22180,12 +22330,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:io.github.csoai-org/ll144-bias-audit-mcp#io.github.csoai-org-ll144-bias-audit-mcp",
+      "id": "mcp:mcp-official:dev.weakspot/weakspot#dev.weakspot-weakspot",
       "type": "mcp",
-      "name": "io.github.CSOAI-ORG/ll144-bias-audit-mcp",
+      "name": "dev.weakspot/weakspot",
       "description": {
         "zh": null,
-        "en": "NYC Local Law 144 AEDT bias audit — selection rate, impact ratio (4/5ths), public summary",
+        "en": "Audit Solidity and Rust smart contracts from your editor. Pays per audit in USDC over x402.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -22193,6 +22343,7 @@
       },
       "lang": "en",
       "categories": [
+        "coding",
         "security",
         "writing"
       ],
@@ -22201,8 +22352,204 @@
       ],
       "source": {
         "repo": null,
-        "path": "io.github.CSOAI-ORG/ll144-bias-audit-mcp",
-        "url": "https://registry.modelcontextprotocol.io/?q=io.github.CSOAI-ORG%2Fll144-bias-audit-mcp",
+        "path": "dev.weakspot/weakspot",
+        "url": "https://weakspot.dev",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:fr.edifiable/edifiable#edifiable",
+      "type": "mcp",
+      "name": "Edifiable",
+      "description": {
+        "zh": null,
+        "en": "French land-use plans (PLU): what a zone or a street allows, cited at the article. No key.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "fr.edifiable/edifiable",
+        "url": "https://edifiable.fr/api",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.csoai-org/agent-incident-reporter-mcp#io.github.csoai-org-agent-incident-reporter-mcp",
+      "type": "mcp",
+      "name": "io.github.CSOAI-ORG/agent-incident-reporter-mcp",
+      "description": {
+        "zh": null,
+        "en": "Signed, hash-chained, tamper-evident AI incident records. EU AI Act Article 73 serious-incident repo",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.CSOAI-ORG/agent-incident-reporter-mcp",
+        "url": "https://csoai.org/fabric/agent-incident-reporter-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.csoai-org/meok-article-50-kit-mcp#io.github.csoai-org-meok-article-50-kit-mcp",
+      "type": "mcp",
+      "name": "io.github.CSOAI-ORG/meok-article-50-kit-mcp",
+      "description": {
+        "zh": null,
+        "en": "EU AI Act Article 50 compliance kit — high-risk AI system readiness checker",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.CSOAI-ORG/meok-article-50-kit-mcp",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.CSOAI-ORG%2Fmeok-article-50-kit-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.csoai-org/meok-dpia-edpb-template-mcp#io.github.csoai-org-meok-dpia-edpb-template-mcp",
+      "type": "mcp",
+      "name": "io.github.CSOAI-ORG/meok-dpia-edpb-template-mcp",
+      "description": {
+        "zh": null,
+        "en": "DPIA generator for the EDPB harmonised template (adopted 14 Apr 2026) with EU AI Act Article 26(9)",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.CSOAI-ORG/meok-dpia-edpb-template-mcp",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.CSOAI-ORG%2Fmeok-dpia-edpb-template-mcp",
         "tier": 0
       },
       "quality": {
@@ -22895,6 +23242,56 @@
         "repo": null,
         "path": "net.hogarmas/ai-transparency",
         "url": "https://hogarmas.net/ai-transparency/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:online.pageaudit/pageaudit#online.pageaudit-pageaudit",
+      "type": "mcp",
+      "name": "online.pageaudit/pageaudit",
+      "description": {
+        "zh": null,
+        "en": "Technical SEO audit with the ready-made fix for each finding. Pay per call via x402 or credit.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "online.pageaudit/pageaudit",
+        "url": "https://pageaudit.online",
         "tier": 0
       },
       "quality": {
@@ -24729,6 +25126,55 @@
         "repo": "thatseoagent/skills",
         "path": "com.thatseoagent/seo",
         "url": "https://github.com/thatseoagent/skills",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:tiagocalado86/upkeep-mcp:io.github.tiagocalado86/upkeep-mcp#upkeep-mcp",
+      "type": "mcp",
+      "name": "upkeep-mcp",
+      "description": {
+        "zh": null,
+        "en": "Website maintenance checks: domains, SSL, uptime, technical SEO and accessibility",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "tiagocalado86/upkeep-mcp",
+        "path": "io.github.tiagocalado86/upkeep-mcp",
+        "url": "https://github.com/tiagocalado86/upkeep-mcp",
         "tier": 0
       },
       "quality": {
