@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T21:54:15.402Z",
+  "generatedAt": "2026-09-08T21:33:03.611Z",
   "category": {
     "key": "document",
     "zh": "文档处理",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 512,
+  "total": 521,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/docx/skill.md#docx",
@@ -5090,61 +5090,6 @@
       "curatedMentions": 1
     },
     {
-      "id": "skill:huangwb8/skills:skills/alpha/verifier-state-architect/skill.md#verifier-state-architect",
-      "type": "skill",
-      "name": "verifier-state-architect",
-      "description": {
-        "zh": "帮助设计或审查 Agent Skill 的 Verifier 与 State 架构。只要用户要为 skill 规划、评估、精简或接入 verifier/state，尤其担心形式主义、过度设计、硬编码或 Kernel 契约不匹配，就使用本技能。它先理解目标 skill 的业务流程，再判断是否真的需要这些外挂，输出可执行的 Markdown 设计计划；不直接创建状态机或验证器实现。",
-        "en": null,
-        "zhEngine": null,
-        "needsTranslation": [
-          "en"
-        ]
-      },
-      "lang": "zh",
-      "categories": [
-        "document",
-        "meta",
-        "coding"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "huangwb8/skills",
-        "path": "skills/alpha/verifier-state-architect/SKILL.md",
-        "url": "https://github.com/huangwb8/skills/blob/HEAD/skills/alpha/verifier-state-architect/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 52,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 48,
-      "curatedMentions": 1
-    },
-    {
       "id": "skill:huangwb8/skills:skills/beta/bensz-rmd-rules/skill.md#bensz-rmd-rules",
       "type": "skill",
       "name": "bensz-rmd-rules",
@@ -9288,6 +9233,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:aytzey/showagent:io.github.aytzey/showagent#showagent",
+      "type": "mcp",
+      "name": "showagent",
+      "description": {
+        "zh": null,
+        "en": "Search, resume and convert AI coding sessions (Claude Code, Codex, Gemini, OpenCode, Pi) over MCP.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "meta",
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "aytzey/showagent",
+        "path": "io.github.aytzey/showagent",
+        "url": "https://github.com/aytzey/showagent",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:bankstatemently/plugins:io.github.bankstatemently/bankstatemently-mcp#bankstatemently",
       "type": "mcp",
       "name": "Bankstatemently",
@@ -12658,6 +12654,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:https://gitlab.com/toll402/toll402-sdk:dev.toll402/toll402-mcp#dev.toll402-toll402-mcp",
+      "type": "mcp",
+      "name": "dev.toll402/toll402-mcp",
+      "description": {
+        "zh": null,
+        "en": "Pay-per-call tools for AI agents via x402: web, PDF, provenance, trusted lookup, business directory.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "https://gitlab.com/toll402/toll402-sdk",
+        "path": "dev.toll402/toll402-mcp",
+        "url": "https://gitlab.com/toll402/toll402-sdk",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:hulin42/keynote-harvest-mcp:io.github.hulin42/keynote-harvest-mcp#io.github.hulin42-keynote-harvest-mcp",
       "type": "mcp",
       "name": "io.github.hulin42/keynote-harvest-mcp",
@@ -15225,9 +15270,9 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:ai.fonzi/talent#fonzi-for-candidates",
+      "id": "mcp:mcp-official:ai.fonzi/talent#fonzi-talent",
       "type": "mcp",
-      "name": "Fonzi for Candidates",
+      "name": "Fonzi Talent",
       "description": {
         "zh": null,
         "en": "Apply to Fonzi, manage your profile and resume, browse Companies, and answer Interview Requests.",
@@ -16016,6 +16061,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:co.rakuda.atlas/atlas#rakuda-atlas",
+      "type": "mcp",
+      "name": "RAKUDA Atlas",
+      "description": {
+        "zh": null,
+        "en": "Search Japanese companies, departments and hiring signals; export CSV/XLSX with authentication.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "co.rakuda.atlas/atlas",
+        "url": "https://atlas.rakuda.co/developers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.abyssale/mcp#abyssale",
       "type": "mcp",
       "name": "Abyssale",
@@ -16287,6 +16382,55 @@
         "repo": null,
         "path": "com.bankstatementsheet/bank-statement-sheet-mcp",
         "url": "https://bankstatementsheet.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.bespree/resumes#bespree-resumes",
+      "type": "mcp",
+      "name": "Bespree Resumes",
+      "description": {
+        "zh": null,
+        "en": "Create and edit saved resumes, make tailored or translated copies, and export PDF or Word.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.bespree/resumes",
+        "url": "https://bespree.com/integrations/ai-assistants",
         "tier": 0
       },
       "quality": {
@@ -17600,55 +17744,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:com.preteworks/preteworks-api#preteworks-api",
-      "type": "mcp",
-      "name": "PreteWorks API",
-      "description": {
-        "zh": null,
-        "en": "One key for the document-to-web pipeline: URL to Markdown/PDF/screenshot + PDF merge/split/forms.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "document"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "com.preteworks/preteworks-api",
-        "url": "https://api.preteworks.com",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:mcp-official:com.ranovam/invoice-to-excel#invoice-&-receipt-ocr-extractor-to-excel",
       "type": "mcp",
       "name": "Invoice & Receipt OCR Extractor to Excel",
@@ -18635,6 +18730,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.brenton-keller/pdf-text-table-ocr-extractor#pdf-text,-table-and-ocr-extractor",
+      "type": "mcp",
+      "name": "PDF Text, Table and OCR Extractor",
+      "description": {
+        "zh": null,
+        "en": "PDF URLs to per-page text, tables as rows, Markdown, metadata and OCR for scanned pages.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.brenton-keller/pdf-text-table-ocr-extractor",
+        "url": "https://apify.com/brenton8907/pdf-text-table-ocr-extractor",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.clayton/docdiffai#docdiffai",
       "type": "mcp",
       "name": "DocDiffAI",
@@ -19594,6 +19738,55 @@
         "repo": null,
         "path": "io.github.zhaoyaqi18/pdfslim",
         "url": "https://pdfslim.app/api",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.lifestep/dns#lifestep-workbook,-email,-qr-and-dns-tools",
+      "type": "mcp",
+      "name": "LifeStep Workbook, Email, QR and DNS Tools",
+      "description": {
+        "zh": null,
+        "en": "Inspect XLSX/XLSM workbooks, validate email, generate SVG QR codes, and look up domain DNS and TLS.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.lifestep/dns",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.lifestep%2Fdns",
         "tier": 0
       },
       "quality": {
@@ -21250,9 +21443,9 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:oscardvs/zoteus:io.github.oscardvs/zoteus#io.github.oscardvs-zoteus",
+      "id": "mcp:oscardvs/zoteus:io.github.oscardvs/zoteus#zoteus",
       "type": "mcp",
-      "name": "io.github.oscardvs/zoteus",
+      "name": "Zoteus",
       "description": {
         "zh": null,
         "en": "MCP server for Zotero: search, citations, safe writes, semantic search, and PDF passages.",
@@ -22022,6 +22215,105 @@
         "repo": "ravixalgorithm/onto-mcp",
         "path": "io.github.ravixalgorithm/onto",
         "url": "https://github.com/ravixalgorithm/onto-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:razikallayi/razikallayi.com:io.github.razikallayi/razi-documents#razi-document-tools",
+      "type": "mcp",
+      "name": "Razi Document Tools",
+      "description": {
+        "zh": null,
+        "en": "Document processing over MCP: merge, split and compress PDFs, run OCR, extract document text.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "razikallayi/razikallayi.com",
+        "path": "io.github.razikallayi/razi-documents",
+        "url": "https://github.com/razikallayi/razikallayi.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:razikallayi/razikallayi.com:io.github.razikallayi/razi-tools#razi-tools",
+      "type": "mcp",
+      "name": "Razi Tools",
+      "description": {
+        "zh": null,
+        "en": "PDF, image, video, OCR, screenshot, SQL, QR and text tools for agents. No API key, no signup.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "razikallayi/razikallayi.com",
+        "path": "io.github.razikallayi/razi-tools",
+        "url": "https://github.com/razikallayi/razikallayi.com",
         "tier": 0
       },
       "quality": {
@@ -22911,6 +23203,106 @@
         "repo": "shipshapedata/agent-tools",
         "path": "com.shipshapedata/shipshape-data-docs",
         "url": "https://github.com/shipshapedata/agent-tools",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:siinghd/snaplab-integrations:app.hsingh.snaplab/snaplab#app.hsingh.snaplab-snaplab",
+      "type": "mcp",
+      "name": "app.hsingh.snaplab/snaplab",
+      "description": {
+        "zh": null,
+        "en": "Screenshot, PDF and HTML-to-image rendering API so Claude and Cursor can see any web page.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "siinghd/snaplab-integrations",
+        "path": "app.hsingh.snaplab/snaplab",
+        "url": "https://github.com/siinghd/snaplab-integrations",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:siinghd/snaplab-integrations:dev.snaplab/snaplab#dev.snaplab-snaplab",
+      "type": "mcp",
+      "name": "dev.snaplab/snaplab",
+      "description": {
+        "zh": null,
+        "en": "Screenshot, PDF and HTML-to-image rendering API so Claude and Cursor can see any web page.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "siinghd/snaplab-integrations",
+        "path": "dev.snaplab/snaplab",
+        "url": "https://github.com/siinghd/snaplab-integrations",
         "tier": 0
       },
       "quality": {
@@ -25774,6 +26166,57 @@
         "repo": "Yuni9959/wrapguard-mcp",
         "path": "io.github.Yuni9959/wrapguard-mcp",
         "url": "https://github.com/Yuni9959/wrapguard-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:zhinikefu/zhini-ai-assistant-mcp:io.github.zhinikefu/zhini-ai-assistant#知你ai助手｜多平台客户与客服数据-mcp",
+      "type": "mcp",
+      "name": "知你AI助手｜多平台客户与客服数据 MCP",
+      "description": {
+        "zh": "连接个微、企微、视频号、微信小程序、公众号、服务号、微信客服、微信小店、抖音号、小红书、微博、网站及H5客服的客户资料、会话与聊天记录，供AI查询分析。",
+        "en": null,
+        "zhEngine": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "zh",
+      "categories": [
+        "document",
+        "writing",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "zhinikefu/zhini-ai-assistant-mcp",
+        "path": "io.github.zhinikefu/zhini-ai-assistant",
+        "url": "https://github.com/zhinikefu/zhini-ai-assistant-mcp",
         "tier": 0
       },
       "quality": {

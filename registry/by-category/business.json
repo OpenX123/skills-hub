@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T21:54:15.402Z",
+  "generatedAt": "2026-09-08T21:33:03.611Z",
   "category": {
     "key": "business",
     "zh": "商业营销",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 484,
+  "total": 494,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/claude-api/skill.md#claude-api",
@@ -5258,57 +5258,6 @@
       "curatedMentions": 1
     },
     {
-      "id": "mcp:mtnrabi/travel-agent-skills:com.flightpowers/booking#booking.com-hotel-search-(live-prices)",
-      "type": "mcp",
-      "name": "Booking.com Hotel Search (Live Prices)",
-      "description": {
-        "zh": null,
-        "en": "Live Booking.com hotel prices, plus per-country pricing for rate-parity monitoring.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "devops",
-        "research",
-        "business"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "mtnrabi/travel-agent-skills",
-        "path": "com.flightpowers/booking",
-        "url": "https://github.com/mtnrabi/travel-agent-skills",
-        "tier": 0
-      },
-      "quality": {
-        "score": 24,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 1
-    },
-    {
       "id": "mcp:nicolascroce/keepsake-mcp:io.github.nicolascroce/keepsake#io.github.nicolascroce-keepsake",
       "type": "mcp",
       "name": "io.github.nicolascroce/keepsake",
@@ -6350,6 +6299,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:aimagine-life/hubris-mcp:pw.hubris/hubris-mcp#hubris",
+      "type": "mcp",
+      "name": "Hubris",
+      "description": {
+        "zh": null,
+        "en": "OpenAI-compatible LLM gateway for Russia: 500+ models, ruble pricing, balance, chat.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Aimagine-life/hubris-mcp",
+        "path": "pw.hubris/hubris-mcp",
+        "url": "https://github.com/Aimagine-life/hubris-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:ainative-studio/ainative-gtm-mcp:io.github.ainative-studio/ainative-gtm-mcp#io.github.ainative-studio-ainative-gtm-mcp",
       "type": "mcp",
       "name": "io.github.AINative-Studio/ainative-gtm-mcp",
@@ -7197,7 +7195,7 @@
       "name": "DFX Real Estate Intelligence",
       "description": {
         "zh": null,
-        "en": "Free, keyless. CRE loan maturities in 52 states. Parcels, ownership, sales: Massachusetts only.",
+        "en": "Query US CRE loan maturities, LIHTC Year 15 and HUD expiries. No key. Parcels/sales: MA+NY only.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -8871,6 +8869,105 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:garphengate/moltline-mcp:com.moltlinestudio/data#moltline-data-desk",
+      "type": "mcp",
+      "name": "Moltline Data Desk",
+      "description": {
+        "zh": null,
+        "en": "Paste-your-data analytics: CSV profiling, A/B tests, correlation, growth. 4 of 7 free.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data",
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "GarphenGate/moltline-mcp",
+        "path": "com.moltlinestudio/data",
+        "url": "https://github.com/GarphenGate/moltline-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:garphengate/moltline-mcp:com.moltlinestudio/outbound#moltline-outbound-engine",
+      "type": "mcp",
+      "name": "Moltline Outbound Engine",
+      "description": {
+        "zh": null,
+        "en": "7 outreach, sequencing, call-coaching and CRM-hygiene skill products. 6 of 8 free.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "GarphenGate/moltline-mcp",
+        "path": "com.moltlinestudio/outbound",
+        "url": "https://github.com/GarphenGate/moltline-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:geoacpfilho/paygate-mcp:io.github.geoacpfilho/paygate-mcp#paygate-mcp-—-monetization-gateway-for-ai-agents",
       "type": "mcp",
       "name": "PayGate MCP — Monetization Gateway for AI Agents",
@@ -9389,6 +9486,55 @@
         "repo": "Hexahedral-Inc/siren",
         "path": "ai.mysiren/siren",
         "url": "https://github.com/Hexahedral-Inc/siren",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:heysale/heysale-mcp:io.github.heysale/heysale#heysale-—-ai-website-salesperson",
+      "type": "mcp",
+      "name": "HeySale — AI Website Salesperson",
+      "description": {
+        "zh": null,
+        "en": "Create and install an AI Website Salesperson for sales, qualification, and lead capture.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "heysale/heysale-mcp",
+        "path": "io.github.heysale/heysale",
+        "url": "https://github.com/heysale/heysale-mcp",
         "tier": 0
       },
       "quality": {
@@ -12523,6 +12669,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:ai.onsa/onsa#onsa",
+      "type": "mcp",
+      "name": "Onsa",
+      "description": {
+        "zh": null,
+        "en": "Find scored B2B leads, read campaign replies and send approved LinkedIn outreach.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.onsa/onsa",
+        "url": "https://onsa.ai/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:ai.plyto/crm#plyto",
       "type": "mcp",
       "name": "Plyto",
@@ -15333,105 +15528,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:com.moltlinestudio/data#moltline-data-desk",
-      "type": "mcp",
-      "name": "Moltline Data Desk",
-      "description": {
-        "zh": null,
-        "en": "Paste-your-data analytics: CSV profiling, A/B tests, correlation, growth. 4 of 7 free.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "data",
-        "business"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "com.moltlinestudio/data",
-        "url": "https://moltlinestudio.com/servers.html#data",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:mcp-official:com.moltlinestudio/outbound#moltline-outbound-engine",
-      "type": "mcp",
-      "name": "Moltline Outbound Engine",
-      "description": {
-        "zh": null,
-        "en": "7 outreach, sequencing, call-coaching and CRM-hygiene skill products. 6 of 8 free.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "business"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "com.moltlinestudio/outbound",
-        "url": "https://moltlinestudio.com/servers.html#outbound",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:mcp-official:com.nameshift/marketplace#com.nameshift-marketplace",
       "type": "mcp",
       "name": "com.nameshift/marketplace",
@@ -15554,6 +15650,56 @@
         "repo": null,
         "path": "com.oceanbuilders/inventory",
         "url": "https://oceanbuilders.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.onlinecomponents/onlinecomponents-search#com.onlinecomponents-onlinecomponents-search",
+      "type": "mcp",
+      "name": "com.onlinecomponents/onlinecomponents-search",
+      "description": {
+        "zh": null,
+        "en": "Search real-time stock, pricing, and specs for electronic components on OnlineComponents.com",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "research",
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.onlinecomponents/onlinecomponents-search",
+        "url": "https://registry.modelcontextprotocol.io/?q=com.onlinecomponents%2Fonlinecomponents-search",
         "tier": 0
       },
       "quality": {
@@ -15851,6 +15997,55 @@
         "repo": null,
         "path": "com.relmcrm/relm",
         "url": "https://relmcrm.com/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.rivalsweeper/signals#com.rivalsweeper-signals",
+      "type": "mcp",
+      "name": "com.rivalsweeper/signals",
+      "description": {
+        "zh": null,
+        "en": "Beta. Pay-per-call eCommerce competitive intel for AI agents: pricing, promos, readiness & more.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.rivalsweeper/signals",
+        "url": "https://www.rivalsweeper.com/solutions/signals-api",
         "tier": 0
       },
       "quality": {
@@ -17286,6 +17481,57 @@
         "repo": null,
         "path": "io.github.Atlass-OS/atlass-os-mcp",
         "url": "https://app.atlass-os.com/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.brenton-keller/google-ads-transparency-center#google-ads-transparency-center-scraper",
+      "type": "mcp",
+      "name": "Google Ads Transparency Center Scraper",
+      "description": {
+        "zh": null,
+        "en": "Every Google ad an advertiser runs: creatives, formats, dates, reach. Search by domain or brand.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business",
+        "design",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.brenton-keller/google-ads-transparency-center",
+        "url": "https://apify.com/brenton8907/google-ads-transparency-center",
         "tier": 0
       },
       "quality": {
@@ -18848,6 +19094,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:studio.attache/attache#attaché",
+      "type": "mcp",
+      "name": "Attaché",
+      "description": {
+        "zh": null,
+        "en": "GA4, Google Ads and Search Console in Claude. Read-only OAuth, multi-account for agencies.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "research",
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "studio.attache/attache",
+        "url": "https://attache.studio",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:studio.kynth/kynth-mcp#studio.kynth-kynth-mcp",
       "type": "mcp",
       "name": "studio.kynth/kynth-mcp",
@@ -19264,6 +19560,57 @@
         "repo": "MSCandCo/sendifai",
         "path": "com.sendifai/platform",
         "url": "https://github.com/MSCandCo/sendifai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mtnrabi/google-flights-mcp:com.flightpowers/booking#booking.com-hotel-search-(live-prices)",
+      "type": "mcp",
+      "name": "Booking.com Hotel Search (Live Prices)",
+      "description": {
+        "zh": null,
+        "en": "Live Booking.com hotel prices, plus per-country pricing for rate-parity monitoring.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops",
+        "research",
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "mtnrabi/google-flights-mcp",
+        "path": "com.flightpowers/booking",
+        "url": "https://github.com/mtnrabi/google-flights-mcp",
         "tier": 0
       },
       "quality": {
@@ -19834,6 +20181,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:people-analyst/salesleader-site:guide.salesleader/salesleader-desk#guide.salesleader-salesleader-desk",
+      "type": "mcp",
+      "name": "guide.salesleader/salesleader-desk",
+      "description": {
+        "zh": null,
+        "en": "Read-only Sales Leader Guide desk: writers roster and magazine pieces. Public, no authentication.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "people-analyst/salesleader-site",
+        "path": "guide.salesleader/salesleader-desk",
+        "url": "https://github.com/people-analyst/salesleader-site",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:philly88r/localtry-mcp:io.github.philly88r/localtry-mcp#localtry-ai-crm",
       "type": "mcp",
       "name": "LocalTry AI CRM",
@@ -19856,6 +20252,57 @@
         "repo": "philly88r/localtry-mcp",
         "path": "io.github.philly88r/localtry-mcp",
         "url": "https://github.com/philly88r/localtry-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:pixapi-ai/mcp:io.github.pixapi-ai/pixapi-mcp#pixapi",
+      "type": "mcp",
+      "name": "Pixapi",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Pixapi: check live credit pricing and balance, then generate images and video.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business",
+        "meta",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Pixapi-AI/mcp",
+        "path": "io.github.Pixapi-AI/pixapi-mcp",
+        "url": "https://github.com/Pixapi-AI/mcp",
         "tier": 0
       },
       "quality": {
@@ -22201,6 +22648,56 @@
         "repo": "surfer42069/ionluz-mcp",
         "path": "io.github.surfer42069/ionluz",
         "url": "https://github.com/surfer42069/ionluz-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:t4dhg/mcp-holded:io.github.t4dhg/mcp-holded#mcp-holded",
+      "type": "mcp",
+      "name": "MCP Holded",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Holded (Spanish ERP): invoicing, accounting, treasury, CRM, projects, payroll.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "t4dhg/mcp-holded",
+        "path": "io.github.t4dhg/mcp-holded",
+        "url": "https://github.com/t4dhg/mcp-holded",
         "tier": 0
       },
       "quality": {

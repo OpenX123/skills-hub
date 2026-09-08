@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T21:54:15.402Z",
+  "generatedAt": "2026-09-08T21:33:03.611Z",
   "category": {
     "key": "security",
     "zh": "安全审计",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 641,
+  "total": 650,
   "entries": [
     {
       "id": "skill:composiohq/awesome-claude-skills:composio-skills/ahrefs-automation/skill.md#ahrefs-automation",
@@ -9124,55 +9124,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "rules:nedcodes-ok/cursorrules-collection:rules-mdc/practices/security.mdc#security",
-      "type": "rules",
-      "name": "security",
-      "description": {
-        "zh": null,
-        "en": "Security: input validation, auth, data protection",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "security"
-      ],
-      "targets": [
-        "cursor"
-      ],
-      "source": {
-        "repo": "nedcodes-ok/cursorrules-collection",
-        "path": "rules-mdc/practices/security.mdc",
-        "url": "https://github.com/nedcodes-ok/cursorrules-collection/blob/HEAD/rules-mdc/practices/security.mdc",
-        "tier": 2
-      },
-      "quality": {
-        "score": 31,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "low",
-        "score": 4
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 35,
-      "curatedMentions": 0
-    },
-    {
       "id": "skill:beshkenadze/claude-skills-marketplace:skills/development/code-reviewer/skill.md#code-reviewer",
       "type": "skill",
       "name": "code-reviewer",
@@ -9328,6 +9279,55 @@
       "templateFamily": null,
       "familySize": 0,
       "stars": 26,
+      "curatedMentions": 0
+    },
+    {
+      "id": "rules:nedcodes-ok/cursorrules-collection:rules-mdc/practices/security.mdc#security",
+      "type": "rules",
+      "name": "security",
+      "description": {
+        "zh": null,
+        "en": "Security: input validation, auth, data protection",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "cursor"
+      ],
+      "source": {
+        "repo": "nedcodes-ok/cursorrules-collection",
+        "path": "rules-mdc/practices/security.mdc",
+        "url": "https://github.com/nedcodes-ok/cursorrules-collection/blob/HEAD/rules-mdc/practices/security.mdc",
+        "tier": 2
+      },
+      "quality": {
+        "score": 30,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "low",
+        "score": 4
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 35,
       "curatedMentions": 0
     },
     {
@@ -11197,6 +11197,55 @@
         "repo": "mambalabsdev/mcp-domain-deliverability-checker",
         "path": "com.mambabuilt/mcp-domain-deliverability-checker",
         "url": "https://github.com/mambalabsdev/mcp-domain-deliverability-checker",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:mnemox-ai/tradememory-protocol:io.github.mnemox-ai/tradememory-protocol#io.github.mnemox-ai-tradememory-protocol",
+      "type": "mcp",
+      "name": "io.github.mnemox-ai/tradememory-protocol",
+      "description": {
+        "zh": null,
+        "en": "Tamper-evident decision audit trail and outcome-weighted memory for AI trading agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "mnemox-ai/tradememory-protocol",
+        "path": "io.github.mnemox-ai/tradememory-protocol",
+        "url": "https://github.com/mnemox-ai/tradememory-protocol",
         "tier": 0
       },
       "quality": {
@@ -14424,6 +14473,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:bailinghub/bailinghub-mcp-server:io.github.bailinghub/bailinghub-governance#bailinghub-for-business-operations",
+      "type": "mcp",
+      "name": "BailingHub for Business Operations",
+      "description": {
+        "zh": null,
+        "en": "Let AI agents query and operate business systems with authorization, approval and audit trails.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "bailinghub/bailinghub-mcp-server",
+        "path": "io.github.bailinghub/bailinghub-governance",
+        "url": "https://github.com/bailinghub/bailinghub-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:barissozudogru/gha-intel-mcp:io.github.barissozudogru/gha-intel#io.github.barissozudogru-gha-intel",
       "type": "mcp",
       "name": "io.github.barissozudogru/gha-intel",
@@ -17233,6 +17331,105 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:ee324/a2awire:com.a2awire/data-go-vulnerability-golang-security#go-vulnerability-database-tracker-—-buy-per-query-in-session",
+      "type": "mcp",
+      "name": "Go Vulnerability Database Tracker — buy per-query in-session (govulnwatch)",
+      "description": {
+        "zh": null,
+        "en": "Go vulnerability database: new GO-IDs, CVE aliases, amended advisories for Go deps",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ee324/a2awire",
+        "path": "com.a2awire/data-go-vulnerability-golang-security",
+        "url": "https://github.com/ee324/a2awire",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:ee324/a2awire:com.a2awire/data-rust-security-crate-vulnerability#rust-crate-security-advisories-—-buy-per-query-in-session-(r",
+      "type": "mcp",
+      "name": "Rust Crate Security Advisories — buy per-query in-session (rustsecwatch)",
+      "description": {
+        "zh": null,
+        "en": "New RustSec advisories: crate vulnerabilities, malicious crates, unmaintained crates",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ee324/a2awire",
+        "path": "com.a2awire/data-rust-security-crate-vulnerability",
+        "url": "https://github.com/ee324/a2awire",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:ee324/a2awire:com.a2awire/data-ubuntu-security-linux-vulnerability#ubuntu-security-notices-usn-(usnwatch)-—-buy-per-query-in-se",
       "type": "mcp",
       "name": "Ubuntu Security Notices / USN (usnwatch) — buy per-query in-session",
@@ -17304,6 +17501,55 @@
         "repo": "ee324/a2awire",
         "path": "com.a2awire/data-windows-security-update-microsoft-cvrf",
         "url": "https://github.com/ee324/a2awire",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:ejazmu/savingslast:com.savingslast/calculators#savingslast-retirement-calculators",
+      "type": "mcp",
+      "name": "SavingsLast retirement calculators",
+      "description": {
+        "zh": null,
+        "en": "Retirement drawdown, 72(t) SEPP, RMD, Roth conversion, Social Security and state-tax calculators.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ejazmu/savingslast",
+        "path": "com.savingslast/calculators",
+        "url": "https://github.com/ejazmu/savingslast",
         "tier": 0
       },
       "quality": {
@@ -17779,7 +18025,7 @@
       "type": "mcp",
       "name": "航班管家航空数据 MCP | Flight Master Aviation Data MCP",
       "description": {
-        "zh": "航班管家 DAST 官方航空数据 MCP，提供航班动态、天气、轨迹、延误风险及机场/航司运行统计。Official Flight Master aviation data MCP.",
+        "zh": "航班管家 DAST 官方航空数据 MCP，支持 Remote HTTP 与 npm STDIO，提供航班动态、天气、轨迹及延误风险。Official Flight Master MCP.",
         "en": null,
         "zhEngine": null,
         "needsTranslation": [
@@ -17788,8 +18034,7 @@
       },
       "lang": "mixed",
       "categories": [
-        "security",
-        "data"
+        "security"
       ],
       "targets": [
         "mcp-client"
@@ -17994,6 +18239,155 @@
         "repo": "gambadio/onepassword-agent-mcp",
         "path": "io.github.gambadio/onepassword-agent-mcp",
         "url": "https://github.com/gambadio/onepassword-agent-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:garphengate/moltline-mcp:com.moltlinestudio/codereview#moltline-code-review",
+      "type": "mcp",
+      "name": "Moltline Code Review",
+      "description": {
+        "zh": null,
+        "en": "Risk-scan a diff, flag AI-generated-code tells, find secrets. 5 of 7 tools need no account.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "GarphenGate/moltline-mcp",
+        "path": "com.moltlinestudio/codereview",
+        "url": "https://github.com/GarphenGate/moltline-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:garphengate/moltline-mcp:com.moltlinestudio/govern#moltline-agent-governance",
+      "type": "mcp",
+      "name": "Moltline Agent Governance",
+      "description": {
+        "zh": null,
+        "en": "Audit MCP configs and skill files for over-broad scope and injection risk. 6 of 8 free.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "GarphenGate/moltline-mcp",
+        "path": "com.moltlinestudio/govern",
+        "url": "https://github.com/GarphenGate/moltline-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:garphengate/moltline-mcp:com.moltlinestudio/skillmd-lint#skill.md-lint",
+      "type": "mcp",
+      "name": "SKILL.md Lint",
+      "description": {
+        "zh": null,
+        "en": "Lint a SKILL.md for frontmatter, structure, secrets and size. All 6 tools free.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "GarphenGate/moltline-mcp",
+        "path": "com.moltlinestudio/skillmd-lint",
+        "url": "https://github.com/GarphenGate/moltline-mcp",
         "tier": 0
       },
       "quality": {
@@ -22916,155 +23310,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:com.moltlinestudio/codereview#moltline-code-review",
-      "type": "mcp",
-      "name": "Moltline Code Review",
-      "description": {
-        "zh": null,
-        "en": "Risk-scan a diff, flag AI-generated-code tells, find secrets. 5 of 7 tools need no account.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding",
-        "security"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "com.moltlinestudio/codereview",
-        "url": "https://moltlinestudio.com/servers.html#codereview",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:mcp-official:com.moltlinestudio/govern#moltline-agent-governance",
-      "type": "mcp",
-      "name": "Moltline Agent Governance",
-      "description": {
-        "zh": null,
-        "en": "Audit MCP configs and skill files for over-broad scope and injection risk. 6 of 8 free.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "security"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "com.moltlinestudio/govern",
-        "url": "https://moltlinestudio.com/servers.html#govern",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:mcp-official:com.moltlinestudio/skillmd-lint#skill.md-lint",
-      "type": "mcp",
-      "name": "SKILL.md Lint",
-      "description": {
-        "zh": null,
-        "en": "Lint a SKILL.md for frontmatter, structure, secrets and size. All 6 tools free.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding",
-        "security"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "com.moltlinestudio/skillmd-lint",
-        "url": "https://moltlinestudio.com/servers.html#skillmd-lint",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:mcp-official:com.nexaaly/a11y-check#com.nexaaly-a11y-check",
       "type": "mcp",
       "name": "com.nexaaly/a11y-check",
@@ -24324,6 +24569,55 @@
         "repo": null,
         "path": "dev.workers.marvin-odigo.mcp/krabbot-devtools",
         "url": "https://mcp.marvin-odigo.workers.dev",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:dev.workers.rjhsignaltech.ai/licence-audit#licence-audit,-page-read-and-endpoint-check-(ai-operated)",
+      "type": "mcp",
+      "name": "Licence audit, page read and endpoint check (AI-operated)",
+      "description": {
+        "zh": null,
+        "en": "AI-operated. Free previews: licences, page reads, endpoint checks. Full audit 5 USD card or x402.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "dev.workers.rjhsignaltech.ai/licence-audit",
+        "url": "https://omnia-sell.rjhsignaltech.workers.dev/",
         "tier": 0
       },
       "quality": {
@@ -27413,6 +27707,105 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:nickgeorgeseo/mcp-gatehouse:io.github.nickgeorgeseo/gatehouse#mcp-gatehouse",
+      "type": "mcp",
+      "name": "mcp-gatehouse",
+      "description": {
+        "zh": null,
+        "en": "Permission tiers, approval gates, and audit logging for MCP servers - the server is the gatekeeper",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "nickgeorgeseo/mcp-gatehouse",
+        "path": "io.github.nickgeorgeseo/gatehouse",
+        "url": "https://github.com/nickgeorgeseo/mcp-gatehouse",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:nilesh9783/flutter_structure_mcp:io.github.nilesh9783/flutter_structure_mcp#io.github.nilesh9783-flutter_structure_mcp",
+      "type": "mcp",
+      "name": "io.github.Nilesh9783/flutter_structure_mcp",
+      "description": {
+        "zh": null,
+        "en": "Audit architecture, security, memory, and code quality in Flutter, Laravel, Node, Python, & Vue.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Nilesh9783/flutter_structure_mcp",
+        "path": "io.github.Nilesh9783/flutter_structure_mcp",
+        "url": "https://github.com/Nilesh9783/flutter_structure_mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:nimishrangani/banproof-mcp:io.github.nimishrangani/banproof-mcp#banproof-ai",
       "type": "mcp",
       "name": "BanProof AI",
@@ -30231,55 +30624,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:unnamedaiagent/sigtap-agent-tools:io.github.unnamedaiagent/sigtap-agent-tools#sigtap-agent-tools",
-      "type": "mcp",
-      "name": "sigtap Agent Tools",
-      "description": {
-        "zh": null,
-        "en": "13 paid x402 micro-tools, USDC on Base: email audit/grade/templates, hash, JWT, UUID, slug, regex.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "security"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "unnamedaiagent/sigtap-agent-tools",
-        "path": "io.github.unnamedaiagent/sigtap-agent-tools",
-        "url": "https://github.com/unnamedaiagent/sigtap-agent-tools",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:uxlint-net/uxlint-cli:io.github.uxlint-net/uxlint#uxlint",
       "type": "mcp",
       "name": "uxlint",
@@ -30826,6 +31170,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:w0h1v/mcp-shodan:io.github.w0h1v/shodan#io.github.w0h1v-shodan",
+      "type": "mcp",
+      "name": "io.github.w0h1v/shodan",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Shodan API — device search, IP lookup, DNS, and CVE/CPE queries.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "security",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "w0h1v/mcp-shodan",
+        "path": "io.github.w0h1v/shodan",
+        "url": "https://github.com/w0h1v/mcp-shodan",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:wearewarp/mcp-server:com.wearewarp.www/freight#warp-freight",
       "type": "mcp",
       "name": "Warp Freight",
@@ -30924,6 +31319,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:wgd5678/license-sentinel:io.github.wgd5678/license-sentinel#io.github.wgd5678-license-sentinel",
+      "type": "mcp",
+      "name": "io.github.wgd5678/license-sentinel",
+      "description": {
+        "zh": null,
+        "en": "Audit Python and npm dependency licenses before you ship, judged against how you distribute.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "wgd5678/license-sentinel",
+        "path": "io.github.wgd5678/license-sentinel",
+        "url": "https://github.com/wgd5678/license-sentinel",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:white-hat-lab/agent-toolkit-mcp:io.github.white-hat-lab/agent-toolkit#io.github.white-hat-lab-agent-toolkit",
       "type": "mcp",
       "name": "io.github.white-hat-lab/agent-toolkit",
@@ -30974,7 +31419,7 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:whois-api-llc/wxa-mcp-server:io.github.whois-api-llc/mcp-whoisxmlapi#io.github.whois-api-llc-mcp-whoisxmlapi",
+      "id": "mcp:whoisxmlapi/mcp-whoisxmlapi:io.github.whois-api-llc/mcp-whoisxmlapi#io.github.whois-api-llc-mcp-whoisxmlapi",
       "type": "mcp",
       "name": "io.github.whois-api-llc/mcp-whoisxmlapi",
       "description": {
@@ -30993,9 +31438,9 @@
         "mcp-client"
       ],
       "source": {
-        "repo": "whois-api-llc/wxa-mcp-server",
+        "repo": "whoisxmlapi/mcp-whoisxmlapi",
         "path": "io.github.whois-api-llc/mcp-whoisxmlapi",
-        "url": "https://github.com/whois-api-llc/wxa-mcp-server",
+        "url": "https://github.com/whoisxmlapi/mcp-whoisxmlapi",
         "tier": 0
       },
       "quality": {

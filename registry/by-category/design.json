@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T21:54:15.402Z",
+  "generatedAt": "2026-09-08T21:33:03.611Z",
   "category": {
     "key": "design",
     "zh": "设计创意",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 620,
+  "total": 624,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/brand-guidelines/skill.md#brand-guidelines",
@@ -16840,6 +16840,61 @@
       "curatedMentions": 1
     },
     {
+      "id": "skill:huangwb8/skills:skills/alpha/verifier-state-architect/skill.md#verifier-state-architect",
+      "type": "skill",
+      "name": "verifier-state-architect",
+      "description": {
+        "zh": "为任意 Agent Skill 设计、实现、接入或精简 Verifier 与 State；当用户希望给目标 skill 配置验证器/状态机、落实已有设计，或仅规划和审查架构时使用，尤其适合需要避免过度设计、硬编码并符合 Kernel 契约的任务。",
+        "en": null,
+        "zhEngine": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "zh",
+      "categories": [
+        "meta",
+        "coding",
+        "design"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "huangwb8/skills",
+        "path": "skills/alpha/verifier-state-architect/SKILL.md",
+        "url": "https://github.com/huangwb8/skills/blob/HEAD/skills/alpha/verifier-state-architect/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 52,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 48,
+      "curatedMentions": 1
+    },
+    {
       "id": "rules:sanjeed5/awesome-cursor-rules-mdc:rules-mdc/css.mdc#css",
       "type": "rules",
       "name": "css",
@@ -20729,7 +20784,7 @@
       "name": "io.github.alisaitteke/photoshop-mcp",
       "description": {
         "zh": null,
-        "en": "MCP server for Adobe Photoshop — 102 tools (generative AI + recipes), standalone web UI. Control Ph…",
+        "en": "MCP server for Adobe Photoshop — 118 tools (generative AI + recipes), standalone web UI. Control Ph…",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -21345,55 +21400,6 @@
         "repo": "Boring-Stuff-Club/the-scribble-thing-skill",
         "path": "club.boringstuff/the-scribble-thing",
         "url": "https://github.com/Boring-Stuff-Club/the-scribble-thing-skill",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:branderux/branderux-mcp:com.branderux/mcp#com.branderux-mcp",
-      "type": "mcp",
-      "name": "com.branderux/mcp",
-      "description": {
-        "zh": null,
-        "en": "Build agentic applications from any MCP client: projects, brand, elements, screens, keys, agent.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "design"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "BranderUX/branderux-mcp",
-        "path": "com.branderux/mcp",
-        "url": "https://github.com/BranderUX/branderux-mcp",
         "tier": 0
       },
       "quality": {
@@ -22759,6 +22765,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:garphengate/moltline-mcp:com.moltlinestudio/creator#moltline-creator-studio",
+      "type": "mcp",
+      "name": "Moltline Creator Studio",
+      "description": {
+        "zh": null,
+        "en": "20 blogging, brand-voice, copywriting, video and social skill products. 6 of 8 free.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "design",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "GarphenGate/moltline-mcp",
+        "path": "com.moltlinestudio/creator",
+        "url": "https://github.com/GarphenGate/moltline-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:gene12williams-design/getdigitalcraft-mcp-render:io.github.gene12williams-design/getdigitalcraft-mcp-render#io.github.gene12williams-design-getdigitalcraft-mcp-render",
       "type": "mcp",
       "name": "io.github.gene12williams-design/getdigitalcraft-mcp-render",
@@ -23428,56 +23485,6 @@
         "repo": "johnbehar1500-ux/valuation-api",
         "path": "io.github.johnbehar1500-ux/valuation-api",
         "url": "https://github.com/johnbehar1500-ux/valuation-api",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:kandahk/shipd:io.github.kandahk/shiped#shiped",
-      "type": "mcp",
-      "name": "Shiped",
-      "description": {
-        "zh": null,
-        "en": "Deploy AI-generated HTML/CSS/JS to instant public HTTPS URLs from any MCP-compatible agent.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "devops",
-        "design"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "kandahk/shipd",
-        "path": "io.github.kandahk/shiped",
-        "url": "https://github.com/kandahk/shipd",
         "tier": 0
       },
       "quality": {
@@ -25428,6 +25435,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.almirall/mcp#almirall-mcp",
+      "type": "mcp",
+      "name": "Almirall MCP",
+      "description": {
+        "zh": null,
+        "en": "Official Almirall company, product and brand info: Almax, Hidroxil, Calmatel, Cicopoli and more.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.almirall/mcp",
+        "url": "https://www.almirall.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.beforevibe/mcp#beforevibe",
       "type": "mcp",
       "name": "BEFOREVIBE",
@@ -25482,7 +25538,7 @@
       "name": "Brixa Studio",
       "description": {
         "zh": null,
-        "en": "Living brand templates your AI assistant fills, resizes and renders — straight from the chat.",
+        "en": "Your design, automated endlessly. Design anywhere, Brixa freezes it as a template, publishes forever",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -25894,57 +25950,6 @@
         "repo": null,
         "path": "com.mentiondrop/mentiondrop",
         "url": "https://www.mentiondrop.com",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:mcp-official:com.moltlinestudio/creator#moltline-creator-studio",
-      "type": "mcp",
-      "name": "Moltline Creator Studio",
-      "description": {
-        "zh": null,
-        "en": "20 blogging, brand-voice, copywriting, video and social skill products. 6 of 8 free.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "writing",
-        "design",
-        "media"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "com.moltlinestudio/creator",
-        "url": "https://moltlinestudio.com/servers.html#creator",
         "tier": 0
       },
       "quality": {
@@ -26668,7 +26673,7 @@
       "name": "dev.agentic-atlas/atlas",
       "description": {
         "zh": null,
-        "en": "Agent-design pattern guidance via 8 hosted read-only tools; Streamable HTTP, no auth, one Release.",
+        "en": "Agent-design pattern guidance via 5 hosted read-only tools; Streamable HTTP, no auth, one Release.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -26933,6 +26938,57 @@
         "repo": null,
         "path": "eu.cuttingtoolsai/reference",
         "url": "https://cuttingtoolsai.eu",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.brenton-keller/google-ads-transparency-center#google-ads-transparency-center-scraper",
+      "type": "mcp",
+      "name": "Google Ads Transparency Center Scraper",
+      "description": {
+        "zh": null,
+        "en": "Every Google ad an advertiser runs: creatives, formats, dates, reach. Search by domain or brand.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business",
+        "design",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.brenton-keller/google-ads-transparency-center",
+        "url": "https://apify.com/brenton8907/google-ads-transparency-center",
         "tier": 0
       },
       "quality": {
@@ -29091,6 +29147,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:omnidebuglink/omnidebuglink:dev.omnidebuglink/omnidebuglink#omnidebuglink",
+      "type": "mcp",
+      "name": "OmniDebugLink",
+      "description": {
+        "zh": null,
+        "en": "remote debug iOS/Android/Unity/Godot/Flutter/RN/Web on real-device.ui-tree/screenshots/taps,tests.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "omnidebuglink/omnidebuglink",
+        "path": "dev.omnidebuglink/omnidebuglink",
+        "url": "https://github.com/omnidebuglink/omnidebuglink",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:openephemeris/openephemeris-mcp:com.openephemeris/open-ephemeris#com.openephemeris-open-ephemeris",
       "type": "mcp",
       "name": "com.openephemeris/open-ephemeris",
@@ -29739,6 +29845,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:roesmannamelie-alt/systra-tools-plugin:tools.systra/systra-tools#systra-tools",
+      "type": "mcp",
+      "name": "Systra Tools",
+      "description": {
+        "zh": null,
+        "en": "Search and pull 500+ production-ready React + Tailwind sections and elements",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design",
+        "coding",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "roesmannamelie-alt/systra-tools-plugin",
+        "path": "tools.systra/systra-tools",
+        "url": "https://github.com/roesmannamelie-alt/systra-tools-plugin",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:rudrendupaul/slop-eval:io.github.rudrendupaul/slop-eval#io.github.rudrendupaul-slop-eval",
       "type": "mcp",
       "name": "io.github.RudrenduPaul/slop-eval",
@@ -29911,6 +30068,56 @@
         "repo": "shilpibuilder/shilpi-mcp",
         "path": "com.shilpibuilder/shilpi",
         "url": "https://github.com/shilpibuilder/shilpi-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:shiped-app/shiped-mcp:io.github.kandahk/shiped#shiped",
+      "type": "mcp",
+      "name": "Shiped",
+      "description": {
+        "zh": null,
+        "en": "Deploy AI-generated HTML/CSS/JS to instant public HTTPS URLs from any MCP-compatible agent.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops",
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "shiped-app/shiped-mcp",
+        "path": "io.github.kandahk/shiped",
+        "url": "https://github.com/shiped-app/shiped-mcp",
         "tier": 0
       },
       "quality": {

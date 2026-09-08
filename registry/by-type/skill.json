@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T21:54:15.402Z",
+  "generatedAt": "2026-09-08T21:33:03.611Z",
   "type": "skill",
   "label": {
     "zh": "技能",
@@ -100525,7 +100525,7 @@
       "type": "skill",
       "name": "verifier-state-architect",
       "description": {
-        "zh": "帮助设计或审查 Agent Skill 的 Verifier 与 State 架构。只要用户要为 skill 规划、评估、精简或接入 verifier/state，尤其担心形式主义、过度设计、硬编码或 Kernel 契约不匹配，就使用本技能。它先理解目标 skill 的业务流程，再判断是否真的需要这些外挂，输出可执行的 Markdown 设计计划；不直接创建状态机或验证器实现。",
+        "zh": "为任意 Agent Skill 设计、实现、接入或精简 Verifier 与 State；当用户希望给目标 skill 配置验证器/状态机、落实已有设计，或仅规划和审查架构时使用，尤其适合需要避免过度设计、硬编码并符合 Kernel 契约的任务。",
         "en": null,
         "zhEngine": null,
         "needsTranslation": [
@@ -100534,9 +100534,9 @@
       },
       "lang": "zh",
       "categories": [
-        "document",
         "meta",
-        "coding"
+        "coding",
+        "design"
       ],
       "targets": [
         "claude-code",
