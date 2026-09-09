@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T21:33:03.611Z",
+  "generatedAt": "2026-09-09T21:29:12.476Z",
   "category": {
     "key": "meta",
     "zh": "Agent 基建",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 2762,
+  "total": 2787,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/skill-creator/skill.md#skill-creator",
@@ -570,276 +570,6 @@
       "curatedMentions": 5
     },
     {
-      "id": "skill:obra/superpowers:skills/dispatching-parallel-agents/skill.md#dispatching-parallel-agents",
-      "type": "skill",
-      "name": "dispatching-parallel-agents",
-      "description": {
-        "zh": null,
-        "en": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "meta",
-        "coding"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "obra/superpowers",
-        "path": "skills/dispatching-parallel-agents/SKILL.md",
-        "url": "https://github.com/obra/superpowers/blob/HEAD/skills/dispatching-parallel-agents/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 95,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 1,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 271206,
-      "curatedMentions": 8
-    },
-    {
-      "id": "skill:obra/superpowers:skills/executing-plans/skill.md#executing-plans",
-      "type": "skill",
-      "name": "executing-plans",
-      "description": {
-        "zh": null,
-        "en": "Use when you have a written implementation plan to execute in a separate session with review checkpoints",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "meta",
-        "coding"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "obra/superpowers",
-        "path": "skills/executing-plans/SKILL.md",
-        "url": "https://github.com/obra/superpowers/blob/HEAD/skills/executing-plans/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 95,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 271206,
-      "curatedMentions": 8
-    },
-    {
-      "id": "skill:obra/superpowers:skills/finishing-a-development-branch/skill.md#finishing-a-development-branch",
-      "type": "skill",
-      "name": "finishing-a-development-branch",
-      "description": {
-        "zh": null,
-        "en": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "meta",
-        "coding"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "obra/superpowers",
-        "path": "skills/finishing-a-development-branch/SKILL.md",
-        "url": "https://github.com/obra/superpowers/blob/HEAD/skills/finishing-a-development-branch/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 95,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 271206,
-      "curatedMentions": 8
-    },
-    {
-      "id": "skill:obra/superpowers:skills/using-git-worktrees/skill.md#using-git-worktrees",
-      "type": "skill",
-      "name": "using-git-worktrees",
-      "description": {
-        "zh": null,
-        "en": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "meta",
-        "coding"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "obra/superpowers",
-        "path": "skills/using-git-worktrees/SKILL.md",
-        "url": "https://github.com/obra/superpowers/blob/HEAD/skills/using-git-worktrees/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 95,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 271206,
-      "curatedMentions": 8
-    },
-    {
-      "id": "skill:obra/superpowers:skills/verification-before-completion/skill.md#verification-before-completion",
-      "type": "skill",
-      "name": "verification-before-completion",
-      "description": {
-        "zh": null,
-        "en": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "meta",
-        "coding"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "obra/superpowers",
-        "path": "skills/verification-before-completion/SKILL.md",
-        "url": "https://github.com/obra/superpowers/blob/HEAD/skills/verification-before-completion/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 95,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 1,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 271206,
-      "curatedMentions": 8
-    },
-    {
       "id": "skill:composiohq/awesome-claude-skills:developer-growth-analysis/skill.md#developer-growth-analysis",
       "type": "skill",
       "name": "developer-growth-analysis",
@@ -893,6 +623,276 @@
       "familySize": 0,
       "stars": 70870,
       "curatedMentions": 5
+    },
+    {
+      "id": "skill:obra/superpowers:skills/dispatching-parallel-agents/skill.md#dispatching-parallel-agents",
+      "type": "skill",
+      "name": "dispatching-parallel-agents",
+      "description": {
+        "zh": null,
+        "en": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "obra/superpowers",
+        "path": "skills/dispatching-parallel-agents/SKILL.md",
+        "url": "https://github.com/obra/superpowers/blob/HEAD/skills/dispatching-parallel-agents/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 94,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 1,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 271206,
+      "curatedMentions": 8
+    },
+    {
+      "id": "skill:obra/superpowers:skills/executing-plans/skill.md#executing-plans",
+      "type": "skill",
+      "name": "executing-plans",
+      "description": {
+        "zh": null,
+        "en": "Use when you have a written implementation plan to execute in a separate session with review checkpoints",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "obra/superpowers",
+        "path": "skills/executing-plans/SKILL.md",
+        "url": "https://github.com/obra/superpowers/blob/HEAD/skills/executing-plans/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 94,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 271206,
+      "curatedMentions": 8
+    },
+    {
+      "id": "skill:obra/superpowers:skills/finishing-a-development-branch/skill.md#finishing-a-development-branch",
+      "type": "skill",
+      "name": "finishing-a-development-branch",
+      "description": {
+        "zh": null,
+        "en": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "obra/superpowers",
+        "path": "skills/finishing-a-development-branch/SKILL.md",
+        "url": "https://github.com/obra/superpowers/blob/HEAD/skills/finishing-a-development-branch/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 94,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 271206,
+      "curatedMentions": 8
+    },
+    {
+      "id": "skill:obra/superpowers:skills/using-git-worktrees/skill.md#using-git-worktrees",
+      "type": "skill",
+      "name": "using-git-worktrees",
+      "description": {
+        "zh": null,
+        "en": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "obra/superpowers",
+        "path": "skills/using-git-worktrees/SKILL.md",
+        "url": "https://github.com/obra/superpowers/blob/HEAD/skills/using-git-worktrees/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 94,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 271206,
+      "curatedMentions": 8
+    },
+    {
+      "id": "skill:obra/superpowers:skills/verification-before-completion/skill.md#verification-before-completion",
+      "type": "skill",
+      "name": "verification-before-completion",
+      "description": {
+        "zh": null,
+        "en": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "obra/superpowers",
+        "path": "skills/verification-before-completion/SKILL.md",
+        "url": "https://github.com/obra/superpowers/blob/HEAD/skills/verification-before-completion/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 94,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 1,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 271206,
+      "curatedMentions": 8
     },
     {
       "id": "plugin:obra/superpowers:.claude-plugin/marketplace.json#superpowers",
@@ -1246,7 +1246,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -1301,7 +1301,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -1354,7 +1354,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -1409,7 +1409,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -1464,7 +1464,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -1517,7 +1517,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -1570,7 +1570,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -1625,7 +1625,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -1679,7 +1679,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -1733,7 +1733,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -1787,7 +1787,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -1841,7 +1841,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -1895,7 +1895,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -1949,7 +1949,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -2003,7 +2003,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -2056,7 +2056,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -2109,7 +2109,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -2162,7 +2162,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -2216,7 +2216,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -2271,7 +2271,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -2324,7 +2324,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -2378,7 +2378,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -2433,7 +2433,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -2488,7 +2488,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -2543,7 +2543,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -2598,7 +2598,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -2653,7 +2653,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -2707,7 +2707,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -2762,7 +2762,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -2817,7 +2817,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -2872,7 +2872,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -2927,7 +2927,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -2982,7 +2982,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -3037,7 +3037,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -3090,7 +3090,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -3145,7 +3145,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -3200,7 +3200,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -3255,7 +3255,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -3310,7 +3310,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -3365,7 +3365,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -3420,7 +3420,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -3475,7 +3475,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -3530,7 +3530,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -3585,7 +3585,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -3639,7 +3639,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -3693,7 +3693,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -3743,7 +3743,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -3794,7 +3794,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -3845,7 +3845,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -3895,7 +3895,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -3946,7 +3946,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -4001,7 +4001,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:senior-prompt-engineer",
       "familySize": 5,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -4056,7 +4056,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:senior-prompt-engineer",
       "familySize": 5,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -4106,7 +4106,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -4156,7 +4156,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -4206,7 +4206,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -4256,7 +4256,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -4306,7 +4306,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -4357,7 +4357,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -4407,7 +4407,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -4457,7 +4457,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -4507,7 +4507,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -4557,7 +4557,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -4607,7 +4607,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -4657,7 +4657,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -4707,7 +4707,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -4757,7 +4757,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30560,
+      "stars": 30576,
       "curatedMentions": 2
     },
     {
@@ -11490,7 +11490,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 823,
+      "stars": 828,
       "curatedMentions": 1
     },
     {
@@ -27975,6 +27975,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:aceatdev/odysseus-web-mcp:io.github.aceatdev/odysseus-web-mcp#odysseus-web-mcp",
+      "type": "mcp",
+      "name": "Odysseus Web MCP",
+      "description": {
+        "zh": null,
+        "en": "Secure MCP server for public web search and URL fetching.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "AceAtDev/odysseus-web-mcp",
+        "path": "io.github.AceAtDev/odysseus-web-mcp",
+        "url": "https://github.com/AceAtDev/odysseus-web-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:acedatacloud/aichatmcp:io.github.acedatacloud/mcp-aichat#io.github.acedatacloud-mcp-aichat",
       "type": "mcp",
       "name": "io.github.AceDataCloud/mcp-aichat",
@@ -30307,12 +30357,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:alyiox/mcp-walmart-ads:io.github.alyiox/mcp-walmart-ads#walmart-connect-advertising-apis",
+      "id": "mcp:alyiox/mcp-walmart-ads:io.github.alyiox/mcp-walmart-ads#walmart-apis",
       "type": "mcp",
-      "name": "Walmart Connect Advertising APIs",
+      "name": "Walmart APIs",
       "description": {
         "zh": null,
-        "en": "MCP server for Walmart Connect Ads APIs (Sponsored Search + Display)",
+        "en": "MCP server for Walmart Connect Ads, Sam's Club Sponsored Ads, and Walmart Marketplace APIs",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -30321,8 +30371,7 @@
       "lang": "en",
       "categories": [
         "business",
-        "meta",
-        "research"
+        "meta"
       ],
       "targets": [
         "mcp-client"
@@ -32356,6 +32405,55 @@
         "repo": "Async23/chrome-devtools-mcp",
         "path": "io.github.Async23/chrome-devtools-mcp",
         "url": "https://github.com/Async23/chrome-devtools-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:atlassian/atlassian-mcp-server:com.atlassian/atlassian-mcp-server#atlassian-rovo-mcp-server",
+      "type": "mcp",
+      "name": "Atlassian Rovo MCP Server",
+      "description": {
+        "zh": null,
+        "en": "Connect to Atlassian Jira, Confluence, Loom, and more to search, create, and manage your work.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "atlassian/atlassian-mcp-server",
+        "path": "com.atlassian/atlassian-mcp-server",
+        "url": "https://github.com/atlassian/atlassian-mcp-server",
         "tier": 0
       },
       "quality": {
@@ -35989,6 +36087,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:chhavimishra/originselect-mcp-server:io.github.chhavimishra/originselect-mcp-server#io.github.chhavimishra-originselect-mcp-server",
+      "type": "mcp",
+      "name": "io.github.chhavimishra/originselect-mcp-server",
+      "description": {
+        "zh": null,
+        "en": "Search ethical, origin-verified products and brands by country of origin",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "chhavimishra/originselect-mcp-server",
+        "path": "io.github.chhavimishra/originselect-mcp-server",
+        "url": "https://github.com/chhavimishra/originselect-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:chriphil70/mediamiddleware:io.github.chriphil70/clipforge#clipforge",
       "type": "mcp",
       "name": "ClipForge",
@@ -37127,7 +37274,7 @@
       "name": "io.github.CodesWhat/portkey-admin-mcp",
       "description": {
         "zh": null,
-        "en": "Portkey Admin API MCP server with current coverage and Prisma AIRS interoperability guidance.",
+        "en": "Portkey Admin API control-plane MCP server with Prisma AIRS interoperability guidance.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -37135,7 +37282,6 @@
       },
       "lang": "en",
       "categories": [
-        "testing",
         "meta",
         "database"
       ],
@@ -51430,6 +51576,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:danielsousaoliveira/auto-calendar-python:io.github.danielsousaoliveira/cal-auto-python#io.github.danielsousaoliveira-cal-auto-python",
+      "type": "mcp",
+      "name": "io.github.danielsousaoliveira/cal-auto-python",
+      "description": {
+        "zh": null,
+        "en": "Schedule a GitHub Projects backlog into Google Calendar, as a CLI or an MCP server.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "pm",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "danielsousaoliveira/auto-calendar-python",
+        "path": "io.github.danielsousaoliveira/cal-auto-python",
+        "url": "https://github.com/danielsousaoliveira/auto-calendar-python",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:dariuscorvus/obsidian-cli-mcp:io.github.dariuscorvus/obsidian-cli-mcp#obsidian-cli-mcp",
       "type": "mcp",
       "name": "Obsidian CLI MCP",
@@ -52560,6 +52757,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:dingw1982/quickstart-resources:io.github.dingw1982/weather#io.github.dingw1982-weather",
+      "type": "mcp",
+      "name": "io.github.dingw1982/weather",
+      "description": {
+        "zh": null,
+        "en": "An MCP server for weather information.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "dingw1982/quickstart-resources",
+        "path": "io.github.dingw1982/weather",
+        "url": "https://github.com/dingw1982/quickstart-resources",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:dljrealty/guesty-mcp-server:io.github.dljrealty/guesty#guesty-mcp-server",
       "type": "mcp",
       "name": "Guesty MCP Server",
@@ -52925,6 +53171,56 @@
         "repo": "doritoman90000/universal-game-modder",
         "path": "io.github.doritoman90000/universal-game-modder",
         "url": "https://github.com/doritoman90000/universal-game-modder",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:dpc00/sublime-mcp:io.github.dpc00/sublime-mcp#sublime-text-mcp",
+      "type": "mcp",
+      "name": "Sublime Text MCP",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Sublime Text 4. Lets AI coding agents read and control a running ST instance.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "dpc00/sublime-mcp",
+        "path": "io.github.dpc00/sublime-mcp",
+        "url": "https://github.com/dpc00/sublime-mcp",
         "tier": 0
       },
       "quality": {
@@ -53844,7 +54140,7 @@
       "name": "MCP Server Discovery — new model-context-protocol repos ($0.01/query)",
       "description": {
         "zh": null,
-        "en": "New MCP servers on GitHub: 24h newest + 7-day star leaderboard. Hourly. ($0.01/q)",
+        "en": "New MCP servers on GitHub: discovery index. $0.01/query. Register in-session — free testnet funds.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -53893,7 +54189,7 @@
       "name": "New MCP Server Directory (Agent Tools Index)",
       "description": {
         "zh": null,
-        "en": "Daily feed of newly published MCP servers from the official registry.",
+        "en": "MCP server index: newest agent tools listed. $0.01/query. Register in-session — free testnet funds.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -56630,6 +56926,55 @@
         "repo": "g-digital-by-Garrigues/EAD_Enterprise_Suite_MCP",
         "path": "io.github.g-digital-by-Garrigues/ead-enterprise-suite",
         "url": "https://github.com/g-digital-by-Garrigues/EAD_Enterprise_Suite_MCP",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:g-digital-by-garrigues/ead-factory-mcp:io.github.g-digital-by-garrigues/ead-factory#io.github.g-digital-by-garrigues-ead-factory",
+      "type": "mcp",
+      "name": "io.github.g-digital-by-Garrigues/ead-factory",
+      "description": {
+        "zh": null,
+        "en": "MCP server for EAD Factory: qualified evidence, signature, notifications and chat via AI agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "g-digital-by-Garrigues/EAD-Factory-MCP",
+        "path": "io.github.g-digital-by-Garrigues/ead-factory",
+        "url": "https://github.com/g-digital-by-Garrigues/EAD-Factory-MCP",
         "tier": 0
       },
       "quality": {
@@ -59575,6 +59920,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:html2pdfconverter/mcp-server:io.github.html2pdfconverter/mcp-server#io.github.html2pdfconverter-mcp-server",
+      "type": "mcp",
+      "name": "io.github.html2pdfconverter/mcp-server",
+      "description": {
+        "zh": null,
+        "en": "MCP server for HTML2PDF Converter",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "html2pdfconverter/mcp-server",
+        "path": "io.github.html2pdfconverter/mcp-server",
+        "url": "https://github.com/html2pdfconverter/mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:https://gitlab.com/clauderecallhq/claude-recall-plugin:com.clauderecall/recall#com.clauderecall-recall",
       "type": "mcp",
       "name": "com.clauderecall/recall",
@@ -60587,6 +60981,55 @@
         "repo": "IgniteUI/igniteui-theming",
         "path": "io.github.IgniteUI/igniteui-theming",
         "url": "https://github.com/IgniteUI/igniteui-theming",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:iixauii/kleinanzeigen-mcp:io.github.iixauii/kleinanzeigen#kleinanzeigen",
+      "type": "mcp",
+      "name": "Kleinanzeigen",
+      "description": {
+        "zh": null,
+        "en": "A read-only, robots-clean MCP server over kleinanzeigen.de",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "IIxauII/kleinanzeigen-mcp",
+        "path": "io.github.IIxauII/kleinanzeigen",
+        "url": "https://github.com/IIxauII/kleinanzeigen-mcp",
         "tier": 0
       },
       "quality": {
@@ -87017,6 +87460,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:khuisman/mcp-gee-sweet:io.github.khuisman/mcp-gee-sweet#io.github.khuisman-mcp-gee-sweet",
+      "type": "mcp",
+      "name": "io.github.khuisman/mcp-gee-sweet",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Google Workspace — Sheets, Drive, Docs (HTML or Markdown), and Calendar.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "khuisman/mcp-gee-sweet",
+        "path": "io.github.khuisman/mcp-gee-sweet",
+        "url": "https://github.com/khuisman/mcp-gee-sweet",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:kilawattcloud/kilawatt-mcp-server:io.github.kilawattcloud/kilawatt-mcp-server#io.github.kilawattcloud-kilawatt-mcp-server",
       "type": "mcp",
       "name": "io.github.KilaWattCloud/kilawatt-mcp-server",
@@ -95003,6 +95496,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:cl.alfabot/mcp-server#alfabot-mcp-server",
+      "type": "mcp",
+      "name": "Alfabot MCP Server",
+      "description": {
+        "zh": null,
+        "en": "Consulta de planes de productos Alfabot y agendamiento de reuniones para colegios y empresas",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "cl.alfabot/mcp-server",
+        "url": "https://alfabot.cl/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:cloud.agkit/agkit#cloud.agkit-agkit",
       "type": "mcp",
       "name": "cloud.agkit/agkit",
@@ -96257,6 +96799,56 @@
         "repo": null,
         "path": "com.defici/marketplace",
         "url": "https://registry.modelcontextprotocol.io/?q=com.defici%2Fmarketplace",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.devexpress/docs#devexpress-documentation",
+      "type": "mcp",
+      "name": "DevExpress Documentation",
+      "description": {
+        "zh": null,
+        "en": "Streamable HTTP MCP server for DevExpress documentation search and retrieval.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.devexpress/docs",
+        "url": "https://docs.devexpress.com/GeneralInformation/405551/help-resources/dev-express-documentation-mcp-server-configure-an-ai-powered-assistant",
         "tier": 0
       },
       "quality": {
@@ -101415,6 +102007,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.pascalorg/editor#pascal-3d-editor",
+      "type": "mcp",
+      "name": "Pascal 3D Editor",
+      "description": {
+        "zh": null,
+        "en": "Create, inspect, validate, and save editable 3D building scenes with Pascal's hosted MCP server.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.pascalorg/editor",
+        "url": "https://editor.pascal.app/docs/developers/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.pgtriage/pgtriage#pgtriage",
       "type": "mcp",
       "name": "pgtriage",
@@ -103143,6 +103785,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:net.dmytro-prototypes/cad-control-mcp-server#control-autocad-mcp-server",
+      "type": "mcp",
+      "name": "Control AutoCAD MCP Server",
+      "description": {
+        "zh": null,
+        "en": "Control AutoCAD with AI: commands, read/edit/write drawing database, AutoLISP, scripts, PDF plots.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "net.dmytro-prototypes/cad-control-mcp-server",
+        "url": "https://cad-control.dmytro-prototypes.net",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:net.dmytro-prototypes/cadbridge-mcp-autocad#cadbridge-mcp-server-for-autocad",
       "type": "mcp",
       "name": "CADBridge MCP Server for AutoCAD",
@@ -103165,6 +103856,55 @@
         "repo": null,
         "path": "net.dmytro-prototypes/cadbridge-mcp-autocad",
         "url": "https://cadbridge.dmytro-prototypes.net",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:net.dmytro-prototypes/control-mcp-server#control-autocad-mcp-server",
+      "type": "mcp",
+      "name": "Control AutoCAD MCP Server",
+      "description": {
+        "zh": null,
+        "en": "Control AutoCAD with AI: commands, read/edit/write drawing database, AutoLISP, scripts, PDF plots.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "net.dmytro-prototypes/control-mcp-server",
+        "url": "https://cad-control.dmytro-prototypes.net",
         "tier": 0
       },
       "quality": {
@@ -103984,6 +104724,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:meemoprasad/meeba-brain-marketplace:io.github.meemoprasad/meeba-brain#meeba-brain",
+      "type": "mcp",
+      "name": "Meeba Brain",
+      "description": {
+        "zh": null,
+        "en": "Repository knowledge graph MCP server for codebase understanding and debugging.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "meemoprasad/meeba-brain-marketplace",
+        "path": "io.github.meemoprasad/meeba-brain",
+        "url": "https://github.com/meemoprasad/meeba-brain-marketplace",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:meertrack/meertrack-mcp:com.meertrack/mcp-server#meertrack",
       "type": "mcp",
       "name": "Meertrack",
@@ -104154,6 +104943,55 @@
         "repo": "MelMayssonOwen/timetopost-mcp",
         "path": "io.github.MelMayssonOwen/timetopost-mcp",
         "url": "https://github.com/MelMayssonOwen/timetopost-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:melt-ai/melt-mcp-server:io.github.omer907/melt-mcp-server#io.github.omer907-melt-mcp-server",
+      "type": "mcp",
+      "name": "io.github.omer907/melt-mcp-server",
+      "description": {
+        "zh": null,
+        "en": "Melt: value-leak discovery and lead capture for Claude, Cursor, and MCP-compatible agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "melt-ai/melt-mcp-server",
+        "path": "io.github.omer907/melt-mcp-server",
+        "url": "https://github.com/melt-ai/melt-mcp-server",
         "tier": 0
       },
       "quality": {
@@ -111247,12 +112085,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:olk/architecture-pattern-mcp:io.github.olk/architecture-pattern-mcp#io.github.olk-architecture-pattern-mcp",
+      "id": "mcp:oliverhruby/edupage-mcp:io.github.oliverhruby/edupage-mcp#edupage-mcp-server",
       "type": "mcp",
-      "name": "io.github.olk/architecture-pattern-mcp",
+      "name": "EduPage MCP Server",
       "description": {
         "zh": null,
-        "en": "MCP server that provides architecture design expertise to AI coding agents",
+        "en": "EduPage MCP: timetables, grades, homework, meals, messages, 2FA, multi-school, role-aware.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -111260,17 +112098,15 @@
       },
       "lang": "en",
       "categories": [
-        "meta",
-        "coding",
-        "design"
+        "meta"
       ],
       "targets": [
         "mcp-client"
       ],
       "source": {
-        "repo": "olk/architecture-pattern-mcp",
-        "path": "io.github.olk/architecture-pattern-mcp",
-        "url": "https://github.com/olk/architecture-pattern-mcp",
+        "repo": "oliverhruby/edupage-mcp",
+        "path": "io.github.oliverhruby/edupage-mcp",
+        "url": "https://github.com/oliverhruby/edupage-mcp",
         "tier": 0
       },
       "quality": {
@@ -111298,12 +112134,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:omer907/melt-mcp-server:io.github.omer907/melt-mcp-server#io.github.omer907-melt-mcp-server",
+      "id": "mcp:olk/architecture-pattern-mcp:io.github.olk/architecture-pattern-mcp#io.github.olk-architecture-pattern-mcp",
       "type": "mcp",
-      "name": "io.github.omer907/melt-mcp-server",
+      "name": "io.github.olk/architecture-pattern-mcp",
       "description": {
         "zh": null,
-        "en": "Melt: value-leak discovery and lead capture for Claude, Cursor, and MCP-compatible agents.",
+        "en": "MCP server that provides architecture design expertise to AI coding agents",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -111311,15 +112147,17 @@
       },
       "lang": "en",
       "categories": [
-        "meta"
+        "meta",
+        "coding",
+        "design"
       ],
       "targets": [
         "mcp-client"
       ],
       "source": {
-        "repo": "omer907/melt-mcp-server",
-        "path": "io.github.omer907/melt-mcp-server",
-        "url": "https://github.com/omer907/melt-mcp-server",
+        "repo": "olk/architecture-pattern-mcp",
+        "path": "io.github.olk/architecture-pattern-mcp",
+        "url": "https://github.com/olk/architecture-pattern-mcp",
         "tier": 0
       },
       "quality": {
@@ -112112,6 +112950,55 @@
         "repo": "OrdersOfMagnitudeLLC/x402",
         "path": "io.github.OrdersOfMagnitudeLLC/mcp-package",
         "url": "https://github.com/OrdersOfMagnitudeLLC/x402",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:orionlabsai/ember-game:io.github.orionlabsai/agentum-mcp-server#io.github.orionlabsai-agentum-mcp-server",
+      "type": "mcp",
+      "name": "io.github.orionlabsai/agentum-mcp-server",
+      "description": {
+        "zh": null,
+        "en": "Dados globais reais (CNPJ, CEP, LEI, VAT, câmbio) via MCP, pagos em USDC por chamada (x402).",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "orionlabsai/ember-game",
+        "path": "io.github.orionlabsai/agentum-mcp-server",
+        "url": "https://github.com/orionlabsai/ember-game",
         "tier": 0
       },
       "quality": {
@@ -114221,6 +115108,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:proofholdings/mcp-server:holdings.proof/mcp-server#proof-holdings",
+      "type": "mcp",
+      "name": "Proof Holdings",
+      "description": {
+        "zh": null,
+        "en": "One API, all things verified — control, delegation, human approval, anti-impersonation.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ProofHoldings/mcp-server",
+        "path": "holdings.proof/mcp-server",
+        "url": "https://github.com/ProofHoldings/mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:prophet-git/one-brain-plugin:io.github.prophet-git/one-brain#io.github.prophet-git-one-brain",
       "type": "mcp",
       "name": "io.github.Prophet-git/one-brain",
@@ -115779,6 +116715,56 @@
         "repo": "rcsb/rcsb-mcp",
         "path": "io.github.rcsb/rcsb-mcp",
         "url": "https://github.com/rcsb/rcsb-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:readyagentsdev/readyagents-core:io.github.readyagentsdev/readyagents#readyagents",
+      "type": "mcp",
+      "name": "ReadyAgents",
+      "description": {
+        "zh": null,
+        "en": "Local YAML/JSON agent workflow CLI with approvals, resume, and optional stdio or loopback MCP HTTP.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "readyagentsdev/readyagents-core",
+        "path": "io.github.readyagentsdev/readyagents",
+        "url": "https://github.com/readyagentsdev/readyagents-core",
         "tier": 0
       },
       "quality": {
@@ -118896,6 +119882,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:s2thend/cursor-history-mcp:io.github.s2thend/cursor-history#io.github.s2thend-cursor-history",
+      "type": "mcp",
+      "name": "io.github.S2thend/cursor-history",
+      "description": {
+        "zh": null,
+        "en": "MCP server for browsing, searching, exporting, and backing up your Cursor AI chat history",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "S2thend/cursor-history-mcp",
+        "path": "io.github.S2thend/cursor-history",
+        "url": "https://github.com/S2thend/cursor-history-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:saagpatel/mcpaudit:io.github.saagpatel/mcp-audit#mcp-audit",
       "type": "mcp",
       "name": "mcp-audit",
@@ -120079,6 +121114,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:scalably-io/shopify-mcp:io.github.pavle-scalably/shopify-mcp#shopify-admin-mcp-server-(read-only)",
+      "type": "mcp",
+      "name": "Shopify Admin MCP Server (Read-Only)",
+      "description": {
+        "zh": null,
+        "en": "Read-only MCP for the Shopify Admin GraphQL API. 6 tools, full read surface, multi-store.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "scalably-io/shopify-mcp",
+        "path": "io.github.pavle-Scalably/shopify-mcp",
+        "url": "https://github.com/scalably-io/shopify-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:scaleway/scaleway-cli:io.github.scaleway/scaleway-mcp#scaleway-mcp-server",
       "type": "mcp",
       "name": "Scaleway MCP server",
@@ -120693,6 +121778,56 @@
         "repo": "sebastienrousseau/structured-address-fix-mcp",
         "path": "io.github.sebastienrousseau/structured-address-fix-mcp",
         "url": "https://github.com/sebastienrousseau/structured-address-fix-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:sendseven-gmbh/sendseven-mcp-server:com.sendseven/messaging#sendseven-messaging",
+      "type": "mcp",
+      "name": "SendSeven Messaging",
+      "description": {
+        "zh": null,
+        "en": "Unified messaging MCP server: WhatsApp, Instagram, Telegram, SMS, Messenger & email support inbox",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "SendSeven-GmbH/sendseven-mcp-server",
+        "path": "com.sendseven/messaging",
+        "url": "https://github.com/SendSeven-GmbH/sendseven-mcp-server",
         "tier": 0
       },
       "quality": {
@@ -123629,6 +124764,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:speedofred/ami-survey-client-v1:io.github.speedofred/ami-survey#io.github.speedofred-ami-survey",
+      "type": "mcp",
+      "name": "io.github.speedofred/ami-survey",
+      "description": {
+        "zh": null,
+        "en": "Measures the cost, tokens and duration of a completed agent workflow from its session log.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "speedofred/ami-survey-client-v1",
+        "path": "io.github.speedofred/ami-survey",
+        "url": "https://github.com/speedofred/ami-survey-client-v1",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:sravanism/esrp-oss-mcp-server:com.microsoft/esrp-oss-mcp-test#com.microsoft-esrp-oss-mcp-test",
       "type": "mcp",
       "name": "com.microsoft/esrp-oss-mcp-test",
@@ -125924,6 +127108,55 @@
         "repo": "thehesiod/psquare-mcp",
         "path": "io.github.thehesiod/psquare",
         "url": "https://github.com/thehesiod/psquare-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:theluckystrike/mcp-office-suite:com.bestremotetools/office-suite-all-servers-one-install#com.bestremotetools-office-suite-all-servers-one-install",
+      "type": "mcp",
+      "name": "com.bestremotetools/office-suite-all-servers-one-install",
+      "description": {
+        "zh": null,
+        "en": "One install that runs every sibling MCP server as a child process and merges their tools behind one",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "theluckystrike/mcp-office-suite",
+        "path": "com.bestremotetools/office-suite-all-servers-one-install",
+        "url": "https://github.com/theluckystrike/mcp-office-suite",
         "tier": 0
       },
       "quality": {
@@ -129028,7 +130261,7 @@
       "name": "net.storelift/storelift",
       "description": {
         "zh": null,
-        "en": "App Store & Google Play keyword ranks, rivals and AI visibility as an MCP server",
+        "en": "App Store & Google Play keyword ranks, rivals, reviews, charts and AI visibility as an MCP server",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -130217,7 +131450,7 @@
       "name": "Avanan MSP (Legacy SmartAPI)",
       "description": {
         "zh": null,
-        "en": "MCP server for the Avanan MSP SmartAPI — manage child MSPs, users, tenants, licenses, and usage.",
+        "en": "MCP server for the legacy Avanan SmartAPI: MSP tenant management plus per-tenant security tools.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -130225,6 +131458,7 @@
       },
       "lang": "en",
       "categories": [
+        "security",
         "meta"
       ],
       "targets": [
