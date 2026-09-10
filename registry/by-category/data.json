@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T21:29:12.476Z",
+  "generatedAt": "2026-09-10T21:22:28.507Z",
   "category": {
     "key": "data",
     "zh": "数据分析",
@@ -77,7 +77,7 @@
       }
     ]
   },
-  "total": 546,
+  "total": 559,
   "entries": [
     {
       "id": "skill:composiohq/awesome-claude-skills:document-skills/xlsx/skill.md#xlsx",
@@ -5364,7 +5364,7 @@
       "name": "Chart Library — Market-state research",
       "description": {
         "zh": null,
-        "en": "Free market-state research: historical analogs, daily notes and calibration evidence.",
+        "en": "Market memory for AI: historical states, published studies and source evidence.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -6260,7 +6260,7 @@
       "name": "Sui Analytics",
       "description": {
         "zh": null,
-        "en": "Read-only Sui blockchain analytics: 62 tools, protocol-aware tx decoding, no API keys or wallet.",
+        "en": "Read-only Sui blockchain analytics: 64 tools, protocol-aware tx decoding, no API keys or wallet.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -7195,6 +7195,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:bartosz-kuc/otwarteapi-catalog:io.github.bartosz-kuc/otwarteapi#otwarteapi.pl",
+      "type": "mcp",
+      "name": "otwarteAPI.pl",
+      "description": {
+        "zh": null,
+        "en": "Official public & government APIs, dozens of countries: registers, statistics, open data. Keyless.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "bartosz-kuc/otwarteapi-catalog",
+        "path": "io.github.bartosz-kuc/otwarteapi",
+        "url": "https://github.com/bartosz-kuc/otwarteapi-catalog",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:basedash/mcp:com.basedash/mcp#basedash",
       "type": "mcp",
       "name": "Basedash",
@@ -7391,55 +7440,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:bk927/overwatch-aio:io.github.bk927/overwatch-aio#overwatch-aio-mcp",
-      "type": "mcp",
-      "name": "Overwatch AIO MCP",
-      "description": {
-        "zh": null,
-        "en": "Overwatch hero meta, player statistics, replays, patches and OWCS Korea with sources and evidence.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "data"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "BK927/overwatch-aio",
-        "path": "io.github.BK927/overwatch-aio",
-        "url": "https://github.com/BK927/overwatch-aio",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:blueprint-chart/mcp:io.github.blueprint-chart/mcp#blueprint-chart",
       "type": "mcp",
       "name": "Blueprint Chart",
@@ -7511,6 +7511,104 @@
         "repo": "brownglasses/dotplot-mcp",
         "path": "io.github.brownglasses/dotplot-mcp",
         "url": "https://github.com/brownglasses/dotplot-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:builderio/agent-native:io.github.builderio/agent-native-analytics#agent-native-analytics",
+      "type": "mcp",
+      "name": "Agent-Native Analytics",
+      "description": {
+        "zh": null,
+        "en": "Agent-Native Amplitude/Mixpanel - connect data sources, prompt for charts",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "BuilderIO/agent-native",
+        "path": "io.github.BuilderIO/agent-native-analytics",
+        "url": "https://github.com/BuilderIO/agent-native",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:cameronknowlton/spacemonkey:com.igods/space-monkey#space-monkey-mailchimp-dashboard",
+      "type": "mcp",
+      "name": "Space Monkey Mailchimp Dashboard",
+      "description": {
+        "zh": null,
+        "en": "Mailchimp engagement intelligence for AI agents: campaign analytics and audience insights.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "CameronKnowlton/spacemonkey",
+        "path": "com.igods/space-monkey",
+        "url": "https://github.com/CameronKnowlton/spacemonkey",
         "tier": 0
       },
       "quality": {
@@ -9817,6 +9915,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:inssist/mcp:io.github.inssist/inssist-mcp#inssist",
+      "type": "mcp",
+      "name": "INSSIST",
+      "description": {
+        "zh": null,
+        "en": "Drive your own logged-in Instagram session via the INSSIST extension: read, publish, DMs, analytics.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "inssist/mcp",
+        "path": "io.github.inssist/inssist-mcp",
+        "url": "https://github.com/inssist/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:iqingyoung/search2chart-mcp:io.github.iqingyoung/search2chart-mcp#io.github.iqingyoung-search2chart-mcp",
       "type": "mcp",
       "name": "io.github.iqingyoung/search2chart-mcp",
@@ -9938,55 +10085,6 @@
         "repo": "jayjex/earn-dataset-mcp",
         "path": "io.github.jayjex/earn-dataset-mcp",
         "url": "https://github.com/jayjex/earn-dataset-mcp",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:jobmojito/mcp:com.jobmojito/jobmojito#jobmojito",
-      "type": "mcp",
-      "name": "JobMojito",
-      "description": {
-        "zh": null,
-        "en": "Run AI interviews, manage candidates and read hiring analytics on JobMojito.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "data"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "JobMojito/mcp",
-        "path": "com.jobmojito/jobmojito",
-        "url": "https://github.com/JobMojito/mcp",
         "tier": 0
       },
       "quality": {
@@ -10236,6 +10334,56 @@
       "source": {
         "repo": "joeetdev/venture-estate",
         "path": "com.attestvio/site",
+        "url": "https://github.com/joeetdev/venture-estate",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:joeetdev/venture-estate:com.backgroundcheckquotes/site#com.backgroundcheckquotes-site",
+      "type": "mcp",
+      "name": "com.backgroundcheckquotes/site",
+      "description": {
+        "zh": null,
+        "en": "Background Check Quotes: the site's own MCP server — dataset, enquiry (enquiry = a human...",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "joeetdev/venture-estate",
+        "path": "com.backgroundcheckquotes/site",
         "url": "https://github.com/joeetdev/venture-estate",
         "tier": 0
       },
@@ -12736,6 +12884,56 @@
       "source": {
         "repo": "joeetdev/venture-estate",
         "path": "com.funnelvo/site",
+        "url": "https://github.com/joeetdev/venture-estate",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:joeetdev/venture-estate:com.gpagradecompare/site#com.gpagradecompare-site",
+      "type": "mcp",
+      "name": "com.gpagradecompare/site",
+      "description": {
+        "zh": null,
+        "en": "GPA Grade Compare: the site's own MCP server — dataset, enquiry (enquiry = a human handoff, not...",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "joeetdev/venture-estate",
+        "path": "com.gpagradecompare/site",
         "url": "https://github.com/joeetdev/venture-estate",
         "tier": 0
       },
@@ -16514,6 +16712,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:joeetdev/venture-estate:com.sellmybusinessquotes/site#com.sellmybusinessquotes-site",
+      "type": "mcp",
+      "name": "com.sellmybusinessquotes/site",
+      "description": {
+        "zh": null,
+        "en": "Sell My Business Quotes: the site's own MCP server — dataset, enquiry (enquiry = a human...",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "joeetdev/venture-estate",
+        "path": "com.sellmybusinessquotes/site",
+        "url": "https://github.com/joeetdev/venture-estate",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:joeetdev/venture-estate:com.shortcodo/site#com.shortcodo-site",
       "type": "mcp",
       "name": "com.shortcodo/site",
@@ -18236,6 +18484,107 @@
       "source": {
         "repo": "joeetdev/venture-estate",
         "path": "org.thewaterhub/site",
+        "url": "https://github.com/joeetdev/venture-estate",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:joeetdev/venture-estate:uk.co.cardmachinepricing/site#uk.co.cardmachinepricing-site",
+      "type": "mcp",
+      "name": "uk.co.cardmachinepricing/site",
+      "description": {
+        "zh": null,
+        "en": "Card Machine Pricing: the site's own MCP server — dataset, enquiry (enquiry = a human handoff,...",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data",
+        "business",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "joeetdev/venture-estate",
+        "path": "uk.co.cardmachinepricing/site",
+        "url": "https://github.com/joeetdev/venture-estate",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:joeetdev/venture-estate:uk.co.corptaxcalculator/site#uk.co.corptaxcalculator-site",
+      "type": "mcp",
+      "name": "uk.co.corptaxcalculator/site",
+      "description": {
+        "zh": null,
+        "en": "Corp Tax Calculator: the site's own MCP server — dataset, enquiry (enquiry = a human handoff,...",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "joeetdev/venture-estate",
+        "path": "uk.co.corptaxcalculator/site",
         "url": "https://github.com/joeetdev/venture-estate",
         "tier": 0
       },
@@ -20290,6 +20639,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.blotato/mcp#blotato",
+      "type": "mcp",
+      "name": "Blotato",
+      "description": {
+        "zh": null,
+        "en": "Social media APIs for scheduling, analytics, and DM automation.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.blotato/mcp",
+        "url": "https://www.blotato.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.cazimedia.agentnative/data-exchange#agentnative-public-data,-government-datasets,-federal-statis",
       "type": "mcp",
       "name": "AgentNative: Public Data, Government Datasets, Federal Statistics & Official Records",
@@ -22214,6 +22612,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.consequential/mcp#consequential-analytics",
+      "type": "mcp",
+      "name": "Consequential Analytics",
+      "description": {
+        "zh": null,
+        "en": "Read-only access to your Consequential eCommerce marketing analytics and attribution data.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.consequential/mcp",
+        "url": "https://docs.consequential.io/academy/mcp-guide/connect-your-ai-assistant-to-consequential-analytics/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.contentin/linkedin#contentin-—-linkedin-ghostwriter",
       "type": "mcp",
       "name": "ContentIn — LinkedIn Ghostwriter",
@@ -23102,6 +23549,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.snapvisor/snapvisor#snapvisor",
+      "type": "mcp",
+      "name": "SnapVisor",
+      "description": {
+        "zh": null,
+        "en": "Visual regression review: projects, builds, visual diffs, approvals, comments and analytics.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.snapvisor/snapvisor",
+        "url": "https://snapvisor.io",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.stackdata/stackdata#stackdata",
       "type": "mcp",
       "name": "StackData",
@@ -23519,6 +24015,55 @@
         "repo": null,
         "path": "so.eden/eden",
         "url": "https://eden.so/features/mcp/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:so.outstand/outstand#outstand",
+      "type": "mcp",
+      "name": "Outstand",
+      "description": {
+        "zh": null,
+        "en": "Publish and schedule social media posts and read analytics across 12 networks through one API.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "so.outstand/outstand",
+        "url": "https://www.outstand.so/mcp",
         "tier": 0
       },
       "quality": {
@@ -25530,6 +26075,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:sadri-dridi/named-mcp-utilities:io.github.sadri-dridi/helm-chart-ok#helm-chart.yaml-name-shape,-body-discarded",
+      "type": "mcp",
+      "name": "Helm chart.yaml name shape, body discarded",
+      "description": {
+        "zh": null,
+        "en": "Helm chart.yaml name shape, body discarded",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "sadri-dridi/named-mcp-utilities",
+        "path": "io.github.sadri-dridi/helm-chart-ok",
+        "url": "https://github.com/sadri-dridi/named-mcp-utilities",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:sahilll15/gocd-mcp:io.github.sahilll15/gocd#io.github.sahilll15-gocd",
       "type": "mcp",
       "name": "io.github.Sahilll15/gocd",
@@ -27386,6 +27980,55 @@
         "repo": "wyre-technology/meraki-mcp",
         "path": "io.github.wyre-technology/meraki-mcp",
         "url": "https://github.com/wyre-technology/meraki-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:xsf0221/pattern-vista-cli:io.github.xsf0221/pattern-vista#io.github.xsf0221-pattern-vista",
+      "type": "mcp",
+      "name": "io.github.xsf0221/pattern-vista",
+      "description": {
+        "zh": null,
+        "en": "End-of-day US equity data: MA200 deviation rankings, market breadth, chart-pattern win rates.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "xsf0221/pattern-vista-cli",
+        "path": "io.github.xsf0221/pattern-vista",
+        "url": "https://github.com/xsf0221/pattern-vista-cli",
         "tier": 0
       },
       "quality": {

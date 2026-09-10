@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T21:29:12.476Z",
+  "generatedAt": "2026-09-10T21:22:28.507Z",
   "category": {
     "key": "integration",
     "zh": "三方集成",
@@ -85,7 +85,7 @@
       }
     ]
   },
-  "total": 230,
+  "total": 238,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/slack-gif-creator/skill.md#slack-gif-creator",
@@ -138,7 +138,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 173599,
+      "stars": 175640,
       "curatedMentions": 8
     },
     {
@@ -458,7 +458,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 173599,
+      "stars": 175640,
       "curatedMentions": 8
     },
     {
@@ -4678,6 +4678,104 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:builderio/agent-native:io.github.builderio/agent-native-brain#agent-native-brain",
+      "type": "mcp",
+      "name": "Agent-Native Brain",
+      "description": {
+        "zh": null,
+        "en": "Cited company knowledge from Slack, meetings, transcripts, and decisions",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "BuilderIO/agent-native",
+        "path": "io.github.BuilderIO/agent-native-brain",
+        "url": "https://github.com/BuilderIO/agent-native",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:builderio/agent-native:io.github.builderio/agent-native-dispatch#agent-native-dispatch",
+      "type": "mcp",
+      "name": "Agent-Native Dispatch",
+      "description": {
+        "zh": null,
+        "en": "Central Slack/Telegram router with jobs, memory, approvals, and A2A delegation",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "BuilderIO/agent-native",
+        "path": "io.github.BuilderIO/agent-native-dispatch",
+        "url": "https://github.com/BuilderIO/agent-native",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:cappyeo/discord-mcp:io.github.cappyeo/discord-mcp#discord-mcp",
       "type": "mcp",
       "name": "Discord MCP",
@@ -6040,6 +6138,104 @@
         "repo": "JustJuice55/tgden-api",
         "path": "io.github.JustJuice55/tgden",
         "url": "https://github.com/JustJuice55/tgden-api",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:kyesh/fine_grain_access_control:ai.fgac/fgac#fgac.ai-multiple-gmail-accounts,-google-sheets-&-docs",
+      "type": "mcp",
+      "name": "FGAC.ai: Multiple Gmail Accounts, Google Sheets & Docs",
+      "description": {
+        "zh": null,
+        "en": "Multiple Gmail accounts, editable Google Sheets & Docs for AI agents. Deny-by-default access rules.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "kyesh/fine_grain_access_control",
+        "path": "ai.fgac/fgac",
+        "url": "https://github.com/kyesh/fine_grain_access_control",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:kyesh/fine_grain_access_control:ai.fgac/google-workspace#fgac.ai-multiple-gmail-accounts,-google-sheets-&-docs",
+      "type": "mcp",
+      "name": "FGAC.ai: Multiple Gmail Accounts, Google Sheets & Docs",
+      "description": {
+        "zh": null,
+        "en": "Multiple Gmail accounts, editable Google Sheets & Docs for AI agents. Deny-by-default access rules.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "kyesh/fine_grain_access_control",
+        "path": "ai.fgac/google-workspace",
+        "url": "https://github.com/kyesh/fine_grain_access_control",
         "tier": 0
       },
       "quality": {
@@ -7700,6 +7896,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.growvib/growvib#growvib-social-media-growth",
+      "type": "mcp",
+      "name": "GrowVib: Social Media Growth",
+      "description": {
+        "zh": null,
+        "en": "Discover, compare and buy social media growth for Instagram, TikTok, YouTube, Telegram, X and more",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business",
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.growvib/growvib",
+        "url": "https://growvib.com/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.homebridgepc.agent-commerce/halo-ai-surfaces#halo-homebridge-ai-surfaces",
       "type": "mcp",
       "name": "HALO Homebridge AI Surfaces",
@@ -8166,6 +8412,56 @@
         "repo": null,
         "path": "com.ranovam/shopify-ebay-product-research",
         "url": "https://registry.modelcontextprotocol.io/?q=com.ranovam%2Fshopify-ebay-product-research",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.signatureforever/email-signatures#signatureforever",
+      "type": "mcp",
+      "name": "SignatureForever",
+      "description": {
+        "zh": null,
+        "en": "Audit and build email signatures that survive Gmail, Outlook desktop and Apple Mail.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.signatureforever/email-signatures",
+        "url": "https://signatureforever.com",
         "tier": 0
       },
       "quality": {
@@ -9083,12 +9379,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-telegram/mcp-telegram:io.github.mcp-telegram/mcp-telegram#telegram-(mcp-telegram)",
+      "id": "mcp:mcp-telegram/mcp-telegram:io.github.mcp-telegram/mcp-telegram#chatroost-—-unofficial-telegram-mcp-server",
       "type": "mcp",
-      "name": "Telegram (mcp-telegram)",
+      "name": "Chatroost — unofficial Telegram MCP server",
       "description": {
         "zh": null,
-        "en": "MCP server for Telegram userbot — messages, media, reactions, polls & more. Built on GramJS/MTProto.",
+        "en": "Unofficial Telegram MCP server — read, search, reply and react in your own Telegram account.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -9096,7 +9392,8 @@
       },
       "lang": "en",
       "categories": [
-        "integration"
+        "integration",
+        "meta"
       ],
       "targets": [
         "mcp-client"
@@ -9972,6 +10269,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:primeupyourlife/dynamic-telegram-bot-api-mcp:io.github.patricktobias86/dynamic-telegram-bot-api-mcp#io.github.patricktobias86-dynamic-telegram-bot-api-mcp",
+      "type": "mcp",
+      "name": "io.github.patricktobias86/dynamic-telegram-bot-api-mcp",
+      "description": {
+        "zh": null,
+        "en": "A dynamic, self-refreshing MCP gateway for the complete Telegram Bot API",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "PrimeUpYourLife/dynamic-telegram-bot-api-mcp",
+        "path": "io.github.patricktobias86/dynamic-telegram-bot-api-mcp",
+        "url": "https://github.com/PrimeUpYourLife/dynamic-telegram-bot-api-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:psyb0t/docker-telethon-plus:io.github.psyb0t/telethon-plus#telethon-plus",
       "type": "mcp",
       "name": "Telethon Plus",
@@ -10345,6 +10691,55 @@
         "repo": "runjohnray2-lgtm/vibecart",
         "path": "io.github.runjohnray2-lgtm/vibecart",
         "url": "https://github.com/runjohnray2-lgtm/vibecart",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:sadri-dridi/named-mcp-utilities:io.github.sadri-dridi/discord-id-ok#discord-snowflake-id-shape,-value-discarded",
+      "type": "mcp",
+      "name": "Discord snowflake id shape, value discarded",
+      "description": {
+        "zh": null,
+        "en": "Discord snowflake id shape, value discarded",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "sadri-dridi/named-mcp-utilities",
+        "path": "io.github.sadri-dridi/discord-id-ok",
+        "url": "https://github.com/sadri-dridi/named-mcp-utilities",
         "tier": 0
       },
       "quality": {
