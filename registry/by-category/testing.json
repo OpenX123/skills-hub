@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T21:32:32.084Z",
+  "generatedAt": "2026-09-12T21:10:34.302Z",
   "category": {
     "key": "testing",
     "zh": "测试质量",
@@ -73,7 +73,7 @@
       }
     ]
   },
-  "total": 402,
+  "total": 406,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/webapp-testing/skill.md#webapp-testing",
@@ -14905,12 +14905,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:gosadu/loophole-tape:io.github.gosadu/loophole-tape#io.github.gosadu-loophole-tape",
+      "id": "mcp:gammathreetrading/fixsim-mcp:io.github.gammathreetrading/fixsim#fixsim",
       "type": "mcp",
-      "name": "io.github.gosadu/loophole-tape",
+      "name": "FIXSIM",
       "description": {
         "zh": null,
-        "en": "Pump.fun risk checks: $0.005/mint or $0.01/5. Free coverage/watch. x402 USDC on Solana or Base. MCP",
+        "en": "Test FIX from Claude, ChatGPT, or Cursor: free sandbox FIX sessions or your own FIXSIM instances.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -14924,9 +14924,9 @@
         "mcp-client"
       ],
       "source": {
-        "repo": "gosadu/loophole-tape",
-        "path": "io.github.gosadu/loophole-tape",
-        "url": "https://github.com/gosadu/loophole-tape",
+        "repo": "GammaThreeTrading/fixsim-mcp",
+        "path": "io.github.GammaThreeTrading/fixsim",
+        "url": "https://github.com/GammaThreeTrading/fixsim-mcp",
         "tier": 0
       },
       "quality": {
@@ -15125,6 +15125,57 @@
         "repo": "i-ops-hq/assurance",
         "path": "io.github.i-ops-hq/assurance-mcp",
         "url": "https://github.com/i-ops-hq/assurance",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:invarato/jarrobatools:io.github.invarato/jarroba-tools-tests#jarroba-tools-·-test-audit",
+      "type": "mcp",
+      "name": "Jarroba Tools · Test audit",
+      "description": {
+        "zh": null,
+        "en": "Audits tests instead of writing them: what each one really asserts. 4 tools, local.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "security",
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Invarato/JarrobaTools",
+        "path": "io.github.Invarato/jarroba-tools-tests",
+        "url": "https://github.com/Invarato/JarrobaTools",
         "tier": 0
       },
       "quality": {
@@ -17730,6 +17781,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.robotfleet-hq/tradedatahub#tradedatahub",
+      "type": "mcp",
+      "name": "TradeDataHub",
+      "description": {
+        "zh": null,
+        "en": "Discover contractor datasets, coverage, masked previews, pricing, and purchase routes.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.RobotFleet-HQ/tradedatahub",
+        "url": "https://www.tradedatahub.net/developers/mcp/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.sunrainsnow/labtestsuperstore#labtestsuperstore",
       "type": "mcp",
       "name": "LabTestSuperstore",
@@ -18246,6 +18347,55 @@
         "repo": null,
         "path": "st.seedfa/seedfast",
         "url": "https://seedfa.st",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:tv.digitalexperts/hypotheses#digital-experts-hypotheses",
+      "type": "mcp",
+      "name": "Digital Experts Hypotheses",
+      "description": {
+        "zh": null,
+        "en": "Open data: 1,590 JTBD hypotheses with cold-traffic test results and cost per lead. CC BY 4.0",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "tv.digitalexperts/hypotheses",
+        "url": "https://digitalexperts.tv/data",
         "tier": 0
       },
       "quality": {
@@ -19482,6 +19632,56 @@
         "repo": "sekharsdet/five46",
         "path": "io.github.sekharsdet/five46",
         "url": "https://github.com/sekharsdet/five46",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:seleniumbase/seleniumbase:io.github.seleniumbase/seleniumbase#seleniumbase-mcp",
+      "type": "mcp",
+      "name": "SeleniumBase MCP",
+      "description": {
+        "zh": null,
+        "en": "Stealthy browser automation, testing, and web-scraping via CDP Mode.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "seleniumbase/SeleniumBase",
+        "path": "io.github.seleniumbase/seleniumbase",
+        "url": "https://github.com/seleniumbase/SeleniumBase",
         "tier": 0
       },
       "quality": {

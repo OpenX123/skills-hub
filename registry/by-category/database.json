@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T21:32:32.084Z",
+  "generatedAt": "2026-09-12T21:10:34.302Z",
   "category": {
     "key": "database",
     "zh": "数据库",
@@ -69,7 +69,7 @@
       }
     ]
   },
-  "total": 282,
+  "total": 283,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/claude-api/skill.md#claude-api",
@@ -8894,6 +8894,55 @@
         "repo": "asanabrial/leteo",
         "path": "io.github.asanabrial/leteo",
         "url": "https://github.com/asanabrial/leteo",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:ayushcodes10/echo-mem:io.github.ayushcodes10/echo-mem#echo-memory",
+      "type": "mcp",
+      "name": "Echo Memory",
+      "description": {
+        "zh": null,
+        "en": "Shared memory for AI agents, as a graph in your own Postgres. Writes never call an LLM.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ayushcodes10/echo-mem",
+        "path": "io.github.ayushcodes10/echo-mem",
+        "url": "https://github.com/ayushcodes10/echo-mem",
         "tier": 0
       },
       "quality": {
