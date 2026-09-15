@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T22:15:09.059Z",
+  "generatedAt": "2026-09-15T21:54:53.598Z",
   "category": {
     "key": "database",
     "zh": "数据库",
@@ -69,7 +69,7 @@
       }
     ]
   },
-  "total": 294,
+  "total": 297,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/claude-api/skill.md#claude-api",
@@ -6157,6 +6157,55 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:antonorlov/mcp-postgres-server:io.github.antonorlov/mcp-postgres-server#postgresql",
+      "type": "mcp",
+      "name": "PostgreSQL",
+      "description": {
+        "zh": null,
+        "en": "MCP server for PostgreSQL: local, Docker, RDS, Neon, Supabase, or behind an SSH bastion.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "antonorlov/mcp-postgres-server",
+        "path": "io.github.antonorlov/mcp-postgres-server",
+        "url": "https://github.com/antonorlov/mcp-postgres-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
       "id": "mcp:anup-shesh/garmin-local-mcp:io.github.anup-shesh/garmin-local-mcp#io.github.anup-shesh-garmin-local-mcp",
       "type": "mcp",
       "name": "io.github.anup-shesh/garmin-local-mcp",
@@ -6551,6 +6600,56 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:dockndevai/mcp-percona-pg:io.github.dockndevai/mcp-percona-pg#io.github.dockndevai-mcp-percona-pg",
+      "type": "mcp",
+      "name": "io.github.dockndevai/mcp-percona-pg",
+      "description": {
+        "zh": null,
+        "en": "Manage Percona PostgreSQL + PgBouncer on Kubernetes — safe-by-default access modes and guards.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops",
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "dockndevai/mcp-percona-pg",
+        "path": "io.github.dockndevai/mcp-percona-pg",
+        "url": "https://github.com/dockndevai/mcp-percona-pg",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
       "id": "mcp:eszetael/postgres-mcp-hardened:io.github.eszetael/postgres-mcp-hardened#postgresql-(hardened,-read-only)",
       "type": "mcp",
       "name": "PostgreSQL (hardened, read-only)",
@@ -6671,6 +6770,56 @@
         "repo": "gordonkjlee/facthouse",
         "path": "io.github.gordonkjlee/facthouse",
         "url": "https://github.com/gordonkjlee/facthouse",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:igorolv/jdbc-mcp-server:io.github.igorolv/jdbc-mcp-server#jdbc-mcp-server",
+      "type": "mcp",
+      "name": "JDBC MCP Server",
+      "description": {
+        "zh": null,
+        "en": "Read-only PostgreSQL, Oracle and SQL Server access for AI agents: SQL, plans, schema, index stats",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "igorolv/jdbc-mcp-server",
+        "path": "io.github.igorolv/jdbc-mcp-server",
+        "url": "https://github.com/igorolv/jdbc-mcp-server",
         "tier": 0
       },
       "quality": {
@@ -6969,6 +7118,55 @@
         "repo": "Rheopyrin/db-access-mcp",
         "path": "io.github.Rheopyrin/db-access-mcp",
         "url": "https://github.com/Rheopyrin/db-access-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:rufflet/mysql-legacy-mcp:io.github.rufflet/mysql-legacy-mcp#mysql-legacy-mcp",
+      "type": "mcp",
+      "name": "MySQL Legacy MCP",
+      "description": {
+        "zh": null,
+        "en": "Inspect and query MySQL 5.0–5.6; opt-in INSERT/UPDATE/DELETE/DDL. Live-verified 5.0–8.0.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Rufflet/mysql-legacy-mcp",
+        "path": "io.github.Rufflet/mysql-legacy-mcp",
+        "url": "https://github.com/Rufflet/mysql-legacy-mcp",
         "tier": 0
       },
       "quality": {
@@ -8773,55 +8971,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:antonorlov/mcp-postgres-server:io.github.antonorlov/mcp-postgres-server#postgresql",
-      "type": "mcp",
-      "name": "PostgreSQL",
-      "description": {
-        "zh": null,
-        "en": "MCP server for PostgreSQL: local, Docker, RDS, Neon, Supabase, or behind an SSH bastion.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "database"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "antonorlov/mcp-postgres-server",
-        "path": "io.github.antonorlov/mcp-postgres-server",
-        "url": "https://github.com/antonorlov/mcp-postgres-server",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:argon-lab/argon:io.github.argon-lab/argon#io.github.argon-lab-argon",
       "type": "mcp",
       "name": "io.github.argon-lab/argon",
@@ -9436,56 +9585,6 @@
         "repo": "DamianTodorovic/kepta",
         "path": "io.github.DamianTodorovic/kepta",
         "url": "https://github.com/DamianTodorovic/kepta",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:dockndevai/mcp-percona-pg:io.github.dockndevai/mcp-percona-pg#io.github.dockndevai-mcp-percona-pg",
-      "type": "mcp",
-      "name": "io.github.dockndevai/mcp-percona-pg",
-      "description": {
-        "zh": null,
-        "en": "Manage Percona PostgreSQL + PgBouncer on Kubernetes — safe-by-default access modes and guards.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "devops",
-        "database"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "dockndevai/mcp-percona-pg",
-        "path": "io.github.dockndevai/mcp-percona-pg",
-        "url": "https://github.com/dockndevai/mcp-percona-pg",
         "tier": 0
       },
       "quality": {
@@ -10428,6 +10527,56 @@
         "repo": "lightshipHQ/lightship",
         "path": "io.github.lightshipHQ/lightship",
         "url": "https://github.com/lightshipHQ/lightship",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:liza-studio/skillmem:io.github.liza-studio/skillmem#skillmem",
+      "type": "mcp",
+      "name": "skillmem",
+      "description": {
+        "zh": null,
+        "en": "Skill memory for coding agents: learn, recall, reinforce, decay. Local SQLite, no API key.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "liza-studio/skillmem",
+        "path": "io.github.liza-studio/skillmem",
+        "url": "https://github.com/liza-studio/skillmem",
         "tier": 0
       },
       "quality": {
@@ -12129,6 +12278,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:co.thinair/data#co.thinair-data",
+      "type": "mcp",
+      "name": "co.thinair/data",
+      "description": {
+        "zh": null,
+        "en": "PostgreSQL, MySQL, and SQL Server in one session. 26 read-only MCP tools for AI agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "co.thinair/data",
+        "url": "https://data.thinair.co",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.juudd/juudd#juudd",
       "type": "mcp",
       "name": "juudd",
@@ -13685,55 +13883,6 @@
         "repo": "RudrenduPaul/teamspend",
         "path": "io.github.RudrenduPaul/teamspend",
         "url": "https://github.com/RudrenduPaul/teamspend",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:rufflet/mysql-legacy-mcp:io.github.rufflet/mysql-legacy-mcp#mysql-legacy-mcp",
-      "type": "mcp",
-      "name": "MySQL Legacy MCP",
-      "description": {
-        "zh": null,
-        "en": "Inspect and query MySQL 5.0–5.6; opt-in INSERT/UPDATE/DELETE/DDL. Live-verified 5.0–8.0.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "database"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "Rufflet/mysql-legacy-mcp",
-        "path": "io.github.Rufflet/mysql-legacy-mcp",
-        "url": "https://github.com/Rufflet/mysql-legacy-mcp",
         "tier": 0
       },
       "quality": {
