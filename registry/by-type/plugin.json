@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-15T21:54:53.598Z",
+  "generatedAt": "2026-09-16T21:52:28.330Z",
   "type": "plugin",
   "label": {
     "zh": "插件",
     "en": "Plugin"
   },
-  "total": 184,
+  "total": 208,
   "entries": [
     {
       "id": "plugin:anthropics/skills:.claude-plugin/marketplace.json#academy-guide",
@@ -5683,6 +5683,1207 @@
       "curatedMentions": 5
     },
     {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/enterprise/admin-capability-lockdown/.claude-plugin/plugin.json#admin-capability-lockdown",
+      "type": "plugin",
+      "name": "admin-capability-lockdown",
+      "description": {
+        "zh": null,
+        "en": "Organization control mod: withholds the http and process nouns from $ so no plugin beneath it can reach the network or spawn processes, refuses user-tier plugins by name allowlist or by the $ calls their source declares, and withholds the Bash tool (shellPolicy \"deny\", default) or, in \"guardrail\" mode, denies well-known network clients as a bypassable speed bump. Hooks engine.create, plugin.register and tool.call; seat it in the managed prepend tier.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "meta"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/enterprise/admin-capability-lockdown/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/enterprise/admin-capability-lockdown/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 30760,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/games/cc-arcade/.claude-plugin/plugin.json#cc-arcade",
+      "type": "plugin",
+      "name": "cc-arcade",
+      "description": {
+        "zh": null,
+        "en": "Games above the Claude Code prompt (snake, Tetris, 2048, Minesweeper, Flappy, Pong, typing test, Space Invaders, Doom) plus a pet that grows as Claude tests, commits and edits. Clones of the genre, not affiliated with or endorsed by Tetris Holding, Taito, Atari or id Software. Needs function hooks (early access) and an interactive terminal.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/games/cc-arcade/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/games/cc-arcade/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 30760,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/games/diff-invaders/.claude-plugin/plugin.json#diff-invaders",
+      "type": "plugin",
+      "name": "diff-invaders",
+      "description": {
+        "zh": null,
+        "en": "Space Invaders above the Claude Code prompt where every wave is the code Claude just wrote: each line an Edit or Write added becomes a row of the formation and every two characters one alien, so you shoot your own diff. Ship, one shot at a time, bombs, three lives, best score. Zero tokens. Needs function hooks (early access) and an interactive terminal.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/games/diff-invaders/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/games/diff-invaders/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 30760,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/games/pacman/.claude-plugin/plugin.json#pacman",
+      "type": "plugin",
+      "name": "pacman",
+      "description": {
+        "zh": null,
+        "en": "Pac-Man above the Claude Code prompt: a 19×15 maze, four ghosts that chase, scatter and flee, power pellets, three lives and faster levels. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. Needs function hooks (early access) and an interactive terminal.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/games/pacman/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/games/pacman/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 30760,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/games/pet/.claude-plugin/plugin.json#pet",
+      "type": "plugin",
+      "name": "pet",
+      "description": {
+        "zh": null,
+        "en": "A virtual pet above the Claude Code prompt that grows as Claude works: passing tests, commits and edits grant XP and mood, failing tests cost mood, idling drains it; egg → baby → kid → adult → legend. Zero tokens. Split out of cc-arcade (MIT, Seza Akgün). Needs function hooks (early access) and an interactive terminal.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/games/pet/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/games/pet/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 30760,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/games/snake/.claude-plugin/plugin.json#snake",
+      "type": "plugin",
+      "name": "snake",
+      "description": {
+        "zh": null,
+        "en": "Snake above the Claude Code prompt: eat, grow, and keep off the walls and yourself. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs function hooks (early access) and an interactive terminal with a mouse.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/games/snake/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/games/snake/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 30760,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/games/tool-defense/.claude-plugin/plugin.json#tool-defense",
+      "type": "plugin",
+      "name": "tool-defense",
+      "description": {
+        "zh": null,
+        "en": "A tower defense above the Claude Code prompt where every enemy is one of Claude's real tool calls: Bash sends runners, an Edit or Write a slow tank, a web or MCP call a flyer, an Agent a boss. Build and upgrade towers by clicking beside the road, hold the base through Claude's turn. Zero tokens. Needs function hooks (early access) and an interactive terminal with a mouse.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/games/tool-defense/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/games/tool-defense/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 30760,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/integrations/websearch-to-exa/.claude-plugin/plugin.json#websearch-to-exa",
+      "type": "plugin",
+      "name": "websearch-to-exa",
+      "description": {
+        "zh": null,
+        "en": "Overrides the built-in WebSearch tool and routes queries to the Exa search API through $.http.fetch, answering in WebSearch's own result shape, with automatic fallback to the built-in search. A tool.call hook that replaces a core tool.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "research"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/integrations/websearch-to-exa/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/integrations/websearch-to-exa/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 30760,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/observability/universal-audit-log/.claude-plugin/plugin.json#universal-audit-log",
+      "type": "plugin",
+      "name": "universal-audit-log",
+      "description": {
+        "zh": null,
+        "en": "One hook on * that records every event on $ (tool calls, prompts, turns, other plugins' fs/http/process calls) as JSON lines with origin plugin and tier, duration and outcome, including denials. Buffered and flushed to a JSONL file through $.fs at the end of every turn.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/observability/universal-audit-log/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/observability/universal-audit-log/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 30760,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/productivity/npm-to-pnpm-rewriter/.claude-plugin/plugin.json#npm-to-pnpm-rewriter",
+      "type": "plugin",
+      "name": "npm-to-pnpm-rewriter",
+      "description": {
+        "zh": null,
+        "en": "Rewrites npm and npx invocations to pnpm (or yarn / bun) before the Bash tool runs them and tells the model what ran through context. A tool.call hook that forwards a modified event (the modifying placement).",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/productivity/npm-to-pnpm-rewriter/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/productivity/npm-to-pnpm-rewriter/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 30760,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/productivity/webfetch-cache/.claude-plugin/plugin.json#webfetch-cache",
+      "type": "plugin",
+      "name": "webfetch-cache",
+      "description": {
+        "zh": null,
+        "en": "Short-circuits repeated WebFetch calls for the same URL and prompt within a session, answering { result } from cache without a network round trip. A tool.call hook with TTL and size limits.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/productivity/webfetch-cache/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/productivity/webfetch-cache/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 30760,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/security/block-destructive-commands/.claude-plugin/plugin.json#block-destructive-commands",
+      "type": "plugin",
+      "name": "block-destructive-commands",
+      "description": {
+        "zh": null,
+        "en": "Denies Bash commands that match destructive patterns (recursive rm on roots, force push, hard reset, destructive SQL, disk formatting) before they run. A tool.call hook with a Bash matcher that returns { deny } without calling next.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "security"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/security/block-destructive-commands/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/security/block-destructive-commands/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 30760,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/security/large-edit-confirmation/.claude-plugin/plugin.json#large-edit-confirmation",
+      "type": "plugin",
+      "name": "large-edit-confirmation",
+      "description": {
+        "zh": null,
+        "en": "Asks the user, in the engine's AskUserQuestion dialog ($.ui.ask), before Claude edits or overwrites a file larger than a configurable line count; denies by default when nobody can answer (headless runs). A tool.call hook on Edit and Write using $.fs.read.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "design",
+        "security"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/security/large-edit-confirmation/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/security/large-edit-confirmation/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 30760,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/security/protected-paths-guard/.claude-plugin/plugin.json#protected-paths-guard",
+      "type": "plugin",
+      "name": "protected-paths-guard",
+      "description": {
+        "zh": null,
+        "en": "Denies Edit, Write and NotebookEdit calls on sensitive paths (.env files, lockfiles, CI workflows, git internals, private keys) with a glob allowlist override. A tool.call hook with an array matcher.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "security"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/security/protected-paths-guard/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/security/protected-paths-guard/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 30760,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/security/secret-redactor/.claude-plugin/plugin.json#secret-redactor",
+      "type": "plugin",
+      "name": "secret-redactor",
+      "description": {
+        "zh": null,
+        "en": "Redacts API keys, tokens, JWTs, private keys and connection strings from every tool result before the model reads them, notes the redaction through context, and refuses to echo a redacted placeholder back into a Bash command. A tool.call hook in the after placement.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "security"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/security/secret-redactor/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/security/secret-redactor/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 30760,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/ui/tool-timing-badge/.claude-plugin/plugin.json#tool-timing-badge",
+      "type": "plugin",
+      "name": "tool-timing-badge",
+      "description": {
+        "zh": null,
+        "en": "Times every tool call and wraps the engine's ToolUse rendering with a colored duration badge from the surface's own element table, on the terminal, Desktop and mobile. Hooks tool.call and ui.render using JSX.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design",
+        "coding",
+        "meta"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/ui/tool-timing-badge/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/ui/tool-timing-badge/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 30760,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/games/2048/.claude-plugin/plugin.json#2048",
+      "type": "plugin",
+      "name": "2048",
+      "description": {
+        "zh": null,
+        "en": "2048 above the Claude Code prompt: slide and merge tiles up to 2048. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs function hooks (early access) and an interactive terminal with a mouse.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/games/2048/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/games/2048/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 57,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": "davila7/claude-code-templates:typing-test",
+      "familySize": 8,
+      "stars": 30760,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/games/doom/.claude-plugin/plugin.json#doom",
+      "type": "plugin",
+      "name": "doom",
+      "description": {
+        "zh": null,
+        "en": "Doom above the Claude Code prompt: a corridor shooter: imps, a shotgun, and the floor below. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs function hooks (early access) and an interactive terminal with a mouse.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/games/doom/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/games/doom/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 57,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": "davila7/claude-code-templates:typing-test",
+      "familySize": 8,
+      "stars": 30760,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/games/flappy/.claude-plugin/plugin.json#flappy",
+      "type": "plugin",
+      "name": "flappy",
+      "description": {
+        "zh": null,
+        "en": "Flappy above the Claude Code prompt: flap through the gaps in the pipes. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs function hooks (early access) and an interactive terminal with a mouse.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/games/flappy/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/games/flappy/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 57,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": "davila7/claude-code-templates:typing-test",
+      "familySize": 8,
+      "stars": 30760,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/games/invaders/.claude-plugin/plugin.json#invaders",
+      "type": "plugin",
+      "name": "invaders",
+      "description": {
+        "zh": null,
+        "en": "Space Invaders above the Claude Code prompt: shoot each wave before it lands. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs function hooks (early access) and an interactive terminal with a mouse.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/games/invaders/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/games/invaders/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 57,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": "davila7/claude-code-templates:typing-test",
+      "familySize": 8,
+      "stars": 30760,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/games/minesweeper/.claude-plugin/plugin.json#minesweeper",
+      "type": "plugin",
+      "name": "minesweeper",
+      "description": {
+        "zh": null,
+        "en": "Minesweeper above the Claude Code prompt: open every cell that is not a mine. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs function hooks (early access) and an interactive terminal with a mouse.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/games/minesweeper/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/games/minesweeper/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 57,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": "davila7/claude-code-templates:typing-test",
+      "familySize": 8,
+      "stars": 30760,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/games/pong/.claude-plugin/plugin.json#pong",
+      "type": "plugin",
+      "name": "pong",
+      "description": {
+        "zh": null,
+        "en": "Pong above the Claude Code prompt: first to 5 against the computer. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs function hooks (early access) and an interactive terminal with a mouse.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/games/pong/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/games/pong/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 57,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": "davila7/claude-code-templates:typing-test",
+      "familySize": 8,
+      "stars": 30760,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/games/tetris/.claude-plugin/plugin.json#tetris",
+      "type": "plugin",
+      "name": "tetris",
+      "description": {
+        "zh": null,
+        "en": "Tetris above the Claude Code prompt: fit the falling pieces and clear lines. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs function hooks (early access) and an interactive terminal with a mouse.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/games/tetris/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/games/tetris/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 57,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": "davila7/claude-code-templates:typing-test",
+      "familySize": 8,
+      "stars": 30760,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/games/typing-test/.claude-plugin/plugin.json#typing-test",
+      "type": "plugin",
+      "name": "typing-test",
+      "description": {
+        "zh": null,
+        "en": "Typing test above the Claude Code prompt: retype a line of code as fast as you can. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs function hooks (early access) and an interactive terminal with a mouse.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/games/typing-test/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/games/typing-test/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 57,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": "davila7/claude-code-templates:typing-test",
+      "familySize": 8,
+      "stars": 30760,
+      "curatedMentions": 2
+    },
+    {
       "id": "plugin:dontbesilent2025/dbskill:.claude-plugin/marketplace.json#dbs",
       "type": "plugin",
       "name": "dbs",
@@ -7485,7 +8686,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 27,
+        "score": 26,
         "gates": {
           "security": true,
           "schema": true,
@@ -7534,7 +8735,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 27,
+        "score": 26,
         "gates": {
           "security": true,
           "schema": true,
@@ -7583,7 +8784,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 27,
+        "score": 26,
         "gates": {
           "security": true,
           "schema": true,
@@ -7633,7 +8834,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 27,
+        "score": 26,
         "gates": {
           "security": true,
           "schema": true,
@@ -7682,7 +8883,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 27,
+        "score": 26,
         "gates": {
           "security": true,
           "schema": true,
@@ -7731,7 +8932,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 27,
+        "score": 26,
         "gates": {
           "security": true,
           "schema": true,
@@ -7780,7 +8981,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 27,
+        "score": 26,
         "gates": {
           "security": true,
           "schema": true,
@@ -7829,7 +9030,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 27,
+        "score": 26,
         "gates": {
           "security": true,
           "schema": true,
@@ -7878,7 +9079,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 27,
+        "score": 26,
         "gates": {
           "security": true,
           "schema": true,
@@ -7927,7 +9128,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 27,
+        "score": 26,
         "gates": {
           "security": true,
           "schema": true,
@@ -7976,7 +9177,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 27,
+        "score": 26,
         "gates": {
           "security": true,
           "schema": true,
@@ -8025,7 +9226,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 27,
+        "score": 26,
         "gates": {
           "security": true,
           "schema": true,
@@ -8075,7 +9276,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 27,
+        "score": 26,
         "gates": {
           "security": true,
           "schema": true,
@@ -8124,7 +9325,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 27,
+        "score": 26,
         "gates": {
           "security": true,
           "schema": true,
@@ -8174,7 +9375,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 27,
+        "score": 26,
         "gates": {
           "security": true,
           "schema": true,
@@ -8223,7 +9424,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 27,
+        "score": 26,
         "gates": {
           "security": true,
           "schema": true,
@@ -8272,7 +9473,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 27,
+        "score": 26,
         "gates": {
           "security": true,
           "schema": true,
@@ -8321,7 +9522,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 27,
+        "score": 26,
         "gates": {
           "security": true,
           "schema": true,
@@ -8370,7 +9571,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 27,
+        "score": 26,
         "gates": {
           "security": true,
           "schema": true,
@@ -8419,7 +9620,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 27,
+        "score": 26,
         "gates": {
           "security": true,
           "schema": true,
@@ -8468,7 +9669,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 27,
+        "score": 26,
         "gates": {
           "security": true,
           "schema": true,
@@ -8517,7 +9718,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 27,
+        "score": 26,
         "gates": {
           "security": true,
           "schema": true,
@@ -8566,7 +9767,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 27,
+        "score": 26,
         "gates": {
           "security": true,
           "schema": true,
@@ -8615,7 +9816,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 27,
+        "score": 26,
         "gates": {
           "security": true,
           "schema": true,
@@ -8664,7 +9865,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 27,
+        "score": 26,
         "gates": {
           "security": true,
           "schema": true,
@@ -8713,7 +9914,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 27,
+        "score": 26,
         "gates": {
           "security": true,
           "schema": true,
@@ -8762,7 +9963,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 27,
+        "score": 26,
         "gates": {
           "security": true,
           "schema": true,
@@ -8811,7 +10012,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 27,
+        "score": 26,
         "gates": {
           "security": true,
           "schema": true,
@@ -8860,7 +10061,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 27,
+        "score": 26,
         "gates": {
           "security": true,
           "schema": true,
@@ -8909,7 +10110,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 27,
+        "score": 26,
         "gates": {
           "security": true,
           "schema": true,
@@ -8958,7 +10159,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 27,
+        "score": 26,
         "gates": {
           "security": true,
           "schema": true,
@@ -9007,7 +10208,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 27,
+        "score": 26,
         "gates": {
           "security": true,
           "schema": true,
@@ -9056,7 +10257,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 27,
+        "score": 26,
         "gates": {
           "security": true,
           "schema": true,
