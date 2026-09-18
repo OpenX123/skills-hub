@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-17T21:54:41.800Z",
+  "generatedAt": "2026-09-18T21:24:27.082Z",
   "type": "plugin",
   "label": {
     "zh": "插件",
     "en": "Plugin"
   },
-  "total": 208,
+  "total": 210,
   "entries": [
     {
       "id": "plugin:anthropics/skills:.claude-plugin/marketplace.json#academy-guide",
@@ -6033,6 +6033,56 @@
       "curatedMentions": 2
     },
     {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/integrations/pi-agent-for-claude/.claude-plugin/plugin.json#pi-agent-for-claude",
+      "type": "plugin",
+      "name": "pi-agent-for-claude",
+      "description": {
+        "zh": null,
+        "en": "pi agent for claude: a `pi` subagent type whose model steps run the pi CLI, so pi subagents and agent-team teammates live in Claude Code's own agent UI, streamed live, on any model pi can reach.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/integrations/pi-agent-for-claude/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/integrations/pi-agent-for-claude/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 30769,
+      "curatedMentions": 2
+    },
+    {
       "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/integrations/websearch-to-exa/.claude-plugin/plugin.json#websearch-to-exa",
       "type": "plugin",
       "name": "websearch-to-exa",
@@ -6106,6 +6156,57 @@
         "repo": "davila7/claude-code-templates",
         "path": "cli-tool/components/mods/observability/universal-audit-log/.claude-plugin/plugin.json",
         "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/observability/universal-audit-log/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 30769,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/productivity/aitmpl/.claude-plugin/plugin.json#aitmpl",
+      "type": "plugin",
+      "name": "aitmpl",
+      "description": {
+        "zh": null,
+        "en": "/aitmpl opens a component browser above the prompt: the aitmpl.com catalog (agents, commands, MCPs, settings, hooks, skills, loops, mods) read live from the site's public JSON through $.http.fetch. Pick a type or a trending component, filter, page, open a component and install it from there ($.process.run with the fixed CLI argv and a validated path, no shell), drop its install command into the prompt, or open its page in your browser. Hooks session.start, command.run and ui.render on AbovePrompt; browsing costs no tokens.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "design",
+        "meta"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/productivity/aitmpl/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/productivity/aitmpl/.claude-plugin/plugin.json",
         "tier": 2
       },
       "quality": {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T21:54:41.800Z",
+  "generatedAt": "2026-09-18T21:24:27.082Z",
   "category": {
     "key": "design",
     "zh": "设计创意",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 704,
+  "total": 711,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/brand-guidelines/skill.md#brand-guidelines",
@@ -2225,8 +2225,8 @@
       ],
       "source": {
         "repo": "davila7/claude-code-templates",
-        "path": "cli-tool/components/skills/database/postgres-schema-design/SKILL.MD",
-        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/database/postgres-schema-design/SKILL.MD",
+        "path": "cli-tool/components/skills/database/postgres-schema-design/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/database/postgres-schema-design/SKILL.md",
         "tier": 2
       },
       "quality": {
@@ -6510,6 +6510,57 @@
       "risk": {
         "level": "low",
         "score": 10
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 30769,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/productivity/aitmpl/.claude-plugin/plugin.json#aitmpl",
+      "type": "plugin",
+      "name": "aitmpl",
+      "description": {
+        "zh": null,
+        "en": "/aitmpl opens a component browser above the prompt: the aitmpl.com catalog (agents, commands, MCPs, settings, hooks, skills, loops, mods) read live from the site's public JSON through $.http.fetch. Pick a type or a trending component, filter, page, open a component and install it from there ($.process.run with the fixed CLI argv and a validated path, no shell), drop its install command into the prompt, or open its page in your browser. Hooks session.start, command.run and ui.render on AbovePrompt; browsing costs no tokens.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "design",
+        "meta"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/productivity/aitmpl/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/productivity/aitmpl/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
       },
       "duplicateOf": null,
       "nearDuplicateOf": null,
@@ -21238,55 +21289,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:aiyantra/extra:io.github.aiyantra/extra#extra-native-computer-use",
-      "type": "mcp",
-      "name": "EXTRA - Native Computer Use",
-      "description": {
-        "zh": null,
-        "en": "Flashless Windows 10/11 native computer-use engine for AI vision, mouse, keyboard & UI automation",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "design"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "AIYantra/extra",
-        "path": "io.github.AIYantra/extra",
-        "url": "https://github.com/AIYantra/extra",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:aklodhi98/humanstandards:io.github.aklodhi98/human-standards#io.github.aklodhi98-human-standards",
       "type": "mcp",
       "name": "io.github.aklodhi98/human-standards",
@@ -24711,6 +24713,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:it-start/relay-ui:io.github.it-start/relay-ui#p-e-relay-(remote)",
+      "type": "mcp",
+      "name": "p-e relay (remote)",
+      "description": {
+        "zh": null,
+        "en": "Remote MCP access to the p-e relay store. Reads are open; writes and waits are signed.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "it-start/relay-ui",
+        "path": "io.github.it-start/relay-ui",
+        "url": "https://github.com/it-start/relay-ui",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:jinero-online/jinero-mcp:online.jinero/jinero#jinero",
       "type": "mcp",
       "name": "Jinero",
@@ -26931,6 +26982,105 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:build.pdfs/pdfs-build#pdfs.build",
+      "type": "mcp",
+      "name": "pdfs.build",
+      "description": {
+        "zh": null,
+        "en": "Design, publish and render PDF templates with Typst. Full template lifecycle over MCP.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "build.pdfs/pdfs-build",
+        "url": "https://pdfs.build",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ca.omniapps/sairen#project-sairen-agentic-execution-node",
+      "type": "mcp",
+      "name": "Project Sairen - Agentic Execution Node",
+      "description": {
+        "zh": null,
+        "en": "Zero-UI machine execution node & microservices for AI agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ca.omniapps/sairen",
+        "url": "https://sairen.omniapps.ca",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:ch.antevo/trademark#antevo-trademark",
       "type": "mcp",
       "name": "Antevo Trademark",
@@ -27775,7 +27925,7 @@
       "name": "Alchemite MCP",
       "description": {
         "zh": null,
-        "en": "Train and use Alchemite machine learning models for experimental design in your local agent.",
+        "en": "Design experiments and make predictions for materials & chemicals properties in your local agent",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -32678,6 +32828,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:rdygaming/hated-wow-mcp:io.github.rdygaming/hated-wow-mcp#hated-wow-mcp",
+      "type": "mcp",
+      "name": "Hated WoW MCP",
+      "description": {
+        "zh": null,
+        "en": "MCP server for WoW addons: Lua API, Blizzard UI source, CVars, art lookup, linting, scaffolding.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "RdyGaming/hated-wow-mcp",
+        "path": "io.github.RdyGaming/hated-wow-mcp",
+        "url": "https://github.com/RdyGaming/hated-wow-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:renfei-design/fify-plugin:io.github.renfei-design/fify#fify",
       "type": "mcp",
       "name": "Fify",
@@ -33192,6 +33392,55 @@
       "source": {
         "repo": "sadri-dridi/named-mcp-utilities",
         "path": "io.github.sadri-dridi/guuid-ok",
+        "url": "https://github.com/sadri-dridi/named-mcp-utilities",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:sadri-dridi/named-mcp-utilities:io.github.sadri-dridi/timeuuid-unix#cassandra-unixtimeuuid-layout,-value-discarded",
+      "type": "mcp",
+      "name": "Cassandra unixTimeUUID layout, value discarded",
+      "description": {
+        "zh": null,
+        "en": "Cassandra unixTimeUUID layout, value discarded",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "sadri-dridi/named-mcp-utilities",
+        "path": "io.github.sadri-dridi/timeuuid-unix",
         "url": "https://github.com/sadri-dridi/named-mcp-utilities",
         "tier": 0
       },
@@ -34378,6 +34627,106 @@
         "repo": "sunhome243/figma-mcp-express",
         "path": "io.github.sunhome243/figma-mcp-express",
         "url": "https://github.com/sunhome243/figma-mcp-express",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:superagnt/plugins:com.superagnt/facebook-data#com.superagnt-facebook-data",
+      "type": "mcp",
+      "name": "com.superagnt/facebook-data",
+      "description": {
+        "zh": null,
+        "en": "Facebook data for AI agents: pages, posts, groups. Brand, market + competitor research JSON.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "research",
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "superagnt/plugins",
+        "path": "com.superagnt/facebook-data",
+        "url": "https://github.com/superagnt/plugins",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:superagnt/plugins:com.superagnt/instagram-data#com.superagnt-instagram-data",
+      "type": "mcp",
+      "name": "com.superagnt/instagram-data",
+      "description": {
+        "zh": null,
+        "en": "Instagram data for AI agents: profiles, posts, reels, followers. Influencer + brand research.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "research",
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "superagnt/plugins",
+        "path": "com.superagnt/instagram-data",
+        "url": "https://github.com/superagnt/plugins",
         "tier": 0
       },
       "quality": {

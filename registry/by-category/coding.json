@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T21:54:41.800Z",
+  "generatedAt": "2026-09-18T21:24:27.082Z",
   "category": {
     "key": "coding",
     "zh": "编码开发",
@@ -109,7 +109,7 @@
       }
     ]
   },
-  "total": 3822,
+  "total": 3862,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/algorithmic-art/skill.md#algorithmic-art",
@@ -87435,6 +87435,56 @@
       "curatedMentions": 2
     },
     {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/integrations/pi-agent-for-claude/.claude-plugin/plugin.json#pi-agent-for-claude",
+      "type": "plugin",
+      "name": "pi-agent-for-claude",
+      "description": {
+        "zh": null,
+        "en": "pi agent for claude: a `pi` subagent type whose model steps run the pi CLI, so pi subagents and agent-team teammates live in Claude Code's own agent UI, streamed live, on any model pi can reach.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/integrations/pi-agent-for-claude/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/integrations/pi-agent-for-claude/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 30769,
+      "curatedMentions": 2
+    },
+    {
       "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/integrations/websearch-to-exa/.claude-plugin/plugin.json#websearch-to-exa",
       "type": "plugin",
       "name": "websearch-to-exa",
@@ -87508,6 +87558,57 @@
         "repo": "davila7/claude-code-templates",
         "path": "cli-tool/components/mods/observability/universal-audit-log/.claude-plugin/plugin.json",
         "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/observability/universal-audit-log/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 30769,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/productivity/aitmpl/.claude-plugin/plugin.json#aitmpl",
+      "type": "plugin",
+      "name": "aitmpl",
+      "description": {
+        "zh": null,
+        "en": "/aitmpl opens a component browser above the prompt: the aitmpl.com catalog (agents, commands, MCPs, settings, hooks, skills, loops, mods) read live from the site's public JSON through $.http.fetch. Pick a type or a trending component, filter, page, open a component and install it from there ($.process.run with the fixed CLI argv and a validated path, no shell), drop its install command into the prompt, or open its page in your browser. Hooks session.start, command.run and ui.render on AbovePrompt; browsing costs no tokens.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "design",
+        "meta"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/productivity/aitmpl/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/productivity/aitmpl/.claude-plugin/plugin.json",
         "tier": 2
       },
       "quality": {
@@ -141533,7 +141634,7 @@
       "name": "io.github.vshulcz/deja-vu",
       "description": {
         "zh": null,
-        "en": "deja-vu: local memory over the session histories of twenty-five coding agents.",
+        "en": "deja-vu: local memory over the session histories of thirty-three coding agents.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -154972,55 +155073,6 @@
       "curatedMentions": 1
     },
     {
-      "id": "mcp:slp-dev1/qwen-dap-mcp:io.github.slp-dev1/qwen-dap-mcp#qwen-dap-mcp",
-      "type": "mcp",
-      "name": "Qwen DAP MCP",
-      "description": {
-        "zh": null,
-        "en": "Native runtime and crash-dump debugging through a local DAP-to-MCP bridge for coding agents.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "SLP-DEV1/qwen-dap-mcp",
-        "path": "io.github.SLP-DEV1/qwen-dap-mcp",
-        "url": "https://github.com/SLP-DEV1/qwen-dap-mcp",
-        "tier": 0
-      },
-      "quality": {
-        "score": 24,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 1
-    },
-    {
       "id": "mcp:smigolsmigol/llmkit:io.github.smigolsmigol/llmkit#io.github.smigolsmigol-llmkit",
       "type": "mcp",
       "name": "io.github.smigolsmigol/llmkit",
@@ -160416,6 +160468,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:caozhi1984/codex-quant:com.minradar/minradar#com.minradar-minradar",
+      "type": "mcp",
+      "name": "com.minradar/minradar",
+      "description": {
+        "zh": null,
+        "en": "App Store opportunity data for coding agents: unmet demand, paying markets, build briefs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "caozhi1984/codex-quant",
+        "path": "com.minradar/minradar",
+        "url": "https://github.com/caozhi1984/codex-quant",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:celmis-labs/celmis:io.github.constantinemakoid/celmis#io.github.constantinemakoid-celmis",
       "type": "mcp",
       "name": "io.github.constantinemakoid/celmis",
@@ -162498,6 +162599,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:decoded-cipher/nodrix:live.nodrix/nodrix#nodrix",
+      "type": "mcp",
+      "name": "nodrix",
+      "description": {
+        "zh": null,
+        "en": "Read live and historical IoT telemetry and actuate ESP32/Arduino hardware from a backend you host.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "decoded-cipher/nodrix",
+        "path": "live.nodrix/nodrix",
+        "url": "https://github.com/decoded-cipher/nodrix",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:delian/codeguide-mcp:io.github.delian/codeguide-mcp#coding-guides",
       "type": "mcp",
       "name": "Coding Guides",
@@ -162618,6 +162768,55 @@
         "repo": "Deviank88/KnowledgeRail",
         "path": "io.github.Deviank88/knowledge-rail",
         "url": "https://github.com/Deviank88/KnowledgeRail",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:devinmlowe/engram:io.github.devinmlowe/engram#engram",
+      "type": "mcp",
+      "name": "Engram",
+      "description": {
+        "zh": null,
+        "en": "Cognitive memory for coding agents: hybrid recall, remember/forget, knowledge graph, nightly dreams.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "devinmlowe/engram",
+        "path": "io.github.devinmlowe/engram",
+        "url": "https://github.com/devinmlowe/engram",
         "tier": 0
       },
       "quality": {
@@ -163212,6 +163411,55 @@
         "repo": "dvd90/chassis",
         "path": "io.github.dvd90/chassis-mcp",
         "url": "https://github.com/dvd90/chassis",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:eabz/tirith:io.github.eabz/tirith#tirith",
+      "type": "mcp",
+      "name": "Tirith",
+      "description": {
+        "zh": null,
+        "en": "Coordination server for parallel coding agents: claims, contracts, notices, and memory notes.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "eabz/tirith",
+        "path": "io.github.eabz/tirith",
+        "url": "https://github.com/eabz/tirith",
         "tier": 0
       },
       "quality": {
@@ -164631,7 +164879,7 @@
       "name": "com.files/python-mcp",
       "description": {
         "zh": null,
-        "en": "Securely give LLMs controlled access to real-world operations inside your Files.com environment",
+        "en": "Local-only Python MCP server for the Files.com API.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -164639,7 +164887,8 @@
       },
       "lang": "en",
       "categories": [
-        "coding"
+        "coding",
+        "meta"
       ],
       "targets": [
         "mcp-client"
@@ -167942,6 +168191,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:jmshinhwa/readystack-themes:io.github.jmshinhwa/angular-removed-api-lint#io.github.jmshinhwa-angular-removed-api-lint",
+      "type": "mcp",
+      "name": "io.github.jmshinhwa/angular-removed-api-lint",
+      "description": {
+        "zh": null,
+        "en": "32 checks for Angular APIs that were removed or deprecated, plus the support window on your version",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jmshinhwa/readystack-themes",
+        "path": "io.github.jmshinhwa/angular-removed-api-lint",
+        "url": "https://github.com/jmshinhwa/readystack-themes",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:jmshinhwa/readystack-themes:io.github.jmshinhwa/autorenew-signup-lint#io.github.jmshinhwa-autorenew-signup-lint",
       "type": "mcp",
       "name": "io.github.jmshinhwa/autorenew-signup-lint",
@@ -168043,6 +168341,104 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:jmshinhwa/readystack-themes:io.github.jmshinhwa/bnpl-disclosure-lint-ccd2#io.github.jmshinhwa-bnpl-disclosure-lint-ccd2",
+      "type": "mcp",
+      "name": "io.github.jmshinhwa/bnpl-disclosure-lint-ccd2",
+      "description": {
+        "zh": null,
+        "en": "22 rules that read your checkout template the way a CCD2 supervisor will from 20 November 2026",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jmshinhwa/readystack-themes",
+        "path": "io.github.jmshinhwa/bnpl-disclosure-lint-ccd2",
+        "url": "https://github.com/jmshinhwa/readystack-themes",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:jmshinhwa/readystack-themes:io.github.jmshinhwa/bulk-sender-lint#io.github.jmshinhwa-bulk-sender-lint",
+      "type": "mcp",
+      "name": "io.github.jmshinhwa/bulk-sender-lint",
+      "description": {
+        "zh": null,
+        "en": "21 dated checks over SPF, DKIM, DMARC, RFC 8058 one-click unsubscribe and TLS, in VS Code and in the",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jmshinhwa/readystack-themes",
+        "path": "io.github.jmshinhwa/bulk-sender-lint",
+        "url": "https://github.com/jmshinhwa/readystack-themes",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:jmshinhwa/readystack-themes:io.github.jmshinhwa/cloud-cost-landmine-lint#io.github.jmshinhwa-cloud-cost-landmine-lint",
       "type": "mcp",
       "name": "io.github.jmshinhwa/cloud-cost-landmine-lint",
@@ -168064,6 +168460,55 @@
       "source": {
         "repo": "jmshinhwa/readystack-themes",
         "path": "io.github.jmshinhwa/cloud-cost-landmine-lint",
+        "url": "https://github.com/jmshinhwa/readystack-themes",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:jmshinhwa/readystack-themes:io.github.jmshinhwa/config-dsl-lint-snippet-pack#io.github.jmshinhwa-config-dsl-lint-snippet-pack",
+      "type": "mcp",
+      "name": "io.github.jmshinhwa/config-dsl-lint-snippet-pack",
+      "description": {
+        "zh": null,
+        "en": "Your config files are never compiled — nothing fails until deploy. 36 snippets and 28 lint rules for",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jmshinhwa/readystack-themes",
+        "path": "io.github.jmshinhwa/config-dsl-lint-snippet-pack",
         "url": "https://github.com/jmshinhwa/readystack-themes",
         "tier": 0
       },
@@ -168212,6 +168657,56 @@
       "source": {
         "repo": "jmshinhwa/readystack-themes",
         "path": "io.github.jmshinhwa/currency-minor-unit-lint",
+        "url": "https://github.com/jmshinhwa/readystack-themes",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:jmshinhwa/readystack-themes:io.github.jmshinhwa/data-act-switching-lint#io.github.jmshinhwa-data-act-switching-lint",
+      "type": "mcp",
+      "name": "io.github.jmshinhwa/data-act-switching-lint",
+      "description": {
+        "zh": null,
+        "en": "Reads your cloud contract text and names every clause Chapter VI no longer allows, with the article",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jmshinhwa/readystack-themes",
+        "path": "io.github.jmshinhwa/data-act-switching-lint",
         "url": "https://github.com/jmshinhwa/readystack-themes",
         "tier": 0
       },
@@ -168486,6 +168981,104 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:jmshinhwa/readystack-themes:io.github.jmshinhwa/en301549-lint#io.github.jmshinhwa-en301549-lint",
+      "type": "mcp",
+      "name": "io.github.jmshinhwa/en301549-lint",
+      "description": {
+        "zh": null,
+        "en": "Flags the EN 301 549 clause each line breaks, and separates what is in force today from what arrives",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jmshinhwa/readystack-themes",
+        "path": "io.github.jmshinhwa/en301549-lint",
+        "url": "https://github.com/jmshinhwa/readystack-themes",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:jmshinhwa/readystack-themes:io.github.jmshinhwa/facturae-verifactu-lint#io.github.jmshinhwa-facturae-verifactu-lint",
+      "type": "mcp",
+      "name": "io.github.jmshinhwa/facturae-verifactu-lint",
+      "description": {
+        "zh": null,
+        "en": "18 reglas sobre tu XML Facturae antes de que FACe lo devuelva",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jmshinhwa/readystack-themes",
+        "path": "io.github.jmshinhwa/facturae-verifactu-lint",
+        "url": "https://github.com/jmshinhwa/readystack-themes",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:jmshinhwa/readystack-themes:io.github.jmshinhwa/firmware-release-gate#io.github.jmshinhwa-firmware-release-gate",
       "type": "mcp",
       "name": "io.github.jmshinhwa/firmware-release-gate",
@@ -168584,6 +169177,104 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:jmshinhwa/readystack-themes:io.github.jmshinhwa/gdpr-privacy-notice-lint#io.github.jmshinhwa-gdpr-privacy-notice-lint",
+      "type": "mcp",
+      "name": "io.github.jmshinhwa/gdpr-privacy-notice-lint",
+      "description": {
+        "zh": null,
+        "en": "16 rules read your privacy.md the way Articles 13 and 14 read it",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jmshinhwa/readystack-themes",
+        "path": "io.github.jmshinhwa/gdpr-privacy-notice-lint",
+        "url": "https://github.com/jmshinhwa/readystack-themes",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:jmshinhwa/readystack-themes:io.github.jmshinhwa/gnu-global-cpp-vscode-config-pack#io.github.jmshinhwa-gnu-global-cpp-vscode-config-pack",
+      "type": "mcp",
+      "name": "io.github.jmshinhwa/gnu-global-cpp-vscode-config-pack",
+      "description": {
+        "zh": null,
+        "en": "21 rules that read the values in a shared .vscode folder, plus 45 snippets. VS Code loads a wrong va",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jmshinhwa/readystack-themes",
+        "path": "io.github.jmshinhwa/gnu-global-cpp-vscode-config-pack",
+        "url": "https://github.com/jmshinhwa/readystack-themes",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:jmshinhwa/readystack-themes:io.github.jmshinhwa/gpsr-listing-lint#io.github.jmshinhwa-gpsr-listing-lint",
       "type": "mcp",
       "name": "io.github.jmshinhwa/gpsr-listing-lint",
@@ -168606,6 +169297,254 @@
       "source": {
         "repo": "jmshinhwa/readystack-themes",
         "path": "io.github.jmshinhwa/gpsr-listing-lint",
+        "url": "https://github.com/jmshinhwa/readystack-themes",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:jmshinhwa/readystack-themes:io.github.jmshinhwa/green-claim-lint-empco#io.github.jmshinhwa-green-claim-lint-empco",
+      "type": "mcp",
+      "name": "io.github.jmshinhwa/green-claim-lint-empco",
+      "description": {
+        "zh": null,
+        "en": "Reads your HTML and Markdown product copy and flags the environmental claims Directive (EU) 2024/825",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jmshinhwa/readystack-themes",
+        "path": "io.github.jmshinhwa/green-claim-lint-empco",
+        "url": "https://github.com/jmshinhwa/readystack-themes",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:jmshinhwa/readystack-themes:io.github.jmshinhwa/hmrc-fraud-prevention-header-lint#io.github.jmshinhwa-hmrc-fraud-prevention-header-lint",
+      "type": "mcp",
+      "name": "io.github.jmshinhwa/hmrc-fraud-prevention-header-lint",
+      "description": {
+        "zh": null,
+        "en": "Finds the Gov-Client and Gov-Vendor header mistakes HMRC rejects, in your editor, offline, before yo",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jmshinhwa/readystack-themes",
+        "path": "io.github.jmshinhwa/hmrc-fraud-prevention-header-lint",
+        "url": "https://github.com/jmshinhwa/readystack-themes",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:jmshinhwa/readystack-themes:io.github.jmshinhwa/hospital-mrf-lint#io.github.jmshinhwa-hospital-mrf-lint",
+      "type": "mcp",
+      "name": "io.github.jmshinhwa/hospital-mrf-lint",
+      "description": {
+        "zh": null,
+        "en": "15 offline rules read your standard charges JSON the way 45 CFR Part 180 and the CMS template do - t",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jmshinhwa/readystack-themes",
+        "path": "io.github.jmshinhwa/hospital-mrf-lint",
+        "url": "https://github.com/jmshinhwa/readystack-themes",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:jmshinhwa/readystack-themes:io.github.jmshinhwa/impressum-lint-de#io.github.jmshinhwa-impressum-lint-de",
+      "type": "mcp",
+      "name": "io.github.jmshinhwa/impressum-lint-de",
+      "description": {
+        "zh": null,
+        "en": "17 Regeln mit Stichtag für Impressum, Footer und Shop-Templates im Repository",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jmshinhwa/readystack-themes",
+        "path": "io.github.jmshinhwa/impressum-lint-de",
+        "url": "https://github.com/jmshinhwa/readystack-themes",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:jmshinhwa/readystack-themes:io.github.jmshinhwa/ingress-nginx-retirement-lint#io.github.jmshinhwa-ingress-nginx-retirement-lint",
+      "type": "mcp",
+      "name": "io.github.jmshinhwa/ingress-nginx-retirement-lint",
+      "description": {
+        "zh": null,
+        "en": "Names the Gateway API field that replaces each retired ingress-nginx annotation — or tells you there",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jmshinhwa/readystack-themes",
+        "path": "io.github.jmshinhwa/ingress-nginx-retirement-lint",
         "url": "https://github.com/jmshinhwa/readystack-themes",
         "tier": 0
       },
@@ -168683,6 +169622,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:jmshinhwa/readystack-themes:io.github.jmshinhwa/jdk25-upgrade-blocker-lint#io.github.jmshinhwa-jdk25-upgrade-blocker-lint",
+      "type": "mcp",
+      "name": "io.github.jmshinhwa/jdk25-upgrade-blocker-lint",
+      "description": {
+        "zh": null,
+        "en": "Finds the Java lines the new LTS removed — 18 rules; 23 findings in one 64-line fixture",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jmshinhwa/readystack-themes",
+        "path": "io.github.jmshinhwa/jdk25-upgrade-blocker-lint",
+        "url": "https://github.com/jmshinhwa/readystack-themes",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:jmshinhwa/readystack-themes:io.github.jmshinhwa/k8s-removed-api-lint#io.github.jmshinhwa-k8s-removed-api-lint",
       "type": "mcp",
       "name": "io.github.jmshinhwa/k8s-removed-api-lint",
@@ -168706,6 +169694,55 @@
       "source": {
         "repo": "jmshinhwa/readystack-themes",
         "path": "io.github.jmshinhwa/k8s-removed-api-lint",
+        "url": "https://github.com/jmshinhwa/readystack-themes",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:jmshinhwa/readystack-themes:io.github.jmshinhwa/ksef-fa3-invoice-lint#io.github.jmshinhwa-ksef-fa3-invoice-lint",
+      "type": "mcp",
+      "name": "io.github.jmshinhwa/ksef-fa3-invoice-lint",
+      "description": {
+        "zh": null,
+        "en": "Finds the lines KSeF will reject in a Polish structured invoice XML, before you send it",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jmshinhwa/readystack-themes",
+        "path": "io.github.jmshinhwa/ksef-fa3-invoice-lint",
         "url": "https://github.com/jmshinhwa/readystack-themes",
         "tier": 0
       },
@@ -168932,6 +169969,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:jmshinhwa/readystack-themes:io.github.jmshinhwa/openapi-security-contract-lint#io.github.jmshinhwa-openapi-security-contract-lint",
+      "type": "mcp",
+      "name": "io.github.jmshinhwa/openapi-security-contract-lint",
+      "description": {
+        "zh": null,
+        "en": "Finds the lines in an OpenAPI file that publish an endpoint with no authentication, an API key in th",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jmshinhwa/readystack-themes",
+        "path": "io.github.jmshinhwa/openapi-security-contract-lint",
+        "url": "https://github.com/jmshinhwa/readystack-themes",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:jmshinhwa/readystack-themes:io.github.jmshinhwa/optout-signal-lint#io.github.jmshinhwa-optout-signal-lint",
       "type": "mcp",
       "name": "io.github.jmshinhwa/optout-signal-lint",
@@ -168954,6 +170041,55 @@
       "source": {
         "repo": "jmshinhwa/readystack-themes",
         "path": "io.github.jmshinhwa/optout-signal-lint",
+        "url": "https://github.com/jmshinhwa/readystack-themes",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:jmshinhwa/readystack-themes:io.github.jmshinhwa/outlook-email-html-lint#io.github.jmshinhwa-outlook-email-html-lint",
+      "type": "mcp",
+      "name": "io.github.jmshinhwa/outlook-email-html-lint",
+      "description": {
+        "zh": null,
+        "en": "Classic Outlook renders with the Word engine, the new Outlook with WebView2. Lint one email file aga",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jmshinhwa/readystack-themes",
+        "path": "io.github.jmshinhwa/outlook-email-html-lint",
         "url": "https://github.com/jmshinhwa/readystack-themes",
         "tier": 0
       },
@@ -169129,6 +170265,155 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:jmshinhwa/readystack-themes:io.github.jmshinhwa/pytest-deprecation-lint#io.github.jmshinhwa-pytest-deprecation-lint",
+      "type": "mcp",
+      "name": "io.github.jmshinhwa/pytest-deprecation-lint",
+      "description": {
+        "zh": null,
+        "en": "Marks the lines in your test suite that current pytest no longer runs — and the config keys it silen",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jmshinhwa/readystack-themes",
+        "path": "io.github.jmshinhwa/pytest-deprecation-lint",
+        "url": "https://github.com/jmshinhwa/readystack-themes",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:jmshinhwa/readystack-themes:io.github.jmshinhwa/sepa-pain001-reject-lint#io.github.jmshinhwa-sepa-pain001-reject-lint",
+      "type": "mcp",
+      "name": "io.github.jmshinhwa/sepa-pain001-reject-lint",
+      "description": {
+        "zh": null,
+        "en": "Find the lines your bank will refuse before you send the batch",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jmshinhwa/readystack-themes",
+        "path": "io.github.jmshinhwa/sepa-pain001-reject-lint",
+        "url": "https://github.com/jmshinhwa/readystack-themes",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:jmshinhwa/readystack-themes:io.github.jmshinhwa/sfdx-retirement-lint#io.github.jmshinhwa-sfdx-retirement-lint",
+      "type": "mcp",
+      "name": "io.github.jmshinhwa/sfdx-retirement-lint",
+      "description": {
+        "zh": null,
+        "en": "Finds retired API versions and removed sfdx force:* commands in your DX repo before a deploy or a CI",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jmshinhwa/readystack-themes",
+        "path": "io.github.jmshinhwa/sfdx-retirement-lint",
+        "url": "https://github.com/jmshinhwa/readystack-themes",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:jmshinhwa/readystack-themes:io.github.jmshinhwa/sql-card-data-lint#io.github.jmshinhwa-sql-card-data-lint",
       "type": "mcp",
       "name": "io.github.jmshinhwa/sql-card-data-lint",
@@ -169151,6 +170436,104 @@
       "source": {
         "repo": "jmshinhwa/readystack-themes",
         "path": "io.github.jmshinhwa/sql-card-data-lint",
+        "url": "https://github.com/jmshinhwa/readystack-themes",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:jmshinhwa/readystack-themes:io.github.jmshinhwa/tax-year-constant-drift-lint#io.github.jmshinhwa-tax-year-constant-drift-lint",
+      "type": "mcp",
+      "name": "io.github.jmshinhwa/tax-year-constant-drift-lint",
+      "description": {
+        "zh": null,
+        "en": "Finds the tax years, statutory limits, filing thresholds, rates and deadlines hardcoded in payroll a",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jmshinhwa/readystack-themes",
+        "path": "io.github.jmshinhwa/tax-year-constant-drift-lint",
+        "url": "https://github.com/jmshinhwa/readystack-themes",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:jmshinhwa/readystack-themes:io.github.jmshinhwa/tdm-reservation-lint#io.github.jmshinhwa-tdm-reservation-lint",
+      "type": "mcp",
+      "name": "io.github.jmshinhwa/tdm-reservation-lint",
+      "description": {
+        "zh": null,
+        "en": "Finds the robots.txt lines that reserve nothing — retired crawler tokens, shadowed groups, rules abo",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jmshinhwa/readystack-themes",
+        "path": "io.github.jmshinhwa/tdm-reservation-lint",
         "url": "https://github.com/jmshinhwa/readystack-themes",
         "tier": 0
       },
@@ -172245,6 +173628,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:matlab/matlab-mcp-server:io.github.matlab/matlab-mcp-server#matlab-mcp-server",
+      "type": "mcp",
+      "name": "MATLAB MCP Server",
+      "description": {
+        "zh": null,
+        "en": "Connect AI coding agents to MATLAB. Run code, tests, and analysis via MCP.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "matlab/matlab-mcp-server",
+        "path": "io.github.matlab/matlab-mcp-server",
+        "url": "https://github.com/matlab/matlab-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:maxkle1nz/m1nd:io.github.maxkle1nz/m1nd#io.github.maxkle1nz-m1nd",
       "type": "mcp",
       "name": "io.github.maxkle1nz/m1nd",
@@ -173433,6 +174866,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:app.showitworks/show-it-works#show-it-works",
+      "type": "mcp",
+      "name": "Show It Works",
+      "description": {
+        "zh": null,
+        "en": "Verification videos for AI coding agents: record the run, upload over MCP, share a viewer link.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "app.showitworks/show-it-works",
+        "url": "https://registry.modelcontextprotocol.io/?q=app.showitworks%2Fshow-it-works",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:app.vercel.stripecheckup/stripecheckup#app.vercel.stripecheckup-stripecheckup",
       "type": "mcp",
       "name": "app.vercel.stripecheckup/stripecheckup",
@@ -173555,6 +175037,55 @@
         "repo": null,
         "path": "bzh.mana/mana",
         "url": "https://mana.bzh",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ch.getsharepa/sharepa#sharepa",
+      "type": "mcp",
+      "name": "sharepa",
+      "description": {
+        "zh": null,
+        "en": "Put an HTML or React artifact online as a web page with its own address, password and stats.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ch.getsharepa/sharepa",
+        "url": "https://getsharepa.ch",
         "tier": 0
       },
       "quality": {
@@ -173802,6 +175333,55 @@
         "repo": null,
         "path": "com.astryke/hub",
         "url": "https://astryke.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.bernuvia/marketplace#bernuvia",
+      "type": "mcp",
+      "name": "Bernuvia",
+      "description": {
+        "zh": null,
+        "en": "Marketplace of code templates: buy, sell and manage orders in USDC with on-chain escrow",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.bernuvia/marketplace",
+        "url": "https://www.bernuvia.com/mcp",
         "tier": 0
       },
       "quality": {
@@ -178968,6 +180548,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:se.klassio/eu-customs-tariff-eudr#klassio-—-eu-customs-tariff-(cn-hs)-classification-+-eudr",
+      "type": "mcp",
+      "name": "Klassio — EU customs tariff (CN/HS) classification + EUDR",
+      "description": {
+        "zh": null,
+        "en": "EU customs tariff classification: CN/HS code + GIR rule, MFN duty and EUDR scope. Sourced.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "se.klassio/eu-customs-tariff-eudr",
+        "url": "https://klassio.se/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:sh.hilos/workspace#hilos-workspace",
       "type": "mcp",
       "name": "hilos workspace",
@@ -181748,6 +183377,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:officialtanishsharma/agentos:io.github.officialtanishsharma/agentos#io.github.officialtanishsharma-agentos",
+      "type": "mcp",
+      "name": "io.github.OfficialTanishSharma/agentos",
+      "description": {
+        "zh": null,
+        "en": "Local-first persistent memory MCP server for AI coding agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "OfficialTanishSharma/agentos",
+        "path": "io.github.OfficialTanishSharma/agentos",
+        "url": "https://github.com/OfficialTanishSharma/agentos",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:ojuschugh1/sqz:io.github.ojuschugh1/sqz#sqz",
       "type": "mcp",
       "name": "sqz",
@@ -182813,57 +184492,6 @@
         "repo": "Pharaoh-so/pharaoh",
         "path": "so.pharaoh/pharaoh",
         "url": "https://github.com/Pharaoh-so/pharaoh",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:phasespace-labs/palinode:io.github.phasespace-labs/palinode#palinode",
-      "type": "mcp",
-      "name": "Palinode",
-      "description": {
-        "zh": null,
-        "en": "Git-versioned markdown memory for AI agents: save, search, compact, lint, and audit.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "document",
-        "coding",
-        "security"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "phasespace-labs/palinode",
-        "path": "io.github.phasespace-labs/palinode",
-        "url": "https://github.com/phasespace-labs/palinode",
         "tier": 0
       },
       "quality": {
@@ -186912,6 +188540,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:sadri-dridi/named-mcp-utilities:io.github.sadri-dridi/py-esc-n#python-string-escape-count,-input-discarded",
+      "type": "mcp",
+      "name": "Python string escape count, input discarded",
+      "description": {
+        "zh": null,
+        "en": "Python string escape count, input discarded",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "sadri-dridi/named-mcp-utilities",
+        "path": "io.github.sadri-dridi/py-esc-n",
+        "url": "https://github.com/sadri-dridi/named-mcp-utilities",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:sadri-dridi/named-mcp-utilities:io.github.sadri-dridi/py-uesc#python-unicode-escape-count,-input-discarded",
       "type": "mcp",
       "name": "Python unicode-escape count, input discarded",
@@ -186933,6 +188610,104 @@
       "source": {
         "repo": "sadri-dridi/named-mcp-utilities",
         "path": "io.github.sadri-dridi/py-uesc",
+        "url": "https://github.com/sadri-dridi/named-mcp-utilities",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:sadri-dridi/named-mcp-utilities:io.github.sadri-dridi/sort-hyphen#uk-sort-code-hyphenated-shape,-value-discarded",
+      "type": "mcp",
+      "name": "UK sort-code hyphenated shape, value discarded",
+      "description": {
+        "zh": null,
+        "en": "UK sort-code hyphenated shape, value discarded",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "sadri-dridi/named-mcp-utilities",
+        "path": "io.github.sadri-dridi/sort-hyphen",
+        "url": "https://github.com/sadri-dridi/named-mcp-utilities",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:sadri-dridi/named-mcp-utilities:io.github.sadri-dridi/sortcode-ok#uk-sort-code-6-digit-shape,-value-discarded",
+      "type": "mcp",
+      "name": "UK sort code 6-digit shape, value discarded",
+      "description": {
+        "zh": null,
+        "en": "UK sort code 6-digit shape, value discarded",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "sadri-dridi/named-mcp-utilities",
+        "path": "io.github.sadri-dridi/sortcode-ok",
         "url": "https://github.com/sadri-dridi/named-mcp-utilities",
         "tier": 0
       },
@@ -187031,6 +188806,55 @@
       "source": {
         "repo": "sadri-dridi/named-mcp-utilities",
         "path": "io.github.sadri-dridi/utf16-n",
+        "url": "https://github.com/sadri-dridi/named-mcp-utilities",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:sadri-dridi/named-mcp-utilities:io.github.sadri-dridi/utf16-run#utf-16-code-unit-run,-text-discarded",
+      "type": "mcp",
+      "name": "UTF-16 code-unit run, text discarded",
+      "description": {
+        "zh": null,
+        "en": "UTF-16 code-unit run, text discarded",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "sadri-dridi/named-mcp-utilities",
+        "path": "io.github.sadri-dridi/utf16-run",
         "url": "https://github.com/sadri-dridi/named-mcp-utilities",
         "tier": 0
       },
@@ -190075,6 +191899,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:theluckystrike/mcp-servers:io.github.theluckystrike/barcode#io.github.theluckystrike-barcode",
+      "type": "mcp",
+      "name": "io.github.theluckystrike/barcode",
+      "description": {
+        "zh": null,
+        "en": "QR codes and barcodes offline: WiFi, vCards, SEPA payment codes, Code 128, EAN-13, SVG or PNG.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "theluckystrike/mcp-servers",
+        "path": "io.github.theluckystrike/barcode",
+        "url": "https://github.com/theluckystrike/mcp-servers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:theluckystrike/mcp-servers:io.github.theluckystrike/qr-code#io.github.theluckystrike-qr-code",
       "type": "mcp",
       "name": "io.github.theluckystrike/qr-code",
@@ -190343,6 +192216,56 @@
         "repo": "timohaa/scopewalker-mcp",
         "path": "io.github.timohaa/scopewalker-mcp",
         "url": "https://github.com/timohaa/scopewalker-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:tin-computer/tin:computer.tin/tin#tin",
+      "type": "mcp",
+      "name": "Tin",
+      "description": {
+        "zh": null,
+        "en": "Open-source marketing system, designed for coding agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "tin-computer/tin",
+        "path": "computer.tin/tin",
+        "url": "https://github.com/tin-computer/tin",
         "tier": 0
       },
       "quality": {
@@ -192669,6 +194592,55 @@
         "repo": "white-hat-lab/x402-safe-upgrade-api",
         "path": "io.github.white-hat-lab/safe-upgrade",
         "url": "https://github.com/white-hat-lab/x402-safe-upgrade-api",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:willa-code/visual-intent-layer:io.github.willa-code/visual-intent-layer#io.github.willa-code-visual-intent-layer",
+      "type": "mcp",
+      "name": "io.github.willa-code/visual-intent-layer",
+      "description": {
+        "zh": null,
+        "en": "Point at visible targets in an agent-built interface, and deliver grounded Annotations.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "willa-code/visual-intent-layer",
+        "path": "io.github.willa-code/visual-intent-layer",
+        "url": "https://github.com/willa-code/visual-intent-layer",
         "tier": 0
       },
       "quality": {

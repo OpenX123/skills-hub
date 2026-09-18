@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T21:54:41.800Z",
+  "generatedAt": "2026-09-18T21:24:27.082Z",
   "category": {
     "key": "business",
     "zh": "商业营销",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 573,
+  "total": 587,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/claude-api/skill.md#claude-api",
@@ -5426,7 +5426,7 @@
       "name": "Hermoso",
       "description": {
         "zh": null,
-        "en": "841 tools, all usable alone: ad research, video ads, 10 publishing channels, 11 ad platforms.",
+        "en": "Marketing on autopilot from your agent. 841 tools, usable alone. Publishing and ads cost no credits.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -5434,9 +5434,7 @@
       },
       "lang": "en",
       "categories": [
-        "research",
-        "business",
-        "media"
+        "business"
       ],
       "targets": [
         "mcp-client"
@@ -8147,6 +8145,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:businessmcp/mcp-gateway:com.businessmcp/businessmcp#com.businessmcp-businessmcp",
+      "type": "mcp",
+      "name": "com.businessmcp/businessmcp",
+      "description": {
+        "zh": null,
+        "en": "Your whole business as one MCP server: analytics, CRM, SEO, ads, revenue. Scoped per data class.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business",
+        "data",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "businessmcp/mcp-gateway",
+        "path": "com.businessmcp/businessmcp",
+        "url": "https://github.com/businessmcp/mcp-gateway",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:camerondwills/lazyads-mcp:ai.lazyads/mcp#lazy-ads",
       "type": "mcp",
       "name": "Lazy Ads",
@@ -8596,7 +8645,7 @@
       "name": "io.github.CONN-SKILL/connskill-growth-mcp",
       "description": {
         "zh": null,
-        "en": "SEO/SERP data, SMS numbers, inboxes, EU LLM and x402 trust check for agents, paid per call in USDC",
+        "en": "Local market checks, rankings and keyword research as JSON, paid per call via x402 in USDC on Base.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -8605,7 +8654,7 @@
       "lang": "en",
       "categories": [
         "business",
-        "writing"
+        "research"
       ],
       "targets": [
         "mcp-client"
@@ -8862,6 +8911,55 @@
         "repo": "cyanheads/openfec-mcp-server",
         "path": "io.github.cyanheads/openfec-mcp-server",
         "url": "https://github.com/cyanheads/openfec-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:d4umak/linkedin-outreach-mcp:io.github.d4umak/heylead#heylead-—-autonomous-linkedin-sdr",
+      "type": "mcp",
+      "name": "HeyLead — Autonomous LinkedIn SDR",
+      "description": {
+        "zh": null,
+        "en": "Autonomous LinkedIn SDR — voice-matched outreach, ICP generation, and campaign management.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "D4umak/linkedin-outreach-mcp",
+        "path": "io.github.D4umak/heylead",
+        "url": "https://github.com/D4umak/linkedin-outreach-mcp",
         "tier": 0
       },
       "quality": {
@@ -12296,6 +12394,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:klipyai/poc-nextjs-nylas:ai.klipy/klipy#ai.klipy-klipy",
+      "type": "mcp",
+      "name": "ai.klipy/klipy",
+      "description": {
+        "zh": null,
+        "en": "AI CRO for Agencies and MSPs: full automatic CRM; multichannel tracking; draft follow-ups.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "klipyai/poc-nextjs-nylas",
+        "path": "ai.klipy/klipy",
+        "url": "https://github.com/klipyai/poc-nextjs-nylas",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:klosk/adloop:com.getadloop/adloop#adloop",
       "type": "mcp",
       "name": "AdLoop",
@@ -15208,6 +15355,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:app.soclo/soclo-mcp#soclo",
+      "type": "mcp",
+      "name": "Soclo",
+      "description": {
+        "zh": null,
+        "en": "Soclo: content, socials, ads and takings on iOS, Google Play and web - connected to your AI.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "app.soclo/soclo-mcp",
+        "url": "https://registry.modelcontextprotocol.io/?q=app.soclo%2Fsoclo-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:app.sparkscribe/sparks-scribe#sparks-scribe",
       "type": "mcp",
       "name": "Sparks Scribe",
@@ -17377,6 +17573,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.harpd/agent-data#harpd-agent-data",
+      "type": "mcp",
+      "name": "Harpd Agent Data",
+      "description": {
+        "zh": null,
+        "en": "Live rankings and pricing for 10,000+ AI products and LLMs. Free tier; paid data via x402.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.harpd/agent-data",
+        "url": "https://registry.modelcontextprotocol.io/?q=com.harpd%2Fagent-data",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.ingest0r.api/cook-county-property-data#cook-county-chicago-property-data-(free-tier,-no-wallet-need",
       "type": "mcp",
       "name": "Cook County / Chicago Property Data (free tier, no wallet needed)",
@@ -18168,6 +18413,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.oviond/oviond#com.oviond-oviond",
+      "type": "mcp",
+      "name": "com.oviond/oviond",
+      "description": {
+        "zh": null,
+        "en": "Build branded agency client reports from 100+ marketing datasources.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.oviond/oviond",
+        "url": "https://oviond.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.primecutsnursery/public-data#prime-cuts-nursery",
       "type": "mcp",
       "name": "Prime Cuts Nursery",
@@ -18537,6 +18831,55 @@
         "repo": null,
         "path": "com.relmcrm/relm",
         "url": "https://relmcrm.com/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.reportingninja/reporting-ninja#com.reportingninja-reporting-ninja",
+      "type": "mcp",
+      "name": "com.reportingninja/reporting-ninja",
+      "description": {
+        "zh": null,
+        "en": "Query marketing data across 20+ ad platforms; with write access, create, schedule and share reports.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.reportingninja/reporting-ninja",
+        "url": "https://www.reportingninja.com",
         "tier": 0
       },
       "quality": {
@@ -20351,7 +20694,7 @@
       "name": "Google Ads Transparency Center Scraper",
       "description": {
         "zh": null,
-        "en": "Search Google Ads by domain or brand; return creatives, formats, dates and reach when available.",
+        "en": "Google Ads by domain or brand: creatives, formats, dates; or bulk-check which domains advertise.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -21977,6 +22320,104 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.summer/summer#summer",
+      "type": "mcp",
+      "name": "Summer",
+      "description": {
+        "zh": null,
+        "en": "Ask live marketing data anything to get verified answers, client-ready reports, and next steps.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.summer/summer",
+        "url": "https://summer.io",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ist.lobster/lobster#lobster",
+      "type": "mcp",
+      "name": "Lobster",
+      "description": {
+        "zh": null,
+        "en": "Public affairs CRM: stakeholders, projects, actions, Finnish Transparency Register",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ist.lobster/lobster",
+        "url": "https://lobster.ist",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:it.flusia/crm#flusia-crm",
       "type": "mcp",
       "name": "Flusia CRM",
@@ -23287,6 +23728,55 @@
         "repo": "mindwear-capitian/followupboss-mcp-server",
         "path": "com.neuhausre/followupboss",
         "url": "https://github.com/mindwear-capitian/followupboss-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mmedum/pipedrive-mcp:io.github.mmedum/pipedrive-mcp#io.github.mmedum-pipedrive-mcp",
+      "type": "mcp",
+      "name": "io.github.mmedum/pipedrive-mcp",
+      "description": {
+        "zh": null,
+        "en": "Pipedrive CRM as MCP tools: find deals, people and companies, and move deals through a pipeline.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "mmedum/pipedrive-mcp",
+        "path": "io.github.mmedum/pipedrive-mcp",
+        "url": "https://github.com/mmedum/pipedrive-mcp",
         "tier": 0
       },
       "quality": {
@@ -26646,6 +27136,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:smartagent-ru/smartagent-mcp:io.github.smartagent-ru/smartagent#smartagent-crm",
+      "type": "mcp",
+      "name": "SmartAgent CRM",
+      "description": {
+        "zh": null,
+        "en": "MCP server for SmartAgent CRM: leads, tasks, sales pipelines, property listings",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "smartagent-ru/smartagent-mcp",
+        "path": "io.github.smartagent-ru/smartagent",
+        "url": "https://github.com/smartagent-ru/smartagent-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:sourcey/mcp-server:com.sourcey/sourcey#sourcey",
       "type": "mcp",
       "name": "Sourcey",
@@ -27213,6 +27752,56 @@
         "repo": "themineworks/mcp-servers",
         "path": "com.themineworks/ecommerce-intel-mcp",
         "url": "https://github.com/themineworks/mcp-servers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:tin-computer/tin:computer.tin/tin#tin",
+      "type": "mcp",
+      "name": "Tin",
+      "description": {
+        "zh": null,
+        "en": "Open-source marketing system, designed for coding agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "tin-computer/tin",
+        "path": "computer.tin/tin",
+        "url": "https://github.com/tin-computer/tin",
         "tier": 0
       },
       "quality": {
@@ -28082,6 +28671,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:vertoagency/website:com.vertodigital/mcp#vertodigital-mcp-server",
+      "type": "mcp",
+      "name": "VertoDigital MCP Server",
+      "description": {
+        "zh": null,
+        "en": "B2B marketing intelligence and lead-capture tools for vertodigital.com.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "VertoAgency/website",
+        "path": "com.vertodigital/mcp",
+        "url": "https://github.com/VertoAgency/website",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:wubin1836/ai-hive-mcp-server:io.github.wubin1836/ai-hive-aigc#ai-hive-aigc",
       "type": "mcp",
       "name": "AI-HIVE AIGC",
@@ -28701,6 +29340,56 @@
         "repo": "zafety-vibin/grimoire-mcp",
         "path": "bot.ttrpg/grimoire",
         "url": "https://github.com/zafety-vibin/grimoire-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:zeisoft/heymetra-mcp:com.heymetra/heymetra#heymetra",
+      "type": "mcp",
+      "name": "HeyMetra",
+      "description": {
+        "zh": null,
+        "en": "Ask across your ads, analytics, store, CRM and subscription accounts; writes wait for approval.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business",
+        "data"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "zeisoft/heymetra-mcp",
+        "path": "com.heymetra/heymetra",
+        "url": "https://github.com/zeisoft/heymetra-mcp",
         "tier": 0
       },
       "quality": {

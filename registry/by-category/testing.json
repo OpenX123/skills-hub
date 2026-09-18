@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T21:54:41.800Z",
+  "generatedAt": "2026-09-18T21:24:27.082Z",
   "category": {
     "key": "testing",
     "zh": "测试质量",
@@ -73,7 +73,7 @@
       }
     ]
   },
-  "total": 431,
+  "total": 440,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/webapp-testing/skill.md#webapp-testing",
@@ -13327,7 +13327,7 @@
       "name": "Amazing Marvin (complete)",
       "description": {
         "zh": null,
-        "en": "Amazing Marvin task manager: complete public-API coverage (37 tools) with built-in rate limiting",
+        "en": "Amazing Marvin task manager: complete public-API coverage (38 tools) with built-in rate limiting",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -14014,6 +14014,104 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:builtforai/builtforai-healthcare:io.github.builtforai/coverage-exception#io.github.builtforai-coverage-exception",
+      "type": "mcp",
+      "name": "io.github.builtforai/coverage-exception",
+      "description": {
+        "zh": null,
+        "en": "Why Medicare Part D restricts a drug, and the exception and appeal path to challenge it",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "builtforai/builtforai-healthcare",
+        "path": "io.github.builtforai/coverage-exception",
+        "url": "https://github.com/builtforai/builtforai-healthcare",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:builtforai/builtforai-healthcare:io.github.builtforai/procedure-coverage#io.github.builtforai-procedure-coverage",
+      "type": "mcp",
+      "name": "io.github.builtforai/procedure-coverage",
+      "description": {
+        "zh": null,
+        "en": "Medicare coverage and fee-schedule amounts for CPT/HCPCS codes against a diagnosis",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "builtforai/builtforai-healthcare",
+        "path": "io.github.builtforai/procedure-coverage",
+        "url": "https://github.com/builtforai/builtforai-healthcare",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:carbaj03/retry-trace:io.github.carbaj03/retry-trace#io.github.carbaj03-retry-trace",
       "type": "mcp",
       "name": "io.github.carbaj03/retry-trace",
@@ -14086,6 +14184,56 @@
         "repo": "catalogapi/mcp-server",
         "path": "com.catalogapi/catalogapi",
         "url": "https://github.com/catalogapi/mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:ciceroyang/agentgate:io.github.ciceroyang/agentgate#agentgate",
+      "type": "mcp",
+      "name": "agentgate",
+      "description": {
+        "zh": null,
+        "en": "Read-only evidence for the tools agents run: MCP server records, coverage and policy.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ciceroyang/agentgate",
+        "path": "io.github.ciceroyang/agentgate",
+        "url": "https://github.com/ciceroyang/agentgate",
         "tier": 0
       },
       "quality": {
@@ -15950,6 +16098,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:jmshinhwa/readystack-themes:io.github.jmshinhwa/pytest-deprecation-lint#io.github.jmshinhwa-pytest-deprecation-lint",
+      "type": "mcp",
+      "name": "io.github.jmshinhwa/pytest-deprecation-lint",
+      "description": {
+        "zh": null,
+        "en": "Marks the lines in your test suite that current pytest no longer runs — and the config keys it silen",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jmshinhwa/readystack-themes",
+        "path": "io.github.jmshinhwa/pytest-deprecation-lint",
+        "url": "https://github.com/jmshinhwa/readystack-themes",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:joeetdev/venture-estate:uk.co.levtestingcost/site#uk.co.levtestingcost-site",
       "type": "mcp",
       "name": "uk.co.levtestingcost/site",
@@ -17236,6 +17434,104 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:co.kymac.feeds/feed-digest#feed-digest",
+      "type": "mcp",
+      "name": "feed-digest",
+      "description": {
+        "zh": null,
+        "en": "RSS/Atom URL → structured items for bots. Free try then prepaid TEST. https://feeds.kymac.co",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "co.kymac.feeds/feed-digest",
+        "url": "https://feeds.kymac.co/llms.txt",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:co.kymac.inbox/webhook-inbox#webhook-inbox",
+      "type": "mcp",
+      "name": "webhook-inbox",
+      "description": {
+        "zh": null,
+        "en": "Ephemeral HTTPS inbox for bots: mint URL, capture POSTs, list JSON. TEST. https://inbox.kymac.co",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "co.kymac.inbox/webhook-inbox",
+        "url": "https://inbox.kymac.co/llms.txt",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:co.kymac.shelf/shelf-smoke#shelf-smoke-—-url-smoke-headless-qa",
       "type": "mcp",
       "name": "shelf-smoke — url smoke / headless QA",
@@ -17459,6 +17755,55 @@
         "repo": null,
         "path": "com.drivings/driving-test-study",
         "url": "https://mcp.drivings.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.first-dollar-test/first-dollar-test#first-dollar-test",
+      "type": "mcp",
+      "name": "First Dollar Test",
+      "description": {
+        "zh": null,
+        "en": "Base agent evaluation: 2 USDC fee, 1 USDC on verified PASS, full fee refund on FAIL/expiry.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.first-dollar-test/first-dollar-test",
+        "url": "https://first-dollar-test.com",
         "tier": 0
       },
       "quality": {
@@ -18058,6 +18403,55 @@
         "repo": null,
         "path": "dev.taada/tada",
         "url": "https://taada.dev",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:dev.workers.boshfred.greenhouse-jobs-snapshot-sepolia/greenhouse-jobs-snapshot#greenhouse-jobs-snapshot-(base-sepolia)",
+      "type": "mcp",
+      "name": "Greenhouse Jobs Snapshot (Base Sepolia)",
+      "description": {
+        "zh": null,
+        "en": "Deterministic public Greenhouse jobs. Paid tool uses 0.001 test USDC on Base Sepolia only.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "dev.workers.boshfred.greenhouse-jobs-snapshot-sepolia/greenhouse-jobs-snapshot",
+        "url": "https://registry.modelcontextprotocol.io/?q=dev.workers.boshfred.greenhouse-jobs-snapshot-sepolia%2Fgreenhouse-jobs-snapshot",
         "tier": 0
       },
       "quality": {
@@ -19593,6 +19987,55 @@
         "repo": "OmkarGore-TomTom/pgt-mcp-server",
         "path": "io.github.OmkarGore-TomTom/pgt-mcp-server",
         "url": "https://github.com/OmkarGore-TomTom/pgt-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:openwatersio/aiscast:io.openwaters/ais#open-waters-ais",
+      "type": "mcp",
+      "name": "Open Waters AIS",
+      "description": {
+        "zh": null,
+        "en": "Live AIS vessel positions by MMSI, name, area, or radius, plus coverage. No sign-in, no key.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "openwatersio/aiscast",
+        "path": "io.openwaters/ais",
+        "url": "https://github.com/openwatersio/aiscast",
         "tier": 0
       },
       "quality": {
