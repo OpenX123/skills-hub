@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T21:15:37.804Z",
+  "generatedAt": "2026-09-20T21:09:15.245Z",
   "category": {
     "key": "meta",
     "zh": "Agent 基建",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 3072,
+  "total": 3109,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/skill-creator/skill.md#skill-creator",
@@ -2265,6 +2265,60 @@
       "duplicateOf": null,
       "nearDuplicateOf": null,
       "dupCount": 1,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 30807,
+      "curatedMentions": 2
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/development/workspace-orchestration/skill.md#workspace-orchestration",
+      "type": "skill",
+      "name": "workspace-orchestration",
+      "description": {
+        "zh": null,
+        "en": "Use when working in a persistent-slot workspace that uses docko. Covers slot claims, delegated teammate inheritance, and the rule that code edits inside slots/ require an active claim.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/development/workspace-orchestration/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/development/workspace-orchestration/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 75,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
@@ -38835,6 +38889,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:bumbarasch/searxng-mcp-server:io.github.bumbarasch/searxng-mcp-server#searxng-mcp-server",
+      "type": "mcp",
+      "name": "SearXNG MCP Server",
+      "description": {
+        "zh": null,
+        "en": "Self-hosted SearXNG metasearch for MCP clients: web, image, news, video, music and page fetch.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "bumbaRasch/searxng-mcp-server",
+        "path": "io.github.bumbaRasch/searxng-mcp-server",
+        "url": "https://github.com/bumbaRasch/searxng-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:businessmcp/mcp-gateway:com.businessmcp/businessmcp#com.businessmcp-businessmcp",
       "type": "mcp",
       "name": "com.businessmcp/businessmcp",
@@ -50051,6 +50155,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:cyanheads/browser-compat-mcp-server:io.github.cyanheads/browser-compat-mcp-server#io.github.cyanheads-browser-compat-mcp-server",
+      "type": "mcp",
+      "name": "io.github.cyanheads/browser-compat-mcp-server",
+      "description": {
+        "zh": null,
+        "en": "Browser compatibility and Baseline status for any web feature — offline, from bundled MDN data.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "cyanheads/browser-compat-mcp-server",
+        "path": "io.github.cyanheads/browser-compat-mcp-server",
+        "url": "https://github.com/cyanheads/browser-compat-mcp-server.git",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:cyanheads/calculator-mcp-server:io.github.cyanheads/calculator-mcp-server#io.github.cyanheads-calculator-mcp-server",
       "type": "mcp",
       "name": "io.github.cyanheads/calculator-mcp-server",
@@ -50220,6 +50373,55 @@
         "repo": "cyanheads/chembl-mcp-server",
         "path": "io.github.cyanheads/chembl-mcp-server",
         "url": "https://github.com/cyanheads/chembl-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:cyanheads/cisa-cybersecurity-mcp-server:io.github.cyanheads/cisa-cybersecurity-mcp-server#io.github.cyanheads-cisa-cybersecurity-mcp-server",
+      "type": "mcp",
+      "name": "io.github.cyanheads/cisa-cybersecurity-mcp-server",
+      "description": {
+        "zh": null,
+        "en": "CISA KEV with BOD 26-04 deadlines, SSVC prioritization, and the ICS advisory corpus (CSAF). Keyless.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "cyanheads/cisa-cybersecurity-mcp-server",
+        "path": "io.github.cyanheads/cisa-cybersecurity-mcp-server",
+        "url": "https://github.com/cyanheads/cisa-cybersecurity-mcp-server",
         "tier": 0
       },
       "quality": {
@@ -52090,6 +52292,55 @@
         "repo": "cyanheads/imf-mcp-server",
         "path": "io.github.cyanheads/imf-mcp-server",
         "url": "https://github.com/cyanheads/imf-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:cyanheads/inaturalist-mcp-server:io.github.cyanheads/inaturalist-mcp-server#io.github.cyanheads-inaturalist-mcp-server",
+      "type": "mcp",
+      "name": "io.github.cyanheads/inaturalist-mcp-server",
+      "description": {
+        "zh": null,
+        "en": "Search iNaturalist sightings, identification threads, phenology, and look-alike species.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "cyanheads/inaturalist-mcp-server",
+        "path": "io.github.cyanheads/inaturalist-mcp-server",
+        "url": "https://github.com/cyanheads/inaturalist-mcp-server",
         "tier": 0
       },
       "quality": {
@@ -54741,6 +54992,55 @@
         "repo": "cyanheads/treasury-fiscaldata-mcp-server",
         "path": "io.github.cyanheads/treasury-fiscaldata-mcp-server",
         "url": "https://github.com/cyanheads/treasury-fiscaldata-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:cyanheads/tvmaze-mcp-server:io.github.cyanheads/tvmaze-mcp-server#io.github.cyanheads-tvmaze-mcp-server",
+      "type": "mcp",
+      "name": "io.github.cyanheads/tvmaze-mcp-server",
+      "description": {
+        "zh": null,
+        "en": "Search TVmaze shows, next episodes in your timezone, episode guides, daily TV schedules, and cast.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "cyanheads/tvmaze-mcp-server",
+        "path": "io.github.cyanheads/tvmaze-mcp-server",
+        "url": "https://github.com/cyanheads/tvmaze-mcp-server",
         "tier": 0
       },
       "quality": {
@@ -95972,6 +96272,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:jrcumminsent/a2a402-marketplace:io.github.jrcumminsent/a2a402#a2a402-agent-work-router",
+      "type": "mcp",
+      "name": "A2A402 Agent Work Router",
+      "description": {
+        "zh": null,
+        "en": "MCP server for routing useful work between autonomous agents through the A2A402 marketplace.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jrcumminsent/a2a402-marketplace",
+        "path": "io.github.jrcumminsent/a2a402",
+        "url": "https://github.com/jrcumminsent/a2a402-marketplace",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:js713-lab/icloud4u-mcp:io.github.js713-lab/icloud-docs-mcp#icloud-drive-docs",
       "type": "mcp",
       "name": "iCloud Drive Docs",
@@ -97203,6 +97552,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:kitchensink4ai/kitchensink4web:io.github.kitchensink4ai/kitchensink4web#kitchensink4web",
+      "type": "mcp",
+      "name": "KitchenSink4Web",
+      "description": {
+        "zh": null,
+        "en": "Browser MCP server: budgeted page reads, honest unread accounting, structured extraction.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "KitchenSink4AI/KitchenSink4Web",
+        "path": "io.github.KitchenSink4AI/kitchensink4web",
+        "url": "https://github.com/KitchenSink4AI/KitchenSink4Web",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:kitchensink4ai/kitchensink4web:io.github.nometalalchemist/kitchensink4web#kitchensink4web",
       "type": "mcp",
       "name": "KitchenSink4Web",
@@ -97275,6 +97673,56 @@
         "repo": "KitchenSink4AI/KitchenSink4Word",
         "path": "io.github.nometalalchemist/kitchensink4word",
         "url": "https://github.com/KitchenSink4AI/KitchenSink4Word",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:kitchensink4ai/kitchensink4xl:io.github.kitchensink4ai/kitchensink4xl#kitchensink4xl",
+      "type": "mcp",
+      "name": "KitchenSink4XL",
+      "description": {
+        "zh": null,
+        "en": "Excel (.xlsx) MCP server: calculated/cached/missing labels on every value, formulas, verified writes",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "KitchenSink4AI/KitchenSink4XL",
+        "path": "io.github.KitchenSink4AI/kitchensink4xl",
+        "url": "https://github.com/KitchenSink4AI/KitchenSink4XL",
         "tier": 0
       },
       "quality": {
@@ -112893,6 +113341,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.perrylink/jevcore#typesafe-jev",
+      "type": "mcp",
+      "name": "TypeSafe Jev",
+      "description": {
+        "zh": null,
+        "en": "MCP server over TypeSafe Jev: typed ask, rank and check judgments return calibrated probabilities.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.PerryLink/jevcore",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.PerryLink%2Fjevcore",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.pgtriage/pgtriage#pgtriage",
       "type": "mcp",
       "name": "pgtriage",
@@ -119752,6 +120249,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mrjamescot/ctfd-mcp-server:io.github.mrjamescot/ctfd-mcp-server#ctfd",
+      "type": "mcp",
+      "name": "CTFd",
+      "description": {
+        "zh": null,
+        "en": "MCP server for CTFd v3: list challenges, submit flags, and query scoreboards via AI agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "MrJamescot/ctfd-mcp-server",
+        "path": "io.github.MrJamescot/ctfd-mcp-server",
+        "url": "https://github.com/MrJamescot/ctfd-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mrocker/social-data-mcp:io.github.mrocker/social-data-mcp#io.github.mrocker-social-data-mcp",
       "type": "mcp",
       "name": "io.github.mrocker/social-data-mcp",
@@ -121334,6 +121880,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:neiltron/apple-health-mcp:io.github.neiltron/apple-health-mcp#apple-health",
+      "type": "mcp",
+      "name": "Apple Health",
+      "description": {
+        "zh": null,
+        "en": "Local-first Apple Health MCP server for questions about your sleep, workouts and heart data.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "neiltron/apple-health-mcp",
+        "path": "io.github.neiltron/apple-health-mcp",
+        "url": "https://github.com/neiltron/apple-health-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:neoresearchai/mcpserver:io.github.neoresearchai/mcpserver#neo-—-ai-ml-engineering",
       "type": "mcp",
       "name": "Neo — AI/ML Engineering",
@@ -121405,6 +122000,56 @@
       "source": {
         "repo": "Neosyn-Logic/cg-agent-kit",
         "path": "io.neosyn/cg-agent-kit",
+        "url": "https://github.com/Neosyn-Logic/cg-agent-kit",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:neosyn-logic/cg-agent-kit:io.neosyn/neosyn-fpga-mcp#io.neosyn-neosyn-fpga-mcp",
+      "type": "mcp",
+      "name": "io.neosyn/neosyn-fpga-mcp",
+      "description": {
+        "zh": null,
+        "en": "AI-agent MCP server for FPGA design: compile, validate & generate Verilog from C⏚ HDL.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Neosyn-Logic/cg-agent-kit",
+        "path": "io.neosyn/neosyn-fpga-mcp",
         "url": "https://github.com/Neosyn-Logic/cg-agent-kit",
         "tier": 0
       },
@@ -124355,6 +125000,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:origozero/zeromind-plugin:ai.origozero/zeromind#zeromind-(origozero-game-engine)",
+      "type": "mcp",
+      "name": "ZeroMind (OrigoZero game engine)",
+      "description": {
+        "zh": null,
+        "en": "Build, run and publish 3D games in the Zero engine from Claude Code, Cursor or Codex, over MCP.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "OrigoZero/zeromind-plugin",
+        "path": "ai.origozero/zeromind",
+        "url": "https://github.com/OrigoZero/zeromind-plugin",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:orionlabsai/agentum-mcp-server:io.github.orionlabsai/agentum-mcp-server#io.github.orionlabsai-agentum-mcp-server",
       "type": "mcp",
       "name": "io.github.orionlabsai/agentum-mcp-server",
@@ -127049,6 +127744,55 @@
         "repo": "proprock/jira-mini-mcp",
         "path": "io.github.proprock/jira-mini-mcp",
         "url": "https://github.com/proprock/jira-mini-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:proprock/sql-mini-mcp:io.github.proprock/sql-mini-mcp#sql-mini-mcp",
+      "type": "mcp",
+      "name": "SQL Mini MCP",
+      "description": {
+        "zh": null,
+        "en": "Minimal, read-only, PII-safe MCP server for SQL databases.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "proprock/sql-mini-mcp",
+        "path": "io.github.proprock/sql-mini-mcp",
+        "url": "https://github.com/proprock/sql-mini-mcp",
         "tier": 0
       },
       "quality": {
@@ -129819,6 +130563,55 @@
         "repo": "rotifer-protocol/rotifer-mcp-server",
         "path": "io.github.rotifer-protocol/mcp-server",
         "url": "https://github.com/rotifer-protocol/rotifer-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:rrgu26/bankregpulse-mcp-server:io.github.rrgu26/bankregpulse-mcp-server#lexregpulse-banking-regulation-brief",
+      "type": "mcp",
+      "name": "LexRegPulse: Banking Regulation Brief",
+      "description": {
+        "zh": null,
+        "en": "Daily US banking regulation brief, weekly digest, archive and comment-deadline tracker. No key.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "RRGU26/bankregpulse-mcp-server",
+        "path": "io.github.RRGU26/bankregpulse-mcp-server",
+        "url": "https://github.com/RRGU26/bankregpulse-mcp-server",
         "tier": 0
       },
       "quality": {
@@ -133150,6 +133943,57 @@
         "repo": "sapientsai/dokploy-mcp-server",
         "path": "io.github.sapientsai/dokploy-mcp-server",
         "url": "https://github.com/sapientsai/dokploy-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:sarahpark/google-search-console-mcp:io.github.sarahpark/google-search-console#io.github.sarahpark-google-search-console",
+      "type": "mcp",
+      "name": "io.github.sarahpark/google-search-console",
+      "description": {
+        "zh": null,
+        "en": "Google Search Console MCP server — search analytics, URL inspection, and sitemaps",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "research",
+        "data",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "sarahpark/google-search-console-mcp",
+        "path": "io.github.sarahpark/google-search-console",
+        "url": "https://github.com/sarahpark/google-search-console-mcp",
         "tier": 0
       },
       "quality": {
@@ -140981,6 +141825,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:toolpin/mcp-server:dev.toolpin/toolpin#dev.toolpin-toolpin",
+      "type": "mcp",
+      "name": "dev.toolpin/toolpin",
+      "description": {
+        "zh": null,
+        "en": "Check whether an MCP server answers, what its tools claim, and whether that claim has changed.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Toolpin/mcp-server",
+        "path": "dev.toolpin/toolpin",
+        "url": "https://github.com/Toolpin/mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:totesmagotes/expensebot-mcp:io.github.totesmagotes/mcp-server-auth#expensebot",
       "type": "mcp",
       "name": "ExpenseBot",
@@ -144642,6 +145535,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:wyre-ai/alertops-mcp:io.github.wyre-ai/alertops-mcp#alertops",
+      "type": "mcp",
+      "name": "AlertOps",
+      "description": {
+        "zh": null,
+        "en": "MCP server for AlertOps' incident alerting/on-call API.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "WYRE-AI/alertops-mcp",
+        "path": "io.github.WYRE-AI/alertops-mcp",
+        "url": "https://github.com/WYRE-AI/alertops-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:wyre-ai/alternative-payments-mcp:io.github.wyre-ai/alternative-payments-mcp#alternative-payments",
       "type": "mcp",
       "name": "Alternative Payments",
@@ -144989,6 +145931,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:wyre-ai/bitdefender-mcp:io.github.wyre-ai/bitdefender-mcp#bitdefender-gravityzone",
+      "type": "mcp",
+      "name": "Bitdefender GravityZone",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Bitdefender GravityZone's JSON-RPC API.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "WYRE-AI/bitdefender-mcp",
+        "path": "io.github.WYRE-AI/bitdefender-mcp",
+        "url": "https://github.com/WYRE-AI/bitdefender-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:wyre-ai/blackpoint-mcp:io.github.wyre-ai/blackpoint-mcp#blackpoint-cyber",
       "type": "mcp",
       "name": "Blackpoint Cyber",
@@ -145109,6 +146100,55 @@
         "repo": "WYRE-AI/cipp-mcp",
         "path": "io.github.WYRE-AI/cipp-mcp",
         "url": "https://github.com/WYRE-AI/cipp-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:wyre-ai/cisco-umbrella-mcp:io.github.wyre-ai/cisco-umbrella-mcp#cisco-umbrella",
+      "type": "mcp",
+      "name": "Cisco Umbrella",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Cisco Umbrella's deployment, admin, policy, reporting, and investigate APIs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "WYRE-AI/cisco-umbrella-mcp",
+        "path": "io.github.WYRE-AI/cisco-umbrella-mcp",
+        "url": "https://github.com/WYRE-AI/cisco-umbrella-mcp",
         "tier": 0
       },
       "quality": {
@@ -145283,6 +146323,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:wyre-ai/cork-mcp:io.github.wyre-ai/cork-mcp#cork",
+      "type": "mcp",
+      "name": "Cork",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Cork's cyber-insurance API for MSPs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "WYRE-AI/cork-mcp",
+        "path": "io.github.WYRE-AI/cork-mcp",
+        "url": "https://github.com/WYRE-AI/cork-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:wyre-ai/crewhu-mcp:io.github.wyre-ai/crewhu-mcp#crewhu",
       "type": "mcp",
       "name": "Crewhu",
@@ -145305,6 +146394,104 @@
         "repo": "WYRE-AI/crewhu-mcp",
         "path": "io.github.WYRE-AI/crewhu-mcp",
         "url": "https://github.com/WYRE-AI/crewhu-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:wyre-ai/customer-thermometer-mcp:io.github.wyre-ai/customer-thermometer-mcp#customer-thermometer",
+      "type": "mcp",
+      "name": "Customer Thermometer",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Customer Thermometer's customer feedback / NPS survey API.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "WYRE-AI/customer-thermometer-mcp",
+        "path": "io.github.WYRE-AI/customer-thermometer-mcp",
+        "url": "https://github.com/WYRE-AI/customer-thermometer-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:wyre-ai/cyberqp-mcp:io.github.wyre-ai/cyberqp-mcp#cyberqp",
+      "type": "mcp",
+      "name": "CyberQP",
+      "description": {
+        "zh": null,
+        "en": "MCP server for CyberQP's privileged access management API.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "WYRE-AI/cyberqp-mcp",
+        "path": "io.github.WYRE-AI/cyberqp-mcp",
+        "url": "https://github.com/WYRE-AI/cyberqp-mcp",
         "tier": 0
       },
       "quality": {
@@ -145480,6 +146667,106 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:wyre-ai/dicker-data-mcp:io.github.wyre-ai/dicker-data-mcp#dicker-data",
+      "type": "mcp",
+      "name": "Dicker Data",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Dicker Data's B2B partner/reseller REST API — pricing, orders, and invoices.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "WYRE-AI/dicker-data-mcp",
+        "path": "io.github.WYRE-AI/dicker-data-mcp",
+        "url": "https://github.com/WYRE-AI/dicker-data-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:wyre-ai/dnsfilter-mcp:io.github.wyre-ai/dnsfilter-mcp#dnsfilter",
+      "type": "mcp",
+      "name": "DNSFilter",
+      "description": {
+        "zh": null,
+        "en": "MCP server for DNSFilter's DNS security/filtering API.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "WYRE-AI/dnsfilter-mcp",
+        "path": "io.github.WYRE-AI/dnsfilter-mcp",
+        "url": "https://github.com/WYRE-AI/dnsfilter-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:wyre-ai/domotz-mcp:io.github.wyre-ai/domotz-mcp#domotz",
       "type": "mcp",
       "name": "Domotz",
@@ -145530,6 +146817,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:wyre-ai/eset-protect-mcp:io.github.wyre-ai/eset-protect-mcp#eset-protect",
+      "type": "mcp",
+      "name": "ESET PROTECT",
+      "description": {
+        "zh": null,
+        "en": "MCP server for ESET PROTECT's ESET Connect API - device, EDR, vulnerability, patch, and user data.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "WYRE-AI/eset-protect-mcp",
+        "path": "io.github.WYRE-AI/eset-protect-mcp",
+        "url": "https://github.com/WYRE-AI/eset-protect-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:wyre-ai/freshdesk-mcp:io.github.wyre-ai/freshdesk-mcp#freshdesk",
       "type": "mcp",
       "name": "Freshdesk",
@@ -145552,6 +146889,56 @@
         "repo": "WYRE-AI/freshdesk-mcp",
         "path": "io.github.WYRE-AI/freshdesk-mcp",
         "url": "https://github.com/WYRE-AI/freshdesk-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:wyre-ai/gorelo-mcp:io.github.wyre-ai/gorelo-mcp#gorelo",
+      "type": "mcp",
+      "name": "Gorelo",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Gorelo's PSA ticket, client, contact, contract, asset, and time-tracking APIs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "pm"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "WYRE-AI/gorelo-mcp",
+        "path": "io.github.WYRE-AI/gorelo-mcp",
+        "url": "https://github.com/WYRE-AI/gorelo-mcp",
         "tier": 0
       },
       "quality": {
@@ -145895,6 +147282,56 @@
         "repo": "WYRE-AI/ironscales-mcp",
         "path": "io.github.WYRE-AI/ironscales-mcp",
         "url": "https://github.com/WYRE-AI/ironscales-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:wyre-ai/island-mcp:io.github.wyre-ai/island-mcp#island-browser",
+      "type": "mcp",
+      "name": "Island Browser",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Island Browser's Admin Actions, Audit, Compromised Credential, and Device APIs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "WYRE-AI/island-mcp",
+        "path": "io.github.WYRE-AI/island-mcp",
+        "url": "https://github.com/WYRE-AI/island-mcp",
         "tier": 0
       },
       "quality": {
@@ -146366,6 +147803,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:wyre-ai/msp360-mcp:io.github.wyre-ai/msp360-mcp#msp360",
+      "type": "mcp",
+      "name": "MSP360",
+      "description": {
+        "zh": null,
+        "en": "MCP server for MSP360's Managed Backup Service API — companies, computers, and backup plans.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "WYRE-AI/msp360-mcp",
+        "path": "io.github.WYRE-AI/msp360-mcp",
+        "url": "https://github.com/WYRE-AI/msp360-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:wyre-ai/ninjaone-mcp:io.github.wyre-ai/ninjaone-mcp#ninjaone",
       "type": "mcp",
       "name": "NinjaOne",
@@ -146437,6 +147923,55 @@
         "repo": "WYRE-AI/nutanix-mcp",
         "path": "io.github.WYRE-AI/nutanix-mcp",
         "url": "https://github.com/WYRE-AI/nutanix-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:wyre-ai/printix-mcp:io.github.wyre-ai/printix-mcp#printix",
+      "type": "mcp",
+      "name": "Printix",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Printix's Cloud Print API.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "WYRE-AI/printix-mcp",
+        "path": "io.github.WYRE-AI/printix-mcp",
+        "url": "https://github.com/WYRE-AI/printix-mcp",
         "tier": 0
       },
       "quality": {
@@ -146563,6 +148098,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:wyre-ai/prtg-mcp:io.github.wyre-ai/prtg-mcp#prtg",
+      "type": "mcp",
+      "name": "PRTG",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Paessler PRTG's REST API v2 - network/infrastructure monitoring for MSPs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "WYRE-AI/prtg-mcp",
+        "path": "io.github.WYRE-AI/prtg-mcp",
+        "url": "https://github.com/WYRE-AI/prtg-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:wyre-ai/qbo-mcp:io.github.wyre-ai/qbo-mcp#quickbooks-online",
       "type": "mcp",
       "name": "QuickBooks Online",
@@ -146585,6 +148170,55 @@
         "repo": "WYRE-AI/qbo-mcp",
         "path": "io.github.WYRE-AI/qbo-mcp",
         "url": "https://github.com/WYRE-AI/qbo-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:wyre-ai/roboshadow-mcp:io.github.wyre-ai/roboshadow-mcp#roboshadow",
+      "type": "mcp",
+      "name": "RoboShadow",
+      "description": {
+        "zh": null,
+        "en": "MCP server for RoboShadow's Rubicon Platform Data API.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "WYRE-AI/roboshadow-mcp",
+        "path": "io.github.WYRE-AI/roboshadow-mcp",
+        "url": "https://github.com/WYRE-AI/roboshadow-mcp",
         "tier": 0
       },
       "quality": {
@@ -147008,6 +148642,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:wyre-ai/slide-mcp:io.github.wyre-ai/slide-mcp#slide",
+      "type": "mcp",
+      "name": "Slide",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Slide's backup/BDR (business continuity/disaster recovery) API.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "WYRE-AI/slide-mcp",
+        "path": "io.github.WYRE-AI/slide-mcp",
+        "url": "https://github.com/WYRE-AI/slide-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:wyre-ai/spamtitan-mcp:io.github.wyre-ai/spamtitan-mcp#spamtitan",
       "type": "mcp",
       "name": "SpamTitan",
@@ -147206,6 +148889,107 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:wyre-ai/telivy-mcp:io.github.wyre-ai/telivy-mcp#telivy",
+      "type": "mcp",
+      "name": "Telivy",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Telivy's security assessment API for MSPs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "WYRE-AI/telivy-mcp",
+        "path": "io.github.WYRE-AI/telivy-mcp",
+        "url": "https://github.com/WYRE-AI/telivy-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:wyre-ai/teramind-mcp:io.github.wyre-ai/teramind-mcp#teramind",
+      "type": "mcp",
+      "name": "Teramind",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Teramind's insider-threat/employee-monitoring API (read-only, metadata-only surface).",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops",
+        "meta",
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "WYRE-AI/teramind-mcp",
+        "path": "io.github.WYRE-AI/teramind-mcp",
+        "url": "https://github.com/WYRE-AI/teramind-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:wyre-ai/threatlocker-mcp:io.github.wyre-ai/threatlocker-mcp#threatlocker",
       "type": "mcp",
       "name": "ThreatLocker",
@@ -147375,6 +149159,55 @@
         "repo": "WYRE-AI/xero-mcp",
         "path": "io.github.WYRE-AI/xero-mcp",
         "url": "https://github.com/WYRE-AI/xero-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:wyre-ai/yeastar-mcp:io.github.wyre-ai/yeastar-mcp#yeastar-p-series-pbx",
+      "type": "mcp",
+      "name": "Yeastar P-Series PBX",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Yeastar P-Series PBX System API (read-only).",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "WYRE-AI/yeastar-mcp",
+        "path": "io.github.WYRE-AI/yeastar-mcp",
+        "url": "https://github.com/WYRE-AI/yeastar-mcp",
         "tier": 0
       },
       "quality": {
@@ -150656,9 +152489,9 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:yawlabs/aws-mcp:io.github.yawlabs/aws-mcp#aws-mcp-server",
+      "id": "mcp:yawlabs/aws-mcp:io.github.yawlabs/aws-mcp#yaw-labs-aws-mcp",
       "type": "mcp",
-      "name": "AWS MCP Server",
+      "name": "Yaw Labs AWS MCP",
       "description": {
         "zh": null,
         "en": "AWS MCP server — call any AWS API from AI assistants, with first-class SSO re-login",
@@ -150669,8 +152502,8 @@
       },
       "lang": "en",
       "categories": [
-        "meta",
-        "devops"
+        "devops",
+        "meta"
       ],
       "targets": [
         "mcp-client"

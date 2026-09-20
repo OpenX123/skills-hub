@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-19T21:15:37.804Z",
+  "generatedAt": "2026-09-20T21:09:15.245Z",
   "engine": "text-baseline/v2",
-  "scanned": 22645,
-  "flagged": 142,
+  "scanned": 22868,
+  "flagged": 143,
   "byLevel": {
-    "clean": 22503,
+    "clean": 22725,
     "low": 107,
-    "medium": 34,
+    "medium": 35,
     "high": 1
   },
   "note": "静态文本匹配基线,用于筛出需人工复核的条目,不构成终审判决",
@@ -1476,6 +1476,32 @@
           "where": "script",
           "line": 226,
           "evidence": "crontab -"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/development/pudu-task-telemetry/skill.md#pudu-task-telemetry",
+      "name": "pudu-task-telemetry",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/development/pudu-task-telemetry/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/development/pudu-task-telemetry/SKILL.md",
+      "level": "medium",
+      "score": 15,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "raw-endpoint",
+          "severity": "medium",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "script",
+          "line": 5,
+          "evidence": "http://127.0.0.1:11434')"
         }
       ]
     },

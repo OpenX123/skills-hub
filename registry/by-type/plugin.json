@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-19T21:15:37.804Z",
+  "generatedAt": "2026-09-20T21:09:15.245Z",
   "type": "plugin",
   "label": {
     "zh": "插件",
     "en": "Plugin"
   },
-  "total": 211,
+  "total": 212,
   "entries": [
     {
       "id": "plugin:anthropics/skills:.claude-plugin/marketplace.json#academy-guide",
@@ -6258,6 +6258,55 @@
         "repo": "davila7/claude-code-templates",
         "path": "cli-tool/components/mods/productivity/jev-model-router/.claude-plugin/plugin.json",
         "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/productivity/jev-model-router/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 30807,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/productivity/jev-skill-suggestion/.claude-plugin/plugin.json#jev-skill-suggestion",
+      "type": "plugin",
+      "name": "jev-skill-suggestion",
+      "description": {
+        "zh": null,
+        "en": "Keeps the skill listing out of the context window and lets TypeSafe's Jev, a System One decision model, suggest at most one skill per prompt from the skills' descriptions, the way TypeSafe's skill-suggestion cookbook does: one request ranks every skill and asks whether the prompt needs a skill at all, a second re-reads the top three with their SKILL.md and can reject all of them. The winner is attached to the prompt for the Skill tool; every other skill stays loaded but unlisted. Falls back to the engine's built-in classifier when no key is set.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/productivity/jev-skill-suggestion/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/productivity/jev-skill-suggestion/.claude-plugin/plugin.json",
         "tier": 2
       },
       "quality": {

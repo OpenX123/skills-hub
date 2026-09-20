@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T21:15:37.804Z",
+  "generatedAt": "2026-09-20T21:09:15.245Z",
   "category": {
     "key": "coding",
     "zh": "编码开发",
@@ -109,7 +109,7 @@
       }
     ]
   },
-  "total": 3888,
+  "total": 3905,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/algorithmic-art/skill.md#algorithmic-art",
@@ -58053,6 +58053,60 @@
       "curatedMentions": 2
     },
     {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/development/workspace-orchestration/skill.md#workspace-orchestration",
+      "type": "skill",
+      "name": "workspace-orchestration",
+      "description": {
+        "zh": null,
+        "en": "Use when working in a persistent-slot workspace that uses docko. Covers slot claims, delegated teammate inheritance, and the rule that code edits inside slots/ require an active claim.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/development/workspace-orchestration/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/development/workspace-orchestration/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 75,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 30807,
+      "curatedMentions": 2
+    },
+    {
       "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/document-processing/doc/skill.md#doc",
       "type": "skill",
       "name": "doc",
@@ -76504,6 +76558,59 @@
       "curatedMentions": 2
     },
     {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/development/pudu-task-telemetry/skill.md#pudu-task-telemetry",
+      "type": "skill",
+      "name": "pudu-task-telemetry",
+      "description": {
+        "zh": null,
+        "en": "Measure local AI task latency, token usage, errors and verified outcomes using Pudu AI hardware evidence and installed Ollama models. Use when comparing local task runs, choosing a local model for a bounded subtask, or recording reproducible task telemetry.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/development/pudu-task-telemetry/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/development/pudu-task-telemetry/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 70,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "medium",
+        "score": 15
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 30807,
+      "curatedMentions": 2
+    },
+    {
       "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/development/python-patterns/skill.md#python-patterns",
       "type": "skill",
       "name": "python-patterns",
@@ -87713,6 +87820,55 @@
         "repo": "davila7/claude-code-templates",
         "path": "cli-tool/components/mods/productivity/jev-model-router/.claude-plugin/plugin.json",
         "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/productivity/jev-model-router/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 30807,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/productivity/jev-skill-suggestion/.claude-plugin/plugin.json#jev-skill-suggestion",
+      "type": "plugin",
+      "name": "jev-skill-suggestion",
+      "description": {
+        "zh": null,
+        "en": "Keeps the skill listing out of the context window and lets TypeSafe's Jev, a System One decision model, suggest at most one skill per prompt from the skills' descriptions, the way TypeSafe's skill-suggestion cookbook does: one request ranks every skill and asks whether the prompt needs a skill at all, a second re-reads the top three with their SKILL.md and can reject all of them. The winner is attached to the prompt for the Skill tool; every other skill stays loaded but unlisted. Falls back to the engine's built-in classifier when no key is set.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/productivity/jev-skill-suggestion/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/productivity/jev-skill-suggestion/.claude-plugin/plugin.json",
         "tier": 2
       },
       "quality": {
@@ -131809,7 +131965,7 @@
       "type": "skill",
       "name": "bensz-r-developer",
       "description": {
-        "zh": "当用户要求开发、重构或审查 R 函数与 R Package，并希望采用类驱动 API、显式 output.dir/cache.dir、可手测 if (FALSE) 块、规范并行与性能优化、devtools/roxygen2 工具链或评估 Rcpp/cpp11 原生加速时使用。⚠️ 不适用：以 R Markdown 报告与科研分析工作流为主的任务。",
+        "zh": "当主要交付物是可复用的 R 函数、稳定 API、S3/S4/R6 类或 R Package，需要设计、开发、重构或审查其接口、测试、文档、并行与性能边界时使用。分析项目中只有需要跨分析复用或形成公共 API 的组件才进入本 Skill。⚠️ 不适用：主要交付物是数据分析流程、科学结果、R Markdown 报告或仅服务当前分析的辅助函数；这些任务使用 bensz-rmd-rules。",
         "en": null,
         "zhEngine": null,
         "needsTranslation": [
@@ -131818,61 +131974,6 @@
       },
       "lang": "zh",
       "categories": [
-        "coding",
-        "document"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "huangwb8/skills",
-        "path": "skills/beta/bensz-r-developer/SKILL.md",
-        "url": "https://github.com/huangwb8/skills/blob/HEAD/skills/beta/bensz-r-developer/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 52,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 48,
-      "curatedMentions": 1
-    },
-    {
-      "id": "skill:huangwb8/skills:skills/beta/bensz-rmd-rules/skill.md#bensz-rmd-rules",
-      "type": "skill",
-      "name": "bensz-rmd-rules",
-      "description": {
-        "zh": "当用户要求编写或维护 R Markdown、R 分析脚本、可复现数据分析，尤其涉及多阶段计算、缓存复用、断点恢复或论文级图表与解读时使用。负责规划分析单元、组织 R/Rmd 数据流、验证缓存与交付质量；不用于仅渲染既有 Rmd 或其它语言的数据分析。",
-        "en": null,
-        "zhEngine": null,
-        "needsTranslation": [
-          "en"
-        ]
-      },
-      "lang": "zh",
-      "categories": [
-        "data",
         "document",
         "coding"
       ],
@@ -131885,8 +131986,8 @@
       ],
       "source": {
         "repo": "huangwb8/skills",
-        "path": "skills/beta/bensz-rmd-rules/SKILL.md",
-        "url": "https://github.com/huangwb8/skills/blob/HEAD/skills/beta/bensz-rmd-rules/SKILL.md",
+        "path": "skills/beta/bensz-r-developer/SKILL.md",
+        "url": "https://github.com/huangwb8/skills/blob/HEAD/skills/beta/bensz-r-developer/SKILL.md",
         "tier": 2
       },
       "quality": {
@@ -151366,6 +151467,55 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:continuum-ai-corp/orcareplay:io.github.continuum-ai-corp/orcareplay#io.github.continuum-ai-corp-orcareplay",
+      "type": "mcp",
+      "name": "io.github.Continuum-AI-Corp/orcareplay",
+      "description": {
+        "zh": null,
+        "en": "Read, replay and fork recorded coding-agent runs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Continuum-AI-Corp/OrcaReplay",
+        "path": "io.github.Continuum-AI-Corp/orcareplay",
+        "url": "https://github.com/Continuum-AI-Corp/OrcaReplay",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
       "id": "mcp:corralimited/snapdiff-mcp:ai.snapdiff/mcp#ai.snapdiff-mcp",
       "type": "mcp",
       "name": "ai.snapdiff/mcp",
@@ -153301,12 +153451,12 @@
       "curatedMentions": 1
     },
     {
-      "id": "mcp:lbailey94/whitemagic:io.github.lbailey94/whitemagic-mcp#io.github.lbailey94-whitemagic-mcp",
+      "id": "mcp:lbailey94/whitemagic:io.github.lbailey94/whitemagic-mcp#whitemagic-—-governed-local-memory-for-agent-continuity",
       "type": "mcp",
-      "name": "io.github.lbailey94/whitemagic-mcp",
+      "name": "WhiteMagic — governed local memory for agent continuity",
       "description": {
         "zh": null,
-        "en": "Local-first memory and session continuity for AI coding agents over MCP. No cloud, no telemetry.",
+        "en": "Local-first, governed memory and session continuity for AI coding agents. No cloud, no telemetry.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -158348,6 +158498,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:antideploy/antideploy-mcp:com.antideploy/antideploy-mcp#antideploy",
+      "type": "mcp",
+      "name": "Antideploy",
+      "description": {
+        "zh": null,
+        "en": "Deploy an app to Antideploy from a coding agent. No Dockerfile, no YAML, no cloud console.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "antideploy/antideploy-mcp",
+        "path": "com.antideploy/antideploy-mcp",
+        "url": "https://github.com/antideploy/antideploy-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:aoreshkov/kotlin-lib-mcp:io.github.aoreshkov/kotlin-lib-mcp#kotlin-&-java-library-sources",
       "type": "mcp",
       "name": "Kotlin & Java Library Sources",
@@ -159932,6 +160132,105 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:billy-enrizky/openbrowser-ai:me.openbrowser/openbrowser-ai#me.openbrowser-openbrowser-ai",
+      "type": "mcp",
+      "name": "me.openbrowser/openbrowser-ai",
+      "description": {
+        "zh": null,
+        "en": "AI browser automation. Write async Python to navigate, click, type, and extract data.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "billy-enrizky/openbrowser-ai",
+        "path": "me.openbrowser/openbrowser-ai",
+        "url": "https://github.com/billy-enrizky/openbrowser-ai.git",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:bitbybit-dev/bitbybit:dev.bitbybit/cad#bitbybit-cad-mcp",
+      "type": "mcp",
+      "name": "Bitbybit CAD MCP",
+      "description": {
+        "zh": null,
+        "en": "Bitbybit 3D parametric CAD API, version-exact, for coding agents: search, describe, examples, guide",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "bitbybit-dev/bitbybit",
+        "path": "dev.bitbybit/cad",
+        "url": "https://github.com/bitbybit-dev/bitbybit",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:blinkboxhq/blinkbox:io.github.blinkboxhq/blinkbox#io.github.blinkboxhq-blinkbox",
       "type": "mcp",
       "name": "io.github.blinkboxhq/blinkbox",
@@ -160675,12 +160974,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:celmis-labs/celmis:io.github.constantinemakoid/celmis#io.github.constantinemakoid-celmis",
+      "id": "mcp:carldaws/squiggles:io.github.carldaws/squiggles#io.github.carldaws-squiggles",
       "type": "mcp",
-      "name": "io.github.constantinemakoid/celmis",
+      "name": "io.github.carldaws/squiggles",
       "description": {
         "zh": null,
-        "en": "Self-hosted code intelligence: cross-repo Q&A, dependency audits and PR review, over MCP",
+        "en": "Let your coding agent see the squiggles — LSP diagnostics, navigation, refactoring, and extras",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -160694,9 +160993,9 @@
         "mcp-client"
       ],
       "source": {
-        "repo": "Celmis-labs/Celmis",
-        "path": "io.github.constantinemakoid/celmis",
-        "url": "https://github.com/Celmis-labs/Celmis",
+        "repo": "carldaws/squiggles",
+        "path": "io.github.carldaws/squiggles",
+        "url": "https://github.com/carldaws/squiggles",
         "tier": 0
       },
       "quality": {
@@ -160724,12 +161023,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:changhuliu/england-works-watch:io.github.changhuliu/england-works-watch#io.github.changhuliu-england-works-watch",
+      "id": "mcp:celmis-labs/celmis:io.github.constantinemakoid/celmis#io.github.constantinemakoid-celmis",
       "type": "mcp",
-      "name": "io.github.ChanghuLiu/england-works-watch",
+      "name": "io.github.constantinemakoid/celmis",
       "description": {
         "zh": null,
-        "en": "UKVI sponsor: absence, salary, role/code, home-working, delayed start, stop sponsorship, TUPE, M&A.",
+        "en": "Self-hosted code intelligence: cross-repo Q&A, dependency audits and PR review, over MCP",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -160743,9 +161042,9 @@
         "mcp-client"
       ],
       "source": {
-        "repo": "ChanghuLiu/england-works-watch",
-        "path": "io.github.ChanghuLiu/england-works-watch",
-        "url": "https://github.com/ChanghuLiu/england-works-watch",
+        "repo": "Celmis-labs/Celmis",
+        "path": "io.github.constantinemakoid/celmis",
+        "url": "https://github.com/Celmis-labs/Celmis",
         "tier": 0
       },
       "quality": {
@@ -161144,6 +161443,55 @@
         "repo": "cloudeide/cloudeide",
         "path": "com.cloudeide/cloudeide",
         "url": "https://github.com/cloudeide/cloudeide",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:cmssy-io/cmssy-mcp:io.github.cmssy-io/cmssy-mcp#cmssy",
+      "type": "mcp",
+      "name": "cmssy",
+      "description": {
+        "zh": null,
+        "en": "Headless CMS whose page sections are defined by your own code: pages, records, media, commerce.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "cmssy-io/cmssy-mcp",
+        "path": "io.github.cmssy-io/cmssy-mcp",
+        "url": "https://github.com/cmssy-io/cmssy-mcp",
         "tier": 0
       },
       "quality": {
@@ -161835,55 +162183,6 @@
         "repo": "constripacity/Claude-Replay",
         "path": "io.github.constripacity/claude-replay",
         "url": "https://github.com/constripacity/Claude-Replay",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:continuum-ai-corp/orcareplay:io.github.continuum-ai-corp/orcareplay#io.github.continuum-ai-corp-orcareplay",
-      "type": "mcp",
-      "name": "io.github.Continuum-AI-Corp/orcareplay",
-      "description": {
-        "zh": null,
-        "en": "Read, replay and fork recorded coding-agent runs.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "Continuum-AI-Corp/OrcaReplay",
-        "path": "io.github.Continuum-AI-Corp/orcareplay",
-        "url": "https://github.com/Continuum-AI-Corp/OrcaReplay",
         "tier": 0
       },
       "quality": {
@@ -163421,6 +163720,56 @@
         "repo": "DLeibner/mcp-surface-lint",
         "path": "io.github.DLeibner/mcp-surface-lint",
         "url": "https://github.com/DLeibner/mcp-surface-lint",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:dmytromitin/scala-semantic-harness:io.github.dmytromitin/semantic-scala#semantic-scala",
+      "type": "mcp",
+      "name": "semantic-scala",
+      "description": {
+        "zh": null,
+        "en": "Bounded Scala compiler, build, test, type, effect, symbol, and SemanticDB evidence for agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "DmytroMitin/scala-semantic-harness",
+        "path": "io.github.DmytroMitin/semantic-scala",
+        "url": "https://github.com/DmytroMitin/scala-semantic-harness",
         "tier": 0
       },
       "quality": {
@@ -167581,6 +167930,55 @@
         "repo": "IsaiahDupree/devstack-mcp",
         "path": "io.github.IsaiahDupree/devstack-mcp",
         "url": "https://github.com/IsaiahDupree/devstack-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:ismailperim/briefd:io.github.ismailperim/briefd#briefd",
+      "type": "mcp",
+      "name": "briefd",
+      "description": {
+        "zh": null,
+        "en": "Git-backed team knowledge compiled into token-budgeted context bundles for coding agents",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ismailperim/briefd",
+        "path": "io.github.ismailperim/briefd",
+        "url": "https://github.com/ismailperim/briefd",
         "tier": 0
       },
       "quality": {
@@ -175959,6 +176357,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:app.lediv/mcp#lediv",
+      "type": "mcp",
+      "name": "Lediv",
+      "description": {
+        "zh": null,
+        "en": "Visual website builder synced with real code. Build, publish and maintain websites from any agent.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "app.lediv/mcp",
+        "url": "https://lediv.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:app.marketgenius/mcp#marketgenius",
       "type": "mcp",
       "name": "Marketgenius",
@@ -176427,6 +176874,56 @@
         "repo": null,
         "path": "cn.3ceng/kuailian",
         "url": "https://link.3ceng.cn",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:co.herafertility/hera#hera-fertility",
+      "type": "mcp",
+      "name": "Hera Fertility",
+      "description": {
+        "zh": null,
+        "en": "Find male fertility testing at labs near a US ZIP code, with prices and a link to order.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "co.herafertility/hera",
+        "url": "https://herafertility.co/developers/mcp",
         "tier": 0
       },
       "quality": {
@@ -179470,6 +179967,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:in.enhanciar/enhanciar#enhanciar-—-company-brain",
+      "type": "mcp",
+      "name": "Enhanciar — company brain",
+      "description": {
+        "zh": null,
+        "en": "Ask your team's code, Slack and docs from any MCP client. Every answer cited to source. Early access",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "in.enhanciar/enhanciar",
+        "url": "https://enhanciar.in",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.briefport/agent-delivery#briefport-agent-delivery",
       "type": "mcp",
       "name": "BriefPort Agent Delivery",
@@ -182259,6 +182806,56 @@
         "repo": "medianemi-beep/soma-mcp",
         "path": "io.github.medianemi-beep/soma",
         "url": "https://github.com/medianemi-beep/soma-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mementoagi/memento:io.github.mementoagi/memento#memento",
+      "type": "mcp",
+      "name": "Memento",
+      "description": {
+        "zh": null,
+        "en": "Hosted MCP memory for coding agents: persistent across sessions, editable markdown, team sharing.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "mementoagi/memento",
+        "path": "io.github.mementoagi/memento",
+        "url": "https://github.com/mementoagi/memento",
         "tier": 0
       },
       "quality": {
@@ -185143,6 +185740,56 @@
         "repo": "Opita-Code/dark-memory-mcp",
         "path": "io.github.Opita-Code/dark-memory-mcp",
         "url": "https://github.com/Opita-Code/dark-memory-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:origozero/zeromind-plugin:ai.origozero/zeromind#zeromind-(origozero-game-engine)",
+      "type": "mcp",
+      "name": "ZeroMind (OrigoZero game engine)",
+      "description": {
+        "zh": null,
+        "en": "Build, run and publish 3D games in the Zero engine from Claude Code, Cursor or Codex, over MCP.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "OrigoZero/zeromind-plugin",
+        "path": "ai.origozero/zeromind",
+        "url": "https://github.com/OrigoZero/zeromind-plugin",
         "tier": 0
       },
       "quality": {
@@ -188077,6 +188724,55 @@
         "repo": "qwertymuzaffar/mcp-software-design",
         "path": "io.github.qwertymuzaffar/software-design",
         "url": "https://github.com/qwertymuzaffar/mcp-software-design",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:raimondasl/isitdone:io.github.raimondasl/isitdone#isitdone",
+      "type": "mcp",
+      "name": "isitdone",
+      "description": {
+        "zh": null,
+        "en": "Make a coding agent prove it: run the repo's real tests, typecheck and lint before it says done.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "raimondasl/isitdone",
+        "path": "io.github.raimondasl/isitdone",
+        "url": "https://github.com/raimondasl/isitdone",
         "tier": 0
       },
       "quality": {
@@ -192299,6 +192995,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:stringsofthemind-oss/once:io.github.stringsofthemind-oss/once#io.github.stringsofthemind-oss-once",
+      "type": "mcp",
+      "name": "io.github.stringsofthemind-oss/once",
+      "description": {
+        "zh": null,
+        "en": "Execution-safety MCP for AI coding agents protecting consequential writes from unsafe retries.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "stringsofthemind-oss/once",
+        "path": "io.github.stringsofthemind-oss/once",
+        "url": "https://github.com/stringsofthemind-oss/once",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:studiolab-dev/gency-mcp:ai.gency/gency-mcp#ai.gency-gency-mcp",
       "type": "mcp",
       "name": "ai.gency/gency-mcp",
@@ -195620,7 +196365,7 @@
       "name": "Weavatrix",
       "description": {
         "zh": null,
-        "en": "Native Weavatrix MCP: 64 read-only tools for code, n8n, Dify, agents, Mermaid, and Web3.",
+        "en": "Native Weavatrix MCP: 67 read-only tools for code, local CI, n8n, Dify, agents, Mermaid, Web3.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -196903,6 +197648,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:zapret-digital/chip-mcp:digital.chip-ai/chip#chip-mcp",
+      "type": "mcp",
+      "name": "Chip MCP",
+      "description": {
+        "zh": null,
+        "en": "Project memory, tasks and Telegram notifications for your coding agent. Chip account required.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "zapret-digital/chip-mcp",
+        "path": "digital.chip-ai/chip",
+        "url": "https://github.com/zapret-digital/chip-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:zarlahq/website-builder-mcp:com.zarla/website-builder#zarla-website-builder",
       "type": "mcp",
       "name": "Zarla Website Builder",
@@ -197073,6 +197868,55 @@
         "repo": "zhurong2020/pyobfus",
         "path": "io.github.zhurong2020/pyobfus-mcp",
         "url": "https://github.com/zhurong2020/pyobfus",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:zombico/mojulo:io.github.zombico/mojulo#io.github.zombico-mojulo",
+      "type": "mcp",
+      "name": "io.github.zombico/mojulo",
+      "description": {
+        "zh": null,
+        "en": "A 3D compiler for coding agents: objects, worlds and games as small recipes. Emits Godot and STL.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "zombico/mojulo",
+        "path": "io.github.zombico/mojulo",
+        "url": "https://github.com/zombico/mojulo",
         "tier": 0
       },
       "quality": {

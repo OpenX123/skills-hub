@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-19T21:15:37.804Z",
+  "generatedAt": "2026-09-20T21:09:15.245Z",
   "category": {
     "key": "other",
     "zh": "其他",
     "en": "Other"
   },
-  "total": 10731,
+  "total": 10838,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/academy-guide/skill.md#academy-guide",
@@ -12894,7 +12894,7 @@
       "name": "mcptoon",
       "description": {
         "zh": null,
-        "en": "Zero-dependency MCP client: one synced config for every agent, 581-token listings, not 71,929.",
+        "en": "MCP tools + agent skills in one zero-dependency CLI: 71,929 -> 581 tokens (-99.2%, measured).",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -21856,12 +21856,12 @@
       "curatedMentions": 1
     },
     {
-      "id": "mcp:gripforgeai/mcp:io.github.gripforgeai/mcp#io.github.gripforgeai-mcp",
+      "id": "mcp:gripforgeai/mcp:io.github.gripforgeai/mcp#gripforge",
       "type": "mcp",
-      "name": "io.github.gripforgeai/mcp",
+      "name": "GripForge",
       "description": {
         "zh": null,
-        "en": "Attach weapons and props to rigged 3D characters: hand-bone detection, fist close, engine binds.",
+        "en": "Turn prompts into production-ready game assets: animated characters, textures, terrain, VFX, HUD.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -38866,6 +38866,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:47620-xyz/solana-data-mcp:io.github.47620-xyz/solana-data#47620-solana-data",
+      "type": "mcp",
+      "name": "47620 Solana Data",
+      "description": {
+        "zh": null,
+        "en": "Pay-per-call Solana data for AI agents over x402: token, account, tx, trending. No signup, no key.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "47620-xyz/solana-data-mcp",
+        "path": "io.github.47620-xyz/solana-data",
+        "url": "https://github.com/47620-xyz/solana-data-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:48x-ai/marketbasketanalysis:io.github.48x-ai/marketbasketanalysis-mcp#io.github.48x-ai-marketbasketanalysis-mcp",
       "type": "mcp",
       "name": "io.github.48x-ai/marketbasketanalysis-mcp",
@@ -39672,6 +39721,55 @@
         "repo": "abe238/hotinai",
         "path": "io.github.abe238/hotin",
         "url": "https://github.com/abe238/hotinai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:aberkaneso/passfast-mcp:st.passfa/passfast#passfast",
+      "type": "mcp",
+      "name": "PassFast",
+      "description": {
+        "zh": null,
+        "en": "Remote HTTPS MCP for Apple + Google Wallet passes. Paste sk_live_ once.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "aberkaneso/passfast-mcp",
+        "path": "st.passfa/passfast",
+        "url": "https://github.com/aberkaneso/passfast-mcp",
         "tier": 0
       },
       "quality": {
@@ -44305,6 +44403,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:aifinpay/sdk:io.github.daochild/aifinpay#aifinpay",
+      "type": "mcp",
+      "name": "AiFinPay",
+      "description": {
+        "zh": null,
+        "en": "Pay for any HTTP API in stablecoins on Polygon and Solana with one MCP call.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "AiFinPay/sdk",
+        "path": "io.github.daochild/aifinpay",
+        "url": "https://github.com/AiFinPay/sdk",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:aihumin/pagent:io.github.aihumin/pagent#pagent",
       "type": "mcp",
       "name": "Pagent",
@@ -47103,7 +47250,7 @@
       "name": "QY Evolution Engine",
       "description": {
         "zh": null,
-        "en": "Eight tools for agents: identity, records, pitfalls, results, tasks. Anonymous reads, signed writes.",
+        "en": "13 tools for agents: identity, pitfalls, results, tasks, capability. Anonymous reads, signed writes.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -50729,7 +50876,7 @@
       "name": "io.github.APProj/vendor-status-mcp",
       "description": {
         "zh": null,
-        "en": "Live status-page map for 1,127 SaaS/cloud vendors plus 15,418 historical incidents.",
+        "en": "Status-page map for 1,100+ SaaS/cloud vendors plus 15,700+ incidents. No API key.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -53147,6 +53294,55 @@
         "repo": "atlaso-labs/mcp",
         "path": "ai.atlaso/mcp",
         "url": "https://github.com/atlaso-labs/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:atmosphere-technologies/atmosphere_app:br.ia.cnpj/mcp#cnpj.ia.br",
+      "type": "mcp",
+      "name": "cnpj.ia.br",
+      "description": {
+        "zh": null,
+        "en": "Empresas do Brasil (CNPJ): consulta por CNPJ, busca por filtros e uso da conta. Chave no header.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Atmosphere-Technologies/atmosphere_app",
+        "path": "br.ia.cnpj/mcp",
+        "url": "https://github.com/Atmosphere-Technologies/atmosphere_app",
         "tier": 0
       },
       "quality": {
@@ -57067,6 +57263,55 @@
         "repo": "beepboop2025/undertow-mcp",
         "path": "io.github.beepboop2025/undertow",
         "url": "https://github.com/beepboop2025/undertow-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:beeswaxpat/morphogen-mcp:io.github.beeswaxpat/morphogen#io.github.beeswaxpat-morphogen",
+      "type": "mcp",
+      "name": "io.github.beeswaxpat/morphogen",
+      "description": {
+        "zh": null,
+        "en": "Read and sign the guestbook of Morphogen II, a living reaction-diffusion field with open questions.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "beeswaxpat/morphogen-mcp",
+        "path": "io.github.beeswaxpat/morphogen",
+        "url": "https://github.com/beeswaxpat/morphogen-mcp",
         "tier": 0
       },
       "quality": {
@@ -66453,12 +66698,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:changhuliu/cqc-provider-mcp:io.github.changhuliu/cqc-provider-regulatory-decision-layer#cqc-provider-regulatory-decision-layer",
+      "id": "mcp:changhuliu/cqc-provider-mcp:io.github.changhuliu/cqc-provider-regulatory-decision-layer#regevidencehub-cqc",
       "type": "mcp",
-      "name": "CQC Provider Regulatory Decision Layer",
+      "name": "RegEvidenceHub CQC",
       "description": {
         "zh": null,
-        "en": "CQC registration, provider-change and notification decisions for England with official evidence.",
+        "en": "RegEvidenceHub CQC: England provider-registration and statutory-notification preflight.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -66475,6 +66720,55 @@
         "repo": "ChanghuLiu/cqc-provider-mcp",
         "path": "io.github.ChanghuLiu/cqc-provider-regulatory-decision-layer",
         "url": "https://github.com/ChanghuLiu/cqc-provider-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:changhuliu/england-works-watch:io.github.changhuliu/england-works-watch#regevidencehub-sponsor",
+      "type": "mcp",
+      "name": "RegEvidenceHub Sponsor",
+      "description": {
+        "zh": null,
+        "en": "RegEvidenceHub Sponsor: UK Skilled Worker sponsor-change preflight with GOV.UK evidence.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ChanghuLiu/england-works-watch",
+        "path": "io.github.ChanghuLiu/england-works-watch",
+        "url": "https://github.com/ChanghuLiu/england-works-watch",
         "tier": 0
       },
       "quality": {
@@ -66600,12 +66894,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:changhuliu/uk-premises-licence-mcp:io.github.changhuliu/uk-premises-licence-mcp#uk-premises-licence-preflight",
+      "id": "mcp:changhuliu/uk-premises-licence-mcp:io.github.changhuliu/uk-premises-licence-mcp#regevidencehub-premises",
       "type": "mcp",
-      "name": "UK Premises Licence Preflight",
+      "name": "RegEvidenceHub Premises",
       "description": {
         "zh": null,
-        "en": "UK premises licensing preflight for 10 authorities with live evidence guards and x402 decisions.",
+        "en": "RegEvidenceHub Premises: UK premises-licensing preflight for supported authorities.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -66649,12 +66943,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:changhuliu/uk-taxi-phv-mcp:io.github.changhuliu/uk-taxi-phv-regulatory-decision-layer#uk-taxi-phv-regulatory-decision-layer",
+      "id": "mcp:changhuliu/uk-taxi-phv-mcp:io.github.changhuliu/uk-taxi-phv-regulatory-decision-layer#regevidencehub-taxi",
       "type": "mcp",
-      "name": "UK Taxi PHV Regulatory Decision Layer",
+      "name": "RegEvidenceHub Taxi",
       "description": {
         "zh": null,
-        "en": "England taxi/private-hire PHV licensing: official-source blockers, stale sources, compare councils.",
+        "en": "RegEvidenceHub Taxi: England taxi/PHV licensing preflight and council comparison.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -67553,6 +67847,55 @@
         "repo": "choosemylo/mind-of-mylo-chatbot",
         "path": "com.choosemylo/mind-of-mylo-quotes",
         "url": "https://github.com/choosemylo/mind-of-mylo-chatbot",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:choudharyvinod964/marketping:in.marketping/marketping#marketping",
+      "type": "mcp",
+      "name": "MarketPing",
+      "description": {
+        "zh": null,
+        "en": "Indian stocks: NSE/BSE filings read by AI with price reactions, fundamentals, IPOs and FPI flows.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "choudharyvinod964/marketping",
+        "path": "in.marketping/marketping",
+        "url": "https://github.com/choudharyvinod964/marketping",
         "tier": 0
       },
       "quality": {
@@ -68778,6 +69121,55 @@
         "repo": "chrischall/myhotlunchbox-mcp",
         "path": "io.github.chrischall/myhotlunchbox-mcp",
         "url": "https://github.com/chrischall/myhotlunchbox-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:chrischall/office-outlook-mcp:io.github.chrischall/office-outlook-mcp#io.github.chrischall-office-outlook-mcp",
+      "type": "mcp",
+      "name": "io.github.chrischall/office-outlook-mcp",
+      "description": {
+        "zh": null,
+        "en": "Outlook / Microsoft 365 for Claude — mail, calendar, contacts and tasks, with confirm-gated sending",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "chrischall/office-outlook-mcp",
+        "path": "io.github.chrischall/office-outlook-mcp",
+        "url": "https://github.com/chrischall/office-outlook-mcp",
         "tier": 0
       },
       "quality": {
@@ -71647,6 +72039,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:cobra-bit-prog/agent-guard:net.agent-control/agent-control#agent-control-—-agent-meter",
+      "type": "mcp",
+      "name": "Agent Control — Agent Meter",
+      "description": {
+        "zh": null,
+        "en": "Can I pay this address? ok·new·warn·sink. First 5 free. Then $0.10 USDC/look. Agents pay. No inbox.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Cobra-bit-prog/agent-guard",
+        "path": "net.agent-control/agent-control",
+        "url": "https://github.com/Cobra-bit-prog/agent-guard",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:code4161/memgit:dev.memgit/memgit#memgit",
       "type": "mcp",
       "name": "memgit",
@@ -71946,7 +72387,7 @@
       "name": "io.github.coderifts/api-governance",
       "description": {
         "zh": null,
-        "en": "Contract-change authorization for AI agents. Signed receipts verify offline.",
+        "en": "Signed, offline-verifiable contract-change authorization. Only a granted change can proceed.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -74609,6 +75050,104 @@
         "repo": "crosstabs/likerts",
         "path": "io.github.crosstabs/likerts",
         "url": "https://github.com/crosstabs/likerts",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:croviatrust/causari:io.github.croviatrust/causari#causari",
+      "type": "mcp",
+      "name": "Causari",
+      "description": {
+        "zh": null,
+        "en": "Records what an AI agent did in a repo (prompt, model, files) and answers why a line exists.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "croviatrust/causari",
+        "path": "io.github.croviatrust/causari",
+        "url": "https://github.com/croviatrust/causari",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:croviatrust/countersign:com.croviatrust/crovia#crovia-—-verifiable-silence-(tacet)-and-crovia-seal",
+      "type": "mcp",
+      "name": "Crovia — verifiable silence (TACET) and Crovia Seal",
+      "description": {
+        "zh": null,
+        "en": "Signed, Bitcoin-anchored observations of AI training-data disclosure; verifies silence proofs, seals",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "croviatrust/countersign",
+        "path": "com.croviatrust/crovia",
+        "url": "https://github.com/croviatrust/countersign",
         "tier": 0
       },
       "quality": {
@@ -77434,7 +77973,7 @@
       "name": "io.github.CsoftTarun/gstinapi-mcp",
       "description": {
         "zh": null,
-        "en": "GSTIN verification, GST filing history, HSN/SAC lookup, and MCA company registry for India.",
+        "en": "GSTIN verification, GST filing history and HSN/SAC lookup for India.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -77500,6 +78039,55 @@
         "repo": "cssllcio/vibrai-releases",
         "path": "com.vibrai/vibrai",
         "url": "https://github.com/cssllcio/vibrai-releases",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:cuemap-dev/cuemap-mcp:io.github.cuemap-dev/cuemap-mcp#io.github.cuemap-dev-cuemap-mcp",
+      "type": "mcp",
+      "name": "io.github.cuemap-dev/cuemap-mcp",
+      "description": {
+        "zh": null,
+        "en": "Local memory and context retrieval for AI agents through CueMap.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "cuemap-dev/cuemap-mcp",
+        "path": "io.github.cuemap-dev/cuemap-mcp",
+        "url": "https://github.com/cuemap-dev/cuemap-mcp",
         "tier": 0
       },
       "quality": {
@@ -78039,6 +78627,55 @@
         "repo": "d-veracity/semantic-mcp",
         "path": "com.dveracity/semantic-mcp",
         "url": "https://github.com/d-veracity/semantic-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:d20dao/mcp:org.d20dao/vrf#d20dao-verifiable-randomness",
+      "type": "mcp",
+      "name": "D20DAO Verifiable Randomness",
+      "description": {
+        "zh": null,
+        "en": "Verifiable dice, draws and shuffles with on-chain VRF proofs on Arc. 0.05 USDC per draw.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "d20dao/mcp",
+        "path": "org.d20dao/vrf",
+        "url": "https://github.com/d20dao/mcp",
         "tier": 0
       },
       "quality": {
@@ -83848,6 +84485,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:dgonzap30/claims-mcp:io.github.dgonzap30/claims-mcp#io.github.dgonzap30-claims-mcp",
+      "type": "mcp",
+      "name": "io.github.dgonzap30/claims-mcp",
+      "description": {
+        "zh": null,
+        "en": "A claims memory for agents: assert beliefs, let them decay, surface contradictions.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "dgonzap30/claims-mcp",
+        "path": "io.github.dgonzap30/claims-mcp",
+        "url": "https://github.com/dgonzap30/claims-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:dharani0804/mcp-folder-scout:io.github.dharani0804/mcp-folder-scout#io.github.dharani0804-mcp-folder-scout",
       "type": "mcp",
       "name": "io.github.dharani0804/mcp-folder-scout",
@@ -83870,6 +84556,55 @@
         "repo": "dharani0804/mcp-folder-scout",
         "path": "io.github.dharani0804/mcp-folder-scout",
         "url": "https://github.com/dharani0804/mcp-folder-scout",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:dhawalc/squawkflow:com.squawkflow.mcp/market-structure#squawkflow-market-structure",
+      "type": "mcp",
+      "name": "SquawkFlow Market Structure",
+      "description": {
+        "zh": null,
+        "en": "Free keyless dealer gamma, open interest change, 13F, congress and CFTC data, dated and cited.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "dhawalc/squawkflow",
+        "path": "com.squawkflow.mcp/market-structure",
+        "url": "https://github.com/dhawalc/squawkflow",
         "tier": 0
       },
       "quality": {
@@ -93747,6 +94482,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:eventgraphai/coingraph:ai.coingraph/coingraph#coingraph",
+      "type": "mcp",
+      "name": "CoinGraph",
+      "description": {
+        "zh": null,
+        "en": "Pre-trade crypto intelligence: survival rating, order-book depth, unlocks and contract flags.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "eventgraphai/coingraph",
+        "path": "ai.coingraph/coingraph",
+        "url": "https://github.com/eventgraphai/coingraph",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:eveoy/eveoy-mcp:com.eveoy/mcp#eveoy-—-verified-in-store-foot-traffic-($24.99-customer)",
       "type": "mcp",
       "name": "Eveoy — Verified In-Store Foot Traffic ($24.99/customer)",
@@ -95908,7 +96692,7 @@
       "name": "FiatDock",
       "description": {
         "zh": null,
-        "en": "Cash out an AI agent's USDC to a real bank account (non-custodial). Plus Base data + a marketplace",
+        "en": "MCP marketplace: AI agents buy services from other agents per call in USDC, plus a bank cash-out",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -99306,6 +100090,55 @@
         "repo": "Fuyuki0/elucora-mcp",
         "path": "com.elucora/evidence",
         "url": "https://github.com/Fuyuki0/elucora-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:fvegiard/agent-infra:io.github.fvegiard/inbox-benefits-mcp#inbox-benefits-mcp",
+      "type": "mcp",
+      "name": "Inbox Benefits MCP",
+      "description": {
+        "zh": null,
+        "en": "Read-only multi-inbox benefits radar with local deduplication and explicit account health.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "fvegiard/agent-infra",
+        "path": "io.github.fvegiard/inbox-benefits-mcp",
+        "url": "https://github.com/fvegiard/agent-infra",
         "tier": 0
       },
       "quality": {
@@ -103596,6 +104429,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:greencore-solutions/a2a-cosmetics:io.github.greencore-solutions/a2a-cosmetics#a2a-cosmetics",
+      "type": "mcp",
+      "name": "A2A Cosmetics",
+      "description": {
+        "zh": null,
+        "en": "Agent-to-Agent (A2A) + Model Context Protocol (MCP) hub for cosmetics.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "greencore-solutions/a2a-cosmetics",
+        "path": "io.github.greencore-solutions/a2a-cosmetics",
+        "url": "https://github.com/greencore-solutions/a2a-cosmetics",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:greencore-solutions/cpg-agent-protocols:io.github.greencore-solutions/cpg-agent-protocols#mcp-cpg-agent-protocols",
       "type": "mcp",
       "name": "MCP CPG Agent Protocols",
@@ -105235,6 +106117,55 @@
         "repo": "haiyunsky/hpsilab-quant-finance-mcp",
         "path": "io.github.haiyunsky/hpsilab-quant-finance-mcp",
         "url": "https://github.com/haiyunsky/hpsilab-quant-finance-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:hakki123mrk/vitafin-plugin:io.vitafin/vitafin#vitafin",
+      "type": "mcp",
+      "name": "Vitafin",
+      "description": {
+        "zh": null,
+        "en": "Money tracker, every account in its own currency: cards, loans, budgets, bills, splits, net worth.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "hakki123mrk/vitafin-plugin",
+        "path": "io.vitafin/vitafin",
+        "url": "https://github.com/hakki123mrk/vitafin-plugin",
         "tier": 0
       },
       "quality": {
@@ -109721,6 +110652,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:hronaut/hronaut:io.github.hronaut/hronaut#hronaut-browser-mcp",
+      "type": "mcp",
+      "name": "Hronaut Browser MCP",
+      "description": {
+        "zh": null,
+        "en": "Control visible, persistent Hronaut browser workspaces through a local MCP connection.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "hronaut/hronaut",
+        "path": "io.github.hronaut/hronaut",
+        "url": "https://github.com/hronaut/hronaut",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:hrtips/cvx:io.github.hrtips/cvx#io.github.hrtips-cvx",
       "type": "mcp",
       "name": "io.github.hrtips/cvx",
@@ -110037,6 +111017,55 @@
         "repo": "https://gitlab.com/georgikalchev/402cron",
         "path": "com.402cron/402cron",
         "url": "https://gitlab.com/georgikalchev/402cron",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:https://gitlab.com/kriyax-labs/sketchxflow:com.sketchxflow/dev-mcp#com.sketchxflow-dev-mcp",
+      "type": "mcp",
+      "name": "com.sketchxflow/dev-mcp",
+      "description": {
+        "zh": null,
+        "en": "SketchXFlow delivery team: pull client requirements, post updates, log time, move milestones.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "https://gitlab.com/kriyax-labs/sketchxflow",
+        "path": "com.sketchxflow/dev-mcp",
+        "url": "https://gitlab.com/kriyax-labs/sketchxflow",
         "tier": 0
       },
       "quality": {
@@ -111752,6 +112781,55 @@
         "repo": "ictinnovations/ictfax-mcp",
         "path": "io.github.ictinnovations/ictfax-mcp",
         "url": "https://github.com/ictinnovations/ictfax-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:icyn12-tinker/icyndate:io.github.icyn12-tinker/icyn-date#icyn-date",
+      "type": "mcp",
+      "name": "Icyn Date",
+      "description": {
+        "zh": null,
+        "en": "Date context for agents: Chinese lunar calendar, solar terms, holidays for 12 regions. Offline.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "icyn12-tinker/icyndate",
+        "path": "io.github.icyn12-tinker/icyn-date",
+        "url": "https://github.com/icyn12-tinker/icyndate",
         "tier": 0
       },
       "quality": {
@@ -113665,6 +114743,55 @@
         "repo": "InferIndex/inferindex-docs",
         "path": "io.github.InferIndex/inferindex",
         "url": "https://github.com/InferIndex/inferindex-docs",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:ingate/gomind:com.gominddb/gomind#gomind",
+      "type": "mcp",
+      "name": "GoMind",
+      "description": {
+        "zh": null,
+        "en": "Persistent knowledge graph for AI agents. Remember, recall, and forget facts.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ingate/gomind",
+        "path": "com.gominddb/gomind",
+        "url": "https://github.com/ingate/gomind",
         "tier": 0
       },
       "quality": {
@@ -117928,6 +119055,55 @@
         "repo": "javyxx/xestando-claude-plugin",
         "path": "io.github.javyxx/xestando",
         "url": "https://github.com/javyxx/xestando-claude-plugin",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:jaxonai/dsail:ai.jaxon/dsail#dsail",
+      "type": "mcp",
+      "name": "DSAIL",
+      "description": {
+        "zh": null,
+        "en": "Turn a written policy into rules a program can check, and get the same answer every time.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "JaxonAI/dsail",
+        "path": "ai.jaxon/dsail",
+        "url": "https://github.com/JaxonAI/dsail",
         "tier": 0
       },
       "quality": {
@@ -125403,6 +126579,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:keyangroup/mydanktank:io.github.keyangroup/mydanktank#mydanktank-public-information-mcp",
+      "type": "mcp",
+      "name": "MyDankTank Public Information MCP",
+      "description": {
+        "zh": null,
+        "en": "Read-only MyDankTank catalog, Journal, policy, and machine metadata service for adults 21+.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "KeyanGroup/mydanktank",
+        "path": "io.github.KeyanGroup/mydanktank",
+        "url": "https://github.com/KeyanGroup/mydanktank",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:keyhalve/keyhalve-mcp:com.keyhalve/verify#keyhalve-verify-sealed-documents",
       "type": "mcp",
       "name": "KeyHalve - verify sealed documents",
@@ -125474,6 +126699,55 @@
         "repo": "KeyID-AI/KeyID",
         "path": "io.github.KeyID-AI/keyid",
         "url": "https://github.com/KeyID-AI/KeyID",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:khavel/ai-model-watch:io.github.khavel/aimodelwatch#ai-model-watch",
+      "type": "mcp",
+      "name": "AI Model Watch",
+      "description": {
+        "zh": null,
+        "en": "Prices, context windows, lifecycle and deprecation dates for 270+ AI/LLM models. Daily, no key.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Khavel/ai-model-watch",
+        "path": "io.github.Khavel/aimodelwatch",
+        "url": "https://github.com/Khavel/ai-model-watch",
         "tier": 0
       },
       "quality": {
@@ -126486,7 +127760,7 @@
       "name": "HOI4 Agent Tools",
       "description": {
         "zh": null,
-        "en": "Analyze HOI4 events, tech trees, AI weights, and MTTH; build focus trees, GUIs, and maps.",
+        "en": "Analyze HOI4 events, decisions, impact, tech, AI, and MTTH; build focus trees, GUIs, and maps.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -127510,6 +128784,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:kotaro-studio/curanz-sounds:io.github.kotaro-studio/curanz-sounds#io.github.kotaro-studio-curanz-sounds",
+      "type": "mcp",
+      "name": "io.github.Kotaro-Studio/curanz-sounds",
+      "description": {
+        "zh": "生年月日から占いを計算して答える。星座・九星気学の本命星と年盤・四柱推命の日干と流年・天中殺・数秘術の個人年。出生時刻は不要。古典の暦法による計算。",
+        "en": null,
+        "zhEngine": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "zh",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Kotaro-Studio/curanz-sounds",
+        "path": "io.github.Kotaro-Studio/curanz-sounds",
+        "url": "https://github.com/Kotaro-Studio/curanz-sounds",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:kotaro-studio/kuongeo-py:io.github.kotaro-studio/kuongeo#io.github.kotaro-studio-kuongeo",
       "type": "mcp",
       "name": "io.github.Kotaro-Studio/kuongeo",
@@ -128348,7 +129671,7 @@
       "name": "io.github.kts982/mcp-sap-gui",
       "description": {
         "zh": null,
-        "en": "SAP GUI for Windows automation for AI agents - 59 structured tools via SAP GUI Scripting API",
+        "en": "SAP GUI for Windows automation for AI agents - 60 structured tools via SAP GUI Scripting API",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -131697,6 +133020,55 @@
         "repo": "littleblakew/msds-chain-mcp",
         "path": "io.github.littleblakew/msds-chain",
         "url": "https://github.com/littleblakew/msds-chain-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:liudejua27-blip/fitmeet-ui:io.github.liudejua27-blip/fitmeet#fitmeet-—-personal-agent-network",
+      "type": "mcp",
+      "name": "FitMeet — Personal Agent Network",
+      "description": {
+        "zh": null,
+        "en": "Find people, shared interests and opportunities. Publish needs and connect through your Agent.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "liudejua27-blip/FitMeet-UI",
+        "path": "io.github.liudejua27-blip/fitmeet",
+        "url": "https://github.com/liudejua27-blip/FitMeet-UI",
         "tier": 0
       },
       "quality": {
@@ -136727,7 +138099,7 @@
       "name": "io.github.malkreide/seco-labor-mcp",
       "description": {
         "zh": null,
-        "en": "SECO labour market: unemployment, vacancies, workforce indicators",
+        "en": "Swiss labour market and occupational accidents: unemployment, job seekers, vacancies, UVG data",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -140860,6 +142232,55 @@
         "repo": "marthvon/datuma_k",
         "path": "io.github.marthvon/datuma-k",
         "url": "https://github.com/marthvon/datuma_k",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:martinsmitcom/regulationsai:ai.regulations/regulations-ai#regulations.ai-—-global-ai-law-tracker",
+      "type": "mcp",
+      "name": "Regulations.ai — Global AI Law Tracker",
+      "description": {
+        "zh": null,
+        "en": "AI laws from 110+ countries, enforcement actions and a 3,900-term glossary. Free, no API key.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "martinsmitcom/regulationsai",
+        "path": "ai.regulations/regulations-ai",
+        "url": "https://github.com/martinsmitcom/regulationsai",
         "tier": 0
       },
       "quality": {
@@ -192239,6 +193660,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:ai.botinfo/robot-market-data#botinfo-—-advanced-robot-market-data",
+      "type": "mcp",
+      "name": "BotInfo — Advanced Robot Market Data",
+      "description": {
+        "zh": null,
+        "en": "Checkout-verified prices, stock, US FCC status and buy routes for humanoid and quadruped robots",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.botinfo/robot-market-data",
+        "url": "https://botinfo.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:ai.bourdon/bourdon#bourdon",
       "type": "mcp",
       "name": "Bourdon",
@@ -197063,6 +198533,55 @@
         "repo": null,
         "path": "ai.klarix/intelligence",
         "url": "https://klarix.ai/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.korala/mcp#korala",
+      "type": "mcp",
+      "name": "Korala",
+      "description": {
+        "zh": null,
+        "en": "Document signing: draft agreements, prepare signing requests, send them and track who has signed.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.korala/mcp",
+        "url": "https://docs.korala.ai/ai-agents",
         "tier": 0
       },
       "quality": {
@@ -202235,6 +203754,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:app.arbitron/mcp#arbitron",
+      "type": "mcp",
+      "name": "Arbitron",
+      "description": {
+        "zh": null,
+        "en": "Funding rates, cross-venue spreads and listings for crypto perpetual futures. Read-only.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "app.arbitron/mcp",
+        "url": "https://arbitron.app/developers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:app.baozugong/landlord#yieldlord-·-包租公",
       "type": "mcp",
       "name": "YieldLord · 包租公",
@@ -203433,6 +205001,55 @@
         "repo": null,
         "path": "app.getdomus/domus",
         "url": "https://getdomus.app/ai/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:app.getstringer/synthesizer#stringer-grounded-synthesizer",
+      "type": "mcp",
+      "name": "Stringer Grounded Synthesizer",
+      "description": {
+        "zh": null,
+        "en": "Grounded synthesis from public sources. 3 free calls total; then $0.10 brief or $0.25 deep via x402.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "app.getstringer/synthesizer",
+        "url": "https://registry.modelcontextprotocol.io/?q=app.getstringer%2Fsynthesizer",
         "tier": 0
       },
       "quality": {
@@ -205638,6 +207255,55 @@
         "repo": null,
         "path": "app.tasg/tasg",
         "url": "https://tasg.app/?src=registry",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:app.terravue/terravue#terravue",
+      "type": "mcp",
+      "name": "TerraVue",
+      "description": {
+        "zh": null,
+        "en": "Analyze any US home: buy vs rent Monte Carlo, affordability, and ZIP-level appreciation data.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "app.terravue/terravue",
+        "url": "https://www.terravue.app",
         "tier": 0
       },
       "quality": {
@@ -209634,6 +211300,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:co.glide/banking-connector#glide-—-wallets-and-us-banking",
+      "type": "mcp",
+      "name": "Glide — wallets and US banking",
+      "description": {
+        "zh": null,
+        "en": "Instant Base + Solana wallets, free and x402-payable. US bank account after a 2-min check.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "co.glide/banking-connector",
+        "url": "https://glide.co/connector",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:co.hilead/hilead#hilead",
       "type": "mcp",
       "name": "Hilead",
@@ -211692,6 +213407,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.agent-preflight/agent-preflight#agent-preflight",
+      "type": "mcp",
+      "name": "Agent Preflight",
+      "description": {
+        "zh": null,
+        "en": "Budgeted agent preflight: allow|block|reuse|defer|advise. Never executes destination tools. Free MCP",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.agent-preflight/agent-preflight",
+        "url": "https://agent-preflight.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.agentavow/agentavow-trust#agentavow-trust",
       "type": "mcp",
       "name": "AgentAvow Trust",
@@ -211991,7 +213755,7 @@
       "name": "agentleFS",
       "description": {
         "zh": null,
-        "en": "afs: one permissioned folder for you and your AI agents",
+        "en": "Agent permissions for the files your team shares",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -213657,7 +215421,7 @@
       "name": "APIShed",
       "description": {
         "zh": null,
-        "en": "Validates PESEL/NIP/REGON/IBAN/Luhn/ISBN/EAN/SWIFT-BIC/VAT; RPN calc, date math, hashing, tokens",
+        "en": "Validates PESEL/NIP/REGON/IBAN/Luhn/ISBN/EAN/SWIFT-BIC/VAT; RPN, date math, hash, tokens, random",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -213897,6 +215661,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.apished/random-number-generator#random-number-generator",
+      "type": "mcp",
+      "name": "Random Number Generator",
+      "description": {
+        "zh": null,
+        "en": "Generates cryptographically random integers in a given range, using crypto/rand.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.apished/random-number-generator",
+        "url": "https://apished.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.apished/regex-email-url-validator#regex-email-url-validator",
       "type": "mcp",
       "name": "Regex/Email/URL Validator",
@@ -214066,6 +215879,55 @@
         "repo": null,
         "path": "com.app-dex/appdex",
         "url": "https://app-dex.com/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.appealgo/appealgo#appealgo",
+      "type": "mcp",
+      "name": "AppealGo",
+      "description": {
+        "zh": null,
+        "en": "Check and appeal UK parking tickets (PCNs): grounds, deadlines, draft letters and filing.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.appealgo/appealgo",
+        "url": "https://appealgo.com/developers",
         "tier": 0
       },
       "quality": {
@@ -215292,6 +217154,55 @@
         "repo": null,
         "path": "com.bedrocknews/news",
         "url": "https://bedrocknews.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.beleeg/beleeg#beleeg",
+      "type": "mcp",
+      "name": "Beleeg",
+      "description": {
+        "zh": null,
+        "en": "Run recreational sports leagues and tournaments (30 sports) from an AI assistant.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.beleeg/beleeg",
+        "url": "https://beleeg.com/mcp",
         "tier": 0
       },
       "quality": {
@@ -219048,7 +220959,7 @@
       "name": "FX Context",
       "description": {
         "zh": null,
-        "en": "FX macro context for CPI, NFP, PCE, central banks, and EURUSD/GBPUSD/USDJPY market reactions.",
+        "en": "FX macro context for CPI, NFP, PCE, Fed, ECB, BoE, BoJ, and major FX market reactions.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -226687,6 +228598,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.foundry-mcp/foundry#foundry-vtt",
+      "type": "mcp",
+      "name": "Foundry VTT",
+      "description": {
+        "zh": null,
+        "en": "Connect any AI to your Foundry VTT world: actors, combat, dice, journals, tokens, compendiums.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.foundry-mcp/foundry",
+        "url": "https://foundry-mcp.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.foundryims/foundry-ims#foundry-ims",
       "type": "mcp",
       "name": "Foundry IMS",
@@ -230264,6 +232224,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.hivepublish/hive#hive",
+      "type": "mcp",
+      "name": "Hive",
+      "description": {
+        "zh": null,
+        "en": "Publish, schedule, analyse and automate DMs across twelve social networks.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.hivepublish/hive",
+        "url": "https://hivepublish.com/developers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.homeoceutics/catalog#catalogue-homeoceutics-homeoceutics-catalog",
       "type": "mcp",
       "name": "Catalogue Homeoceutics / Homeoceutics Catalog",
@@ -231706,7 +233715,7 @@
       "source": {
         "repo": null,
         "path": "com.iscabox/iscabox",
-        "url": "https://www.iscabox.com/api-tralha",
+        "url": "https://www.iscabox.com/api/mcp",
         "tier": 0
       },
       "quality": {
@@ -233765,6 +235774,55 @@
         "repo": null,
         "path": "com.kairossignal/kairos-signal",
         "url": "https://registry.modelcontextprotocol.io/?q=com.kairossignal%2Fkairos-signal",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.kawaa/email-verification#kawaa-email-verification",
+      "type": "mcp",
+      "name": "Kawaa email verification",
+      "description": {
+        "zh": null,
+        "en": "Check whether an email address can receive mail — one address or a list — without sending to it.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.kawaa/email-verification",
+        "url": "https://kawaa.com/docs/mcp/",
         "tier": 0
       },
       "quality": {
@@ -235922,6 +237980,55 @@
         "repo": null,
         "path": "com.lucidrents/building-intelligence",
         "url": "https://lucidrents.com/for-ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.lucyesl/jobs#lucyesl-—-english-teaching-jobs-in-korea",
+      "type": "mcp",
+      "name": "LucyESL — English teaching jobs in Korea",
+      "description": {
+        "zh": null,
+        "en": "English-teaching jobs in South Korea: salary, disclosure and by-region stats. Read-only, no key.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.lucyesl/jobs",
+        "url": "https://lucyesl.com/developers",
         "tier": 0
       },
       "quality": {
@@ -242074,6 +244181,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.pacelabintervals/workouts#pacelab-intervals",
+      "type": "mcp",
+      "name": "Pacelab Intervals",
+      "description": {
+        "zh": null,
+        "en": "Create and schedule interval workouts (Tabata, AMRAP, EMOM) from your real training history.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.pacelabintervals/workouts",
+        "url": "https://pacelabintervals.com/claude",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.padlet/padlet#padlet",
       "type": "mcp",
       "name": "Padlet",
@@ -243054,6 +245210,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.pinsvit/api#pinsvit",
+      "type": "mcp",
+      "name": "Pinsvit",
+      "description": {
+        "zh": null,
+        "en": "Find and book local businesses on the Pinsvit map; discover and create posts, events and comments.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.pinsvit/api",
+        "url": "https://pinsvit.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.pipiwaitrailmaui/trail-status#pīpīwai-trail-status",
       "type": "mcp",
       "name": "Pīpīwai Trail status",
@@ -243076,6 +245281,55 @@
         "repo": null,
         "path": "com.pipiwaitrailmaui/trail-status",
         "url": "https://pipiwaitrailmaui.com/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.piratefly/flight-deals#piratefly-flight-price-judge",
+      "type": "mcp",
+      "name": "Piratefly Flight Price Judge",
+      "description": {
+        "zh": null,
+        "en": "Is this flight price good right now? Verdicts from 90 days of observed fares on 500+ routes.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.piratefly/flight-deals",
+        "url": "https://piratefly.com/mcp-server",
         "tier": 0
       },
       "quality": {
@@ -243468,6 +245722,55 @@
         "repo": null,
         "path": "com.post-mesh/mcp",
         "url": "https://post-mesh.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.postedly/send#postedly",
+      "type": "mcp",
+      "name": "Postedly",
+      "description": {
+        "zh": null,
+        "en": "Prepare physical mail and fax quotes, review before payment, and track orders with OAuth.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.postedly/send",
+        "url": "https://postedly.com/agents",
         "tier": 0
       },
       "quality": {
@@ -245821,6 +248124,55 @@
         "repo": null,
         "path": "com.ratezip/rates",
         "url": "https://www.ratezip.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.rattlesnakesbymail/rattlesnakesbymail#com.rattlesnakesbymail-rattlesnakesbymail",
+      "type": "mcp",
+      "name": "com.rattlesnakesbymail/rattlesnakesbymail",
+      "description": {
+        "zh": null,
+        "en": "Dated, sourced claims about AI crawlers and agents, offered as MCP tools.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.rattlesnakesbymail/rattlesnakesbymail",
+        "url": "https://rattlesnakesbymail.com",
         "tier": 0
       },
       "quality": {
@@ -250062,6 +252414,104 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.spencerhofmans/history-guides#spencer-hofmans-historical-guides",
+      "type": "mcp",
+      "name": "Spencer Hofmans Historical Guides",
+      "description": {
+        "zh": null,
+        "en": "Historical guides to Irish history behind A Heart of Oak and A Younger Ireland by Spencer Hofmans.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.spencerhofmans/history-guides",
+        "url": "https://registry.modelcontextprotocol.io/?q=com.spencerhofmans%2Fhistory-guides",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.spencerhofmans/irish-history#irish-history-1798,-o'connell,-young-ireland-&-the-great-fam",
+      "type": "mcp",
+      "name": "Irish History: 1798, O'Connell, Young Ireland & the Great Famine",
+      "description": {
+        "zh": null,
+        "en": "United Irishmen, 1798, Repeal, Young Ireland, Great Famine and historical fiction sources.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.spencerhofmans/irish-history",
+        "url": "https://spencerhofmans.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.spocont/ifrcoworker#com.spocont-ifrcoworker",
       "type": "mcp",
       "name": "com.spocont/ifrCoworker",
@@ -250280,55 +252730,6 @@
         "repo": null,
         "path": "com.spriteship/spriteship",
         "url": "https://spriteship.com",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:mcp-official:com.squawkflow.mcp/market-structure#squawkflow-market-structure",
-      "type": "mcp",
-      "name": "SquawkFlow Market Structure",
-      "description": {
-        "zh": null,
-        "en": "Free keyless SPX dealer gamma levels, gamma grid, max pain and VIX curve, each dated and cited.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "other"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "com.squawkflow.mcp/market-structure",
-        "url": "https://squawkflow.com",
         "tier": 0
       },
       "quality": {
@@ -250650,6 +253051,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.stashgamma/eod-stock-data#stashgamma-eod-stock-data",
+      "type": "mcp",
+      "name": "StashGamma EOD Stock Data",
+      "description": {
+        "zh": null,
+        "en": "Daily end-of-day OHLCV stock data for U.S.-listed symbols, 15 years of history. Free API key.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.stashgamma/eod-stock-data",
+        "url": "https://www.stashgamma.com/mcp-stock-data-api",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.stellarhound/stellarhound-mcp#stellarhound-—-stargazing-forecasts,-dark-sky-sites-&-aurora",
       "type": "mcp",
       "name": "Stellarhound — stargazing forecasts, dark-sky sites & aurora",
@@ -250851,7 +253301,7 @@
       "name": "StockLens",
       "description": {
         "zh": null,
-        "en": "Nightly stock scores with no account. Sign in for deep analysis, screening, and a watchlist.",
+        "en": "Scores for the 600 largest stocks with no account. Sign in for analysis, screening and a watchlist.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -253345,6 +255795,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.thepantrybutler/pantry#the-pantry-butler",
+      "type": "mcp",
+      "name": "The Pantry Butler",
+      "description": {
+        "zh": null,
+        "en": "Answers 'what can I cook tonight?' from your own saved recipes and what's really in your kitchen.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.thepantrybutler/pantry",
+        "url": "https://thepantrybutler.com/connect",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.therenovationroom/renovation-room#com.therenovationroom-renovation-room",
       "type": "mcp",
       "name": "com.therenovationroom/renovation-room",
@@ -254864,12 +257363,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:com.trustbaselab/rcb-data#trustbase-lab-·-global-rcb-industry-data",
+      "id": "mcp:mcp-official:com.trustbaselab/rcb-data#trustbase-lab-·-rcb-&-chemical-recycling-data",
       "type": "mcp",
-      "name": "Trustbase Lab · Global rCB Industry Data",
+      "name": "Trustbase Lab · rCB & Chemical Recycling Data",
       "description": {
         "zh": null,
-        "en": "rCB industry data: suppliers, policies, ASTM/GB standards, grades, articles. 276 records, 13 tools.",
+        "en": "Chemical recycling data: rCB suppliers, policies, ASTM/GB standards, feedstock price indices.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -257777,6 +260276,55 @@
         "repo": null,
         "path": "com.whoislicensed/lookup",
         "url": "https://whoislicensed.com/llms.txt",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.wholesalepilot/wholesalepilot#wholesalepilot",
+      "type": "mcp",
+      "name": "WholesalePilot",
+      "description": {
+        "zh": null,
+        "en": "Find distributors, wholesalers and retail buyers for a product; review outreach and calls.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.wholesalepilot/wholesalepilot",
+        "url": "https://wholesalepilot.com/mcp",
         "tier": 0
       },
       "quality": {
@@ -260842,6 +263390,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:dev.bitbybit/cad-cloud#bitbybit-cad-cloud-mcp",
+      "type": "mcp",
+      "name": "Bitbybit CAD Cloud MCP",
+      "description": {
+        "zh": null,
+        "en": "Run 3D CAD operations, pipelines, parametric models and STEP conversions on CAD Cloud with a key",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "dev.bitbybit/cad-cloud",
+        "url": "https://learn.bitbybit.dev/learn/using-ai-with-bitbybit/mcp/cad-cloud-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:dev.blyck/website-change-monitor#website-change-monitor",
       "type": "mcp",
       "name": "Website Change Monitor",
@@ -263292,6 +265889,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:dev.robase/sms#robase-sms",
+      "type": "mcp",
+      "name": "Robase SMS",
+      "description": {
+        "zh": null,
+        "en": "Prepaid SMS OTP and transactional SMS API. Eight priced markets: NG, GH, KE, ZA, GB, BJ, CI, US.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "dev.robase/sms",
+        "url": "https://docs.robase.dev/guides/ai-agents",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:dev.rohnelt.kortex/kortex#kortex",
       "type": "mcp",
       "name": "Kortex",
@@ -264081,7 +266727,7 @@
       "name": "Agent Utilities Hosted",
       "description": {
         "zh": null,
-        "en": "Shopping, HTML and JSON utilities. Free discovery; paid calls from $0.0003 with $5 credit packs.",
+        "en": "Shopping utilities. Free small pack plans and HTML offer previews; full paid calls from $0.0003.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -264097,7 +266743,7 @@
       "source": {
         "repo": null,
         "path": "dev.workers.agent-utilities.agent-utilities/agent-utilities",
-        "url": "https://agent-utilities.agent-utilities.workers.dev/integrations/mcp?utm_source=mcp-registry",
+        "url": "https://agent-utilities.agent-utilities.workers.dev/integrations/agents?utm_source=mcp-registry",
         "tier": 0
       },
       "quality": {
@@ -264392,6 +267038,55 @@
         "repo": null,
         "path": "dev.workers.kikoribera03.flat-rate-llm/x402-tools",
         "url": "https://flat-rate-llm.kikoribera03.workers.dev/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:dev.workers.mars-economic.mars-economic-agent-gateway/mars-economic#mars-economic",
+      "type": "mcp",
+      "name": "MARS Economic",
+      "description": {
+        "zh": null,
+        "en": "Supplier sourcing, procurement, commercial intelligence, RFQ routing and B2B deal coordination.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "dev.workers.mars-economic.mars-economic-agent-gateway/mars-economic",
+        "url": "https://mars-economic-agent-gateway.mars-economic.workers.dev",
         "tier": 0
       },
       "quality": {
@@ -269466,6 +272161,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:homes.heart/heart-homes#heart-homes-—-dubai-property-data",
+      "type": "mcp",
+      "name": "Heart Homes — Dubai property data",
+      "description": {
+        "zh": null,
+        "en": "Dubai property prices, rents and trends from official Dubai Land Department records. Read-only.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "homes.heart/heart-homes",
+        "url": "https://heart.homes",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:host.nippy/nippy#host.nippy-nippy",
       "type": "mcp",
       "name": "host.nippy/nippy",
@@ -270076,6 +272820,55 @@
         "repo": null,
         "path": "in.mednode/mednode",
         "url": "https://mednode.in/connect-ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:in.memorylayer/memorylayer#memorylayer",
+      "type": "mcp",
+      "name": "MemoryLayer",
+      "description": {
+        "zh": null,
+        "en": "Local-first persistent memory for AI agents, with reasoning and formal verification.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "in.memorylayer/memorylayer",
+        "url": "https://memorylayer.in",
         "tier": 0
       },
       "quality": {
@@ -270762,6 +273555,55 @@
         "repo": null,
         "path": "io.applayer/tango",
         "url": "https://tango.applayer.io",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.arcnm/arcnm#io.arcnm-arcnm",
+      "type": "mcp",
+      "name": "io.arcnm/arcnm",
+      "description": {
+        "zh": null,
+        "en": "Manufacturing should-cost from CAD and drawings: cost drivers, process plan, lot sizes.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.arcnm/arcnm",
+        "url": "https://arcnm.io/docs/mcp",
         "tier": 0
       },
       "quality": {
@@ -275052,6 +277894,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.bidglow-ai/bidglow#bidglow",
+      "type": "mcp",
+      "name": "BidGlow",
+      "description": {
+        "zh": null,
+        "en": "Publish approved free website listings and prepare read-only bid quotes. No payment tool.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.bidglow-ai/bidglow",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.bidglow-ai%2Fbidglow",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.blakeyounger/cortexassay#answerpool-(formerly-cortexassay)",
       "type": "mcp",
       "name": "AnswerPool (formerly CortexAssay)",
@@ -276228,12 +279119,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:io.github.cirralink-stack/kevaremesh-gateway#kevaremesh-gateway",
+      "id": "mcp:mcp-official:io.github.cirralink-stack/kevaremesh-gateway#kevaremesh-ai-procurement-gateway",
       "type": "mcp",
-      "name": "KEVAREMESH Gateway",
+      "name": "KEVAREMESH AI Procurement Gateway",
       "description": {
         "zh": null,
-        "en": "One x402 tool: state your goal; KEVAREMESH selects, adapts, routes, and handles MCP payment.",
+        "en": "AI procurement gateway that finds, selects, adapts and routes public x402 APIs for agents.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -277796,6 +280687,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.dawaxwx/exif-strip#exif-strip",
+      "type": "mcp",
+      "name": "Exif Strip",
+      "description": {
+        "zh": null,
+        "en": "Strips EXIF, XMP, IPTC and GPS metadata from JPEG and PNG images in one call, with optional ICC p...",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.Dawaxwx/exif-strip",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.Dawaxwx%2Fexif-strip",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.dawaxwx/extrait-structure#extrait-structure",
       "type": "mcp",
       "name": "Extrait Structure",
@@ -277818,6 +280758,202 @@
         "repo": null,
         "path": "io.github.Dawaxwx/extrait-structure",
         "url": "https://registry.modelcontextprotocol.io/?q=io.github.Dawaxwx%2Fextrait-structure",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.dawaxwx/ics-evenement#ics-evenement",
+      "type": "mcp",
+      "name": "Ics Evenement",
+      "description": {
+        "zh": null,
+        "en": "Turns one JSON payload into a complete RFC 5545 .ics file — recurrence (RRULE), real IANA time zo...",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.Dawaxwx/ics-evenement",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.Dawaxwx%2Fics-evenement",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.dawaxwx/phone-format-check#phone-format-check",
+      "type": "mcp",
+      "name": "Phone Format Check",
+      "description": {
+        "zh": null,
+        "en": "Offline phone number validation and formatting at the edge: E.164/national/international formats,...",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.Dawaxwx/phone-format-check",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.Dawaxwx%2Fphone-format-check",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.dawaxwx/structured-data-check#structured-data-check",
+      "type": "mcp",
+      "name": "Structured Data Check",
+      "description": {
+        "zh": null,
+        "en": "Structured data validator in one call: extracts JSON-LD, microdata and RDFa from a URL or raw HTM...",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.Dawaxwx/structured-data-check",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.Dawaxwx%2Fstructured-data-check",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.dawaxwx/taxonomie-produit#taxonomie-produit",
+      "type": "mcp",
+      "name": "Taxonomie Produit",
+      "description": {
+        "zh": null,
+        "en": "Classifies product listings into the official Google Shopping taxonomy (5595 categories). Output ...",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.Dawaxwx/taxonomie-produit",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.Dawaxwx%2Ftaxonomie-produit",
         "tier": 0
       },
       "quality": {
@@ -278700,6 +281836,55 @@
         "repo": null,
         "path": "io.github.EQIQs/rapport-axis-core",
         "url": "https://registry.modelcontextprotocol.io/?q=io.github.EQIQs%2Frapport-axis-core",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.evannison/mutual#io.github.evannison-mutual",
+      "type": "mcp",
+      "name": "io.github.EvanNison/mutual",
+      "description": {
+        "zh": null,
+        "en": "Introductions network: your AI agent flags people privately, theirs flags back, two humans decide.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.EvanNison/mutual",
+        "url": "https://mutualintro.com",
         "tier": 0
       },
       "quality": {
@@ -295240,6 +298425,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.jayzht/memory3l-mcp#auditable-memory-(memory3l)",
+      "type": "mcp",
+      "name": "Auditable memory (memory3l)",
+      "description": {
+        "zh": null,
+        "en": "Audited memory over MCP: an append-only fact ledger plus verifiable invariants I1-I5.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.jayzht/memory3l-mcp",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.jayzht%2Fmemory3l-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.jenpo/fxpeek#io.github.jenpo-fxpeek",
       "type": "mcp",
       "name": "io.github.Jenpo/fxpeek",
@@ -296759,6 +299993,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.maixmeduret/pillr#pillr,-la-donnée-immobilière-française",
+      "type": "mcp",
+      "name": "Pillr, la donnée immobilière française",
+      "description": {
+        "zh": null,
+        "en": "Prix au m² communal, synthèse de marché et formalité d'urbanisme, sur données publiques françaises.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.maixmeduret/pillr",
+        "url": "https://pillr.fr/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.makloai/yoya-booking#yoya-booking",
       "type": "mcp",
       "name": "Yoya Booking",
@@ -297222,6 +300505,55 @@
         "repo": null,
         "path": "io.github.merg357/leakledger-ota-recovery",
         "url": "https://registry.modelcontextprotocol.io/?q=io.github.merg357%2Fleakledger-ota-recovery",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.mikafouenski/flottix#flottix",
+      "type": "mcp",
+      "name": "Flottix",
+      "description": {
+        "zh": null,
+        "en": "Deterministic IT asset registry operated by AI agents over MCP. Agents propose, humans approve.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.mikafouenski/flottix",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.mikafouenski%2Fflottix",
         "tier": 0
       },
       "quality": {
@@ -299214,7 +302546,7 @@
       "name": "The Continental",
       "description": {
         "zh": null,
-        "en": "Neutral ground for AI agents: rooms that burn, memory the house cannot read, signed identity, ledger",
+        "en": "Neutral ground for AI agents: a free door, memory the house cannot read, rooms that burn, a ledger",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -301338,6 +304670,202 @@
         "repo": null,
         "path": "io.github.paulovitorti/zap-imoveis-scraper",
         "url": "https://registry.modelcontextprotocol.io/?q=io.github.paulovitorti%2Fzap-imoveis-scraper",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.pavel-tashev/company-verifier#io.github.pavel-tashev-company-verifier",
+      "type": "mcp",
+      "name": "io.github.pavel-tashev/company-verifier",
+      "description": {
+        "zh": null,
+        "en": "Verify a company exists: UK, EU VAT, GLEIF LEI, 8 national registers, plus EU contract awards",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.pavel-tashev/company-verifier",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.pavel-tashev%2Fcompany-verifier",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.pavel-tashev/rss-feed-reader#io.github.pavel-tashev-rss-feed-reader",
+      "type": "mcp",
+      "name": "io.github.pavel-tashev/rss-feed-reader",
+      "description": {
+        "zh": null,
+        "en": "Read RSS, Atom and JSON feeds, or find the feed of any website, with filters and only-new mode",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.pavel-tashev/rss-feed-reader",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.pavel-tashev%2Frss-feed-reader",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.pavel-tashev/sitemap-url-extractor#io.github.pavel-tashev-sitemap-url-extractor",
+      "type": "mcp",
+      "name": "io.github.pavel-tashev/sitemap-url-extractor",
+      "description": {
+        "zh": null,
+        "en": "Extract every URL from a website sitemap, including index and gzipped sitemaps, with status checks",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.pavel-tashev/sitemap-url-extractor",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.pavel-tashev%2Fsitemap-url-extractor",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.pavel-tashev/website-change-watcher#io.github.pavel-tashev-website-change-watcher",
+      "type": "mcp",
+      "name": "io.github.pavel-tashev/website-change-watcher",
+      "description": {
+        "zh": null,
+        "en": "Detect what changed on a page, sitemap or feed since the last check, with a diff and change id",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.pavel-tashev/website-change-watcher",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.pavel-tashev%2Fwebsite-change-watcher",
         "tier": 0
       },
       "quality": {
@@ -303521,6 +307049,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.sanzation/obolus#obolus",
+      "type": "mcp",
+      "name": "Obolus",
+      "description": {
+        "zh": null,
+        "en": "Read-only payroll calculations and multi-country tax comparisons for eight countries.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.sanzation/obolus",
+        "url": "https://www.obolusfinanz.de/en/developers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.sathya-sankaran/bharatlas-mcp#io.github.sathya-sankaran-bharatlas-mcp",
       "type": "mcp",
       "name": "io.github.sathya-sankaran/bharatlas-mcp",
@@ -304403,6 +307980,104 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.speeedy10/foxify-agent-commerce#foxify-agent-commerce",
+      "type": "mcp",
+      "name": "FOXIFY Agent Commerce",
+      "description": {
+        "zh": null,
+        "en": "Paid x402 transaction preflight for autonomous agents: authority, destination, expiry and replay.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.speeedy10/foxify-agent-commerce",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.speeedy10%2Ffoxify-agent-commerce",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.speeedy10/foxify-x402-agent-commerce-payment-preflight#foxify-agent-payment-preflight",
+      "type": "mcp",
+      "name": "FOXIFY Agent Payment Preflight",
+      "description": {
+        "zh": null,
+        "en": "x402 payment preflight for agents: mandate, amount, destination, merchant, expiry and replay.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.speeedy10/foxify-x402-agent-commerce-payment-preflight",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.speeedy10%2Ffoxify-x402-agent-commerce-payment-preflight",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.stephen-d-daniel/carrier-records#io.github.stephen-d-daniel-carrier-records",
       "type": "mcp",
       "name": "io.github.stephen-d-daniel/carrier-records",
@@ -304817,6 +308492,55 @@
         "repo": null,
         "path": "io.github.tekinnnnn/unstringify",
         "url": "https://unstringify.com/docs/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.tfitzgerwitness/agent-identity-garden#agent-identity-garden",
+      "type": "mcp",
+      "name": "Agent Identity Garden",
+      "description": {
+        "zh": null,
+        "en": "Optional persistent identity state for autonomous software agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.tfitzgerwitness/agent-identity-garden",
+        "url": "https://agent-identity-garden.witness-test.workers.dev",
         "tier": 0
       },
       "quality": {
@@ -311807,7 +315531,7 @@
       "name": "ワットク（Wattoku）",
       "description": {
         "zh": null,
-        "en": "Compare Japan's household fixed costs: electricity, city gas and fiber plans, and simulate bundles.",
+        "en": "Compare Japan's household fixed costs: electricity, city gas, fiber and mobile plans, with bundles.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -311922,55 +315646,6 @@
         "repo": null,
         "path": "io.github.yzlee/opcmenu",
         "url": "https://opcmenu.com/connect",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:mcp-official:io.github.zachary-1012/trendhub#trendhub",
-      "type": "mcp",
-      "name": "TrendHub",
-      "description": {
-        "zh": null,
-        "en": "Agent-native evidence-first trend intelligence with 21 MCP tools and Professional Intelligence v2.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "other"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "io.github.Zachary-1012/trendhub",
-        "url": "https://registry.modelcontextprotocol.io/?q=io.github.Zachary-1012%2Ftrendhub",
         "tier": 0
       },
       "quality": {
@@ -312314,6 +315989,55 @@
         "repo": null,
         "path": "io.github.zzzjy765/glint-meet",
         "url": "https://registry.modelcontextprotocol.io/?q=io.github.zzzjy765%2Fglint-meet",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.globalgov/mcp#globalgov-—-government-procurement-intelligence",
+      "type": "mcp",
+      "name": "GlobalGov — Government Procurement Intelligence",
+      "description": {
+        "zh": null,
+        "en": "Find the government contracts you can actually bid on, while they are still open. Free, no key.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.globalgov/mcp",
+        "url": "https://globalgov.io/developers",
         "tier": 0
       },
       "quality": {
@@ -313909,6 +317633,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.openstela/openstela#openstela",
+      "type": "mcp",
+      "name": "OpenStela",
+      "description": {
+        "zh": null,
+        "en": "Register AI characters and works, bind works to characters, verify fingerprints, read the market.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.openstela/openstela",
+        "url": "https://openstela.io/developers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.pinbridge/pinbridge#io.pinbridge-pinbridge",
       "type": "mcp",
       "name": "io.pinbridge/pinbridge",
@@ -315401,55 +319174,6 @@
         "repo": null,
         "path": "io.tessryx/tessryx",
         "url": "https://tessryx.com",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:mcp-official:io.vitafin/vitafin#vitafin",
-      "type": "mcp",
-      "name": "Vitafin",
-      "description": {
-        "zh": null,
-        "en": "Money tracker: log spending, net worth, dues, bank and card statements, charts, split bills.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "other"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "io.vitafin/vitafin",
-        "url": "https://vitafin.io",
         "tier": 0
       },
       "quality": {
@@ -319010,7 +322734,7 @@
       "name": "InkVoice — XRechnung & E-Invoicing",
       "description": {
         "zh": null,
-        "en": "Create and validate XRechnung (EN 16931), check Leitweg-IDs, calculate German VAT.",
+        "en": "XRechnung and ZUGFeRD e-invoicing (EN 16931): create, validate, check Leitweg-IDs, German VAT.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -319843,7 +323567,7 @@
       "name": "Peer Commons",
       "description": {
         "zh": null,
-        "en": "Persistent discussions, shared context and subscriptions for independently operated AI agents.",
+        "en": "Agent reliability experiments and persistent discussions, shared context and subscriptions.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -321330,6 +325054,55 @@
         "repo": null,
         "path": "nl.svv-schatzoekers/public-selling-agent",
         "url": "https://registry.modelcontextprotocol.io/?q=nl.svv-schatzoekers%2Fpublic-selling-agent",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:nl.taklo/taklo-evi#taklo",
+      "type": "mcp",
+      "name": "Taklo",
+      "description": {
+        "zh": null,
+        "en": "Prijzen, feiten en boekhoudkoppelingen van Taklo, software voor installatiebedrijven.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "nl.taklo/taklo-evi",
+        "url": "https://taklo.nl/ai-assistent",
         "tier": 0
       },
       "quality": {
@@ -324319,6 +328092,55 @@
         "repo": null,
         "path": "pl.swiadectwo-energetyczne24/zamowienia",
         "url": "https://swiadectwo-energetyczne24.pl",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:pl.szuruszuru/booking#szuruszuru-–-rezerwacja-czyszczenia-tapicerki",
+      "type": "mcp",
+      "name": "SzuruSzuru – rezerwacja czyszczenia tapicerki",
+      "description": {
+        "zh": null,
+        "en": "Quote, check slots and book on-site upholstery, carpet and mattress cleaning in Pomorskie, Poland.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "pl.szuruszuru/booking",
+        "url": "https://szuruszuru.pl/llms.txt",
         "tier": 0
       },
       "quality": {
@@ -329738,6 +333560,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:uk.co.hopi/hopi#uk.co.hopi-hopi",
+      "type": "mcp",
+      "name": "uk.co.hopi/hopi",
+      "description": {
+        "zh": null,
+        "en": "Free UK calculators, converters and validators (tax, VAT, stamp duty, dates, units), read-only.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "uk.co.hopi/hopi",
+        "url": "https://hopi.co.uk/mcp/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:uk.co.marketingin/mcp#uk.co.marketingin-mcp",
       "type": "mcp",
       "name": "uk.co.marketingin/mcp",
@@ -332090,6 +335961,153 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:xyz.honeycheck/arc-treasury-mcp#arc-treasury",
+      "type": "mcp",
+      "name": "Arc Treasury",
+      "description": {
+        "zh": null,
+        "en": "What USDC and EURC really earn on Arc, by deposit size: Aave v4 and Morpho read directly. x402.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "xyz.honeycheck/arc-treasury-mcp",
+        "url": "https://gmtrenchor.memeogatchi.workers.dev",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:xyz.honeycheck/gmtrenchor-mcp#gmtrenchor",
+      "type": "mcp",
+      "name": "GMTRENCHOR",
+      "description": {
+        "zh": null,
+        "en": "Arc launch intelligence with a free published track record: first hours, deployers, open calls.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "xyz.honeycheck/gmtrenchor-mcp",
+        "url": "https://gmtrenchor.memeogatchi.workers.dev",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:xyz.honeycheck/hyperliquid-funding-mcp#hyperliquid-funding",
+      "type": "mcp",
+      "name": "Hyperliquid Funding",
+      "description": {
+        "zh": null,
+        "en": "Hyperliquid funding, open interest and carry spreads across all 11 venues. Paid per call, x402.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "xyz.honeycheck/hyperliquid-funding-mcp",
+        "url": "https://gmtrenchor.memeogatchi.workers.dev",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:xyz.outsend/outsend#outsend",
       "type": "mcp",
       "name": "OutSend",
@@ -332487,7 +336505,7 @@
       "name": "io.github.mcpsmiths/tracehub-mcp",
       "description": {
         "zh": null,
-        "en": "Query OpenTelemetry traces from LLM apps across Jaeger, Tempo, Traceloop, Datadog, Sentry, X-Ray.",
+        "en": "Query OTel traces across Jaeger, Tempo, Traceloop, Datadog, Sentry, X-Ray, New Relic, Honeycomb.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -335618,6 +339636,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:minutojaragua/metro-quadrado:br.com.acorridadosbairros/metro-quadrado#a-corrida-dos-bairros-preço-do-m²-por-bairro",
+      "type": "mcp",
+      "name": "A Corrida dos Bairros: preço do m² por bairro",
+      "description": {
+        "zh": null,
+        "en": "Preço do m² por bairro em 109 cidades do Brasil, nos 27 estados. Dados abertos, todo mês.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "minutojaragua/metro-quadrado",
+        "path": "br.com.acorridadosbairros/metro-quadrado",
+        "url": "https://github.com/minutojaragua/metro-quadrado",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:minutojaragua/metro-quadrado:br.com.metroquadradosc/metro-quadrado#metro-quadrado",
       "type": "mcp",
       "name": "Metro Quadrado",
@@ -336892,12 +340959,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:moelayyan90/xguard:io.github.moelayyan90/xguard-control-plane#xguard-universal-paid-ai-agent-+-secretless-gateway",
+      "id": "mcp:moelayyan90/xguard:io.github.moelayyan90/xguard-control-plane#xguard-—-agent-execution-gateway",
       "type": "mcp",
-      "name": "XGuard Universal Paid AI Agent + Secretless Gateway",
+      "name": "XGuard — Agent Execution Gateway",
       "description": {
         "zh": null,
-        "en": "Page extraction, product offers and feed digests. Free preview, signed prices, x402 USDC.",
+        "en": "Scoped agent execution. Server-side credentials, policy, budgets and verifiable receipts.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -337747,6 +341814,55 @@
         "repo": "MortalPastry/wyrd-mcp",
         "path": "com.wyrdmcp/wyrd",
         "url": "https://github.com/MortalPastry/wyrd-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mosaro0224/averis-protocol:io.github.mosaro0224/averis-protocol#averis-protocol",
+      "type": "mcp",
+      "name": "Averis Protocol",
+      "description": {
+        "zh": null,
+        "en": "Working capital for autonomous AI agents — USDC advances against verified job receivables on Arc.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "mosaro0224/averis-protocol",
+        "path": "io.github.mosaro0224/averis-protocol",
+        "url": "https://github.com/mosaro0224/averis-protocol",
         "tier": 0
       },
       "quality": {
@@ -340638,55 +344754,6 @@
         "repo": "neilkpatel/whatagentsbuy",
         "path": "com.whatagentsbuy/whatagentsbuy",
         "url": "https://github.com/neilkpatel/whatagentsbuy",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:neiltron/apple-health-mcp:io.github.neiltron/apple-health-mcp#apple-health",
-      "type": "mcp",
-      "name": "Apple Health",
-      "description": {
-        "zh": null,
-        "en": "Query and analyze Apple Health CSV exports using DuckDB.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "other"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "neiltron/apple-health-mcp",
-        "path": "io.github.neiltron/apple-health-mcp",
-        "url": "https://github.com/neiltron/apple-health-mcp",
         "tier": 0
       },
       "quality": {
@@ -345766,7 +349833,7 @@
       "name": "AssetFare",
       "description": {
         "zh": null,
-        "en": "Four-chain swap/bridge quotes: Solana, Base, Arbitrum, Robinhood; never signs or submits.",
+        "en": "Six-chain source quotes incl. Polygon/Optimism USDC; AssetFare never signs or submits.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -348706,7 +352773,7 @@
       "name": "scrapewright",
       "description": {
         "zh": null,
-        "en": "Give it a store URL, get structured rows. A model writes the parser once; replays are free.",
+        "en": "Give it a URL, get structured rows. A model writes the parser once; replays are free.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -350095,6 +354162,55 @@
         "repo": "Pavelsiba/yandex-direct-mcp-plus",
         "path": "io.github.Pavelsiba/yandex-direct-mcp-plus",
         "url": "https://github.com/Pavelsiba/yandex-direct-mcp-plus",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:paxton888/basecite-agent-discovery:io.github.paxton888/basecite#io.github.paxton888-basecite",
+      "type": "mcp",
+      "name": "io.github.paxton888/basecite",
+      "description": {
+        "zh": null,
+        "en": "Tenant-scoped evidence intake and controlled AI context over MCP.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "paxton888/basecite-agent-discovery",
+        "path": "io.github.paxton888/basecite",
+        "url": "https://github.com/paxton888/basecite-agent-discovery",
         "tier": 0
       },
       "quality": {
@@ -353846,6 +357962,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:phaedo-labs/phaedo-mcp:io.github.phaedo-labs/phaedo-mcp#io.github.phaedo-labs-phaedo-mcp",
+      "type": "mcp",
+      "name": "io.github.phaedo-labs/phaedo-mcp",
+      "description": {
+        "zh": null,
+        "en": "Carry your Phaedo cognitive fingerprint into any MCP client: inject, consult, escalate, sign.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "phaedo-labs/phaedo-mcp",
+        "path": "io.github.phaedo-labs/phaedo-mcp",
+        "url": "https://github.com/phaedo-labs/phaedo-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:phalkmin/trendzeist-mcp:io.github.phalkmin/trendzeist-mcp#trendzeist-–-google-trends-for-content-ideation",
       "type": "mcp",
       "name": "Trendzeist – Google Trends for content ideation",
@@ -354505,6 +358670,55 @@
         "repo": "pich/ai-economics-mcp",
         "path": "pl.piszczek/ai-economics",
         "url": "https://github.com/pich/ai-economics-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:pictify-io/mcp:io.github.pictify-io/mcp#io.github.pictify-io-mcp",
+      "type": "mcp",
+      "name": "io.github.pictify-io/mcp",
+      "description": {
+        "zh": null,
+        "en": "Generate images, GIFs, videos, and PDFs from HTML, URLs, or templates — from your AI agent.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "pictify-io/mcp",
+        "path": "io.github.pictify-io/mcp",
+        "url": "https://github.com/pictify-io/mcp",
         "tier": 0
       },
       "quality": {
@@ -366243,6 +370457,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:pith-day/pith-mcp:io.github.pith-day/pith-mcp#pith-—-instagram-publishing",
+      "type": "mcp",
+      "name": "Pith — Instagram publishing",
+      "description": {
+        "zh": null,
+        "en": "Publish to Instagram from chat — official Graph API, OAuth 2.1, free for your own posts.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "pith-day/pith-mcp",
+        "path": "io.github.pith-day/pith-mcp",
+        "url": "https://github.com/pith-day/pith-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:pixelcove/topic-scorer:co.pixelcove/topic-scorer#co.pixelcove-topic-scorer",
       "type": "mcp",
       "name": "co.pixelcove/topic-scorer",
@@ -370658,7 +374921,7 @@
       "name": "QuantCalc Retirement Engine",
       "description": {
         "zh": null,
-        "en": "Monte Carlo retirement projections on a real engine, with assumptions attached.",
+        "en": "Retirement Monte Carlo with a tax-aware withdrawal-order and Roth-conversion recommendation.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -481395,6 +485658,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:sarooo17/event-intelligence:io.github.sarooo17/event-intelligence#mcp-event-intelligence",
+      "type": "mcp",
+      "name": "MCP Event Intelligence",
+      "description": {
+        "zh": null,
+        "en": "Durable temporal event intelligence: composite triggers, derived events, and runtime wakeups.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "sarooo17/event-intelligence",
+        "path": "io.github.sarooo17/event-intelligence",
+        "url": "https://github.com/sarooo17/event-intelligence",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:sarutobisasuke8/gimp-agent-mcp:io.github.sarutobisasuke8/gimp-agent-mcp#gimp-agent-mcp",
       "type": "mcp",
       "name": "GIMP Agent MCP",
@@ -481711,6 +486023,55 @@
         "repo": "saxonnicholls/super-log",
         "path": "com.super-log/super-log",
         "url": "https://github.com/saxonnicholls/super-log",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:saylorinnovations/open-x402-bazaar:io.github.saylorinnovations/agent-bazaar#agent-bazaar",
+      "type": "mcp",
+      "name": "Agent Bazaar",
+      "description": {
+        "zh": null,
+        "en": "Open, permissionless discovery marketplace for x402-payable resources. No account or KYC required.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "SaylorInnovations/open-x402-bazaar",
+        "path": "io.github.SaylorInnovations/agent-bazaar",
+        "url": "https://github.com/SaylorInnovations/open-x402-bazaar",
         "tier": 0
       },
       "quality": {
@@ -486295,6 +490656,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:shitianfang/jev-use:io.github.shitianfang/jev-use#io.github.shitianfang-jev-use",
+      "type": "mcp",
+      "name": "io.github.shitianfang/jev-use",
+      "description": {
+        "zh": null,
+        "en": "Typed yes/no, pick-one and score judgments from Jev in one batched call; typed escalation back.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "shitianfang/jev-use",
+        "path": "io.github.shitianfang/jev-use",
+        "url": "https://github.com/shitianfang/jev-use",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:shivamselam/seminara-agentic-suite:io.github.shivamselam/seminara#seminara",
       "type": "mcp",
       "name": "Seminara",
@@ -487248,6 +491658,55 @@
         "repo": "simonlin1212/selloracle-mcp",
         "path": "com.selloracle/etsy-data",
         "url": "https://github.com/simonlin1212/selloracle-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:simonplmak-cloud/hkex-filing-scraper:io.github.simonplmak-cloud/hkex-filings#hkex-filings",
+      "type": "mcp",
+      "name": "HKEx Filings",
+      "description": {
+        "zh": null,
+        "en": "Live HKEx (Hong Kong Stock Exchange) regulatory filings for AI agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "simonplmak-cloud/hkex-filing-scraper",
+        "path": "io.github.simonplmak-cloud/hkex-filings",
+        "url": "https://github.com/simonplmak-cloud/hkex-filing-scraper",
         "tier": 0
       },
       "quality": {
@@ -489845,6 +494304,55 @@
         "repo": "solara-sniper-bot/AI-Crypto-Sniper-MCP",
         "path": "com.aicryptosniper/ai-crypto-sniper-mcp",
         "url": "https://github.com/solara-sniper-bot/AI-Crypto-Sniper-MCP",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:solargptnz-dev/agent-experience-network:io.github.solargptnz-dev/agent-experience-network#agent-experience-network-live-preflight",
+      "type": "mcp",
+      "name": "Agent Experience Network Live Preflight",
+      "description": {
+        "zh": null,
+        "en": "Free read-only MCP endpoint preflight with self-service external credentials.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "solargptnz-dev/agent-experience-network",
+        "path": "io.github.solargptnz-dev/agent-experience-network",
+        "url": "https://github.com/solargptnz-dev/agent-experience-network",
         "tier": 0
       },
       "quality": {
@@ -493863,6 +498371,55 @@
         "repo": "SuperAngryMonkey/iris",
         "path": "io.github.SuperAngryMonkey/iris",
         "url": "https://github.com/SuperAngryMonkey/iris",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:superangrymonkey/kairos:io.github.superangrymonkey/kairos#io.github.superangrymonkey-kairos",
+      "type": "mcp",
+      "name": "io.github.SuperAngryMonkey/kairos",
+      "description": {
+        "zh": null,
+        "en": "Microsoft Planner MCP: create tasks and buckets, list plans and tasks, complete tasks.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "SuperAngryMonkey/kairos",
+        "path": "io.github.SuperAngryMonkey/kairos",
+        "url": "https://github.com/SuperAngryMonkey/kairos",
         "tier": 0
       },
       "quality": {
@@ -499574,6 +504131,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:theluckystrike/mcp-servers:io.github.theluckystrike/goods-receipt#io.github.theluckystrike-goods-receipt",
+      "type": "mcp",
+      "name": "io.github.theluckystrike/goods-receipt",
+      "description": {
+        "zh": null,
+        "en": "Goods receipt notes vs purchase orders: tolerances, damaged/short units, CSV export.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "theluckystrike/mcp-servers",
+        "path": "io.github.theluckystrike/goods-receipt",
+        "url": "https://github.com/theluckystrike/mcp-servers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:theluckystrike/mcp-servers:io.github.theluckystrike/imprest-account#io.github.theluckystrike-imprest-account",
       "type": "mcp",
       "name": "io.github.theluckystrike/imprest-account",
@@ -499917,6 +504523,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:theluckystrike/mcp-servers:io.github.theluckystrike/leave#io.github.theluckystrike-leave",
+      "type": "mcp",
+      "name": "io.github.theluckystrike/leave",
+      "description": {
+        "zh": null,
+        "en": "Employee leave and PTO requests: balances, approvals, calendars, and who-is-out summaries.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "theluckystrike/mcp-servers",
+        "path": "io.github.theluckystrike/leave",
+        "url": "https://github.com/theluckystrike/mcp-servers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:theluckystrike/mcp-servers:io.github.theluckystrike/ledger#io.github.theluckystrike-ledger",
       "type": "mcp",
       "name": "io.github.theluckystrike/ledger",
@@ -500232,6 +504887,55 @@
       "source": {
         "repo": "theluckystrike/mcp-servers",
         "path": "io.github.theluckystrike/onboarding-checklist-inspection-runs",
+        "url": "https://github.com/theluckystrike/mcp-servers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:theluckystrike/mcp-servers:io.github.theluckystrike/onboarding#io.github.theluckystrike-onboarding",
+      "type": "mcp",
+      "name": "io.github.theluckystrike/onboarding",
+      "description": {
+        "zh": null,
+        "en": "New-hire onboarding: role-based task templates, day-one to day-ninety checklists, completion.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "theluckystrike/mcp-servers",
+        "path": "io.github.theluckystrike/onboarding",
         "url": "https://github.com/theluckystrike/mcp-servers",
         "tier": 0
       },
@@ -500771,6 +505475,55 @@
       "source": {
         "repo": "theluckystrike/mcp-servers",
         "path": "io.github.theluckystrike/prices-deal",
+        "url": "https://github.com/theluckystrike/mcp-servers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:theluckystrike/mcp-servers:io.github.theluckystrike/purchase-requisition#io.github.theluckystrike-purchase-requisition",
+      "type": "mcp",
+      "name": "io.github.theluckystrike/purchase-requisition",
+      "description": {
+        "zh": null,
+        "en": "Reusable purchase-requisitions and dated runs of them: pass, fail, not applicable, and a sign-off.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "theluckystrike/mcp-servers",
+        "path": "io.github.theluckystrike/purchase-requisition",
         "url": "https://github.com/theluckystrike/mcp-servers",
         "tier": 0
       },
@@ -503989,7 +508742,7 @@
       "name": "GAIP Broker",
       "description": {
         "zh": null,
-        "en": "Read-only GAIP receipt verification and evidence before delegation. No score or caller decision.",
+        "en": "GAIP delegation evidence, £0 read-only execution and receipt verification; no caller decision.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -504987,6 +509740,55 @@
         "repo": "trabotpro/trabot",
         "path": "io.github.trabotpro/trabot-intel",
         "url": "https://github.com/trabotpro/trabot",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:trac-systems/openmayhem-mcp:ai.openmayhem/openmayhem#openmayhem",
+      "type": "mcp",
+      "name": "OpenMayhem",
+      "description": {
+        "zh": null,
+        "en": "Use OpenMayhem text, embedding and media models with explicit cost controls.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Trac-Systems/openmayhem-mcp",
+        "path": "ai.openmayhem/openmayhem",
+        "url": "https://github.com/Trac-Systems/openmayhem-mcp",
         "tier": 0
       },
       "quality": {
@@ -506212,6 +511014,55 @@
         "repo": "tronschell/kanban-thing",
         "path": "com.kanbanthing/kanban",
         "url": "https://github.com/tronschell/kanban-thing",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:troothllc/trooth-mcp:io.github.trooth-eng/trooth-network#trooth",
+      "type": "mcp",
+      "name": "Trooth",
+      "description": {
+        "zh": null,
+        "en": "Trooth is an infrastructure & cybersecurity company providing Machine-Readable Trust.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "troothllc/trooth-mcp",
+        "path": "io.github.trooth-eng/trooth-network",
+        "url": "https://github.com/troothllc/trooth-mcp",
         "tier": 0
       },
       "quality": {
@@ -507856,6 +512707,104 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:ultrastarz/x402-extract-mcp:io.github.ultrastarz/x402-extract#tollkit",
+      "type": "mcp",
+      "name": "Tollkit",
+      "description": {
+        "zh": null,
+        "en": "Extract product data, or notarize what a page said. Paid per call in USDC, no signup or API key.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "UltraStarz/x402-extract-mcp",
+        "path": "io.github.UltraStarz/x402-extract",
+        "url": "https://github.com/UltraStarz/x402-extract-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:umweltsicher/ems-agent:org.umweltsicherheit/digital-simon-ems#org.umweltsicherheit-digital-simon-ems",
+      "type": "mcp",
+      "name": "org.umweltsicherheit/digital-simon-ems",
+      "description": {
+        "zh": null,
+        "en": "Digital-Simon EMS: Messwerte und Gerätestatus abfragen, Verläufe lesen, mit Freigabe schalten.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "umweltsicher/ems-agent",
+        "path": "org.umweltsicherheit/digital-simon-ems",
+        "url": "https://github.com/umweltsicher/ems-agent",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:unblocked/skills:com.getunblocked/unblocked-mcp#unblocked",
       "type": "mcp",
       "name": "Unblocked",
@@ -508368,6 +513317,55 @@
         "repo": "uptimerobot/ai",
         "path": "com.uptimerobot/uptimerobot",
         "url": "https://github.com/uptimerobot/ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:urbankitstudio/mcp-atlas:io.github.leoyrh/mcp-atlas#io.github.leoyrh-mcp-atlas",
+      "type": "mcp",
+      "name": "io.github.LEOyrh/mcp-atlas",
+      "description": {
+        "zh": null,
+        "en": "Owner and APN lookup across 171 verified US county parcel ArcGIS endpoints. No API key needed.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "urbankitstudio/mcp-atlas",
+        "path": "io.github.LEOyrh/mcp-atlas",
+        "url": "https://github.com/urbankitstudio/mcp-atlas",
         "tier": 0
       },
       "quality": {
@@ -510355,6 +515353,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:veritylabsai/verity:io.github.veritylabsai/verity#verity",
+      "type": "mcp",
+      "name": "Verity",
+      "description": {
+        "zh": null,
+        "en": "Cited product-compliance ground truth for AI agents. Never generates; always cites.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "veritylabsai/verity",
+        "path": "io.github.veritylabsai/verity",
+        "url": "https://github.com/veritylabsai/verity",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:verlon-ai/mcp:ai.verlon/mcp#verlon-ai-mcp",
       "type": "mcp",
       "name": "Verlon AI MCP",
@@ -510747,6 +515794,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:vigneshv1cky/alphadesk-terminal:io.github.vigneshv1cky/alphadesk-terminal#io.github.vigneshv1cky-alphadesk-terminal",
+      "type": "mcp",
+      "name": "io.github.vigneshv1cky/alphadesk-terminal",
+      "description": {
+        "zh": null,
+        "en": "Read-only market data, SEC filings and financial statements, on your own vendor keys.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "vigneshv1cky/alphadesk-terminal",
+        "path": "io.github.vigneshv1cky/alphadesk-terminal",
+        "url": "https://github.com/vigneshv1cky/alphadesk-terminal",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:vike-io/vike-trader:io.github.vike-io/vike-trader#vike-cli",
       "type": "mcp",
       "name": "vike-cli",
@@ -511063,6 +516159,55 @@
         "repo": "vishprometa/universal-agent-forum",
         "path": "com.universalagentforum/forum",
         "url": "https://github.com/vishprometa/universal-agent-forum",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:vithanco/vgraph:com.vithanco/vgraph-mcp#com.vithanco-vgraph-mcp",
+      "type": "mcp",
+      "name": "com.vithanco/vgraph-mcp",
+      "description": {
+        "zh": null,
+        "en": "Concept Maps, IBIS, Causal Loop Diagrams and Timelines as images. Runs locally via WebAssembly.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Vithanco/VGraph",
+        "path": "com.vithanco/vgraph-mcp",
+        "url": "https://github.com/Vithanco/VGraph",
         "tier": 0
       },
       "quality": {
@@ -512876,6 +518021,55 @@
         "repo": "wcnm8888/mcp1-weather-query",
         "path": "io.github.wcnm8888/mcp1-weather-query",
         "url": "https://github.com/wcnm8888/mcp1-weather-query",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:wd666430-rgb/open-agent-commons:io.github.wd666430-rgb/open-agent-commons#open-agent-commons",
+      "type": "mcp",
+      "name": "Open Agent Commons",
+      "description": {
+        "zh": null,
+        "en": "Discover, verify, read, and publish signed Open Agent Commons Genesis Events.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "wd666430-rgb/open-agent-commons",
+        "path": "io.github.wd666430-rgb/open-agent-commons",
+        "url": "https://github.com/wd666430-rgb/open-agent-commons",
         "tier": 0
       },
       "quality": {
@@ -515843,6 +521037,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:xjoanet/memory-vault:com.asrmemory/asr#asr-(에사)-—-shared-memory-for-ai-tools",
+      "type": "mcp",
+      "name": "ASR (에사) — Shared memory for AI tools",
+      "description": {
+        "zh": null,
+        "en": "Shared memory for AI tools — save notes and work records, recall them from any other tool.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "xjoanet/memory-vault",
+        "path": "com.asrmemory/asr",
+        "url": "https://github.com/xjoanet/memory-vault",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:xnjiang/37soul-mcp:io.github.xnjiang/37soul-mcp#io.github.xnjiang-37soul-mcp",
       "type": "mcp",
       "name": "io.github.xnjiang/37soul-mcp",
@@ -516894,6 +522137,55 @@
         "repo": "yeunge-pawlo/citybook",
         "path": "ai.citybook/citybook",
         "url": "https://github.com/yeunge-pawlo/citybook",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:yeyuancc0-glitch/codex-bridge:io.github.yeyuancc0-glitch/codex-bridge#codex-bridge",
+      "type": "mcp",
+      "name": "Codex Bridge",
+      "description": {
+        "zh": null,
+        "en": "Connect MCP clients to local Codex Bridge agents, projects, approvals and workspace tools.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "yeyuancc0-glitch/codex-bridge",
+        "path": "io.github.yeyuancc0-glitch/codex-bridge",
+        "url": "https://github.com/yeyuancc0-glitch/codex-bridge",
         "tier": 0
       },
       "quality": {
@@ -518805,55 +524097,6 @@
         "repo": "zkarchitect/zkverify",
         "path": "io.github.zkarchitect/zkverify",
         "url": "https://github.com/zkarchitect/zkverify",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:zombico/mojulo:io.github.zombico/mojulo#io.github.zombico-mojulo",
-      "type": "mcp",
-      "name": "io.github.zombico/mojulo",
-      "description": {
-        "zh": null,
-        "en": "A 3D factory for agents: objects, worlds and games as re-runnable recipes. Exports Godot, STL.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "other"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "zombico/mojulo",
-        "path": "io.github.zombico/mojulo",
-        "url": "https://github.com/zombico/mojulo",
         "tier": 0
       },
       "quality": {

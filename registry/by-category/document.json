@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T21:15:37.804Z",
+  "generatedAt": "2026-09-20T21:09:15.245Z",
   "category": {
     "key": "document",
     "zh": "文档处理",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 622,
+  "total": 635,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/docx/skill.md#docx",
@@ -5149,7 +5149,7 @@
       "type": "skill",
       "name": "bensz-r-developer",
       "description": {
-        "zh": "当用户要求开发、重构或审查 R 函数与 R Package，并希望采用类驱动 API、显式 output.dir/cache.dir、可手测 if (FALSE) 块、规范并行与性能优化、devtools/roxygen2 工具链或评估 Rcpp/cpp11 原生加速时使用。⚠️ 不适用：以 R Markdown 报告与科研分析工作流为主的任务。",
+        "zh": "当主要交付物是可复用的 R 函数、稳定 API、S3/S4/R6 类或 R Package，需要设计、开发、重构或审查其接口、测试、文档、并行与性能边界时使用。分析项目中只有需要跨分析复用或形成公共 API 的组件才进入本 Skill。⚠️ 不适用：主要交付物是数据分析流程、科学结果、R Markdown 报告或仅服务当前分析的辅助函数；这些任务使用 bensz-rmd-rules。",
         "en": null,
         "zhEngine": null,
         "needsTranslation": [
@@ -5158,8 +5158,8 @@
       },
       "lang": "zh",
       "categories": [
-        "coding",
-        "document"
+        "document",
+        "coding"
       ],
       "targets": [
         "claude-code",
@@ -5203,7 +5203,7 @@
       "type": "skill",
       "name": "bensz-rmd-rules",
       "description": {
-        "zh": "当用户要求编写或维护 R Markdown、R 分析脚本、可复现数据分析，尤其涉及多阶段计算、缓存复用、断点恢复或论文级图表与解读时使用。负责规划分析单元、组织 R/Rmd 数据流、验证缓存与交付质量；不用于仅渲染既有 Rmd 或其它语言的数据分析。",
+        "zh": "当主要交付物是基于 R 的数据分析流程、科学结果、可复现数据产品、R Markdown/HTML 报告或论文级图表与解读时使用；即使流程中包含 `.R` 脚本和仅服务当前分析的辅助函数，也由本 Skill 主导。⚠️ 不适用：主要交付物是可独立复用的 R 函数、稳定公共 API、类或 R Package；这些任务使用 bensz-r-developer。也不用于仅渲染既有 Rmd 或其它语言的数据分析。",
         "en": null,
         "zhEngine": null,
         "needsTranslation": [
@@ -5212,9 +5212,8 @@
       },
       "lang": "zh",
       "categories": [
-        "data",
         "document",
-        "coding"
+        "data"
       ],
       "targets": [
         "claude-code",
@@ -15287,6 +15286,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:kitchensink4ai/kitchensink4xl:io.github.kitchensink4ai/kitchensink4xl#kitchensink4xl",
+      "type": "mcp",
+      "name": "KitchenSink4XL",
+      "description": {
+        "zh": null,
+        "en": "Excel (.xlsx) MCP server: calculated/cached/missing labels on every value, formulas, verified writes",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "KitchenSink4AI/KitchenSink4XL",
+        "path": "io.github.KitchenSink4AI/kitchensink4xl",
+        "url": "https://github.com/KitchenSink4AI/KitchenSink4XL",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:kitchensink4ai/kitchensink4xl:io.github.nometalalchemist/kitchensink4xl#kitchensink4xl",
       "type": "mcp",
       "name": "KitchenSink4XL",
@@ -17506,6 +17555,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:app.vercel.interesting-concepts-ventures/threadkeep#threadkeep-—-agent-checkpoints",
+      "type": "mcp",
+      "name": "Threadkeep — Agent Checkpoints",
+      "description": {
+        "zh": null,
+        "en": "Agent checkpoints. Resume after context resets and handoffs with retry-safe, versioned saves.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "app.vercel.interesting-concepts-ventures/threadkeep",
+        "url": "https://interesting-concepts-ventures.vercel.app/threadkeep/agents",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:ar.com.sofiaferro/portfolio#ar.com.sofiaferro-portfolio",
       "type": "mcp",
       "name": "ar.com.sofiaferro/portfolio",
@@ -19537,6 +19636,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.ohfax/ohfax#oh-fax",
+      "type": "mcp",
+      "name": "Oh Fax",
+      "description": {
+        "zh": null,
+        "en": "Outbound US/CA fax for agents: quote PDF, pay via MPP, get delivery receipt.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.ohfax/ohfax",
+        "url": "https://ohfax.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.openwakeword/wake-word-training#com.openwakeword-wake-word-training",
       "type": "mcp",
       "name": "com.openwakeword/wake-word-training",
@@ -20102,6 +20250,55 @@
         "repo": null,
         "path": "com.statementtobudget.www/bank-statement-converter",
         "url": "https://statementtobudget.com/for-agents",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.sumoffice/office#sumoffice-—-real-word-and-excel-for-agents",
+      "type": "mcp",
+      "name": "SumOffice — real Word and Excel for agents",
+      "description": {
+        "zh": null,
+        "en": "Real Word and Excel for agents: open your .docx/.xlsm, read, propose, apply, get it back intact.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.sumoffice/office",
+        "url": "https://sumoffice.com/mcp",
         "tier": 0
       },
       "quality": {
@@ -21213,6 +21410,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.dawaxwx/html-vers-markdown#html-vers-markdown",
+      "type": "mcp",
+      "name": "Html Vers Markdown",
+      "description": {
+        "zh": null,
+        "en": "HTML to clean Markdown for LLM and RAG pipelines: headings, lists, tables, links, code fences. Pr...",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.Dawaxwx/html-vers-markdown",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.Dawaxwx%2Fhtml-vers-markdown",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.dpetrou-continua/offprint#io.github.dpetrou-continua-offprint",
       "type": "mcp",
       "name": "io.github.dpetrou-continua/offprint",
@@ -21707,6 +21953,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.mohzameer/podpdf#podpdf",
+      "type": "mcp",
+      "name": "PodPDF",
+      "description": {
+        "zh": null,
+        "en": "Turn HTML, Markdown, URLs and saved templates into PDFs with the PodPDF API.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.mohzameer/podpdf",
+        "url": "https://podpdf.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.moralito311-andr/andreax#andreax-x402-services",
       "type": "mcp",
       "name": "Andreax x402 Services",
@@ -21778,6 +22073,55 @@
         "repo": null,
         "path": "io.github.Nero-Engine/dataset-pdf-extract",
         "url": "https://apify.com/nerolabs/dataset-pdf-extract",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.pavel-tashev/doc-to-markdown#io.github.pavel-tashev-doc-to-markdown",
+      "type": "mcp",
+      "name": "io.github.pavel-tashev/doc-to-markdown",
+      "description": {
+        "zh": null,
+        "en": "Convert PDF, Word, PowerPoint, Excel, HTML and EPUB to Markdown, with OCR and RAG chunking",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.pavel-tashev/doc-to-markdown",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.pavel-tashev%2Fdoc-to-markdown",
         "tier": 0
       },
       "quality": {
@@ -23110,6 +23454,106 @@
         "repo": "md-log/md-log-mcp",
         "path": "com.md-log/md-log-mcp",
         "url": "https://github.com/md-log/md-log-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mementoagi/memento:io.github.mementoagi/memento#memento",
+      "type": "mcp",
+      "name": "Memento",
+      "description": {
+        "zh": null,
+        "en": "Hosted MCP memory for coding agents: persistent across sessions, editable markdown, team sharing.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "mementoagi/memento",
+        "path": "io.github.mementoagi/memento",
+        "url": "https://github.com/mementoagi/memento",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:memtomem/memtomem:io.github.memtomem/memtomem#io.github.memtomem-memtomem",
+      "type": "mcp",
+      "name": "io.github.memtomem/memtomem",
+      "description": {
+        "zh": null,
+        "en": "Markdown-first long-term memory for AI agents. Hybrid BM25 + vector search, runs locally.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "memtomem/memtomem",
+        "path": "io.github.memtomem/memtomem",
+        "url": "https://github.com/memtomem/memtomem",
         "tier": 0
       },
       "quality": {
@@ -26345,6 +26789,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:samma1997/sammapix:io.github.samma1997/sammapix#sammapix-—-image-&-pdf-tools-for-ai-agents",
+      "type": "mcp",
+      "name": "SammaPix — Image & PDF tools for AI agents",
+      "description": {
+        "zh": null,
+        "en": "Image & PDF tools for AI agents: compress, convert, resize, PDF, AI vision, pipeline.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "samma1997/sammapix",
+        "path": "io.github.samma1997/sammapix",
+        "url": "https://github.com/samma1997/sammapix",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:samqra/auto-reader-ocr:com.auto-reader/ocr#com.auto-reader-ocr",
       "type": "mcp",
       "name": "com.auto-reader/ocr",
@@ -27582,6 +28076,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:sylphxai/pdf-reader-mcp:io.github.sylphxai/citra#citra",
+      "type": "mcp",
+      "name": "Citra",
+      "description": {
+        "zh": null,
+        "en": "Local-first PDF evidence for agents: structure, tables, OCR, and citations. SDK · CLI · MCP.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "SylphxAI/pdf-reader-mcp",
+        "path": "io.github.SylphxAI/citra",
+        "url": "https://github.com/SylphxAI/pdf-reader-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:synpulse8-opensource/pulse8-ai-cortex-knowledge-vault:io.github.synpulse8-opensource/pulse8-ai-cortex-knowledge-vault#io.github.synpulse8-opensource-pulse8-ai-cortex-knowledge-va",
       "type": "mcp",
       "name": "io.github.synpulse8-opensource/pulse8-ai-cortex-knowledge-vault",
@@ -27655,6 +28198,55 @@
         "repo": "Tactic-Systems/leafwright",
         "path": "co.leafwright/leafwright",
         "url": "https://github.com/Tactic-Systems/leafwright",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:tensorslab/pdf-mcp:com.tensormaster/pdf#pdf-toolkit",
+      "type": "mcp",
+      "name": "PDF Toolkit",
+      "description": {
+        "zh": null,
+        "en": "Convert PDFs/images to Word, Excel, and Markdown. Split, merge, and watermark PDF files.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "tensorslab/pdf-mcp",
+        "path": "com.tensormaster/pdf",
+        "url": "https://github.com/tensorslab/pdf-mcp",
         "tier": 0
       },
       "quality": {
@@ -30703,6 +31295,56 @@
         "repo": "wesseltl/pdf-mcp",
         "path": "io.github.wesseltl/pdf-mcp",
         "url": "https://github.com/wesseltl/pdf-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:williamsmithedward/xlide_mcp:io.github.williamsmithedward/xlide-excel-office-vba-mcp#xlide",
+      "type": "mcp",
+      "name": "XLIDE",
+      "description": {
+        "zh": null,
+        "en": "Read, write, analyze, test and diff the VBA in Office files, and the document around it",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "WilliamSmithEdward/xlide_mcp",
+        "path": "io.github.WilliamSmithEdward/xlide-excel-office-vba-mcp",
+        "url": "https://github.com/WilliamSmithEdward/xlide_mcp",
         "tier": 0
       },
       "quality": {

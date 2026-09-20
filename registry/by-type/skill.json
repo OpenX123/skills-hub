@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-19T21:15:37.804Z",
+  "generatedAt": "2026-09-20T21:09:15.245Z",
   "type": "skill",
   "label": {
     "zh": "技能",
     "en": "Skill"
   },
-  "total": 2137,
+  "total": 2139,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/academy-guide/skill.md#academy-guide",
@@ -60502,6 +60502,60 @@
       "curatedMentions": 2
     },
     {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/development/workspace-orchestration/skill.md#workspace-orchestration",
+      "type": "skill",
+      "name": "workspace-orchestration",
+      "description": {
+        "zh": null,
+        "en": "Use when working in a persistent-slot workspace that uses docko. Covers slot claims, delegated teammate inheritance, and the rule that code edits inside slots/ require an active claim.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/development/workspace-orchestration/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/development/workspace-orchestration/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 75,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 30807,
+      "curatedMentions": 2
+    },
+    {
       "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/development/writing-skills/skill.md#writing-skills",
       "type": "skill",
       "name": "writing-skills",
@@ -85261,6 +85315,59 @@
       "curatedMentions": 2
     },
     {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/development/pudu-task-telemetry/skill.md#pudu-task-telemetry",
+      "type": "skill",
+      "name": "pudu-task-telemetry",
+      "description": {
+        "zh": null,
+        "en": "Measure local AI task latency, token usage, errors and verified outcomes using Pudu AI hardware evidence and installed Ollama models. Use when comparing local task runs, choosing a local model for a bounded subtask, or recording reproducible task telemetry.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/development/pudu-task-telemetry/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/development/pudu-task-telemetry/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 70,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "medium",
+        "score": 15
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 30807,
+      "curatedMentions": 2
+    },
+    {
       "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/development/python-patterns/skill.md#python-patterns",
       "type": "skill",
       "name": "python-patterns",
@@ -101386,7 +101493,7 @@
       "type": "skill",
       "name": "bensz-r-developer",
       "description": {
-        "zh": "当用户要求开发、重构或审查 R 函数与 R Package，并希望采用类驱动 API、显式 output.dir/cache.dir、可手测 if (FALSE) 块、规范并行与性能优化、devtools/roxygen2 工具链或评估 Rcpp/cpp11 原生加速时使用。⚠️ 不适用：以 R Markdown 报告与科研分析工作流为主的任务。",
+        "zh": "当主要交付物是可复用的 R 函数、稳定 API、S3/S4/R6 类或 R Package，需要设计、开发、重构或审查其接口、测试、文档、并行与性能边界时使用。分析项目中只有需要跨分析复用或形成公共 API 的组件才进入本 Skill。⚠️ 不适用：主要交付物是数据分析流程、科学结果、R Markdown 报告或仅服务当前分析的辅助函数；这些任务使用 bensz-rmd-rules。",
         "en": null,
         "zhEngine": null,
         "needsTranslation": [
@@ -101395,8 +101502,8 @@
       },
       "lang": "zh",
       "categories": [
-        "coding",
-        "document"
+        "document",
+        "coding"
       ],
       "targets": [
         "claude-code",
@@ -101440,7 +101547,7 @@
       "type": "skill",
       "name": "bensz-rmd-rules",
       "description": {
-        "zh": "当用户要求编写或维护 R Markdown、R 分析脚本、可复现数据分析，尤其涉及多阶段计算、缓存复用、断点恢复或论文级图表与解读时使用。负责规划分析单元、组织 R/Rmd 数据流、验证缓存与交付质量；不用于仅渲染既有 Rmd 或其它语言的数据分析。",
+        "zh": "当主要交付物是基于 R 的数据分析流程、科学结果、可复现数据产品、R Markdown/HTML 报告或论文级图表与解读时使用；即使流程中包含 `.R` 脚本和仅服务当前分析的辅助函数，也由本 Skill 主导。⚠️ 不适用：主要交付物是可独立复用的 R 函数、稳定公共 API、类或 R Package；这些任务使用 bensz-r-developer。也不用于仅渲染既有 Rmd 或其它语言的数据分析。",
         "en": null,
         "zhEngine": null,
         "needsTranslation": [
@@ -101449,9 +101556,8 @@
       },
       "lang": "zh",
       "categories": [
-        "data",
         "document",
-        "coding"
+        "data"
       ],
       "targets": [
         "claude-code",
