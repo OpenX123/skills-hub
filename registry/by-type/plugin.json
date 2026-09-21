@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-20T21:09:15.245Z",
+  "generatedAt": "2026-09-21T22:25:01.420Z",
   "type": "plugin",
   "label": {
     "zh": "插件",
     "en": "Plugin"
   },
-  "total": 212,
+  "total": 213,
   "entries": [
     {
       "id": "plugin:anthropics/skills:.claude-plugin/marketplace.json#academy-guide",
@@ -5729,7 +5729,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30807,
+      "stars": 30890,
       "curatedMentions": 2
     },
     {
@@ -5779,7 +5779,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30807,
+      "stars": 30890,
       "curatedMentions": 2
     },
     {
@@ -5829,7 +5829,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30807,
+      "stars": 30890,
       "curatedMentions": 2
     },
     {
@@ -5879,7 +5879,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30807,
+      "stars": 30890,
       "curatedMentions": 2
     },
     {
@@ -5929,7 +5929,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30807,
+      "stars": 30890,
       "curatedMentions": 2
     },
     {
@@ -5979,7 +5979,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30807,
+      "stars": 30890,
       "curatedMentions": 2
     },
     {
@@ -6029,7 +6029,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30807,
+      "stars": 30890,
       "curatedMentions": 2
     },
     {
@@ -6079,7 +6079,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30807,
+      "stars": 30890,
       "curatedMentions": 2
     },
     {
@@ -6129,7 +6129,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30807,
+      "stars": 30890,
       "curatedMentions": 2
     },
     {
@@ -6179,7 +6179,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30807,
+      "stars": 30890,
       "curatedMentions": 2
     },
     {
@@ -6230,7 +6230,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30807,
+      "stars": 30890,
       "curatedMentions": 2
     },
     {
@@ -6281,7 +6281,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30807,
+      "stars": 30890,
       "curatedMentions": 2
     },
     {
@@ -6290,7 +6290,7 @@
       "name": "jev-skill-suggestion",
       "description": {
         "zh": null,
-        "en": "Keeps the skill listing out of the context window and lets TypeSafe's Jev, a System One decision model, suggest at most one skill per prompt from the skills' descriptions, the way TypeSafe's skill-suggestion cookbook does: one request ranks every skill and asks whether the prompt needs a skill at all, a second re-reads the top three with their SKILL.md and can reject all of them. The winner is attached to the prompt for the Skill tool; every other skill stays loaded but unlisted. Falls back to the engine's built-in classifier when no key is set.",
+        "en": "Keeps the skill listing out of the context window and lets TypeSafe's Jev, a System One decision model, pick at most one skill per prompt from the skills' descriptions, the way TypeSafe's skill-suggestion cookbook does: one request ranks every skill and asks whether the prompt needs a skill at all, a second re-reads the top three with their SKILL.md and can reject them all. The winner's SKILL.md is attached to the prompt, so the skills can be hidden from the model altogether (/jev-skill-suggestion:setup makes them user-invocable-only and /context counts them at 0). Falls back to the engine's b",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -6330,7 +6330,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30807,
+      "stars": 30890,
       "curatedMentions": 2
     },
     {
@@ -6379,7 +6379,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30807,
+      "stars": 30890,
       "curatedMentions": 2
     },
     {
@@ -6428,7 +6428,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30807,
+      "stars": 30890,
       "curatedMentions": 2
     },
     {
@@ -6478,7 +6478,57 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30807,
+      "stars": 30890,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/security/jev-guardrails/.claude-plugin/plugin.json#jev-guardrails",
+      "type": "plugin",
+      "name": "jev-guardrails",
+      "description": {
+        "zh": null,
+        "en": "Screens every prompt going into the conversation and every reply coming out of it with TypeSafe's Jev, a System One decision model, the way TypeSafe's guardrails cookbook does: one request per message asks a battery of hazard questions (jailbreak, harm or a crime, a diagnosis or a dosage, self-harm) and scores how much harm complying would do. The thresholds live here, in a named policy (strict or permissive), and turn the probabilities into pass, review (the user is asked), block (the prompt is dropped, or the reply withheld) or support. Falls back to the engine's built-in classifier when no",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "security"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/security/jev-guardrails/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/security/jev-guardrails/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 30890,
       "curatedMentions": 2
     },
     {
@@ -6529,7 +6579,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30807,
+      "stars": 30890,
       "curatedMentions": 2
     },
     {
@@ -6579,7 +6629,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30807,
+      "stars": 30890,
       "curatedMentions": 2
     },
     {
@@ -6629,7 +6679,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30807,
+      "stars": 30890,
       "curatedMentions": 2
     },
     {
@@ -6680,7 +6730,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 30807,
+      "stars": 30890,
       "curatedMentions": 2
     },
     {
@@ -6730,7 +6780,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 30807,
+      "stars": 30890,
       "curatedMentions": 2
     },
     {
@@ -6780,7 +6830,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 30807,
+      "stars": 30890,
       "curatedMentions": 2
     },
     {
@@ -6830,7 +6880,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 30807,
+      "stars": 30890,
       "curatedMentions": 2
     },
     {
@@ -6880,7 +6930,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 30807,
+      "stars": 30890,
       "curatedMentions": 2
     },
     {
@@ -6930,7 +6980,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 30807,
+      "stars": 30890,
       "curatedMentions": 2
     },
     {
@@ -6980,7 +7030,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 30807,
+      "stars": 30890,
       "curatedMentions": 2
     },
     {
@@ -7030,7 +7080,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 30807,
+      "stars": 30890,
       "curatedMentions": 2
     },
     {
@@ -7081,7 +7131,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 30807,
+      "stars": 30890,
       "curatedMentions": 2
     },
     {
