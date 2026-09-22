@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T22:25:01.420Z",
+  "generatedAt": "2026-09-22T21:46:01.063Z",
   "category": {
     "key": "document",
     "zh": "文档处理",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 658,
+  "total": 666,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/docx/skill.md#docx",
@@ -4828,7 +4828,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 857,
+      "stars": 867,
       "curatedMentions": 1
     },
     {
@@ -6764,6 +6764,56 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:denyn1/aifeed-protocol:io.github.denyn1/aifeed-mcp-server#aifeed",
+      "type": "mcp",
+      "name": "AIFeed",
+      "description": {
+        "zh": null,
+        "en": "Verify signed AIFeed permissions, fetch token-budgeted markdown, and verify assets for AI agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "denyn1/aifeed-protocol",
+        "path": "io.github.denyn1/aifeed-mcp-server",
+        "url": "https://github.com/denyn1/aifeed-protocol",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
       "id": "mcp:djrobson5/agentmd-mcp:io.github.djrobson5/agentmd#agentmd",
       "type": "mcp",
       "name": "AgentMD",
@@ -8255,7 +8305,7 @@
       "name": "io.github.ostapondo/plonk",
       "description": {
         "zh": null,
-        "en": "MCP server for Plonk: macOS window zones, workspaces, keep-awake, screenshots and on-device OCR.",
+        "en": "Plonk gives agents local macOS tools for windows, workspaces, screenshots, OCR, and more.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -8263,7 +8313,6 @@
       },
       "lang": "en",
       "categories": [
-        "meta",
         "document"
       ],
       "targets": [
@@ -11968,6 +12017,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:daniele-chiappa/gosidian:io.github.daniele-chiappa/gosidian#gosidian",
+      "type": "mcp",
+      "name": "gosidian",
+      "description": {
+        "zh": null,
+        "en": "Self-hosted Obsidian-compatible markdown vault with a web UI and a 57-tool MCP server for AI agents",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "meta",
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "daniele-chiappa/gosidian",
+        "path": "io.github.daniele-chiappa/gosidian",
+        "url": "https://github.com/daniele-chiappa/gosidian",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:dataleadspro/url-to-markdown:io.github.dataleadspro/url-to-markdown#io.github.dataleadspro-url-to-markdown",
       "type": "mcp",
       "name": "io.github.DataLeadsPRO/url-to-markdown",
@@ -13254,6 +13354,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:formfeed-dev/formfeed:io.github.formfeed-dev/formfeed#formfeed",
+      "type": "mcp",
+      "name": "Formfeed",
+      "description": {
+        "zh": null,
+        "en": "Render PDFs and images from templates, validate data and convert Office files to PDF.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "formfeed-dev/formfeed",
+        "path": "io.github.formfeed-dev/formfeed",
+        "url": "https://github.com/formfeed-dev/formfeed",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:friezaaaa/smartfetch:io.github.friezaaaa/smartfetch#smartfetch",
       "type": "mcp",
       "name": "SmartFetch",
@@ -13855,7 +14004,7 @@
       "name": "DataSinking",
       "description": {
         "zh": null,
-        "en": "Full-text Asian financial reports (China, Korea, Japan) as clean Markdown — 6 tools for RAG agents.",
+        "en": "Full-text Asian financial reports (China, Korea, Japan, Taiwan) as clean Markdown for RAG agents.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -14565,6 +14714,57 @@
         "repo": "Jcjimenezglez/docchat",
         "path": "io.github.Jcjimenezglez/rosetta-mcp",
         "url": "https://github.com/Jcjimenezglez/docchat",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:jeenyjai/mcp-test-utils:io.github.jeenyjai/mcp-test-utils#mcp-test-utils",
+      "type": "mcp",
+      "name": "MCP Test Utils",
+      "description": {
+        "zh": null,
+        "en": "Desktop UI automation for AI agents: verified clicks, wait_for, batch, UI Automation, OCR",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "document",
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "JeenyJAI/mcp-test-utils",
+        "path": "io.github.JeenyJAI/mcp-test-utils",
+        "url": "https://github.com/JeenyJAI/mcp-test-utils",
         "tier": 0
       },
       "quality": {
@@ -17507,6 +17707,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:ai.twistly/mcp#twistly",
+      "type": "mcp",
+      "name": "Twistly",
+      "description": {
+        "zh": null,
+        "en": "Create designed PowerPoint presentations from a topic, text, or a PDF, DOCX, PPTX or TXT file.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.twistly/mcp",
+        "url": "https://twistly.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:ai.unpaper/cli#ai.unpaper-cli",
       "type": "mcp",
       "name": "ai.unpaper/cli",
@@ -20328,55 +20577,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:com.powmcp/epub-check#ebook-file-check",
-      "type": "mcp",
-      "name": "Ebook File Check",
-      "description": {
-        "zh": null,
-        "en": "Run EPUBCheck for EPUB specification errors and compare two exports.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "document"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "com.powmcp/epub-check",
-        "url": "https://powmcp.com/apps/epub-check/",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:mcp-official:com.ranovam/invoice-to-excel#invoice-&-receipt-ocr-extractor-to-excel",
       "type": "mcp",
       "name": "Invoice & Receipt OCR Extractor to Excel",
@@ -20597,6 +20797,57 @@
         "repo": null,
         "path": "com.statementtobudget.www/bank-statement-converter",
         "url": "https://statementtobudget.com/for-agents",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.tryisomor/isomor#isomor-pdf-translation",
+      "type": "mcp",
+      "name": "iSomor PDF Translation",
+      "description": {
+        "zh": null,
+        "en": "Translate uploaded text PDFs into English or Chinese, keep the layout, get bilingual PDFs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "writing",
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.tryisomor/isomor",
+        "url": "https://tryisomor.com/mcp?utm_source=mcp_registry&utm_medium=directory&utm_campaign=outreach",
         "tier": 0
       },
       "quality": {
@@ -25563,7 +25814,7 @@
       "name": "Paxa Labs",
       "description": {
         "zh": null,
-        "en": "Thai and English speech AI: TTS with local playback, transcription, translation to Thai, and OCR",
+        "en": "Thai, English, Mandarin speech AI: TTS with playback, transcription, translation, OCR, extraction",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -25777,6 +26028,104 @@
         "repo": "polydoc-tech/polydoc-mcp",
         "path": "tech.polydoc/polydoc-mcp",
         "url": "https://github.com/polydoc-tech/polydoc-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:powmcp/mcp-server-guide:com.powmcp/epub-check#ebook-file-check",
+      "type": "mcp",
+      "name": "Ebook File Check",
+      "description": {
+        "zh": null,
+        "en": "Run EPUBCheck for EPUB specification errors and compare two exports.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "powmcp/mcp-server-guide",
+        "path": "com.powmcp/epub-check",
+        "url": "https://github.com/powmcp/mcp-server-guide",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:pressa-dev/mcp:io.github.pressa-dev/pressa#pressa-latex-to-pdf",
+      "type": "mcp",
+      "name": "Pressa - LaTeX to PDF",
+      "description": {
+        "zh": null,
+        "en": "Compile LaTeX to PDF without installing TeX Live. No API key needed to start.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "pressa-dev/mcp",
+        "path": "io.github.pressa-dev/pressa",
+        "url": "https://github.com/pressa-dev/mcp",
         "tier": 0
       },
       "quality": {
@@ -26619,6 +26968,55 @@
         "repo": "readyagentsdev/readyagents-core",
         "path": "io.github.readyagentsdev/readyagents",
         "url": "https://github.com/readyagentsdev/readyagents-core",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:redtear1115/marsdawn-mcp:dev.southern-light.mcp/marsdawn#marsdawn",
+      "type": "mcp",
+      "name": "MarsDawn",
+      "description": {
+        "zh": null,
+        "en": "Export Markdown to PDF and open it in the MarsDawn app on macOS, with the marsdawn CLI.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "redtear1115/marsdawn-mcp",
+        "path": "dev.southern-light.mcp/marsdawn",
+        "url": "https://github.com/redtear1115/marsdawn-mcp",
         "tier": 0
       },
       "quality": {
@@ -29113,7 +29511,7 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:sylphxai/pdf-reader-mcp:io.github.sylphxai/citra#citra",
+      "id": "mcp:sylphxai/citra:io.github.sylphxai/citra#citra",
       "type": "mcp",
       "name": "Citra",
       "description": {
@@ -29132,9 +29530,9 @@
         "mcp-client"
       ],
       "source": {
-        "repo": "SylphxAI/pdf-reader-mcp",
+        "repo": "SylphxAI/citra",
         "path": "io.github.SylphxAI/citra",
-        "url": "https://github.com/SylphxAI/pdf-reader-mcp",
+        "url": "https://github.com/SylphxAI/citra",
         "tier": 0
       },
       "quality": {

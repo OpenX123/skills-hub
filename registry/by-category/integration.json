@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T22:25:01.420Z",
+  "generatedAt": "2026-09-22T21:46:01.063Z",
   "category": {
     "key": "integration",
     "zh": "三方集成",
@@ -85,7 +85,7 @@
       }
     ]
   },
-  "total": 277,
+  "total": 284,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/slack-gif-creator/skill.md#slack-gif-creator",
@@ -2532,7 +2532,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 857,
+      "stars": 867,
       "curatedMentions": 1
     },
     {
@@ -5867,6 +5867,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:fadeynotchenko/netrun-mcp:io.github.fadeynotchenko/netrun#netrun",
+      "type": "mcp",
+      "name": "Netrun",
+      "description": {
+        "zh": null,
+        "en": "Publish websites and Telegram bots to Netrun — upload a folder from your editor, get a URL",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration",
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "fadeynotchenko/netrun-mcp",
+        "path": "io.github.fadeynotchenko/netrun",
+        "url": "https://github.com/fadeynotchenko/netrun-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:fgac-ai/fine_grain_access_control:ai.fgac/fgac#fgac.ai-multiple-gmail-accounts,-google-sheets-&-docs",
       "type": "mcp",
       "name": "FGAC.ai: Multiple Gmail Accounts, Google Sheets & Docs",
@@ -7323,6 +7373,104 @@
         "repo": "maaakso/contexter-mcp",
         "path": "io.github.maaakso/contexter",
         "url": "https://github.com/maaakso/contexter-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:magzhansan/mcp-servers-snowleo:io.github.magzhansan/snowleo-marketplaces#snow-leo-marketplaces-&-prices",
+      "type": "mcp",
+      "name": "Snow Leo Marketplaces & Prices",
+      "description": {
+        "zh": null,
+        "en": "Priced listings from Amazon, Shopify stores, the App Store, Google Play, Airbnb and Redfin",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "MagzhanSan/mcp-servers-snowleo",
+        "path": "io.github.MagzhanSan/snowleo-marketplaces",
+        "url": "https://github.com/MagzhanSan/mcp-servers-snowleo",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:magzhansan/mcp-servers-snowleo:io.github.magzhansan/snowleo-media#snow-leo-news-&-social",
+      "type": "mcp",
+      "name": "Snow Leo News & Social",
+      "description": {
+        "zh": null,
+        "en": "Read Google News across 80 editions and any public Telegram channel, without an API key",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "MagzhanSan/mcp-servers-snowleo",
+        "path": "io.github.MagzhanSan/snowleo-media",
+        "url": "https://github.com/MagzhanSan/mcp-servers-snowleo",
         "tier": 0
       },
       "quality": {
@@ -10165,6 +10313,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:dev.workers.undone-k.first-dollar-desk/verify#first-dollar-desk",
+      "type": "mcp",
+      "name": "First Dollar Desk",
+      "description": {
+        "zh": null,
+        "en": "Human $1 Stripe checkout and $0.05 Base USDC agent verify over HTTP 402. Self-pay rejected.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "dev.workers.undone-k.first-dollar-desk/verify",
+        "url": "https://first-dollar-desk.undone-k.workers.dev",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:in.enhanciar/enhanciar#enhanciar-—-company-brain",
       "type": "mcp",
       "name": "Enhanciar — company brain",
@@ -10711,6 +10908,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.storeradar/shopify-store-database#storeradar-shopify-store-database",
+      "type": "mcp",
+      "name": "StoreRadar: Shopify store database",
+      "description": {
+        "zh": null,
+        "en": "Search, count and inspect 2.6M+ live Shopify stores by apps, tech stack, theme and country.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.storeradar/shopify-store-database",
+        "url": "https://www.storeradar.io/shopify-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:no.ferbu/store#klinikk-ferbu-nettbutikk",
       "type": "mcp",
       "name": "Klinikk Ferbu nettbutikk",
@@ -11130,6 +11376,55 @@
         "repo": "mmedum/google-drive-mcp",
         "path": "io.github.mmedum/google-drive-mcp",
         "url": "https://github.com/mmedum/google-drive-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mrfentmen/awesome-mcps:io.github.mrfentmen/discord-mcp#io.github.mrfentmen-discord-mcp",
+      "type": "mcp",
+      "name": "io.github.mrfentmen/discord-mcp",
+      "description": {
+        "zh": null,
+        "en": "Keyless MCP server for Discord invites and server widgets. No bot token needed.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "mrfentmen/awesome-mcps",
+        "path": "io.github.mrfentmen/discord-mcp",
+        "url": "https://github.com/mrfentmen/awesome-mcps",
         "tier": 0
       },
       "quality": {
@@ -12962,6 +13257,56 @@
         "repo": "StoreInspect/storeinspect-mcp",
         "path": "com.storeinspect/mcp",
         "url": "https://github.com/StoreInspect/storeinspect-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:tell-and-go/mcp:io.github.mzahir/tellandgo-mcp#io.github.mzahir-tellandgo-mcp",
+      "type": "mcp",
+      "name": "io.github.mzahir/tellandgo-mcp",
+      "description": {
+        "zh": null,
+        "en": "Book real hotel and resort stays from any AI agent: all-in pricing, hosted Stripe checkout, no key.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business",
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "tell-and-go/mcp",
+        "path": "io.github.mzahir/tellandgo-mcp",
+        "url": "https://github.com/tell-and-go/mcp",
         "tier": 0
       },
       "quality": {

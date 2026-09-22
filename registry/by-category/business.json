@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T22:25:01.420Z",
+  "generatedAt": "2026-09-22T21:46:01.063Z",
   "category": {
     "key": "business",
     "zh": "商业营销",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 606,
+  "total": 619,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/claude-api/skill.md#claude-api",
@@ -5524,7 +5524,7 @@
       "name": "Hermoso",
       "description": {
         "zh": null,
-        "en": "Marketing on autopilot from your agent. 847 tools, usable alone. Publishing and ads cost no credits.",
+        "en": "Marketing on autopilot from your agent. 856 tools, usable alone. Publishing and ads cost no credits.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -7056,6 +7056,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:adlane-app/mcp-server:io.github.adlane-app/mcp-server#io.github.adlane-app-mcp-server",
+      "type": "mcp",
+      "name": "io.github.adlane-app/mcp-server",
+      "description": {
+        "zh": null,
+        "en": "Read-only MCP connector for Adlane workspaces, Google and Meta ad accounts and campaign reports.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "adlane-app/mcp-server",
+        "path": "io.github.adlane-app/mcp-server",
+        "url": "https://github.com/adlane-app/mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:admosolutionsgo-star/meta-ad-intel-server:io.github.admosolutionsgo-star/meta-ad-intel-server#meta-ad-intel-server",
       "type": "mcp",
       "name": "Meta Ad Intel Server",
@@ -7598,12 +7648,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:alyiox/mcp-samsclub-ads:io.github.alyiox/mcp-samsclub-ads#sam's-club-sponsored-ads-apis",
+      "id": "mcp:alyiox/mcp-walmart-ads:io.github.alyiox/mcp-samsclub-ads#sam's-club-sponsored-ads-apis-(deprecated)",
       "type": "mcp",
-      "name": "Sam's Club Sponsored Ads APIs",
+      "name": "Sam's Club Sponsored Ads APIs (deprecated)",
       "description": {
         "zh": null,
-        "en": "MCP server for Sam's Club Sponsored Ads APIs",
+        "en": "Deprecated; use io.github.alyiox/mcp-walmart-ads.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -7611,16 +7661,15 @@
       },
       "lang": "en",
       "categories": [
-        "business",
-        "meta"
+        "business"
       ],
       "targets": [
         "mcp-client"
       ],
       "source": {
-        "repo": "alyiox/mcp-samsclub-ads",
+        "repo": "alyiox/mcp-walmart-ads",
         "path": "io.github.alyiox/mcp-samsclub-ads",
-        "url": "https://github.com/alyiox/mcp-samsclub-ads",
+        "url": "https://github.com/alyiox/mcp-walmart-ads",
         "tier": 0
       },
       "quality": {
@@ -7670,6 +7719,55 @@
       "source": {
         "repo": "alyiox/mcp-walmart-ads",
         "path": "io.github.alyiox/mcp-walmart-ads",
+        "url": "https://github.com/alyiox/mcp-walmart-ads",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:alyiox/mcp-walmart-ads:io.github.alyiox/mcp-walmart-marketplace#walmart-marketplace-apis-(deprecated)",
+      "type": "mcp",
+      "name": "Walmart Marketplace APIs (deprecated)",
+      "description": {
+        "zh": null,
+        "en": "Deprecated; use io.github.alyiox/mcp-walmart-ads.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "alyiox/mcp-walmart-ads",
+        "path": "io.github.alyiox/mcp-walmart-marketplace",
         "url": "https://github.com/alyiox/mcp-walmart-ads",
         "tier": 0
       },
@@ -10618,6 +10716,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:getclera/mcp:com.getclera/clera#clera",
+      "type": "mcp",
+      "name": "Clera",
+      "description": {
+        "zh": null,
+        "en": "Hire from your AI chat: search 210k+ vetted startup candidates, review matches, request intros.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "getclera/mcp",
+        "path": "com.getclera/clera",
+        "url": "https://github.com/getclera/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:getmcpads-com/google-ads-mcp-server:com.getmcpads/google-ads#google-ads",
       "type": "mcp",
       "name": "Google Ads",
@@ -10887,6 +11035,56 @@
         "repo": "GoAnyAPI/goanyapi-mcp",
         "path": "com.goanyapi/goanyapi-mcp",
         "url": "https://github.com/GoAnyAPI/goanyapi-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:gudlab/ads-mcp:io.github.gudlab/ads-mcp#io.github.gudlab-ads-mcp",
+      "type": "mcp",
+      "name": "io.github.gudlab/ads-mcp",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Google Ads and Meta Ads. Wraps both APIs directly to manage campaigns.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "gudlab/ads-mcp",
+        "path": "io.github.gudlab/ads-mcp",
+        "url": "https://github.com/gudlab/ads-mcp",
         "tier": 0
       },
       "quality": {
@@ -11331,6 +11529,55 @@
         "repo": "hypernaturalai/hypernatural-mcp",
         "path": "ai.hypernatural/hypernatural",
         "url": "https://github.com/hypernaturalai/hypernatural-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:iabdullahm/rafid-agent-api:io.github.iabdullahm/rafid-agent-api#rafid-property-intelligence",
+      "type": "mcp",
+      "name": "Rafid Property Intelligence",
+      "description": {
+        "zh": null,
+        "en": "Oman property intelligence for AI agents: yield, comparables, Al Mouj sales data, x402 pay-per-call.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "iabdullahm/rafid-agent-api",
+        "path": "io.github.iabdullahm/rafid-agent-api",
+        "url": "https://github.com/iabdullahm/rafid-agent-api",
         "tier": 0
       },
       "quality": {
@@ -17819,6 +18066,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.fincraftly/workforce#fincraftly",
+      "type": "mcp",
+      "name": "FinCraftly",
+      "description": {
+        "zh": null,
+        "en": "AI employees that run your CRM, invoicing, email, documents, dashboards and agents",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.fincraftly/workforce",
+        "url": "https://fincraftly.com/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.fitmycall/pricing#fitmycall-—-answering-service-prices",
       "type": "mcp",
       "name": "FitMyCall — Answering Service Prices",
@@ -21377,6 +21673,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.benian-technologies/pinpoint-dealership-tools#pinpoint-dealership-sales-tools",
+      "type": "mcp",
+      "name": "Pinpoint dealership sales tools",
+      "description": {
+        "zh": null,
+        "en": "Car dealership sales tools from Pinpoint, the sales intelligence platform for car dealerships",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.benian-technologies/pinpoint-dealership-tools",
+        "url": "https://usepinpoint.ai/resources/api/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.brenton-keller/google-ads-transparency-center#google-ads-transparency-center-scraper",
       "type": "mcp",
       "name": "Google Ads Transparency Center Scraper",
@@ -22266,12 +22611,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:io.github.paidsync/paidsync#paidsync.ai",
+      "id": "mcp:mcp-official:io.github.puppychris/supamarketers-data#supamarketers-data",
       "type": "mcp",
-      "name": "PaidSync.ai",
+      "name": "SupaMarketers Data",
       "description": {
         "zh": null,
-        "en": "Run ads on Google, Meta, LinkedIn, TikTok and more from AI. 460+ tools across 14 platforms.",
+        "en": "Keyword data, web extraction and public social search for marketing research workflows.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -22279,6 +22624,7 @@
       },
       "lang": "en",
       "categories": [
+        "research",
         "business"
       ],
       "targets": [
@@ -22286,8 +22632,8 @@
       ],
       "source": {
         "repo": null,
-        "path": "io.github.PaidSync/paidsync",
-        "url": "https://paidsync.ai",
+        "path": "io.github.PuppyChris/supamarketers-data",
+        "url": "https://www.supamarketers.com/mcp/servers/data?utm_source=mcp_registry&utm_medium=directory&utm_campaign=marketing_mcp",
         "tier": 0
       },
       "quality": {
@@ -22315,12 +22661,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:io.github.puppychris/supamarketers-data#supamarketers-data",
+      "id": "mcp:mcp-official:io.github.quietforgestudio/x402-tools#quietforge-x402-tools",
       "type": "mcp",
-      "name": "SupaMarketers Data",
+      "name": "Quietforge x402 Tools",
       "description": {
         "zh": null,
-        "en": "Keyword data, web extraction and public social search for marketing research workflows.",
+        "en": "Free tools: x402 endpoint directory + probe, on-chain x402 demand signal, sudoku, API pricing.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -22328,7 +22674,6 @@
       },
       "lang": "en",
       "categories": [
-        "research",
         "business"
       ],
       "targets": [
@@ -22336,8 +22681,8 @@
       ],
       "source": {
         "repo": null,
-        "path": "io.github.PuppyChris/supamarketers-data",
-        "url": "https://www.supamarketers.com/mcp/servers/data?utm_source=mcp_registry&utm_medium=directory&utm_campaign=marketing_mcp",
+        "path": "io.github.quietforgestudio/x402-tools",
+        "url": "https://quietforge-studio.pages.dev/docs-api/",
         "tier": 0
       },
       "quality": {
@@ -23999,6 +24344,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:studio.sprid/sprid#studio.sprid-sprid",
+      "type": "mcp",
+      "name": "studio.sprid/sprid",
+      "description": {
+        "zh": null,
+        "en": "Marketing for developers with apps in the stores: plan, publish and read the results.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "studio.sprid/sprid",
+        "url": "https://sprid.studio/agents",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:tech.axl/axl#axl-—-run-sales,-marketing-&-courses-with-your-ai",
       "type": "mcp",
       "name": "AXL — Run Sales, Marketing & Courses with Your AI",
@@ -25233,6 +25627,104 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:p1xelapp/solana-nft-mcp:io.github.p1xelapp/solana-nft-mcp#io.github.p1xelapp-solana-nft-mcp",
+      "type": "mcp",
+      "name": "io.github.p1xelapp/solana-nft-mcp",
+      "description": {
+        "zh": null,
+        "en": "Read-only Solana NFT data for AI: ownership history, custody rules, marketplace sales and floors.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "p1xelapp/solana-nft-mcp",
+        "path": "io.github.p1xelapp/solana-nft-mcp",
+        "url": "https://github.com/p1xelapp/solana-nft-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:paidsync/paidsync-mcp:io.github.paidsync/paidsync#paidsync.ai",
+      "type": "mcp",
+      "name": "PaidSync.ai",
+      "description": {
+        "zh": null,
+        "en": "Run ads on Google, Meta, LinkedIn, TikTok and more from AI. 530+ tools across 14 platforms.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "PaidSync/paidsync-mcp",
+        "path": "io.github.PaidSync/paidsync",
+        "url": "https://github.com/PaidSync/paidsync-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:people-analyst/salesleader-site:guide.salesleader/salesleader-desk#guide.salesleader-salesleader-desk",
       "type": "mcp",
       "name": "guide.salesleader/salesleader-desk",
@@ -25549,6 +26041,55 @@
         "repo": "pipeworx-io/mcp-medicare-pricing",
         "path": "io.github.pipeworx-io/medicare-pricing",
         "url": "https://github.com/pipeworx-io/mcp-medicare-pricing",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:pipeworx-io/mcp-startup-oracle:io.github.pipeworx-io/startup-oracle#startup-oracle",
+      "type": "mcp",
+      "name": "Startup Oracle",
+      "description": {
+        "zh": null,
+        "en": "startup-oracle MCP — wraps StupidAPIs (keyless — no credential needed)",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "pipeworx-io/mcp-startup-oracle",
+        "path": "io.github.pipeworx-io/startup-oracle",
+        "url": "https://github.com/pipeworx-io/mcp-startup-oracle",
         "tier": 0
       },
       "quality": {
@@ -25897,55 +26438,6 @@
         "repo": "purahmanian/keepa-mcp",
         "path": "io.github.purahmanian/keepa-mcp",
         "url": "https://github.com/purahmanian/keepa-mcp",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:quietforgestudio/x402-service-index:io.github.quietforgestudio/x402-tools#quietforge-x402-tools",
-      "type": "mcp",
-      "name": "Quietforge x402 Tools",
-      "description": {
-        "zh": null,
-        "en": "Free tools: live x402 endpoint directory + probe, verified sudoku generator, Docs API pricing.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "business"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "quietforgestudio/x402-service-index",
-        "path": "io.github.quietforgestudio/x402-tools",
-        "url": "https://github.com/quietforgestudio/x402-service-index",
         "tier": 0
       },
       "quality": {
@@ -27874,6 +28366,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:sarg338/steam-mcp:io.github.sarg338/steam-mcp#steam-(read-only)",
+      "type": "mcp",
+      "name": "Steam (read-only)",
+      "description": {
+        "zh": null,
+        "en": "Read-only Steam: friends, games, achievements, sales, plus game recommendations and co-op nights.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Sarg338/steam-mcp",
+        "path": "io.github.Sarg338/steam-mcp",
+        "url": "https://github.com/Sarg338/steam-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:scalably-io/google-ads-mcp:io.scalably/google-ads-mcp#google-ads-mcp",
       "type": "mcp",
       "name": "Google Ads MCP",
@@ -28390,6 +28931,56 @@
         "repo": "t4dhg/mcp-holded",
         "path": "io.github.t4dhg/mcp-holded",
         "url": "https://github.com/t4dhg/mcp-holded",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:tell-and-go/mcp:io.github.mzahir/tellandgo-mcp#io.github.mzahir-tellandgo-mcp",
+      "type": "mcp",
+      "name": "io.github.mzahir/tellandgo-mcp",
+      "description": {
+        "zh": null,
+        "en": "Book real hotel and resort stays from any AI agent: all-in pricing, hosted Stripe checkout, no key.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business",
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "tell-and-go/mcp",
+        "path": "io.github.mzahir/tellandgo-mcp",
+        "url": "https://github.com/tell-and-go/mcp",
         "tier": 0
       },
       "quality": {
@@ -29579,6 +30170,55 @@
         "repo": "VertoAgency/website",
         "path": "com.vertodigital/mcp",
         "url": "https://github.com/VertoAgency/website",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:way-com/svc-mcp:com.way/parking#way.com",
+      "type": "mcp",
+      "name": "Way.com",
+      "description": {
+        "zh": null,
+        "en": "Book parking, car washes, EV charging, gas and auto repair across the US with live pricing.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Way-com/svc-mcp",
+        "path": "com.way/parking",
+        "url": "https://github.com/Way-com/svc-mcp",
         "tier": 0
       },
       "quality": {
