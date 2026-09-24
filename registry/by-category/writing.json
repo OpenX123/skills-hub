@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T22:01:09.344Z",
+  "generatedAt": "2026-09-24T21:56:26.156Z",
   "category": {
     "key": "writing",
     "zh": "内容写作",
@@ -85,7 +85,7 @@
       }
     ]
   },
-  "total": 644,
+  "total": 659,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/pptx/skill.md#pptx",
@@ -138,7 +138,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 175640,
+      "stars": 177977,
       "curatedMentions": 8
     },
     {
@@ -335,7 +335,7 @@
         "tier": 0
       },
       "quality": {
-        "score": 95,
+        "score": 96,
         "gates": {
           "security": true,
           "schema": true,
@@ -355,7 +355,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 175640,
+      "stars": 177977,
       "curatedMentions": 8
     },
     {
@@ -1680,6 +1680,61 @@
         "repo": "davila7/claude-code-templates",
         "path": "cli-tool/components/skills/ai-research/agent-tool-builder/SKILL.md",
         "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/ai-research/agent-tool-builder/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 70,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 31462,
+      "curatedMentions": 2
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/ai-release-hunter/skill.md#ai-release-hunter",
+      "type": "skill",
+      "name": "ai-release-hunter",
+      "description": {
+        "zh": null,
+        "en": "Daily digest of AI releases from Anthropic, Meta, Vercel Labs, OpenAI and Google GitHub repos, the Claude Cowork changelog, the claude.dev blog and Hacker News, deduplicated against a local state file and sent by email. Use when the user asks for a daily AI news digest, to scan AI labs for new releases, or to set up a scheduled release-hunter job.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "devops",
+        "writing"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/ai-research/ai-release-hunter/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/ai-research/ai-release-hunter/SKILL.md",
         "tier": 2
       },
       "quality": {
@@ -9228,7 +9283,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -17155,6 +17210,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:ai-buildinfra/seo-intentrank:io.github.ai-buildinfra/seo-intentrank#seo-intentrank-(antigravity-mcp)",
+      "type": "mcp",
+      "name": "SEO-IntentRank (Antigravity MCP)",
+      "description": {
+        "zh": null,
+        "en": "Human search intent keywords, Core Web Vitals, technical SEO & on-page audit MCP server.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "AI-BuildInfra/SEO-intentrank",
+        "path": "io.github.AI-BuildInfra/SEO-intentrank",
+        "url": "https://github.com/AI-BuildInfra/SEO-intentrank",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:airas-org/airas:io.github.airas-org/airas#airas",
       "type": "mcp",
       "name": "AIRAS",
@@ -17378,6 +17483,56 @@
         "repo": "AnrosPrac/arsaze-mcp",
         "path": "io.github.AnrosPrac/arsaze-mcp",
         "url": "https://github.com/AnrosPrac/arsaze-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:anthonyhunts/shaart-agent-kit:com.anthonyhunts/shaart-agency#anthony-hunt-·-shaart-agency",
+      "type": "mcp",
+      "name": "Anthony Hunt · SHAART Agency",
+      "description": {
+        "zh": null,
+        "en": "Read-only pricing, services, contact and blog of a GoHighLevel and AI automation agency (PR)",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business",
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "anthonyhunts/shaart-agent-kit",
+        "path": "com.anthonyhunts/shaart-agency",
+        "url": "https://github.com/anthonyhunts/shaart-agent-kit",
         "tier": 0
       },
       "quality": {
@@ -19881,6 +20036,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:enismaxim1/polytranslator-api:com.polytranslator/translator#polytranslator",
+      "type": "mcp",
+      "name": "Polytranslator",
+      "description": {
+        "zh": null,
+        "en": "Translate PDFs, scans, Office files and EPUB across 475 languages and styles, preserving layout.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "enismaxim1/polytranslator-api",
+        "path": "com.polytranslator/translator",
+        "url": "https://github.com/enismaxim1/polytranslator-api",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:equalang/equalang-mcp:io.github.equalang-ai/equalang-mcp#io.github.equalang-ai-equalang-mcp",
       "type": "mcp",
       "name": "io.github.equalang-ai/equalang-mcp",
@@ -20402,6 +20607,55 @@
         "repo": "glasser-ai/plugins",
         "path": "ai.glasser/glasser",
         "url": "https://github.com/glasser-ai/plugins",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:globalize-now/globalize-plugin:io.github.globalize-now/globalize#globalize.now",
+      "type": "mcp",
+      "name": "globalize.now",
+      "description": {
+        "zh": null,
+        "en": "Localize apps from your AI assistant: translate locale files, set glossaries, connect GitHub repos.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "globalize-now/globalize-plugin",
+        "path": "io.github.globalize-now/globalize",
+        "url": "https://github.com/globalize-now/globalize-plugin",
         "tier": 0
       },
       "quality": {
@@ -22476,6 +22730,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:konkomaji/wordpress-mcp:io.github.konkomaji/wordpress-mcp#wordpress-mcp",
+      "type": "mcp",
+      "name": "WordPress MCP",
+      "description": {
+        "zh": null,
+        "en": "Talk to your WordPress site: content, SEO, WooCommerce, page builders, media and speed, with undo.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "konkomaji/wordpress-mcp",
+        "path": "io.github.konkomaji/wordpress-mcp",
+        "url": "https://github.com/konkomaji/wordpress-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:legalithm-org/legalithm:io.github.pedrammadani/legalithm-mcp-server#io.github.pedrammadani-legalithm-mcp-server",
       "type": "mcp",
       "name": "io.github.PedramMadani/legalithm-mcp-server",
@@ -24422,6 +24725,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.destaire/destaire#déstaire",
+      "type": "mcp",
+      "name": "Déstaire",
+      "description": {
+        "zh": null,
+        "en": "A curated guide to luxury hotels and private stays in Europe, with travel writing and city guides.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.destaire/destaire",
+        "url": "https://destaire.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.easymcpai/easy-mcp-ai-wordpress#easy-mcp-ai-—-connector-for-claude,-chatgpt-&-seo-data",
       "type": "mcp",
       "name": "Easy MCP AI — Connector for Claude, ChatGPT & SEO Data",
@@ -25512,6 +25864,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.risetive/mcp#risetive",
+      "type": "mcp",
+      "name": "Risetive",
+      "description": {
+        "zh": null,
+        "en": "Spot AI opportunities and growth stack: traffic, growth, SEO and AI visibility on 30000+ AI products",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.risetive/mcp",
+        "url": "https://risetive.com/mcp-guide",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.searcherlite/searcherlite#searcherlite",
       "type": "mcp",
       "name": "SearcherLite",
@@ -26360,6 +26762,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:dev.kaneky/imagemeta#imagemeta",
+      "type": "mcp",
+      "name": "Imagemeta",
+      "description": {
+        "zh": null,
+        "en": "Write SEO metadata (title, alt text, keywords, copyright) into JPEG, PNG, WebP. Paid per call, x402.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "dev.kaneky/imagemeta",
+        "url": "https://imagemeta.kaneky.dev/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:dev.paperdock/paperdock#paperdock",
       "type": "mcp",
       "name": "PaperDock",
@@ -27053,6 +27504,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.jgaethle10/systemia-website-audit#systemia-website-audit",
+      "type": "mcp",
+      "name": "Systemia Website Audit",
+      "description": {
+        "zh": null,
+        "en": "Website, local SEO, performance and conversion audits with human-confirmed checkout.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.jgaethle10/systemia-website-audit",
+        "url": "https://systemia-audit-pro.base44.app/functions/auditAgentGateway?view=docs",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.khalid-hasan/portfolio#khalid-ibne-hasan-·-portfolio",
       "type": "mcp",
       "name": "Khalid Ibne Hasan · Portfolio",
@@ -27076,6 +27577,55 @@
         "repo": null,
         "path": "io.github.khalid-hasan/portfolio",
         "url": "https://www.khalidibnehasan.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.mjfutera/mfpro-blog-mcp#wordpress-&-woocommerce-mcp-(mfpro)",
+      "type": "mcp",
+      "name": "WordPress & WooCommerce MCP (MFPro)",
+      "description": {
+        "zh": null,
+        "en": "Manage WordPress blogs and WooCommerce shops from Claude, ChatGPT, Cursor and other MCP apps.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.mjfutera/mfpro-blog-mcp",
+        "url": "https://blogmcp.michalfutera.pro",
         "tier": 0
       },
       "quality": {
@@ -31028,6 +31578,105 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:shawmena-dotcom/product-factory:io.github.shawmena-dotcom/app-reviews#io.github.shawmena-dotcom-app-reviews",
+      "type": "mcp",
+      "name": "io.github.shawmena-dotcom/app-reviews",
+      "description": {
+        "zh": null,
+        "en": "App Store + Google Play reviews with per-app complaint summary for agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "shawmena-dotcom/product-factory",
+        "path": "io.github.shawmena-dotcom/app-reviews",
+        "url": "https://github.com/shawmena-dotcom/product-factory",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:shayouworld/egov-law-mcp:io.github.shayouworld/egov-law-mcp#io.github.shayouworld-egov-law-mcp",
+      "type": "mcp",
+      "name": "io.github.SHAYOUWORLD/egov-law-mcp",
+      "description": {
+        "zh": null,
+        "en": "Search Japanese laws via e-Gov Law Search and fetch article text with source attribution.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "SHAYOUWORLD/egov-law-mcp",
+        "path": "io.github.SHAYOUWORLD/egov-law-mcp",
+        "url": "https://github.com/SHAYOUWORLD/egov-law-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:shilpibuilder/shilpi-mcp:com.shilpibuilder/shilpi#shilpi-for-wordpress",
       "type": "mcp",
       "name": "Shilpi for WordPress",
@@ -31596,6 +32245,105 @@
         "repo": "theluckystrike/mcp-servers",
         "path": "io.github.theluckystrike/backlink-checker-seo-link-checker",
         "url": "https://github.com/theluckystrike/mcp-servers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:theluckystrike/mcp-servers:io.github.theluckystrike/meeting-notes-transcript-summary#io.github.theluckystrike-meeting-notes-transcript-summary",
+      "type": "mcp",
+      "name": "io.github.theluckystrike/meeting-notes-transcript-summary",
+      "description": {
+        "zh": null,
+        "en": "Turn meeting notes or transcripts into a clean structured summary document from chat.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "theluckystrike/mcp-servers",
+        "path": "io.github.theluckystrike/meeting-notes-transcript-summary",
+        "url": "https://github.com/theluckystrike/mcp-servers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:theusmyep/ads-editor-mcp:br.com.adseditor/mcp#br.com.adseditor-mcp",
+      "type": "mcp",
+      "name": "br.com.adseditor/mcp",
+      "description": {
+        "zh": null,
+        "en": "Ads Editor MCP: 212 tools to run Meta Ads and Google Ads from Claude, ChatGPT, Codex and Cursor.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "theusmyep/ads-editor-mcp",
+        "path": "br.com.adseditor/mcp",
+        "url": "https://github.com/theusmyep/ads-editor-mcp",
         "tier": 0
       },
       "quality": {

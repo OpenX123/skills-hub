@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T22:01:09.344Z",
+  "generatedAt": "2026-09-24T21:56:26.156Z",
   "category": {
     "key": "devops",
     "zh": "运维部署",
@@ -97,7 +97,7 @@
       }
     ]
   },
-  "total": 493,
+  "total": 498,
   "entries": [
     {
       "id": "skill:composiohq/awesome-claude-skills:composio-skills/cloudflare-api-key-automation/skill.md#cloudflare-api-key-automation",
@@ -1815,6 +1815,61 @@
       "curatedMentions": 2
     },
     {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/ai-release-hunter/skill.md#ai-release-hunter",
+      "type": "skill",
+      "name": "ai-release-hunter",
+      "description": {
+        "zh": null,
+        "en": "Daily digest of AI releases from Anthropic, Meta, Vercel Labs, OpenAI and Google GitHub repos, the Claude Cowork changelog, the claude.dev blog and Hacker News, deduplicated against a local state file and sent by email. Use when the user asks for a daily AI news digest, to scan AI labs for new releases, or to set up a scheduled release-hunter job.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "devops",
+        "writing"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/ai-research/ai-release-hunter/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/ai-research/ai-release-hunter/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 70,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 31462,
+      "curatedMentions": 2
+    },
+    {
       "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/langfuse/skill.md#langfuse",
       "type": "skill",
       "name": "langfuse",
@@ -3215,61 +3270,6 @@
       "curatedMentions": 2
     },
     {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/supply-chain-guard/skill.md#supply-chain-guard",
-      "type": "skill",
-      "name": "supply-chain-guard",
-      "description": {
-        "zh": null,
-        "en": "Detect and remediate software supply chain attacks in npm, PyPI, crates.io, GitHub Actions, and CI/CD pipelines by scanning for known compromised packages, malicious versions, filesystem IOCs, C2 indicators, and CI/CD misconfigurations.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding",
-        "devops",
-        "security"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "davila7/claude-code-templates",
-        "path": "cli-tool/components/skills/security/supply-chain-guard/SKILL.md",
-        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/supply-chain-guard/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 70,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "medium",
-        "score": 18
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 31462,
-      "curatedMentions": 2
-    },
-    {
       "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/utilities/cf-crawl/skill.md#cf-crawl",
       "type": "skill",
       "name": "cf-crawl",
@@ -3635,6 +3635,61 @@
       "risk": {
         "level": "medium",
         "score": 21
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 31462,
+      "curatedMentions": 2
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/supply-chain-guard/skill.md#supply-chain-guard",
+      "type": "skill",
+      "name": "supply-chain-guard",
+      "description": {
+        "zh": null,
+        "en": "Detect and remediate software supply chain attacks in npm, PyPI, crates.io, GitHub Actions, and CI/CD pipelines by scanning for known compromised packages, malicious versions, filesystem IOCs, C2 indicators, and CI/CD misconfigurations.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "devops",
+        "security"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/security/supply-chain-guard/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/supply-chain-guard/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 69,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "medium",
+        "score": 18
       },
       "duplicateOf": null,
       "nearDuplicateOf": null,
@@ -11771,6 +11826,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:bitfiction/staticbot-mcp:io.github.bitfiction/staticbot#staticbot",
+      "type": "mcp",
+      "name": "Staticbot",
+      "description": {
+        "zh": null,
+        "en": "Deploy websites, migrate app backends, and run continuous sync with explicit approval gates.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "bitfiction/staticbot-mcp",
+        "path": "io.github.bitfiction/staticbot",
+        "url": "https://github.com/bitfiction/staticbot-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:bitgate/ship.page:page.ship/ship-page#ship.page",
       "type": "mcp",
       "name": "ship.page",
@@ -16374,6 +16478,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:app.jadehosting/mcp#jade-mcp",
+      "type": "mcp",
+      "name": "Jade MCP",
+      "description": {
+        "zh": null,
+        "en": "Deploy and manage Jade Hosting projects from AI clients. Jade account and OAuth required.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "app.jadehosting/mcp",
+        "url": "https://jadehosting.app",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:app.safeship/mcp#safeship",
       "type": "mcp",
       "name": "Safeship",
@@ -17317,6 +17470,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.bluecat/livenxmcp#com.bluecat-livenxmcp",
+      "type": "mcp",
+      "name": "com.bluecat/livenxmcp",
+      "description": {
+        "zh": null,
+        "en": "LiveNX Network Observability MCP Server",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.bluecat/livenxmcp",
+        "url": "https://registry.modelcontextprotocol.io/?q=com.bluecat%2Flivenxmcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.cloudquell/cloudquell-mcp-server#cloudquell",
       "type": "mcp",
       "name": "CloudQuell",
@@ -17782,6 +17985,56 @@
         "repo": null,
         "path": "com.merlonix/monitoring",
         "url": "https://merlonix.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.parallelsandbox/parallelsandbox#parallelsandbox",
+      "type": "mcp",
+      "name": "ParallelSandbox",
+      "description": {
+        "zh": null,
+        "en": "Remote Linux boxes for coding agents: Docker, a browser, screenshots, logs, human takeover.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.parallelsandbox/parallelsandbox",
+        "url": "https://parallelsandbox.com/en/",
         "tier": 0
       },
       "quality": {
@@ -21074,6 +21327,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:nexusrun/nexusai:io.github.nexusrun/nexus-ai#nexus-ai",
+      "type": "mcp",
+      "name": "NEXUS AI",
+      "description": {
+        "zh": null,
+        "en": "Deploy full-stack apps with databases, storage, backups, logs, scaling, and rollback. 74 MCP tools.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "nexusrun/nexusai",
+        "path": "io.github.nexusrun/nexus-ai",
+        "url": "https://github.com/nexusrun/nexusai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:nightmoose/contractgate:io.github.nightmoose/contractgate#contractgate",
       "type": "mcp",
       "name": "ContractGate",
@@ -23961,55 +24263,6 @@
         "repo": "vmware-skills/VMware-Monitor",
         "path": "io.github.vmware-skills/vmware-monitor",
         "url": "https://github.com/vmware-skills/VMware-Monitor",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:wraps-team/wraps-js:dev.wraps/email#dev.wraps-email",
-      "type": "mcp",
-      "name": "dev.wraps/email",
-      "description": {
-        "zh": null,
-        "en": "Query SES send history, delivery events, domains and suppressions, and send from your AWS account.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "devops"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "wraps-team/wraps-js",
-        "path": "dev.wraps/email",
-        "url": "https://github.com/wraps-team/wraps-js",
         "tier": 0
       },
       "quality": {

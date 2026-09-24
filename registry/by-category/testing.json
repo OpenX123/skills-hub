@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T22:01:09.344Z",
+  "generatedAt": "2026-09-24T21:56:26.156Z",
   "category": {
     "key": "testing",
     "zh": "测试质量",
@@ -73,7 +73,7 @@
       }
     ]
   },
-  "total": 483,
+  "total": 486,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/webapp-testing/skill.md#webapp-testing",
@@ -125,7 +125,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 175640,
+      "stars": 177977,
       "curatedMentions": 8
     },
     {
@@ -392,7 +392,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 175640,
+      "stars": 177977,
       "curatedMentions": 8
     },
     {
@@ -2707,60 +2707,6 @@
       "curatedMentions": 2
     },
     {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/api-fuzzing-bug-bounty/skill.md#api-fuzzing-for-bug-bounty",
-      "type": "skill",
-      "name": "API Fuzzing for Bug Bounty",
-      "description": {
-        "zh": null,
-        "en": "This skill should be used when the user asks to \"test API security\", \"fuzz APIs\", \"find IDOR vulnerabilities\", \"test REST API\", \"test GraphQL\", \"API penetration testing\", \"bug bounty API testing\", or needs guidance on API security assessment techniques.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "security",
-        "testing"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "davila7/claude-code-templates",
-        "path": "cli-tool/components/skills/security/api-fuzzing-bug-bounty/SKILL.md",
-        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/api-fuzzing-bug-bounty/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 70,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "low",
-        "score": 3
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 31462,
-      "curatedMentions": 2
-    },
-    {
       "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/api-security-testing/skill.md#api-security-testing",
       "type": "skill",
       "name": "api-security-testing",
@@ -2912,60 +2858,6 @@
       "risk": {
         "level": "clean",
         "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 31462,
-      "curatedMentions": 2
-    },
-    {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/cloud-penetration-testing/skill.md#cloud-penetration-testing",
-      "type": "skill",
-      "name": "Cloud Penetration Testing",
-      "description": {
-        "zh": null,
-        "en": "This skill should be used when the user asks to \"perform cloud penetration testing\", \"assess Azure or AWS or GCP security\", \"enumerate cloud resources\", \"exploit cloud misconfigurations\", \"test O365 security\", \"extract secrets from cloud environments\", or \"audit cloud infrastructure\". It provides comprehensive techniques for security assessment across major cloud platforms.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "security",
-        "testing"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "davila7/claude-code-templates",
-        "path": "cli-tool/components/skills/security/cloud-penetration-testing/SKILL.md",
-        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/cloud-penetration-testing/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 70,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "medium",
-        "score": 18
       },
       "duplicateOf": null,
       "nearDuplicateOf": null,
@@ -3451,6 +3343,114 @@
       "risk": {
         "level": "clean",
         "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 31462,
+      "curatedMentions": 2
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/api-fuzzing-bug-bounty/skill.md#api-fuzzing-for-bug-bounty",
+      "type": "skill",
+      "name": "API Fuzzing for Bug Bounty",
+      "description": {
+        "zh": null,
+        "en": "This skill should be used when the user asks to \"test API security\", \"fuzz APIs\", \"find IDOR vulnerabilities\", \"test REST API\", \"test GraphQL\", \"API penetration testing\", \"bug bounty API testing\", or needs guidance on API security assessment techniques.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "testing"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/security/api-fuzzing-bug-bounty/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/api-fuzzing-bug-bounty/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 69,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "low",
+        "score": 3
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 31462,
+      "curatedMentions": 2
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/cloud-penetration-testing/skill.md#cloud-penetration-testing",
+      "type": "skill",
+      "name": "Cloud Penetration Testing",
+      "description": {
+        "zh": null,
+        "en": "This skill should be used when the user asks to \"perform cloud penetration testing\", \"assess Azure or AWS or GCP security\", \"enumerate cloud resources\", \"exploit cloud misconfigurations\", \"test O365 security\", \"extract secrets from cloud environments\", or \"audit cloud infrastructure\". It provides comprehensive techniques for security assessment across major cloud platforms.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "testing"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/security/cloud-penetration-testing/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/cloud-penetration-testing/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 69,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "medium",
+        "score": 18
       },
       "duplicateOf": null,
       "nearDuplicateOf": null,
@@ -5036,57 +5036,6 @@
       "curatedMentions": 1
     },
     {
-      "id": "rules:patrickjs/awesome-cursorrules:rules/nestjs-anti-hallucination-cursorrules-prompt-file.mdc#nestjs-anti-hallucination-cursorrules-prompt-file",
-      "type": "rules",
-      "name": "nestjs-anti-hallucination-cursorrules-prompt-file",
-      "description": {
-        "zh": null,
-        "en": "Cursor rules that block deprecated, phantom, or incorrect NestJS imports, decorators, providers, modules, and testing patterns.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "testing",
-        "meta",
-        "writing"
-      ],
-      "targets": [
-        "cursor"
-      ],
-      "source": {
-        "repo": "PatrickJS/awesome-cursorrules",
-        "path": "rules/nestjs-anti-hallucination-cursorrules-prompt-file.mdc",
-        "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/HEAD/rules/nestjs-anti-hallucination-cursorrules-prompt-file.mdc",
-        "tier": 2
-      },
-      "quality": {
-        "score": 58,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "low",
-        "score": 4
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 40434,
-      "curatedMentions": 1
-    },
-    {
       "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/games/typing-test/.claude-plugin/plugin.json#typing-test",
       "type": "plugin",
       "name": "typing-test",
@@ -5136,6 +5085,57 @@
       "familySize": 8,
       "stars": 31462,
       "curatedMentions": 2
+    },
+    {
+      "id": "rules:patrickjs/awesome-cursorrules:rules/nestjs-anti-hallucination-cursorrules-prompt-file.mdc#nestjs-anti-hallucination-cursorrules-prompt-file",
+      "type": "rules",
+      "name": "nestjs-anti-hallucination-cursorrules-prompt-file",
+      "description": {
+        "zh": null,
+        "en": "Cursor rules that block deprecated, phantom, or incorrect NestJS imports, decorators, providers, modules, and testing patterns.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "meta",
+        "writing"
+      ],
+      "targets": [
+        "cursor"
+      ],
+      "source": {
+        "repo": "PatrickJS/awesome-cursorrules",
+        "path": "rules/nestjs-anti-hallucination-cursorrules-prompt-file.mdc",
+        "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/HEAD/rules/nestjs-anti-hallucination-cursorrules-prompt-file.mdc",
+        "tier": 2
+      },
+      "quality": {
+        "score": 57,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "low",
+        "score": 4
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 40434,
+      "curatedMentions": 1
     },
     {
       "id": "skill:laolaoshiren/claude-code-skills-zh:skills/api-tester/skill.md#api-tester",
@@ -18134,7 +18134,7 @@
       "name": "ScoreIA Open Chamber",
       "description": {
         "zh": null,
-        "en": "You are the model under test. Enter ScoreIA Open Chamber; signed cards include failures. Auth none.",
+        "en": "Test your AI agent over MCP in the Open Chamber: a timed public trial with signed cards.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -18150,7 +18150,7 @@
       "source": {
         "repo": null,
         "path": "ai.scoreia/bench",
-        "url": "https://scoreia.ai/open-challenge/",
+        "url": "https://scoreia.ai/en/open-challenge/",
         "tier": 0
       },
       "quality": {
@@ -18249,6 +18249,55 @@
         "repo": null,
         "path": "au.com.insuro/insuro",
         "url": "https://insuro.com.au",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ca.oathready/citizenship-test#oathready-canadian-citizenship-test",
+      "type": "mcp",
+      "name": "OathReady: Canadian Citizenship Test",
+      "description": {
+        "zh": null,
+        "en": "Canadian citizenship test practice: verified questions, mock tests, IRCC stats, eligibility tools.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ca.oathready/citizenship-test",
+        "url": "https://oathready.ca",
         "tier": 0
       },
       "quality": {
@@ -24133,6 +24182,104 @@
         "repo": "uiverify/uiverify",
         "path": "io.github.igrlk/uiverify",
         "url": "https://github.com/uiverify/uiverify",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:ushikundesuyo/shiwake-mcp:io.github.ushikundesuyo/shiwake-mcp#io.github.ushikundesuyo-shiwake-mcp",
+      "type": "mcp",
+      "name": "io.github.USHIKUNDESUYO/shiwake-mcp",
+      "description": {
+        "zh": null,
+        "en": "Journal entry testing (JET) for accounting audits. 11 screening rules, zero dependencies.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "USHIKUNDESUYO/shiwake-mcp",
+        "path": "io.github.USHIKUNDESUYO/shiwake-mcp",
+        "url": "https://github.com/USHIKUNDESUYO/shiwake-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:victorgulchenko/mimiq-mcp:io.github.victorgulchenko/mimiq-mcp#mimiq-test-pages-and-copy-on-simulated-people",
+      "type": "mcp",
+      "name": "Mimiq: test pages and copy on simulated people",
+      "description": {
+        "zh": null,
+        "en": "Your agent built the page. Simulated buyers test it, and Mimiq calls which version to ship.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "victorgulchenko/mimiq-mcp",
+        "path": "io.github.victorgulchenko/mimiq-mcp",
+        "url": "https://github.com/victorgulchenko/mimiq-mcp.git",
         "tier": 0
       },
       "quality": {

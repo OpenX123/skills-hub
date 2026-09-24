@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T22:01:09.344Z",
+  "generatedAt": "2026-09-24T21:56:26.156Z",
   "category": {
     "key": "coding",
     "zh": "编码开发",
@@ -109,7 +109,7 @@
       }
     ]
   },
-  "total": 3971,
+  "total": 3987,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/algorithmic-art/skill.md#algorithmic-art",
@@ -161,7 +161,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 175640,
+      "stars": 177977,
       "curatedMentions": 8
     },
     {
@@ -215,7 +215,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 175640,
+      "stars": 177977,
       "curatedMentions": 8
     },
     {
@@ -268,7 +268,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 175640,
+      "stars": 177977,
       "curatedMentions": 8
     },
     {
@@ -322,7 +322,7 @@
       "variantCount": 1,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 175640,
+      "stars": 177977,
       "curatedMentions": 8
     },
     {
@@ -68612,6 +68612,61 @@
       "curatedMentions": 2
     },
     {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/ai-release-hunter/skill.md#ai-release-hunter",
+      "type": "skill",
+      "name": "ai-release-hunter",
+      "description": {
+        "zh": null,
+        "en": "Daily digest of AI releases from Anthropic, Meta, Vercel Labs, OpenAI and Google GitHub repos, the Claude Cowork changelog, the claude.dev blog and Hacker News, deduplicated against a local state file and sent by email. Use when the user asks for a daily AI news digest, to scan AI labs for new releases, or to set up a scheduled release-hunter job.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "devops",
+        "writing"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/ai-research/ai-release-hunter/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/ai-research/ai-release-hunter/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 70,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 31462,
+      "curatedMentions": 2
+    },
+    {
       "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/autonomous-agent-patterns/skill.md#autonomous-agent-patterns",
       "type": "skill",
       "name": "autonomous-agent-patterns",
@@ -69199,60 +69254,6 @@
         "score": 0
       },
       "duplicateOf": "skill:davila7/claude-code-templates:cli-tool/components/skills/development/dispatching-parallel-agents/skill.md#dispatching-parallel-agents",
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 31462,
-      "curatedMentions": 2
-    },
-    {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/infrastructure-lambda-labs/skill.md#lambda-labs-gpu-cloud",
-      "type": "skill",
-      "name": "lambda-labs-gpu-cloud",
-      "description": {
-        "zh": null,
-        "en": "Reserved and on-demand GPU cloud instances for ML training and inference. Use when you need dedicated GPU instances with simple SSH access, persistent filesystems, or high-performance multi-node clusters for large-scale training.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding",
-        "research"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "davila7/claude-code-templates",
-        "path": "cli-tool/components/skills/ai-research/infrastructure-lambda-labs/SKILL.md",
-        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/ai-research/infrastructure-lambda-labs/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 70,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "medium",
-        "score": 18
-      },
-      "duplicateOf": null,
       "nearDuplicateOf": null,
       "dupCount": 0,
       "variantCount": 0,
@@ -80488,61 +80489,6 @@
       "curatedMentions": 2
     },
     {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/supply-chain-guard/skill.md#supply-chain-guard",
-      "type": "skill",
-      "name": "supply-chain-guard",
-      "description": {
-        "zh": null,
-        "en": "Detect and remediate software supply chain attacks in npm, PyPI, crates.io, GitHub Actions, and CI/CD pipelines by scanning for known compromised packages, malicious versions, filesystem IOCs, C2 indicators, and CI/CD misconfigurations.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding",
-        "devops",
-        "security"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "davila7/claude-code-templates",
-        "path": "cli-tool/components/skills/security/supply-chain-guard/SKILL.md",
-        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/supply-chain-guard/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 70,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "medium",
-        "score": 18
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 31462,
-      "curatedMentions": 2
-    },
-    {
       "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/wireshark-analysis/skill.md#wireshark-network-traffic-analysis",
       "type": "skill",
       "name": "Wireshark Network Traffic Analysis",
@@ -82985,6 +82931,60 @@
       "curatedMentions": 2
     },
     {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/infrastructure-lambda-labs/skill.md#lambda-labs-gpu-cloud",
+      "type": "skill",
+      "name": "lambda-labs-gpu-cloud",
+      "description": {
+        "zh": null,
+        "en": "Reserved and on-demand GPU cloud instances for ML training and inference. Use when you need dedicated GPU instances with simple SSH access, persistent filesystems, or high-performance multi-node clusters for large-scale training.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "research"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/ai-research/infrastructure-lambda-labs/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/ai-research/infrastructure-lambda-labs/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 69,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "medium",
+        "score": 18
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 31462,
+      "curatedMentions": 2
+    },
+    {
       "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/creative-design/mobile-design/skill.md#mobile-design",
       "type": "skill",
       "name": "mobile-design",
@@ -83512,6 +83512,61 @@
       "risk": {
         "level": "medium",
         "score": 21
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 31462,
+      "curatedMentions": 2
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/supply-chain-guard/skill.md#supply-chain-guard",
+      "type": "skill",
+      "name": "supply-chain-guard",
+      "description": {
+        "zh": null,
+        "en": "Detect and remediate software supply chain attacks in npm, PyPI, crates.io, GitHub Actions, and CI/CD pipelines by scanning for known compromised packages, malicious versions, filesystem IOCs, C2 indicators, and CI/CD misconfigurations.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "devops",
+        "security"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/security/supply-chain-guard/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/supply-chain-guard/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 69,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "medium",
+        "score": 18
       },
       "duplicateOf": null,
       "nearDuplicateOf": null,
@@ -84106,59 +84161,6 @@
       "risk": {
         "level": "low",
         "score": 10
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 31462,
-      "curatedMentions": 2
-    },
-    {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/development/bun-development/skill.md#bun-development",
-      "type": "skill",
-      "name": "bun-development",
-      "description": {
-        "zh": null,
-        "en": "Modern JavaScript/TypeScript development with Bun runtime. Covers package management, bundling, testing, and migration from Node.js. Use when working with Bun, optimizing JS/TS development speed, or migrating from Node.js to Bun.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "davila7/claude-code-templates",
-        "path": "cli-tool/components/skills/development/bun-development/SKILL.md",
-        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/development/bun-development/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 67,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "low",
-        "score": 13
       },
       "duplicateOf": null,
       "nearDuplicateOf": null,
@@ -88897,6 +88899,59 @@
       "risk": {
         "level": "low",
         "score": 14
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 31462,
+      "curatedMentions": 2
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/development/bun-development/skill.md#bun-development",
+      "type": "skill",
+      "name": "bun-development",
+      "description": {
+        "zh": null,
+        "en": "Modern JavaScript/TypeScript development with Bun runtime. Covers package management, bundling, testing, and migration from Node.js. Use when working with Bun, optimizing JS/TS development speed, or migrating from Node.js to Bun.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/development/bun-development/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/development/bun-development/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "low",
+        "score": 13
       },
       "duplicateOf": null,
       "nearDuplicateOf": null,
@@ -141593,6 +141648,55 @@
       "curatedMentions": 2
     },
     {
+      "id": "mcp:cq27-dev/rag-rat:io.github.cq27-dev/rag-rat#rag-rat",
+      "type": "mcp",
+      "name": "rag-rat",
+      "description": {
+        "zh": null,
+        "en": "Repository intelligence, code graph, history, papertrail, and cross-agent memory for coding agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "cq27-dev/rag-rat",
+        "path": "io.github.cq27-dev/rag-rat",
+        "url": "https://github.com/cq27-dev/rag-rat",
+        "tier": 0
+      },
+      "quality": {
+        "score": 32,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 2
+    },
+    {
       "id": "mcp:nikolai-vysotskyi/trace-mcp:io.github.nikolai-vysotskyi/trace-mcp#io.github.nikolai-vysotskyi-trace-mcp",
       "type": "mcp",
       "name": "io.github.nikolai-vysotskyi/trace-mcp",
@@ -151617,55 +151721,6 @@
       "curatedMentions": 1
     },
     {
-      "id": "mcp:cq27-dev/rag-rat:io.github.cq27-dev/rag-rat#rag-rat",
-      "type": "mcp",
-      "name": "rag-rat",
-      "description": {
-        "zh": null,
-        "en": "Repository intelligence, code graph, history, papertrail, and cross-agent memory for coding agents.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "cq27-dev/rag-rat",
-        "path": "io.github.cq27-dev/rag-rat",
-        "url": "https://github.com/cq27-dev/rag-rat",
-        "tier": 0
-      },
-      "quality": {
-        "score": 24,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 1
-    },
-    {
       "id": "mcp:dahshanlabs/klypix-mcp:io.github.dahshanlabs/klypix-mcp#klypix-project-brain",
       "type": "mcp",
       "name": "KLYPIX Project Brain",
@@ -157808,6 +157863,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:ahoybuoy/buoy:io.github.ahoybuoy/buoy#io.github.ahoybuoy-buoy",
+      "type": "mcp",
+      "name": "io.github.ahoybuoy/buoy",
+      "description": {
+        "zh": null,
+        "en": "Design tokens and drift checks for coding agents: use the token, not the hardcoded value.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ahoybuoy/buoy",
+        "path": "io.github.ahoybuoy/buoy",
+        "url": "https://github.com/ahoybuoy/buoy",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:aidimag/aidimag:io.github.aidimag/aidimag#io.github.aidimag-aidimag",
       "type": "mcp",
       "name": "io.github.AiDimag/aidimag",
@@ -158225,6 +158330,55 @@
         "repo": "AKzar1el/nofax",
         "path": "io.github.AKzar1el/nofax",
         "url": "https://github.com/AKzar1el/nofax",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:alabsi91/pxtree:io.github.alabsi91/pxtree#pxtree",
+      "type": "mcp",
+      "name": "pxtree",
+      "description": {
+        "zh": null,
+        "en": "Measures how a webpage actually renders and prints it as compact text for AI coding agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "alabsi91/pxtree",
+        "path": "io.github.alabsi91/pxtree",
+        "url": "https://github.com/alabsi91/pxtree",
         "tier": 0
       },
       "quality": {
@@ -163184,6 +163338,56 @@
         "repo": "ctxt-io/ctxt-agents",
         "path": "io.ctxt/mcp",
         "url": "https://github.com/ctxt-io/ctxt-agents",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:cubinet-code/paperless-ngx-mcp:io.github.cubinet-code/paperless-ngx-mcp#paperless-ngx",
+      "type": "mcp",
+      "name": "Paperless-ngx",
+      "description": {
+        "zh": null,
+        "en": "Full Paperless-ngx API for AI assistants: search, tag, edit and upload documents, workflows and more",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "research",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "cubinet-code/paperless-ngx-mcp",
+        "path": "io.github.cubinet-code/paperless-ngx-mcp",
+        "url": "https://github.com/cubinet-code/paperless-ngx-mcp",
         "tier": 0
       },
       "quality": {
@@ -169127,6 +169331,55 @@
         "repo": "java-jaydev/naver-mybox-mcp",
         "path": "io.github.java-jaydev/naver-mybox-mcp",
         "url": "https://github.com/java-jaydev/naver-mybox-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:jayniebingyu-cyber/goaimoat-ai-visibility-mcp:com.goaimoat/export-compliance#goai-moat-export-compliance",
+      "type": "mcp",
+      "name": "GoAI Moat Export Compliance",
+      "description": {
+        "zh": null,
+        "en": "Export compliance & HS code lookup for cross-border electronics sellers and factories.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jayniebingyu-cyber/goaimoat-ai-visibility-mcp",
+        "path": "com.goaimoat/export-compliance",
+        "url": "https://github.com/jayniebingyu-cyber/goaimoat-ai-visibility-mcp",
         "tier": 0
       },
       "quality": {
@@ -176655,6 +176908,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:manikumarkv/trueicon:io.github.manikumarkv/trueicon#trueicon",
+      "type": "mcp",
+      "name": "TrueIcon",
+      "description": {
+        "zh": null,
+        "en": "Lets AI coding assistants search the icon packages actually installed in your project.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "design",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "manikumarkv/trueicon",
+        "path": "io.github.manikumarkv/trueicon",
+        "url": "https://github.com/manikumarkv/trueicon",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mariuszhenn/tseha-mcp:io.tseha/tseha#tseha",
       "type": "mcp",
       "name": "Tseha",
@@ -179520,6 +179824,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.gocodebook/codes#gocodebook-—-california-building-codes",
+      "type": "mcp",
+      "name": "GoCodebook — California Building Codes",
+      "description": {
+        "zh": null,
+        "en": "Verbatim California Title 24 and local zoning code lookup by section number, with citations.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.gocodebook/codes",
+        "url": "https://gocodebook.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.godorsal/dorsal#dorsal",
       "type": "mcp",
       "name": "Dorsal",
@@ -180137,6 +180490,56 @@
         "repo": null,
         "path": "com.overlayqa/mcp",
         "url": "https://registry.modelcontextprotocol.io/?q=com.overlayqa%2Fmcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.parallelsandbox/parallelsandbox#parallelsandbox",
+      "type": "mcp",
+      "name": "ParallelSandbox",
+      "description": {
+        "zh": null,
+        "en": "Remote Linux boxes for coding agents: Docker, a browser, screenshots, logs, human takeover.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.parallelsandbox/parallelsandbox",
+        "url": "https://parallelsandbox.com/en/",
         "tier": 0
       },
       "quality": {
@@ -181755,7 +182158,7 @@
       "name": "tell.dev",
       "description": {
         "zh": null,
-        "en": "Your coding agent tells a coworker's agent what you found or changed. Invite-only.",
+        "en": "Message someone through your coding agent. Their agent gets your note and explains it.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -183283,6 +183686,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.mason0501/pairgora#pairgora",
+      "type": "mcp",
+      "name": "Pairgora",
+      "description": {
+        "zh": null,
+        "en": "Community where AI agents are members, in human-agent pairs: seek, store, react to Cards via MCP.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.mason0501/pairgora",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.mason0501%2Fpairgora",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.mayer-code/hlrisk#hyperliquid-liquidation-risk-index",
       "type": "mcp",
       "name": "Hyperliquid Liquidation Risk Index",
@@ -184587,7 +185039,7 @@
       "source": {
         "repo": null,
         "path": "org.lexlint/lexlint",
-        "url": "https://mcp.lexlint.org/docs",
+        "url": "https://mcp.lexlint.io/",
         "tier": 0
       },
       "quality": {
@@ -184986,6 +185438,56 @@
         "repo": null,
         "path": "us.recalert/mcp",
         "url": "https://recalert.us",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:work.agentexchange/measured-data#measured-data-claude-code-and-the-coding-agent-market",
+      "type": "mcp",
+      "name": "Measured data: Claude Code and the coding-agent market",
+      "description": {
+        "zh": null,
+        "en": "Measured weekly data on Claude Code and coding agents: costs, plugins, MCP registry, npm, HN, issues",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "work.agentexchange/measured-data",
+        "url": "https://agentexchange.work/data/",
         "tier": 0
       },
       "quality": {
@@ -186874,6 +187376,55 @@
         "repo": "navapbc/rebar",
         "path": "io.github.navapbc/rebar",
         "url": "https://github.com/navapbc/rebar",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:naw103/foremerge:io.github.naw103/foremerge#foremerge",
+      "type": "mcp",
+      "name": "Foremerge",
+      "description": {
+        "zh": null,
+        "en": "Coordinate parallel coding agents, above Git",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "naw103/foremerge",
+        "path": "io.github.naw103/foremerge",
+        "url": "https://github.com/naw103/foremerge",
         "tier": 0
       },
       "quality": {
@@ -193938,6 +194489,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:sammyboi81/arkhive:io.github.sammyboi81/arkhive#arkhive-mcp",
+      "type": "mcp",
+      "name": "ArkHive MCP",
+      "description": {
+        "zh": null,
+        "en": "Tamper-evident memory + governance MCP for Claude Code, Cursor, Codex. Ships the Seatbelt kit.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "sammyboi81/arkhive",
+        "path": "io.github.sammyboi81/arkhive",
+        "url": "https://github.com/sammyboi81/arkhive",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:sandbanks/agentic_ssh:io.github.sandbanks/agentic_ssh#agentic-ssh",
       "type": "mcp",
       "name": "Agentic SSH",
@@ -194895,6 +195496,56 @@
         "repo": "Siddhukaushik/slimdex-mcp",
         "path": "io.github.Siddhukaushik/slimdex-mcp",
         "url": "https://github.com/Siddhukaushik/slimdex-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:sinantufekci/agent-intern:io.github.sinantufekci/agent-intern#agent-intern",
+      "type": "mcp",
+      "name": "Agent Intern",
+      "description": {
+        "zh": null,
+        "en": "Delegate from Claude Code to Gemini, Codex, Copilot, Cursor and opencode CLIs as sub-agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "SinanTufekci/agent-intern",
+        "path": "io.github.SinanTufekci/agent-intern",
+        "url": "https://github.com/SinanTufekci/agent-intern",
         "tier": 0
       },
       "quality": {
@@ -195915,6 +196566,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:speedosdk/predictive-debugger:io.github.speedosdk/predictive-debugger#predictive-debugger",
+      "type": "mcp",
+      "name": "Predictive Debugger",
+      "description": {
+        "zh": null,
+        "en": "Predicts where JavaScript and TypeScript code will fail at runtime, for coding agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "SpeedosDK/predictive-debugger",
+        "path": "io.github.SpeedosDK/predictive-debugger",
+        "url": "https://github.com/SpeedosDK/predictive-debugger",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:sriinnu/tokmeter:io.github.sriinnu/tokmeter#tokmeter-—-ai-agent-usage-&-cost",
       "type": "mcp",
       "name": "Tokmeter — AI Agent Usage & Cost",
@@ -196235,56 +196935,6 @@
         "repo": "stringsofthemind-oss/once",
         "path": "io.github.stringsofthemind-oss/once",
         "url": "https://github.com/stringsofthemind-oss/once",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:strom-capital/mcp-server-db2i:io.github.strom-capital/mcp-server-db2i#ibm-db2-for-i",
-      "type": "mcp",
-      "name": "IBM DB2 for i",
-      "description": {
-        "zh": null,
-        "en": "Read-only SQL queries and schema inspection for IBM DB2 for i (AS/400). Requires Java.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding",
-        "meta"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "Strom-Capital/mcp-server-db2i",
-        "path": "io.github.Strom-Capital/mcp-server-db2i",
-        "url": "https://github.com/Strom-Capital/mcp-server-db2i",
         "tier": 0
       },
       "quality": {
@@ -196633,6 +197283,55 @@
         "repo": "sv-grid/sv-grid",
         "path": "com.svgrid/svgrid",
         "url": "https://github.com/sv-grid/sv-grid",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:swebsy/mcp:io.github.swebsy/mcp#io.github.swebsy-mcp",
+      "type": "mcp",
+      "name": "io.github.swebsy/mcp",
+      "description": {
+        "zh": null,
+        "en": "Build and edit real websites in Swebsy Studio from your coding agent — no per-token AI fees.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "swebsy/MCP",
+        "path": "io.github.swebsy/mcp",
+        "url": "https://github.com/swebsy/MCP",
         "tier": 0
       },
       "quality": {
@@ -198017,6 +198716,55 @@
         "repo": "Triumphist230/Writulos-final",
         "path": "com.writulos/scribe",
         "url": "https://github.com/Triumphist230/Writulos-final",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:trustabl/agent-reliability-analyzer:io.github.trustabl/agent-reliability-analyzer#trustabl",
+      "type": "mcp",
+      "name": "Trustabl",
+      "description": {
+        "zh": null,
+        "en": "Find and fix reliability and safety gaps in agent code, across nine agent SDKs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "trustabl/agent-reliability-analyzer",
+        "path": "io.github.trustabl/agent-reliability-analyzer",
+        "url": "https://github.com/trustabl/agent-reliability-analyzer",
         "tier": 0
       },
       "quality": {
@@ -200443,6 +201191,55 @@
         "repo": "yannmenec/inspectrum",
         "path": "io.github.yannmenec/inspectrum",
         "url": "https://github.com/yannmenec/inspectrum",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:yasmanycastillo/model-shunt:io.github.yasmanycastillo/model-shunt#io.github.yasmanycastillo-model-shunt",
+      "type": "mcp",
+      "name": "io.github.yasmanycastillo/model-shunt",
+      "description": {
+        "zh": null,
+        "en": "Model routing for AI agents: delegate bulk reads & boilerplate to cheap worker models.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "yasmanycastillo/model-shunt",
+        "path": "io.github.yasmanycastillo/model-shunt",
+        "url": "https://github.com/yasmanycastillo/model-shunt",
         "tier": 0
       },
       "quality": {

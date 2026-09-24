@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T22:01:09.344Z",
+  "generatedAt": "2026-09-24T21:56:26.156Z",
   "category": {
     "key": "data",
     "zh": "数据分析",
@@ -77,7 +77,7 @@
       }
     ]
   },
-  "total": 718,
+  "total": 731,
   "entries": [
     {
       "id": "skill:composiohq/awesome-claude-skills:document-skills/xlsx/skill.md#xlsx",
@@ -5808,6 +5808,56 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:markaestro/markaestro-agents:com.markaestro/mcp#markaestro",
+      "type": "mcp",
+      "name": "Markaestro",
+      "description": {
+        "zh": null,
+        "en": "Schedule, publish, and review social posts and analytics for a Markaestro brand.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data",
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "markaestro/markaestro-agents",
+        "path": "com.markaestro/mcp",
+        "url": "https://github.com/markaestro/markaestro-agents",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
       "id": "mcp:mikusnuz/pexbot-mcp:io.github.mikusnuz/pexbot-mcp#io.github.mikusnuz-pexbot-mcp",
       "type": "mcp",
       "name": "io.github.mikusnuz/pexbot-mcp",
@@ -7421,6 +7471,55 @@
         "repo": "alekskram/dydx-agent-gateway",
         "path": "io.github.alekskram/dydx-agent-gateway",
         "url": "https://github.com/alekskram/dydx-agent-gateway",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:amineutron/mcp-tracking:io.github.amineutron/mcp-tracking#task-tracking-(sessions,-eta,-dashboard)",
+      "type": "mcp",
+      "name": "Task tracking (sessions, ETA, dashboard)",
+      "description": {
+        "zh": null,
+        "en": "Track long-running tasks in real time: sessions, steps, speed, ETA, HTTP API and TUI dashboard.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "amineutron/mcp-tracking",
+        "path": "io.github.amineutron/mcp-tracking",
+        "url": "https://github.com/amineutron/mcp-tracking",
         "tier": 0
       },
       "quality": {
@@ -10466,7 +10565,7 @@
       "name": "Dynamoi",
       "description": {
         "zh": null,
-        "en": "Create music promotion campaigns, Smart Links, analytics, and music distribution applications.",
+        "en": "Music marketing for AI agents: free Smart Links, promotion campaigns, analytics, and distribution.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -10475,6 +10574,7 @@
       "lang": "en",
       "categories": [
         "data",
+        "business",
         "media"
       ],
       "targets": [
@@ -11179,55 +11279,6 @@
         "repo": "ironflowsh/mcp",
         "path": "io.github.ironflowsh/mcp",
         "url": "https://github.com/ironflowsh/mcp",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:its-fortunatefolly/hubvibe:io.github.its-fortunatefolly/hubvibe#hubvibe-38-machine-payable-dev-utilities-and-wcag-audits",
-      "type": "mcp",
-      "name": "HubVibe: 38 Machine-Payable Dev Utilities and WCAG Audits",
-      "description": {
-        "zh": null,
-        "en": "Pay per call via HTTP 402: 5 site audits + a statistics engine as MCP tools, 38 /work jobs, receipts",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "data"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "Its-fortunatefolly/HubVibe",
-        "path": "io.github.Its-fortunatefolly/hubvibe",
-        "url": "https://github.com/Its-fortunatefolly/HubVibe",
         "tier": 0
       },
       "quality": {
@@ -24381,6 +24432,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:app.framezone/framezone#framezone",
+      "type": "mcp",
+      "name": "Framezone",
+      "description": {
+        "zh": null,
+        "en": "Your life dashboard for AI: tasks, habits, goals, budgets, workouts, nutrition, journal, notes.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "app.framezone/framezone",
+        "url": "https://framezone.app/mcp-for-life-management",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:app.netlify.japan-data-mcp/japan-data-mcp#app.netlify.japan-data-mcp-japan-data-mcp",
       "type": "mcp",
       "name": "app.netlify.japan-data-mcp/japan-data-mcp",
@@ -24950,6 +25050,55 @@
         "repo": null,
         "path": "com.algo-trade-analytics/research",
         "url": "https://algo-trade-analytics.com/mcp-access",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.auspiceoracle/bazi#auspice-bazi-—-four-pillars-chart",
+      "type": "mcp",
+      "name": "Auspice BaZi — Four Pillars Chart",
+      "description": {
+        "zh": null,
+        "en": "Cast a BaZi (Four Pillars) chart with true solar time, plus a reflective personality sketch.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.auspiceoracle/bazi",
+        "url": "https://auspiceoracle.com/en/chart",
         "tier": 0
       },
       "quality": {
@@ -26557,6 +26706,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.qrcodekit/qrcodekit#qrcodekit",
+      "type": "mcp",
+      "name": "QRCodeKIT",
+      "description": {
+        "zh": null,
+        "en": "Branded short links, instant page & file hosting, and dynamic QR codes with unified analytics.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.qrcodekit/qrcodekit",
+        "url": "https://qrcodekit.com/ai-qr-codes/mcp/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.ranovam/ai-website-to-dataset#ai-website-to-json-data-scraper-&-extractor",
       "type": "mcp",
       "name": "AI Website-to-JSON Data Scraper & Extractor",
@@ -26856,7 +27054,7 @@
       "name": "Suomiatlas — Finnish area statistics",
       "description": {
         "zh": null,
-        "en": "Finnish postal-area and municipality statistics; rank, compare, history, air quality; paywall-aware",
+        "en": "Finnish postal-area and municipality statistics; rank, compare, history, air quality, nearby places",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -29220,6 +29418,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.heyreach/mcp#heyreach",
+      "type": "mcp",
+      "name": "HeyReach",
+      "description": {
+        "zh": null,
+        "en": "Automate your HeyReach workspace — manage campaigns, leads, unibox, webhooks, and pull analytics.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.heyreach/mcp",
+        "url": "https://www.heyreach.io",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.misar.mail/misarmail#misarmail",
       "type": "mcp",
       "name": "MisarMail",
@@ -30756,6 +31003,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mrfentmen/awesome-mcps:io.github.mrfentmen/blubrry-mcp#io.github.mrfentmen-blubrry-mcp",
+      "type": "mcp",
+      "name": "io.github.mrfentmen/blubrry-mcp",
+      "description": {
+        "zh": null,
+        "en": "Blubrry podcast hosting shows, media and download statistics.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "mrfentmen/awesome-mcps",
+        "path": "io.github.mrfentmen/blubrry-mcp",
+        "url": "https://github.com/mrfentmen/awesome-mcps",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mrfentmen/awesome-mcps:io.github.mrfentmen/openpanel-mcp#io.github.mrfentmen-openpanel-mcp",
       "type": "mcp",
       "name": "io.github.mrfentmen/openpanel-mcp",
@@ -30777,6 +31074,55 @@
       "source": {
         "repo": "mrfentmen/awesome-mcps",
         "path": "io.github.mrfentmen/openpanel-mcp",
+        "url": "https://github.com/mrfentmen/awesome-mcps",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mrfentmen/awesome-mcps:io.github.mrfentmen/pydio-mcp#io.github.mrfentmen-pydio-mcp",
+      "type": "mcp",
+      "name": "io.github.mrfentmen/pydio-mcp",
+      "description": {
+        "zh": null,
+        "en": "Pydio Cells workspaces and tree statistics.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "mrfentmen/awesome-mcps",
+        "path": "io.github.mrfentmen/pydio-mcp",
         "url": "https://github.com/mrfentmen/awesome-mcps",
         "tier": 0
       },
@@ -30875,6 +31221,55 @@
       "source": {
         "repo": "mrfentmen/awesome-mcps",
         "path": "io.github.mrfentmen/shynet-mcp",
+        "url": "https://github.com/mrfentmen/awesome-mcps",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mrfentmen/awesome-mcps:io.github.mrfentmen/simplecast-mcp#io.github.mrfentmen-simplecast-mcp",
+      "type": "mcp",
+      "name": "io.github.mrfentmen/simplecast-mcp",
+      "description": {
+        "zh": null,
+        "en": "Simplecast API: podcasts, episodes, analytics.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "mrfentmen/awesome-mcps",
+        "path": "io.github.mrfentmen/simplecast-mcp",
         "url": "https://github.com/mrfentmen/awesome-mcps",
         "tier": 0
       },
@@ -32434,6 +32829,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:pipeworx-io/mcp-abs-au:io.github.pipeworx-io/abs-au#abs-au",
+      "type": "mcp",
+      "name": "Abs Au",
+      "description": {
+        "zh": null,
+        "en": "Australian Bureau of Statistics (ABS) Data API MCP.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "pipeworx-io/mcp-abs-au",
+        "path": "io.github.pipeworx-io/abs-au",
+        "url": "https://github.com/pipeworx-io/mcp-abs-au",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:pipeworx-io/mcp-apify:io.github.pipeworx-io/apify#apify",
       "type": "mcp",
       "name": "Apify",
@@ -32457,6 +32901,105 @@
         "repo": "pipeworx-io/mcp-apify",
         "path": "io.github.pipeworx-io/apify",
         "url": "https://github.com/pipeworx-io/mcp-apify",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:pipeworx-io/mcp-askdata-xk:io.github.pipeworx-io/askdata-xk#askdata-xk",
+      "type": "mcp",
+      "name": "Askdata Xk",
+      "description": {
+        "zh": null,
+        "en": "Kosovo Agency of Statistics (ASKdata) PxWeb MCP.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "pipeworx-io/mcp-askdata-xk",
+        "path": "io.github.pipeworx-io/askdata-xk",
+        "url": "https://github.com/pipeworx-io/mcp-askdata-xk",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:pipeworx-io/mcp-asub-ax:io.github.pipeworx-io/asub-ax#asub-ax",
+      "type": "mcp",
+      "name": "Asub Ax",
+      "description": {
+        "zh": null,
+        "en": "Statistics and Research Åland (ÅSUB) PxWeb MCP.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "pipeworx-io/mcp-asub-ax",
+        "path": "io.github.pipeworx-io/asub-ax",
+        "url": "https://github.com/pipeworx-io/mcp-asub-ax",
         "tier": 0
       },
       "quality": {
@@ -34410,6 +34953,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:simonplmak-cloud/vision-driven-design:io.github.simonplmak-cloud/vision-driven-design#io.github.simonplmak-cloud-vision-driven-design",
+      "type": "mcp",
+      "name": "io.github.simonplmak-cloud/vision-driven-design",
+      "description": {
+        "zh": null,
+        "en": "Bi-directional traceability for AI-assisted development: 8-phase spec-driven chain, 7 gates.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design",
+        "data"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "simonplmak-cloud/vision-driven-design",
+        "path": "io.github.simonplmak-cloud/vision-driven-design",
+        "url": "https://github.com/simonplmak-cloud/vision-driven-design",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:sivaguruayyadurai/lots-mcp-server:io.github.sivaguruayyadurai/lotssocial#lotssocial",
       "type": "mcp",
       "name": "LotsSocial",
@@ -34465,7 +35058,7 @@
       "name": "com.slickfast/mcp",
       "description": {
         "zh": null,
-        "en": "Render 47 chart types and tiled dashboards as PNG/SVG. Deterministic, no headless browser.",
+        "en": "JSON in. Chart or Page out. Same picture forever. Scientific plots included.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -34482,6 +35075,55 @@
         "repo": "SlickFast/slickfast",
         "path": "com.slickfast/mcp",
         "url": "https://github.com/SlickFast/slickfast",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:smizxe/agent-trading-journal:io.github.smizxe/agent-trading-journal#io.github.smizxe-agent-trading-journal",
+      "type": "mcp",
+      "name": "io.github.smizxe/agent-trading-journal",
+      "description": {
+        "zh": null,
+        "en": "AI trading journal: your agent logs trades from chart screenshots and checks your own rules.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "smizxe/agent-trading-journal",
+        "path": "io.github.smizxe/agent-trading-journal",
+        "url": "https://github.com/smizxe/agent-trading-journal",
         "tier": 0
       },
       "quality": {

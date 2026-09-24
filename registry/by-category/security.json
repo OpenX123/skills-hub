@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T22:01:09.344Z",
+  "generatedAt": "2026-09-24T21:56:26.156Z",
   "category": {
     "key": "security",
     "zh": "安全审计",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 826,
+  "total": 837,
   "entries": [
     {
       "id": "skill:composiohq/awesome-claude-skills:composio-skills/ahrefs-automation/skill.md#ahrefs-automation",
@@ -997,59 +997,6 @@
       "curatedMentions": 2
     },
     {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/vulnerability-scanner/skill.md#vulnerability-scanner",
-      "type": "skill",
-      "name": "vulnerability-scanner",
-      "description": {
-        "zh": null,
-        "en": "Advanced vulnerability analysis principles. OWASP 2025, Supply Chain Security, attack surface mapping, risk prioritization.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "security"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "davila7/claude-code-templates",
-        "path": "cli-tool/components/skills/security/vulnerability-scanner/SKILL.md",
-        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/vulnerability-scanner/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 73,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "low",
-        "score": 8
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 31462,
-      "curatedMentions": 2
-    },
-    {
       "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/development/accessibility/skill.md#accessibility",
       "type": "skill",
       "name": "accessibility",
@@ -1093,6 +1040,59 @@
       "risk": {
         "level": "low",
         "score": 10
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 31462,
+      "curatedMentions": 2
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/vulnerability-scanner/skill.md#vulnerability-scanner",
+      "type": "skill",
+      "name": "vulnerability-scanner",
+      "description": {
+        "zh": null,
+        "en": "Advanced vulnerability analysis principles. OWASP 2025, Supply Chain Security, attack surface mapping, risk prioritization.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/security/vulnerability-scanner/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/vulnerability-scanner/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 72,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "low",
+        "score": 8
       },
       "duplicateOf": null,
       "nearDuplicateOf": null,
@@ -2137,60 +2137,6 @@
       "curatedMentions": 2
     },
     {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/api-fuzzing-bug-bounty/skill.md#api-fuzzing-for-bug-bounty",
-      "type": "skill",
-      "name": "API Fuzzing for Bug Bounty",
-      "description": {
-        "zh": null,
-        "en": "This skill should be used when the user asks to \"test API security\", \"fuzz APIs\", \"find IDOR vulnerabilities\", \"test REST API\", \"test GraphQL\", \"API penetration testing\", \"bug bounty API testing\", or needs guidance on API security assessment techniques.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "security",
-        "testing"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "davila7/claude-code-templates",
-        "path": "cli-tool/components/skills/security/api-fuzzing-bug-bounty/SKILL.md",
-        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/api-fuzzing-bug-bounty/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 70,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "low",
-        "score": 3
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 31462,
-      "curatedMentions": 2
-    },
-    {
       "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/api-security-best-practices/skill.md#api-security-best-practices",
       "type": "skill",
       "name": "api-security-best-practices",
@@ -2395,60 +2341,6 @@
       "risk": {
         "level": "clean",
         "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 31462,
-      "curatedMentions": 2
-    },
-    {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/cloud-penetration-testing/skill.md#cloud-penetration-testing",
-      "type": "skill",
-      "name": "Cloud Penetration Testing",
-      "description": {
-        "zh": null,
-        "en": "This skill should be used when the user asks to \"perform cloud penetration testing\", \"assess Azure or AWS or GCP security\", \"enumerate cloud resources\", \"exploit cloud misconfigurations\", \"test O365 security\", \"extract secrets from cloud environments\", or \"audit cloud infrastructure\". It provides comprehensive techniques for security assessment across major cloud platforms.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "security",
-        "testing"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "davila7/claude-code-templates",
-        "path": "cli-tool/components/skills/security/cloud-penetration-testing/SKILL.md",
-        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/cloud-penetration-testing/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 70,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "medium",
-        "score": 18
       },
       "duplicateOf": null,
       "nearDuplicateOf": null,
@@ -3314,61 +3206,6 @@
       "curatedMentions": 2
     },
     {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/supply-chain-guard/skill.md#supply-chain-guard",
-      "type": "skill",
-      "name": "supply-chain-guard",
-      "description": {
-        "zh": null,
-        "en": "Detect and remediate software supply chain attacks in npm, PyPI, crates.io, GitHub Actions, and CI/CD pipelines by scanning for known compromised packages, malicious versions, filesystem IOCs, C2 indicators, and CI/CD misconfigurations.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding",
-        "devops",
-        "security"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "davila7/claude-code-templates",
-        "path": "cli-tool/components/skills/security/supply-chain-guard/SKILL.md",
-        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/supply-chain-guard/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 70,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "medium",
-        "score": 18
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 31462,
-      "curatedMentions": 2
-    },
-    {
       "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/threat-modeling-expert/skill.md#threat-modeling-expert",
       "type": "skill",
       "name": "threat-modeling-expert",
@@ -3799,6 +3636,114 @@
       "curatedMentions": 2
     },
     {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/api-fuzzing-bug-bounty/skill.md#api-fuzzing-for-bug-bounty",
+      "type": "skill",
+      "name": "API Fuzzing for Bug Bounty",
+      "description": {
+        "zh": null,
+        "en": "This skill should be used when the user asks to \"test API security\", \"fuzz APIs\", \"find IDOR vulnerabilities\", \"test REST API\", \"test GraphQL\", \"API penetration testing\", \"bug bounty API testing\", or needs guidance on API security assessment techniques.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "testing"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/security/api-fuzzing-bug-bounty/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/api-fuzzing-bug-bounty/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 69,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "low",
+        "score": 3
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 31462,
+      "curatedMentions": 2
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/cloud-penetration-testing/skill.md#cloud-penetration-testing",
+      "type": "skill",
+      "name": "Cloud Penetration Testing",
+      "description": {
+        "zh": null,
+        "en": "This skill should be used when the user asks to \"perform cloud penetration testing\", \"assess Azure or AWS or GCP security\", \"enumerate cloud resources\", \"exploit cloud misconfigurations\", \"test O365 security\", \"extract secrets from cloud environments\", or \"audit cloud infrastructure\". It provides comprehensive techniques for security assessment across major cloud platforms.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "testing"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/security/cloud-penetration-testing/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/cloud-penetration-testing/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 69,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "medium",
+        "score": 18
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 31462,
+      "curatedMentions": 2
+    },
+    {
       "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/ethical-hacking-methodology/skill.md#ethical-hacking-methodology",
       "type": "skill",
       "name": "Ethical Hacking Methodology",
@@ -3896,6 +3841,61 @@
       "risk": {
         "level": "low",
         "score": 4
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 31462,
+      "curatedMentions": 2
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/supply-chain-guard/skill.md#supply-chain-guard",
+      "type": "skill",
+      "name": "supply-chain-guard",
+      "description": {
+        "zh": null,
+        "en": "Detect and remediate software supply chain attacks in npm, PyPI, crates.io, GitHub Actions, and CI/CD pipelines by scanning for known compromised packages, malicious versions, filesystem IOCs, C2 indicators, and CI/CD misconfigurations.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "devops",
+        "security"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/security/supply-chain-guard/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/supply-chain-guard/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 69,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "medium",
+        "score": 18
       },
       "duplicateOf": null,
       "nearDuplicateOf": null,
@@ -11578,7 +11578,7 @@
       "name": "io.github.goklab/guardvibe",
       "description": {
         "zh": null,
-        "en": "Deterministic security layer your AI can't be. 472 rules, 39 tools, CLI + doctor + host audit.",
+        "en": "Deterministic security layer your AI can't be. 477 rules, 39 tools, CLI + doctor + host audit.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -15313,6 +15313,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:anshumanatrey/bug-bounty-finder:io.github.anshumanatrey/bug-bounty-finder#bug-bounty-finder-hackerone-+-bugcrowd-+-security.txt",
+      "type": "mcp",
+      "name": "Bug Bounty Finder - HackerOne + Bugcrowd + security.txt",
+      "description": {
+        "zh": null,
+        "en": "Bug Bounty Finder - HackerOne + Bugcrowd + security.txt",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "AnshumanAtrey/bug-bounty-finder",
+        "path": "io.github.AnshumanAtrey/bug-bounty-finder",
+        "url": "https://github.com/AnshumanAtrey/bug-bounty-finder",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:anshumanbh/h1-cand-311-stack-rebase:io.github.anshumanbh/cand351-private-readme-collision#cand-351-validation",
       "type": "mcp",
       "name": "CAND-351 Validation",
@@ -15928,6 +15977,55 @@
         "repo": "autorevai/stackresolve",
         "path": "dev.stackresolve/stackresolve",
         "url": "https://github.com/autorevai/stackresolve",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:azieleliab/aziel-runtime:io.github.azieleliab/aziel-runtime#aziel-runtime",
+      "type": "mcp",
+      "name": "Aziel Runtime",
+      "description": {
+        "zh": null,
+        "en": "Governed MCP: agent audit, provenance, deterministic checks, and receipt-backed FragGate execution.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "AzielEliab/aziel-runtime",
+        "path": "io.github.AzielEliab/aziel-runtime",
+        "url": "https://github.com/AzielEliab/aziel-runtime",
         "tier": 0
       },
       "quality": {
@@ -16572,6 +16670,55 @@
         "repo": "bvenkata/legacy2mcp",
         "path": "io.github.bvenkata/legacy2mcp",
         "url": "https://github.com/bvenkata/legacy2mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:canadaornaw/agent-guard-x402:io.github.canadaornaw/agent-guard#agent-guard-(x402)",
+      "type": "mcp",
+      "name": "Agent Guard (x402)",
+      "description": {
+        "zh": null,
+        "en": "x402-paid agent checks: prompt injection, tool-call risk, scams, token rug screen, sentiment, rerank",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "CanadaOrNaw/agent-guard-x402",
+        "path": "io.github.CanadaOrNaw/agent-guard",
+        "url": "https://github.com/CanadaOrNaw/agent-guard-x402",
         "tier": 0
       },
       "quality": {
@@ -18301,6 +18448,55 @@
         "repo": "draugr-dev/draugr",
         "path": "dev.draugr/draugr",
         "url": "https://github.com/draugr-dev/draugr",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:dunkelcloud/toolmesh:io.github.dunkelcloud/toolmesh#io.github.dunkelcloud-toolmesh",
+      "type": "mcp",
+      "name": "io.github.DunkelCloud/toolmesh",
+      "description": {
+        "zh": null,
+        "en": "Self-hosted MCP gateway. Turn any REST API into MCP tools via YAML (DADL). Authz, audit, policies.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "DunkelCloud/ToolMesh",
+        "path": "io.github.DunkelCloud/toolmesh",
+        "url": "https://github.com/DunkelCloud/ToolMesh",
         "tier": 0
       },
       "quality": {
@@ -20735,6 +20931,104 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:geekmarine/mcp-defi-router:io.github.geekmarine/mcp-defi-router#io.github.geekmarine-mcp-defi-router",
+      "type": "mcp",
+      "name": "io.github.geekmarine/mcp-defi-router",
+      "description": {
+        "zh": null,
+        "en": "Autonomous Web3 router for DEX liquidity depth, EVM contract security, and cross-chain bridges.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "geekmarine/mcp-defi-router",
+        "path": "io.github.geekmarine/mcp-defi-router",
+        "url": "https://github.com/geekmarine/mcp-defi-router",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:geekmarine/mcp-domain-auditor:io.github.geekmarine/mcp-domain-auditor#io.github.geekmarine-mcp-domain-auditor",
+      "type": "mcp",
+      "name": "io.github.geekmarine/mcp-domain-auditor",
+      "description": {
+        "zh": null,
+        "en": "DNS resolution, HTTP security headers, and SPF/DMARC email hygiene audits.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "geekmarine/mcp-domain-auditor",
+        "path": "io.github.geekmarine/mcp-domain-auditor",
+        "url": "https://github.com/geekmarine/mcp-domain-auditor",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:gelse/ssh-mcp:io.github.gelse/ssh-mcp#ssh-mcp",
       "type": "mcp",
       "name": "ssh-mcp",
@@ -22198,6 +22492,154 @@
         "repo": "jayniebingyu-cyber/goaimoat-ai-visibility-mcp",
         "path": "com.goaimoat/ai-visibility",
         "url": "https://github.com/jayniebingyu-cyber/goaimoat-ai-visibility-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:jayniebingyu-cyber/goaimoat-ai-visibility-mcp:com.goaimoat/inventory-fulfillment#goai-moat-cross-border-inventory-&-fulfillment",
+      "type": "mcp",
+      "name": "GoAI Moat Cross-Border Inventory & Fulfillment",
+      "description": {
+        "zh": null,
+        "en": "Safety-stock & reorder planning, FBA-vs-FBM decision, and inventory health audit for sellers",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "pm",
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jayniebingyu-cyber/goaimoat-ai-visibility-mcp",
+        "path": "com.goaimoat/inventory-fulfillment",
+        "url": "https://github.com/jayniebingyu-cyber/goaimoat-ai-visibility-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:jayniebingyu-cyber/goaimoat-mcp:com.goaimoat/claim-verifier#goai-moat-claim-verifier",
+      "type": "mcp",
+      "name": "GoAI Moat Claim Verifier",
+      "description": {
+        "zh": null,
+        "en": "Verify business claims and audit text for unsourced data.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jayniebingyu-cyber/goaimoat-mcp",
+        "path": "com.goaimoat/claim-verifier",
+        "url": "https://github.com/jayniebingyu-cyber/goaimoat-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:jayniebingyu-cyber/goaimoat-mcp:com.goaimoat/supplier-sourcing#goai-moat-supplier-sourcing-&-qc",
+      "type": "mcp",
+      "name": "GoAI Moat Supplier Sourcing & QC",
+      "description": {
+        "zh": null,
+        "en": "Supplier scoring, AQL sampling plans and factory audit checklists for cross-border sourcing.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jayniebingyu-cyber/goaimoat-mcp",
+        "path": "com.goaimoat/supplier-sourcing",
+        "url": "https://github.com/jayniebingyu-cyber/goaimoat-mcp",
         "tier": 0
       },
       "quality": {
@@ -29199,55 +29641,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:com.thetempleofdoom.osint-mcp/osint-terminal#com.thetempleofdoom.osint-mcp-osint-terminal",
-      "type": "mcp",
-      "name": "com.thetempleofdoom.osint-mcp/osint-terminal",
-      "description": {
-        "zh": null,
-        "en": "454 keyless OSINT recon tools: DNS, IP geo, breach checks, threat intel, domains.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "security"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "com.thetempleofdoom.osint-mcp/osint-terminal",
-        "url": "https://registry.modelcontextprotocol.io/?q=com.thetempleofdoom.osint-mcp%2Fosint-terminal",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:mcp-official:com.trueclicks/trueclicks#trueclicks",
       "type": "mcp",
       "name": "TrueClicks",
@@ -31071,6 +31464,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.jgaethle10/systemia-website-audit#systemia-website-audit",
+      "type": "mcp",
+      "name": "Systemia Website Audit",
+      "description": {
+        "zh": null,
+        "en": "Website, local SEO, performance and conversion audits with human-confirmed checkout.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.jgaethle10/systemia-website-audit",
+        "url": "https://systemia-audit-pro.base44.app/functions/auditAgentGateway?view=docs",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.kaminariouji/x402-audit-agent#crypto-bot-audit-+-market-data-(x402-paid)",
       "type": "mcp",
       "name": "Crypto Bot Audit + Market Data (x402 paid)",
@@ -31170,9 +31613,9 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:io.github.mercadosclaro-eng/payguard#payguard",
+      "id": "mcp:mcp-official:io.github.mercadosclaro-eng/payguard#varyntiq",
       "type": "mcp",
-      "name": "PayGuard",
+      "name": "Varyntiq",
       "description": {
         "zh": null,
         "en": "Pre-payment checks for AI agents: x402 quotes, untrusted prompts and audit receipts.",
@@ -34778,6 +35221,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:myanptl/golive-mcp:io.github.myanptl/golive-mcp#golive",
+      "type": "mcp",
+      "name": "golive",
+      "description": {
+        "zh": null,
+        "en": "Check a site before you share it: link previews, SPA refresh 404s, noindex, security headers.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "myanptl/golive-mcp",
+        "path": "io.github.myanptl/golive-mcp",
+        "url": "https://github.com/myanptl/golive-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:nahuelsoria/llmaudit-mcp:app.llmaudit/llmaudit#llm-audit",
       "type": "mcp",
       "name": "LLM Audit",
@@ -35221,6 +35713,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:nyyhao/saascity-mcp:io.saascity/saascity#saascity",
+      "type": "mcp",
+      "name": "SaaSCity",
+      "description": {
+        "zh": null,
+        "en": "Audit your site, pick from 1,600+ launch directories by DR and link type, and list on SaaSCity.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "nyyhao/saascity-mcp",
+        "path": "io.saascity/saascity",
+        "url": "https://github.com/nyyhao/saascity-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:ojuschugh1/sqz:io.github.ojuschugh1/sqz#sqz",
       "type": "mcp",
       "name": "sqz",
@@ -35588,6 +36129,55 @@
         "repo": "pezhik/skilltotal",
         "path": "ai.skilltotal/skilltotal",
         "url": "https://github.com/pezhik/skilltotal",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:pipeworx-io/mcp-alienvault-otx:io.github.pipeworx-io/alienvault-otx#alienvault-otx",
+      "type": "mcp",
+      "name": "Alienvault Otx",
+      "description": {
+        "zh": null,
+        "en": "AlienVault OTX MCP — Open Threat Exchange (free with key)",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "pipeworx-io/mcp-alienvault-otx",
+        "path": "io.github.pipeworx-io/alienvault-otx",
+        "url": "https://github.com/pipeworx-io/mcp-alienvault-otx",
         "tier": 0
       },
       "quality": {
@@ -37100,9 +37690,9 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:shawmena-dotcom/product-factory:io.github.shawmena-dotcom/domain-intel#io.github.shawmena-dotcom-domain-intel",
+      "id": "mcp:shawmena-dotcom/product-factory:io.github.shawmena-dotcom/domain-intel#domaindna-tech-stack-detector,-whois-&-domain-age-api",
       "type": "mcp",
-      "name": "io.github.shawmena-dotcom/domain-intel",
+      "name": "DomainDNA: Tech Stack Detector, WHOIS & Domain Age API",
       "description": {
         "zh": null,
         "en": "DomainDNA: a domain's tech stack, email security (MX/SPF/DMARC), TLS expiry and age in one record.",
@@ -37962,55 +38552,6 @@
         "repo": "sujirodev/termix-mcp",
         "path": "io.github.sujirodev/termix-mcp",
         "url": "https://github.com/sujirodev/termix-mcp",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:swantron/spendtron:io.github.swantron/spendtron#spendtron",
-      "type": "mcp",
-      "name": "spendtron",
-      "description": {
-        "zh": null,
-        "en": "Rank your GitHub org's Actions workflows by real compute cost. Read-only audit via GitHub App.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "security"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "swantron/spendtron",
-        "path": "io.github.swantron/spendtron",
-        "url": "https://github.com/swantron/spendtron",
         "tier": 0
       },
       "quality": {
