@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-24T21:56:26.156Z",
+  "generatedAt": "2026-09-25T21:58:10.044Z",
   "type": "plugin",
   "label": {
     "zh": "插件",
     "en": "Plugin"
   },
-  "total": 213,
+  "total": 216,
   "entries": [
     {
       "id": "plugin:anthropics/skills:.claude-plugin/marketplace.json#academy-guide",
@@ -301,7 +301,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 288798,
+      "stars": 291626,
       "curatedMentions": 8
     },
     {
@@ -351,7 +351,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 288798,
+      "stars": 291626,
       "curatedMentions": 8
     },
     {
@@ -5729,7 +5729,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31462,
+      "stars": 31820,
       "curatedMentions": 2
     },
     {
@@ -5779,7 +5779,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31462,
+      "stars": 31820,
       "curatedMentions": 2
     },
     {
@@ -5829,7 +5829,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31462,
+      "stars": 31820,
       "curatedMentions": 2
     },
     {
@@ -5879,7 +5879,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31462,
+      "stars": 31820,
       "curatedMentions": 2
     },
     {
@@ -5929,7 +5929,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31462,
+      "stars": 31820,
       "curatedMentions": 2
     },
     {
@@ -5979,7 +5979,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31462,
+      "stars": 31820,
       "curatedMentions": 2
     },
     {
@@ -6029,7 +6029,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31462,
+      "stars": 31820,
       "curatedMentions": 2
     },
     {
@@ -6079,7 +6079,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31462,
+      "stars": 31820,
       "curatedMentions": 2
     },
     {
@@ -6129,7 +6129,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31462,
+      "stars": 31820,
       "curatedMentions": 2
     },
     {
@@ -6179,7 +6179,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31462,
+      "stars": 31820,
       "curatedMentions": 2
     },
     {
@@ -6230,7 +6230,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31462,
+      "stars": 31820,
       "curatedMentions": 2
     },
     {
@@ -6281,7 +6281,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31462,
+      "stars": 31820,
       "curatedMentions": 2
     },
     {
@@ -6330,7 +6330,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31462,
+      "stars": 31820,
       "curatedMentions": 2
     },
     {
@@ -6379,7 +6379,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31462,
+      "stars": 31820,
       "curatedMentions": 2
     },
     {
@@ -6428,7 +6428,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31462,
+      "stars": 31820,
       "curatedMentions": 2
     },
     {
@@ -6478,7 +6478,56 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31462,
+      "stars": 31820,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/security/jev-auto-mode/.claude-plugin/plugin.json#jev-auto-mode",
+      "type": "plugin",
+      "name": "jev-auto-mode",
+      "description": {
+        "zh": null,
+        "en": "A permission layer driven by a JSON policy: allow, ask or deny every tool call (Bash, edits, web, MCP, subagents, skills), every slash command or skill you type, and every skill preloaded into a subagent. Rules decide first (deny > ask > allow, compound Bash commands split); what no rule covers can go to TypeSafe's Jev, which judges the action against your latest request with thresholds you set. Claude can never edit the policy. Needs function hooks (early access).",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/security/jev-auto-mode/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/security/jev-auto-mode/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 31820,
       "curatedMentions": 2
     },
     {
@@ -6528,7 +6577,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31462,
+      "stars": 31820,
       "curatedMentions": 2
     },
     {
@@ -6579,7 +6628,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31462,
+      "stars": 31820,
       "curatedMentions": 2
     },
     {
@@ -6629,7 +6678,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31462,
+      "stars": 31820,
       "curatedMentions": 2
     },
     {
@@ -6679,7 +6728,108 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31462,
+      "stars": 31820,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/ui/agent-flow/.claude-plugin/plugin.json#agent-flow",
+      "type": "plugin",
+      "name": "agent-flow",
+      "description": {
+        "zh": null,
+        "en": "A side pane that draws the session's agent flow live: the main loop's context window, every subagent it spawns as a tree, and for each one the context handed down (its prompt, or the whole parent context for a fork), what it did with it (steps, tools, context size) and the answer it handed back up. Docked beside the transcript in the fullscreen layout, above the prompt otherwise. Needs function hooks (early access).",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "design"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/ui/agent-flow/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/ui/agent-flow/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 31820,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/ui/git-sidebar/.claude-plugin/plugin.json#git-sidebar",
+      "type": "plugin",
+      "name": "git-sidebar",
+      "description": {
+        "zh": null,
+        "en": "A lazygit-style side pane: every worktree of the repository and its local branches as rows you click. A worktree row moves the session there with /cd; a branch row shows its last commits and offers switch (clean tree only) or open worktree. Docked floor to ceiling beside the transcript in the fullscreen layout, above the prompt otherwise. Needs function hooks (early access).",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design",
+        "coding",
+        "meta"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/ui/git-sidebar/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/ui/git-sidebar/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 31820,
       "curatedMentions": 2
     },
     {
@@ -6730,7 +6880,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31462,
+      "stars": 31820,
       "curatedMentions": 2
     },
     {
@@ -6780,7 +6930,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 31462,
+      "stars": 31820,
       "curatedMentions": 2
     },
     {
@@ -6830,7 +6980,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 31462,
+      "stars": 31820,
       "curatedMentions": 2
     },
     {
@@ -6880,7 +7030,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 31462,
+      "stars": 31820,
       "curatedMentions": 2
     },
     {
@@ -6930,7 +7080,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 31462,
+      "stars": 31820,
       "curatedMentions": 2
     },
     {
@@ -6980,7 +7130,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 31462,
+      "stars": 31820,
       "curatedMentions": 2
     },
     {
@@ -7030,7 +7180,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 31462,
+      "stars": 31820,
       "curatedMentions": 2
     },
     {
@@ -7080,7 +7230,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 31462,
+      "stars": 31820,
       "curatedMentions": 2
     },
     {
@@ -7131,7 +7281,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 31462,
+      "stars": 31820,
       "curatedMentions": 2
     },
     {
