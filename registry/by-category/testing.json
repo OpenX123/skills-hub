@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T21:58:10.044Z",
+  "generatedAt": "2026-09-26T21:47:46.801Z",
   "category": {
     "key": "testing",
     "zh": "测试质量",
@@ -73,7 +73,7 @@
       }
     ]
   },
-  "total": 491,
+  "total": 498,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/webapp-testing/skill.md#webapp-testing",
@@ -3944,7 +3944,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10241,
+      "stars": 10280,
       "curatedMentions": 1
     },
     {
@@ -14514,7 +14514,7 @@
       "name": "io.github.carbaj03/retry-trace",
       "description": {
         "zh": null,
-        "en": "Test HTTP 429/503 retries and Retry-After with server-observed traces; share synthetic findings.",
+        "en": "Test curl retries locally or inspect remote 429/503 Retry-After traces; optionally share findings.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -16448,6 +16448,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:hooklistener/mcp:com.hooklistener/mcp#hooklistener",
+      "type": "mcp",
+      "name": "Hooklistener",
+      "description": {
+        "zh": null,
+        "en": "Webhook, email, WebSocket and tunnel testing for AI agents: capture, wait, verify, replay.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "hooklistener/mcp",
+        "path": "com.hooklistener/mcp",
+        "url": "https://github.com/hooklistener/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:https://gitlab.com/getcomber/comber-public:io.codecomber/comber#comber",
       "type": "mcp",
       "name": "comber",
@@ -18031,6 +18080,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:ai.afg/afg#afg-agents-hire-agents-(test-money)",
+      "type": "mcp",
+      "name": "AFG: agents hire agents (test money)",
+      "description": {
+        "zh": null,
+        "en": "Sandbox marketplace where AI agents hire agents for verified outcomes. Test money only.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.afg/afg",
+        "url": "https://afg.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:ai.bodenrichtwert/mcp#bodenrichtwert.ai-—-verlässliche-bodenrichtwerte-für-mensch-",
       "type": "mcp",
       "name": "bodenrichtwert.ai — Verlässliche Bodenrichtwerte für Mensch und KI",
@@ -18350,6 +18448,56 @@
         "repo": null,
         "path": "ai.usesuperflow/tools",
         "url": "https://usesuperflow.ai/tools/mcp?utm_source=mcp-registry&utm_medium=directory&utm_campaign=free-tools",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:app.mutator/mutator#mutator",
+      "type": "mcp",
+      "name": "Mutator",
+      "description": {
+        "zh": null,
+        "en": "Build and test short-form marketing automations from your agent. Nothing it does can post.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business",
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "app.mutator/mutator",
+        "url": "https://mutator.app/docs/mcp",
         "tier": 0
       },
       "quality": {
@@ -19270,6 +19418,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.postboxservices/postbox-tools#com.postboxservices-postbox-tools",
+      "type": "mcp",
+      "name": "com.postboxservices/postbox-tools",
+      "description": {
+        "zh": null,
+        "en": "Free email checks: 24 blacklists, spoofing/BEC grade, redirect tracing, email spam test, WHOIS.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.postboxservices/postbox-tools",
+        "url": "https://postboxservices.com/mcp/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.stewai/stewai#stewai",
       "type": "mcp",
       "name": "StewAI",
@@ -19968,6 +20165,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.gmahar82-stack/trust-check#trust-check",
+      "type": "mcp",
+      "name": "Trust Check",
+      "description": {
+        "zh": null,
+        "en": "Crypto safety for agents on Base: token honeypot/tax test and safe-to-send address poisoning check.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.gmahar82-stack/trust-check",
+        "url": "https://trust-check.gm-tools.workers.dev",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.ip930/patentmax#patentmax-patent-search-&-analysis",
       "type": "mcp",
       "name": "PatentMax Patent Search & Analysis",
@@ -20141,6 +20387,56 @@
         "repo": null,
         "path": "io.github.ligafew/python-package-runtime-test",
         "url": "https://apcs-public-mcp-gateway.apcs-mcp.workers.dev",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.lintlab/seo-site-qa#lintlab-seo-site-qa",
+      "type": "mcp",
+      "name": "lintlab SEO Site QA",
+      "description": {
+        "zh": null,
+        "en": "Crawl a site for broken links, redirects and missing SEO tags. Pay per page on Apify.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.lintlab/seo-site-qa",
+        "url": "https://apify.com/lintlab/seo-site-qa",
         "tier": 0
       },
       "quality": {
@@ -22163,6 +22459,55 @@
         "repo": "pamela-0/safe-fix-mcp",
         "path": "io.github.pamela-0/safe-fix-mcp",
         "url": "https://github.com/pamela-0/safe-fix-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:perufitlife/rotate-pilot-mcp:io.github.perufitlife/rotate-pilot#rotate-pilot-—-faa-exam-prep",
+      "type": "mcp",
+      "name": "Rotate Pilot — FAA exam prep",
+      "description": {
+        "zh": null,
+        "en": "FAA written-test prep: practice questions, readiness diagnostic, METAR/TAF, drone airspace",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Perufitlife/rotate-pilot-mcp",
+        "path": "io.github.Perufitlife/rotate-pilot",
+        "url": "https://github.com/Perufitlife/rotate-pilot-mcp",
         "tier": 0
       },
       "quality": {
@@ -24415,7 +24760,7 @@
       "name": "io.github.USHIKUNDESUYO/shiwake-mcp",
       "description": {
         "zh": null,
-        "en": "Journal entry testing (JET) for accounting audits. 11 screening rules, zero dependencies.",
+        "en": "Journal entry testing (JET) for accounting audits. 15 screening rules, zero dependencies.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"

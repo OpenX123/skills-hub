@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T21:58:10.044Z",
+  "generatedAt": "2026-09-26T21:47:46.801Z",
   "category": {
     "key": "coding",
     "zh": "编码开发",
@@ -109,7 +109,7 @@
       }
     ]
   },
-  "total": 4022,
+  "total": 4045,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/algorithmic-art/skill.md#algorithmic-art",
@@ -897,7 +897,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 96,
+        "score": 95,
         "gates": {
           "security": true,
           "schema": true,
@@ -951,7 +951,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 96,
+        "score": 95,
         "gates": {
           "security": true,
           "schema": true,
@@ -1004,7 +1004,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 96,
+        "score": 95,
         "gates": {
           "security": true,
           "schema": true,
@@ -1058,7 +1058,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 96,
+        "score": 95,
         "gates": {
           "security": true,
           "schema": true,
@@ -1112,7 +1112,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 96,
+        "score": 95,
         "gates": {
           "security": true,
           "schema": true,
@@ -1167,7 +1167,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 96,
+        "score": 95,
         "gates": {
           "security": true,
           "schema": true,
@@ -87207,6 +87207,57 @@
       "curatedMentions": 2
     },
     {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/games/chess/.claude-plugin/plugin.json#chess",
+      "type": "plugin",
+      "name": "chess",
+      "description": {
+        "zh": null,
+        "en": "Play chess against Claude in a side pane while you work. Click a piece and a square, or type a move; Claude answers through a fork of the session and the pane shows the tokens each of its moves cost, as the API reported them, and the running total. Docked beside the transcript in the fullscreen layout, above the prompt otherwise. Needs function hooks (early access).",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "design",
+        "meta"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/games/chess/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/games/chess/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 31820,
+      "curatedMentions": 2
+    },
+    {
       "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/games/diff-invaders/.claude-plugin/plugin.json#diff-invaders",
       "type": "plugin",
       "name": "diff-invaders",
@@ -89280,7 +89331,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10241,
+      "stars": 10280,
       "curatedMentions": 1
     },
     {
@@ -95509,7 +95560,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10241,
+      "stars": 10280,
       "curatedMentions": 1
     },
     {
@@ -95559,7 +95610,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10241,
+      "stars": 10280,
       "curatedMentions": 1
     },
     {
@@ -155684,6 +155735,55 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:remembra-ai/remembra:io.github.remembra-ai/remembra#remembra-relay",
+      "type": "mcp",
+      "name": "Remembra Relay",
+      "description": {
+        "zh": null,
+        "en": "Cross-agent handoff: the next coding agent starts from the last one's facts, not a blank page.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "remembra-ai/remembra",
+        "path": "io.github.remembra-ai/remembra",
+        "url": "https://github.com/remembra-ai/remembra",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
       "id": "mcp:rex-codebase/fable-mode:io.github.rex-codebase/fable-mode#fable-mode",
       "type": "mcp",
       "name": "Fable Mode",
@@ -158060,6 +158160,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:ahmetloca/reactframe-public:io.github.ahmetloca/reactframe#reactframe",
+      "type": "mcp",
+      "name": "ReactFrame",
+      "description": {
+        "zh": null,
+        "en": "Search ReactFrame's React + Tailwind + Motion components, install free ones and price premium picks.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design",
+        "coding",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "AhmetLoca/reactframe-public",
+        "path": "io.github.AhmetLoca/reactframe",
+        "url": "https://github.com/AhmetLoca/reactframe-public",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:ahoybuoy/buoy:io.github.ahoybuoy/buoy#io.github.ahoybuoy-buoy",
       "type": "mcp",
       "name": "io.github.ahoybuoy/buoy",
@@ -159767,6 +159918,56 @@
         "repo": "Arenukvern/mcp_flutter",
         "path": "io.github.Arenukvern/flutter-mcp-toolkit",
         "url": "https://github.com/Arenukvern/mcp_flutter",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:arnaugonzalez/memory-boost:io.github.arnaugonzalez/memory-boost#memory-boost",
+      "type": "mcp",
+      "name": "memory-boost",
+      "description": {
+        "zh": null,
+        "en": "Markdown memory for coding agents that audits itself: drift reports and session digests.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "arnaugonzalez/memory-boost",
+        "path": "io.github.arnaugonzalez/memory-boost",
+        "url": "https://github.com/arnaugonzalez/memory-boost",
         "tier": 0
       },
       "quality": {
@@ -162667,6 +162868,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:coders-talk/coders-talk-plugin:talk.coders/library#coders-talk",
+      "type": "mcp",
+      "name": "Coders Talk",
+      "description": {
+        "zh": null,
+        "en": "Real coding-agent sessions: what worked, where agents failed and what the human did about it.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "coders-talk/coders-talk-plugin",
+        "path": "talk.coders/library",
+        "url": "https://github.com/coders-talk/coders-talk-plugin",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:colinvaughn/synaptic:io.github.colinvaughn/synaptic#synaptic-code-intelligence",
       "type": "mcp",
       "name": "Synaptic Code Intelligence",
@@ -163760,6 +164010,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:cybermax-tools/product-factory:io.github.cybermax-tools/zip-data-api#ziplore-us-zip-code-api-(county,-time-zone,-demographics,-ra",
+      "type": "mcp",
+      "name": "Ziplore: US ZIP Code API (county, time zone, demographics, radius)",
+      "description": {
+        "zh": null,
+        "en": "Ziplore: US ZIP to county, FIPS, time zone, Census demographics; radius and city ZIPs. Free, no key.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "CyberMax-tools/product-factory",
+        "path": "io.github.CyberMax-tools/zip-data-api",
+        "url": "https://github.com/CyberMax-tools/product-factory",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:daffa2555/tokenectomy:io.github.daffa2555/razor#tokenectomy-razor",
       "type": "mcp",
       "name": "Tokenectomy Razor",
@@ -163832,6 +164131,56 @@
         "repo": "Dakera-AI/dakera-mcp",
         "path": "io.github.Dakera-AI/dakera-mcp",
         "url": "https://github.com/Dakera-AI/dakera-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:damejeras/agentchan:io.github.damejeras/agentchan#agentchan",
+      "type": "mcp",
+      "name": "agentchan",
+      "description": {
+        "zh": null,
+        "en": "Lets one coding agent talk to another: Claude Code, Codex or Grok",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "damejeras/agentchan",
+        "path": "io.github.damejeras/agentchan",
+        "url": "https://github.com/damejeras/agentchan",
         "tier": 0
       },
       "quality": {
@@ -166780,6 +167129,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:flightclaw/agents:com.flightclaw/flightclaw#flightclaw",
+      "type": "mcp",
+      "name": "flightclaw",
+      "description": {
+        "zh": null,
+        "en": "Search ~300 airlines and book flights with a checkout link. OAuth sign-in by email code.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "flightclaw/agents",
+        "path": "com.flightclaw/flightclaw",
+        "url": "https://github.com/flightclaw/agents",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:flinker-app/ifc-mcp:io.github.flinker-app/ifc-mcp#ifc-mcp",
       "type": "mcp",
       "name": "IFC MCP",
@@ -167372,6 +167771,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:gemmeinhq/gemmein-release:com.gemmein/mcp#gemmein",
+      "type": "mcp",
+      "name": "Gemmein",
+      "description": {
+        "zh": null,
+        "en": "Gemmein docs, API reference, error explainers and a live integration check for coding agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "gemmeinhq/gemmein-release",
+        "path": "com.gemmein/mcp",
+        "url": "https://github.com/gemmeinhq/gemmein-release",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:getpapi/papi:io.github.getpapi/papi#papi-persistent-adaptive-project-intelligence",
       "type": "mcp",
       "name": "PAPI: Persistent Adaptive Project Intelligence",
@@ -167744,6 +168192,55 @@
         "repo": "GoodJobwilliam/aicraft",
         "path": "io.github.GoodJobwilliam/aicraft-code-review",
         "url": "https://github.com/GoodJobwilliam/aicraft",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:gowrishankar-infra/sabline-lang:io.github.gowrishankar-infra/sabline#sabline",
+      "type": "mcp",
+      "name": "Sabline",
+      "description": {
+        "zh": null,
+        "en": "Run code an AI wrote without handing it everything you can reach.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "gowrishankar-infra/sabline-lang",
+        "path": "io.github.gowrishankar-infra/sabline",
+        "url": "https://github.com/gowrishankar-infra/sabline-lang",
         "tier": 0
       },
       "quality": {
@@ -169327,6 +169824,55 @@
         "repo": "iVamsi/droid-agent-kit",
         "path": "io.github.iVamsi/droidagentkit",
         "url": "https://github.com/iVamsi/droid-agent-kit",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:j7an/nexus-mcp:io.github.j7an/nexus-mcp#io.github.j7an-nexus-mcp",
+      "type": "mcp",
+      "name": "io.github.j7an/nexus-mcp",
+      "description": {
+        "zh": null,
+        "en": "Delegate tasks to coding agents (Claude, Codex) from any MCP client",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "j7an/nexus-mcp",
+        "path": "io.github.j7an/nexus-mcp",
+        "url": "https://github.com/j7an/nexus-mcp",
         "tier": 0
       },
       "quality": {
@@ -173943,6 +174489,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:jmshinhwa/readystack-themes:io.github.jmshinhwa/romu-hozon-kikan-lint-jp#io.github.jmshinhwa-romu-hozon-kikan-lint-jp",
+      "type": "mcp",
+      "name": "io.github.jmshinhwa/romu-hozon-kikan-lint-jp",
+      "description": {
+        "zh": "法定帳簿の保存期間を文書保存期間表で検査 — 労基法109条・安衛則51条・石綿則41条・雇用保険法施行規則143条・健保則34条（20 rules）",
+        "en": null,
+        "zhEngine": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "zh",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jmshinhwa/readystack-themes",
+        "path": "io.github.jmshinhwa/romu-hozon-kikan-lint-jp",
+        "url": "https://github.com/jmshinhwa/readystack-themes",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:jmshinhwa/readystack-themes:io.github.jmshinhwa/saft-pt-atcud-lint#io.github.jmshinhwa-saft-pt-atcud-lint",
       "type": "mcp",
       "name": "io.github.jmshinhwa/saft-pt-atcud-lint",
@@ -174260,6 +174855,55 @@
       "source": {
         "repo": "jmshinhwa/readystack-themes",
         "path": "io.github.jmshinhwa/sql-card-data-lint",
+        "url": "https://github.com/jmshinhwa/readystack-themes",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:jmshinhwa/readystack-themes:io.github.jmshinhwa/streitbeilegung-hinweis-lint#io.github.jmshinhwa-streitbeilegung-hinweis-lint",
+      "type": "mcp",
+      "name": "io.github.jmshinhwa/streitbeilegung-hinweis-lint",
+      "description": {
+        "zh": null,
+        "en": "Findet den seit 20.07.2025 toten OS-Plattform-Link, Zitate der aufgehobenen ODR-VO (VO (EU) 2024/322",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jmshinhwa/readystack-themes",
+        "path": "io.github.jmshinhwa/streitbeilegung-hinweis-lint",
         "url": "https://github.com/jmshinhwa/readystack-themes",
         "tier": 0
       },
@@ -174980,6 +175624,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:jxlee007/godot_mcp:io.github.jxlee007/godot-mcp#godot-mcp",
+      "type": "mcp",
+      "name": "Godot MCP",
+      "description": {
+        "zh": null,
+        "en": "Pure-Python FastMCP server for Godot 4 — 28 headless & animation tools. Runs via uvx.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jxlee007/godot_mcp",
+        "path": "io.github.jxlee007/godot-mcp",
+        "url": "https://github.com/jxlee007/godot_mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:jyswee/authshore:io.github.jyswee/authshore#io.github.jyswee-authshore",
       "type": "mcp",
       "name": "io.github.jyswee/authshore",
@@ -175231,7 +175925,7 @@
       "name": "io.github.jyswee/taufunctions",
       "description": {
         "zh": null,
-        "en": "Serverless functions for coding agents. Deploy, invoke, monitor. 13 tools, stdio or remote SSE.",
+        "en": "Serverless functions for coding agents. Deploy, invoke, monitor. 13 tools, stdio or remote.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -175298,6 +175992,56 @@
         "repo": "jyswee/weselltours",
         "path": "io.github.jyswee/weselltours",
         "url": "https://github.com/jyswee/weselltours",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:k-dense-ai/lab-instrument-mcps:io.github.k-dense-ai/labmcp-ocean-spectrometer#ocean-insight-spectrometer",
+      "type": "mcp",
+      "name": "Ocean Insight Spectrometer",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Ocean Insight / Ocean Optics spectrometers (python-seabreeze): acquire spectra, auto",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "K-Dense-AI/lab-instrument-mcps",
+        "path": "io.github.K-Dense-AI/labmcp-ocean-spectrometer",
+        "url": "https://github.com/K-Dense-AI/lab-instrument-mcps",
         "tier": 0
       },
       "quality": {
@@ -180219,6 +180963,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.formslist/mcp#formslist",
+      "type": "mcp",
+      "name": "FormsList",
+      "description": {
+        "zh": null,
+        "en": "Form backend for agents: create a live form endpoint with no signup, configure it, read submissions.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.formslist/mcp",
+        "url": "https://formslist.com/ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.foundry-mcp/foundry-code#foundry-mcp-code-mode",
       "type": "mcp",
       "name": "Foundry MCP code mode",
@@ -181008,12 +181801,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:com.overlayqa/mcp#com.overlayqa-mcp",
+      "id": "mcp:mcp-official:com.opointo/opointo#opointo",
       "type": "mcp",
-      "name": "com.overlayqa/mcp",
+      "name": "opointo",
       "description": {
         "zh": null,
-        "en": "Run accessibility, contrast, and design token audits and file QA issues from your AI coding tool.",
+        "en": "Design a React Native app in a browser and emit it as a real Expo project you own, iOS and Android.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -181022,7 +181815,6 @@
       "lang": "en",
       "categories": [
         "coding",
-        "testing",
         "design"
       ],
       "targets": [
@@ -181030,8 +181822,8 @@
       ],
       "source": {
         "repo": null,
-        "path": "com.overlayqa/mcp",
-        "url": "https://registry.modelcontextprotocol.io/?q=com.overlayqa%2Fmcp",
+        "path": "com.opointo/opointo",
+        "url": "https://opointo.com",
         "tier": 0
       },
       "quality": {
@@ -181059,12 +181851,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:com.parallelsandbox/parallelsandbox#parallelsandbox",
+      "id": "mcp:mcp-official:com.overlayqa/mcp#com.overlayqa-mcp",
       "type": "mcp",
-      "name": "ParallelSandbox",
+      "name": "com.overlayqa/mcp",
       "description": {
         "zh": null,
-        "en": "Remote Linux boxes for coding agents: Docker, a browser, screenshots, logs, human takeover.",
+        "en": "Run accessibility, contrast, and design token audits and file QA issues from your AI coding tool.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -181073,15 +181865,16 @@
       "lang": "en",
       "categories": [
         "coding",
-        "devops"
+        "testing",
+        "design"
       ],
       "targets": [
         "mcp-client"
       ],
       "source": {
         "repo": null,
-        "path": "com.parallelsandbox/parallelsandbox",
-        "url": "https://parallelsandbox.com/en/",
+        "path": "com.overlayqa/mcp",
+        "url": "https://registry.modelcontextprotocol.io/?q=com.overlayqa%2Fmcp",
         "tier": 0
       },
       "quality": {
@@ -181480,6 +182273,56 @@
         "repo": null,
         "path": "com.symvanta/symvanta",
         "url": "https://symvanta.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.tonpit/tonpit#com.tonpit-tonpit",
+      "type": "mcp",
+      "name": "com.tonpit/tonpit",
+      "description": {
+        "zh": null,
+        "en": "Video production studio for AI agents: AI media, motion graphics as code, timeline and export.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.tonpit/tonpit",
+        "url": "https://www.tonpit.com/mcp",
         "tier": 0
       },
       "quality": {
@@ -186402,6 +187245,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mehmoodqureshi/figma-mcp:io.github.mehmoodqureshi/figma-mcp#figma-mcp",
+      "type": "mcp",
+      "name": "figma-mcp",
+      "description": {
+        "zh": null,
+        "en": "Figma to pixel-perfect code: deterministic HTML/React, then a render + pixel-diff verify loop.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Mehmoodqureshi/figma-mcp",
+        "path": "io.github.Mehmoodqureshi/figma-mcp",
+        "url": "https://github.com/Mehmoodqureshi/figma-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mementoagi/memento:io.github.mementoagi/memento#memento",
       "type": "mcp",
       "name": "Memento",
@@ -190642,6 +191535,56 @@
         "repo": "paoloricciuti/letmediff",
         "path": "it.letmediff/mcp",
         "url": "https://github.com/paoloricciuti/letmediff",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:parallel-sandbox/parallelsandbox-mcp:com.parallelsandbox/parallelsandbox#parallelsandbox",
+      "type": "mcp",
+      "name": "ParallelSandbox",
+      "description": {
+        "zh": null,
+        "en": "Remote Linux boxes for coding agents: Docker, a browser, screenshots, logs, human takeover.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "parallel-sandbox/parallelsandbox-mcp",
+        "path": "com.parallelsandbox/parallelsandbox",
+        "url": "https://github.com/parallel-sandbox/parallelsandbox-mcp",
         "tier": 0
       },
       "quality": {
@@ -196113,6 +197056,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:screenbrowser/skill:com.screenbrowser/screenbrowser#screen-browser",
+      "type": "mcp",
+      "name": "Screen Browser",
+      "description": {
+        "zh": null,
+        "en": "Narrated demo and tutorial videos of your web app, from a guide or your coding agent.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "screenbrowser/skill",
+        "path": "com.screenbrowser/screenbrowser",
+        "url": "https://github.com/screenbrowser/skill",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:seanhogg/builderforce.ai:io.github.seanhogg/builderforce#builderforce",
       "type": "mcp",
       "name": "Builderforce",
@@ -196578,6 +197570,55 @@
         "repo": "shanejorr/georgiacommons",
         "path": "org.georgiacommons/georgia-commons",
         "url": "https://github.com/shanejorr/georgiacommons",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:shawmena-dotcom/product-factory:io.github.shawmena-dotcom/zip-data-api#ziplore-us-zip-code-api-(county,-time-zone,-demographics,-ra",
+      "type": "mcp",
+      "name": "Ziplore: US ZIP Code API (county, time zone, demographics, radius)",
+      "description": {
+        "zh": null,
+        "en": "Ziplore: US ZIP to county, FIPS, time zone, Census demographics; radius and city ZIPs. Free, no key.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "shawmena-dotcom/product-factory",
+        "path": "io.github.shawmena-dotcom/zip-data-api",
+        "url": "https://github.com/shawmena-dotcom/product-factory",
         "tier": 0
       },
       "quality": {
@@ -198164,6 +199205,55 @@
         "repo": "sssnl-nl/scanduro",
         "path": "io.github.sssnl-nl/scanduro",
         "url": "https://github.com/sssnl-nl/scanduro",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:stellify-software-ltd/stellify-mcp:io.github.mattstellisoft/stellify-mcp#io.github.mattstellisoft-stellify-mcp",
+      "type": "mcp",
+      "name": "io.github.MattStellisoft/stellify-mcp",
+      "description": {
+        "zh": null,
+        "en": "Build Laravel apps through conversation. Code stored as structured JSON for surgical AI edits.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Stellify-Software-Ltd/stellify-mcp",
+        "path": "io.github.MattStellisoft/stellify-mcp",
+        "url": "https://github.com/Stellify-Software-Ltd/stellify-mcp",
         "tier": 0
       },
       "quality": {
@@ -203659,6 +204749,55 @@
         "repo": "zhurong2020/pyobfus",
         "path": "io.github.zhurong2020/pyobfus-mcp",
         "url": "https://github.com/zhurong2020/pyobfus",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:zma-petterzhang/guardmarket:io.github.zma-petterzhang/guardmarket#guardmarket",
+      "type": "mcp",
+      "name": "GuardMarket",
+      "description": {
+        "zh": null,
+        "en": "MCP client for commerce/data skills; requires a configured GuardMarket backend.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "zma-petterzhang/guardmarket",
+        "path": "io.github.zma-petterzhang/guardmarket",
+        "url": "https://github.com/zma-petterzhang/guardmarket",
         "tier": 0
       },
       "quality": {

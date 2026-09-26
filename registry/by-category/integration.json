@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T21:58:10.044Z",
+  "generatedAt": "2026-09-26T21:47:46.801Z",
   "category": {
     "key": "integration",
     "zh": "三方集成",
@@ -85,7 +85,7 @@
       }
     ]
   },
-  "total": 301,
+  "total": 306,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/slack-gif-creator/skill.md#slack-gif-creator",
@@ -2227,7 +2227,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10241,
+      "stars": 10280,
       "curatedMentions": 1
     },
     {
@@ -2477,7 +2477,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10241,
+      "stars": 10280,
       "curatedMentions": 1
     },
     {
@@ -5072,6 +5072,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:brntech/mobilevalidate-sdk:com.mobilevalidate/mcp#mobilevalidate",
+      "type": "mcp",
+      "name": "MobileValidate",
+      "description": {
+        "zh": null,
+        "en": "Check phone numbers (WhatsApp, Telegram, carrier, spam reputation) and e-mail addresses.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "brntech/mobilevalidate-sdk",
+        "path": "com.mobilevalidate/mcp",
+        "url": "https://github.com/brntech/mobilevalidate-sdk",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:brntech/myotp-agentkit:io.github.brntech/myotp#myotp.app",
       "type": "mcp",
       "name": "MyOTP.App",
@@ -6481,6 +6530,55 @@
       "source": {
         "repo": "ItsBreeze/google-multi-account-mcp",
         "path": "io.github.ItsBreeze/grounders-mcp",
+        "url": "https://github.com/ItsBreeze/google-multi-account-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:itsbreeze/google-multi-account-mcp:io.github.itsbreeze/hub#hub",
+      "type": "mcp",
+      "name": "Hub",
+      "description": {
+        "zh": null,
+        "en": "Multiple Google accounts (Gmail, Calendar, Drive, Contacts, Tasks) in one Claude connector.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ItsBreeze/google-multi-account-mcp",
+        "path": "io.github.ItsBreeze/hub",
         "url": "https://github.com/ItsBreeze/google-multi-account-mcp",
         "tier": 0
       },
@@ -11704,7 +11802,7 @@
       "name": "Google Drive",
       "description": {
         "zh": null,
-        "en": "Google Drive at the file boundary: find, organise, share, transfer and follow what changed.",
+        "en": "Google Drive at the file boundary: find, organize, share, transfer and follow what changed.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -12834,6 +12932,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:psa-team-source/adlibraryspy:io.github.psa-team-source/adlibraryspy#adlibraryspy",
+      "type": "mcp",
+      "name": "AdLibrarySpy",
+      "description": {
+        "zh": null,
+        "en": "Shopify store and ad intelligence: traffic, best sellers, apps, live Meta ads and weekly breakouts.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration",
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "PSA-Team-source/AdLibrarySpy",
+        "path": "io.github.PSA-Team-source/adlibraryspy",
+        "url": "https://github.com/PSA-Team-source/AdLibrarySpy",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:psyb0t/docker-telethon-plus:io.github.psyb0t/telethon-plus#telethon-plus",
       "type": "mcp",
       "name": "Telethon Plus",
@@ -13700,6 +13848,55 @@
         "repo": "SendSeven-GmbH/sendseven-mcp-server",
         "path": "com.sendseven/messaging",
         "url": "https://github.com/SendSeven-GmbH/sendseven-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:shalinianandaphd/ffn:io.github.shalinianandaphd/neuron-sports-ad-exchange#neuron-sports-ad-exchange",
+      "type": "mcp",
+      "name": "Neuron Sports Ad Exchange",
+      "description": {
+        "zh": null,
+        "en": "Autonomous AI sports ad exchange with quote-bound Stripe settlement and live delivery telemetry.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ShaliniAnandaPhD/ffn",
+        "path": "io.github.ShaliniAnandaPhD/neuron-sports-ad-exchange",
+        "url": "https://github.com/ShaliniAnandaPhD/ffn",
         "tier": 0
       },
       "quality": {
@@ -14797,6 +14994,55 @@
         "repo": "ym2629/launchops",
         "path": "io.github.ym2629/lavela",
         "url": "https://github.com/ym2629/launchops",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:yzf75011-ui/prelaunch-radar-mcp:io.github.yzf75011-ui/prelaunch-radar-mcp#new-shopify-stores-radar",
+      "type": "mcp",
+      "name": "New Shopify Stores Radar",
+      "description": {
+        "zh": null,
+        "en": "New and pre-launch Shopify stores from public CT logs: RDAP date, niche, country. No PII.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "yzf75011-ui/prelaunch-radar-mcp",
+        "path": "io.github.yzf75011-ui/prelaunch-radar-mcp",
+        "url": "https://github.com/yzf75011-ui/prelaunch-radar-mcp",
         "tier": 0
       },
       "quality": {

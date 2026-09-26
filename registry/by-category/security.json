@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T21:58:10.044Z",
+  "generatedAt": "2026-09-26T21:47:46.801Z",
   "category": {
     "key": "security",
     "zh": "安全审计",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 857,
+  "total": 862,
   "entries": [
     {
       "id": "skill:composiohq/awesome-claude-skills:composio-skills/ahrefs-automation/skill.md#ahrefs-automation",
@@ -4626,7 +4626,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10241,
+      "stars": 10280,
       "curatedMentions": 1
     },
     {
@@ -4681,7 +4681,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10241,
+      "stars": 10280,
       "curatedMentions": 1
     },
     {
@@ -4931,7 +4931,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10241,
+      "stars": 10280,
       "curatedMentions": 1
     },
     {
@@ -4980,7 +4980,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10241,
+      "stars": 10280,
       "curatedMentions": 1
     },
     {
@@ -5031,7 +5031,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10241,
+      "stars": 10280,
       "curatedMentions": 1
     },
     {
@@ -11578,7 +11578,7 @@
       "name": "io.github.goklab/guardvibe",
       "description": {
         "zh": null,
-        "en": "Deterministic security layer your AI can't be. 479 rules, 39 tools, CLI + doctor + host audit.",
+        "en": "Deterministic security layer your AI can't be. 503 rules, 39 tools, CLI + doctor + host audit.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -12683,55 +12683,6 @@
         "repo": "project-feldspar-resources/feldspar-scan",
         "path": "com.project-feldspar/scan",
         "url": "https://github.com/project-feldspar-resources/feldspar-scan",
-        "tier": 0
-      },
-      "quality": {
-        "score": 24,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 1
-    },
-    {
-      "id": "mcp:pushary/pushary-skill:io.github.pushary/pushary#pushary",
-      "type": "mcp",
-      "name": "Pushary",
-      "description": {
-        "zh": null,
-        "en": "Reach a human from a running agent. Approvals on the lock screen, plus a cross-agent audit trail.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "security"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "Pushary/pushary-skill",
-        "path": "io.github.Pushary/pushary",
-        "url": "https://github.com/Pushary/pushary-skill",
         "tier": 0
       },
       "quality": {
@@ -15857,6 +15808,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:attestd-io/attestd-mcp:io.github.attestd-io/attestd-mcp#io.github.attestd-io-attestd-mcp",
+      "type": "mcp",
+      "name": "io.github.attestd-io/attestd-mcp",
+      "description": {
+        "zh": null,
+        "en": "CVE checks, supply chain signals, live catalog, and CVE detail for MCP clients (infra, PyPI, npm).",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "attestd-io/attestd-mcp",
+        "path": "io.github.attestd-io/attestd-mcp",
+        "url": "https://github.com/attestd-io/attestd-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:attestifyagent/attestify-os:io.github.attestifyagent/attestify-os#io.github.attestifyagent-attestify-os",
       "type": "mcp",
       "name": "io.github.attestifyagent/attestify-os",
@@ -17808,6 +17808,55 @@
         "repo": "Cybercentry/verification-mcp",
         "path": "uk.co.cybercentry/verification",
         "url": "https://github.com/Cybercentry/verification-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:cybermax-tools/product-factory:io.github.cybermax-tools/domain-intel#domaindna-tech-stack-detector,-whois-&-domain-age-api",
+      "type": "mcp",
+      "name": "DomainDNA: Tech Stack Detector, WHOIS & Domain Age API",
+      "description": {
+        "zh": null,
+        "en": "DomainDNA: a domain's tech stack, email security (MX/SPF/DMARC), TLS expiry and age in one record.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "CyberMax-tools/product-factory",
+        "path": "io.github.CyberMax-tools/domain-intel",
+        "url": "https://github.com/CyberMax-tools/product-factory",
         "tier": 0
       },
       "quality": {
@@ -21475,55 +21524,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:gowrishankar-infra/sabline-lang:io.github.gowrishankar-infra/sabline#sabline",
-      "type": "mcp",
-      "name": "Sabline",
-      "description": {
-        "zh": null,
-        "en": "Write Sabline, audit what it can touch, and run it under an effect budget.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "security"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "gowrishankar-infra/sabline-lang",
-        "path": "io.github.gowrishankar-infra/sabline",
-        "url": "https://github.com/gowrishankar-infra/sabline-lang",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:gowrishankar-infra/velaris-lang:io.github.gowrishankar-infra/velaris#velaris",
       "type": "mcp",
       "name": "Velaris",
@@ -21896,6 +21896,56 @@
         "repo": "Hiroshi-Ichiyanagi/kagami",
         "path": "io.github.Hiroshi-Ichiyanagi/kagami",
         "url": "https://github.com/Hiroshi-Ichiyanagi/kagami",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:homeofe/supply-chain-guard:io.github.homeofe/supply-chain-guard#io.github.homeofe-supply-chain-guard",
+      "type": "mcp",
+      "name": "io.github.homeofe/supply-chain-guard",
+      "description": {
+        "zh": null,
+        "en": "Supply-chain malware scanner and MCP server: vet packages in 15 ecosystems before install, offline.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "homeofe/supply-chain-guard",
+        "path": "io.github.homeofe/supply-chain-guard",
+        "url": "https://github.com/homeofe/supply-chain-guard",
         "tier": 0
       },
       "quality": {
@@ -22542,6 +22592,55 @@
         "repo": "ItzxFin2323/agent-venue-radar",
         "path": "io.github.ItzxFin2323/agent-venue-radar",
         "url": "https://github.com/ItzxFin2323/agent-venue-radar",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:jam0k/threat-intelligence-mcp:io.github.jam0k/threatcluster#io.github.jam0k-threatcluster",
+      "type": "mcp",
+      "name": "io.github.Jam0k/threatcluster",
+      "description": {
+        "zh": null,
+        "en": "Live threat intel for agents: incidents, actors, CVEs with KEV/EPSS, ransomware leak-site victims.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Jam0k/Threat-Intelligence-MCP",
+        "path": "io.github.Jam0k/threatcluster",
+        "url": "https://github.com/Jam0k/Threat-Intelligence-MCP",
         "tier": 0
       },
       "quality": {
@@ -25497,55 +25596,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:linxule/vox-mcp:io.github.linxule/vox-mcp#vox-mcp",
-      "type": "mcp",
-      "name": "Vox MCP",
-      "description": {
-        "zh": null,
-        "en": "Multi-model AI gateway — 8 providers plus local models, no system prompt injection.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "security"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "linxule/vox-mcp",
-        "path": "io.github.linxule/vox-mcp",
-        "url": "https://github.com/linxule/vox-mcp",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:lm203688/aishield:io.github.lm203688/aishield#aishield-security-scanner",
       "type": "mcp",
       "name": "AIShield Security Scanner",
@@ -26947,7 +26997,7 @@
       "source": {
         "repo": null,
         "path": "ai.probitylabs/wallet-reputation",
-        "url": "https://www.probitylabs.ai",
+        "url": "https://www.probitylabs.ai/docs",
         "tier": 0
       },
       "quality": {
@@ -30237,6 +30287,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:dev.certdesk/certdesk#certdesk",
+      "type": "mcp",
+      "name": "certdesk",
+      "description": {
+        "zh": null,
+        "en": "TLS certificate diagnostics: served-cert expiry, chain, security grade, error explainer, alerts",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "dev.certdesk/certdesk",
+        "url": "https://certdesk.dev/en/api/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:dev.flarehq/security#flare",
       "type": "mcp",
       "name": "Flare",
@@ -33415,6 +33514,55 @@
         "repo": null,
         "path": "news.prh/revenue-agent",
         "url": "https://agent.prh.news",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ninja.selfmade/labs#selfmade-ninja-labs",
+      "type": "mcp",
+      "name": "Selfmade Ninja Labs",
+      "description": {
+        "zh": null,
+        "en": "Real Linux labs your AI agent deploys, routes and runs, with domains, TLS, DBs and an audit log.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ninja.selfmade/labs",
+        "url": "https://docs.selfmade.ninja/ai/mcp/",
         "tier": 0
       },
       "quality": {
@@ -37295,7 +37443,7 @@
       "name": "Presend MCP Server",
       "description": {
         "zh": null,
-        "en": "Free MCP server: 36 security & dev API tools -- WHOIS, DNS, CVE, IP reputation, Cosmos SDK.",
+        "en": "Free MCP server of security & dev API tools -- supply-chain, CVE, DNS, WHOIS, OFAC, Cosmos SDK.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -37656,9 +37804,9 @@
         "mcp-client"
       ],
       "source": {
-        "repo": "RelayShield/relayshield-mcp",
+        "repo": "relayshield/relayshield-mcp",
         "path": "io.github.nzdsf2-gif/relayshield-mcp",
-        "url": "https://github.com/RelayShield/relayshield-mcp",
+        "url": "https://github.com/relayshield/relayshield-mcp",
         "tier": 0
       },
       "quality": {
@@ -37710,6 +37858,55 @@
         "repo": "riverliu8/inxy-mcp",
         "path": "ai.inxy/seo-audit",
         "url": "https://github.com/riverliu8/inxy-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:robyroro/osint-mcp:io.github.robyroro/osint-mcp#osint",
+      "type": "mcp",
+      "name": "OSINT",
+      "description": {
+        "zh": null,
+        "en": "Passive OSINT recon for domains and IPs: whois, DNS, CT logs, email security, TLS, ASN, Shodan",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "robyroro/osint-mcp",
+        "path": "io.github.robyroro/osint-mcp",
+        "url": "https://github.com/robyroro/osint-mcp",
         "tier": 0
       },
       "quality": {
@@ -39490,6 +39687,56 @@
         "repo": "sujirodev/termix-mcp",
         "path": "io.github.sujirodev/termix-mcp",
         "url": "https://github.com/sujirodev/termix-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:sumedhchatse/agentraas:io.github.sumedhchatse/agentraas#agentraas-wrap",
+      "type": "mcp",
+      "name": "AgentRaaS wrap",
+      "description": {
+        "zh": null,
+        "en": "Wraps any MCP server: identical write-tool calls run once, and every tool call is audit-logged.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "sumedhchatse/agentraas",
+        "path": "io.github.sumedhchatse/agentraas",
+        "url": "https://github.com/sumedhchatse/agentraas",
         "tier": 0
       },
       "quality": {
