@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T21:50:14.587Z",
+  "generatedAt": "2026-09-28T23:40:20.338Z",
   "type": "plugin",
   "label": {
     "zh": "插件",
@@ -5729,7 +5729,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31988,
+      "stars": 32074,
       "curatedMentions": 2
     },
     {
@@ -5779,7 +5779,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31988,
+      "stars": 32074,
       "curatedMentions": 2
     },
     {
@@ -5830,7 +5830,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31988,
+      "stars": 32074,
       "curatedMentions": 2
     },
     {
@@ -5880,7 +5880,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31988,
+      "stars": 32074,
       "curatedMentions": 2
     },
     {
@@ -5930,7 +5930,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31988,
+      "stars": 32074,
       "curatedMentions": 2
     },
     {
@@ -5980,7 +5980,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31988,
+      "stars": 32074,
       "curatedMentions": 2
     },
     {
@@ -6030,7 +6030,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31988,
+      "stars": 32074,
       "curatedMentions": 2
     },
     {
@@ -6080,7 +6080,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31988,
+      "stars": 32074,
       "curatedMentions": 2
     },
     {
@@ -6130,7 +6130,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31988,
+      "stars": 32074,
       "curatedMentions": 2
     },
     {
@@ -6180,7 +6180,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31988,
+      "stars": 32074,
       "curatedMentions": 2
     },
     {
@@ -6230,7 +6230,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31988,
+      "stars": 32074,
       "curatedMentions": 2
     },
     {
@@ -6281,7 +6281,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31988,
+      "stars": 32074,
       "curatedMentions": 2
     },
     {
@@ -6332,7 +6332,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31988,
+      "stars": 32074,
       "curatedMentions": 2
     },
     {
@@ -6381,7 +6381,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31988,
+      "stars": 32074,
       "curatedMentions": 2
     },
     {
@@ -6430,7 +6430,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31988,
+      "stars": 32074,
       "curatedMentions": 2
     },
     {
@@ -6479,7 +6479,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31988,
+      "stars": 32074,
       "curatedMentions": 2
     },
     {
@@ -6529,7 +6529,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31988,
+      "stars": 32074,
       "curatedMentions": 2
     },
     {
@@ -6578,7 +6578,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31988,
+      "stars": 32074,
       "curatedMentions": 2
     },
     {
@@ -6628,7 +6628,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31988,
+      "stars": 32074,
       "curatedMentions": 2
     },
     {
@@ -6637,7 +6637,7 @@
       "name": "jev-vercel-sandbox",
       "description": {
         "zh": null,
-        "en": "Runs dangerous Bash commands in a Vercel Sandbox instead of on your machine. TypeSafe's Jev judges every command Claude is about to run (destructive, remote code, a change to the machine, data leaving it); one past the threshold runs in an isolated Linux microVM started with the session, and its output comes back as the Bash result with a note telling Claude where it ran. A side pane shows the sandbox is ready and what ran there. Falls back to the engine's built-in classifier when no Jev key is set. Needs function hooks (early access).",
+        "en": "A Vercel Sandbox Claude sends work to on purpose: long test runs in the background, someone else's repository, an installer of unknown origin, a bulk change to preview as a patch, a clean build. TypeSafe's Jev reads each Bash command and spots those jobs; by default you are asked whether it runs in the sandbox or locally (confirmSandbox), or it always goes to the sandbox with the question off. Claude also gets sandbox_run, sandbox_jobs, sandbox_result and sandbox_apply. Each job starts from the project as it is now (tracked files, credentials left out) in its own worktree, every result is mark",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -6645,8 +6645,7 @@
       },
       "lang": "en",
       "categories": [
-        "devops",
-        "coding"
+        "devops"
       ],
       "targets": [
         "claude-code"
@@ -6678,7 +6677,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31988,
+      "stars": 32074,
       "curatedMentions": 2
     },
     {
@@ -6729,7 +6728,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31988,
+      "stars": 32074,
       "curatedMentions": 2
     },
     {
@@ -6779,7 +6778,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31988,
+      "stars": 32074,
       "curatedMentions": 2
     },
     {
@@ -6829,7 +6828,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31988,
+      "stars": 32074,
       "curatedMentions": 2
     },
     {
@@ -6879,7 +6878,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31988,
+      "stars": 32074,
       "curatedMentions": 2
     },
     {
@@ -6930,7 +6929,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31988,
+      "stars": 32074,
       "curatedMentions": 2
     },
     {
@@ -6981,7 +6980,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 31988,
+      "stars": 32074,
       "curatedMentions": 2
     },
     {
@@ -7031,7 +7030,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 31988,
+      "stars": 32074,
       "curatedMentions": 2
     },
     {
@@ -7081,7 +7080,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 31988,
+      "stars": 32074,
       "curatedMentions": 2
     },
     {
@@ -7131,7 +7130,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 31988,
+      "stars": 32074,
       "curatedMentions": 2
     },
     {
@@ -7181,7 +7180,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 31988,
+      "stars": 32074,
       "curatedMentions": 2
     },
     {
@@ -7231,7 +7230,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 31988,
+      "stars": 32074,
       "curatedMentions": 2
     },
     {
@@ -7281,7 +7280,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 31988,
+      "stars": 32074,
       "curatedMentions": 2
     },
     {
@@ -7331,7 +7330,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 31988,
+      "stars": 32074,
       "curatedMentions": 2
     },
     {
@@ -7382,7 +7381,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 31988,
+      "stars": 32074,
       "curatedMentions": 2
     },
     {
@@ -7432,7 +7431,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10292,
+      "stars": 10351,
       "curatedMentions": 1
     },
     {
@@ -7481,7 +7480,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10292,
+      "stars": 10351,
       "curatedMentions": 1
     },
     {
@@ -7531,7 +7530,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10292,
+      "stars": 10351,
       "curatedMentions": 1
     },
     {
@@ -7581,7 +7580,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10292,
+      "stars": 10351,
       "curatedMentions": 1
     },
     {
@@ -7630,7 +7629,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10292,
+      "stars": 10351,
       "curatedMentions": 1
     },
     {
@@ -7679,7 +7678,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10292,
+      "stars": 10351,
       "curatedMentions": 1
     },
     {
@@ -7728,7 +7727,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10292,
+      "stars": 10351,
       "curatedMentions": 1
     },
     {
@@ -7777,7 +7776,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10292,
+      "stars": 10351,
       "curatedMentions": 1
     },
     {
@@ -7827,7 +7826,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10292,
+      "stars": 10351,
       "curatedMentions": 1
     },
     {
@@ -7876,7 +7875,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10292,
+      "stars": 10351,
       "curatedMentions": 1
     },
     {
@@ -7884,7 +7883,7 @@
       "type": "plugin",
       "name": "dbs-content-value",
       "description": {
-        "zh": "评估内容开头能否吸引观众继续，分析受众、流量反应和商业价值，并给出优先修改方向。适用于发布前评估、低流量诊断和内容方向比较。",
+        "zh": "评估发布前或低流量内容会吸引谁、开头能否留人，以及流量和商业价值；适用于整体内容表现判断，不负责传播机制解读、整篇逐句改稿或短视频开头代写。",
         "en": null,
         "zhEngine": null,
         "needsTranslation": [
@@ -7893,7 +7892,9 @@
       },
       "lang": "zh",
       "categories": [
-        "business"
+        "writing",
+        "business",
+        "media"
       ],
       "targets": [
         "claude-code"
@@ -7925,7 +7926,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10292,
+      "stars": 10351,
       "curatedMentions": 1
     },
     {
@@ -7974,7 +7975,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10292,
+      "stars": 10351,
       "curatedMentions": 1
     },
     {
@@ -8023,7 +8024,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10292,
+      "stars": 10351,
       "curatedMentions": 1
     },
     {
@@ -8073,7 +8074,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10292,
+      "stars": 10351,
       "curatedMentions": 1
     },
     {
@@ -8122,7 +8123,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10292,
+      "stars": 10351,
       "curatedMentions": 1
     },
     {
@@ -8171,7 +8172,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10292,
+      "stars": 10351,
       "curatedMentions": 1
     },
     {
@@ -8179,7 +8180,7 @@
       "type": "plugin",
       "name": "dbs-hook",
       "description": {
-        "zh": "dontbesilent 短视频开头优化。诊断开头问题 + 生成优化方案。",
+        "zh": "专门诊断并改写短视频开头，提供多套前几秒的具体开场方案；不负责整条内容的受众、流量和商业价值评估。",
         "en": null,
         "zhEngine": null,
         "needsTranslation": [
@@ -8189,6 +8190,7 @@
       "lang": "zh",
       "categories": [
         "writing",
+        "business",
         "media"
       ],
       "targets": [
@@ -8221,7 +8223,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10292,
+      "stars": 10351,
       "curatedMentions": 1
     },
     {
@@ -8271,7 +8273,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10292,
+      "stars": 10351,
       "curatedMentions": 1
     },
     {
@@ -8320,7 +8322,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10292,
+      "stars": 10351,
       "curatedMentions": 1
     },
     {
@@ -8369,7 +8371,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10292,
+      "stars": 10351,
       "curatedMentions": 1
     },
     {
@@ -8418,7 +8420,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10292,
+      "stars": 10351,
       "curatedMentions": 1
     },
     {
@@ -8467,7 +8469,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10292,
+      "stars": 10351,
       "curatedMentions": 1
     },
     {
@@ -8475,7 +8477,7 @@
       "type": "plugin",
       "name": "dbs-resonate",
       "description": {
-        "zh": "文稿共鸣诊断。写完文稿但心里没底——怕没流量、怕没戳中观众、怕完播率低。用传播心理学框架诊断文稿有没有引起共鸣、哪里出了问题、具体怎么改。",
+        "zh": "诊断已经写成的稿件哪里没有打中目标受众，结合原句解释共鸣断点并提出具体删改建议；不负责整体流量与商业价值评估，也不以解释已发布内容的传播机制为主要交付。",
         "en": null,
         "zhEngine": null,
         "needsTranslation": [
@@ -8484,7 +8486,7 @@
       },
       "lang": "zh",
       "categories": [
-        "other"
+        "business"
       ],
       "targets": [
         "claude-code"
@@ -8516,7 +8518,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10292,
+      "stars": 10351,
       "curatedMentions": 1
     },
     {
@@ -8565,7 +8567,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10292,
+      "stars": 10351,
       "curatedMentions": 1
     },
     {
@@ -8614,7 +8616,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10292,
+      "stars": 10351,
       "curatedMentions": 1
     },
     {
@@ -8665,7 +8667,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10292,
+      "stars": 10351,
       "curatedMentions": 1
     },
     {
@@ -8714,7 +8716,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10292,
+      "stars": 10351,
       "curatedMentions": 1
     },
     {
@@ -8722,7 +8724,7 @@
       "type": "plugin",
       "name": "dbs-spread",
       "description": {
-        "zh": "传播心理解码。给定一段内容，选择匹配的传播学与社会心理学理论，分析主导共鸣机制、受众情绪、有效立场和传播动机，输出聊天室的讨论方向。",
+        "zh": "解释一段已有内容为什么引发共鸣、情绪或分享，识别传播机制、有效立场和受众动机，并提炼讨论方向；不负责整篇逐句改稿或整体流量和商业价值评估。",
         "en": null,
         "zhEngine": null,
         "needsTranslation": [
@@ -8731,7 +8733,7 @@
       },
       "lang": "zh",
       "categories": [
-        "other"
+        "business"
       ],
       "targets": [
         "claude-code"
@@ -8763,7 +8765,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10292,
+      "stars": 10351,
       "curatedMentions": 1
     },
     {
@@ -8812,7 +8814,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10292,
+      "stars": 10351,
       "curatedMentions": 1
     },
     {
@@ -8861,7 +8863,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10292,
+      "stars": 10351,
       "curatedMentions": 1
     },
     {
@@ -8910,7 +8912,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10292,
+      "stars": 10351,
       "curatedMentions": 1
     },
     {
@@ -8960,7 +8962,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10292,
+      "stars": 10351,
       "curatedMentions": 1
     },
     {
@@ -9010,7 +9012,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10292,
+      "stars": 10351,
       "curatedMentions": 1
     },
     {
@@ -9059,7 +9061,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10292,
+      "stars": 10351,
       "curatedMentions": 1
     },
     {
@@ -9108,7 +9110,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10292,
+      "stars": 10351,
       "curatedMentions": 1
     },
     {
