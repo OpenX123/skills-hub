@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T23:40:20.338Z",
+  "generatedAt": "2026-09-29T22:49:44.912Z",
   "category": {
     "key": "business",
     "zh": "商业营销",
@@ -81,62 +81,8 @@
       }
     ]
   },
-  "total": 721,
+  "total": 745,
   "entries": [
-    {
-      "id": "skill:anthropics/skills:skills/claude-api/skill.md#claude-api",
-      "type": "skill",
-      "name": "claude-api",
-      "description": {
-        "zh": null,
-        "en": "Reference for the Claude API / Anthropic SDK — model ids, pricing, params, streaming, tool use, MCP, agents, caching, token counting, model migration. TRIGGER — read BEFORE opening the target file; don't skip because it \"looks like a one-liner\" — whenever: the prompt names Claude/Anthropic in any form (Claude, Anthropic, Fable, Opus, Sonnet, Haiku, `anthropic`, `@anthropic-ai`, `claude-*`, `us.anthropic.*`, `[1m]`); the user asks about an LLM (pricing/model choice/limits/caching) — never answer from memory; OR the task is LLM-shaped with provider unstated (agent/MCP/tool-definition/multi-agent",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "database",
-        "business"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "anthropics/skills",
-        "path": "skills/claude-api/SKILL.md",
-        "url": "https://github.com/anthropics/skills/blob/HEAD/skills/claude-api/SKILL.md",
-        "tier": 0
-      },
-      "quality": {
-        "score": 100,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 177977,
-      "curatedMentions": 8
-    },
     {
       "id": "skill:composiohq/awesome-claude-skills:competitive-ads-extractor/skill.md#competitive-ads-extractor",
       "type": "skill",
@@ -1188,7 +1134,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 89,
+        "score": 88,
         "gates": {
           "security": true,
           "schema": true,
@@ -1238,7 +1184,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 89,
+        "score": 88,
         "gates": {
           "security": true,
           "schema": true,
@@ -1287,7 +1233,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 89,
+        "score": 88,
         "gates": {
           "security": true,
           "schema": true,
@@ -1338,7 +1284,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 89,
+        "score": 88,
         "gates": {
           "security": true,
           "schema": true,
@@ -1388,7 +1334,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 89,
+        "score": 88,
         "gates": {
           "security": true,
           "schema": true,
@@ -1438,7 +1384,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 89,
+        "score": 88,
         "gates": {
           "security": true,
           "schema": true,
@@ -1489,7 +1435,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 89,
+        "score": 88,
         "gates": {
           "security": true,
           "schema": true,
@@ -1539,7 +1485,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 89,
+        "score": 88,
         "gates": {
           "security": true,
           "schema": true,
@@ -1588,7 +1534,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 89,
+        "score": 88,
         "gates": {
           "security": true,
           "schema": true,
@@ -1771,6 +1717,60 @@
       "familySize": 20,
       "stars": 70870,
       "curatedMentions": 5
+    },
+    {
+      "id": "skill:anthropics/skills:skills/claude-api/skill.md#claude-api",
+      "type": "skill",
+      "name": "claude-api",
+      "description": {
+        "zh": null,
+        "en": "Reference for the Claude API / Anthropic SDK — model ids, pricing, params, streaming, tool use, MCP, agents, caching, token counting, model migration. TRIGGER — read BEFORE opening the target file; don't skip because it \"looks like a one-liner\" — whenever: the prompt names Claude/Anthropic in any form (Claude, Anthropic, Fable, Opus, Sonnet, Haiku, `anthropic`, `@anthropic-ai`, `claude-*`, `us.anthropic.*`, `[1m]`); the user asks about an LLM (pricing/model choice/limits/caching) — never answer from memory; OR the task is LLM-shaped with provider unstated (agent/MCP/tool-definition/multi-agent",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database",
+        "business"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "anthropics/skills",
+        "path": "skills/claude-api/SKILL.md",
+        "url": "https://github.com/anthropics/skills/blob/HEAD/skills/claude-api/SKILL.md",
+        "tier": 0
+      },
+      "quality": {
+        "score": 78,
+        "gates": {
+          "security": false,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": false,
+        "recommended": false
+      },
+      "risk": {
+        "level": "high",
+        "score": 74
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 178995,
+      "curatedMentions": 8
     },
     {
       "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/business-marketing/app-builder/templates/skill.md#templates",
@@ -5160,7 +5160,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -5891,7 +5891,7 @@
       "name": "Hermoso",
       "description": {
         "zh": null,
-        "en": "Marketing on autopilot from your agent. 863 tools, usable alone. Publishing and ads cost no credits.",
+        "en": "Marketing on autopilot from your agent. 864 tools, usable alone. Publishing and ads cost no credits.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -8778,6 +8778,55 @@
         "repo": "ashrunscode/washbodega",
         "path": "com.washbodega/service-discovery",
         "url": "https://github.com/ashrunscode/washbodega",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:atmosphere-technologies/atmosphere_app:br.com.oportunidados/mcp#oportunidados",
+      "type": "mcp",
+      "name": "Oportunidados",
+      "description": {
+        "zh": null,
+        "en": "Empresas do Brasil (CNPJ) e CRM da Oportunidados: busca, ficha completa, conta e funil.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Atmosphere-Technologies/atmosphere_app",
+        "path": "br.com.oportunidados/mcp",
+        "url": "https://github.com/Atmosphere-Technologies/atmosphere_app",
         "tier": 0
       },
       "quality": {
@@ -12228,6 +12277,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:gray-penguin/needtofind:app.needtofind/needtofind#needtofind",
+      "type": "mcp",
+      "name": "NeedToFind",
+      "description": {
+        "zh": null,
+        "en": "Reverse marketplace: post what you want, search wanted ads, and message sellers privately.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "research",
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "gray-penguin/NeedToFind",
+        "path": "app.needtofind/needtofind",
+        "url": "https://github.com/gray-penguin/NeedToFind",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:gudlab/ads-mcp:io.github.gudlab/ads-mcp#io.github.gudlab-ads-mcp",
       "type": "mcp",
       "name": "io.github.gudlab/ads-mcp",
@@ -12695,6 +12794,55 @@
         "repo": "hypernaturalai/hypernatural-mcp",
         "path": "ai.hypernatural/hypernatural",
         "url": "https://github.com/hypernaturalai/hypernatural-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:iamdlm/saras-list-jobs:io.github.iamdlm/saras-list#io.github.iamdlm-saras-list",
+      "type": "mcp",
+      "name": "io.github.iamdlm/saras-list",
+      "description": {
+        "zh": null,
+        "en": "Read-only tools over Sara's List: growth-stage companies, open roles and equity forecasts.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "iamdlm/saras-list-jobs",
+        "path": "io.github.iamdlm/saras-list",
+        "url": "https://github.com/iamdlm/saras-list-jobs",
         "tier": 0
       },
       "quality": {
@@ -14746,6 +14894,104 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:m190/usefulapi-mcp:io.usefulapi/copper#io.usefulapi-copper",
+      "type": "mcp",
+      "name": "io.usefulapi/copper",
+      "description": {
+        "zh": null,
+        "en": "Read and write Copper CRM people, companies, opportunities and activities.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "m190/usefulapi-mcp",
+        "path": "io.usefulapi/copper",
+        "url": "https://github.com/m190/usefulapi-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:m190/usefulapi-mcp:io.usefulapi/folk#io.usefulapi-folk",
+      "type": "mcp",
+      "name": "io.usefulapi/folk",
+      "description": {
+        "zh": null,
+        "en": "Read and write Folk CRM people, companies, groups and notes.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "m190/usefulapi-mcp",
+        "path": "io.usefulapi/folk",
+        "url": "https://github.com/m190/usefulapi-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:m190/usefulapi-mcp:io.usefulapi/gumroad#io.usefulapi-gumroad",
       "type": "mcp",
       "name": "io.usefulapi/gumroad",
@@ -14767,6 +15013,251 @@
       "source": {
         "repo": "m190/usefulapi-mcp",
         "path": "io.usefulapi/gumroad",
+        "url": "https://github.com/m190/usefulapi-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:m190/usefulapi-mcp:io.usefulapi/hetzner-cloud#io.usefulapi-hetzner-cloud",
+      "type": "mcp",
+      "name": "io.usefulapi/hetzner-cloud",
+      "description": {
+        "zh": null,
+        "en": "Servers, volumes, networks, firewalls, load balancers, pricing and safe power operations.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "m190/usefulapi-mcp",
+        "path": "io.usefulapi/hetzner-cloud",
+        "url": "https://github.com/m190/usefulapi-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:m190/usefulapi-mcp:io.usefulapi/less-annoying-crm#io.usefulapi-less-annoying-crm",
+      "type": "mcp",
+      "name": "io.usefulapi/less-annoying-crm",
+      "description": {
+        "zh": null,
+        "en": "Read and write Less Annoying CRM contacts, notes, tasks, events, pipelines and groups.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "m190/usefulapi-mcp",
+        "path": "io.usefulapi/less-annoying-crm",
+        "url": "https://github.com/m190/usefulapi-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:m190/usefulapi-mcp:io.usefulapi/mindbody#io.usefulapi-mindbody",
+      "type": "mcp",
+      "name": "io.usefulapi/mindbody",
+      "description": {
+        "zh": null,
+        "en": "Read Mindbody classes, schedules, clients, staff and sales; book clients and appointments.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "m190/usefulapi-mcp",
+        "path": "io.usefulapi/mindbody",
+        "url": "https://github.com/m190/usefulapi-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:m190/usefulapi-mcp:io.usefulapi/moosend#io.usefulapi-moosend",
+      "type": "mcp",
+      "name": "io.usefulapi/moosend",
+      "description": {
+        "zh": null,
+        "en": "Inspect Moosend lists, subscribers, segments and campaign stats, and add or unsubscribe subscribers.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "m190/usefulapi-mcp",
+        "path": "io.usefulapi/moosend",
+        "url": "https://github.com/m190/usefulapi-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:m190/usefulapi-mcp:io.usefulapi/neon-crm#io.usefulapi-neon-crm",
+      "type": "mcp",
+      "name": "io.usefulapi/neon-crm",
+      "description": {
+        "zh": null,
+        "en": "Search Neon CRM accounts, donations, memberships and events; create accounts and activities.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "m190/usefulapi-mcp",
+        "path": "io.usefulapi/neon-crm",
         "url": "https://github.com/m190/usefulapi-mcp",
         "tier": 0
       },
@@ -14865,6 +15356,56 @@
       "source": {
         "repo": "m190/usefulapi-mcp",
         "path": "io.usefulapi/twenty",
+        "url": "https://github.com/m190/usefulapi-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:m190/usefulapi-mcp:io.usefulapi/virtuous-crm#io.usefulapi-virtuous-crm",
+      "type": "mcp",
+      "name": "io.usefulapi/virtuous-crm",
+      "description": {
+        "zh": null,
+        "en": "Search donors and contacts, giving history, notes and projects, and log notes, tags and gifts.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "m190/usefulapi-mcp",
+        "path": "io.usefulapi/virtuous-crm",
         "url": "https://github.com/m190/usefulapi-mcp",
         "tier": 0
       },
@@ -15978,6 +16519,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:ae.projectory/mcp#projectory",
+      "type": "mcp",
+      "name": "Projectory",
+      "description": {
+        "zh": null,
+        "en": "Find UAE off-plan developments and registered residential sales.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ae.projectory/mcp",
+        "url": "https://projectory.ae/mcp/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:agency.justidea/justidea-agency#justidea-agency",
       "type": "mcp",
       "name": "JustIdea Agency",
@@ -16643,6 +17233,55 @@
         "repo": null,
         "path": "ai.diezx/diezx",
         "url": "https://app.diezx.ai/docs/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.easyterritory/ezt-mcp#easyterritory-mcp",
+      "type": "mcp",
+      "name": "EasyTerritory MCP",
+      "description": {
+        "zh": null,
+        "en": "Build, balance, realign and analyze sales/service territories; geocode, route, schedule, live map.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.easyterritory/ezt-mcp",
+        "url": "https://easyterritory.ai",
         "tier": 0
       },
       "quality": {
@@ -17381,6 +18020,55 @@
         "repo": null,
         "path": "ai.tunnelmind/sigil",
         "url": "https://tunnelmind.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.universalagents/universal-agents#universal-agents",
+      "type": "mcp",
+      "name": "Universal Agents",
+      "description": {
+        "zh": null,
+        "en": "Ask Universal Agents what we sell (Interplay), pricing, and FAQs; draft an intro email.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.universalagents/universal-agents",
+        "url": "https://universalagents.ai",
         "tier": 0
       },
       "quality": {
@@ -18250,6 +18938,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:chat.prowl/prowl-mcp#prowl-mcp",
+      "type": "mcp",
+      "name": "Prowl MCP",
+      "description": {
+        "zh": null,
+        "en": "Real-world market data for AI agents: 444 pay-per-call tools (SEO, ads, social, trends, finance)",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "chat.prowl/prowl-mcp",
+        "url": "https://registry.modelcontextprotocol.io/?q=chat.prowl%2Fprowl-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:cloud.fikst/crm#fikst",
       "type": "mcp",
       "name": "Fikst",
@@ -18718,6 +19456,55 @@
         "repo": null,
         "path": "co.quibbly/linkedin-inbox",
         "url": "https://quibbly.co/docs/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:co.rahuldsarker/growth-tools#rahul-d-sarker-marketing-&-revops-tools",
+      "type": "mcp",
+      "name": "Rahul D Sarker: Marketing & RevOps Tools",
+      "description": {
+        "zh": null,
+        "en": "111 marketing, RevOps and SaaS calculators, plus article search and live call booking.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "co.rahuldsarker/growth-tools",
+        "url": "https://rahuldsarker.co/mcp",
         "tier": 0
       },
       "quality": {
@@ -20716,6 +21503,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.formaportal/mcp#formaportal",
+      "type": "mcp",
+      "name": "FormaPortal",
+      "description": {
+        "zh": null,
+        "en": "Ask your customer portal and CRM anything, in plain English",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.formaportal/mcp",
+        "url": "https://www.formaportal.com/features/mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.fortvision.app/fortvision#fortvision",
       "type": "mcp",
       "name": "FORTVISION",
@@ -20738,6 +21574,55 @@
         "repo": null,
         "path": "com.fortvision.app/fortvision",
         "url": "https://fortvision.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.getdextego/dextego#com.getdextego-dextego",
+      "type": "mcp",
+      "name": "com.getdextego/dextego",
+      "description": {
+        "zh": null,
+        "en": "Sales coaching data in your AI assistant: calls, Influence Scores, objections and meeting prep.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.getdextego/dextego",
+        "url": "https://dextego.com/mcp",
         "tier": 0
       },
       "quality": {
@@ -21060,12 +21945,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:com.howtomakemoneyonsnapchat/creator-monetization#howtomakemoneyonsnapchat.com-creator-monetization-rules",
+      "id": "mcp:mcp-official:com.howtomakemoneyonsnapchat/creator-monetization#how-to-make-money-on-snapchat",
       "type": "mcp",
-      "name": "HowToMakeMoneyOnSnapchat.com: Creator Monetization Rules",
+      "name": "How To Make Money On Snapchat",
       "description": {
         "zh": null,
-        "en": "Snapchat creator monetization rules and calculators. Independent; not affiliated with Snap Inc.",
+        "en": "Read-only published criteria. Not affiliated with, endorsed by, or sponsored by Snap Inc.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -21081,7 +21966,7 @@
       "source": {
         "repo": null,
         "path": "com.howtomakemoneyonsnapchat/creator-monetization",
-        "url": "https://howtomakemoneyonsnapchat.com",
+        "url": "https://howtomakemoneyonsnapchat.com/snapchat-mcp",
         "tier": 0
       },
       "quality": {
@@ -21278,6 +22163,57 @@
         "repo": null,
         "path": "com.killionapps/promotion-allocation",
         "url": "https://registry.modelcontextprotocol.io/?q=com.killionapps%2Fpromotion-allocation",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.launchranked/mcp#launchranked",
+      "type": "mcp",
+      "name": "LaunchRanked",
+      "description": {
+        "zh": null,
+        "en": "Live SEO and AI-search audits of any website, plus startup directories matched to your product.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business",
+        "writing",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.launchranked/mcp",
+        "url": "https://launchranked.com/docs/mcp",
         "tier": 0
       },
       "quality": {
@@ -22688,6 +23624,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.resellportal/mcp#resellportal",
+      "type": "mcp",
+      "name": "ResellPortal",
+      "description": {
+        "zh": null,
+        "en": "White-label reseller platform: eSIM, VPN, SMM, AI tools, CRM, hosting. Prices, clients and orders.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.resellportal/mcp",
+        "url": "https://resellportal.com/api",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.risetive/mcp#risetive",
       "type": "mcp",
       "name": "Risetive",
@@ -22935,6 +23920,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.screenrove/screenrove#screenrove",
+      "type": "mcp",
+      "name": "Screenrove",
+      "description": {
+        "zh": null,
+        "en": "Real product UI captures (onboarding, pricing, in-app screens) with design guides for coding agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design",
+        "business",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.screenrove/screenrove",
+        "url": "https://screenrove.com/agents",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.selfstorming/selfstorming#selfstorming",
       "type": "mcp",
       "name": "Selfstorming",
@@ -23155,6 +24191,55 @@
         "repo": null,
         "path": "com.solofire/spark",
         "url": "https://developer.solofire.com/#description/using-solofire-from-claude-and-chatgpt-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.spoki/mcp#spoki",
+      "type": "mcp",
+      "name": "Spoki",
+      "description": {
+        "zh": null,
+        "en": "Spoki WhatsApp CRM MCP: contacts, campaigns, automations, templates. OAuth (spoki.mcp).",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.spoki/mcp",
+        "url": "https://support.spoki.com/en/docs/integrations/get-started-with-spoki-mcp/",
         "tier": 0
       },
       "quality": {
@@ -33232,6 +34317,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:sarvin-tech/callflow-ai:io.github.sarvin-tech/callflow-ai#callflow-ai",
+      "type": "mcp",
+      "name": "CallFlow AI",
+      "description": {
+        "zh": null,
+        "en": "Paid sales-call scoring and CRM next-step analysis for AI agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "sarvin-tech/callflow-ai",
+        "path": "io.github.sarvin-tech/callflow-ai",
+        "url": "https://github.com/sarvin-tech/callflow-ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:scalably-io/google-ads-mcp:io.scalably/google-ads-mcp#google-ads-mcp",
       "type": "mcp",
       "name": "Google Ads MCP",
@@ -35135,6 +36269,57 @@
         "repo": "ufhouck/chirak-mcp",
         "path": "io.github.ufhouck/chirak-mcp",
         "url": "https://github.com/ufhouck/chirak-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:unipile/unipile-mcp:com.unipile/unipile-mcp#unipile-mcp",
+      "type": "mcp",
+      "name": "Unipile MCP",
+      "description": {
+        "zh": null,
+        "en": "LinkedIn, Sales Navigator, Recruiter, WhatsApp, Instagram, Telegram and email MCP for coding agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration",
+        "coding",
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "unipile/unipile-mcp",
+        "path": "com.unipile/unipile-mcp",
+        "url": "https://github.com/unipile/unipile-mcp",
         "tier": 0
       },
       "quality": {

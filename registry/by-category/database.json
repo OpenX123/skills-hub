@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T23:40:20.338Z",
+  "generatedAt": "2026-09-29T22:49:44.912Z",
   "category": {
     "key": "database",
     "zh": "数据库",
@@ -71,60 +71,6 @@
   },
   "total": 333,
   "entries": [
-    {
-      "id": "skill:anthropics/skills:skills/claude-api/skill.md#claude-api",
-      "type": "skill",
-      "name": "claude-api",
-      "description": {
-        "zh": null,
-        "en": "Reference for the Claude API / Anthropic SDK — model ids, pricing, params, streaming, tool use, MCP, agents, caching, token counting, model migration. TRIGGER — read BEFORE opening the target file; don't skip because it \"looks like a one-liner\" — whenever: the prompt names Claude/Anthropic in any form (Claude, Anthropic, Fable, Opus, Sonnet, Haiku, `anthropic`, `@anthropic-ai`, `claude-*`, `us.anthropic.*`, `[1m]`); the user asks about an LLM (pricing/model choice/limits/caching) — never answer from memory; OR the task is LLM-shaped with provider unstated (agent/MCP/tool-definition/multi-agent",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "database",
-        "business"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "anthropics/skills",
-        "path": "skills/claude-api/SKILL.md",
-        "url": "https://github.com/anthropics/skills/blob/HEAD/skills/claude-api/SKILL.md",
-        "tier": 0
-      },
-      "quality": {
-        "score": 100,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 177977,
-      "curatedMentions": 8
-    },
     {
       "id": "skill:composiohq/awesome-claude-skills:composio-skills/neon-automation/skill.md#neon-automation",
       "type": "skill",
@@ -231,6 +177,60 @@
       "familySize": 0,
       "stars": 70870,
       "curatedMentions": 5
+    },
+    {
+      "id": "skill:anthropics/skills:skills/claude-api/skill.md#claude-api",
+      "type": "skill",
+      "name": "claude-api",
+      "description": {
+        "zh": null,
+        "en": "Reference for the Claude API / Anthropic SDK — model ids, pricing, params, streaming, tool use, MCP, agents, caching, token counting, model migration. TRIGGER — read BEFORE opening the target file; don't skip because it \"looks like a one-liner\" — whenever: the prompt names Claude/Anthropic in any form (Claude, Anthropic, Fable, Opus, Sonnet, Haiku, `anthropic`, `@anthropic-ai`, `claude-*`, `us.anthropic.*`, `[1m]`); the user asks about an LLM (pricing/model choice/limits/caching) — never answer from memory; OR the task is LLM-shaped with provider unstated (agent/MCP/tool-definition/multi-agent",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database",
+        "business"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "anthropics/skills",
+        "path": "skills/claude-api/SKILL.md",
+        "url": "https://github.com/anthropics/skills/blob/HEAD/skills/claude-api/SKILL.md",
+        "tier": 0
+      },
+      "quality": {
+        "score": 78,
+        "gates": {
+          "security": false,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": false,
+        "recommended": false
+      },
+      "risk": {
+        "level": "high",
+        "score": 74
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 178995,
+      "curatedMentions": 8
     },
     {
       "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/database/alloydb-basics/skill.md#alloydb-basics",
@@ -1746,7 +1746,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 59,
+        "score": 58,
         "gates": {
           "security": true,
           "schema": true,
@@ -1795,7 +1795,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 59,
+        "score": 58,
         "gates": {
           "security": true,
           "schema": true,
@@ -1845,7 +1845,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 59,
+        "score": 58,
         "gates": {
           "security": true,
           "schema": true,
@@ -1894,7 +1894,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 59,
+        "score": 58,
         "gates": {
           "security": true,
           "schema": true,
@@ -1945,7 +1945,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 59,
+        "score": 58,
         "gates": {
           "security": true,
           "schema": true,
@@ -2100,7 +2100,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -2150,7 +2150,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -2199,7 +2199,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -2248,7 +2248,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -2299,7 +2299,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -2348,7 +2348,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -2397,7 +2397,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -2447,7 +2447,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -2497,7 +2497,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -2546,7 +2546,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -2595,7 +2595,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -2644,7 +2644,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -2693,7 +2693,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -2742,7 +2742,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -2792,7 +2792,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -2841,7 +2841,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -2891,7 +2891,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -2940,7 +2940,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -2989,7 +2989,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -3038,7 +3038,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -3087,7 +3087,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -3136,7 +3136,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -3185,7 +3185,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -3235,7 +3235,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -3285,7 +3285,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -3335,7 +3335,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -3385,7 +3385,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -3435,7 +3435,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -3485,7 +3485,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -3535,7 +3535,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -3585,7 +3585,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -3635,7 +3635,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -3685,7 +3685,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -3735,7 +3735,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -3785,7 +3785,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -3835,7 +3835,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -3885,7 +3885,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -3935,7 +3935,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -3985,7 +3985,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,
@@ -4034,7 +4034,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 53,
+        "score": 52,
         "gates": {
           "security": true,
           "schema": true,

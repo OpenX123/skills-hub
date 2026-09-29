@@ -1,16 +1,76 @@
 {
-  "generatedAt": "2026-09-28T23:40:20.338Z",
+  "generatedAt": "2026-09-29T22:49:44.912Z",
   "engine": "text-baseline/v2",
-  "scanned": 27755,
-  "flagged": 143,
+  "scanned": 28196,
+  "flagged": 144,
   "byLevel": {
-    "clean": 27612,
+    "clean": 28052,
     "low": 107,
-    "medium": 35,
-    "high": 1
+    "high": 2,
+    "medium": 35
   },
   "note": "静态文本匹配基线,用于筛出需人工复核的条目,不构成终审判决",
   "entries": [
+    {
+      "id": "skill:anthropics/skills:skills/claude-api/skill.md#claude-api",
+      "name": "claude-api",
+      "type": "skill",
+      "repo": "anthropics/skills",
+      "path": "skills/claude-api/SKILL.md",
+      "url": "https://github.com/anthropics/skills/blob/HEAD/skills/claude-api/SKILL.md",
+      "level": "high",
+      "score": 74,
+      "counts": {
+        "high": 2,
+        "medium": 2
+      },
+      "flags": [
+        {
+          "id": "credential-file-access",
+          "severity": "high",
+          "title": {
+            "zh": "触碰凭证文件",
+            "en": "Credential file access"
+          },
+          "where": "script",
+          "line": 28,
+          "evidence": "~/.ssh"
+        },
+        {
+          "id": "persistence-write",
+          "severity": "medium",
+          "title": {
+            "zh": "写入自启动/持久化位置",
+            "en": "Writes to autorun / persistence location"
+          },
+          "where": "script",
+          "line": 62,
+          "evidence": "> ~/.bashrc"
+        },
+        {
+          "id": "credential-file-access",
+          "severity": "high",
+          "title": {
+            "zh": "触碰凭证文件",
+            "en": "Credential file access"
+          },
+          "where": "script",
+          "line": 112,
+          "evidence": "~/.ssh"
+        },
+        {
+          "id": "persistence-write",
+          "severity": "medium",
+          "title": {
+            "zh": "写入自启动/持久化位置",
+            "en": "Writes to autorun / persistence location"
+          },
+          "where": "script",
+          "line": 35,
+          "evidence": "> ~/.bashrc"
+        }
+      ]
+    },
     {
       "id": "rules:sanjeed5/awesome-cursor-rules-mdc:rules-mdc/aws-cli.mdc#aws-cli",
       "name": "aws-cli",
