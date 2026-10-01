@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-30T22:48:52.735Z",
+  "generatedAt": "2026-10-01T22:59:03.607Z",
   "type": "plugin",
   "label": {
     "zh": "插件",
     "en": "Plugin"
   },
-  "total": 219,
+  "total": 223,
   "entries": [
     {
       "id": "plugin:anthropics/skills:.claude-plugin/marketplace.json#academy-guide",
@@ -5729,7 +5729,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32234,
+      "stars": 32272,
       "curatedMentions": 2
     },
     {
@@ -5779,7 +5779,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32234,
+      "stars": 32272,
       "curatedMentions": 2
     },
     {
@@ -5830,7 +5830,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32234,
+      "stars": 32272,
       "curatedMentions": 2
     },
     {
@@ -5880,7 +5880,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32234,
+      "stars": 32272,
       "curatedMentions": 2
     },
     {
@@ -5930,7 +5930,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32234,
+      "stars": 32272,
       "curatedMentions": 2
     },
     {
@@ -5980,7 +5980,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32234,
+      "stars": 32272,
       "curatedMentions": 2
     },
     {
@@ -6030,7 +6030,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32234,
+      "stars": 32272,
       "curatedMentions": 2
     },
     {
@@ -6080,7 +6080,108 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32234,
+      "stars": 32272,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/integrations/linear-tickets/.claude-plugin/plugin.json#linear-tickets",
+      "type": "plugin",
+      "name": "linear-tickets",
+      "description": {
+        "zh": null,
+        "en": "Your Linear tickets in a side pane, with their status and a chart of how you are progressing: tickets grouped by state (in progress, todo, backlog, done), a stacked status bar, a bar chart of tickets closed per day over the last two weeks and, when your tickets sit in a cycle, that cycle's scope and completed burn-up. Read-only; it polls Linear's GraphQL API. /linear opens it. Needs function hooks (early access) and a Linear API key.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "pm",
+        "coding",
+        "data"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/integrations/linear-tickets/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/integrations/linear-tickets/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 32272,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/integrations/neon-branch-per-session/.claude-plugin/plugin.json#neon-branch-per-session",
+      "type": "plugin",
+      "name": "neon-branch-per-session",
+      "description": {
+        "zh": null,
+        "en": "A Neon database branch for each Claude Code session: created from your default (or chosen) branch when the session starts, handed to every command Claude runs as DATABASE_URL, and set to expire on its own (or deleted when the session ends). Claude can migrate, seed and break the branch without touching production data. /neon shows it, keeps it or deletes it. Needs function hooks (early access) and a Neon API key.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/integrations/neon-branch-per-session/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/integrations/neon-branch-per-session/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 32272,
       "curatedMentions": 2
     },
     {
@@ -6130,7 +6231,56 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32234,
+      "stars": 32272,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/integrations/vercel-deploys/.claude-plugin/plugin.json#vercel-deploys",
+      "type": "plugin",
+      "name": "vercel-deploys",
+      "description": {
+        "zh": null,
+        "en": "Your Vercel projects in a side pane: each connected site with the state of its latest deployment (building, ready, failed), the production domain, the Git commit behind it and whether the site answers right now. It polls Vercel's REST API (faster while something builds) and toasts when a deployment finishes or fails. /vercel opens it. Needs function hooks (early access) and a Vercel access token.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/integrations/vercel-deploys/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/integrations/vercel-deploys/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 32272,
       "curatedMentions": 2
     },
     {
@@ -6180,7 +6330,57 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32234,
+      "stars": 32272,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/observability/prompt-cache-control/.claude-plugin/plugin.json#prompt-cache-control",
+      "type": "plugin",
+      "name": "prompt-cache-control",
+      "description": {
+        "zh": null,
+        "en": "Prompt-cache meter above the Claude Code prompt: how many tokens each request read from, wrote to and sent past the cache, a live countdown to the cache's expiry, and what to do about it (keep going, compact or clear). The TTL comes from the environment variables Claude Code honours (5 minutes by default, 1 hour with ENABLE_PROMPT_CACHING_1H). /cache opens a per-turn table. Needs function hooks (early access).",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/observability/prompt-cache-control/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/observability/prompt-cache-control/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 32272,
       "curatedMentions": 2
     },
     {
@@ -6230,7 +6430,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32234,
+      "stars": 32272,
       "curatedMentions": 2
     },
     {
@@ -6281,7 +6481,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32234,
+      "stars": 32272,
       "curatedMentions": 2
     },
     {
@@ -6332,7 +6532,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32234,
+      "stars": 32272,
       "curatedMentions": 2
     },
     {
@@ -6381,7 +6581,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32234,
+      "stars": 32272,
       "curatedMentions": 2
     },
     {
@@ -6430,7 +6630,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32234,
+      "stars": 32272,
       "curatedMentions": 2
     },
     {
@@ -6479,7 +6679,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32234,
+      "stars": 32272,
       "curatedMentions": 2
     },
     {
@@ -6529,7 +6729,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32234,
+      "stars": 32272,
       "curatedMentions": 2
     },
     {
@@ -6578,7 +6778,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32234,
+      "stars": 32272,
       "curatedMentions": 2
     },
     {
@@ -6628,7 +6828,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32234,
+      "stars": 32272,
       "curatedMentions": 2
     },
     {
@@ -6677,7 +6877,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32234,
+      "stars": 32272,
       "curatedMentions": 2
     },
     {
@@ -6728,7 +6928,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32234,
+      "stars": 32272,
       "curatedMentions": 2
     },
     {
@@ -6778,7 +6978,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32234,
+      "stars": 32272,
       "curatedMentions": 2
     },
     {
@@ -6828,7 +7028,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32234,
+      "stars": 32272,
       "curatedMentions": 2
     },
     {
@@ -6878,7 +7078,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32234,
+      "stars": 32272,
       "curatedMentions": 2
     },
     {
@@ -6929,7 +7129,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32234,
+      "stars": 32272,
       "curatedMentions": 2
     },
     {
@@ -6980,7 +7180,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32234,
+      "stars": 32272,
       "curatedMentions": 2
     },
     {
@@ -7030,7 +7230,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 32234,
+      "stars": 32272,
       "curatedMentions": 2
     },
     {
@@ -7080,7 +7280,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 32234,
+      "stars": 32272,
       "curatedMentions": 2
     },
     {
@@ -7130,7 +7330,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 32234,
+      "stars": 32272,
       "curatedMentions": 2
     },
     {
@@ -7180,7 +7380,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 32234,
+      "stars": 32272,
       "curatedMentions": 2
     },
     {
@@ -7230,7 +7430,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 32234,
+      "stars": 32272,
       "curatedMentions": 2
     },
     {
@@ -7280,7 +7480,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 32234,
+      "stars": 32272,
       "curatedMentions": 2
     },
     {
@@ -7330,7 +7530,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 32234,
+      "stars": 32272,
       "curatedMentions": 2
     },
     {
@@ -7381,7 +7581,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 32234,
+      "stars": 32272,
       "curatedMentions": 2
     },
     {
