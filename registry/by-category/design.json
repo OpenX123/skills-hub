@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T22:59:03.607Z",
+  "generatedAt": "2026-10-02T22:48:17.451Z",
   "category": {
     "key": "design",
     "zh": "设计创意",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 838,
+  "total": 849,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/brand-guidelines/skill.md#brand-guidelines",
@@ -6545,57 +6545,6 @@
         "repo": "davila7/claude-code-templates",
         "path": "cli-tool/components/mods/games/chess/.claude-plugin/plugin.json",
         "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/games/chess/.claude-plugin/plugin.json",
-        "tier": 2
-      },
-      "quality": {
-        "score": 66,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 32272,
-      "curatedMentions": 2
-    },
-    {
-      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/productivity/aitmpl/.claude-plugin/plugin.json#aitmpl",
-      "type": "plugin",
-      "name": "aitmpl",
-      "description": {
-        "zh": null,
-        "en": "/aitmpl opens a component browser above the prompt: the aitmpl.com catalog (agents, commands, MCPs, settings, hooks, skills, loops, mods) read live from the site's public JSON through $.http.fetch. Pick a type or a trending component, filter, page, open a component and install it from there ($.process.run with the fixed CLI argv and a validated path, no shell), drop its install command into the prompt, or open its page in your browser. Hooks session.start, command.run and ui.render on AbovePrompt; browsing costs no tokens.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding",
-        "design",
-        "meta"
-      ],
-      "targets": [
-        "claude-code"
-      ],
-      "source": {
-        "repo": "davila7/claude-code-templates",
-        "path": "cli-tool/components/mods/productivity/aitmpl/.claude-plugin/plugin.json",
-        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/productivity/aitmpl/.claude-plugin/plugin.json",
         "tier": 2
       },
       "quality": {
@@ -22085,6 +22034,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:albemarlestudio/clayre-skills:io.github.albemarlestudio/clayre#io.github.albemarlestudio-clayre",
+      "type": "mcp",
+      "name": "io.github.albemarlestudio/clayre",
+      "description": {
+        "zh": null,
+        "en": "Brand strategy and content-calendar context for agents, with human-confirmed approval gates.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "albemarlestudio/clayre-skills",
+        "path": "io.github.albemarlestudio/clayre",
+        "url": "https://github.com/albemarlestudio/clayre-skills",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:alexanderkaan/uicockpit:com.uicockpit/mcp#uicockpit",
       "type": "mcp",
       "name": "UIcockpit",
@@ -22604,56 +22602,6 @@
         "repo": "anup-a/web-backgrounds",
         "path": "app.creatica/backgrounds",
         "url": "https://github.com/anup-a/web-backgrounds",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:anxforever/stylekit:io.github.anxforever/stylekit-mcp#stylekit",
-      "type": "mcp",
-      "name": "StyleKit",
-      "description": {
-        "zh": null,
-        "en": "Search 148 curated design styles and pull tokens, recipes, and shadcn commands into your AI IDE.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "design",
-        "research"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "AnxForever/stylekit",
-        "path": "io.github.AnxForever/stylekit-mcp",
-        "url": "https://github.com/AnxForever/stylekit",
         "tier": 0
       },
       "quality": {
@@ -23573,12 +23521,62 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:chir24/unreal_mcp:io.github.chir24/unreal-engine-mcp#io.github.chir24-unreal-engine-mcp",
+      "type": "mcp",
+      "name": "io.github.ChiR24/unreal-engine-mcp",
+      "description": {
+        "zh": null,
+        "en": "Automate the Unreal Editor (UE 5.0-5.8): levels, Blueprints, UI, materials, VFX and more.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design",
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ChiR24/Unreal_mcp",
+        "path": "io.github.ChiR24/unreal-engine-mcp",
+        "url": "https://github.com/ChiR24/Unreal_mcp.git",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:cituna/cituna-mcp:com.cituna/cituna-mcp#com.cituna-cituna-mcp",
       "type": "mcp",
       "name": "com.cituna/cituna-mcp",
       "description": {
         "zh": null,
-        "en": "Track how 6 AI engines cite your brand, daily, with live Google Search Console.",
+        "en": "Track how 7 AI engines cite your brand, daily, with live Google Search Console.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -24290,6 +24288,55 @@
         "repo": "dcvalentino69-ux/innovalyxx-platform",
         "path": "io.github.dcvalentino69-ux/innovalyxx-sovereign-edge",
         "url": "https://github.com/dcvalentino69-ux/innovalyxx-platform",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:designbycurio/curio-mcp-extension:com.designbycurio/curio#curio-—-design-style-library",
+      "type": "mcp",
+      "name": "Curio — design style library",
+      "description": {
+        "zh": null,
+        "en": "A design-style library for AI agents: search real styles, fetch a ready-to-apply design spec.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "designbycurio/curio-mcp-extension",
+        "path": "com.designbycurio/curio",
+        "url": "https://github.com/designbycurio/curio-mcp-extension",
         "tier": 0
       },
       "quality": {
@@ -27099,7 +27146,7 @@
       "name": "io.github.KarstenKreh/standby-design-mcp",
       "description": {
         "zh": null,
-        "en": "Generate design systems: OKLCH color palettes, fluid type scales, spacing, shape and icon tokens.",
+        "en": "Generate design systems: OKLCH colors, fluid type scales, spacing, shape, icon and motion tokens.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -27116,6 +27163,55 @@
         "repo": "KarstenKreh/Standby.Design",
         "path": "io.github.KarstenKreh/standby-design-mcp",
         "url": "https://github.com/KarstenKreh/Standby.Design",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:kellykazi3/idmly-mcp:io.github.kellykazi3/idmly-mcp#idmly-html-to-indesign-(idml)",
+      "type": "mcp",
+      "name": "idmly: HTML to InDesign (IDML)",
+      "description": {
+        "zh": null,
+        "en": "Convert a self-contained HTML design into an editable Adobe InDesign (.idml) file. 2 pages free.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "KellyKazi3/idmly-mcp",
+        "path": "io.github.KellyKazi3/idmly-mcp",
+        "url": "https://github.com/KellyKazi3/idmly-mcp",
         "tier": 0
       },
       "quality": {
@@ -29565,6 +29661,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:app.epubtranslator/epub-translator#epub-translator",
+      "type": "mcp",
+      "name": "EPUB Translator",
+      "description": {
+        "zh": null,
+        "en": "Translate whole EPUB books into 16 languages with layout intact. Upload, quote, translate, download.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "app.epubtranslator/epub-translator",
+        "url": "https://epubtranslator.app/?utm_source=mcp-registry&utm_medium=referral&utm_campaign=ai-directories",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:app.hvacbuilder/hvac-builder#hvac-builder",
       "type": "mcp",
       "name": "HVAC Builder",
@@ -30032,6 +30178,104 @@
         "repo": null,
         "path": "co.parahuman/parahuman",
         "url": "https://parahuman.co",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:co.provel/provel#provel",
+      "type": "mcp",
+      "name": "Provel",
+      "description": {
+        "zh": null,
+        "en": "Senior design & engineering studio for AI and Web3. Free quotes, website audits and NDAs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "co.provel/provel",
+        "url": "https://www.provel.co/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.8b/ai-website-builder#8b-ai-website-builder",
+      "type": "mcp",
+      "name": "8B AI Website Builder",
+      "description": {
+        "zh": null,
+        "en": "AI website & landing page builder: animated site in an 8B design, preview, edits, HTML download",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.8b/ai-website-builder",
+        "url": "https://8b.com/mcp/",
         "tier": 0
       },
       "quality": {
@@ -31839,6 +32083,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.pineprompt/pineprompt#pineprompt",
+      "type": "mcp",
+      "name": "Pineprompt",
+      "description": {
+        "zh": null,
+        "en": "Track your brand's visibility in ChatGPT, Gemini, Perplexity, Claude, Google AI Overviews and more.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.pineprompt/pineprompt",
+        "url": "https://pineprompt.com/docs/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.pyloapp/pylo#pylo",
       "type": "mcp",
       "name": "pylo",
@@ -32555,6 +32848,55 @@
         "repo": null,
         "path": "com.usegeon/geon",
         "url": "https://usegeon.com/docs/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.voicemoat/voicemoat#voicemoat",
+      "type": "mcp",
+      "name": "VoiceMoat",
+      "description": {
+        "zh": null,
+        "en": "The personal brand OS for Twitter/X and LinkedIn: score, improve, schedule and publish posts.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.voicemoat/voicemoat",
+        "url": "https://voicemoat.com/mcp",
         "tier": 0
       },
       "quality": {
@@ -33347,6 +33689,104 @@
         "repo": null,
         "path": "io.foliyo/foliyo",
         "url": "https://foliyo.io/integrations",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.astrolions93/namli#namli",
+      "type": "mcp",
+      "name": "Namli",
+      "description": {
+        "zh": null,
+        "en": "Checks if a project, brand or app name already exists: trademarks, domains, web and GitHub.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.Astrolions93/namli",
+        "url": "https://namli.vercel.app",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.astrolions93/nombre-libre#nombre-libre",
+      "type": "mcp",
+      "name": "Nombre Libre",
+      "description": {
+        "zh": null,
+        "en": "Checks if a project, brand or app name already exists: trademarks, domains, web and GitHub.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.Astrolions93/nombre-libre",
+        "url": "https://nombre-libre.vercel.app",
         "tier": 0
       },
       "quality": {
@@ -34635,56 +35075,6 @@
         "repo": null,
         "path": "jp.co.adarch/agents",
         "url": "https://agents.adarch.co.jp/",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:mcp-official:link.keepp/keepp#keepp",
-      "type": "mcp",
-      "name": "Keepp",
-      "description": {
-        "zh": null,
-        "en": "Build and run your Keepp page: blocks, theme, products, bookings, Stripe and plan upgrades.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "design",
-        "integration"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "link.keepp/keepp",
-        "url": "https://keepp.link/developers#mcp",
         "tier": 0
       },
       "quality": {
@@ -36740,6 +37130,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:nntoan/figma-mcp-rust:io.github.nntoan/figma-mcp-rust#io.github.nntoan-figma-mcp-rust",
+      "type": "mcp",
+      "name": "io.github.nntoan/figma-mcp-rust",
+      "description": {
+        "zh": null,
+        "en": "Figma MCP server in Rust: plugin bridge, no API token, no rate limits, 73 tools.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "design",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "nntoan/figma-mcp-rust",
+        "path": "io.github.nntoan/figma-mcp-rust",
+        "url": "https://github.com/nntoan/figma-mcp-rust",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:nooticr/nooticr-mcp:com.nooticr/mcp#nooticr",
       "type": "mcp",
       "name": "Nooticr",
@@ -38134,6 +38575,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:pratham-jain33/icon-mcp:io.github.pratham-jain33/icon-mcp#icon-mcp",
+      "type": "mcp",
+      "name": "Icon MCP",
+      "description": {
+        "zh": null,
+        "en": "Lucide icon sets for AI: search 2000+ icons, style them, batch-export SVG. Offline, no key.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "pratham-jain33/icon-mcp",
+        "path": "io.github.pratham-jain33/icon-mcp",
+        "url": "https://github.com/pratham-jain33/icon-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:prem5123/bookmcp:io.github.prem5123/bookmcp#bookmcp",
       "type": "mcp",
       "name": "BookMCP",
@@ -38238,7 +38728,7 @@
       "name": "Visual Memory MCP",
       "description": {
         "zh": null,
-        "en": "Local visual UI cache for AI agents using perceptual hashing + CLIP to cut vision token use.",
+        "en": "Local visual UI cache for AI agents using perceptual hashing, CLIP, and 3D spatial grounding.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -39761,6 +40251,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:simonmak-ascent/vision-driven-design:io.github.simonmak-ascent/vision-driven-design#vision-driven-design-(vdd)-mcp-server",
+      "type": "mcp",
+      "name": "Vision Driven Design (VDD) MCP Server",
+      "description": {
+        "zh": null,
+        "en": "Spec-driven development MCP server: 8 phases, bi-directional traceability, 7 quality gates.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "simonmak-ascent/vision-driven-design",
+        "path": "io.github.simonmak-ascent/vision-driven-design",
+        "url": "https://github.com/simonmak-ascent/vision-driven-design",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:simonplmak-cloud/vision-driven-design:io.github.simonplmak-cloud/vision-driven-design#vision-driven-design-(vdd)-mcp-server",
       "type": "mcp",
       "name": "Vision Driven Design (VDD) MCP Server",
@@ -41157,7 +41697,7 @@
       "name": "Speedbot Autonomous Work Network",
       "description": {
         "zh": null,
-        "en": "Sponsor-funded tasks and hiring for autonomous AI agents and swarms; Base USDC payouts.",
+        "en": "Agent-made products, services and paid work for autonomous AI agents and swarms; Base USDC payouts.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"

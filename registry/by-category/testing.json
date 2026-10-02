@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T22:59:03.607Z",
+  "generatedAt": "2026-10-02T22:48:17.451Z",
   "category": {
     "key": "testing",
     "zh": "测试质量",
@@ -73,7 +73,7 @@
       }
     ]
   },
-  "total": 530,
+  "total": 540,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/webapp-testing/skill.md#webapp-testing",
@@ -13225,6 +13225,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:agentamusementpark/agent-amusement-park:com.a2apark/a2apark#a2apark",
+      "type": "mcp",
+      "name": "A2APark",
+      "description": {
+        "zh": null,
+        "en": "Public behavioral test environment for AI agents with stateful rides and signed scorecards.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "AgentAmusementPark/agent-amusement-park",
+        "path": "com.a2apark/a2apark",
+        "url": "https://github.com/AgentAmusementPark/agent-amusement-park",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:agentsimdev/agentsim-mcp:dev.agentsim/mcp#dev.agentsim-mcp",
       "type": "mcp",
       "name": "dev.agentsim/mcp",
@@ -14510,55 +14559,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:carbaj03/retry-trace:io.github.carbaj03/retry-trace#io.github.carbaj03-retry-trace",
-      "type": "mcp",
-      "name": "io.github.carbaj03/retry-trace",
-      "description": {
-        "zh": null,
-        "en": "Test curl retries locally or inspect remote 429/503 Retry-After traces; optionally share findings.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "testing"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "carbaj03/retry-trace",
-        "path": "io.github.carbaj03/retry-trace",
-        "url": "https://github.com/carbaj03/retry-trace",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:catalogapi/mcp-server:com.catalogapi/catalogapi#com.catalogapi-catalogapi",
       "type": "mcp",
       "name": "com.catalogapi/catalogapi",
@@ -15560,7 +15560,7 @@
       "name": "DiffCI",
       "description": {
         "zh": null,
-        "en": "Change-aware CI validation and affected-test guidance for coding agents.",
+        "en": "Fail-closed, change-aware verification for AI coding agents with affected-test guidance.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -17039,7 +17039,7 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:invarato/jarrobatools:io.github.invarato/jarroba-tools-tests#jarroba-tools-·-test-audit",
+      "id": "mcp:invarato/jarroba-mcp:io.github.invarato/jarroba-tools-tests#jarroba-tools-·-test-audit",
       "type": "mcp",
       "name": "Jarroba Tools · Test audit",
       "description": {
@@ -17060,9 +17060,9 @@
         "mcp-client"
       ],
       "source": {
-        "repo": "Invarato/JarrobaTools",
+        "repo": "Invarato/jarroba-mcp",
         "path": "io.github.Invarato/jarroba-tools-tests",
-        "url": "https://github.com/Invarato/JarrobaTools",
+        "url": "https://github.com/Invarato/jarroba-mcp",
         "tier": 0
       },
       "quality": {
@@ -18427,6 +18427,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:lisn0/rewindmap:com.rewindmap/rewindmap#rewindmap",
+      "type": "mcp",
+      "name": "RewindMap",
+      "description": {
+        "zh": null,
+        "en": "Historical borders and dated map events with source attribution and coverage limits.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "lisn0/rewindmap",
+        "path": "com.rewindmap/rewindmap",
+        "url": "https://github.com/lisn0/rewindmap",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:loadster/loadster-mcp:com.loadster/loadster-mcp#loadster",
       "type": "mcp",
       "name": "Loadster",
@@ -18547,6 +18596,55 @@
         "repo": "marian-kamenistak/elc-toolkit",
         "path": "io.engineeringleaders/elc-toolkit",
         "url": "https://github.com/marian-kamenistak/elc-toolkit",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ae.grovisor/grotax#grotax-by-grovisor",
+      "type": "mcp",
+      "name": "groTAX by Grovisor",
+      "description": {
+        "zh": null,
+        "en": "UAE Corporate Tax: CT computation, SBR, penalties, free zone test, TP and health-check.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ae.grovisor/grotax",
+        "url": "https://grovisor.ae/tools",
         "tier": 0
       },
       "quality": {
@@ -19732,6 +19830,55 @@
         "repo": null,
         "path": "com.brainiall/nlp",
         "url": "https://brainiall.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.citizenleap/civica#civica-citizenship-test-prep",
+      "type": "mcp",
+      "name": "Civica citizenship test prep",
+      "description": {
+        "zh": null,
+        "en": "Read-only citizenship test facts, official sources and sample questions for 8 countries.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.citizenleap/civica",
+        "url": "https://citizenleap.com",
         "tier": 0
       },
       "quality": {
@@ -21051,6 +21198,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:guru.packet/agent-verifier#agent-verifier",
+      "type": "mcp",
+      "name": "Agent Verifier",
+      "description": {
+        "zh": null,
+        "en": "Test and debug your AI agent's Web Bot Auth (RFC 9421) signature: is it valid, and what to fix?",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "guru.packet/agent-verifier",
+        "url": "https://packet.guru/agents",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.apolito53/launchcheck-x402#launchcheck-x402",
       "type": "mcp",
       "name": "LaunchCheck x402",
@@ -21647,6 +21844,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.nero-engine/call-score#call-score-ai-call-review-&-qa-for-receptionists-and-sales",
+      "type": "mcp",
+      "name": "Call Score: AI Call Review & QA for Receptionists and Sales",
+      "description": {
+        "zh": null,
+        "en": "Score call recordings: booked or lost, lead quality, missed questions, 0 to 10 score, next step",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.Nero-Engine/call-score",
+        "url": "https://apify.com/nerolabs/call-score",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.obitouchiha930/ubitoushiha-my-first-mcp#io.github.obitouchiha930-ubitoushiha-my-first-mcp",
       "type": "mcp",
       "name": "io.github.ObitoUchiha930/ubitoushiha-my-first-mcp",
@@ -22142,6 +22389,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.testiny/testiny-mcp#testiny-test-management",
+      "type": "mcp",
+      "name": "Testiny Test Management",
+      "description": {
+        "zh": null,
+        "en": "Create and manage test cases, test runs and results in Testiny from your AI assistant.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.testiny/testiny-mcp",
+        "url": "https://www.testiny.io/docs/mcp-server/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:my.sitey.test/kgld-attestation#kgld-reserve-attestation",
       "type": "mcp",
       "name": "KGLD Reserve Attestation",
@@ -22164,6 +22460,55 @@
         "repo": null,
         "path": "my.sitey.test/kgld-attestation",
         "url": "https://kgld-app.korda.im/ko/por",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:net.dabloons/dabloons#dabloons",
+      "type": "mcp",
+      "name": "Dabloons",
+      "description": {
+        "zh": null,
+        "en": "Bounty board where AI agents hire other agents for PR reviews, bug repros, installs and site QA",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "net.dabloons/dabloons",
+        "url": "https://dabloons.net",
         "tier": 0
       },
       "quality": {
@@ -22486,6 +22831,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:space.groovalizer/groovalizer#groovalizer",
+      "type": "mcp",
+      "name": "Groovalizer",
+      "description": {
+        "zh": null,
+        "en": "Write audio-reactive MilkDrop presets and test them live in your Groovalizer music visualizer tab",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media",
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "space.groovalizer/groovalizer",
+        "url": "https://groovalizer.space/connect",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:st.seedfa/seedfast#seedfast",
       "type": "mcp",
       "name": "Seedfast",
@@ -22558,6 +22953,55 @@
         "repo": null,
         "path": "studio.misata/misata",
         "url": "https://www.misata.studio/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:tools.settled/settled#settled",
+      "type": "mcp",
+      "name": "Settled",
+      "description": {
+        "zh": null,
+        "en": "Check x402 endpoints before your agent pays: payTo, paid test purchases, payee and buyer reports",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "tools.settled/settled",
+        "url": "https://settled.tools/for-agents",
         "tier": 0
       },
       "quality": {
@@ -25266,6 +25710,55 @@
         "repo": "since-dev/mcp",
         "path": "io.github.Since-dev/mcp",
         "url": "https://github.com/since-dev/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:skulitom/anode:io.github.skulitom/anode#anode-background-windows-desktop",
+      "type": "mcp",
+      "name": "Anode background Windows desktop",
+      "description": {
+        "zh": null,
+        "en": "Background Windows desktop for AI agents: native GUI automation, screenshots and app testing.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "skulitom/Anode",
+        "path": "io.github.skulitom/anode",
+        "url": "https://github.com/skulitom/Anode",
         "tier": 0
       },
       "quality": {

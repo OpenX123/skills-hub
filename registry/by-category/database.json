@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T22:59:03.607Z",
+  "generatedAt": "2026-10-02T22:48:17.451Z",
   "category": {
     "key": "database",
     "zh": "数据库",
@@ -69,7 +69,7 @@
       }
     ]
   },
-  "total": 338,
+  "total": 339,
   "entries": [
     {
       "id": "skill:composiohq/awesome-claude-skills:composio-skills/neon-automation/skill.md#neon-automation",
@@ -11453,6 +11453,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:les-k/pg-readonly-mcp:io.github.les-k/pg-readonly-mcp#io.github.les-k-pg-readonly-mcp",
+      "type": "mcp",
+      "name": "io.github.les-k/pg-readonly-mcp",
+      "description": {
+        "zh": null,
+        "en": "A read-only Postgres MCP server that parses SQL rather than pattern-matching it.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "les-k/pg-readonly-mcp",
+        "path": "io.github.les-k/pg-readonly-mcp",
+        "url": "https://github.com/les-k/pg-readonly-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:lightshiphq/lightship:io.github.lightshiphq/lightship#lightship",
       "type": "mcp",
       "name": "LightShip",
@@ -14016,7 +14066,7 @@
       "name": "Text Spreadsheet",
       "description": {
         "zh": null,
-        "en": "Read and filter Excel, CSV, ODS, SQLite, Parquet and MTSV files — or a folder — as plain text",
+        "en": "Read and filter Excel, ODS, CSV, SQLite, Parquet and MTSV files — or a directory — as plain text",
         "zhEngine": null,
         "needsTranslation": [
           "zh"

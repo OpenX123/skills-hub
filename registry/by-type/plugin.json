@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T22:59:03.607Z",
+  "generatedAt": "2026-10-02T22:48:17.451Z",
   "type": "plugin",
   "label": {
     "zh": "插件",
@@ -6439,7 +6439,7 @@
       "name": "aitmpl",
       "description": {
         "zh": null,
-        "en": "/aitmpl opens a component browser above the prompt: the aitmpl.com catalog (agents, commands, MCPs, settings, hooks, skills, loops, mods) read live from the site's public JSON through $.http.fetch. Pick a type or a trending component, filter, page, open a component and install it from there ($.process.run with the fixed CLI argv and a validated path, no shell), drop its install command into the prompt, or open its page in your browser. Hooks session.start, command.run and ui.render on AbovePrompt; browsing costs no tokens.",
+        "en": "/aitmpl opens a flat side pane (plain text, no colours or icons) for the aitmpl.com catalog: a search box, the site's Browse menu with counts, an Installed section (agents, commands, skills and mods found in .claude/ and ~/.claude/), a Popular/Results list with download counts, and view/install on every row. Install runs the fixed CLI argv ($.process.run, validated path, no shell). The catalog is read live through $.http.fetch; browsing costs no tokens.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -6447,9 +6447,8 @@
       },
       "lang": "en",
       "categories": [
-        "coding",
-        "design",
-        "meta"
+        "research",
+        "coding"
       ],
       "targets": [
         "claude-code"

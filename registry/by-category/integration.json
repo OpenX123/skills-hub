@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T22:59:03.607Z",
+  "generatedAt": "2026-10-02T22:48:17.451Z",
   "category": {
     "key": "integration",
     "zh": "三方集成",
@@ -85,7 +85,7 @@
       }
     ]
   },
-  "total": 327,
+  "total": 331,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/slack-gif-creator/skill.md#slack-gif-creator",
@@ -3953,6 +3953,56 @@
         "repo": "pipeshub-ai/mcp-server",
         "path": "io.github.pipeshub-ai/mcp",
         "url": "https://github.com/pipeshub-ai/mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:renezander030/agentic-task-system:io.github.renezander030/agentic-task-system#agentic-task-system-(ats)",
+      "type": "mcp",
+      "name": "Agentic Task System (ATS)",
+      "description": {
+        "zh": null,
+        "en": "MCP server giving AI agents persistent task memory across TickTick, Notion, GitHub, Linear & Beads",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "renezander030/agentic-task-system",
+        "path": "io.github.renezander030/agentic-task-system",
+        "url": "https://github.com/renezander030/agentic-task-system",
         "tier": 0
       },
       "quality": {
@@ -10161,6 +10211,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.mockclip/mockclip#mockclip",
+      "type": "mcp",
+      "name": "MockClip",
+      "description": {
+        "zh": null,
+        "en": "Make fake chat videos (WhatsApp, iMessage, ChatGPT, Discord, Tinder, Reddit…) exported as MP4.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.mockclip/mockclip",
+        "url": "https://mockclip.com/integrations",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.pally/pally#pally",
       "type": "mcp",
       "name": "Pally",
@@ -10825,6 +10924,56 @@
         "repo": null,
         "path": "com.yaktool/store",
         "url": "https://registry.modelcontextprotocol.io/?q=com.yaktool%2Fstore",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.zonrival/zonrival#zonrival",
+      "type": "mcp",
+      "name": "ZonRival",
+      "description": {
+        "zh": null,
+        "en": "Amazon & Shopify competitor research: listings, keyword ranks, review complaints, audits.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "research",
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.zonrival/zonrival",
+        "url": "https://zonrival.com/docs",
         "tier": 0
       },
       "quality": {
@@ -11863,56 +12012,6 @@
         "repo": null,
         "path": "io.storeradar/shopify-store-database",
         "url": "https://www.storeradar.io/shopify-mcp",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:mcp-official:link.keepp/keepp#keepp",
-      "type": "mcp",
-      "name": "Keepp",
-      "description": {
-        "zh": null,
-        "en": "Build and run your Keepp page: blocks, theme, products, bookings, Stripe and plan upgrades.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "design",
-        "integration"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "link.keepp/keepp",
-        "url": "https://keepp.link/developers#mcp",
         "tier": 0
       },
       "quality": {
@@ -14961,6 +15060,104 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:subo-gg/subo-mcp:gg.subo/subo#subo",
+      "type": "mcp",
+      "name": "Subo",
+      "description": {
+        "zh": null,
+        "en": "Run Discord forms, surveys, polls and quizzes from your AI app: build, launch and analyze projects.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "subo-gg/subo-mcp",
+        "path": "gg.subo/subo",
+        "url": "https://github.com/subo-gg/subo-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:subo-gg/subo-mcp:gg.subo/survey-bot#subo",
+      "type": "mcp",
+      "name": "Subo",
+      "description": {
+        "zh": null,
+        "en": "Run Discord forms, surveys, polls and quizzes from your AI app: build, launch and analyze projects.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "subo-gg/subo-mcp",
+        "path": "gg.subo/survey-bot",
+        "url": "https://github.com/subo-gg/subo-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:tell-and-go/mcp:io.github.mzahir/tellandgo-mcp#io.github.mzahir-tellandgo-mcp",
       "type": "mcp",
       "name": "io.github.mzahir/tellandgo-mcp",
@@ -15462,7 +15659,7 @@
       "name": "ExpenseBot",
       "description": {
         "zh": null,
-        "en": "Capture receipts, scan Gmail, analyze spending, and create reviewed reports from AI assistants.",
+        "en": "Receipt ingestion, Gmail capture, expense analysis, and reviewed reports for AI-agent workflows.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
