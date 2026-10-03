@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-02T22:48:17.451Z",
+  "generatedAt": "2026-10-03T21:58:02.509Z",
   "type": "plugin",
   "label": {
     "zh": "插件",
     "en": "Plugin"
   },
-  "total": 223,
+  "total": 224,
   "entries": [
     {
       "id": "plugin:anthropics/skills:.claude-plugin/marketplace.json#academy-guide",
@@ -5729,7 +5729,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -5779,7 +5779,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -5830,7 +5830,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -5880,7 +5880,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -5930,7 +5930,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -5980,7 +5980,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -6030,7 +6030,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -6080,7 +6080,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -6131,7 +6131,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -6181,7 +6181,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -6231,7 +6231,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -6280,7 +6280,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -6330,7 +6330,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -6339,7 +6339,7 @@
       "name": "prompt-cache-control",
       "description": {
         "zh": null,
-        "en": "Prompt-cache meter above the Claude Code prompt: how many tokens each request read from, wrote to and sent past the cache, a live countdown to the cache's expiry, and what to do about it (keep going, compact or clear). The TTL comes from the environment variables Claude Code honours (5 minutes by default, 1 hour with ENABLE_PROMPT_CACHING_1H). /cache opens a per-turn table. Needs function hooks (early access).",
+        "en": "Prompt-cache meter above the Claude Code prompt: how many tokens each request read from, wrote to and sent past the cache, a live countdown to the cache's expiry, and what to do about it (keep going, compact or clear). The TTL follows Claude Code's own rules for your account (1 hour on a Claude subscription, 5 minutes on an API key, cloud provider or usage credits, plus the TTL variables and setting) and corrects itself from request timing. /cache opens a per-turn table. Needs function hooks (early access).",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -6380,7 +6380,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -6430,7 +6430,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -6439,7 +6439,7 @@
       "name": "aitmpl",
       "description": {
         "zh": null,
-        "en": "/aitmpl opens a flat side pane (plain text, no colours or icons) for the aitmpl.com catalog: a search box, the site's Browse menu with counts, an Installed section (agents, commands, skills and mods found in .claude/ and ~/.claude/), a Popular/Results list with download counts, and view/install on every row. Install runs the fixed CLI argv ($.process.run, validated path, no shell). The catalog is read live through $.http.fetch; browsing costs no tokens.",
+        "en": "/aitmpl opens a side pane for the aitmpl.com catalog: search box, the site's Browse menu with an icon, colour and count per type, an Installed section (agents, commands, skills and mods found in .claude/ and ~/.claude/), a Popular/Results list with download counts, and view/install on every row. Install runs the fixed CLI argv ($.process.run, validated path, no shell). The catalog is read live through $.http.fetch; browsing costs no tokens.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -6448,7 +6448,8 @@
       "lang": "en",
       "categories": [
         "research",
-        "coding"
+        "coding",
+        "design"
       ],
       "targets": [
         "claude-code"
@@ -6480,7 +6481,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -6531,7 +6532,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -6580,7 +6581,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -6629,7 +6630,58 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32272,
+      "stars": 32353,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/productivity/session-time-machine/.claude-plugin/plugin.json#session-time-machine",
+      "type": "plugin",
+      "name": "session-time-machine",
+      "description": {
+        "zh": null,
+        "en": "/timemachine draws the session as a timeline of prompts, tool calls and turn ends from its own transcript. Press a point and give a new instruction: the mod writes a copy of the transcript cut there under a new session id and gives you the `claude --resume` command that continues it, so you can try the other approach without losing this one. Hooks session.start, command.run, turn.complete and ui.render on Pane.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "coding",
+        "design"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/productivity/session-time-machine/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/productivity/session-time-machine/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -6678,7 +6730,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -6728,7 +6780,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -6777,7 +6829,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -6827,7 +6879,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -6876,7 +6928,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -6927,7 +6979,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -6977,7 +7029,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -7027,7 +7079,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -7077,7 +7129,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -7128,7 +7180,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -7179,7 +7231,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -7229,7 +7281,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -7279,7 +7331,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -7329,7 +7381,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -7379,7 +7431,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -7429,7 +7481,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -7479,7 +7531,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -7529,7 +7581,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
@@ -7580,7 +7632,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:typing-test",
       "familySize": 8,
-      "stars": 32272,
+      "stars": 32353,
       "curatedMentions": 2
     },
     {
