@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T21:58:02.509Z",
+  "generatedAt": "2026-10-04T22:11:04.717Z",
   "type": "plugin",
   "label": {
     "zh": "插件",
@@ -5729,7 +5729,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32353,
+      "stars": 32375,
       "curatedMentions": 2
     },
     {
@@ -5738,7 +5738,7 @@
       "name": "cc-arcade",
       "description": {
         "zh": null,
-        "en": "Games above the Claude Code prompt (snake, Tetris, 2048, Minesweeper, Flappy, Pong, typing test, Space Invaders, Doom) plus a pet that grows as Claude tests, commits and edits. Clones of the genre, not affiliated with or endorsed by Tetris Holding, Taito, Atari or id Software. Needs function hooks (early access) and an interactive terminal.",
+        "en": "Games above the Claude Code prompt (snake, Tetris, 2048, Minesweeper, Flappy, Pong, typing test, Space Invaders, Doom) plus a pet that grows as Claude tests, commits and edits. Clones of the genre, not affiliated with or endorsed by Tetris Holding, Taito, Atari or id Software. Needs an interactive terminal.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -5746,8 +5746,9 @@
       },
       "lang": "en",
       "categories": [
+        "coding",
         "meta",
-        "coding"
+        "testing"
       ],
       "targets": [
         "claude-code"
@@ -5779,7 +5780,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32353,
+      "stars": 32375,
       "curatedMentions": 2
     },
     {
@@ -5788,7 +5789,7 @@
       "name": "chess",
       "description": {
         "zh": null,
-        "en": "Play chess against Claude (or Jev, when a Jev key is set) in a side pane while you work. Click a piece and a square, or type a move; Claude answers through a fork of the session, Jev through TypeSafe's decision API, and the pane shows the tokens each move cost as the API reported them, and the running total. Docked beside the transcript in the fullscreen layout, above the prompt otherwise. Needs function hooks (early access).",
+        "en": "Play chess against Claude (or Jev, when a Jev key is set) in a side pane while you work. Click a piece and a square, or type a move; Claude answers through a fork of the session, Jev through TypeSafe's decision API, and the pane shows the tokens each move cost as the API reported them, and the running total. Docked beside the transcript in the fullscreen layout, above the prompt otherwise.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -5797,8 +5798,7 @@
       "lang": "en",
       "categories": [
         "coding",
-        "design",
-        "meta"
+        "design"
       ],
       "targets": [
         "claude-code"
@@ -5830,7 +5830,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32353,
+      "stars": 32375,
       "curatedMentions": 2
     },
     {
@@ -5839,7 +5839,7 @@
       "name": "diff-invaders",
       "description": {
         "zh": null,
-        "en": "Space Invaders above the Claude Code prompt where every wave is the code Claude just wrote: each line an Edit or Write added becomes a row of the formation and every two characters one alien, so you shoot your own diff. Ship, one shot at a time, bombs, three lives, best score. Zero tokens. Needs function hooks (early access) and an interactive terminal.",
+        "en": "Space Invaders above the Claude Code prompt where every wave is the code Claude just wrote: each line an Edit or Write added becomes a row of the formation and every two characters one alien, so you shoot your own diff. Ship, one shot at a time, bombs, three lives, best score. Zero tokens. Needs an interactive terminal.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -5847,8 +5847,8 @@
       },
       "lang": "en",
       "categories": [
-        "meta",
-        "coding"
+        "coding",
+        "meta"
       ],
       "targets": [
         "claude-code"
@@ -5880,7 +5880,57 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32353,
+      "stars": 32375,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/games/doom/.claude-plugin/plugin.json#doom",
+      "type": "plugin",
+      "name": "doom",
+      "description": {
+        "zh": null,
+        "en": "Doom above the Claude Code prompt: a corridor shooter: imps, a shotgun, and the floor below. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs an interactive terminal with a mouse.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "meta"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/games/doom/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/games/doom/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 32375,
       "curatedMentions": 2
     },
     {
@@ -5889,7 +5939,7 @@
       "name": "pacman",
       "description": {
         "zh": null,
-        "en": "Pac-Man above the Claude Code prompt: a 19×15 maze, four ghosts that chase, scatter and flee, power pellets, three lives and faster levels. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. Needs function hooks (early access) and an interactive terminal.",
+        "en": "Pac-Man above the Claude Code prompt: a 19×15 maze, four ghosts that chase, scatter and flee, power pellets, three lives and faster levels. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. Needs an interactive terminal.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -5897,8 +5947,8 @@
       },
       "lang": "en",
       "categories": [
-        "meta",
-        "coding"
+        "coding",
+        "meta"
       ],
       "targets": [
         "claude-code"
@@ -5930,7 +5980,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32353,
+      "stars": 32375,
       "curatedMentions": 2
     },
     {
@@ -5939,7 +5989,7 @@
       "name": "pet",
       "description": {
         "zh": null,
-        "en": "A virtual pet above the Claude Code prompt that grows as Claude works: passing tests, commits and edits grant XP and mood, failing tests cost mood, idling drains it; egg → baby → kid → adult → legend. Zero tokens. Split out of cc-arcade (MIT, Seza Akgün). Needs function hooks (early access) and an interactive terminal.",
+        "en": "A virtual pet above the Claude Code prompt that grows as Claude works: passing tests, commits and edits grant XP and mood, failing tests cost mood, idling drains it; egg → baby → kid → adult → legend. Zero tokens. Split out of cc-arcade (MIT, Seza Akgün). Needs an interactive terminal.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -5947,8 +5997,8 @@
       },
       "lang": "en",
       "categories": [
-        "meta",
-        "coding"
+        "coding",
+        "meta"
       ],
       "targets": [
         "claude-code"
@@ -5980,7 +6030,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32353,
+      "stars": 32375,
       "curatedMentions": 2
     },
     {
@@ -5989,7 +6039,7 @@
       "name": "snake",
       "description": {
         "zh": null,
-        "en": "Snake above the Claude Code prompt: eat, grow, and keep off the walls and yourself. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs function hooks (early access) and an interactive terminal with a mouse.",
+        "en": "Snake above the Claude Code prompt: eat, grow, and keep off the walls and yourself. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs an interactive terminal with a mouse.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -5997,8 +6047,8 @@
       },
       "lang": "en",
       "categories": [
-        "meta",
-        "coding"
+        "coding",
+        "meta"
       ],
       "targets": [
         "claude-code"
@@ -6030,7 +6080,57 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32353,
+      "stars": 32375,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/games/tetris/.claude-plugin/plugin.json#tetris",
+      "type": "plugin",
+      "name": "tetris",
+      "description": {
+        "zh": null,
+        "en": "Tetris above the Claude Code prompt: fit the falling pieces and clear lines. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs an interactive terminal with a mouse.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "meta"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/games/tetris/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/games/tetris/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 32375,
       "curatedMentions": 2
     },
     {
@@ -6039,7 +6139,7 @@
       "name": "tool-defense",
       "description": {
         "zh": null,
-        "en": "A tower defense above the Claude Code prompt where every enemy is one of Claude's real tool calls: Bash sends runners, an Edit or Write a slow tank, a web or MCP call a flyer, an Agent a boss. Build and upgrade towers by clicking beside the road, hold the base through Claude's turn. Zero tokens. Needs function hooks (early access) and an interactive terminal with a mouse.",
+        "en": "A tower defense above the Claude Code prompt where every enemy is one of Claude's real tool calls: Bash sends runners, an Edit or Write a slow tank, a web or MCP call a flyer, an Agent a boss. Build and upgrade towers by clicking beside the road, hold the base through Claude's turn. Zero tokens. Needs an interactive terminal with a mouse.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -6047,8 +6147,8 @@
       },
       "lang": "en",
       "categories": [
-        "meta",
-        "coding"
+        "coding",
+        "meta"
       ],
       "targets": [
         "claude-code"
@@ -6080,7 +6180,58 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32353,
+      "stars": 32375,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/games/typing-test/.claude-plugin/plugin.json#typing-test",
+      "type": "plugin",
+      "name": "typing-test",
+      "description": {
+        "zh": null,
+        "en": "Typing test above the Claude Code prompt: retype a line of code as fast as you can. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs an interactive terminal with a mouse.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "coding",
+        "meta"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/games/typing-test/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/games/typing-test/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 32375,
       "curatedMentions": 2
     },
     {
@@ -6089,7 +6240,7 @@
       "name": "linear-tickets",
       "description": {
         "zh": null,
-        "en": "Your Linear tickets in a side pane, with their status and a chart of how you are progressing: tickets grouped by state (in progress, todo, backlog, done), a stacked status bar, a bar chart of tickets closed per day over the last two weeks and, when your tickets sit in a cycle, that cycle's scope and completed burn-up. Read-only; it polls Linear's GraphQL API. /linear opens it. Needs function hooks (early access) and a Linear API key.",
+        "en": "Your Linear tickets in a side pane, with their status and a chart of how you are progressing: tickets grouped by state (in progress, todo, backlog, done), a stacked status bar, a bar chart of tickets closed per day over the last two weeks and, when your tickets sit in a cycle, that cycle's scope and completed burn-up. Read-only; it polls Linear's GraphQL API. /linear opens it. Needs a Linear API key.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -6131,7 +6282,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32353,
+      "stars": 32375,
       "curatedMentions": 2
     },
     {
@@ -6140,7 +6291,7 @@
       "name": "neon-branch-per-session",
       "description": {
         "zh": null,
-        "en": "A Neon database branch for each Claude Code session: created from your default (or chosen) branch when the session starts, handed to every command Claude runs as DATABASE_URL, and set to expire on its own (or deleted when the session ends). Claude can migrate, seed and break the branch without touching production data. /neon shows it, keeps it or deletes it. Needs function hooks (early access) and a Neon API key.",
+        "en": "A Neon database branch for each Claude Code session: created from your default (or chosen) branch when the session starts, handed to every command Claude runs as DATABASE_URL, and set to expire on its own (or deleted when the session ends). Claude can migrate, seed and break the branch without touching production data. /neon shows it, keeps it or deletes it. Needs a Neon API key.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -6148,8 +6299,8 @@
       },
       "lang": "en",
       "categories": [
-        "meta",
-        "coding"
+        "coding",
+        "meta"
       ],
       "targets": [
         "claude-code"
@@ -6181,7 +6332,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32353,
+      "stars": 32375,
       "curatedMentions": 2
     },
     {
@@ -6231,7 +6382,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32353,
+      "stars": 32375,
       "curatedMentions": 2
     },
     {
@@ -6240,7 +6391,7 @@
       "name": "vercel-deploys",
       "description": {
         "zh": null,
-        "en": "Your Vercel projects in a side pane: each connected site with the state of its latest deployment (building, ready, failed), the production domain, the Git commit behind it and whether the site answers right now. It polls Vercel's REST API (faster while something builds) and toasts when a deployment finishes or fails. /vercel opens it. Needs function hooks (early access) and a Vercel access token.",
+        "en": "Your Vercel projects in a side pane: each connected site with the state of its latest deployment (building, ready, failed), the production domain, the Git commit behind it and whether the site answers right now. It polls Vercel's REST API (faster while something builds) and toasts when a deployment finishes or fails. /vercel opens it. Needs a Vercel access token.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -6280,7 +6431,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32353,
+      "stars": 32375,
       "curatedMentions": 2
     },
     {
@@ -6330,7 +6481,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32353,
+      "stars": 32375,
       "curatedMentions": 2
     },
     {
@@ -6339,7 +6490,7 @@
       "name": "prompt-cache-control",
       "description": {
         "zh": null,
-        "en": "Prompt-cache meter above the Claude Code prompt: how many tokens each request read from, wrote to and sent past the cache, a live countdown to the cache's expiry, and what to do about it (keep going, compact or clear). The TTL follows Claude Code's own rules for your account (1 hour on a Claude subscription, 5 minutes on an API key, cloud provider or usage credits, plus the TTL variables and setting) and corrects itself from request timing. /cache opens a per-turn table. Needs function hooks (early access).",
+        "en": "Prompt-cache meter above the Claude Code prompt: how many tokens each request read from, wrote to and sent past the cache, a live countdown to the cache's expiry, and what to do about it (keep going, compact or clear). The TTL follows Claude Code's own rules for your account (1 hour on a Claude subscription, 5 minutes on an API key, cloud provider or usage credits, plus the TTL variables and setting) and corrects itself from request timing. /cache opens a per-turn table.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -6347,8 +6498,8 @@
       },
       "lang": "en",
       "categories": [
-        "meta",
-        "coding"
+        "coding",
+        "meta"
       ],
       "targets": [
         "claude-code"
@@ -6380,7 +6531,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32353,
+      "stars": 32375,
       "curatedMentions": 2
     },
     {
@@ -6430,7 +6581,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32353,
+      "stars": 32375,
       "curatedMentions": 2
     },
     {
@@ -6481,7 +6632,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32353,
+      "stars": 32375,
       "curatedMentions": 2
     },
     {
@@ -6532,7 +6683,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32353,
+      "stars": 32375,
       "curatedMentions": 2
     },
     {
@@ -6581,7 +6732,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32353,
+      "stars": 32375,
       "curatedMentions": 2
     },
     {
@@ -6630,7 +6781,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32353,
+      "stars": 32375,
       "curatedMentions": 2
     },
     {
@@ -6681,7 +6832,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32353,
+      "stars": 32375,
       "curatedMentions": 2
     },
     {
@@ -6730,7 +6881,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32353,
+      "stars": 32375,
       "curatedMentions": 2
     },
     {
@@ -6780,7 +6931,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32353,
+      "stars": 32375,
       "curatedMentions": 2
     },
     {
@@ -6789,7 +6940,7 @@
       "name": "jev-auto-mode",
       "description": {
         "zh": null,
-        "en": "A permission layer driven by a JSON policy: allow, ask or deny every tool call (Bash, edits, web, MCP, subagents, skills), every slash command or skill you type, and every skill preloaded into a subagent. Rules decide first (deny > ask > allow, compound Bash commands split); what no rule covers can go to TypeSafe's Jev, which judges the action against your latest request with thresholds you set. Claude can never edit the policy. Needs function hooks (early access).",
+        "en": "A permission layer driven by a JSON policy: allow, ask or deny every tool call (Bash, edits, web, MCP, subagents, skills), every slash command or skill you type, and every skill preloaded into a subagent. Rules decide first (deny > ask > allow, compound Bash commands split); what no rule covers can go to TypeSafe's Jev, which judges the action against your latest request with thresholds you set. Claude can never edit the policy.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -6829,7 +6980,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32353,
+      "stars": 32375,
       "curatedMentions": 2
     },
     {
@@ -6879,7 +7030,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32353,
+      "stars": 32375,
       "curatedMentions": 2
     },
     {
@@ -6928,7 +7079,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32353,
+      "stars": 32375,
       "curatedMentions": 2
     },
     {
@@ -6979,7 +7130,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32353,
+      "stars": 32375,
       "curatedMentions": 2
     },
     {
@@ -7029,7 +7180,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32353,
+      "stars": 32375,
       "curatedMentions": 2
     },
     {
@@ -7079,7 +7230,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32353,
+      "stars": 32375,
       "curatedMentions": 2
     },
     {
@@ -7088,7 +7239,7 @@
       "name": "agent-flow",
       "description": {
         "zh": null,
-        "en": "A side pane that draws the session's agent flow live: the main loop's context window, every subagent it spawns as a tree, and for each one the context handed down (its prompt, or the whole parent context for a fork), what it did with it (steps, tools, context size) and the answer it handed back up. Docked beside the transcript in the fullscreen layout, above the prompt otherwise. Needs function hooks (early access).",
+        "en": "A side pane that draws the session's agent flow live: the main loop's context window, every subagent it spawns as a tree, and for each one the context handed down (its prompt, or the whole parent context for a fork), what it did with it (steps, tools, context size) and the answer it handed back up. Docked beside the transcript in the fullscreen layout, above the prompt otherwise.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -7096,8 +7247,9 @@
       },
       "lang": "en",
       "categories": [
+        "design",
         "meta",
-        "design"
+        "coding"
       ],
       "targets": [
         "claude-code"
@@ -7129,7 +7281,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32353,
+      "stars": 32375,
       "curatedMentions": 2
     },
     {
@@ -7138,7 +7290,7 @@
       "name": "git-sidebar",
       "description": {
         "zh": null,
-        "en": "A lazygit-style side pane: every worktree of the repository and its local branches as rows you click. A worktree row moves the session there with /cd; a branch row shows its last commits and offers switch (clean tree only) or open worktree. Docked floor to ceiling beside the transcript in the fullscreen layout, above the prompt otherwise. Needs function hooks (early access).",
+        "en": "A lazygit-style side pane: every worktree of the repository and its local branches as rows you click. A worktree row moves the session there with /cd; a branch row shows its last commits and offers switch (clean tree only) or open worktree. Docked floor to ceiling beside the transcript in the fullscreen layout, above the prompt otherwise.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -7147,8 +7299,7 @@
       "lang": "en",
       "categories": [
         "design",
-        "coding",
-        "meta"
+        "coding"
       ],
       "targets": [
         "claude-code"
@@ -7180,7 +7331,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32353,
+      "stars": 32375,
       "curatedMentions": 2
     },
     {
@@ -7231,7 +7382,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32353,
+      "stars": 32375,
       "curatedMentions": 2
     },
     {
@@ -7240,7 +7391,7 @@
       "name": "2048",
       "description": {
         "zh": null,
-        "en": "2048 above the Claude Code prompt: slide and merge tiles up to 2048. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs function hooks (early access) and an interactive terminal with a mouse.",
+        "en": "2048 above the Claude Code prompt: slide and merge tiles up to 2048. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs an interactive terminal with a mouse.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -7248,8 +7399,8 @@
       },
       "lang": "en",
       "categories": [
-        "meta",
-        "coding"
+        "coding",
+        "meta"
       ],
       "targets": [
         "claude-code"
@@ -7261,7 +7412,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 57,
+        "score": 59,
         "gates": {
           "security": true,
           "schema": true,
@@ -7279,59 +7430,9 @@
       "nearDuplicateOf": null,
       "dupCount": 0,
       "variantCount": 0,
-      "templateFamily": "davila7/claude-code-templates:typing-test",
-      "familySize": 8,
-      "stars": 32353,
-      "curatedMentions": 2
-    },
-    {
-      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/games/doom/.claude-plugin/plugin.json#doom",
-      "type": "plugin",
-      "name": "doom",
-      "description": {
-        "zh": null,
-        "en": "Doom above the Claude Code prompt: a corridor shooter: imps, a shotgun, and the floor below. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs function hooks (early access) and an interactive terminal with a mouse.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "meta",
-        "coding"
-      ],
-      "targets": [
-        "claude-code"
-      ],
-      "source": {
-        "repo": "davila7/claude-code-templates",
-        "path": "cli-tool/components/mods/games/doom/.claude-plugin/plugin.json",
-        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/games/doom/.claude-plugin/plugin.json",
-        "tier": 2
-      },
-      "quality": {
-        "score": 57,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": "davila7/claude-code-templates:typing-test",
-      "familySize": 8,
-      "stars": 32353,
+      "templateFamily": "davila7/claude-code-templates:pong",
+      "familySize": 5,
+      "stars": 32375,
       "curatedMentions": 2
     },
     {
@@ -7340,7 +7441,7 @@
       "name": "flappy",
       "description": {
         "zh": null,
-        "en": "Flappy above the Claude Code prompt: flap through the gaps in the pipes. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs function hooks (early access) and an interactive terminal with a mouse.",
+        "en": "Flappy above the Claude Code prompt: flap through the gaps in the pipes. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs an interactive terminal with a mouse.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -7348,8 +7449,8 @@
       },
       "lang": "en",
       "categories": [
-        "meta",
-        "coding"
+        "coding",
+        "meta"
       ],
       "targets": [
         "claude-code"
@@ -7361,7 +7462,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 57,
+        "score": 59,
         "gates": {
           "security": true,
           "schema": true,
@@ -7379,9 +7480,9 @@
       "nearDuplicateOf": null,
       "dupCount": 0,
       "variantCount": 0,
-      "templateFamily": "davila7/claude-code-templates:typing-test",
-      "familySize": 8,
-      "stars": 32353,
+      "templateFamily": "davila7/claude-code-templates:pong",
+      "familySize": 5,
+      "stars": 32375,
       "curatedMentions": 2
     },
     {
@@ -7390,7 +7491,7 @@
       "name": "invaders",
       "description": {
         "zh": null,
-        "en": "Space Invaders above the Claude Code prompt: shoot each wave before it lands. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs function hooks (early access) and an interactive terminal with a mouse.",
+        "en": "Space Invaders above the Claude Code prompt: shoot each wave before it lands. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs an interactive terminal with a mouse.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -7398,8 +7499,8 @@
       },
       "lang": "en",
       "categories": [
-        "meta",
-        "coding"
+        "coding",
+        "meta"
       ],
       "targets": [
         "claude-code"
@@ -7411,7 +7512,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 57,
+        "score": 59,
         "gates": {
           "security": true,
           "schema": true,
@@ -7429,9 +7530,9 @@
       "nearDuplicateOf": null,
       "dupCount": 0,
       "variantCount": 0,
-      "templateFamily": "davila7/claude-code-templates:typing-test",
-      "familySize": 8,
-      "stars": 32353,
+      "templateFamily": "davila7/claude-code-templates:pong",
+      "familySize": 5,
+      "stars": 32375,
       "curatedMentions": 2
     },
     {
@@ -7440,7 +7541,7 @@
       "name": "minesweeper",
       "description": {
         "zh": null,
-        "en": "Minesweeper above the Claude Code prompt: open every cell that is not a mine. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs function hooks (early access) and an interactive terminal with a mouse.",
+        "en": "Minesweeper above the Claude Code prompt: open every cell that is not a mine. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs an interactive terminal with a mouse.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -7448,8 +7549,8 @@
       },
       "lang": "en",
       "categories": [
-        "meta",
-        "coding"
+        "coding",
+        "meta"
       ],
       "targets": [
         "claude-code"
@@ -7461,7 +7562,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 57,
+        "score": 59,
         "gates": {
           "security": true,
           "schema": true,
@@ -7479,9 +7580,9 @@
       "nearDuplicateOf": null,
       "dupCount": 0,
       "variantCount": 0,
-      "templateFamily": "davila7/claude-code-templates:typing-test",
-      "familySize": 8,
-      "stars": 32353,
+      "templateFamily": "davila7/claude-code-templates:pong",
+      "familySize": 5,
+      "stars": 32375,
       "curatedMentions": 2
     },
     {
@@ -7490,7 +7591,7 @@
       "name": "pong",
       "description": {
         "zh": null,
-        "en": "Pong above the Claude Code prompt: first to 5 against the computer. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs function hooks (early access) and an interactive terminal with a mouse.",
+        "en": "Pong above the Claude Code prompt: first to 5 against the computer. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs an interactive terminal with a mouse.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -7498,8 +7599,8 @@
       },
       "lang": "en",
       "categories": [
-        "meta",
-        "coding"
+        "coding",
+        "meta"
       ],
       "targets": [
         "claude-code"
@@ -7511,7 +7612,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 57,
+        "score": 59,
         "gates": {
           "security": true,
           "schema": true,
@@ -7529,110 +7630,9 @@
       "nearDuplicateOf": null,
       "dupCount": 0,
       "variantCount": 0,
-      "templateFamily": "davila7/claude-code-templates:typing-test",
-      "familySize": 8,
-      "stars": 32353,
-      "curatedMentions": 2
-    },
-    {
-      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/games/tetris/.claude-plugin/plugin.json#tetris",
-      "type": "plugin",
-      "name": "tetris",
-      "description": {
-        "zh": null,
-        "en": "Tetris above the Claude Code prompt: fit the falling pieces and clear lines. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs function hooks (early access) and an interactive terminal with a mouse.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "meta",
-        "coding"
-      ],
-      "targets": [
-        "claude-code"
-      ],
-      "source": {
-        "repo": "davila7/claude-code-templates",
-        "path": "cli-tool/components/mods/games/tetris/.claude-plugin/plugin.json",
-        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/games/tetris/.claude-plugin/plugin.json",
-        "tier": 2
-      },
-      "quality": {
-        "score": 57,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": "davila7/claude-code-templates:typing-test",
-      "familySize": 8,
-      "stars": 32353,
-      "curatedMentions": 2
-    },
-    {
-      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/games/typing-test/.claude-plugin/plugin.json#typing-test",
-      "type": "plugin",
-      "name": "typing-test",
-      "description": {
-        "zh": null,
-        "en": "Typing test above the Claude Code prompt: retype a line of code as fast as you can. Plays while Claude works, pauses when the turn ends, keeps your best score; zero tokens. A single game split out of cc-arcade (MIT, Seza Akgün). Needs function hooks (early access) and an interactive terminal with a mouse.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "testing",
-        "meta",
-        "coding"
-      ],
-      "targets": [
-        "claude-code"
-      ],
-      "source": {
-        "repo": "davila7/claude-code-templates",
-        "path": "cli-tool/components/mods/games/typing-test/.claude-plugin/plugin.json",
-        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/games/typing-test/.claude-plugin/plugin.json",
-        "tier": 2
-      },
-      "quality": {
-        "score": 57,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": "davila7/claude-code-templates:typing-test",
-      "familySize": 8,
-      "stars": 32353,
+      "templateFamily": "davila7/claude-code-templates:pong",
+      "familySize": 5,
+      "stars": 32375,
       "curatedMentions": 2
     },
     {
