@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T00:34:33.581Z",
+  "generatedAt": "2026-10-06T22:52:49.878Z",
   "category": {
     "key": "security",
     "zh": "安全审计",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 990,
+  "total": 996,
   "entries": [
     {
       "id": "skill:composiohq/awesome-claude-skills:composio-skills/ahrefs-automation/skill.md#ahrefs-automation",
@@ -9788,57 +9788,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "subagent:joneqian/claude-skills-suite:agents/postgre-database-reviewer.md#database-reviewer",
-      "type": "subagent",
-      "name": "database-reviewer",
-      "description": {
-        "zh": null,
-        "en": "PostgreSQL database specialist for query optimization, schema design, security, and performance. Use PROACTIVELY when writing SQL, creating migrations, designing schemas, or troubleshooting database performance. Incorporates Supabase best practices.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "security",
-        "database",
-        "writing"
-      ],
-      "targets": [
-        "claude-code"
-      ],
-      "source": {
-        "repo": "joneqian/claude-skills-suite",
-        "path": "agents/postgre-database-reviewer.md",
-        "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/agents/postgre-database-reviewer.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 28,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "low",
-        "score": 6
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 26,
-      "curatedMentions": 0
-    },
-    {
       "id": "subagent:joneqian/claude-skills-suite:agents/security-reviewer.md#security-reviewer",
       "type": "subagent",
       "name": "security-reviewer",
@@ -9877,6 +9826,57 @@
       "risk": {
         "level": "low",
         "score": 4
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 26,
+      "curatedMentions": 0
+    },
+    {
+      "id": "subagent:joneqian/claude-skills-suite:agents/postgre-database-reviewer.md#database-reviewer",
+      "type": "subagent",
+      "name": "database-reviewer",
+      "description": {
+        "zh": null,
+        "en": "PostgreSQL database specialist for query optimization, schema design, security, and performance. Use PROACTIVELY when writing SQL, creating migrations, designing schemas, or troubleshooting database performance. Incorporates Supabase best practices.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "database",
+        "writing"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "joneqian/claude-skills-suite",
+        "path": "agents/postgre-database-reviewer.md",
+        "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/agents/postgre-database-reviewer.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 27,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "low",
+        "score": 6
       },
       "duplicateOf": null,
       "nearDuplicateOf": null,
@@ -19466,6 +19466,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:deepsleuth/deepsleuth-mcp:io.github.deepsleuth/deepsleuth#deepsleuth",
+      "type": "mcp",
+      "name": "Deepsleuth",
+      "description": {
+        "zh": null,
+        "en": "Deterministic, no-LLM security scanner for MCP servers, plus an inline proxy gate.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "DeepSleuth/deepsleuth-mcp",
+        "path": "io.github.DeepSleuth/deepsleuth",
+        "url": "https://github.com/DeepSleuth/deepsleuth-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:delentia-labs/delentia-mcp:io.github.delentia-labs/delentia-mcp#delentia-sovereign-ai-operating-system",
       "type": "mcp",
       "name": "Delentia Sovereign AI Operating System",
@@ -21553,6 +21602,56 @@
         "repo": "ee324/a2awire",
         "path": "com.a2awire/data-windows-security-update-microsoft-cvrf",
         "url": "https://github.com/ee324/a2awire",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:egenil/sitelemetry-mcp:com.sitelemetry/sitelemetry#sitelemetry",
+      "type": "mcp",
+      "name": "Sitelemetry",
+      "description": {
+        "zh": null,
+        "en": "OAuth website audits: security, SEO, AI visibility, integrations, accessibility and performance.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "egenil/sitelemetry-mcp",
+        "path": "com.sitelemetry/sitelemetry",
+        "url": "https://github.com/egenil/sitelemetry-mcp",
         "tier": 0
       },
       "quality": {
@@ -29000,6 +29099,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:ai.gatana/gateway#gatana",
+      "type": "mcp",
+      "name": "Gatana",
+      "description": {
+        "zh": null,
+        "en": "MCP gateway for every MCP server, OpenAPI spec and FaaS tool behind one URL: SSO, SCIM, audit logs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.gatana/gateway",
+        "url": "https://www.gatana.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:ai.klyf/klyf#klyf",
       "type": "mcp",
       "name": "Klyf",
@@ -32113,6 +32262,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.kodemsecurity/kodem#kodem",
+      "type": "mcp",
+      "name": "Kodem",
+      "description": {
+        "zh": null,
+        "en": "Ask about your Kodem Security data and act on findings in plain language, with your permissions.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.kodemsecurity/kodem",
+        "url": "https://www.kodemsecurity.com/platform/mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.malwagon/malwagon#malwagon",
       "type": "mcp",
       "name": "Malwagon",
@@ -32875,56 +33073,6 @@
         "repo": null,
         "path": "com.sitecomb/check-website",
         "url": "https://sitecomb.com/claude",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:mcp-official:com.sitelemetry/sitelemetry#sitelemetry",
-      "type": "mcp",
-      "name": "Sitelemetry",
-      "description": {
-        "zh": null,
-        "en": "OAuth website audits: security, SEO, AI visibility, integrations, accessibility and performance.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "security",
-        "writing"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "com.sitelemetry/sitelemetry",
-        "url": "https://sitelemetry.com/mcp-guide",
         "tier": 0
       },
       "quality": {
@@ -36721,6 +36869,55 @@
         "repo": null,
         "path": "io.github.XLSV777/7it",
         "url": "https://7it.co.il/ai/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.zachhhhh/rankroot#rankroot-ai-visibility-audit",
+      "type": "mcp",
+      "name": "RankRoot: AI visibility audit",
+      "description": {
+        "zh": null,
+        "en": "Audit a site's visibility to ChatGPT, Perplexity, Claude and AI agents. Generates llms.txt.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.zachhhhh/rankroot",
+        "url": "https://rankroot-ai.netlify.app",
         "tier": 0
       },
       "quality": {
@@ -41593,6 +41790,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:petrovicistefan/mcp-security-guard:io.github.petrovicistefan/mcp-security-guard#mcp-security-guard",
+      "type": "mcp",
+      "name": "MCP Security Guard",
+      "description": {
+        "zh": null,
+        "en": "Audit MCP servers for tool poisoning, rug pulls and supply-chain risk (OWASP MCP Top 10).",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "petrovicistefan/mcp-security-guard",
+        "path": "io.github.petrovicistefan/mcp-security-guard",
+        "url": "https://github.com/petrovicistefan/mcp-security-guard",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:pezhik/skilltotal:ai.skilltotal/skilltotal#skilltotal",
       "type": "mcp",
       "name": "SkillTotal",
@@ -43194,6 +43440,57 @@
         "repo": "RostislavMatov/mcpcut",
         "path": "io.github.RostislavMatov/mcpcut",
         "url": "https://github.com/RostislavMatov/mcpcut",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:rowstile/rowstile:io.github.rowstile/rowstile#rowstile",
+      "type": "mcp",
+      "name": "rowstile",
+      "description": {
+        "zh": null,
+        "en": "Check, test, prove and review a rowstile policy: access rules for Postgres row-level security",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "database",
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "rowstile/rowstile",
+        "path": "io.github.rowstile/rowstile",
+        "url": "https://github.com/rowstile/rowstile",
         "tier": 0
       },
       "quality": {
@@ -45401,7 +45698,7 @@
       "name": "SWT3 AI Witness",
       "description": {
         "zh": null,
-        "en": "Cryptographic AI governance and audit. 72 tools, 77 frameworks. EU AI Act, NIST, CMMC, MCP Top 10.",
+        "en": "Cryptographic AI governance and audit. 75 tools, 84 frameworks. EU AI Act, NIST, CMMC, MCP Top 10.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -49172,7 +49469,7 @@
       "name": "lavela",
       "description": {
         "zh": null,
-        "en": "Launch and operate a SaaS from one conversation — domain, hosting, email, Stripe, ads, security.",
+        "en": "Deploy a repo to a live app from chat: servers, Postgres, domain, email, Stripe, security scan.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -49181,8 +49478,8 @@
       "lang": "en",
       "categories": [
         "security",
-        "business",
-        "integration"
+        "database",
+        "devops"
       ],
       "targets": [
         "mcp-client"

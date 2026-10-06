@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T00:34:33.581Z",
+  "generatedAt": "2026-10-06T22:52:49.878Z",
   "category": {
     "key": "coding",
     "zh": "编码开发",
@@ -109,7 +109,7 @@
       }
     ]
   },
-  "total": 4258,
+  "total": 4278,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/algorithmic-art/skill.md#algorithmic-art",
@@ -88111,6 +88111,55 @@
       "curatedMentions": 2
     },
     {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/productivity/jev-skill-typeahead/.claude-plugin/plugin.json#jev-skill-typeahead",
+      "type": "plugin",
+      "name": "jev-skill-typeahead",
+      "description": {
+        "zh": null,
+        "en": "Shows, while you type, the skills and subagents Claude will probably call for your prompt: reads the draft on every edit and lists them in the band above the prompt, ranked by keyword match (English or Spanish). When you pause, Jev (TypeSafe's decision model) decides which one will be called and the band marks it. Slash commands are left out, since you run those yourself. Without a Jev key it stays on the instant local match.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/productivity/jev-skill-typeahead/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/productivity/jev-skill-typeahead/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 32397,
+      "curatedMentions": 2
+    },
+    {
       "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/productivity/npm-to-pnpm-rewriter/.claude-plugin/plugin.json#npm-to-pnpm-rewriter",
       "type": "plugin",
       "name": "npm-to-pnpm-rewriter",
@@ -142204,7 +142253,7 @@
       "name": "io.github.vshulcz/deja-vu",
       "description": {
         "zh": null,
-        "en": "deja-vu: local memory over the session histories of thirty-five coding agents.",
+        "en": "deja-vu: local memory over the session histories of thirty-eight coding agents.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -157033,56 +157082,6 @@
       "curatedMentions": 1
     },
     {
-      "id": "mcp:tranqui004/signalint:io.github.tranqui004/signalint#io.github.tranqui004-signalint",
-      "type": "mcp",
-      "name": "io.github.TranQui004/signalint",
-      "description": {
-        "zh": null,
-        "en": "Local stdio MCP server for cached, loop-aware JS/TypeScript diagnostics (Oxlint, tsc, Biome).",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding",
-        "meta"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "TranQui004/signalint",
-        "path": "io.github.TranQui004/signalint",
-        "url": "https://github.com/TranQui004/signalint",
-        "tier": 0
-      },
-      "quality": {
-        "score": 24,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 1
-    },
-    {
       "id": "mcp:uizze/uizze:io.github.uizze/uizze#uizze",
       "type": "mcp",
       "name": "Uizze",
@@ -158759,6 +158758,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:agentstacktech/agentstack:io.github.agentstacktech/agentstack#agentstack-(agentstack.tech)",
+      "type": "mcp",
+      "name": "AgentStack (agentstack.tech)",
+      "description": {
+        "zh": null,
+        "en": "Backend for AI agents: one batched tool over ~668 actions (hosting, storage, auth, payments).",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "agentstacktech/AgentStack",
+        "path": "io.github.agentstacktech/agentstack",
+        "url": "https://github.com/agentstacktech/AgentStack",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:ahmetloca/reactframe-public:io.github.ahmetloca/reactframe#reactframe",
       "type": "mcp",
       "name": "ReactFrame",
@@ -158931,6 +158979,55 @@
         "repo": "AiDimag/aidimag",
         "path": "io.github.anup-khanal/aidimag",
         "url": "https://github.com/AiDimag/aidimag",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:aiguardrail/backend-mcp:io.github.aiguardrail/backend#collar-guardrail-—-pre-trade-risk-layer",
+      "type": "mcp",
+      "name": "Collar Guardrail — Pre-Trade Risk Layer",
+      "description": {
+        "zh": null,
+        "en": "Deterministic pre-trade risk checks for AI agents on Robinhood Chain. Returns allow/warn/deny.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "aiguardrail/backend-mcp",
+        "path": "io.github.aiguardrail/backend",
+        "url": "https://github.com/aiguardrail/backend-mcp",
         "tier": 0
       },
       "quality": {
@@ -161091,6 +161188,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:arpitgandhi1934/yugenox-mcp:io.github.arpitgandhi1934/yugenox-canada-grocery-prices#canadian-grocery-prices-for-ai-agents-(yugenox)",
+      "type": "mcp",
+      "name": "Canadian Grocery Prices for AI Agents (Yugenox)",
+      "description": {
+        "zh": null,
+        "en": "Canadian grocery prices by postal code: Loblaw banners, Instacart, Costco and Flipp weekly flyers.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ArpitGandhi1934/yugenox-mcp",
+        "path": "io.github.ArpitGandhi1934/yugenox-canada-grocery-prices",
+        "url": "https://github.com/ArpitGandhi1934/yugenox-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:arsprengel/trail-mcp:dev.usetrail/trail#trail",
       "type": "mcp",
       "name": "Trail",
@@ -161805,6 +161951,56 @@
         "repo": "AURORA-NEURO/aurora-agent",
         "path": "io.github.MurariAmbati/aurora-agent",
         "url": "https://github.com/AURORA-NEURO/aurora-agent",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:auten-ai/auten-mcp:ai.auten/mcp#auten",
+      "type": "mcp",
+      "name": "Auten",
+      "description": {
+        "zh": null,
+        "en": "Computer use for Claude Code, Codex, Cursor or any MCP client on Mac, Windows and Linux.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "auten-ai/auten-mcp",
+        "path": "ai.auten/mcp",
+        "url": "https://github.com/auten-ai/auten-mcp",
         "tier": 0
       },
       "quality": {
@@ -163815,6 +164011,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:candysiva/cursor-aaly-plugin:io.aaly/aaly#aaly",
+      "type": "mcp",
+      "name": "Aaly",
+      "description": {
+        "zh": null,
+        "en": "Build a full-stack app from Claude, Cursor, and more — Aaly is the backend API.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "candysiva/cursor-aaly-plugin",
+        "path": "io.aaly/aaly",
+        "url": "https://github.com/candysiva/cursor-aaly-plugin",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:cantbeblank96/qodercli-mcp:io.github.cantbeblank96/qodercli-mcp#io.github.cantbeblank96-qodercli-mcp",
       "type": "mcp",
       "name": "io.github.cantbeblank96/qodercli-mcp",
@@ -164776,6 +165021,56 @@
         "repo": "coders-talk/coders-talk-plugin",
         "path": "talk.coders/library",
         "url": "https://github.com/coders-talk/coders-talk-plugin",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:codexguy/regiabi-plugins:com.regiabi/chart-mcp#regiabi-charts",
+      "type": "mcp",
+      "name": "RegiaBI charts",
+      "description": {
+        "zh": null,
+        "en": "Chart code that fits your data first try, as source you own: you pay to author it, never to run it.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "codexguy/regiabi-plugins",
+        "path": "com.regiabi/chart-mcp",
+        "url": "https://github.com/codexguy/regiabi-plugins",
         "tier": 0
       },
       "quality": {
@@ -168618,6 +168913,106 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:eminuzun/hoptell:io.github.eminuzun/hoptell#hoptell",
+      "type": "mcp",
+      "name": "hoptell",
+      "description": {
+        "zh": null,
+        "en": "Messaging between AI coding agents (Claude Code, Codex, ...) over your own self-hosted relay.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "EminUZUN/hoptell",
+        "path": "io.github.EminUZUN/hoptell",
+        "url": "https://github.com/EminUZUN/hoptell",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:eminuzun/palaver:io.github.eminuzun/palaver#palaver",
+      "type": "mcp",
+      "name": "palaver",
+      "description": {
+        "zh": null,
+        "en": "Messaging between AI coding agents (Claude Code, Codex, ...) over your own self-hosted relay.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "EminUZUN/palaver",
+        "path": "io.github.EminUZUN/palaver",
+        "url": "https://github.com/EminUZUN/palaver",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:energixe/edgehound-mcp:io.github.energixe/edgehound-mcp#edgehound",
       "type": "mcp",
       "name": "Edgehound",
@@ -171983,9 +172378,9 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:heardlabs/heard-mcp:dev.heard/heard#heard",
+      "id": "mcp:heardlabs/heard-mcp:dev.heard/friends#heard-friends",
       "type": "mcp",
-      "name": "Heard",
+      "name": "Heard Friends",
       "description": {
         "zh": null,
         "en": "Your coding agents' hours this month, your friends board, and invites you approve.",
@@ -172003,7 +172398,7 @@
       ],
       "source": {
         "repo": "heardlabs/heard-mcp",
-        "path": "dev.heard/heard",
+        "path": "dev.heard/friends",
         "url": "https://github.com/heardlabs/heard-mcp",
         "tier": 0
       },
@@ -181363,6 +181758,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:kyrodata/mcp:com.kyrodata/kyrodata#kyrodata-—-brazil-trade,-crop-&-commodity-data",
+      "type": "mcp",
+      "name": "Kyrodata — Brazil Trade, Crop & Commodity Data",
+      "description": {
+        "zh": null,
+        "en": "Brazil exports/imports by HS code (ComexStat), soybean, coffee, supply-demand, climate, forecasts",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "kyrodata/mcp",
+        "path": "com.kyrodata/kyrodata",
+        "url": "https://github.com/kyrodata/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:kyungseopk1m/semver-checks:io.github.kyungseopk1m/semver-checks#io.github.kyungseopk1m-semver-checks",
       "type": "mcp",
       "name": "io.github.kyungseopk1m/semver-checks",
@@ -183092,6 +183536,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mano7onam/puenteo:io.github.mano7onam/puenteo#puenteo",
+      "type": "mcp",
+      "name": "Puenteo",
+      "description": {
+        "zh": null,
+        "en": "Let coding agents talk: search every agent session's history and message live sessions.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "mano7onam/puenteo",
+        "path": "io.github.mano7onam/puenteo",
+        "url": "https://github.com/mano7onam/puenteo",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:maple-kit/maple:io.github.maple-kit/maple#maple",
       "type": "mcp",
       "name": "Maple",
@@ -183213,6 +183707,55 @@
         "repo": "markup-carve/carve-mcp",
         "path": "io.github.markup-carve/carve-mcp",
         "url": "https://github.com/markup-carve/carve-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:marstudio360/vibedna-vault-mcp:io.github.marstudio360/vibedna-vault-mcp#vibedna-vault",
+      "type": "mcp",
+      "name": "VibeDNA Vault",
+      "description": {
+        "zh": null,
+        "en": "Encrypted local vault for API keys. Your AI fetches keys on demand and scans code for leaks.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "marstudio360/vibedna-vault-mcp",
+        "path": "io.github.marstudio360/vibedna-vault-mcp",
+        "url": "https://github.com/marstudio360/vibedna-vault-mcp",
         "tier": 0
       },
       "quality": {
@@ -184229,6 +184772,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:ai.kosmodrom/kosmodrom#kosmodrom",
+      "type": "mcp",
+      "name": "Kosmodrom",
+      "description": {
+        "zh": null,
+        "en": "Task tracker for product teams: projects, features, tasks, bugs, team chats and code context.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.kosmodrom/kosmodrom",
+        "url": "https://kosmodrom.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:ai.megastructure/arc#megastructure-arc",
       "type": "mcp",
       "name": "Megastructure Arc",
@@ -185072,6 +185664,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:app.pixever/mcp#pixever",
+      "type": "mcp",
+      "name": "Pixever",
+      "description": {
+        "zh": null,
+        "en": "Collective, moderated event photo spaces: read status, list media, save a guest photo, react, star.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "app.pixever/mcp",
+        "url": "https://pixever.app",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:app.rombik/rombik#app.rombik-rombik",
       "type": "mcp",
       "name": "app.rombik/rombik",
@@ -185539,6 +186181,55 @@
         "repo": null,
         "path": "cloud.tri2b/projects",
         "url": "https://projects.tri2b.cloud",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:cloud.urlhub/urlhub#urlhub",
+      "type": "mcp",
+      "name": "urlhub",
+      "description": {
+        "zh": null,
+        "en": "Many links as one short link with a QR code; read urlhub sets and preview what links are about.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "cloud.urlhub/urlhub",
+        "url": "https://urlhub.cloud/docs",
         "tier": 0
       },
       "quality": {
@@ -187690,56 +188381,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:com.regiabi/chart-mcp#regiabi-charts",
-      "type": "mcp",
-      "name": "RegiaBI charts",
-      "description": {
-        "zh": null,
-        "en": "Chart code that fits your data first try, as source you own: you pay to author it, never to run it.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "data",
-        "coding"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "com.regiabi/chart-mcp",
-        "url": "https://bizintelligencechampions.com/regiabi/developers?loc=mcpreg",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:mcp-official:com.repogates/repogates#repogates",
       "type": "mcp",
       "name": "RepoGates",
@@ -187862,6 +188503,55 @@
         "repo": null,
         "path": "com.runningunattended/agent-lint",
         "url": "https://runningunattended.com/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.s2reason/medicare-fee-schedule#medicare-fee-schedule-rates",
+      "type": "mcp",
+      "name": "Medicare Fee Schedule Rates",
+      "description": {
+        "zh": null,
+        "en": "Medicare Physician Fee Schedule amounts by code, date and locality, traced to archived CMS files.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.s2reason/medicare-fee-schedule",
+        "url": "https://s2reason.com/medicare-rate-connector",
         "tier": 0
       },
       "quality": {
@@ -189477,6 +190167,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:dev.insidetheloop/blog#inside-the-loop",
+      "type": "mcp",
+      "name": "Inside the Loop",
+      "description": {
+        "zh": null,
+        "en": "Read-only search and full text of Inside the Loop posts on AI agents, coding agents and MCP.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "research",
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "dev.insidetheloop/blog",
+        "url": "https://insidetheloop.dev",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:dev.keyframer/keyframer#keyframer",
       "type": "mcp",
       "name": "Keyframer",
@@ -190071,6 +190812,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:dev.willitblender/willitblender#willitblender",
+      "type": "mcp",
+      "name": "WillItBlender",
+      "description": {
+        "zh": null,
+        "en": "Blender-as-a-service for agents: search 3D assets, run Blender Python, or brief the studio agent.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "dev.willitblender/willitblender",
+        "url": "https://willitblender.dev",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:dev.workers.pathwren.www/mcp-endpoint-lint#mcp-endpoint-lint-handshake,-tool-schemas,-json-rpc-errors",
       "type": "mcp",
       "name": "MCP Endpoint Lint - handshake, tool schemas, JSON-RPC errors",
@@ -190368,55 +191159,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:io.aaly/aaly#aaly",
-      "type": "mcp",
-      "name": "Aaly",
-      "description": {
-        "zh": null,
-        "en": "Build a full-stack app from Claude, Cursor, and more — Aaly is the backend API.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "io.aaly/aaly",
-        "url": "https://aaly.io",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:mcp-official:io.bootify/mcp#io.bootify-mcp",
       "type": "mcp",
       "name": "io.bootify/mcp",
@@ -190637,55 +191379,6 @@
         "repo": null,
         "path": "io.gardenarena/gardenscript",
         "url": "https://gardenarena.io/en/gardenscript",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:mcp-official:io.github.aiguardrail/backend#io.github.aiguardrail-backend",
-      "type": "mcp",
-      "name": "io.github.aiguardrail/backend",
-      "description": {
-        "zh": null,
-        "en": "Deterministic pre-trade risk checks for autonomous AI trading agents.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "io.github.aiguardrail/backend",
-        "url": "https://registry.modelcontextprotocol.io/?q=io.github.aiguardrail%2Fbackend",
         "tier": 0
       },
       "quality": {
@@ -192147,7 +192840,7 @@
       "name": "Backend Investigator",
       "description": {
         "zh": null,
-        "en": "Read-only Loki logs and PostgreSQL diagnostics for backend investigations in your AI client.",
+        "en": "Read-only backend diagnostics with Loki, PostgreSQL, Redis, BullMQ, Docker and GitHub.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -192155,7 +192848,8 @@
       },
       "lang": "en",
       "categories": [
-        "coding"
+        "coding",
+        "database"
       ],
       "targets": [
         "mcp-client"
@@ -192982,6 +193676,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.tristanroth1/ismscopilot-account#isms-copilot",
+      "type": "mcp",
+      "name": "ISMS Copilot",
+      "description": {
+        "zh": null,
+        "en": "Compliance specialist AI (ISO 27001, SOC 2, GDPR, NIS 2, DORA) your coding agent hands GRC work to.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.tristanroth1/ismscopilot-account",
+        "url": "https://www.ismscopilot.com/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.vpatser1/mcp-api-doc-generator#io.github.vpatser1-mcp-api-doc-generator",
       "type": "mcp",
       "name": "io.github.vpatser1/mcp-api-doc-generator",
@@ -193252,6 +193995,55 @@
         "repo": null,
         "path": "io.memorysync/docs",
         "url": "https://docs.memorysync.io/mcp/overview",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.openvidu/docs#openvidu-docs",
+      "type": "mcp",
+      "name": "OpenVidu Docs",
+      "description": {
+        "zh": null,
+        "en": "The official OpenVidu documentation, per version, for coding agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.openvidu/docs",
+        "url": "https://openvidu.io/latest/docs/building-with-ai/mcp-servers/",
         "tier": 0
       },
       "quality": {
@@ -197692,6 +198484,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:nishkalkashyap/agentgo:io.github.nishkalkashyap/agentgo#agentgo",
+      "type": "mcp",
+      "name": "AgentGo",
+      "description": {
+        "zh": null,
+        "en": "Run Codex and Claude Code on your computer from an MCP client, and track or continue their runs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Nishkalkashyap/agentgo",
+        "path": "io.github.Nishkalkashyap/agentgo",
+        "url": "https://github.com/Nishkalkashyap/agentgo",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:nntoan/figma-mcp-rust:io.github.nntoan/figma-mcp-rust#io.github.nntoan-figma-mcp-rust",
       "type": "mcp",
       "name": "io.github.nntoan/figma-mcp-rust",
@@ -198556,6 +199398,56 @@
         "repo": "OfficialTanishSharma/agentos",
         "path": "io.github.OfficialTanishSharma/agentos",
         "url": "https://github.com/OfficialTanishSharma/agentos",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:oito2/mcp-sync82:io.github.oito2/mcp-sync82#sync82",
+      "type": "mcp",
+      "name": "sync82",
+      "description": {
+        "zh": null,
+        "en": "Persistent, structured project memory for AI coding agents, stored locally in SQLite.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "oito2/mcp-sync82",
+        "path": "io.github.oito2/mcp-sync82",
+        "url": "https://github.com/oito2/mcp-sync82",
         "tier": 0
       },
       "quality": {
@@ -203247,6 +204139,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:qmediat/gemini-code-context-mcp:io.github.qmediat/gemini-code-context-mcp#io.github.qmediat-gemini-code-context-mcp",
+      "type": "mcp",
+      "name": "io.github.qmediat/gemini-code-context-mcp",
+      "description": {
+        "zh": null,
+        "en": "Codebase Q&A for Claude Code through Gemini's 1M-token window, with workspace scans and caching.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "qmediat/gemini-code-context-mcp",
+        "path": "io.github.qmediat/gemini-code-context-mcp",
+        "url": "https://github.com/qmediat/gemini-code-context-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:quality-network/finedata-mcp:io.github.quality-network/finedata-mcp#finedata",
       "type": "mcp",
       "name": "FineData",
@@ -207344,6 +208286,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:skillgild/skillgild:io.github.skillgild/skillgild#skillgild",
+      "type": "mcp",
+      "name": "SkillGild",
+      "description": {
+        "zh": null,
+        "en": "Search and run hosted AI agent skills for Claude Code, Codex, Cursor and Gemini CLI.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "SkillGild/skillgild",
+        "path": "io.github.SkillGild/skillgild",
+        "url": "https://github.com/SkillGild/skillgild",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:skillmds/skillmd:com.skillmd/skillmd#com.skillmd-skillmd",
       "type": "mcp",
       "name": "com.skillmd/skillmd",
@@ -209599,6 +210592,56 @@
         "repo": "sysevol-ai/CodeNib",
         "path": "ai.codenib/codenib",
         "url": "https://github.com/sysevol-ai/CodeNib",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:takara-ai/miru-code:ai.takara/miru#ai.takara-miru",
+      "type": "mcp",
+      "name": "ai.takara/miru",
+      "description": {
+        "zh": null,
+        "en": "Hybrid semantic and keyword code search for coding agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "takara-ai/miru-code",
+        "path": "ai.takara/miru",
+        "url": "https://github.com/takara-ai/miru-code",
         "tier": 0
       },
       "quality": {
@@ -212165,55 +213208,6 @@
         "repo": "unravel-team/thing-cli",
         "path": "io.github.unravel-team/thing",
         "url": "https://github.com/unravel-team/thing-cli",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:unvus/neosql-mcp:io.github.unvus/neosql-mcp#neosql-mcp",
-      "type": "mcp",
-      "name": "NeoSQL MCP",
-      "description": {
-        "zh": null,
-        "en": "Use NeoSQL Desktop database connections from MCP hosts: schemas, SQL, ERD, and code generation.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "unvus/neosql-mcp",
-        "path": "io.github.unvus/neosql-mcp",
-        "url": "https://github.com/unvus/neosql-mcp",
         "tier": 0
       },
       "quality": {

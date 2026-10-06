@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-06T00:34:33.581Z",
+  "generatedAt": "2026-10-06T22:52:49.878Z",
   "type": "plugin",
   "label": {
     "zh": "插件",
     "en": "Plugin"
   },
-  "total": 224,
+  "total": 225,
   "entries": [
     {
       "id": "plugin:anthropics/skills:.claude-plugin/marketplace.json#academy-guide",
@@ -6709,6 +6709,55 @@
         "repo": "davila7/claude-code-templates",
         "path": "cli-tool/components/mods/productivity/jev-skill-suggestion/.claude-plugin/plugin.json",
         "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/productivity/jev-skill-suggestion/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 32397,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/productivity/jev-skill-typeahead/.claude-plugin/plugin.json#jev-skill-typeahead",
+      "type": "plugin",
+      "name": "jev-skill-typeahead",
+      "description": {
+        "zh": null,
+        "en": "Shows, while you type, the skills and subagents Claude will probably call for your prompt: reads the draft on every edit and lists them in the band above the prompt, ranked by keyword match (English or Spanish). When you pause, Jev (TypeSafe's decision model) decides which one will be called and the band marks it. Slash commands are left out, since you run those yourself. Without a Jev key it stays on the instant local match.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/productivity/jev-skill-typeahead/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/productivity/jev-skill-typeahead/.claude-plugin/plugin.json",
         "tier": 2
       },
       "quality": {

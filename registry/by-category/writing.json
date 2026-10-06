@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T00:34:33.581Z",
+  "generatedAt": "2026-10-06T22:52:49.878Z",
   "category": {
     "key": "writing",
     "zh": "内容写作",
@@ -85,7 +85,7 @@
       }
     ]
   },
-  "total": 789,
+  "total": 803,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/pptx/skill.md#pptx",
@@ -280,7 +280,7 @@
         "tier": 0
       },
       "quality": {
-        "score": 96,
+        "score": 95,
         "gates": {
           "security": true,
           "schema": true,
@@ -15598,7 +15598,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 28,
+        "score": 27,
         "gates": {
           "security": true,
           "schema": true,
@@ -16976,7 +16976,7 @@
       "name": "dsh-novel-writer — 网文写作体检",
       "description": {
         "zh": null,
-        "en": "Offline toolkit: 18 tools for Chinese web-novel style, plot-thread and continuity audits.",
+        "en": "Offline toolkit: 19 tools for Chinese web-novel style, plot-thread and continuity audits.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -21185,6 +21185,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:egenil/sitelemetry-mcp:com.sitelemetry/sitelemetry#sitelemetry",
+      "type": "mcp",
+      "name": "Sitelemetry",
+      "description": {
+        "zh": null,
+        "en": "OAuth website audits: security, SEO, AI visibility, integrations, accessibility and performance.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "egenil/sitelemetry-mcp",
+        "path": "com.sitelemetry/sitelemetry",
+        "url": "https://github.com/egenil/sitelemetry-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:elvniv/klo-mcp:com.getklo/klo-mcp#com.getklo-klo-mcp",
       "type": "mcp",
       "name": "com.getklo/klo-mcp",
@@ -21409,6 +21459,104 @@
         "repo": "fadeynotchenko/netrun-mcp",
         "path": "io.github.fadeynotchenko/netrun",
         "url": "https://github.com/fadeynotchenko/netrun-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:fernandoguiraud16-coder/data-tools:io.github.fernandoguiraud16-coder/google-news-scraper#google-news-scraper-+-full-article-text",
+      "type": "mcp",
+      "name": "Google News Scraper + Full Article Text",
+      "description": {
+        "zh": null,
+        "en": "Google News search and topics with the full article text in Markdown for LLMs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "fernandoguiraud16-coder/data-tools",
+        "path": "io.github.fernandoguiraud16-coder/google-news-scraper",
+        "url": "https://github.com/fernandoguiraud16-coder/data-tools",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:fernandoguiraud16-coder/data-tools:io.github.fernandoguiraud16-coder/website-tech-dns-whois-ssl#tech-stack-detector-&-whois,-ssl-checker",
+      "type": "mcp",
+      "name": "Tech Stack Detector & WHOIS, SSL Checker",
+      "description": {
+        "zh": null,
+        "en": "Tech stack, WHOIS, DNS, SSL, hosting and SEO checks for lists of domains.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "fernandoguiraud16-coder/data-tools",
+        "path": "io.github.fernandoguiraud16-coder/website-tech-dns-whois-ssl",
+        "url": "https://github.com/fernandoguiraud16-coder/data-tools",
         "tier": 0
       },
       "quality": {
@@ -24474,6 +24622,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:logicaldottech/wptaskify-mcp:com.wptaskify/store#wptaskify-for-stores",
+      "type": "mcp",
+      "name": "wptaskify for stores",
+      "description": {
+        "zh": null,
+        "en": "Let your AI manage WooCommerce and Shopify stores: products, SEO, descriptions and images.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration",
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "logicaldottech/wptaskify-mcp",
+        "path": "com.wptaskify/store",
+        "url": "https://github.com/logicaldottech/wptaskify-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:loomaly/loomaly:com.loomaly/loomaly#loomaly",
       "type": "mcp",
       "name": "Loomaly",
@@ -26117,6 +26315,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:co.bindler/regulatory-calculators#bindler-uae-corporate-tax,-eu-ai-act-and-cbam-calculators",
+      "type": "mcp",
+      "name": "Bindler: UAE Corporate Tax, EU AI Act and CBAM calculators",
+      "description": {
+        "zh": null,
+        "en": "Computes UAE Corporate Tax, EU AI Act risk class and CBAM cost, citing the Article behind each line",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "co.bindler/regulatory-calculators",
+        "url": "https://bindler.co/mcp/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:coach.prose/prose-coach#prose-coach",
       "type": "mcp",
       "name": "Prose Coach",
@@ -26687,6 +26934,56 @@
         "repo": null,
         "path": "com.built2winweb/built2winweb",
         "url": "https://built2winweb.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.digitaldataonline.mcp/e-yearbook#e-yearbook.com-archive-search",
+      "type": "mcp",
+      "name": "e-yearbook.com Archive Search",
+      "description": {
+        "zh": null,
+        "en": "Search 300K+ U.S. yearbooks. Free previews; summary bundles and limited exact-image API.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "research",
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.digitaldataonline.mcp/e-yearbook",
+        "url": "https://www.e-yearbook.com/for-ai-agents/",
         "tier": 0
       },
       "quality": {
@@ -27707,6 +28004,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.mikereams/site#mike-reams-architecture-writing,-diagrams-and-toolbox",
+      "type": "mcp",
+      "name": "Mike Reams: architecture writing, diagrams and toolbox",
+      "description": {
+        "zh": null,
+        "en": "Read-only search of mikereams.com: CSDM diagrams, posts and the Architect's Toolbox",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.mikereams/site",
+        "url": "https://registry.modelcontextprotocol.io/?q=com.mikereams%2Fsite",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.momenticmarketing/momentic#com.momenticmarketing-momentic",
       "type": "mcp",
       "name": "com.momenticmarketing/momentic",
@@ -27729,6 +28075,56 @@
         "repo": null,
         "path": "com.momenticmarketing/momentic",
         "url": "https://momenticmarketing.com/agent-tools",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.moovtips/moovtips#moovtips-—-digital-agency",
+      "type": "mcp",
+      "name": "Moovtips — digital agency",
+      "description": {
+        "zh": null,
+        "en": "Find Moovtips services (3D websites, SEO, AI voice agent, ads, UGC) and send a quote request.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.moovtips/moovtips",
+        "url": "https://moovtips.com",
         "tier": 0
       },
       "quality": {
@@ -28472,56 +28868,6 @@
         "repo": null,
         "path": "com.seranking/mcp",
         "url": "https://seranking.com/api/integrations/mcp/",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:mcp-official:com.sitelemetry/sitelemetry#sitelemetry",
-      "type": "mcp",
-      "name": "Sitelemetry",
-      "description": {
-        "zh": null,
-        "en": "OAuth website audits: security, SEO, AI visibility, integrations, accessibility and performance.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "security",
-        "writing"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "com.sitelemetry/sitelemetry",
-        "url": "https://sitelemetry.com/mcp-guide",
         "tier": 0
       },
       "quality": {
@@ -29347,6 +29693,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:dev.insidetheloop/blog#inside-the-loop",
+      "type": "mcp",
+      "name": "Inside the Loop",
+      "description": {
+        "zh": null,
+        "en": "Read-only search and full text of Inside the Loop posts on AI agents, coding agents and MCP.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "research",
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "dev.insidetheloop/blog",
+        "url": "https://insidetheloop.dev",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:dev.kaneky/imagemeta#imagemeta",
       "type": "mcp",
       "name": "Imagemeta",
@@ -29497,6 +29894,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:dev.workers.agent-utilities.agent-utilities/agent-utilities#agent-utilities-hosted",
+      "type": "mcp",
+      "name": "Agent Utilities Hosted",
+      "description": {
+        "zh": null,
+        "en": "Free agent tools: SEO snapshots, sitemap refresh, Wikipedia collections and saved-page MCP guides.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "dev.workers.agent-utilities.agent-utilities/agent-utilities",
+        "url": "https://agent-utilities.agent-utilities.workers.dev/integrations/agents?utm_source=mcp-registry",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:dev.workers.panda198271.tw-search-seo/search-seo#搜尋引擎與-ai-爬蟲工具箱",
       "type": "mcp",
       "name": "搜尋引擎與 AI 爬蟲工具箱",
@@ -29519,6 +29965,55 @@
         "repo": null,
         "path": "dev.workers.panda198271.tw-search-seo/search-seo",
         "url": "https://tw-search-seo.panda198271.workers.dev",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:fr.bensaid-avocats/fiscalite#fiscalité-française-ouverte,-par-bensaid-avocats",
+      "type": "mcp",
+      "name": "Fiscalité française ouverte, par BENSAID Avocats",
+      "description": {
+        "zh": null,
+        "en": "Official French tax texts, dated and sourced: 237 treaty instruments by article, BOFiP, CGI, LPF.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "fr.bensaid-avocats/fiscalite",
+        "url": "https://outils.bensaid-avocats.fr/mcp",
         "tier": 0
       },
       "quality": {
@@ -29992,6 +30487,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.brunopetrellinz-tech/marketing-research-mcp#marketing-&-seo-research-mcp",
+      "type": "mcp",
+      "name": "Marketing & SEO Research MCP",
+      "description": {
+        "zh": null,
+        "en": "Marketing research for AI agents: SEO audits, broken links, DNS, tech stack, App Store, products",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "research",
+        "business",
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.brunopetrellinz-tech/marketing-research-mcp",
+        "url": "https://apify.com/digital_influx/marketing-research-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.catherine-development/ives-yim#catherine-ives-yim-writing-and-assessments",
       "type": "mcp",
       "name": "Catherine Ives-Yim: writing and assessments",
@@ -30096,7 +30642,7 @@
       "name": "API Tool Calls",
       "description": {
         "zh": null,
-        "en": "76 tools, one small door: home costs, fitness, QR, barcodes, Markdown, SEO, recalls.",
+        "en": "89 tools, one small door: home costs, fitness, QR, barcodes, Markdown, SEO, recalls.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -31729,6 +32275,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.pylonseo/pylon-seo#pylon-seo",
+      "type": "mcp",
+      "name": "Pylon SEO",
+      "description": {
+        "zh": null,
+        "en": "Audit, rank-track and analyze SEO for sites via an authenticated MCP server.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.pylonseo/pylon-seo",
+        "url": "https://pylonseo.io",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.shipwork/seo-checks#shipwork-seo-checks",
       "type": "mcp",
       "name": "Shipwork SEO Checks",
@@ -31849,6 +32445,57 @@
         "repo": null,
         "path": "io.trafficbud/trafficbud",
         "url": "https://www.trafficbud.io/mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:it.asapdevs/site#asapdevs",
+      "type": "mcp",
+      "name": "ASAPDevs",
+      "description": {
+        "zh": null,
+        "en": "Read-only: ASAPDevs offers, case studies, blog search, pricing and contact (Polish software house).",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business",
+        "writing",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "it.asapdevs/site",
+        "url": "https://asapdevs.it",
         "tier": 0
       },
       "quality": {
@@ -35568,7 +36215,7 @@
       "name": "io.github.ODU33104/rive-mcp",
       "description": {
         "zh": null,
-        "en": "Free, editor-less MCP server for Rive: create, edit, inspect, render and preview .riv animations",
+        "en": "Free, editor-less MCP server for Rive: create, edit, render .riv — plus an AI-collaborative Studio",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -37468,6 +38115,57 @@
         "repo": "satelliteoflove/godot-mcp",
         "path": "io.github.satelliteoflove/godot-mcp",
         "url": "https://github.com/satelliteoflove/godot-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:savantcat/content-router:cn.savantcat/content-router#内容路由器-·-素材该做成什么",
+      "type": "mcp",
+      "name": "内容路由器 · 素材该做成什么",
+      "description": {
+        "zh": "给素材做 11 维内容画像，推荐跨媒介输出形态（PPT/信息图/短视频/漫画等 6 种）并给出可执行调度提示词",
+        "en": null,
+        "zhEngine": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "zh",
+      "categories": [
+        "writing",
+        "media",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "savantcat/content-router",
+        "path": "cn.savantcat/content-router",
+        "url": "https://github.com/savantcat/content-router",
         "tier": 0
       },
       "quality": {

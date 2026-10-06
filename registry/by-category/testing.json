@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T00:34:33.581Z",
+  "generatedAt": "2026-10-06T22:52:49.878Z",
   "category": {
     "key": "testing",
     "zh": "测试质量",
@@ -73,7 +73,7 @@
       }
     ]
   },
-  "total": 564,
+  "total": 569,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/webapp-testing/skill.md#webapp-testing",
@@ -14460,6 +14460,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:bret1976/6frame-verify:io.github.bret1976/6frame-verify#6frame-verify",
+      "type": "mcp",
+      "name": "6Frame Verify",
+      "description": {
+        "zh": null,
+        "en": "Paid website acceptance testing for AI agents. Quick $3, Full $12, $100 credit pack. MCP + REST.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "bret1976/6frame-verify",
+        "path": "io.github.bret1976/6frame-verify",
+        "url": "https://github.com/bret1976/6frame-verify",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:brkd-h1/mcp-empty-public:io.github.brkd-h1/empty-public-canary#io.github.brkd-h1-empty-public-canary",
       "type": "mcp",
       "name": "io.github.brkd-h1/empty-public-canary",
@@ -20700,6 +20749,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.maneratech/aicitizenship#ai-citizenship",
+      "type": "mcp",
+      "name": "AI Citizenship",
+      "description": {
+        "zh": null,
+        "en": "Free, unofficial citizenship-test practice: test formats, practice questions with vetted answers.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.maneratech/aicitizenship",
+        "url": "https://aicitizenship.maneratech.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.meridiantrace/medical-device-registrations#meridian-trace-—-medical-device-registrations",
       "type": "mcp",
       "name": "Meridian Trace — Medical Device Registrations",
@@ -22686,12 +22784,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:io.github.sanctionskit/sanctionskit#sanctionskit-developer-mcp",
+      "id": "mcp:mcp-official:io.github.sasikumarlilly/test-mcp-server#cortex-test-mcp-server",
       "type": "mcp",
-      "name": "SanctionsKit developer MCP",
+      "name": "Cortex Test MCP Server",
       "description": {
         "zh": null,
-        "en": "Sanctions API docs and request validation, with account-linked synthetic sandbox testing.",
+        "en": "Internal test MCP server for local dev and Bifrost integration testing.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -22699,15 +22797,16 @@
       },
       "lang": "en",
       "categories": [
-        "testing"
+        "testing",
+        "meta"
       ],
       "targets": [
         "mcp-client"
       ],
       "source": {
         "repo": null,
-        "path": "io.github.SanctionsKit/sanctionskit",
-        "url": "https://www.sanctionskit.com/resources/mcp",
+        "path": "io.github.sasikumarlilly/test-mcp-server",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.sasikumarlilly%2Ftest-mcp-server",
         "tier": 0
       },
       "quality": {
@@ -22735,12 +22834,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:io.github.sasikumarlilly/test-mcp-server#cortex-test-mcp-server",
+      "id": "mcp:mcp-official:io.github.sergiomaldo/vendorwatch#vendorwatch",
       "type": "mcp",
-      "name": "Cortex Test MCP Server",
+      "name": "VendorWatch",
       "description": {
         "zh": null,
-        "en": "Internal test MCP server for local dev and Bifrost integration testing.",
+        "en": "Check a vendor before you sign: DPA coverage, subprocessors, certifications, data locations, AI use.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -22748,16 +22847,15 @@
       },
       "lang": "en",
       "categories": [
-        "testing",
-        "meta"
+        "testing"
       ],
       "targets": [
         "mcp-client"
       ],
       "source": {
         "repo": null,
-        "path": "io.github.sasikumarlilly/test-mcp-server",
-        "url": "https://registry.modelcontextprotocol.io/?q=io.github.sasikumarlilly%2Ftest-mcp-server",
+        "path": "io.github.sergiomaldo/vendorwatch",
+        "url": "https://vendor.watch/agents",
         "tier": 0
       },
       "quality": {
@@ -23744,6 +23842,56 @@
         "repo": null,
         "path": "studio.misata/misata",
         "url": "https://www.misata.studio/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:team.gonogo/gonogo#gonogo",
+      "type": "mcp",
+      "name": "GoNoGo",
+      "description": {
+        "zh": null,
+        "en": "Pressure-test a startup idea in a live voice interview with an AI mentor; get a GO/NO-GO verdict.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business",
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "team.gonogo/gonogo",
+        "url": "https://gonogo.team",
         "tier": 0
       },
       "quality": {
@@ -25352,6 +25500,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:opslane/macbox-agent:io.github.opslane/macbox#macbox",
+      "type": "mcp",
+      "name": "macbox",
+      "description": {
+        "zh": null,
+        "en": "A real Mac for your agent: build, test, run, and tap through iOS apps on the simulator.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "opslane/macbox-agent",
+        "path": "io.github.opslane/macbox",
+        "url": "https://github.com/opslane/macbox-agent",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:orangeproai/orangepro-mcp:ai.orangepro/mcp#orangepro",
       "type": "mcp",
       "name": "OrangePro",
@@ -25992,55 +26189,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:qso-graph/adif-mcp:io.github.qso-graph/adif-mcp#io.github.qso-graph-adif-mcp",
-      "type": "mcp",
-      "name": "io.github.qso-graph/adif-mcp",
-      "description": {
-        "zh": null,
-        "en": "ADIF 3.1.6 parser and validator for amateur radio QSO logs. Full spec coverage.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "testing"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "qso-graph/adif-mcp",
-        "path": "io.github.qso-graph/adif-mcp",
-        "url": "https://github.com/qso-graph/adif-mcp",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:quality-max/qmax-mcp:io.github.quality-max/qmax-mcp#qualitymax-qa-mcp",
       "type": "mcp",
       "name": "QualityMax QA MCP",
@@ -26337,6 +26485,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:rowstile/rowstile:io.github.rowstile/rowstile#rowstile",
+      "type": "mcp",
+      "name": "rowstile",
+      "description": {
+        "zh": null,
+        "en": "Check, test, prove and review a rowstile policy: access rules for Postgres row-level security",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "database",
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "rowstile/rowstile",
+        "path": "io.github.rowstile/rowstile",
+        "url": "https://github.com/rowstile/rowstile",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:rudrendupaul/agent-eval:io.github.rudrendupaul/agent-eval#io.github.rudrendupaul-agent-eval",
       "type": "mcp",
       "name": "io.github.RudrenduPaul/agent-eval",
@@ -26457,6 +26656,55 @@
         "repo": "sadri-dridi/named-mcp-utilities",
         "path": "io.github.sadri-dridi/playwright-url-ok",
         "url": "https://github.com/sadri-dridi/named-mcp-utilities",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:sanctionskit/sanctions-kit-mcp-plugin:io.github.sanctionskit/sanctionskit#sanctionskit-developer-mcp",
+      "type": "mcp",
+      "name": "SanctionsKit developer MCP",
+      "description": {
+        "zh": null,
+        "en": "Sanctions API docs and request validation, with account-linked synthetic sandbox testing.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "SanctionsKit/sanctions-kit-mcp-plugin",
+        "path": "io.github.SanctionsKit/sanctionskit",
+        "url": "https://github.com/SanctionsKit/sanctions-kit-mcp-plugin",
         "tier": 0
       },
       "quality": {
@@ -27773,7 +28021,7 @@
       "name": "Playwright E2E MCP",
       "description": {
         "zh": null,
-        "en": "Run and debug Playwright E2E tests: failure analysis, DOM inspection, visual diffs, flaky diagnosis.",
+        "en": "Run, debug and inspect Playwright E2E tests from any AI agent: diagnostics, live DOM, selectors.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
