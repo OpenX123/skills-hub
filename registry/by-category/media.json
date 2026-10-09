@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T23:38:25.610Z",
+  "generatedAt": "2026-10-09T23:02:40.313Z",
   "category": {
     "key": "media",
     "zh": "音视频图像",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 885,
+  "total": 900,
   "entries": [
     {
       "id": "skill:composiohq/awesome-claude-skills:video-downloader/skill.md#youtube-downloader",
@@ -1940,7 +1940,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -1995,7 +1995,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -2048,7 +2048,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -2102,7 +2102,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -2156,7 +2156,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -2211,7 +2211,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -2265,7 +2265,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -2316,7 +2316,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -5123,6 +5123,55 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:frelo/fvc-mcp:com.videocataloger/fvc-mcp#fast-video-cataloger",
+      "type": "mcp",
+      "name": "Fast Video Cataloger",
+      "description": {
+        "zh": null,
+        "en": "Search, view and tag your local video library from Claude: transcripts, scenes, visual search.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "frelo/fvc-mcp",
+        "path": "com.videocataloger/fvc-mcp",
+        "url": "https://github.com/frelo/fvc-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
       "id": "mcp:garphengate/moltline-mcp:com.moltlinestudio/creator#moltline-creator-studio",
       "type": "mcp",
       "name": "Moltline Creator Studio",
@@ -5446,6 +5495,55 @@
         "repo": "InstantStudioAI/instantclips-mcp",
         "path": "ai.instantclips/instantclips",
         "url": "https://github.com/InstantStudioAI/instantclips-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:kenzolika/yandex-music-mcp:io.github.kenzolika/yandex-music-mcp#yandex-music-(unofficial)",
+      "type": "mcp",
+      "name": "Yandex Music (unofficial)",
+      "description": {
+        "zh": null,
+        "en": "Unofficial Yandex Music server: search, likes, history, My Wave, playlists. Token stays local.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "kenzolika/yandex-music-mcp",
+        "path": "io.github.kenzolika/yandex-music-mcp",
+        "url": "https://github.com/kenzolika/yandex-music-mcp",
         "tier": 0
       },
       "quality": {
@@ -10226,6 +10324,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:clipia-ai/clipia-mcp:io.github.clipia-ai/clipia-mcp#clipia",
+      "type": "mcp",
+      "name": "Clipia",
+      "description": {
+        "zh": null,
+        "en": "Generate AI images, video, speech, music and presentations from Claude, ChatGPT and Cursor.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "clipia-ai/clipia-mcp",
+        "path": "io.github.clipia-ai/clipia-mcp",
+        "url": "https://github.com/clipia-ai/clipia-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:clipwave-io/clipwave-plugins:io.clipwave/clipwave#clipwave",
       "type": "mcp",
       "name": "Clipwave",
@@ -10444,6 +10591,55 @@
         "repo": "contentasoftware/mcp-launcher",
         "path": "com.contenta-software/videorecompress",
         "url": "https://github.com/contentasoftware/mcp-launcher",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:counterpoint-studio/audio-file-mcp-app:io.github.counterpoint-studio/audio-file-mcp-app#audio-file-mcp-app",
+      "type": "mcp",
+      "name": "Audio File MCP App",
+      "description": {
+        "zh": null,
+        "en": "Inspect local audio files — playback, metadata, loudness, spectrogram.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "counterpoint-studio/audio-file-mcp-app",
+        "path": "io.github.counterpoint-studio/audio-file-mcp-app",
+        "url": "https://github.com/counterpoint-studio/audio-file-mcp-app",
         "tier": 0
       },
       "quality": {
@@ -10773,7 +10969,7 @@
       "name": "io.github.CumulativeWebInc/cwi-discovery-engine",
       "description": {
         "zh": null,
-        "en": "CWI Discovery Engine: read-only music-catalog MCP — semantic search, sync lookup, knowledge graph.",
+        "en": "CWI Discovery Engine: 21-tool music catalog MCP — search, sync, Radio 365 live, proof-of-airplay.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -12549,55 +12745,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:frelo/fvc-mcp:com.videocataloger/fvc-mcp#fast-video-cataloger",
-      "type": "mcp",
-      "name": "Fast Video Cataloger",
-      "description": {
-        "zh": null,
-        "en": "Search, view and tag your local video library from Claude: transcripts, scenes, visual search.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "media"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "frelo/fvc-mcp",
-        "path": "com.videocataloger/fvc-mcp",
-        "url": "https://github.com/frelo/fvc-mcp",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:friofry/music_recognition_api:app.scansing/scansing#scansing-sheet-music-to-musicxml",
       "type": "mcp",
       "name": "ScanSing: sheet music to MusicXML",
@@ -13785,6 +13932,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:igorbaranov/ogmake:com.ogmake/mcp#com.ogmake-mcp",
+      "type": "mcp",
+      "name": "com.ogmake/mcp",
+      "description": {
+        "zh": null,
+        "en": "Generate og:image social cards and signed ogmake.com image URLs from your AI assistant.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "IgorBaranov/ogmake",
+        "path": "com.ogmake/mcp",
+        "url": "https://github.com/IgorBaranov/ogmake",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:illyism/scribiz-mcp:com.scribiz/mcp#scribiz",
       "type": "mcp",
       "name": "Scribiz",
@@ -13981,6 +14177,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:impanyu/agentic_services:io.github.impanyu/photo-scout#photo-scout",
+      "type": "mcp",
+      "name": "Photo Scout",
+      "description": {
+        "zh": null,
+        "en": "Find nearby photo spots using real street imagery, visual scores and camera headings.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "impanyu/agentic_services",
+        "path": "io.github.impanyu/photo-scout",
+        "url": "https://github.com/impanyu/agentic_services",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:inhabitants/sapiens-mcp:com.sapiensinteticos/sapiens#sapiens-sintéticos",
       "type": "mcp",
       "name": "Sapiens Sintéticos",
@@ -14053,6 +14298,55 @@
         "repo": "instavar/mcp-server",
         "path": "com.instavar/mcp-server",
         "url": "https://github.com/instavar/mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:ismailgalaxys25-del/imgvx-ai-mcp:com.imgvx/imgvx-ai#imgvx-ai",
+      "type": "mcp",
+      "name": "ImgVX AI",
+      "description": {
+        "zh": null,
+        "en": "Find the free ImgVX AI browser tool for any image job: remove backgrounds, upscale, compress.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ismailgalaxys25-del/imgvx-ai-mcp",
+        "path": "com.imgvx/imgvx-ai",
+        "url": "https://github.com/ismailgalaxys25-del/imgvx-ai-mcp",
         "tier": 0
       },
       "quality": {
@@ -15437,55 +15731,6 @@
         "repo": "kelvinbiffi/ollos-mcp",
         "path": "io.github.kelvinbiffi/ollos-mcp",
         "url": "https://github.com/kelvinbiffi/ollos-mcp",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:kenzolika/yandex-music-mcp:io.github.kenzolika/yandex-music-mcp#yandex-music-(unofficial)",
-      "type": "mcp",
-      "name": "Yandex Music (unofficial)",
-      "description": {
-        "zh": null,
-        "en": "Unofficial Yandex Music server: search, likes, history, My Wave, playlists. Token stays local.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "media"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "kenzolika/yandex-music-mcp",
-        "path": "io.github.kenzolika/yandex-music-mcp",
-        "url": "https://github.com/kenzolika/yandex-music-mcp",
         "tier": 0
       },
       "quality": {
@@ -19069,6 +19314,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:ai.printgen/mcp#printgen",
+      "type": "mcp",
+      "name": "PrintGen",
+      "description": {
+        "zh": null,
+        "en": "PrintGen makes custom apparel from an idea or a photo, with previews and a hosted checkout link.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.printgen/mcp",
+        "url": "https://printgen.ai/developers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:ai.router/ai-gateway#370.ai-—-ai-gateway-100+-chat-models,-image-&-speech-generat",
       "type": "mcp",
       "name": "370.ai — AI Gateway: 100+ Chat Models, Image & Speech Generation",
@@ -19489,6 +19783,55 @@
         "repo": null,
         "path": "ai.uttera/uttera",
         "url": "https://uttera.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.varg/mcp#varg.ai",
+      "type": "mcp",
+      "name": "varg.ai",
+      "description": {
+        "zh": null,
+        "en": "Generate video, images, speech and music with 120+ AI models and render TSX videos to MP4",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.varg/mcp",
+        "url": "https://varg.ai/mcp",
         "tier": 0
       },
       "quality": {
@@ -22729,6 +23072,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.cutluma/video-editor#cutluma-video-editor",
+      "type": "mcp",
+      "name": "CutLuma video editor",
+      "description": {
+        "zh": null,
+        "en": "Free online video editor: search tools, guides and templates, video sizes, pricing, editor links.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "media",
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.cutluma/video-editor",
+        "url": "https://cutluma.com/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.desaira/desaira#com.desaira-desaira",
       "type": "mcp",
       "name": "com.desaira/desaira",
@@ -24206,12 +24600,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:com.livepairai/livepair-hub#com.livepairai-livepair-hub",
+      "id": "mcp:mcp-official:com.livepairai/livepair-hub#private-ai-media-generation",
       "type": "mcp",
-      "name": "com.livepairai/livepair-hub",
+      "name": "Private AI Media Generation",
       "description": {
         "zh": null,
-        "en": "Community library of tested AI prompts with the results they produced — image, video, and agent.",
+        "en": "Paid AI image/video generation for agents — x402 USDC or API key, no account needed.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -24227,7 +24621,7 @@
       "source": {
         "repo": null,
         "path": "com.livepairai/livepair-hub",
-        "url": "https://livepairai.com/docs/mcp",
+        "url": "https://livepairai.com",
         "tier": 0
       },
       "quality": {
@@ -26229,6 +26623,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.tomorrowlives/engines#tomorrow-lives-engines",
+      "type": "mcp",
+      "name": "Tomorrow Lives Engines",
+      "description": {
+        "zh": null,
+        "en": "Print designs, PBR textures, characters, terrain and speech for agents, made procedurally.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.tomorrowlives/engines",
+        "url": "https://tomorrowlives.com/engines",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.tonpit/tonpit#com.tonpit-tonpit",
       "type": "mcp",
       "name": "com.tonpit/tonpit",
@@ -26448,6 +26891,55 @@
         "repo": null,
         "path": "com.truthscan/truthscan",
         "url": "https://truthscan.com/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.tryplayhead/playhead#playhead",
+      "type": "mcp",
+      "name": "Playhead",
+      "description": {
+        "zh": null,
+        "en": "Watches a video or ad from a link and answers in words, with the second of every moment.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.tryplayhead/playhead",
+        "url": "https://tryplayhead.com",
         "tier": 0
       },
       "quality": {
@@ -27115,6 +27607,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:de.sofortfax/fax#sofortfax-–-faxen-mit-ki",
+      "type": "mcp",
+      "name": "SofortFax – Faxen mit KI",
+      "description": {
+        "zh": null,
+        "en": "Send real faxes from AI chat (DE/AT + 40 countries). PDF, JPG, photo. Pay per fax via Stripe.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "media",
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "de.sofortfax/fax",
+        "url": "https://sofortfax.de/ki-fax.html",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:dev.ffpipe/ffpipe#ffpipe-—-video-conversion,-probe-&-frames",
       "type": "mcp",
       "name": "ffpipe — video conversion, probe & frames",
@@ -27459,6 +28002,105 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:dev.tanod/ml#tanod-ml",
+      "type": "mcp",
+      "name": "Tanod ML",
+      "description": {
+        "zh": null,
+        "en": "Local ML: speech to text (SRT/VTT), text embeddings, reranking, similarity, entities, zero-shot.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "dev.tanod/ml",
+        "url": "https://tanod.dev",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:dev.tanod/tanod#tanod",
+      "type": "mcp",
+      "name": "Tanod",
+      "description": {
+        "zh": null,
+        "en": "Pay-per-call agent tools: PDF, OCR, DOCX templates, speech to text, image, web, DNS, chain reads.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "dev.tanod/tanod",
+        "url": "https://tanod.dev",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:dev.workers.rowu.oganvil/og-image-api#oganvil-—-og-(open-graph)-image-generation-api",
       "type": "mcp",
       "name": "oganvil — OG (Open Graph) Image Generation API",
@@ -27630,55 +28272,6 @@
         "repo": null,
         "path": "fr.missionmuseaux/annonces",
         "url": "https://missionmuseaux.fr/aide/assistants-ia",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:mcp-official:fun.modcard/modcard#modcard",
-      "type": "mcp",
-      "name": "ModCard",
-      "description": {
-        "zh": null,
-        "en": "Find, personalize, share, and mail animated greeting cards with original music.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "media"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "fun.modcard/modcard",
-        "url": "https://www.modcard.fun/agents",
         "tier": 0
       },
       "quality": {
@@ -34618,6 +35211,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mudberry/modcard-mcp-setup:fun.modcard/modcard#modcard",
+      "type": "mcp",
+      "name": "ModCard",
+      "description": {
+        "zh": null,
+        "en": "Find, personalize, share, and mail animated greeting cards with original music.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "mudberry/modcard-mcp-setup",
+        "path": "fun.modcard/modcard",
+        "url": "https://github.com/mudberry/modcard-mcp-setup",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mumullickm/wasilah-mcp:io.github.mumullickm/wasilah-mcp#wasilah",
       "type": "mcp",
       "name": "Wasilah",
@@ -34816,9 +35458,9 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:neltomw/spaces-mcp-server:ai.myspaice/spaces#ai.myspaice-spaces",
+      "id": "mcp:neltomw/spaces-mcp-server:ai.myspaice/spaces#myspaice",
       "type": "mcp",
-      "name": "ai.myspaice/spaces",
+      "name": "myspAIce",
       "description": {
         "zh": null,
         "en": "myspAIce, give your AI a social life: games, music, friendships. An immersive world. Just walk in.",
@@ -35531,6 +36173,55 @@
         "repo": "opus-pro/opusclip-mcp",
         "path": "io.github.opus-pro/opusclip",
         "url": "https://github.com/opus-pro/opusclip-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:orihuelaconde/local-whisper-mcp:io.github.orihuelaconde/local-whisper-mcp#local-whisper",
+      "type": "mcp",
+      "name": "Local Whisper",
+      "description": {
+        "zh": null,
+        "en": "Private audio and video transcription with Whisper on your own computer, on the GPU or CPU.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "OrihuelaConde/local-whisper-mcp",
+        "path": "io.github.OrihuelaConde/local-whisper-mcp",
+        "url": "https://github.com/OrihuelaConde/local-whisper-mcp",
         "tier": 0
       },
       "quality": {
@@ -43610,6 +44301,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:ymove-app/exercise-api-mcp:app.ymove/exercise-api#your-move-exercise-video-api",
+      "type": "mcp",
+      "name": "Your Move Exercise Video API",
+      "description": {
+        "zh": null,
+        "en": "1,413+ HD exercise videos with muscles and instructions, plus workout and program generation.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ymove-app/exercise-api-mcp",
+        "path": "app.ymove/exercise-api",
+        "url": "https://github.com/ymove-app/exercise-api-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:youbotapi/gpt-image-mcp:io.github.youbotapi/gpt-image-mcp#io.github.youbotapi-gpt-image-mcp",
       "type": "mcp",
       "name": "io.github.youbotapi/gpt-image-mcp",
@@ -43763,7 +44503,7 @@
       "name": "GenMagic",
       "description": {
         "zh": null,
-        "en": "Generate text, images, speech, music, and video with any AI model, from one credit balance.",
+        "en": "Generate images, video, speech, music and text with 450+ AI models, one API key and one balance.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
