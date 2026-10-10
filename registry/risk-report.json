@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-09T23:02:40.313Z",
+  "generatedAt": "2026-10-10T22:12:06.455Z",
   "engine": "text-baseline/v2",
-  "scanned": 32749,
-  "flagged": 144,
+  "scanned": 33155,
+  "flagged": 143,
   "byLevel": {
-    "clean": 32605,
-    "low": 107,
+    "clean": 33012,
+    "low": 106,
     "high": 2,
     "medium": 35
   },
@@ -4612,32 +4612,6 @@
           "where": "body",
           "line": 1,
           "evidence": "allowed-tools: Bash(无约束)"
-        }
-      ]
-    },
-    {
-      "id": "mcp:mcp-official:io.github.sepehrkeyhani00/bashoor-menu#bashoor-cafe-mashhad-—-منوی-زنده-و-قیمت‌ها",
-      "name": "Bashoor Cafe Mashhad — منوی زنده و قیمت‌ها",
-      "type": "mcp",
-      "repo": null,
-      "path": "io.github.sepehrkeyhani00/bashoor-menu",
-      "url": "https://sepehrkeyhani00.github.io/bashoor-ai-menu/",
-      "level": "low",
-      "score": 4,
-      "counts": {
-        "low": 1
-      },
-      "flags": [
-        {
-          "id": "hidden-instruction",
-          "severity": "low",
-          "title": {
-            "zh": "隐藏指令",
-            "en": "Hidden instruction"
-          },
-          "where": "body",
-          "line": 1,
-          "evidence": "存在零宽字符(常见于文档站抓取残留,需人工确认)"
         }
       ]
     },
