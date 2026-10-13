@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-13T01:05:39.522Z",
+  "generatedAt": "2026-10-13T23:11:12.500Z",
   "type": "plugin",
   "label": {
     "zh": "插件",
     "en": "Plugin"
   },
-  "total": 229,
+  "total": 230,
   "entries": [
     {
       "id": "plugin:anthropics/skills:.claude-plugin/marketplace.json#academy-guide",
@@ -7457,6 +7457,56 @@
         "repo": "davila7/claude-code-templates",
         "path": "cli-tool/components/mods/ui/tool-timing-badge/.claude-plugin/plugin.json",
         "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/ui/tool-timing-badge/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 32586,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/ui/turn-inspector/.claude-plugin/plugin.json#turn-inspector",
+      "type": "plugin",
+      "name": "turn-inspector",
+      "description": {
+        "zh": null,
+        "en": "A side pane that shows the session turn by turn, like Anthropic's context-window diagram: every model request with its input (system and tools, earlier turns, the new user message or tool results) stacked above its output (thinking, text, tool use), real token totals from the API, and a bar of how full the context window gets. Expand any turn to see its blocks.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "design"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/ui/turn-inspector/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/ui/turn-inspector/.claude-plugin/plugin.json",
         "tier": 2
       },
       "quality": {
