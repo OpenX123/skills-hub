@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T22:02:39.773Z",
+  "generatedAt": "2026-10-15T21:56:17.250Z",
   "category": {
     "key": "document",
     "zh": "文档处理",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 998,
+  "total": 1026,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/docx/skill.md#docx",
@@ -4515,7 +4515,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -4568,7 +4568,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -4623,7 +4623,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -4677,7 +4677,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -4727,7 +4727,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -4776,7 +4776,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -4827,7 +4827,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -4876,7 +4876,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -4930,7 +4930,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -7171,7 +7171,7 @@
       "name": "India API",
       "description": {
         "zh": null,
-        "en": "Free Indian data and tools: pincode, IFSC, GSTIN, holidays, GST invoice PDF, OCR, UPI QR. No key.",
+        "en": "Free Indian data and AI: pincode, IFSC, GSTIN, holidays, GST invoice, OCR, translation. No key.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -8076,6 +8076,57 @@
         "repo": "jshelley/briefing-mcp",
         "path": "io.github.jshelley/briefings",
         "url": "https://github.com/jshelley/briefing-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:katta041/asitis-agent-tools:io.github.katta041/asitis-mcp#asitis",
+      "type": "mcp",
+      "name": "AsItIs",
+      "description": {
+        "zh": null,
+        "en": "Read-only MCP server for markdown and agent steering files: read, outline, lint, context budget.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Katta041/asitis-agent-tools",
+        "path": "io.github.Katta041/asitis-mcp",
+        "url": "https://github.com/Katta041/asitis-agent-tools",
         "tier": 0
       },
       "quality": {
@@ -11174,6 +11225,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:arjunprabhulal/superpdf:io.github.arjunprabhulal/superpdf#superpdf-ai",
+      "type": "mcp",
+      "name": "superPDF AI",
+      "description": {
+        "zh": null,
+        "en": "PDF tools on your computer: read, convert, edit, merge, fill and compare PDFs. Nothing is uploaded.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "arjunprabhulal/superpdf",
+        "path": "io.github.arjunprabhulal/superpdf",
+        "url": "https://github.com/arjunprabhulal/superpdf",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:arnaugonzalez/memory-boost:io.github.arnaugonzalez/memory-boost#memory-boost",
       "type": "mcp",
       "name": "memory-boost",
@@ -12090,56 +12190,6 @@
         "repo": "basitalisandhu/dev-mcp-servers",
         "path": "io.github.basitalisandhu/mcp-llms-txt",
         "url": "https://github.com/basitalisandhu/dev-mcp-servers",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:bck-stack/sitecheck-x402:io.github.bck-stack/sitecheck#sitecheck",
-      "type": "mcp",
-      "name": "SiteCheck",
-      "description": {
-        "zh": null,
-        "en": "132 pay-per-call agent tools: chain reads, DeFi, web, SEO, OCR, SEC, KYB, geo, dev data, AI. x402",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "document",
-        "writing"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "bck-stack/sitecheck-x402",
-        "path": "io.github.bck-stack/sitecheck",
-        "url": "https://github.com/bck-stack/sitecheck-x402",
         "tier": 0
       },
       "quality": {
@@ -13213,7 +13263,7 @@
       "name": "Carbone MCP",
       "description": {
         "zh": null,
-        "en": "Generate PDF, DOCX, XLSX and PPTX from templates and JSON; convert files between 36 formats",
+        "en": "Automate production-ready PDF, Word, Excel and PowerPoint documents from templates and JSON data",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -14647,6 +14697,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:dasdigitalemomentum/searxncrawl:io.github.dasdigitalemomentum/searxncrawl#searxncrawl",
+      "type": "mcp",
+      "name": "searxNcrawl",
+      "description": {
+        "zh": null,
+        "en": "Web search via SearXNG and/or You.com, plus clean Markdown crawling via Crawl4AI. Self-hosted.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "DasDigitaleMomentum/searxNcrawl",
+        "path": "io.github.DasDigitaleMomentum/searxncrawl",
+        "url": "https://github.com/DasDigitaleMomentum/searxNcrawl",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:dataleadspro/url-to-markdown:io.github.dataleadspro/url-to-markdown#io.github.dataleadspro-url-to-markdown",
       "type": "mcp",
       "name": "io.github.DataLeadsPRO/url-to-markdown",
@@ -15707,6 +15807,57 @@
         "repo": "easytocloud/Mac-letterhead",
         "path": "io.github.easytocloud/mac-letterhead",
         "url": "https://github.com/easytocloud/Mac-letterhead",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:ed-relight/memestack-mcp:ai.memestack/mcp#memestack",
+      "type": "mcp",
+      "name": "MemeStack",
+      "description": {
+        "zh": null,
+        "en": "Visual search for memes, infographics and charts — by meaning, OCR text, or image similarity.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "research",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Ed-Relight/memestack-mcp",
+        "path": "ai.memestack/mcp",
+        "url": "https://github.com/Ed-Relight/memestack-mcp",
         "tier": 0
       },
       "quality": {
@@ -20039,57 +20190,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:katta041/asitis-agent-tools:io.github.katta041/asitis-mcp#asitis",
-      "type": "mcp",
-      "name": "AsItIs",
-      "description": {
-        "zh": null,
-        "en": "Read-only MCP server for markdown and agent steering files: read, outline, lint, context budget.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "document",
-        "meta",
-        "coding"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "Katta041/asitis-agent-tools",
-        "path": "io.github.Katta041/asitis-mcp",
-        "url": "https://github.com/Katta041/asitis-agent-tools",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:kdan-pdf/kdan-pdf-mcp:com.kdandoc.mcp/kdan-pdf-mcp#kdan-pdf",
       "type": "mcp",
       "name": "KDAN PDF",
@@ -22140,6 +22240,55 @@
         "repo": "masamoto1982/Ajisai",
         "path": "io.github.masamoto1982/ajisai",
         "url": "https://github.com/masamoto1982/Ajisai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mauriblint/jsonlink-mcp:io.github.mauriblint/jsonlink-mcp#jsonlink",
+      "type": "mcp",
+      "name": "JsonLink",
+      "description": {
+        "zh": null,
+        "en": "Web access for AI agents: URL to Markdown, link metadata, screenshots, links and images of any URL.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "mauriblint/jsonlink-mcp",
+        "path": "io.github.mauriblint/jsonlink-mcp",
+        "url": "https://github.com/mauriblint/jsonlink-mcp",
         "tier": 0
       },
       "quality": {
@@ -25520,6 +25669,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.botrecipe/memory#run-memory",
+      "type": "mcp",
+      "name": "Run Memory",
+      "description": {
+        "zh": null,
+        "en": "Checkpoint and resume for AI agent runs, so crashed runs pick up where they left off.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.botrecipe/memory",
+        "url": "https://memory.cloudforbots.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.brainiall/documents#brainiall-documents",
       "type": "mcp",
       "name": "Brainiall Documents",
@@ -26211,56 +26409,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:com.editalmd/editalmd#com.editalmd-editalmd",
-      "type": "mcp",
-      "name": "com.editalmd/editalmd",
-      "description": {
-        "zh": null,
-        "en": "Brazilian public procurement (PNCP): search, deadlines, tender markdown, alerts and watches.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "document",
-        "research"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "com.editalmd/editalmd",
-        "url": "https://editalmd.com",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:mcp-official:com.emdly/emdly#emdly",
       "type": "mcp",
       "name": "emdly",
@@ -26580,6 +26728,55 @@
         "repo": null,
         "path": "com.gddynb/xingdao-manage",
         "url": "https://gddynb.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.gptshopltd/web-files#web-files-to-text",
+      "type": "mcp",
+      "name": "Web Files to Text",
+      "description": {
+        "zh": null,
+        "en": "Download files from URL lists, turn PDFs into Markdown and read text from images. Pay per file.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.gptshopltd/web-files",
+        "url": "https://mcp.gptshopltd.com/#web-files",
         "tier": 0
       },
       "quality": {
@@ -27004,6 +27201,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.marqpdf/marqpdf#marqpdf",
+      "type": "mcp",
+      "name": "MarqPDF",
+      "description": {
+        "zh": null,
+        "en": "PDF tools for agents: compress to a size, Arabic + English OCR, Office conversion, JSON extraction.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.marqpdf/marqpdf",
+        "url": "https://marqpdf.com/developers#mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.mart402/extract#com.mart402-extract",
       "type": "mcp",
       "name": "com.mart402/extract",
@@ -27026,6 +27272,104 @@
         "repo": null,
         "path": "com.mart402/extract",
         "url": "https://mart402.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.mcpproducts/extract#extractmcp",
+      "type": "mcp",
+      "name": "ExtractMCP",
+      "description": {
+        "zh": null,
+        "en": "Turn any URL or HTML into clean markdown, tables, links or JSON for agents",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.mcpproducts/extract",
+        "url": "https://gw.mcpproducts.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.mcpproducts/office#officemcp",
+      "type": "mcp",
+      "name": "OfficeMCP",
+      "description": {
+        "zh": null,
+        "en": "Read, create and convert Office + PDF documents: Excel, Word, PowerPoint, CSV",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.mcpproducts/office",
+        "url": "https://gw.mcpproducts.com",
         "tier": 0
       },
       "quality": {
@@ -28259,6 +28603,56 @@
         "repo": null,
         "path": "com.saastemly/puptra-pdf-snapshot",
         "url": "https://puptra-pdf-snapshot.saastemly.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.samskrift/samskrift#samskrift",
+      "type": "mcp",
+      "name": "Samskrift",
+      "description": {
+        "zh": null,
+        "en": "Collaborative LaTeX editor: edit, compile and share PDFs, with full version history.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.samskrift/samskrift",
+        "url": "https://samskrift.com/agents",
         "tier": 0
       },
       "quality": {
@@ -30064,6 +30458,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:dev.omikuji/shiritori#shiritori-dictionary-(japanese)",
+      "type": "mcp",
+      "name": "Shiritori Dictionary (Japanese)",
+      "description": {
+        "zh": null,
+        "en": "Play Japanese shiritori with a 90,000-word dictionary: check moves, suggest next words.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "dev.omikuji/shiritori",
+        "url": "https://shiritori.omikuji.dev/ai/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:dev.openplanr/docs#openplanr-docs",
       "type": "mcp",
       "name": "OpenPlanr Docs",
@@ -30808,6 +31251,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:dev.workers.mike-tusa.profanity-api/profanity-api#cusscheck",
+      "type": "mcp",
+      "name": "CussCheck",
+      "description": {
+        "zh": null,
+        "en": "English profanity filter: find and censor swear words, incl. obfuscations. Word list, not AI.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "dev.workers.mike-tusa.profanity-api/profanity-api",
+        "url": "https://profanity-api.mike-tusa.workers.dev/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:dev.workers.pathwren.www/markdown-lane-check#markdown-lane-check-llms.txt,-.md-twins,-accept-text-markdow",
       "type": "mcp",
       "name": "Markdown Lane Check - llms.txt, .md twins, Accept: text/markdown",
@@ -30928,6 +31420,55 @@
         "repo": null,
         "path": "dev.workers.pradooskee.mm-read-url/read-url",
         "url": "https://mm-read-url.pradooskee.workers.dev/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:dev.workers.xbtbot.x402-reader/markdown-reader#x402-markdown-reader",
+      "type": "mcp",
+      "name": "x402 Markdown Reader",
+      "description": {
+        "zh": null,
+        "en": "Turn any public web page into clean Markdown. Pay-per-call via x402: 0.005 USDC on Base.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "dev.workers.xbtbot.x402-reader/markdown-reader",
+        "url": "https://x402-reader.xbtbot.workers.dev/openapi.json",
         "tier": 0
       },
       "quality": {
@@ -31795,6 +32336,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.algowolfx/ribox#ribox",
+      "type": "mcp",
+      "name": "Ribox",
+      "description": {
+        "zh": null,
+        "en": "Exact tools for AI assistants: QR codes, word counts, text diff and JSON checks. Free, no account.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.AlgoWolfx/ribox",
+        "url": "https://ribox.app/mcp/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.ankitashanbhag30/lorem#io.github.ankitashanbhag30-lorem",
       "type": "mcp",
       "name": "io.github.AnkitaShanbhag30/lorem",
@@ -32389,7 +32979,7 @@
       "name": "API Tool Calls",
       "description": {
         "zh": null,
-        "en": "90 tools, one small door: home costs, fitness, QR, barcodes, Markdown, SEO, recalls.",
+        "en": "94 tools, one small door: home costs, fitness, QR, barcodes, Markdown, SEO, recalls.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -32555,6 +33145,55 @@
         "repo": null,
         "path": "io.github.dpetrou-continua/offprint",
         "url": "https://offprint.pub",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.filipp-nekahev/fillwise-mcp#fillwise",
+      "type": "mcp",
+      "name": "FillWise",
+      "description": {
+        "zh": null,
+        "en": "Fill PDF forms with AI from plain text: fillable and flat PDFs, USCIS and other official forms.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.filipp-nekahev/fillwise-mcp",
+        "url": "https://fillwise.ai/features/mcp-server",
         "tier": 0
       },
       "quality": {
@@ -32899,6 +33538,104 @@
         "repo": null,
         "path": "io.github.hwang-yh-cto/space-ocr",
         "url": "https://space-ocr.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.iyuyoung/jotoak#jotoak",
+      "type": "mcp",
+      "name": "JotOak",
+      "description": {
+        "zh": null,
+        "en": "Find published word searches, crosswords and mazes with matching Letter and A4 PDF files.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.iyuyoung/jotoak",
+        "url": "https://jotoak.com/developers/mcp/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.iyuyoung/wordsearchclub#wordsearchclub",
+      "type": "mcp",
+      "name": "WordSearchClub",
+      "description": {
+        "zh": null,
+        "en": "Find fixed word searches and their matching printable puzzles and separate answer sheets.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.iyuyoung/wordsearchclub",
+        "url": "https://wordsearchclub.com/developers/mcp/",
         "tier": 0
       },
       "quality": {
@@ -34256,56 +34993,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:io.github.sergiupogor/curlshot#curlshot-screenshots",
-      "type": "mcp",
-      "name": "CurlShot screenshots",
-      "description": {
-        "zh": null,
-        "en": "Screenshot any web page from an AI agent: PNG, JPEG, WebP, PDF or scrolling video.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "document",
-        "media"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "io.github.SergiuPogor/curlshot",
-        "url": "https://curlshot.com/docs?utm_source=mcp-registry&utm_medium=listing&utm_campaign=dist-q4",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:mcp-official:io.github.simulatorarts/docugrip#docugrip",
       "type": "mcp",
       "name": "DocuGrip",
@@ -35362,6 +36049,56 @@
         "repo": null,
         "path": "lol.myplan/myplan",
         "url": "https://myplan.lol",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:md.marble/marble#marble",
+      "type": "mcp",
+      "name": "Marble",
+      "description": {
+        "zh": null,
+        "en": "Read, write, organise and share Markdown notes in Marble, the collaborative Markdown editor.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "md.marble/marble",
+        "url": "https://marble.md",
         "tier": 0
       },
       "quality": {
@@ -36551,6 +37288,55 @@
         "repo": null,
         "path": "work.person/career-record",
         "url": "https://person.work/onboarding/agent",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:xyz.agentreader/agentreader#agentreader",
+      "type": "mcp",
+      "name": "AgentReader",
+      "description": {
+        "zh": null,
+        "en": "Read any URL, web page or PDF as clean Markdown/JSON. Scrape JS sites, extract articles. x402.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "xyz.agentreader/agentreader",
+        "url": "https://agentreader.xyz",
         "tier": 0
       },
       "quality": {
@@ -38013,6 +38799,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:narrador-io/narrador-mcp:io.narrador/narrador#narrador",
+      "type": "mcp",
+      "name": "narrador",
+      "description": {
+        "zh": null,
+        "en": "Turn PDFs, Word, EPUB and X posts into narrated audio and videos with word timestamps.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "narrador-io/narrador-mcp",
+        "path": "io.narrador/narrador",
+        "url": "https://github.com/narrador-io/narrador-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:nbibikov/cogvault:io.github.nbibikov/cogvault#cogvault",
       "type": "mcp",
       "name": "cogvault",
@@ -38653,12 +39489,61 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:officialspicrawl/mcp:io.github.officialspicrawl/mcp#spicrawl",
+      "id": "mcp:nuncaeslupus/doc-control:io.github.nuncaeslupus/doc-control#doc-control",
       "type": "mcp",
-      "name": "Spicrawl",
+      "name": "doc-control",
       "description": {
         "zh": null,
-        "en": "Web scraping to Markdown and structured data, screenshots, batch jobs and browser sessions.",
+        "en": "Edit Word documents by address: tracked changes, comments, anchors, with backups and undo.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "nuncaeslupus/doc-control",
+        "path": "io.github.nuncaeslupus/doc-control",
+        "url": "https://github.com/nuncaeslupus/doc-control",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:nutshell2000/agent-data-tools:io.github.nutshell2000/agent-data-tools#agent-data-tools",
+      "type": "mcp",
+      "name": "Agent Data Tools",
+      "description": {
+        "zh": null,
+        "en": "Static documentation to Markdown, code and tables. $0.002 per call in Base USDC via x402.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -38667,6 +39552,57 @@
       "lang": "en",
       "categories": [
         "document",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Nutshell2000/agent-data-tools",
+        "path": "io.github.Nutshell2000/agent-data-tools",
+        "url": "https://github.com/Nutshell2000/agent-data-tools",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:officialspicrawl/mcp:io.github.officialspicrawl/mcp#spicrawl",
+      "type": "mcp",
+      "name": "Spicrawl",
+      "description": {
+        "zh": null,
+        "en": "Web scraping MCP server: any URL to Markdown or JSON, with JavaScript rendering and batch jobs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "coding",
         "research"
       ],
       "targets": [
@@ -38775,6 +39711,154 @@
         "repo": "okmr2217/clipnote",
         "path": "io.github.okmr2217/clipnote",
         "url": "https://github.com/okmr2217/clipnote",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:olsols4/webkit-api:io.github.olsols4/dockit#dockit",
+      "type": "mcp",
+      "name": "DocKit",
+      "description": {
+        "zh": null,
+        "en": "Extract text and metadata from PDFs; convert Markdown or text to PDF",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "OlsOls4/webkit-api",
+        "path": "io.github.OlsOls4/dockit",
+        "url": "https://github.com/OlsOls4/webkit-api",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:olsols4/webkit-api:io.github.olsols4/llmkit#llmkit",
+      "type": "mcp",
+      "name": "LLMKit",
+      "description": {
+        "zh": null,
+        "en": "Token counting, RAG chunking, truncation, HTML to Markdown and JSON repair",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "OlsOls4/webkit-api",
+        "path": "io.github.OlsOls4/llmkit",
+        "url": "https://github.com/OlsOls4/webkit-api",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:olsols4/webkit-api:io.github.olsols4/webkit#webkit",
+      "type": "mcp",
+      "name": "WebKit",
+      "description": {
+        "zh": null,
+        "en": "Email validation, link previews and article-to-Markdown extraction for AI agents",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "OlsOls4/webkit-api",
+        "path": "io.github.OlsOls4/webkit",
+        "url": "https://github.com/OlsOls4/webkit-api",
         "tier": 0
       },
       "quality": {
@@ -38925,6 +40009,55 @@
         "repo": "OnourImpram/mneme",
         "path": "io.github.OnourImpram/mneme",
         "url": "https://github.com/OnourImpram/mneme",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:ouchi-dev/pdfforge:io.github.ouchi-dev/pdfforge#pdfforge",
+      "type": "mcp",
+      "name": "PDFForge",
+      "description": {
+        "zh": null,
+        "en": "Local PDF toolkit: read, edit, OCR, redact, fill forms, compare, convert, bank statements to Excel",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ouchi-dev/pdfforge",
+        "path": "io.github.ouchi-dev/pdfforge",
+        "url": "https://github.com/ouchi-dev/pdfforge",
         "tier": 0
       },
       "quality": {
@@ -43299,6 +44432,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:sergiupogor/curlshot-mcp:io.github.sergiupogor/curlshot#curlshot",
+      "type": "mcp",
+      "name": "CurlShot",
+      "description": {
+        "zh": null,
+        "en": "Screenshots of any public web page as PNG, JPEG, WebP, PDF or a scrolling video.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "SergiuPogor/curlshot-mcp",
+        "path": "io.github.SergiuPogor/curlshot",
+        "url": "https://github.com/SergiuPogor/curlshot-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:serpkite/serpkite-mcp:io.github.serpkite/serpkite#serpkite",
       "type": "mcp",
       "name": "SerpKite",
@@ -47531,6 +48714,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:thomas-villani/all2md:io.github.thomas-villani/all2md#all2md",
+      "type": "mcp",
+      "name": "all2md",
+      "description": {
+        "zh": null,
+        "en": "Read, convert, search, diff and outline PDF, Word, PowerPoint, HTML and 40+ formats as Markdown.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "thomas-villani/all2md",
+        "path": "io.github.thomas-villani/all2md",
+        "url": "https://github.com/thomas-villani/all2md",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:thrain-ai/blackout-pdf:ai.thrain/blackout#ai.thrain-blackout",
       "type": "mcp",
       "name": "ai.thrain/blackout",
@@ -47999,6 +49231,55 @@
         "repo": "Umeshmalik/umesh-malik",
         "path": "com.umesh-malik/blog-mcp",
         "url": "https://github.com/Umeshmalik/umesh-malik",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:un-seen/overleaf-mcp:com.hedwigai/hedwigai#hedwigai",
+      "type": "mcp",
+      "name": "hedwigai",
+      "description": {
+        "zh": null,
+        "en": "Check every reference in a paper, compile LaTeX to PDF, and get cited data: SEC, trade, web traffic.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "un-seen/overleaf-mcp",
+        "path": "com.hedwigai/hedwigai",
+        "url": "https://github.com/un-seen/overleaf-mcp",
         "tier": 0
       },
       "quality": {
@@ -49064,6 +50345,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:wrpbr/editalmd:com.editalmd/editalmd#com.editalmd-editalmd",
+      "type": "mcp",
+      "name": "com.editalmd/editalmd",
+      "description": {
+        "zh": null,
+        "en": "Brazilian public procurement (PNCP): search, deadlines, tender markdown, alerts and watches.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "wrpbr/editalmd",
+        "path": "com.editalmd/editalmd",
+        "url": "https://github.com/wrpbr/editalmd",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:xberg-io/crawlberg:io.github.xberg-io/crawlberg#crawlberg",
       "type": "mcp",
       "name": "Crawlberg",
@@ -49580,6 +50911,55 @@
         "repo": "zactonz/zactonz-mcp",
         "path": "io.github.zactonz/zactonz-mcp",
         "url": "https://github.com/zactonz/zactonz-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:zeptap/mcp:io.github.zeptap/zeptap#zeptap",
+      "type": "mcp",
+      "name": "Zeptap",
+      "description": {
+        "zh": null,
+        "en": "Operate a real iPhone from a Mac: screenshots, OCR, taps, typing, opening apps. Needs Zeptap.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "zeptap/mcp",
+        "path": "io.github.Zeptap/zeptap",
+        "url": "https://github.com/zeptap/mcp",
         "tier": 0
       },
       "quality": {

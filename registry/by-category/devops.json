@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T22:02:39.773Z",
+  "generatedAt": "2026-10-15T21:56:17.250Z",
   "category": {
     "key": "devops",
     "zh": "运维部署",
@@ -97,7 +97,7 @@
       }
     ]
   },
-  "total": 625,
+  "total": 630,
   "entries": [
     {
       "id": "skill:composiohq/awesome-claude-skills:composio-skills/cloudflare-api-key-automation/skill.md#cloudflare-api-key-automation",
@@ -10048,6 +10048,55 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:gitayg/appcrane-mcp:io.github.gitayg/appcrane#appcrane",
+      "type": "mcp",
+      "name": "AppCrane",
+      "description": {
+        "zh": null,
+        "en": "Deploy and manage apps on your own AppCrane instance, the self-hosted PaaS for AI-built apps.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "gitayg/appcrane-mcp",
+        "path": "io.github.gitayg/appcrane",
+        "url": "https://github.com/gitayg/appcrane-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
       "id": "mcp:higangssh/homebutler:io.github.higangssh/homebutler#io.github.higangssh-homebutler",
       "type": "mcp",
       "name": "io.github.Higangssh/homebutler",
@@ -15090,12 +15139,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:gitayg/appcrane-mcp:io.github.gitayg/appcrane#appcrane",
+      "id": "mcp:getployz/ployz:dev.ployz/ployz#ployz",
       "type": "mcp",
-      "name": "AppCrane",
+      "name": "Ployz",
       "description": {
         "zh": null,
-        "en": "Deploy and manage apps on your own AppCrane instance, the self-hosted PaaS for AI-built apps.",
+        "en": "Deploy apps, databases and previews to your own servers. Run Ployz Cloud from your agent.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -15109,9 +15158,9 @@
         "mcp-client"
       ],
       "source": {
-        "repo": "gitayg/appcrane-mcp",
-        "path": "io.github.gitayg/appcrane",
-        "url": "https://github.com/gitayg/appcrane-mcp",
+        "repo": "getployz/ployz",
+        "path": "dev.ployz/ployz",
+        "url": "https://github.com/getployz/ployz",
         "tier": 0
       },
       "quality": {
@@ -19297,12 +19346,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:app.vercel.automaton-tx-explainer/base-tools#automaton-base-onchain-tools",
+      "id": "mcp:mcp-official:app.vercel.automaton-tx-explainer/base-tools#automaton-onchain-&-url-tools",
       "type": "mcp",
-      "name": "Automaton Base Onchain Tools",
+      "name": "Automaton Onchain & URL Tools",
       "description": {
         "zh": null,
-        "en": "Paid (x402, USDC on Base) Base tools: tx explainer, token approvals, address inspector.",
+        "en": "Paid x402 tools: tx, approvals, address, contract risk (Base/ETH/BSC) + URL safety.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -19517,6 +19566,55 @@
         "repo": null,
         "path": "app.vercel.filingcheck-bot/filingcheck",
         "url": "https://filingcheck-bot.vercel.app",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:app.vercel.fork-for-agents/fork#fork",
+      "type": "mcp",
+      "name": "Fork",
+      "description": {
+        "zh": null,
+        "en": "Agents share improvements to their setups (rules, skills, settings), fork and install them.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "app.vercel.fork-for-agents/fork",
+        "url": "https://fork-for-agents.vercel.app",
         "tier": 0
       },
       "quality": {
@@ -20356,6 +20454,55 @@
         "repo": null,
         "path": "com.argosvix/server",
         "url": "https://registry.modelcontextprotocol.io/?q=com.argosvix%2Fserver",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.artifactdeploy/artifactdeploy#artifactdeploy",
+      "type": "mcp",
+      "name": "ArtifactDeploy",
+      "description": {
+        "zh": null,
+        "en": "Deploy what Claude builds to a live link: previews, who-opened-it links, stats, forms, domains.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.artifactdeploy/artifactdeploy",
+        "url": "https://artifactdeploy.com",
         "tier": 0
       },
       "quality": {
@@ -21342,56 +21489,6 @@
         "repo": null,
         "path": "com.previewsend/previewsend",
         "url": "https://previewsend.com/docs/mcp",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:mcp-official:com.radar-cnpj/radar-cnpj#com.radar-cnpj-radar-cnpj",
-      "type": "mcp",
-      "name": "com.radar-cnpj/radar-cnpj",
-      "description": {
-        "zh": null,
-        "en": "Brazilian company registry (Receita): CNPJ lookup, CNAE search, idea evaluation, monitoring.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "devops",
-        "research"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "com.radar-cnpj/radar-cnpj",
-        "url": "https://radar-cnpj.com",
         "tier": 0
       },
       "quality": {
@@ -22899,55 +22996,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:io.agentsvc/services#agentsvc.io",
-      "type": "mcp",
-      "name": "agentsvc.io",
-      "description": {
-        "zh": null,
-        "en": "111 pay-per-call agent tools via x402: web, crypto safety, docs, company checks, IOTA, monitoring",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "devops"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "io.agentsvc/services",
-        "url": "https://agentsvc.io",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:mcp-official:io.dedyn.kai-system-agent/csv-profiler#kai-csv-profiler-and-domain-watch-intake",
       "type": "mcp",
       "name": "Kai CSV Profiler and Domain Watch Intake",
@@ -24356,6 +24404,55 @@
         "repo": null,
         "path": "io.pipecore/platform",
         "url": "https://pipecore.io",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.resilis/cloud#resilis",
+      "type": "mcp",
+      "name": "Resilis",
+      "description": {
+        "zh": null,
+        "en": "Deploy apps, manage data, and inspect cloud resources through authenticated Resilis MCP tools.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.resilis/cloud",
+        "url": "https://resilis.io/docs/agents-and-mcp/",
         "tier": 0
       },
       "quality": {
@@ -30223,7 +30320,7 @@
       "name": "VMware Monitor",
       "description": {
         "zh": null,
-        "en": "Read-only VMware vCenter/ESXi monitoring, 32 MCP tools; vSphere calls allowlist-gated in tests.",
+        "en": "Read-only VMware vCenter/ESXi monitoring, 33 MCP tools; vSphere calls allowlist-gated in tests.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -30439,6 +30536,56 @@
         "repo": "wraps-team/wraps",
         "path": "dev.wraps/docs",
         "url": "https://github.com/wraps-team/wraps",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:wrpbr/radar-cnpj:com.radar-cnpj/radar-cnpj#com.radar-cnpj-radar-cnpj",
+      "type": "mcp",
+      "name": "com.radar-cnpj/radar-cnpj",
+      "description": {
+        "zh": null,
+        "en": "Brazilian company registry (Receita): CNPJ lookup, CNAE search, idea evaluation, monitoring.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "wrpbr/radar-cnpj",
+        "path": "com.radar-cnpj/radar-cnpj",
+        "url": "https://github.com/wrpbr/radar-cnpj",
         "tier": 0
       },
       "quality": {
@@ -31341,6 +31488,104 @@
         "repo": "zwitbaum/mcp-devops-on-prem",
         "path": "io.github.zwitbaum/mcp-devops-on-prem",
         "url": "https://github.com/zwitbaum/mcp-devops-on-prem",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:zyvorai/paqtra:io.github.zyvorai/paqtra#paqtra",
+      "type": "mcp",
+      "name": "Paqtra",
+      "description": {
+        "zh": null,
+        "en": "Read-only Cilium and Hubble network observability and flow investigation for Kubernetes.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "zyvorai/paqtra",
+        "path": "io.github.zyvorai/paqtra",
+        "url": "https://github.com/zyvorai/paqtra",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:zyvorai/zyvor-netra:io.github.zyvorai/netra#netra",
+      "type": "mcp",
+      "name": "Netra",
+      "description": {
+        "zh": null,
+        "en": "eBPF network observability and safe emergency control for Linux and Kubernetes.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "zyvorai/zyvor-netra",
+        "path": "io.github.zyvorai/netra",
+        "url": "https://github.com/zyvorai/zyvor-netra",
         "tier": 0
       },
       "quality": {

@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-14T22:02:39.773Z",
+  "generatedAt": "2026-10-15T21:56:17.250Z",
   "type": "plugin",
   "label": {
     "zh": "插件",
     "en": "Plugin"
   },
-  "total": 230,
+  "total": 228,
   "entries": [
     {
       "id": "plugin:anthropics/skills:.claude-plugin/marketplace.json#academy-guide",
@@ -6490,7 +6490,7 @@
       "name": "prompt-cache-control",
       "description": {
         "zh": null,
-        "en": "Prompt-cache meter above the Claude Code prompt: how many tokens each request read from, wrote to and sent past the cache, a live countdown to the cache's expiry, and what to do about it (keep going, compact or clear). The TTL follows Claude Code's own rules for your account (1 hour on a Claude subscription, 5 minutes on an API key, cloud provider or usage credits, plus the TTL variables and setting) and corrects itself from request timing. /cache opens a per-turn table.",
+        "en": "Prompt-cache meter above the Claude Code prompt: how many tokens each request read from, wrote to and sent past the cache, a live countdown to the cache's expiry, and what to do about it (keep going, compact or clear). The TTL follows Claude Code's own rules for your account (1 hour on a Claude subscription, 5 minutes on an API key, cloud provider or usage credits, plus the TTL variables and setting) and corrects itself from request timing. When Claude Code will compact an idle conversation by itself, it counts down to that too. /cache opens a per-turn table.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -7830,7 +7830,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -7879,7 +7879,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -7929,7 +7929,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -7979,7 +7979,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -8028,7 +8028,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -8077,7 +8077,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -8126,7 +8126,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -8175,7 +8175,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -8226,7 +8226,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -8275,7 +8275,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -8326,7 +8326,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -8375,7 +8375,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -8424,7 +8424,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -8473,7 +8473,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -8522,7 +8522,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -8571,56 +8571,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
-      "curatedMentions": 1
-    },
-    {
-      "id": "plugin:dontbesilent2025/dbskill:.claude-plugin/marketplace.json#dbs-hook",
-      "type": "plugin",
-      "name": "dbs-hook",
-      "description": {
-        "zh": "【deprecated】旧版兼容入口。仅在用户明确调用 dbs-hook 或要求对照旧版时使用；新任务优先使用 dbs-title-cover-intro。",
-        "en": null,
-        "zhEngine": null,
-        "needsTranslation": [
-          "en"
-        ]
-      },
-      "lang": "mixed",
-      "categories": [
-        "other"
-      ],
-      "targets": [
-        "claude-code"
-      ],
-      "source": {
-        "repo": "dontbesilent2025/dbskill",
-        "path": ".claude-plugin/marketplace.json",
-        "url": "https://github.com/dontbesilent2025/dbskill/blob/HEAD/.claude-plugin/marketplace.json",
-        "tier": 2
-      },
-      "quality": {
-        "score": 55,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -8669,7 +8620,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -8719,7 +8670,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -8768,7 +8719,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -8817,7 +8768,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -8866,7 +8817,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -8915,7 +8866,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -8964,7 +8915,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -9013,7 +8964,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -9062,7 +9013,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -9113,7 +9064,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -9163,7 +9114,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -9212,7 +9163,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -9261,7 +9212,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -9310,7 +9261,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -9361,7 +9312,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -9410,7 +9361,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -9461,7 +9412,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -9510,7 +9461,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -9559,56 +9510,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
-      "curatedMentions": 1
-    },
-    {
-      "id": "plugin:dontbesilent2025/dbskill:.claude-plugin/marketplace.json#dbs-xhs-title",
-      "type": "plugin",
-      "name": "dbs-xhs-title",
-      "description": {
-        "zh": "【deprecated】旧版兼容入口。仅在用户明确调用 dbs-xhs-title 或要求对照旧版时使用；新任务优先使用 dbs-title-cover-intro。",
-        "en": null,
-        "zhEngine": null,
-        "needsTranslation": [
-          "en"
-        ]
-      },
-      "lang": "mixed",
-      "categories": [
-        "other"
-      ],
-      "targets": [
-        "claude-code"
-      ],
-      "source": {
-        "repo": "dontbesilent2025/dbskill",
-        "path": ".claude-plugin/marketplace.json",
-        "url": "https://github.com/dontbesilent2025/dbskill/blob/HEAD/.claude-plugin/marketplace.json",
-        "tier": 2
-      },
-      "quality": {
-        "score": 55,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -9657,7 +9559,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {

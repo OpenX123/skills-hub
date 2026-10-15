@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T22:02:39.773Z",
+  "generatedAt": "2026-10-15T21:56:17.250Z",
   "category": {
     "key": "coding",
     "zh": "编码开发",
@@ -109,7 +109,7 @@
       }
     ]
   },
-  "total": 4519,
+  "total": 4541,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/algorithmic-art/skill.md#algorithmic-art",
@@ -87920,7 +87920,7 @@
       "name": "prompt-cache-control",
       "description": {
         "zh": null,
-        "en": "Prompt-cache meter above the Claude Code prompt: how many tokens each request read from, wrote to and sent past the cache, a live countdown to the cache's expiry, and what to do about it (keep going, compact or clear). The TTL follows Claude Code's own rules for your account (1 hour on a Claude subscription, 5 minutes on an API key, cloud provider or usage credits, plus the TTL variables and setting) and corrects itself from request timing. /cache opens a per-turn table.",
+        "en": "Prompt-cache meter above the Claude Code prompt: how many tokens each request read from, wrote to and sent past the cache, a live countdown to the cache's expiry, and what to do about it (keep going, compact or clear). The TTL follows Claude Code's own rules for your account (1 hour on a Claude subscription, 5 minutes on an API key, cloud provider or usage credits, plus the TTL variables and setting) and corrects itself from request timing. When Claude Code will compact an idle conversation by itself, it counts down to that too. /cache opens a per-turn table.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -89888,7 +89888,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -89943,7 +89943,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -96021,7 +96021,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -96072,7 +96072,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -96122,7 +96122,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -135107,55 +135107,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "rules:huangwb8/skills:claude.md#claude",
-      "type": "rules",
-      "name": "CLAUDE",
-      "description": {
-        "zh": null,
-        "en": "@./AGENTS.md",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding"
-      ],
-      "targets": [
-        "claude-code"
-      ],
-      "source": {
-        "repo": "huangwb8/skills",
-        "path": "CLAUDE.md",
-        "url": "https://github.com/huangwb8/skills/blob/HEAD/CLAUDE.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 39,
-        "gates": {
-          "security": true,
-          "schema": false,
-          "unique": true,
-          "alive": true
-        },
-        "passed": false,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 48,
-      "curatedMentions": 1
-    },
-    {
       "id": "skill:xu-xiang/everything-claude-code-zh:.cursor/skills/content-engine/skill.md#content-engine",
       "type": "skill",
       "name": "content-engine",
@@ -140731,6 +140682,55 @@
       "familySize": 0,
       "stars": 1757,
       "curatedMentions": 0
+    },
+    {
+      "id": "rules:huangwb8/skills:claude.md#claude",
+      "type": "rules",
+      "name": "CLAUDE",
+      "description": {
+        "zh": null,
+        "en": "@./AGENTS.md",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "huangwb8/skills",
+        "path": "CLAUDE.md",
+        "url": "https://github.com/huangwb8/skills/blob/HEAD/CLAUDE.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 38,
+        "gates": {
+          "security": true,
+          "schema": false,
+          "unique": true,
+          "alive": true
+        },
+        "passed": false,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 48,
+      "curatedMentions": 1
     },
     {
       "id": "subagent:xu-xiang/everything-claude-code-zh:agents/code-reviewer.md#code-reviewer",
@@ -152679,6 +152679,56 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:dgesteves/onsystem:io.github.dgesteves/onsystem#onsystem",
+      "type": "mcp",
+      "name": "onsystem",
+      "description": {
+        "zh": null,
+        "en": "Keeps coding agents on your design system: knows your real components, props, variants and tokens.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "dgesteves/onsystem",
+        "path": "io.github.dgesteves/onsystem",
+        "url": "https://github.com/dgesteves/onsystem",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
       "id": "mcp:dinglebear-ai/runifi:ai.dinglebear/runifi#unifi-rmcp",
       "type": "mcp",
       "name": "UniFi RMCP",
@@ -154120,6 +154170,55 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:ihatepostingorg/agent-skill:com.ihateposting/mcp#ihateposting",
+      "type": "mcp",
+      "name": "iHatePosting",
+      "description": {
+        "zh": null,
+        "en": "Draft, check and schedule posts to your social accounts from Claude, ChatGPT, Cursor or VS Code.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "iHatePostingOrg/agent-skill",
+        "path": "com.ihateposting/mcp",
+        "url": "https://github.com/iHatePostingOrg/agent-skill",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
       "id": "mcp:ihorponom/agentpack:io.github.ihorponom/agentpack#io.github.ihorponom-agentpack",
       "type": "mcp",
       "name": "io.github.ihorponom/agentpack",
@@ -154638,6 +154737,57 @@
         "repo": "KasayoDotCom/identityforge-mcp",
         "path": "io.identityforge/mcp",
         "url": "https://github.com/KasayoDotCom/identityforge-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:katta041/asitis-agent-tools:io.github.katta041/asitis-mcp#asitis",
+      "type": "mcp",
+      "name": "AsItIs",
+      "description": {
+        "zh": null,
+        "en": "Read-only MCP server for markdown and agent steering files: read, outline, lint, context budget.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Katta041/asitis-agent-tools",
+        "path": "io.github.Katta041/asitis-mcp",
+        "url": "https://github.com/Katta041/asitis-agent-tools",
         "tier": 0
       },
       "quality": {
@@ -157782,6 +157932,55 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:swebsy/mcp:io.github.swebsy/mcp#io.github.swebsy-mcp",
+      "type": "mcp",
+      "name": "io.github.swebsy/mcp",
+      "description": {
+        "zh": null,
+        "en": "Build and edit real websites in Swebsy Studio from your coding agent — no per-token AI fees.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "swebsy/MCP",
+        "path": "io.github.swebsy/mcp",
+        "url": "https://github.com/swebsy/MCP",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
       "id": "mcp:taygunsavas/patina-unity-mcp:io.github.taygunsavas/patina-unity-mcp#patina-unity-mcp",
       "type": "mcp",
       "name": "Patina Unity MCP",
@@ -158776,7 +158975,7 @@
       "name": "CGIS Code Graph",
       "description": {
         "zh": null,
-        "en": "Code graph for AI agents: impact analysis and call tracing for Python and TypeScript.",
+        "en": "Code graph for AI agents: impact analysis and call tracing for Python, TypeScript and Go.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -159634,6 +159833,55 @@
         "repo": "AbduljabbarBXR/heides",
         "path": "io.github.AbduljabbarBXR/heides",
         "url": "https://github.com/AbduljabbarBXR/heides",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:abeljumanuel/axiom-meridian-project:io.github.abeljumanuel/axiom-meridian#axiom-meridian",
+      "type": "mcp",
+      "name": "Axiom Meridian",
+      "description": {
+        "zh": null,
+        "en": "Serves only the team rules and lessons learned relevant to a project. Code drifts. Meridian doesn't.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "abeljumanuel/axiom-meridian-project",
+        "path": "io.github.abeljumanuel/axiom-meridian",
+        "url": "https://github.com/abeljumanuel/axiom-meridian-project",
         "tier": 0
       },
       "quality": {
@@ -162734,6 +162982,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:applied-form/engine:io.github.applied-form/engine#applied-form-engine",
+      "type": "mcp",
+      "name": "Applied Form engine",
+      "description": {
+        "zh": null,
+        "en": "Lint rendered pages against a design system in a real browser, across six widths, with the fix.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Applied-Form/engine",
+        "path": "io.github.Applied-Form/engine",
+        "url": "https://github.com/Applied-Form/engine",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:aquaminh/brandpilot-mcp:dev.brandpilot/brandpilot-mcp#dev.brandpilot-brandpilot-mcp",
       "type": "mcp",
       "name": "dev.brandpilot/brandpilot-mcp",
@@ -163201,6 +163499,56 @@
         "repo": "arsprengel/trail-mcp",
         "path": "dev.usetrail/trail",
         "url": "https://github.com/arsprengel/trail-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:artvepa80/agents-hefesto:io.github.artvepa80/hefestoai#hefestoai",
+      "type": "mcp",
+      "name": "HefestoAI",
+      "description": {
+        "zh": null,
+        "en": "Release-truth gate for AI-generated code. Hosted MCP server is closed-source (Narapa LLC).",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "artvepa80/Agents-Hefesto",
+        "path": "io.github.artvepa80/hefestoai",
+        "url": "https://github.com/artvepa80/Agents-Hefesto",
         "tier": 0
       },
       "quality": {
@@ -164588,6 +164936,55 @@
         "repo": "baopeak/verirun",
         "path": "io.github.baopeak/verirun",
         "url": "https://github.com/baopeak/verirun",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:barcodegen/barcodegen:net.barcodegen/barcode-generator#barcode-generator",
+      "type": "mcp",
+      "name": "Barcode Generator",
+      "description": {
+        "zh": null,
+        "en": "Generate barcodes and QR codes in 35 symbologies: QR, Data Matrix, PDF417, EAN-13, Code 128, more.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "barcodegen/barcodegen",
+        "path": "net.barcodegen/barcode-generator",
+        "url": "https://github.com/barcodegen/barcodegen",
         "tier": 0
       },
       "quality": {
@@ -170080,56 +170477,6 @@
         "repo": "dgesteves/design-system-mcp",
         "path": "io.github.dgesteves/design-system-mcp",
         "url": "https://github.com/dgesteves/design-system-mcp",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:dgesteves/onsystem:io.github.dgesteves/onsystem#onsystem",
-      "type": "mcp",
-      "name": "onsystem",
-      "description": {
-        "zh": null,
-        "en": "Keeps coding agents on your design system: knows your real components, props, variants and tokens.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding",
-        "design"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "dgesteves/onsystem",
-        "path": "io.github.dgesteves/onsystem",
-        "url": "https://github.com/dgesteves/onsystem",
         "tier": 0
       },
       "quality": {
@@ -178184,7 +178531,7 @@
       "name": "MIMRY",
       "description": {
         "zh": null,
-        "en": "Local repo memory for coding agents: ranked files, context packs and a code graph for any task.",
+        "en": "The local context engine for AI coding agents: ranked files, context packs and a code graph.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -184784,57 +185131,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:katta041/asitis-agent-tools:io.github.katta041/asitis-mcp#asitis",
-      "type": "mcp",
-      "name": "AsItIs",
-      "description": {
-        "zh": null,
-        "en": "Read-only MCP server for markdown and agent steering files: read, outline, lint, context budget.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "document",
-        "meta",
-        "coding"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "Katta041/asitis-agent-tools",
-        "path": "io.github.Katta041/asitis-mcp",
-        "url": "https://github.com/Katta041/asitis-agent-tools",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:kawacode-ai/kawa.mcp:ai.kawacode/mcp#kawa-code",
       "type": "mcp",
       "name": "Kawa Code",
@@ -185533,7 +185829,7 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:konstantinstarovoytov/rag-context-assembly:io.github.konstantinstarovoytov/agent-docs#agent-docs",
+      "id": "mcp:konstantinstarovoytov/agent-docs:io.github.konstantinstarovoytov/agent-docs#agent-docs",
       "type": "mcp",
       "name": "Agent Docs",
       "description": {
@@ -185554,9 +185850,9 @@
         "mcp-client"
       ],
       "source": {
-        "repo": "KonstantinStarovoytov/rag-context-assembly",
+        "repo": "KonstantinStarovoytov/agent-docs",
         "path": "io.github.KonstantinStarovoytov/agent-docs",
-        "url": "https://github.com/KonstantinStarovoytov/rag-context-assembly",
+        "url": "https://github.com/KonstantinStarovoytov/agent-docs",
         "tier": 0
       },
       "quality": {
@@ -186501,6 +186797,56 @@
         "repo": "labyrinth-analytics/loreconvo",
         "path": "io.github.labyrinth-analytics/loreconvo",
         "url": "https://github.com/labyrinth-analytics/loreconvo",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:lakelogic/lakelogic-mcp:io.github.lakelogic/lakelogic-mcp#io.github.lakelogic-lakelogic-mcp",
+      "type": "mcp",
+      "name": "io.github.LakeLogic/lakelogic-mcp",
+      "description": {
+        "zh": null,
+        "en": "Validate, lint, test-run and explain Open Lakehouse Contracts with LakeLogic, from any AI assistant.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "LakeLogic/lakelogic-mcp",
+        "path": "io.github.LakeLogic/lakelogic-mcp",
+        "url": "https://github.com/LakeLogic/lakelogic-mcp",
         "tier": 0
       },
       "quality": {
@@ -190582,6 +190928,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:app.ginta/ginta#ginta",
+      "type": "mcp",
+      "name": "Ginta",
+      "description": {
+        "zh": null,
+        "en": "AI website builder: build, publish and edit websites from Claude, ChatGPT or Claude Code.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "app.ginta/ginta",
+        "url": "https://ginta.app/website-builder-mcp/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:app.lediv/mcp#lediv",
       "type": "mcp",
       "name": "Lediv",
@@ -192704,6 +193100,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.entalpa/requirements#entalpa-requirements-mcp",
+      "type": "mcp",
+      "name": "Entalpa Requirements MCP",
+      "description": {
+        "zh": null,
+        "en": "Spec-driven development for AI coding agents: live requirements, stories and traceability over MCP",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.entalpa/requirements",
+        "url": "https://entalpa.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.eushipmentprep.www/eushipmentprep#eushipmentprep",
       "type": "mcp",
       "name": "EUShipmentPrep",
@@ -194236,6 +194681,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.poofboxmail/poofbox#poofbox-mail",
+      "type": "mcp",
+      "name": "Poofbox Mail",
+      "description": {
+        "zh": null,
+        "en": "Disposable inboxes for AI agents: create an address, wait for the email, get the code or link.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.poofboxmail/poofbox",
+        "url": "https://poofboxmail.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.previewsend/previewsend#previewsend",
       "type": "mcp",
       "name": "PreviewSend",
@@ -195546,6 +196040,55 @@
         "repo": null,
         "path": "com.unlayer/mcp",
         "url": "https://docs.unlayer.com/ai/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.versyka/versyka#versyka",
+      "type": "mcp",
+      "name": "Versyka",
+      "description": {
+        "zh": null,
+        "en": "Find retiring AI models and outdated API SDKs in your code, with dates, replacements and guides.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.versyka/versyka",
+        "url": "https://www.versyka.com/integrations",
         "tier": 0
       },
       "quality": {
@@ -197459,6 +198002,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:dev.workers.mike-tusa.hrefgate/hrefgate#hrefgate",
+      "type": "mcp",
+      "name": "HrefGate",
+      "description": {
+        "zh": null,
+        "en": "Lint hreflang: codes, x-default, self-reference, canonical, return links. Never fetches URLs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "dev.workers.mike-tusa.hrefgate/hrefgate",
+        "url": "https://hrefgate.mike-tusa.workers.dev/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:dev.workers.pathwren.www/mcp-endpoint-lint#mcp-endpoint-lint-handshake,-tool-schemas,-json-rpc-errors",
       "type": "mcp",
       "name": "MCP Endpoint Lint - handshake, tool schemas, JSON-RPC errors",
@@ -198077,6 +198669,105 @@
         "repo": null,
         "path": "io.gardenarena/gardenscript",
         "url": "https://gardenarena.io/en/gardenscript",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.aaronlilla/hawl#hawl",
+      "type": "mcp",
+      "name": "Hawl",
+      "description": {
+        "zh": null,
+        "en": "Mailbox, handoffs and permits between your coding agents. Local mode needs no account.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.aaronlilla/hawl",
+        "url": "https://hawl.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.agentower/agentower#agentower",
+      "type": "mcp",
+      "name": "Agentower",
+      "description": {
+        "zh": null,
+        "en": "See which of your team's coding agents needs someone, across Claude Code, Codex and Cursor.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.Agentower/agentower",
+        "url": "https://agentower.com",
         "tier": 0
       },
       "quality": {
@@ -199655,55 +200346,6 @@
         "repo": null,
         "path": "io.github.menghaoran214-lang/vibe-coding-cn",
         "url": "https://n8n.xiaomeng.ink/webhook/plugin-page?slug=vibe-coding",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:mcp-official:io.github.michaelw-pr/veridu#veridu",
-      "type": "mcp",
-      "name": "Veridu",
-      "description": {
-        "zh": null,
-        "en": "Code review that knows what depends on your change — before commit or on every PR.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "io.github.michaelw-pr/veridu",
-        "url": "https://veridu.io",
         "tier": 0
       },
       "quality": {
@@ -201484,6 +202126,56 @@
         "repo": null,
         "path": "io.ozmoz/ozmoz",
         "url": "https://ozmoz.io",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.publicapis/directory#publicapis.io",
+      "type": "mcp",
+      "name": "PublicAPIs.io",
+      "description": {
+        "zh": null,
+        "en": "Search 1,500+ public APIs with docs, code and auth/free-tier filters; list or sponsor your API.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.publicapis/directory",
+        "url": "https://publicapis.io/agents",
         "tier": 0
       },
       "quality": {
@@ -203448,6 +204140,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mehmoodqureshi/figma-codekit-mcp:io.github.mehmoodqureshi/figma-codekit-mcp#figma-codekit-mcp",
+      "type": "mcp",
+      "name": "Figma CodeKit MCP",
+      "description": {
+        "zh": null,
+        "en": "Figma to pixel-perfect code: deterministic HTML/React, then a render + pixel-diff verify loop.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Mehmoodqureshi/figma-codekit-mcp",
+        "path": "io.github.Mehmoodqureshi/figma-codekit-mcp",
+        "url": "https://github.com/Mehmoodqureshi/figma-codekit-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mehmoodqureshi/figma-mcp:io.github.mehmoodqureshi/figma-mcp#figma-mcp",
       "type": "mcp",
       "name": "figma-mcp",
@@ -203819,55 +204561,6 @@
         "repo": "meta-taro/zumen",
         "path": "io.github.meta-taro/zumen",
         "url": "https://github.com/meta-taro/zumen",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:metadevpro/apricot-mcp:tools.apricot/apricot#apricot",
-      "type": "mcp",
-      "name": "Apricot",
-      "description": {
-        "zh": null,
-        "en": "Manage SysML2 projects and files directly through your coding agent.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "metadevpro/apricot-mcp",
-        "path": "tools.apricot/apricot",
-        "url": "https://github.com/metadevpro/apricot-mcp",
         "tier": 0
       },
       "quality": {
@@ -207165,6 +207858,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:nolindnaidoo/decisionlint:io.github.nolindnaidoo/decisionlint#decisionlint",
+      "type": "mcp",
+      "name": "DecisionLint",
+      "description": {
+        "zh": null,
+        "en": "Lint questions for Jev, Luna and any decision-model platform, or ask the model with your key.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "nolindnaidoo/decisionlint",
+        "path": "io.github.nolindnaidoo/decisionlint",
+        "url": "https://github.com/nolindnaidoo/decisionlint",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:nolindnaidoo/jevlint-le:io.github.nolindnaidoo/jevlint-le#jevlint-le",
       "type": "mcp",
       "name": "JevLint-LE",
@@ -207807,6 +208549,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:nutshell2000/agent-data-tools:io.github.nutshell2000/agent-data-tools#agent-data-tools",
+      "type": "mcp",
+      "name": "Agent Data Tools",
+      "description": {
+        "zh": null,
+        "en": "Static documentation to Markdown, code and tables. $0.002 per call in Base USDC via x402.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Nutshell2000/agent-data-tools",
+        "path": "io.github.Nutshell2000/agent-data-tools",
+        "url": "https://github.com/Nutshell2000/agent-data-tools",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:nuver-labs/image-gen-mcp:com.nuverlabs/image-gen#image-gen",
       "type": "mcp",
       "name": "Image Gen",
@@ -207880,56 +208672,6 @@
         "repo": "nworks3d/THOR-for-claude-code",
         "path": "io.github.nworks3d/thor",
         "url": "https://github.com/nworks3d/THOR-for-claude-code",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:nxtg-ai/forge-orchestrator:io.github.nxtg-ai/forge-orchestrator#forge-orchestrator",
-      "type": "mcp",
-      "name": "Forge Orchestrator",
-      "description": {
-        "zh": null,
-        "en": "Claude Code; Codex CLI as task runner; Gemini CLI in development (B1, 2026-10-27) (public preview)",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "meta",
-        "coding"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "nxtg-ai/forge-orchestrator",
-        "path": "io.github.nxtg-ai/forge-orchestrator",
-        "url": "https://github.com/nxtg-ai/forge-orchestrator",
         "tier": 0
       },
       "quality": {
@@ -208078,6 +208820,57 @@
         "repo": "offensive360/mcp-server",
         "path": "io.github.JameelNabbo/o360-mcp",
         "url": "https://github.com/offensive360/mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:officialspicrawl/mcp:io.github.officialspicrawl/mcp#spicrawl",
+      "type": "mcp",
+      "name": "Spicrawl",
+      "description": {
+        "zh": null,
+        "en": "Web scraping MCP server: any URL to Markdown or JSON, with JavaScript rendering and batch jobs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "coding",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "OfficialSpicrawl/mcp",
+        "path": "io.github.OfficialSpicrawl/mcp",
+        "url": "https://github.com/OfficialSpicrawl/mcp",
         "tier": 0
       },
       "quality": {
@@ -208428,6 +209221,55 @@
         "repo": "omnidebuglink/omnidebuglink",
         "path": "dev.omnidebuglink/omnidebuglink",
         "url": "https://github.com/omnidebuglink/omnidebuglink",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:omnom-111/vcc-remote:io.github.omnom-111/vcc-remote#vibe-coding-control",
+      "type": "mcp",
+      "name": "Vibe Coding Control",
+      "description": {
+        "zh": null,
+        "en": "Your VCC projects, tasks, AI development history and owner decisions. Sign in with your VCC account.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "OMNOM-111/vcc-remote",
+        "path": "io.github.OMNOM-111/vcc-remote",
+        "url": "https://github.com/OMNOM-111/vcc-remote",
         "tier": 0
       },
       "quality": {
@@ -209645,6 +210487,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:paprika3d/paprika3d:io.github.paprika3d/paprika3d#paprika3d-(the-three.js-toolset-for-coding-agents)",
+      "type": "mcp",
+      "name": "paprika3D (the three.js toolset for coding agents)",
+      "description": {
+        "zh": null,
+        "en": "Lets coding agents see, play, inspect and speed up three.js, R3F and WebGL pages in headless Chrome",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "paprika3d/paprika3d",
+        "path": "io.github.paprika3d/paprika3d",
+        "url": "https://github.com/paprika3d/paprika3d",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:papyruslabs-ai/seshat-mcp:ai.papyruslabs/seshat-mcp#ai.papyruslabs-seshat-mcp",
       "type": "mcp",
       "name": "ai.papyruslabs/seshat-mcp",
@@ -210089,6 +210980,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:phpranga/math-to-code-mcp:io.github.phpranga/math-to-code-mcp#io.github.phpranga-math-to-code-mcp",
+      "type": "mcp",
+      "name": "io.github.phpranga/math-to-code-mcp",
+      "description": {
+        "zh": null,
+        "en": "Math MCP server for primality, factorization, Java templates, and integer multiplication.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "phpranga/math-to-code-mcp",
+        "path": "io.github.phpranga/math-to-code-mcp",
+        "url": "https://github.com/phpranga/math-to-code-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:phuongddx/codeintel:io.github.phuongddx/codeintel#io.github.phuongddx-codeintel",
       "type": "mcp",
       "name": "io.github.phuongddx/codeintel",
@@ -210444,7 +211385,7 @@
       "name": "Ca Dmv",
       "description": {
         "zh": null,
-        "en": "California DMV MCP — registered vehicles and EV adoption by ZIP code, field offices,",
+        "en": "California DMV MCP — registered vehicles and EV adoption by ZIP code, field offices, the official…",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -211335,7 +212276,7 @@
       "name": "Indiana Code",
       "description": {
         "zh": null,
-        "en": "Indiana Code — state statutes by citation, plus topic search and",
+        "en": "Indiana Code — state statutes by citation, plus topic search and historical (per-year) versions.…",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -212381,7 +213322,7 @@
       "name": "North Carolina Code",
       "description": {
         "zh": null,
-        "en": "North Carolina General Statutes — state statutes by citation, plus topic",
+        "en": "North Carolina General Statutes — state statutes by citation, plus topic search.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -212389,8 +213330,8 @@
       },
       "lang": "en",
       "categories": [
-        "coding",
-        "research"
+        "research",
+        "coding"
       ],
       "targets": [
         "mcp-client"
@@ -213771,7 +214712,7 @@
       "name": "Wyoming Code",
       "description": {
         "zh": null,
-        "en": "Wyoming Statutes (W.S.) — state statutes by citation and by topic.",
+        "en": "Wyoming Statutes (W.S.) — state statutes by citation and by topic. Fleet #2744.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -213887,6 +214828,56 @@
         "repo": "piprail/piprail",
         "path": "io.github.piprail/mcp",
         "url": "https://github.com/piprail/piprail",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:plugandship/plugandship-mcp:dev.plugandship/plugandship-mcp#plug-and-ship",
+      "type": "mcp",
+      "name": "Plug and Ship",
+      "description": {
+        "zh": null,
+        "en": "Search MCP servers, agent skills and coding-agent plugins: trending tools and best-of lists.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "plugandship/plugandship-mcp",
+        "path": "dev.plugandship/plugandship-mcp",
+        "url": "https://github.com/plugandship/plugandship-mcp",
         "tier": 0
       },
       "quality": {
@@ -214408,6 +215399,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:profitpather/profitpather-tools:com.profitpather.tools/us-tariff-lookup#us-tariff-lookup",
+      "type": "mcp",
+      "name": "US Tariff Lookup",
+      "description": {
+        "zh": null,
+        "en": "Find the right US tariff code for a product and the duty rate that actually governs it.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "profitpather/profitpather-tools",
+        "path": "com.profitpather.tools/us-tariff-lookup",
+        "url": "https://github.com/profitpather/profitpather-tools",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:prophet-git/one-brain-plugin:io.github.prophet-git/one-brain#io.github.prophet-git-one-brain",
       "type": "mcp",
       "name": "io.github.Prophet-git/one-brain",
@@ -214431,6 +215471,55 @@
         "repo": "Prophet-git/one-brain-plugin",
         "path": "io.github.Prophet-git/one-brain",
         "url": "https://github.com/Prophet-git/one-brain-plugin",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:provenpin/provenpin:io.github.provenpin/provenpin#provenpin",
+      "type": "mcp",
+      "name": "ProvenPin",
+      "description": {
+        "zh": null,
+        "en": "Tested, version-pinned code recipes for AI coding agents, each with its last-passed receipt.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "provenpin/provenpin",
+        "path": "io.github.provenpin/provenpin",
+        "url": "https://github.com/provenpin/provenpin",
         "tier": 0
       },
       "quality": {
@@ -221188,7 +222277,7 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:sunmer/voodoo:se.cliphou/templates#cliphou.se-motion-graphics-templates",
+      "id": "mcp:sunmer/cliphouse:se.cliphou/templates#cliphou.se-motion-graphics-templates",
       "type": "mcp",
       "name": "cliphou.se motion graphics templates",
       "description": {
@@ -221207,9 +222296,9 @@
         "mcp-client"
       ],
       "source": {
-        "repo": "sunmer/voodoo",
+        "repo": "sunmer/cliphouse",
         "path": "se.cliphou/templates",
-        "url": "https://github.com/sunmer/voodoo",
+        "url": "https://github.com/sunmer/cliphouse",
         "tier": 0
       },
       "quality": {
@@ -221407,55 +222496,6 @@
         "repo": "sv-grid/sv-grid",
         "path": "com.svgrid/svgrid",
         "url": "https://github.com/sv-grid/sv-grid",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:swebsy/mcp:io.github.swebsy/mcp#io.github.swebsy-mcp",
-      "type": "mcp",
-      "name": "io.github.swebsy/mcp",
-      "description": {
-        "zh": null,
-        "en": "Build and edit real websites in Swebsy Studio from your coding agent — no per-token AI fees.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "swebsy/MCP",
-        "path": "io.github.swebsy/mcp",
-        "url": "https://github.com/swebsy/MCP",
         "tier": 0
       },
       "quality": {
@@ -226677,6 +227717,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:wkoverfield/switchboard:io.github.wkoverfield/switchboard#io.github.wkoverfield-switchboard",
+      "type": "mcp",
+      "name": "io.github.wkoverfield/switchboard",
+      "description": {
+        "zh": null,
+        "en": "One firewall and password manager for all your AI coding agents' MCP servers and secrets.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "wkoverfield/switchboard",
+        "path": "io.github.wkoverfield/switchboard",
+        "url": "https://github.com/wkoverfield/switchboard",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:wolfe-jam/gemini-faf-mcp:one.faf/gemini-faf-mcp#gemini-faf",
       "type": "mcp",
       "name": "Gemini FAF",
@@ -228361,7 +229451,7 @@
       "name": "io.github.zrk222/code-factory",
       "description": {
         "zh": null,
-        "en": "Local audit evidence for agents: source, workflows, runtime, repair and native scanner status.",
+        "en": "Read-only audit evidence for security, tests, native coverage, runtime failures and repair status.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -228369,8 +229459,9 @@
       },
       "lang": "en",
       "categories": [
+        "security",
         "coding",
-        "security"
+        "testing"
       ],
       "targets": [
         "mcp-client"

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T22:02:39.773Z",
+  "generatedAt": "2026-10-15T21:56:17.250Z",
   "category": {
     "key": "meta",
     "zh": "Agent 基建",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 4158,
+  "total": 4196,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/skill-creator/skill.md#skill-creator",
@@ -5086,7 +5086,7 @@
       "name": "prompt-cache-control",
       "description": {
         "zh": null,
-        "en": "Prompt-cache meter above the Claude Code prompt: how many tokens each request read from, wrote to and sent past the cache, a live countdown to the cache's expiry, and what to do about it (keep going, compact or clear). The TTL follows Claude Code's own rules for your account (1 hour on a Claude subscription, 5 minutes on an API key, cloud provider or usage credits, plus the TTL variables and setting) and corrects itself from request timing. /cache opens a per-turn table.",
+        "en": "Prompt-cache meter above the Claude Code prompt: how many tokens each request read from, wrote to and sent past the cache, a live countdown to the cache's expiry, and what to do about it (keep going, compact or clear). The TTL follows Claude Code's own rules for your account (1 hour on a Claude subscription, 5 minutes on an API key, cloud provider or usage credits, plus the TTL variables and setting) and corrects itself from request timing. When Claude Code will compact an idle conversation by itself, it counts down to that too. /cache opens a per-turn table.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -5933,7 +5933,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -5987,7 +5987,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -6040,7 +6040,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -6094,7 +6094,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -12609,7 +12609,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -12659,7 +12659,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -12709,7 +12709,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -12758,7 +12758,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -12808,7 +12808,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10603,
+      "stars": 10692,
       "curatedMentions": 1
     },
     {
@@ -16314,6 +16314,55 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:a1-x-tech/mcp-google-chat:io.github.a1-x-tech/mcp-google-chat#google-chat-mcp",
+      "type": "mcp",
+      "name": "Google Chat MCP",
+      "description": {
+        "zh": null,
+        "en": "MCP server for the Google Chat API: spaces, messages, threads, reactions and memberships.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "A1-x-Tech/mcp-google-chat",
+        "path": "io.github.A1-x-Tech/mcp-google-chat",
+        "url": "https://github.com/A1-x-Tech/mcp-google-chat",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
       "id": "mcp:a1-x-tech/mcp-google-custom-search:io.github.a1-x-tech/mcp-google-custom-search#google-custom-search-mcp",
       "type": "mcp",
       "name": "Google Custom Search MCP",
@@ -16634,6 +16683,55 @@
         "repo": "A1-x-Tech/mcp-google-tagmanager",
         "path": "io.github.A1-x-Tech/mcp-google-tagmanager",
         "url": "https://github.com/A1-x-Tech/mcp-google-tagmanager",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:a1-x-tech/mcp-google-tasks:io.github.a1-x-tech/mcp-google-tasks#google-tasks-mcp",
+      "type": "mcp",
+      "name": "Google Tasks MCP",
+      "description": {
+        "zh": null,
+        "en": "MCP server for the Google Tasks API: task lists, subtasks, due dates, complete and move tasks.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "A1-x-Tech/mcp-google-tasks",
+        "path": "io.github.A1-x-Tech/mcp-google-tasks",
+        "url": "https://github.com/A1-x-Tech/mcp-google-tasks",
         "tier": 0
       },
       "quality": {
@@ -17507,7 +17605,7 @@
       "name": "MikroMCP",
       "description": {
         "zh": null,
-        "en": "MCP server for MikroTik RouterOS: typed tools, dry-run, RBAC, audit logs, and rollback.",
+        "en": "MCP server for MikroTik RouterOS and SwOS: typed tools, dry-run, RBAC, audit logs, and rollback.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -18963,6 +19061,55 @@
         "repo": "babyagecalculator/ai",
         "path": "com.babyagecalculator/baby-age",
         "url": "https://github.com/babyagecalculator/ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:back1ply/agent-skill-loader:io.github.back1ply/agent-skill-loader#io.github.back1ply-agent-skill-loader",
+      "type": "mcp",
+      "name": "io.github.back1ply/agent-skill-loader",
+      "description": {
+        "zh": null,
+        "en": "Dynamically load Claude Code skills into AI agents without copying files.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "back1ply/agent-skill-loader",
+        "path": "io.github.back1ply/agent-skill-loader",
+        "url": "https://github.com/back1ply/agent-skill-loader",
         "tier": 0
       },
       "quality": {
@@ -20775,6 +20922,55 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:cuqu-net/cuqu-skill:io.github.cuqu-net/cuqu-mcp#cuqu找搭子-(cuqu)-mcp-server",
+      "type": "mcp",
+      "name": "CUQU找搭子 (CUQU) MCP Server",
+      "description": {
+        "zh": null,
+        "en": "CUQU找搭子: find & book offline group activities in 10+ China cities; publish your own.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "cuqu-net/cuqu-skill",
+        "path": "io.github.cuqu-net/cuqu-mcp",
+        "url": "https://github.com/cuqu-net/cuqu-skill",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
       "id": "mcp:cvelasquez/mcp-sqlserver:io.github.cvelasquez/mcp-sqlserver#sql-server-mcp",
       "type": "mcp",
       "name": "SQL Server MCP",
@@ -21840,6 +22036,55 @@
         "repo": "dynatrace-oss/dynatrace-managed-mcp",
         "path": "io.github.dynatrace-oss/dynatrace-managed-mcp",
         "url": "https://github.com/dynatrace-oss/dynatrace-managed-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:eat-pray-ai/yutu:io.github.eat-pray-ai/yutu#yutu",
+      "type": "mcp",
+      "name": "yutu",
+      "description": {
+        "zh": null,
+        "en": "CLI, MCP server, and AI agent to automate YouTube workflows",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "eat-pray-ai/yutu",
+        "path": "io.github.eat-pray-ai/yutu",
+        "url": "https://github.com/eat-pray-ai/yutu",
         "tier": 0
       },
       "quality": {
@@ -24585,6 +24830,55 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:huanglizhuo/octocounts:io.github.huanglizhuo/octocounts-mcp#octocounts-mcp-server",
+      "type": "mcp",
+      "name": "OctoCounts MCP Server",
+      "description": {
+        "zh": null,
+        "en": "Analyze and compare public GitHub repo line counts (SLOC) via OctoCounts, from any MCP client.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "huanglizhuo/OctoCounts",
+        "path": "io.github.huanglizhuo/octocounts-mcp",
+        "url": "https://github.com/huanglizhuo/OctoCounts",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
       "id": "mcp:hyperiux-immersion-labs/hyperiux-components:io.github.hyperiux-immersion-labs/hyperiux-mcp-server#hyperiux-vault",
       "type": "mcp",
       "name": "Hyperiux Vault",
@@ -26019,6 +26313,57 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:katta041/asitis-agent-tools:io.github.katta041/asitis-mcp#asitis",
+      "type": "mcp",
+      "name": "AsItIs",
+      "description": {
+        "zh": null,
+        "en": "Read-only MCP server for markdown and agent steering files: read, outline, lint, context budget.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Katta041/asitis-agent-tools",
+        "path": "io.github.Katta041/asitis-mcp",
+        "url": "https://github.com/Katta041/asitis-agent-tools",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
       "id": "mcp:kenzotp/mcp-server-zuuna:io.github.kenzotp/mcp-server-zuuna#io.github.kenzotp-mcp-server-zuuna",
       "type": "mcp",
       "name": "io.github.kenzotp/mcp-server-zuuna",
@@ -26932,6 +27277,55 @@
         "repo": "littlebearapps/outlook-assistant",
         "path": "io.github.littlebearapps/outlook-assistant",
         "url": "https://github.com/littlebearapps/outlook-assistant",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:localseodata/mcp-server:io.github.localseodata/mcp-server#io.github.localseodata-mcp-server",
+      "type": "mcp",
+      "name": "io.github.localseodata/mcp-server",
+      "description": {
+        "zh": null,
+        "en": "53 local SEO data tools: rankings, reviews, audits, keywords, AI visibility.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "localseodata/mcp-server",
+        "path": "io.github.localseodata/mcp-server",
+        "url": "https://github.com/localseodata/mcp-server",
         "tier": 0
       },
       "quality": {
@@ -35072,6 +35466,55 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:zihin-ai/zihin-mcp:ai.zihin/mcp-server#zihin",
+      "type": "mcp",
+      "name": "Zihin",
+      "description": {
+        "zh": null,
+        "en": "Chat with your Zihin.ai agents, list them and load platform skills from any MCP client.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "zihin-ai/zihin-mcp",
+        "path": "ai.zihin/mcp-server",
+        "url": "https://github.com/zihin-ai/zihin-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
       "id": "mcp:zlatkoc/youtube-summarize:io.github.zlatkoc/youtube-summarize#io.github.zlatkoc-youtube-summarize",
       "type": "mcp",
       "name": "io.github.zlatkoc/youtube-summarize",
@@ -35965,55 +36408,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:a1-x-tech/mcp-google-chat:io.github.a1-x-tech/mcp-google-chat#google-chat-mcp",
-      "type": "mcp",
-      "name": "Google Chat MCP",
-      "description": {
-        "zh": null,
-        "en": "MCP server for the Google Chat API: spaces, messages, threads, reactions and memberships.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "meta"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "A1-x-Tech/mcp-google-chat",
-        "path": "io.github.A1-x-Tech/mcp-google-chat",
-        "url": "https://github.com/A1-x-Tech/mcp-google-chat",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:a1-x-tech/mcp-google-contacts:io.github.a1-x-tech/mcp-google-contacts#google-contacts-mcp",
       "type": "mcp",
       "name": "Google Contacts MCP",
@@ -36135,55 +36529,6 @@
         "repo": "A1-x-Tech/mcp-google-sheets",
         "path": "io.github.A1-x-Tech/mcp-google-sheets",
         "url": "https://github.com/A1-x-Tech/mcp-google-sheets",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:a1-x-tech/mcp-google-tasks:io.github.a1-x-tech/mcp-google-tasks#google-tasks-mcp",
-      "type": "mcp",
-      "name": "Google Tasks MCP",
-      "description": {
-        "zh": null,
-        "en": "MCP server for the Google Tasks API: task lists, subtasks, due dates, complete and move tasks.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "meta"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "A1-x-Tech/mcp-google-tasks",
-        "path": "io.github.A1-x-Tech/mcp-google-tasks",
-        "url": "https://github.com/A1-x-Tech/mcp-google-tasks",
         "tier": 0
       },
       "quality": {
@@ -38895,6 +39240,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:ai-kaiva/bridge:ai.kaiv/bridge#ai.kaiv-bridge",
+      "type": "mcp",
+      "name": "ai.kaiv/bridge",
+      "description": {
+        "zh": null,
+        "en": "Turn any OpenAPI spec or API docs link into a hosted MCP server. Free Kaiva Bridge account.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ai-kaiva/bridge",
+        "path": "ai.kaiv/bridge",
+        "url": "https://github.com/ai-kaiva/bridge",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:aidc2026ai-melon/aidc-ai-io:io.github.aidc2026ai-melon/aidc-mcp-server#io.github.aidc2026ai-melon-aidc-mcp-server",
       "type": "mcp",
       "name": "io.github.aidc2026ai-melon/aidc-mcp-server",
@@ -39704,6 +40098,55 @@
         "repo": "alexcgodwin/cloud-devops-mcp-server",
         "path": "io.github.alexcgodwin/cloud-devops-mcp-server",
         "url": "https://github.com/alexcgodwin/cloud-devops-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:alexdlaird/amazon-orders-mcp:io.github.alexdlaird/amazon-orders-mcp#amazon-orders",
+      "type": "mcp",
+      "name": "Amazon Orders",
+      "description": {
+        "zh": null,
+        "en": "An MCP server for Amazon order history, line items, and transactions, built on amazon-orders",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "alexdlaird/amazon-orders-mcp",
+        "path": "io.github.alexdlaird/amazon-orders-mcp",
+        "url": "https://github.com/alexdlaird/amazon-orders-mcp",
         "tier": 0
       },
       "quality": {
@@ -43238,6 +43681,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:artvepa80/agents-hefesto:io.github.artvepa80/hefestoai#hefestoai",
+      "type": "mcp",
+      "name": "HefestoAI",
+      "description": {
+        "zh": null,
+        "en": "Release-truth gate for AI-generated code. Hosted MCP server is closed-source (Narapa LLC).",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "artvepa80/Agents-Hefesto",
+        "path": "io.github.artvepa80/hefestoai",
+        "url": "https://github.com/artvepa80/Agents-Hefesto",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:aryan-jhaveri/mcp-statcan:io.github.aryan-jhaveri/mcp-statcan#statistics-canada-mcp-server",
       "type": "mcp",
       "name": "Statistics Canada MCP Server",
@@ -45172,6 +45665,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:bavlio/bavimail-mcp-server:com.bavimail/mcp-server#bavimail",
+      "type": "mcp",
+      "name": "Bavimail",
+      "description": {
+        "zh": null,
+        "en": "Email for AI agents: send email, read inbound email, and manage aliases and domains.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Bavlio/bavimail-mcp-server",
+        "path": "com.bavimail/mcp-server",
+        "url": "https://github.com/Bavlio/bavimail-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:bdog720/oraclarr:io.github.bdog720/oraclarr#oraclarr",
       "type": "mcp",
       "name": "Oraclarr",
@@ -46376,6 +46918,55 @@
         "repo": "BlackBoxEngineering/agent-envelope-mcp",
         "path": "io.github.BlackBoxEngineering/agent-envelope-mcp",
         "url": "https://github.com/BlackBoxEngineering/agent-envelope-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:blackmoon87/acad:io.github.blackmoon87/autocad-site-mcp#io.github.blackmoon87-autocad-site-mcp",
+      "type": "mcp",
+      "name": "io.github.blackmoon87/autocad-site-mcp",
+      "description": {
+        "zh": null,
+        "en": "Headless CAD engine & MCP server for 2D/3D drafting, solids, DXF/SVG export, and automation.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "blackmoon87/acad",
+        "path": "io.github.blackmoon87/autocad-site-mcp",
+        "url": "https://github.com/blackmoon87/acad",
         "tier": 0
       },
       "quality": {
@@ -48844,6 +49435,55 @@
         "repo": "capawesome-team/mcp",
         "path": "io.capawesome/mcp",
         "url": "https://github.com/capawesome-team/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:capskov/cad-agent-foundation:io.github.capskov/cad-agent-foundation#cad-agent-foundation",
+      "type": "mcp",
+      "name": "CAD Agent Foundation",
+      "description": {
+        "zh": null,
+        "en": "Native AutoCAD MCP server for AI agents with bounded operations and write/save verification.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "capskov/cad-agent-foundation",
+        "path": "io.github.capskov/cad-agent-foundation",
+        "url": "https://github.com/capskov/cad-agent-foundation",
         "tier": 0
       },
       "quality": {
@@ -52932,6 +53572,56 @@
         "repo": "csa7mdm/DotNetDevMCP",
         "path": "io.github.csa7mdm/dotnetdevmcp",
         "url": "https://github.com/csa7mdm/DotNetDevMCP",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:cshum/imagor-mcp:io.github.cshum/imagor-mcp#imagor-mcp",
+      "type": "mcp",
+      "name": "Imagor MCP",
+      "description": {
+        "zh": null,
+        "en": "An MCP server and a skill for imagor, compiling agent-written image layouts into one URL.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "cshum/imagor-mcp",
+        "path": "io.github.cshum/imagor-mcp",
+        "url": "https://github.com/cshum/imagor-mcp",
         "tier": 0
       },
       "quality": {
@@ -60253,55 +60943,6 @@
         "repo": "CumulativeWebInc/cwi-mcp-server",
         "path": "com.cumulativeweb/cwi-mcp-server",
         "url": "https://github.com/CumulativeWebInc/cwi-mcp-server",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:cuqu-net/cuqu-skill:io.github.cuqu-net/cuqu-mcp#cuqu找搭子-(cuqu)-mcp-server",
-      "type": "mcp",
-      "name": "CUQU找搭子 (CUQU) MCP Server",
-      "description": {
-        "zh": null,
-        "en": "CUQU找搭子: find & book offline group activities in 10+ China cities; publish your own.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "meta"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "cuqu-net/cuqu-skill",
-        "path": "io.github.cuqu-net/cuqu-mcp",
-        "url": "https://github.com/cuqu-net/cuqu-skill",
         "tier": 0
       },
       "quality": {
@@ -71259,6 +71900,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:docdyhr/macwhisper-mcp-server:io.github.docdyhr/macwhisper-mcp-server#io.github.docdyhr-macwhisper-mcp-server",
+      "type": "mcp",
+      "name": "io.github.docdyhr/macwhisper-mcp-server",
+      "description": {
+        "zh": null,
+        "en": "MacWhisper transcription for Claude Desktop. Fully local, no cloud, audio stays on your Mac.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "docdyhr/macwhisper-mcp-server",
+        "path": "io.github.docdyhr/macwhisper-mcp-server",
+        "url": "https://github.com/docdyhr/macwhisper-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:docsagent/docsagent:io.github.docsagent/docsagent#docsagent-—-zotero,-obsidian-&-apple-notes-mcp-server",
       "type": "mcp",
       "name": "DocsAgent — Zotero, Obsidian & Apple Notes MCP Server",
@@ -73233,55 +73923,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:electron-stagewright/electron-stagewright:io.github.electron-stagewright/core#io.github.electron-stagewright-core",
-      "type": "mcp",
-      "name": "io.github.electron-stagewright/core",
-      "description": {
-        "zh": null,
-        "en": "Agent-native MCP server for driving, inspecting, and asserting on real Electron desktop apps.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "meta"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "electron-stagewright/electron-stagewright",
-        "path": "io.github.electron-stagewright/core",
-        "url": "https://github.com/electron-stagewright/electron-stagewright",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:elgorro/aiquila:io.github.elgorro/aiquila-mcp#aiquila-—-nextcloud-mcp-server",
       "type": "mcp",
       "name": "AIquila — Nextcloud MCP Server",
@@ -74341,6 +74982,55 @@
         "repo": "Evlek/evlek-mcp",
         "path": "app.evlek/mcp-server",
         "url": "https://github.com/Evlek/evlek-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:evotecit/desktopmanager:io.github.evotecit/desktopmanager#desktopmanager-windows-verification",
+      "type": "mcp",
+      "name": "DesktopManager Windows Verification",
+      "description": {
+        "zh": null,
+        "en": "Inspect and verify Windows x64 desktop apps through a local, read-only-by-default MCP server.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "EvotecIT/DesktopManager",
+        "path": "io.github.EvotecIT/desktopmanager",
+        "url": "https://github.com/EvotecIT/DesktopManager",
         "tier": 0
       },
       "quality": {
@@ -78679,6 +79369,55 @@
         "repo": "galaxy-nebula/nebula-mcp",
         "path": "io.github.galaxy-nebula/nebula-mcp",
         "url": "https://github.com/galaxy-nebula/nebula-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:ganjoor/ganjoor-mcp-server:io.github.ehsanghaffar/ganjoor-mcp-server#io.github.ehsanghaffar-ganjoor-mcp-server",
+      "type": "mcp",
+      "name": "io.github.ehsanghaffar/ganjoor-mcp-server",
+      "description": {
+        "zh": null,
+        "en": "MCP server for the Ganjoor (گنجور) Persian classical poetry API at https://ganjoor.net",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ganjoor/ganjoor-mcp-server",
+        "path": "io.github.ehsanghaffar/ganjoor-mcp-server",
+        "url": "https://github.com/ganjoor/ganjoor-mcp-server",
         "tier": 0
       },
       "quality": {
@@ -83609,55 +84348,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:huanglizhuo/octocounts:io.github.huanglizhuo/octocounts-mcp#octocounts-mcp-server",
-      "type": "mcp",
-      "name": "OctoCounts MCP Server",
-      "description": {
-        "zh": null,
-        "en": "Analyze and compare public GitHub repo line counts (SLOC) via OctoCounts, from any MCP client.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "meta"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "huanglizhuo/OctoCounts",
-        "path": "io.github.huanglizhuo/octocounts-mcp",
-        "url": "https://github.com/huanglizhuo/OctoCounts",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:huaweicloud/huaweicloud-devkit:io.github.glqff/huaweicloud-devkit-demo#huaweicloud-devkit-(remote-demo)",
       "type": "mcp",
       "name": "HuaweiCloud DevKit (Remote Demo)",
@@ -85140,7 +85830,7 @@
       "name": "WEEEK (smart)",
       "description": {
         "zh": null,
-        "en": "WEEEK tasks by name, not IDs — an MCP server",
+        "en": "WEEEK tasks and CRM by name, not IDs — an MCP server covering the whole public API",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -85148,7 +85838,8 @@
       },
       "lang": "en",
       "categories": [
-        "meta"
+        "meta",
+        "business"
       ],
       "targets": [
         "mcp-client"
@@ -88610,55 +89301,6 @@
         "repo": "jigarkkarangiya/adobe-commerce-docs-mcp",
         "path": "io.github.jigarkkarangiya/adobe-commerce-docs-mcp",
         "url": "https://github.com/jigarkkarangiya/adobe-commerce-docs-mcp",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:jim-panse/heic-to-jpg-mcp:io.github.jim-panse/heic-to-jpg#heic-to-jpg",
-      "type": "mcp",
-      "name": "HEIC To JPG",
-      "description": {
-        "zh": null,
-        "en": "Local MCP server that converts HEIC images to non-overwriting JPEG files on macOS.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "meta"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "Jim-Panse/HEIC-to-JPG-MCP",
-        "path": "io.github.Jim-Panse/heic-to-jpg",
-        "url": "https://github.com/Jim-Panse/HEIC-to-JPG-MCP",
         "tier": 0
       },
       "quality": {
@@ -94612,57 +95254,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:katta041/asitis-agent-tools:io.github.katta041/asitis-mcp#asitis",
-      "type": "mcp",
-      "name": "AsItIs",
-      "description": {
-        "zh": null,
-        "en": "Read-only MCP server for markdown and agent steering files: read, outline, lint, context budget.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "document",
-        "meta",
-        "coding"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "Katta041/asitis-agent-tools",
-        "path": "io.github.Katta041/asitis-mcp",
-        "url": "https://github.com/Katta041/asitis-agent-tools",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:keiranhaax/mcp-retriever:io.github.keiranhaax/mcp-retriever#mcp-retriever",
       "type": "mcp",
       "name": "mcp-retriever",
@@ -96053,7 +96644,7 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:konstantinstarovoytov/rag-context-assembly:io.github.konstantinstarovoytov/agent-docs#agent-docs",
+      "id": "mcp:konstantinstarovoytov/agent-docs:io.github.konstantinstarovoytov/agent-docs#agent-docs",
       "type": "mcp",
       "name": "Agent Docs",
       "description": {
@@ -96074,9 +96665,9 @@
         "mcp-client"
       ],
       "source": {
-        "repo": "KonstantinStarovoytov/rag-context-assembly",
+        "repo": "KonstantinStarovoytov/agent-docs",
         "path": "io.github.KonstantinStarovoytov/agent-docs",
-        "url": "https://github.com/KonstantinStarovoytov/rag-context-assembly",
+        "url": "https://github.com/KonstantinStarovoytov/agent-docs",
         "tier": 0
       },
       "quality": {
@@ -101135,6 +101726,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mailbuttons/mcp-server:com.mailbuttons/mcp-server#mailbuttons-(mbag.ai)",
+      "type": "mcp",
+      "name": "Mailbuttons (mbag.ai)",
+      "description": {
+        "zh": null,
+        "en": "Governed email for AI agents (Mailbuttons / mbag.ai): sandbox inboxes, policy gate, audit log.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "mailbuttons/mcp-server",
+        "path": "com.mailbuttons/mcp-server",
+        "url": "https://github.com/mailbuttons/mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mailercloud-com/mailercloud-plugin:io.github.mailercloud-com/mcp-server#mailercloud",
       "type": "mcp",
       "name": "Mailercloud",
@@ -106014,55 +106655,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:ai.kaiv/bridge#ai.kaiv-bridge",
-      "type": "mcp",
-      "name": "ai.kaiv/bridge",
-      "description": {
-        "zh": null,
-        "en": "Turn any OpenAPI spec or API docs link into a hosted MCP server. Free Kaiva Bridge account.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "meta"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "ai.kaiv/bridge",
-        "url": "https://registry.modelcontextprotocol.io/?q=ai.kaiv%2Fbridge",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:mcp-official:ai.kaiv/commerce-demo#ai.kaiv-commerce-demo",
       "type": "mcp",
       "name": "ai.kaiv/commerce-demo",
@@ -106781,6 +107373,56 @@
         "repo": null,
         "path": "app.fluxito/fluxito",
         "url": "https://fluxito.app",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:app.ginta/ginta#ginta",
+      "type": "mcp",
+      "name": "Ginta",
+      "description": {
+        "zh": null,
+        "en": "AI website builder: build, publish and edit websites from Claude, ChatGPT or Claude Code.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "app.ginta/ginta",
+        "url": "https://ginta.app/website-builder-mcp/",
         "tier": 0
       },
       "quality": {
@@ -107569,6 +108211,55 @@
         "repo": null,
         "path": "cloud.agkit/agkit",
         "url": "https://registry.modelcontextprotocol.io/?q=cloud.agkit%2Fagkit",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:cloud.amore.accounting/fortnox#more-ai-chatgpt-&-claude-mcp-(fortnox)",
+      "type": "mcp",
+      "name": "More AI - ChatGPT & Claude MCP (Fortnox)",
+      "description": {
+        "zh": null,
+        "en": "Fortnox MCP server: read, analyse and post to your Fortnox books from ChatGPT, Claude or Codex.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "cloud.amore.accounting/fortnox",
+        "url": "https://accounting.amore.cloud/fortnox-mcp/",
         "tier": 0
       },
       "quality": {
@@ -126232,6 +126923,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.swifteq/zendesk-mcp-server#swifteq-mcp-server-for-zendesk",
+      "type": "mcp",
+      "name": "Swifteq MCP Server for Zendesk",
+      "description": {
+        "zh": null,
+        "en": "Connect Claude, ChatGPT or any AI assistant to Zendesk tickets, CSAT, macros and Help Center.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.swifteq/zendesk-mcp-server",
+        "url": "https://www.swifteq.com/zendesk-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.syncrosecure/mcp-server#com.syncrosecure-mcp-server",
       "type": "mcp",
       "name": "com.syncrosecure/mcp-server",
@@ -128604,6 +129344,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.agentower/agentower#agentower",
+      "type": "mcp",
+      "name": "Agentower",
+      "description": {
+        "zh": null,
+        "en": "See which of your team's coding agents needs someone, across Claude Code, Codex and Cursor.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.Agentower/agentower",
+        "url": "https://agentower.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.aikts/yandex-tracker-mcp#io.github.aikts-yandex-tracker-mcp",
       "type": "mcp",
       "name": "io.github.aikts/yandex-tracker-mcp",
@@ -130552,6 +131342,55 @@
         "repo": null,
         "path": "io.github.fcon-tech/portolan",
         "url": "https://registry.modelcontextprotocol.io/?q=io.github.fcon-tech%2Fportolan",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.fieldcure/zstudio#io.github.fieldcure-zstudio",
+      "type": "mcp",
+      "name": "io.github.fieldcure/zstudio",
+      "description": {
+        "zh": null,
+        "en": "ZStudio EIS MCP server: data validation, DRT, equivalent-circuit fitting, and plotting.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.fieldcure/zstudio",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.fieldcure%2Fzstudio",
         "tier": 0
       },
       "quality": {
@@ -132754,6 +133593,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.qrstuff/qrstuff-mcp#qrstuff-mcp-server",
+      "type": "mcp",
+      "name": "QRStuff MCP Server",
+      "description": {
+        "zh": null,
+        "en": "Generate, update, manage, and track QR codes using the QRStuff platform.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.qrstuff/qrstuff-mcp",
+        "url": "https://www.qrstuff.com/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.quwentao2005/ssh-nexus#ssh-nexus",
       "type": "mcp",
       "name": "SSH Nexus",
@@ -134901,6 +135789,55 @@
         "repo": null,
         "path": "net.spintax/mcp",
         "url": "https://spintax.net/docs/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:net.useapi/muse#meta-muse-mcp-server-by-useapi.net-(third-party)",
+      "type": "mcp",
+      "name": "Meta Muse MCP Server by useapi.net (third-party)",
+      "description": {
+        "zh": null,
+        "en": "Meta Muse (muse.ai) agent chat with its live browser, images, videos with sound and its Library",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "net.useapi/muse",
+        "url": "https://useapi.net/docs/api-muse-v1/mcp",
         "tier": 0
       },
       "quality": {
@@ -149284,6 +150221,55 @@
         "repo": "mihai-dinculescu/tapo",
         "path": "io.github.mihai-dinculescu/tapo-mcp",
         "url": "https://github.com/mihai-dinculescu/tapo",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mike-boodoo/oqos-connector:io.github.mike-boodoo/oqos-connector#io.github.mike-boodoo-oqos-connector",
+      "type": "mcp",
+      "name": "io.github.mike-boodoo/oqos-connector",
+      "description": {
+        "zh": null,
+        "en": "Base OQOS MCP server for chatbot discovery and future OQOS capabilities.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "mike-boodoo/oqos-connector",
+        "path": "io.github.mike-boodoo/oqos-connector",
+        "url": "https://github.com/mike-boodoo/oqos-connector",
         "tier": 0
       },
       "quality": {
@@ -164914,7 +165900,7 @@
       "name": "Forge Orchestrator",
       "description": {
         "zh": null,
-        "en": "Claude Code; Codex CLI as task runner; Gemini CLI in development (B1, 2026-10-27) (public preview)",
+        "en": "Forge orchestrator MCP server for Claude Code (alpha). Codex/Gemini runners are not in the alpha.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -164922,8 +165908,7 @@
       },
       "lang": "en",
       "categories": [
-        "meta",
-        "coding"
+        "meta"
       ],
       "targets": [
         "mcp-client"
@@ -169405,6 +170390,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:phpranga/math-to-code-mcp:io.github.phpranga/math-to-code-mcp#io.github.phpranga-math-to-code-mcp",
+      "type": "mcp",
+      "name": "io.github.phpranga/math-to-code-mcp",
+      "description": {
+        "zh": null,
+        "en": "Math MCP server for primality, factorization, Java templates, and integer multiplication.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "phpranga/math-to-code-mcp",
+        "path": "io.github.phpranga/math-to-code-mcp",
+        "url": "https://github.com/phpranga/math-to-code-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:picseeinc/picsee-mcp:io.picsee/short-link#picsee-short-link",
       "type": "mcp",
       "name": "PicSee Short Link",
@@ -173239,6 +174274,55 @@
         "repo": "qianqiuwanzi/hypermarrow-mcp",
         "path": "io.github.qianqiuwanzi/hypermarrow-mcp",
         "url": "https://github.com/qianqiuwanzi/hypermarrow-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:qingchejun/mindlm-io:io.github.qingchejun/mindlm-mcp#io.github.qingchejun-mindlm-mcp",
+      "type": "mcp",
+      "name": "io.github.qingchejun/mindlm-mcp",
+      "description": {
+        "zh": null,
+        "en": "Turn text, web pages and PDFs into interactive mind maps. MCP server + CLI, no API key.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "qingchejun/mindlm-io",
+        "path": "io.github.qingchejun/mindlm-mcp",
+        "url": "https://github.com/qingchejun/mindlm-io",
         "tier": 0
       },
       "quality": {
@@ -178073,7 +179157,7 @@
       "name": "io.github.runapi-builder/luma-mcp",
       "description": {
         "zh": null,
-        "en": "RunAPI MCP server for Luma: create tasks, poll status, check pricing.",
+        "en": "RunAPI MCP server for Luma: query historical tasks.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -178081,7 +179165,6 @@
       },
       "lang": "en",
       "categories": [
-        "business",
         "meta"
       ],
       "targets": [
@@ -178374,7 +179457,7 @@
       "name": "io.github.runapi-builder/runway-aleph-mcp",
       "description": {
         "zh": null,
-        "en": "RunAPI MCP server for Runway Aleph: create tasks, poll status, check pricing.",
+        "en": "RunAPI MCP server for Runway Aleph: query historical tasks.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -178382,7 +179465,6 @@
       },
       "lang": "en",
       "categories": [
-        "business",
         "meta"
       ],
       "targets": [
@@ -178692,6 +179774,56 @@
         "repo": "runapi-ai/veo-3-1-mcp",
         "path": "io.github.runapi-builder/veo-3-1-mcp",
         "url": "https://github.com/runapi-ai/veo-3-1-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:runapi-ai/vidu-mcp:io.github.runapi-builder/vidu-mcp#io.github.runapi-builder-vidu-mcp",
+      "type": "mcp",
+      "name": "io.github.runapi-builder/vidu-mcp",
+      "description": {
+        "zh": null,
+        "en": "RunAPI MCP server for Vidu: create tasks, poll status, check pricing.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "runapi-ai/vidu-mcp",
+        "path": "io.github.runapi-builder/vidu-mcp",
+        "url": "https://github.com/runapi-ai/vidu-mcp",
         "tier": 0
       },
       "quality": {
@@ -187758,6 +188890,600 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:stufently/beget-s3-mcp-ai-cli:io.github.stufently/beget-s3-mcp-ai-cli#io.github.stufently-beget-s3-mcp-ai-cli",
+      "type": "mcp",
+      "name": "io.github.stufently/beget-s3-mcp-ai-cli",
+      "description": {
+        "zh": null,
+        "en": "Beget S3 MCP server and AI CLI with scoped access and signed human approvals.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "stufently/beget-s3-mcp-ai-cli",
+        "path": "io.github.stufently/beget-s3-mcp-ai-cli",
+        "url": "https://github.com/stufently/beget-s3-mcp-ai-cli",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:stufently/cloudru-s3-mcp-ai-cli:io.github.stufently/cloudru-s3-mcp-ai-cli#io.github.stufently-cloudru-s3-mcp-ai-cli",
+      "type": "mcp",
+      "name": "io.github.stufently/cloudru-s3-mcp-ai-cli",
+      "description": {
+        "zh": null,
+        "en": "Cloud.ru S3 MCP server and AI CLI with scoped access and human approval for destructive actions.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "stufently/cloudru-s3-mcp-ai-cli",
+        "path": "io.github.stufently/cloudru-s3-mcp-ai-cli",
+        "url": "https://github.com/stufently/cloudru-s3-mcp-ai-cli",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:stufently/mws-s3-mcp-ai-cli:io.github.stufently/mws-s3-mcp-ai-cli#io.github.stufently-mws-s3-mcp-ai-cli",
+      "type": "mcp",
+      "name": "io.github.stufently/mws-s3-mcp-ai-cli",
+      "description": {
+        "zh": null,
+        "en": "MWS S3 MCP server and AI CLI with scoped access and signed human approvals.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "stufently/mws-s3-mcp-ai-cli",
+        "path": "io.github.stufently/mws-s3-mcp-ai-cli",
+        "url": "https://github.com/stufently/mws-s3-mcp-ai-cli",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:stufently/selectel-s3-mcp-ai-cli:io.github.stufently/selectel-s3-mcp-ai-cli#io.github.stufently-selectel-s3-mcp-ai-cli",
+      "type": "mcp",
+      "name": "io.github.stufently/selectel-s3-mcp-ai-cli",
+      "description": {
+        "zh": null,
+        "en": "Selectel S3 MCP server and AI CLI with scoped access and human approval for destructive actions.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "stufently/selectel-s3-mcp-ai-cli",
+        "path": "io.github.stufently/selectel-s3-mcp-ai-cli",
+        "url": "https://github.com/stufently/selectel-s3-mcp-ai-cli",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:stufently/timeweb-s3-mcp-ai-cli:io.github.stufently/timeweb-s3-mcp-ai-cli#io.github.stufently-timeweb-s3-mcp-ai-cli",
+      "type": "mcp",
+      "name": "io.github.stufently/timeweb-s3-mcp-ai-cli",
+      "description": {
+        "zh": null,
+        "en": "Timeweb Cloud S3 MCP server and AI CLI with scoped access and signed human approvals.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "stufently/timeweb-s3-mcp-ai-cli",
+        "path": "io.github.stufently/timeweb-s3-mcp-ai-cli",
+        "url": "https://github.com/stufently/timeweb-s3-mcp-ai-cli",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:stufently/vkcloud-s3-mcp-ai-cli:io.github.stufently/vkcloud-s3-mcp-ai-cli#io.github.stufently-vkcloud-s3-mcp-ai-cli",
+      "type": "mcp",
+      "name": "io.github.stufently/vkcloud-s3-mcp-ai-cli",
+      "description": {
+        "zh": null,
+        "en": "VK Cloud S3 MCP server and AI CLI with scoped access and human approval for destructive actions.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "stufently/vkcloud-s3-mcp-ai-cli",
+        "path": "io.github.stufently/vkcloud-s3-mcp-ai-cli",
+        "url": "https://github.com/stufently/vkcloud-s3-mcp-ai-cli",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:stufently/yandex-mcp:io.github.stufently/yandex-direct-mcp#yandex-direct-mcp",
+      "type": "mcp",
+      "name": "Yandex Direct MCP",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Yandex Direct API v5 — campaigns, ads, keywords, reports",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "stufently/yandex-mcp",
+        "path": "io.github.stufently/yandex-direct-mcp",
+        "url": "https://github.com/stufently/yandex-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:stufently/yandex-mcp:io.github.stufently/yandex-metrika-mcp#yandex-metrika-mcp",
+      "type": "mcp",
+      "name": "Yandex Metrika MCP",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Yandex Metrika API — web analytics, traffic, audience data",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "stufently/yandex-mcp",
+        "path": "io.github.stufently/yandex-metrika-mcp",
+        "url": "https://github.com/stufently/yandex-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:stufently/yandex-mcp:io.github.stufently/yandex-search-mcp#yandex-search-mcp",
+      "type": "mcp",
+      "name": "Yandex Search MCP",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Yandex Search API (v2, Cloud)",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "research",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "stufently/yandex-mcp",
+        "path": "io.github.stufently/yandex-search-mcp",
+        "url": "https://github.com/stufently/yandex-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:stufently/yandex-mcp:io.github.stufently/yandex-webmaster-mcp#yandex-webmaster-mcp",
+      "type": "mcp",
+      "name": "Yandex Webmaster MCP",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Yandex Webmaster API — site analytics, indexing, search queries",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data",
+        "meta",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "stufently/yandex-mcp",
+        "path": "io.github.stufently/yandex-webmaster-mcp",
+        "url": "https://github.com/stufently/yandex-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:stufently/yandex-mcp:io.github.stufently/yandex-wordstat-mcp#yandex-wordstat-mcp",
+      "type": "mcp",
+      "name": "Yandex Wordstat MCP",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Yandex Wordstat API — keyword research for Russian/CIS markets",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "research",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "stufently/yandex-mcp",
+        "path": "io.github.stufently/yandex-wordstat-mcp",
+        "url": "https://github.com/stufently/yandex-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:stufently/yandex-s3-mcp-ai-cli:io.github.stufently/yandex-s3-mcp-ai-cli#io.github.stufently-yandex-s3-mcp-ai-cli",
+      "type": "mcp",
+      "name": "io.github.stufently/yandex-s3-mcp-ai-cli",
+      "description": {
+        "zh": null,
+        "en": "Yandex Cloud S3 MCP server and AI CLI with scoped access and human approval for destructive actions.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "stufently/yandex-s3-mcp-ai-cli",
+        "path": "io.github.stufently/yandex-s3-mcp-ai-cli",
+        "url": "https://github.com/stufently/yandex-s3-mcp-ai-cli",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:stumason/polar-flow-server:io.github.stumason/polar-flow-server#polar-health-data-(self-hosted)",
       "type": "mcp",
       "name": "Polar Health Data (self-hosted)",
@@ -188179,6 +189905,55 @@
         "repo": "sumedhchatse/agentraas",
         "path": "io.github.sumedhchatse/agentraas",
         "url": "https://github.com/sumedhchatse/agentraas",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:sumirati/mcp-github:io.github.sumirati/mcp-github#github-mcp-server",
+      "type": "mcp",
+      "name": "GitHub MCP Server",
+      "description": {
+        "zh": null,
+        "en": "Developer-ready GitHub MCP server with Token Economy First design and 3-tier read-only mode.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "sumirati/mcp-github",
+        "path": "io.github.sumirati/mcp-github",
+        "url": "https://github.com/sumirati/mcp-github",
         "tier": 0
       },
       "quality": {
@@ -205149,6 +206924,153 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:zachshallbetter/adobe-mcp:io.github.zachshallbetter/adobe-mcp-illustrator#illustrator-mcp-server",
+      "type": "mcp",
+      "name": "Illustrator MCP Server",
+      "description": {
+        "zh": null,
+        "en": "Drive Adobe Illustrator from any MCP client: artwork, type, colour, effects, data and export.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "zachshallbetter/adobe-mcp",
+        "path": "io.github.zachshallbetter/adobe-mcp-illustrator",
+        "url": "https://github.com/zachshallbetter/adobe-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:zachshallbetter/adobe-mcp:io.github.zachshallbetter/adobe-mcp-indesign#indesign-mcp-server",
+      "type": "mcp",
+      "name": "InDesign MCP Server",
+      "description": {
+        "zh": null,
+        "en": "Drive Adobe InDesign from any MCP client: 135+ tools for layout, styles, books and PDF export.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "zachshallbetter/adobe-mcp",
+        "path": "io.github.zachshallbetter/adobe-mcp-indesign",
+        "url": "https://github.com/zachshallbetter/adobe-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:zachshallbetter/adobe-mcp:io.github.zachshallbetter/adobe-mcp-suite#adobe-mcp-suite",
+      "type": "mcp",
+      "name": "Adobe MCP Suite",
+      "description": {
+        "zh": null,
+        "en": "Drive Adobe InDesign and Illustrator from one MCP server, with tools that work across both.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "zachshallbetter/adobe-mcp",
+        "path": "io.github.zachshallbetter/adobe-mcp-suite",
+        "url": "https://github.com/zachshallbetter/adobe-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:zachshallbetter/indesign-mcp-server:io.github.zachshallbetter/indesign-mcp-server#indesign-mcp-server",
       "type": "mcp",
       "name": "InDesign MCP Server",
@@ -205564,55 +207486,6 @@
         "repo": "zhaoxinghua09-cell/medxpert-reg-connector",
         "path": "io.github.zhaoxinghua09-cell/medxpert-reg-connector",
         "url": "https://github.com/zhaoxinghua09-cell/medxpert-reg-connector",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:zihin-ai/zihin-mcp:ai.zihin/mcp-server#zihin",
-      "type": "mcp",
-      "name": "Zihin",
-      "description": {
-        "zh": null,
-        "en": "Chat with your Zihin.ai agents, list them and load platform skills from any MCP client.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "meta"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "zihin-ai/zihin-mcp",
-        "path": "ai.zihin/mcp-server",
-        "url": "https://github.com/zihin-ai/zihin-mcp",
         "tier": 0
       },
       "quality": {
