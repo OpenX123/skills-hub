@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T22:48:33.327Z",
+  "generatedAt": "2026-10-20T22:03:49.013Z",
   "category": {
     "key": "pm",
     "zh": "项目管理",
@@ -69,7 +69,7 @@
       }
     ]
   },
-  "total": 284,
+  "total": 288,
   "entries": [
     {
       "id": "skill:obra/superpowers:skills/brainstorming/skill.md#brainstorming",
@@ -123,7 +123,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 297211,
+      "stars": 302568,
       "curatedMentions": 8
     },
     {
@@ -3114,6 +3114,56 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:servosity/msp-skills:io.github.servosity/jira-service-management-mcp#jira-service-management-mcp",
+      "type": "mcp",
+      "name": "Jira Service Management MCP",
+      "description": {
+        "zh": null,
+        "en": "Every Jira Service Management Cloud request-API (servicedeskapi) and Assets endpoint in one binary",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "pm",
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "servosity/msp-skills",
+        "path": "io.github.Servosity/jira-service-management-mcp",
+        "url": "https://github.com/servosity/msp-skills",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
       "id": "mcp:servosity/msp-skills:io.github.servosity/zammad-mcp#zammad-mcp",
       "type": "mcp",
       "name": "Zammad MCP",
@@ -5552,6 +5602,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:keyflight/keyflight-pnr-mcp:io.keyflight/pnr#keyflight-pnr-converter",
+      "type": "mcp",
+      "name": "KeyFlight PNR Converter",
+      "description": {
+        "zh": null,
+        "en": "Decode Amadeus, Sabre, Galileo and Worldspan PNRs into itineraries, JSON and PRO ticket PDFs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "pm"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Keyflight/keyflight-pnr-mcp",
+        "path": "io.keyflight/pnr",
+        "url": "https://github.com/Keyflight/keyflight-pnr-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:kkazuhak/anteater-mcp:io.github.kkazuhak/anteater-mcp#anteater-mcp",
       "type": "mcp",
       "name": "Anteater MCP",
@@ -6687,6 +6786,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:ca.builddata.api/mcp#builddata",
+      "type": "mcp",
+      "name": "BuildData",
+      "description": {
+        "zh": null,
+        "en": "Canadian building permits, development and planning applications, major projects, new businesses.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "pm"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ca.builddata.api/mcp",
+        "url": "https://www.builddata.ca/docs/mcp/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:co.finalpeace/estate-planning#finalpeace",
       "type": "mcp",
       "name": "FinalPeace",
@@ -7238,7 +7386,7 @@
       "name": "My Fordyce",
       "description": {
         "zh": null,
-        "en": "The backlog that hands out the work: multi-agent task coordination — leases, claims, gates.",
+        "en": "A hosted backlog coding agents claim work from: one ticket per agent, finished work back to review.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -8981,6 +9129,56 @@
         "repo": null,
         "path": "finance.quantic/mcp",
         "url": "https://quantic.finance",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:flights.onward/onward-flights#onward-flights",
+      "type": "mcp",
+      "name": "Onward Flights",
+      "description": {
+        "zh": null,
+        "en": "Search real flights and buy an onward ticket (proof of onward travel), paid in USDC over MPP",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "research",
+        "pm"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "flights.onward/onward-flights",
+        "url": "https://onward.flights/agents",
         "tier": 0
       },
       "quality": {

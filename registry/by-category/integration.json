@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T22:48:33.327Z",
+  "generatedAt": "2026-10-20T22:03:49.013Z",
   "category": {
     "key": "integration",
     "zh": "三方集成",
@@ -85,7 +85,7 @@
       }
     ]
   },
-  "total": 447,
+  "total": 452,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/slack-gif-creator/skill.md#slack-gif-creator",
@@ -1278,7 +1278,7 @@
       "name": "stripe-integration",
       "description": {
         "zh": null,
-        "en": "Get paid from day one. Payments, subscriptions, billing portal, webhooks, metered billing, Stripe Connect. The complete guide to implementing Stripe correctly, including all the edge cases that will bite you at 3am. This isn't just API calls - it's the full payment system: handling failures, managing subscriptions, dealing with dunning, and keeping revenue flowing. Use when: stripe, payments, subscription, billing, checkout.",
+        "en": "Build or review a Stripe integration with current Stripe guidance: Checkout Sessions, Payment Element, Setup Intents, subscriptions and the Customer Portal, webhook-driven fulfillment, idempotency, restricted API keys and Stripe Tax. Use when: stripe, payments, checkout, subscription, billing, webhook, refund, payment intent.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -3388,9 +3388,9 @@
       "curatedMentions": 1
     },
     {
-      "id": "mcp:albretsen/mcpemails:com.mcpemails/emails#mcp-emails",
+      "id": "mcp:albretsen/mcpemails:com.mcpemails/emails#mcpemails",
       "type": "mcp",
-      "name": "MCP Emails",
+      "name": "MCPEmails",
       "description": {
         "zh": null,
         "en": "Never-stored live email: read, send and triage Gmail, Outlook / Microsoft 365, or any IMAP mailbox.",
@@ -4501,6 +4501,56 @@
       "source": {
         "repo": "servosity/msp-skills",
         "path": "io.github.Servosity/aws-billing-mcp",
+        "url": "https://github.com/servosity/msp-skills",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:servosity/msp-skills:io.github.servosity/jira-service-management-mcp#jira-service-management-mcp",
+      "type": "mcp",
+      "name": "Jira Service Management MCP",
+      "description": {
+        "zh": null,
+        "en": "Every Jira Service Management Cloud request-API (servicedeskapi) and Assets endpoint in one binary",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "pm",
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "servosity/msp-skills",
+        "path": "io.github.Servosity/jira-service-management-mcp",
         "url": "https://github.com/servosity/msp-skills",
         "tier": 0
       },
@@ -6975,6 +7025,56 @@
         "repo": "fadeynotchenko/netrun-mcp",
         "path": "io.github.fadeynotchenko/netrun",
         "url": "https://github.com/fadeynotchenko/netrun-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:felixnovanexus/sellerprofitdoctor-mcp:com.sellerprofitdoctor/free-tools#seller-profit-doctor",
+      "type": "mcp",
+      "name": "Seller Profit Doctor",
+      "description": {
+        "zh": null,
+        "en": "Free profit check-up for Etsy, Shopify and Amazon sellers: fees, sales, ads, shipping, plans, rates.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business",
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "FelixNovaNexus/sellerprofitdoctor-mcp",
+        "path": "com.sellerprofitdoctor/free-tools",
+        "url": "https://github.com/FelixNovaNexus/sellerprofitdoctor-mcp",
         "tier": 0
       },
       "quality": {
@@ -11165,6 +11265,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:co.solidmade/hire-solidmade#hire-solidmade",
+      "type": "mcp",
+      "name": "Hire Solidmade",
+      "description": {
+        "zh": null,
+        "en": "Hire a studio for Shopify, web, automation and data jobs: live services, USD prices, quote requests.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "co.solidmade/hire-solidmade",
+        "url": "https://solidmade.co",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:co.teraads/connect#tera-ads",
       "type": "mcp",
       "name": "Tera Ads",
@@ -13138,6 +13287,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.onrender.surfaced-srzj/surfaced#surfaced-shopify-ai-shopping-readiness",
+      "type": "mcp",
+      "name": "Surfaced: Shopify AI Shopping Readiness",
+      "description": {
+        "zh": null,
+        "en": "Check any Shopify store's readiness for ChatGPT & AI shopping agents. Free, no API key, 8 languages.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.onrender.surfaced-srzj/surfaced",
+        "url": "https://surfaced-srzj.onrender.com/developers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.pally/pally#pally",
       "type": "mcp",
       "name": "Pally",
@@ -13461,56 +13659,6 @@
         "repo": null,
         "path": "com.recoupaudit/recoup",
         "url": "https://recoupaudit.com/agents/",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:mcp-official:com.sellerprofitdoctor/free-tools#seller-profit-doctor",
-      "type": "mcp",
-      "name": "Seller Profit Doctor",
-      "description": {
-        "zh": null,
-        "en": "Free profit check-up for Etsy, Shopify and Amazon sellers: fees, sales, ads, shipping, plans, rates.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "business",
-        "integration"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "com.sellerprofitdoctor/free-tools",
-        "url": "https://sellerprofitdoctor.com",
         "tier": 0
       },
       "quality": {
@@ -15240,6 +15388,55 @@
         "repo": null,
         "path": "io.datavessel/mcp",
         "url": "https://datavessel.io",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.amitudai/micro-tool-factory-apify#micro-tool-factory-—-shopify,-ats-jobs-and-sitemap-data",
+      "type": "mcp",
+      "name": "Micro Tool Factory — Shopify, ATS Jobs and Sitemap Data",
+      "description": {
+        "zh": null,
+        "en": "Curated Shopify products, SKU variants, ATS jobs and sitemaps via Apify's official MCP server.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.amitudai/micro-tool-factory-apify",
+        "url": "https://apify.com/micro-tool-factory",
         "tier": 0
       },
       "quality": {
@@ -20688,6 +20885,56 @@
         "repo": "subo-gg/subo-mcp",
         "path": "gg.subo/survey-bot",
         "url": "https://github.com/subo-gg/subo-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:superbot-gg/superbot-mcp:gg.superbot/superbot#superbot.gg-·-your-own-ai-agent",
+      "type": "mcp",
+      "name": "superbot.gg · your own AI agent",
+      "description": {
+        "zh": null,
+        "en": "superbot.gg · your own AI agent: fax, calls, texts, Gmail drafts, calendar, web search and more",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "research",
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "superbot-gg/superbot-mcp",
+        "path": "gg.superbot/superbot",
+        "url": "https://github.com/superbot-gg/superbot-mcp",
         "tier": 0
       },
       "quality": {
