@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T22:06:41.519Z",
+  "generatedAt": "2026-10-22T22:03:37.693Z",
   "type": "subagent",
   "label": {
     "zh": "子代理",
@@ -34,7 +34,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -84,7 +84,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -133,7 +133,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -184,7 +184,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -235,7 +235,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -285,7 +285,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -334,7 +334,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -385,7 +385,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -537,7 +537,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 68,
+        "score": 67,
         "gates": {
           "security": true,
           "schema": true,
@@ -587,7 +587,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 68,
+        "score": 67,
         "gates": {
           "security": true,
           "schema": true,
@@ -637,7 +637,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 68,
+        "score": 67,
         "gates": {
           "security": true,
           "schema": true,
@@ -686,7 +686,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 68,
+        "score": 67,
         "gates": {
           "security": true,
           "schema": true,
@@ -735,7 +735,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 68,
+        "score": 67,
         "gates": {
           "security": true,
           "schema": true,
@@ -1576,7 +1576,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 28,
+        "score": 27,
         "gates": {
           "security": true,
           "schema": true,
@@ -1627,56 +1627,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 28,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "low",
-        "score": 4
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 26,
-      "curatedMentions": 0
-    },
-    {
-      "id": "subagent:joneqian/claude-skills-suite:agents/security-reviewer.md#security-reviewer",
-      "type": "subagent",
-      "name": "security-reviewer",
-      "description": {
-        "zh": null,
-        "en": "Security vulnerability detection and remediation specialist. Use PROACTIVELY after writing code that handles user input, authentication, API endpoints, or sensitive data. Flags secrets, SSRF, injection, unsafe crypto, and OWASP Top 10 vulnerabilities.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "security"
-      ],
-      "targets": [
-        "claude-code"
-      ],
-      "source": {
-        "repo": "joneqian/claude-skills-suite",
-        "path": "agents/security-reviewer.md",
-        "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/agents/security-reviewer.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 28,
+        "score": 27,
         "gates": {
           "security": true,
           "schema": true,
@@ -1740,6 +1691,55 @@
       "risk": {
         "level": "low",
         "score": 6
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 26,
+      "curatedMentions": 0
+    },
+    {
+      "id": "subagent:joneqian/claude-skills-suite:agents/security-reviewer.md#security-reviewer",
+      "type": "subagent",
+      "name": "security-reviewer",
+      "description": {
+        "zh": null,
+        "en": "Security vulnerability detection and remediation specialist. Use PROACTIVELY after writing code that handles user input, authentication, API endpoints, or sensitive data. Flags secrets, SSRF, injection, unsafe crypto, and OWASP Top 10 vulnerabilities.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "joneqian/claude-skills-suite",
+        "path": "agents/security-reviewer.md",
+        "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/agents/security-reviewer.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 27,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "low",
+        "score": 4
       },
       "duplicateOf": null,
       "nearDuplicateOf": null,
