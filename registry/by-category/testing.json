@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T21:49:45.882Z",
+  "generatedAt": "2026-10-24T21:24:31.608Z",
   "category": {
     "key": "testing",
     "zh": "测试质量",
@@ -73,7 +73,7 @@
       }
     ]
   },
-  "total": 748,
+  "total": 752,
   "entries": [
     {
       "id": "skill:obra/superpowers:skills/systematic-debugging/skill.md#systematic-debugging",
@@ -1821,7 +1821,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -1876,7 +1876,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -1931,7 +1931,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -1985,7 +1985,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -2039,7 +2039,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -2093,7 +2093,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -2146,7 +2146,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -2200,7 +2200,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -2254,7 +2254,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -2307,7 +2307,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -2361,7 +2361,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -2415,7 +2415,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -2468,7 +2468,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -2521,7 +2521,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -2574,7 +2574,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -2629,7 +2629,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -2683,7 +2683,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -2696,6 +2696,60 @@
       "risk": {
         "level": "clean",
         "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 32856,
+      "curatedMentions": 2
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/api-fuzzing-bug-bounty/skill.md#api-fuzzing-bug-bounty",
+      "type": "skill",
+      "name": "api-fuzzing-bug-bounty",
+      "description": {
+        "zh": null,
+        "en": "This skill should be used when the user asks to \"test API security\", \"fuzz APIs\", \"find IDOR vulnerabilities\", \"test REST API\", \"test GraphQL\", \"API penetration testing\", \"bug bounty API testing\", or needs guidance on API security assessment techniques.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "testing"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/security/api-fuzzing-bug-bounty/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/api-fuzzing-bug-bounty/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 70,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "low",
+        "score": 3
       },
       "duplicateOf": null,
       "nearDuplicateOf": null,
@@ -2737,7 +2791,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -2761,63 +2815,9 @@
       "curatedMentions": 2
     },
     {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/broken-authentication/skill.md#broken-authentication-testing",
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/burp-suite-testing/skill.md#burp-suite-testing",
       "type": "skill",
-      "name": "Broken Authentication Testing",
-      "description": {
-        "zh": null,
-        "en": "This skill should be used when the user asks to \"test for broken authentication vulnerabilities\", \"assess session management security\", \"perform credential stuffing tests\", \"evaluate password policies\", \"test for session fixation\", or \"identify authentication bypass flaws\". It provides comprehensive techniques for identifying authentication and session management weaknesses in web applications.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "testing",
-        "security"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "davila7/claude-code-templates",
-        "path": "cli-tool/components/skills/security/broken-authentication/SKILL.md",
-        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/broken-authentication/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 71,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 32856,
-      "curatedMentions": 2
-    },
-    {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/burp-suite-testing/skill.md#burp-suite-web-application-testing",
-      "type": "skill",
-      "name": "Burp Suite Web Application Testing",
+      "name": "burp-suite-testing",
       "description": {
         "zh": null,
         "en": "This skill should be used when the user asks to \"intercept HTTP traffic\", \"modify web requests\", \"use Burp Suite for testing\", \"perform web vulnerability scanning\", \"test with Burp Repeater\", \"analyze HTTP history\", or \"configure proxy for web testing\". It provides comprehensive guidance for using Burp Suite's core features for web application security testing.",
@@ -2845,437 +2845,6 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 32856,
-      "curatedMentions": 2
-    },
-    {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/idor-testing/skill.md#idor-vulnerability-testing",
-      "type": "skill",
-      "name": "IDOR Vulnerability Testing",
-      "description": {
-        "zh": null,
-        "en": "This skill should be used when the user asks to \"test for insecure direct object references,\" \"find IDOR vulnerabilities,\" \"exploit broken access control,\" \"enumerate user IDs or object references,\" or \"bypass authorization to access other users' data.\" It provides comprehensive guidance for detecting, exploiting, and remediating IDOR vulnerabilities in web applications.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "security",
-        "testing"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "davila7/claude-code-templates",
-        "path": "cli-tool/components/skills/security/idor-testing/SKILL.md",
-        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/idor-testing/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 71,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 32856,
-      "curatedMentions": 2
-    },
-    {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/sast-configuration/skill.md#sast-configuration",
-      "type": "skill",
-      "name": "sast-configuration",
-      "description": {
-        "zh": null,
-        "en": "Static Application Security Testing (SAST) tool setup, configuration, and custom rule creation for comprehensive security scanning across multiple programming languages.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "security",
-        "testing"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "davila7/claude-code-templates",
-        "path": "cli-tool/components/skills/security/sast-configuration/SKILL.md",
-        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/sast-configuration/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 71,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 32856,
-      "curatedMentions": 2
-    },
-    {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/smtp-penetration-testing/skill.md#smtp-penetration-testing",
-      "type": "skill",
-      "name": "SMTP Penetration Testing",
-      "description": {
-        "zh": null,
-        "en": "This skill should be used when the user asks to \"perform SMTP penetration testing\", \"enumerate email users\", \"test for open mail relays\", \"grab SMTP banners\", \"brute force email credentials\", or \"assess mail server security\". It provides comprehensive techniques for testing SMTP server security.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "testing"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "davila7/claude-code-templates",
-        "path": "cli-tool/components/skills/security/smtp-penetration-testing/SKILL.md",
-        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/smtp-penetration-testing/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 71,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 32856,
-      "curatedMentions": 2
-    },
-    {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/sql-injection-testing/skill.md#sql-injection-testing",
-      "type": "skill",
-      "name": "SQL Injection Testing",
-      "description": {
-        "zh": null,
-        "en": "This skill should be used when the user asks to \"test for SQL injection vulnerabilities\", \"perform SQLi attacks\", \"bypass authentication using SQL injection\", \"extract database information through injection\", \"detect SQL injection flaws\", or \"exploit database query vulnerabilities\". It provides comprehensive techniques for identifying, exploiting, and understanding SQL injection attack vectors across different database systems.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "security",
-        "testing"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "davila7/claude-code-templates",
-        "path": "cli-tool/components/skills/security/sql-injection-testing/SKILL.md",
-        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/sql-injection-testing/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 71,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 32856,
-      "curatedMentions": 2
-    },
-    {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/web-security-testing/skill.md#web-security-testing",
-      "type": "skill",
-      "name": "web-security-testing",
-      "description": {
-        "zh": null,
-        "en": "Web application security testing workflow for OWASP Top 10 vulnerabilities including injection, XSS, authentication flaws, and access control issues.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "security",
-        "testing"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "davila7/claude-code-templates",
-        "path": "cli-tool/components/skills/security/web-security-testing/SKILL.md",
-        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/web-security-testing/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 71,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 32856,
-      "curatedMentions": 2
-    },
-    {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/utilities/browser-automation/skill.md#browser-automation",
-      "type": "skill",
-      "name": "browser-automation",
-      "description": {
-        "zh": null,
-        "en": "Browser automation powers web testing, scraping, and AI agent interactions. The difference between a flaky script and a reliable system comes down to understanding selectors, waiting strategies, and anti-detection patterns. This skill covers Playwright (recommended) and Puppeteer, with patterns for testing, scraping, and agentic browser control. Key insight: Playwright won the framework war. Unless you need Puppeteer's stealth ecosystem or are Chrome-only, Playwright is the better choice in 202",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "testing",
-        "research"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "davila7/claude-code-templates",
-        "path": "cli-tool/components/skills/utilities/browser-automation/SKILL.md",
-        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/utilities/browser-automation/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 71,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 32856,
-      "curatedMentions": 2
-    },
-    {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/workflow-automation/github-actions-templates/skill.md#github-actions-templates",
-      "type": "skill",
-      "name": "github-actions-templates",
-      "description": {
-        "zh": null,
-        "en": "Production-ready GitHub Actions workflow patterns for testing, building, and deploying applications.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "testing",
-        "coding"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "davila7/claude-code-templates",
-        "path": "cli-tool/components/skills/workflow-automation/github-actions-templates/SKILL.md",
-        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/workflow-automation/github-actions-templates/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 71,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 32856,
-      "curatedMentions": 2
-    },
-    {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/api-fuzzing-bug-bounty/skill.md#api-fuzzing-for-bug-bounty",
-      "type": "skill",
-      "name": "API Fuzzing for Bug Bounty",
-      "description": {
-        "zh": null,
-        "en": "This skill should be used when the user asks to \"test API security\", \"fuzz APIs\", \"find IDOR vulnerabilities\", \"test REST API\", \"test GraphQL\", \"API penetration testing\", \"bug bounty API testing\", or needs guidance on API security assessment techniques.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "security",
-        "testing"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "davila7/claude-code-templates",
-        "path": "cli-tool/components/skills/security/api-fuzzing-bug-bounty/SKILL.md",
-        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/api-fuzzing-bug-bounty/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
         "score": 70,
         "gates": {
           "security": true,
@@ -3287,8 +2856,8 @@
         "recommended": true
       },
       "risk": {
-        "level": "low",
-        "score": 3
+        "level": "clean",
+        "score": 0
       },
       "duplicateOf": null,
       "nearDuplicateOf": null,
@@ -3354,12 +2923,12 @@
       "curatedMentions": 2
     },
     {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/sqlmap-database-pentesting/skill.md#sqlmap-database-penetration-testing",
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/idor-testing/skill.md#idor-testing",
       "type": "skill",
-      "name": "SQLMap Database Penetration Testing",
+      "name": "idor-testing",
       "description": {
         "zh": null,
-        "en": "This skill should be used when the user asks to \"automate SQL injection testing,\" \"enumerate database structure,\" \"extract database credentials using sqlmap,\" \"dump tables and columns from a vulnerable database,\" or \"perform automated database penetration testing.\" It provides comprehensive guidance for using SQLMap to detect and exploit SQL injection vulnerabilities.",
+        "en": "This skill should be used when the user asks to \"test for insecure direct object references,\" \"find IDOR vulnerabilities,\" \"exploit broken access control,\" \"enumerate user IDs or object references,\" or \"bypass authorization to access other users' data.\" It provides comprehensive guidance for detecting, exploiting, and remediating IDOR vulnerabilities in web applications.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -3379,8 +2948,8 @@
       ],
       "source": {
         "repo": "davila7/claude-code-templates",
-        "path": "cli-tool/components/skills/security/sqlmap-database-pentesting/SKILL.md",
-        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/sqlmap-database-pentesting/SKILL.md",
+        "path": "cli-tool/components/skills/security/idor-testing/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/idor-testing/SKILL.md",
         "tier": 2
       },
       "quality": {
@@ -3395,8 +2964,223 @@
         "recommended": true
       },
       "risk": {
-        "level": "low",
-        "score": 2
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 32856,
+      "curatedMentions": 2
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/sast-configuration/skill.md#sast-configuration",
+      "type": "skill",
+      "name": "sast-configuration",
+      "description": {
+        "zh": null,
+        "en": "Static Application Security Testing (SAST) tool setup, configuration, and custom rule creation for comprehensive security scanning across multiple programming languages.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "testing"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/security/sast-configuration/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/sast-configuration/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 70,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 32856,
+      "curatedMentions": 2
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/smtp-penetration-testing/skill.md#smtp-penetration-testing",
+      "type": "skill",
+      "name": "smtp-penetration-testing",
+      "description": {
+        "zh": null,
+        "en": "This skill should be used when the user asks to \"perform SMTP penetration testing\", \"enumerate email users\", \"test for open mail relays\", \"grab SMTP banners\", \"brute force email credentials\", or \"assess mail server security\". It provides comprehensive techniques for testing SMTP server security.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/security/smtp-penetration-testing/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/smtp-penetration-testing/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 70,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 32856,
+      "curatedMentions": 2
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/sql-injection-testing/skill.md#sql-injection-testing",
+      "type": "skill",
+      "name": "sql-injection-testing",
+      "description": {
+        "zh": null,
+        "en": "This skill should be used when the user asks to \"test for SQL injection vulnerabilities\", \"perform SQLi attacks\", \"bypass authentication using SQL injection\", \"extract database information through injection\", \"detect SQL injection flaws\", or \"exploit database query vulnerabilities\". It provides comprehensive techniques for identifying, exploiting, and understanding SQL injection attack vectors across different database systems.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "testing"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/security/sql-injection-testing/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/sql-injection-testing/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 70,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 32856,
+      "curatedMentions": 2
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/web-security-testing/skill.md#web-security-testing",
+      "type": "skill",
+      "name": "web-security-testing",
+      "description": {
+        "zh": null,
+        "en": "Web application security testing workflow for OWASP Top 10 vulnerabilities including injection, XSS, authentication flaws, and access control issues.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "testing"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/security/web-security-testing/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/security/web-security-testing/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 70,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
       },
       "duplicateOf": null,
       "nearDuplicateOf": null,
@@ -3451,6 +3235,114 @@
       "risk": {
         "level": "low",
         "score": 2
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 32856,
+      "curatedMentions": 2
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/utilities/browser-automation/skill.md#browser-automation",
+      "type": "skill",
+      "name": "browser-automation",
+      "description": {
+        "zh": null,
+        "en": "Browser automation powers web testing, scraping, and AI agent interactions. The difference between a flaky script and a reliable system comes down to understanding selectors, waiting strategies, and anti-detection patterns. This skill covers Playwright (recommended) and Puppeteer, with patterns for testing, scraping, and agentic browser control. Key insight: Playwright won the framework war. Unless you need Puppeteer's stealth ecosystem or are Chrome-only, Playwright is the better choice in 202",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "research"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/utilities/browser-automation/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/utilities/browser-automation/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 70,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 32856,
+      "curatedMentions": 2
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/workflow-automation/github-actions-templates/skill.md#github-actions-templates",
+      "type": "skill",
+      "name": "github-actions-templates",
+      "description": {
+        "zh": null,
+        "en": "Production-ready GitHub Actions workflow patterns for testing, building, and deploying applications.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "coding"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/workflow-automation/github-actions-templates/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/workflow-automation/github-actions-templates/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 70,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
       },
       "duplicateOf": null,
       "nearDuplicateOf": null,
@@ -3518,7 +3410,7 @@
     {
       "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/html-injection-testing/skill.md#html-injection-testing",
       "type": "skill",
-      "name": "HTML Injection Testing",
+      "name": "html-injection-testing",
       "description": {
         "zh": null,
         "en": "This skill should be used when the user asks to \"test for HTML injection\", \"inject HTML into web pages\", \"perform HTML injection attacks\", \"deface web applications\", or \"test content injection vulnerabilities\". It provides comprehensive HTML injection attack techniques and testing methodologies.",
@@ -3559,115 +3451,6 @@
       "risk": {
         "level": "low",
         "score": 4
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 32856,
-      "curatedMentions": 2
-    },
-    {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/creative-design/accessibility-auditor/skill.md#accessibility-auditor",
-      "type": "skill",
-      "name": "Accessibility Auditor",
-      "description": {
-        "zh": null,
-        "en": "Web accessibility specialist for WCAG compliance, ARIA implementation, and inclusive design. Use when auditing websites for accessibility issues, implementing WCAG 2.1 AA/AAA standards, testing with screen readers, or ensuring ADA compliance. Expert in semantic HTML, keyboard navigation, and assistive technology compatibility.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "testing",
-        "design",
-        "coding"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "davila7/claude-code-templates",
-        "path": "cli-tool/components/skills/creative-design/accessibility-auditor/SKILL.md",
-        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/creative-design/accessibility-auditor/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 68,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "low",
-        "score": 10
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 32856,
-      "curatedMentions": 2
-    },
-    {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/development/tdd-workflow/skill.md#tdd-workflow",
-      "type": "skill",
-      "name": "tdd-workflow",
-      "description": {
-        "zh": null,
-        "en": "Test-Driven Development workflow principles. RED-GREEN-REFACTOR cycle.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "testing",
-        "coding"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "davila7/claude-code-templates",
-        "path": "cli-tool/components/skills/development/tdd-workflow/SKILL.md",
-        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/development/tdd-workflow/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 68,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "low",
-        "score": 10
       },
       "duplicateOf": null,
       "nearDuplicateOf": null,
@@ -3732,9 +3515,9 @@
       "curatedMentions": 2
     },
     {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/shodan-reconnaissance/skill.md#shodan-reconnaissance-and-pentesting",
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/security/shodan-reconnaissance/skill.md#shodan-reconnaissance",
       "type": "skill",
-      "name": "Shodan Reconnaissance and Pentesting",
+      "name": "shodan-reconnaissance",
       "description": {
         "zh": null,
         "en": "This skill should be used when the user asks to \"search for exposed devices on the internet,\" \"perform Shodan reconnaissance,\" \"find vulnerable services using Shodan,\" \"scan IP ranges with Shodan,\" or \"discover IoT devices and open ports.\" It provides comprehensive guidance for using Shodan's search engine, CLI, and API for penetration testing reconnaissance.",
@@ -3883,6 +3666,115 @@
       "risk": {
         "level": "low",
         "score": 8
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 32856,
+      "curatedMentions": 2
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/creative-design/accessibility-auditor/skill.md#accessibility-auditor",
+      "type": "skill",
+      "name": "accessibility-auditor",
+      "description": {
+        "zh": null,
+        "en": "Web accessibility specialist for WCAG compliance, ARIA implementation, and inclusive design. Use when auditing websites for accessibility issues, implementing WCAG 2.1 AA/AAA standards, testing with screen readers, or ensuring ADA compliance. Expert in semantic HTML, keyboard navigation, and assistive technology compatibility.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "design",
+        "coding"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/creative-design/accessibility-auditor/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/creative-design/accessibility-auditor/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 67,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "low",
+        "score": 10
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 32856,
+      "curatedMentions": 2
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/development/tdd-workflow/skill.md#tdd-workflow",
+      "type": "skill",
+      "name": "tdd-workflow",
+      "description": {
+        "zh": null,
+        "en": "Test-Driven Development workflow principles. RED-GREEN-REFACTOR cycle.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "coding"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/development/tdd-workflow/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/development/tdd-workflow/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 67,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "low",
+        "score": 10
       },
       "duplicateOf": null,
       "nearDuplicateOf": null,
@@ -4045,7 +3937,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10811,
+      "stars": 10866,
       "curatedMentions": 1
     },
     {
@@ -5233,7 +5125,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10811,
+      "stars": 10866,
       "curatedMentions": 1
     },
     {
@@ -11490,202 +11382,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "rules:nedcodes-ok/cursorrules-collection:rules/practices/testing.cursorrules#testing.cursorrules",
-      "type": "rules",
-      "name": "testing.cursorrules",
-      "description": {
-        "zh": null,
-        "en": "- Use Arrange-Act-Assert (AAA) pattern consistently - One assertion concept per test (multiple asserts OK if testing one behavior) - Name tests: whatIsBeingTested_scenario_expectedBehavior - Keep tests independent — no shared mutable state between tests",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "testing"
-      ],
-      "targets": [
-        "cursor"
-      ],
-      "source": {
-        "repo": "nedcodes-ok/cursorrules-collection",
-        "path": "rules/practices/testing.cursorrules",
-        "url": "https://github.com/nedcodes-ok/cursorrules-collection/blob/HEAD/rules/practices/testing.cursorrules",
-        "tier": 2
-      },
-      "quality": {
-        "score": 26,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 35,
-      "curatedMentions": 0
-    },
-    {
-      "id": "rules:nedcodes-ok/cursorrules-collection:rules/tools/cypress.cursorrules#cypress.cursorrules",
-      "type": "rules",
-      "name": "cypress.cursorrules",
-      "description": {
-        "zh": null,
-        "en": "You are an expert in Cypress E2E testing. Follow these rules:",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "testing"
-      ],
-      "targets": [
-        "cursor"
-      ],
-      "source": {
-        "repo": "nedcodes-ok/cursorrules-collection",
-        "path": "rules/tools/cypress.cursorrules",
-        "url": "https://github.com/nedcodes-ok/cursorrules-collection/blob/HEAD/rules/tools/cypress.cursorrules",
-        "tier": 2
-      },
-      "quality": {
-        "score": 26,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": false,
-          "alive": true
-        },
-        "passed": false,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": "rules:nedcodes-ok/cursorrules-collection:rules-mdc/tools/cypress.mdc#cypress",
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 35,
-      "curatedMentions": 0
-    },
-    {
-      "id": "rules:nedcodes-ok/cursorrules-collection:rules/tools/jest.cursorrules#jest.cursorrules",
-      "type": "rules",
-      "name": "jest.cursorrules",
-      "description": {
-        "zh": null,
-        "en": "You are an expert in Jest testing. Follow these rules:",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "testing"
-      ],
-      "targets": [
-        "cursor"
-      ],
-      "source": {
-        "repo": "nedcodes-ok/cursorrules-collection",
-        "path": "rules/tools/jest.cursorrules",
-        "url": "https://github.com/nedcodes-ok/cursorrules-collection/blob/HEAD/rules/tools/jest.cursorrules",
-        "tier": 2
-      },
-      "quality": {
-        "score": 26,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 35,
-      "curatedMentions": 0
-    },
-    {
-      "id": "rules:nedcodes-ok/cursorrules-collection:rules/tools/pytest.cursorrules#pytest.cursorrules",
-      "type": "rules",
-      "name": "pytest.cursorrules",
-      "description": {
-        "zh": null,
-        "en": "You are an expert in pytest testing. Follow these rules:",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "testing"
-      ],
-      "targets": [
-        "cursor"
-      ],
-      "source": {
-        "repo": "nedcodes-ok/cursorrules-collection",
-        "path": "rules/tools/pytest.cursorrules",
-        "url": "https://github.com/nedcodes-ok/cursorrules-collection/blob/HEAD/rules/tools/pytest.cursorrules",
-        "tier": 2
-      },
-      "quality": {
-        "score": 26,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": false,
-          "alive": true
-        },
-        "passed": false,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": "rules:nedcodes-ok/cursorrules-collection:rules-mdc/tools/pytest.mdc#pytest",
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 35,
-      "curatedMentions": 0
-    },
-    {
       "id": "subagent:joneqian/claude-skills-suite:agents/e2e-runner.md#e2e-runner",
       "type": "subagent",
       "name": "e2e-runner",
@@ -11830,6 +11526,202 @@
       "templateFamily": null,
       "familySize": 0,
       "stars": 3,
+      "curatedMentions": 0
+    },
+    {
+      "id": "rules:nedcodes-ok/cursorrules-collection:rules/practices/testing.cursorrules#testing.cursorrules",
+      "type": "rules",
+      "name": "testing.cursorrules",
+      "description": {
+        "zh": null,
+        "en": "- Use Arrange-Act-Assert (AAA) pattern consistently - One assertion concept per test (multiple asserts OK if testing one behavior) - Name tests: whatIsBeingTested_scenario_expectedBehavior - Keep tests independent — no shared mutable state between tests",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "cursor"
+      ],
+      "source": {
+        "repo": "nedcodes-ok/cursorrules-collection",
+        "path": "rules/practices/testing.cursorrules",
+        "url": "https://github.com/nedcodes-ok/cursorrules-collection/blob/HEAD/rules/practices/testing.cursorrules",
+        "tier": 2
+      },
+      "quality": {
+        "score": 25,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 35,
+      "curatedMentions": 0
+    },
+    {
+      "id": "rules:nedcodes-ok/cursorrules-collection:rules/tools/cypress.cursorrules#cypress.cursorrules",
+      "type": "rules",
+      "name": "cypress.cursorrules",
+      "description": {
+        "zh": null,
+        "en": "You are an expert in Cypress E2E testing. Follow these rules:",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "cursor"
+      ],
+      "source": {
+        "repo": "nedcodes-ok/cursorrules-collection",
+        "path": "rules/tools/cypress.cursorrules",
+        "url": "https://github.com/nedcodes-ok/cursorrules-collection/blob/HEAD/rules/tools/cypress.cursorrules",
+        "tier": 2
+      },
+      "quality": {
+        "score": 25,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": false,
+          "alive": true
+        },
+        "passed": false,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": "rules:nedcodes-ok/cursorrules-collection:rules-mdc/tools/cypress.mdc#cypress",
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 35,
+      "curatedMentions": 0
+    },
+    {
+      "id": "rules:nedcodes-ok/cursorrules-collection:rules/tools/jest.cursorrules#jest.cursorrules",
+      "type": "rules",
+      "name": "jest.cursorrules",
+      "description": {
+        "zh": null,
+        "en": "You are an expert in Jest testing. Follow these rules:",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "cursor"
+      ],
+      "source": {
+        "repo": "nedcodes-ok/cursorrules-collection",
+        "path": "rules/tools/jest.cursorrules",
+        "url": "https://github.com/nedcodes-ok/cursorrules-collection/blob/HEAD/rules/tools/jest.cursorrules",
+        "tier": 2
+      },
+      "quality": {
+        "score": 25,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 35,
+      "curatedMentions": 0
+    },
+    {
+      "id": "rules:nedcodes-ok/cursorrules-collection:rules/tools/pytest.cursorrules#pytest.cursorrules",
+      "type": "rules",
+      "name": "pytest.cursorrules",
+      "description": {
+        "zh": null,
+        "en": "You are an expert in pytest testing. Follow these rules:",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "cursor"
+      ],
+      "source": {
+        "repo": "nedcodes-ok/cursorrules-collection",
+        "path": "rules/tools/pytest.cursorrules",
+        "url": "https://github.com/nedcodes-ok/cursorrules-collection/blob/HEAD/rules/tools/pytest.cursorrules",
+        "tier": 2
+      },
+      "quality": {
+        "score": 25,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": false,
+          "alive": true
+        },
+        "passed": false,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": "rules:nedcodes-ok/cursorrules-collection:rules-mdc/tools/pytest.mdc#pytest",
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 35,
       "curatedMentions": 0
     },
     {
@@ -14811,6 +14703,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:axiom-lab-tech/axiomlab-mcp:io.github.axiom-lab-tech/axiomlab-mcp#axiom-lab-—-ai-pitch-deck-&-business-video-mcp",
+      "type": "mcp",
+      "name": "Axiom Lab — AI Pitch Deck & Business Video MCP",
+      "description": {
+        "zh": null,
+        "en": "Turn PDFs, PPTX decks, product photos, and briefs into QA-checked commercial videos via MCP.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media",
+        "document",
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Axiom-lab-tech/axiomlab-mcp",
+        "path": "io.github.Axiom-lab-tech/axiomlab-mcp",
+        "url": "https://github.com/Axiom-lab-tech/axiomlab-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:backas03/vitaminmcp:io.github.backas03/vitaminmcp#vitaminmcp",
       "type": "mcp",
       "name": "VitaminMCP",
@@ -16118,6 +16061,55 @@
         "repo": "comndllc/LMP.com",
         "path": "io.github.comndllc/livestock-market-prices",
         "url": "https://github.com/comndllc/LMP.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:contentwriterco/kolejki-nfz-mcp:io.github.contentwriterco/kolejki-nfz-mcp#io.github.contentwriterco-kolejki-nfz-mcp",
+      "type": "mcp",
+      "name": "io.github.ContentWriterco/kolejki-nfz-mcp",
+      "description": {
+        "zh": null,
+        "en": "NFZ waiting times in Poland: where a specialist, test or treatment is available soonest",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ContentWriterco/kolejki-nfz-mcp",
+        "path": "io.github.ContentWriterco/kolejki-nfz-mcp",
+        "url": "https://github.com/ContentWriterco/kolejki-nfz-mcp",
         "tier": 0
       },
       "quality": {
@@ -20552,6 +20544,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:kalshieye/kalshieye-mcp:io.github.kalshieye/kalshieye-mcp#kalshi-eye",
+      "type": "mcp",
+      "name": "Kalshi Eye",
+      "description": {
+        "zh": null,
+        "en": "Search Kalshi, Polymarket and Limitless markets, order book history, coverage and data files.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "KalshiEye/kalshieye-mcp",
+        "path": "io.github.KalshiEye/kalshieye-mcp",
+        "url": "https://github.com/KalshiEye/kalshieye-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:kellyruns/kellyruns:xyz.kellyruns/strategy-lab#xyz.kellyruns-strategy-lab",
       "type": "mcp",
       "name": "xyz.kellyruns/strategy-lab",
@@ -23294,6 +23336,56 @@
         "repo": null,
         "path": "app.trickl/trickl",
         "url": "https://trickl.app",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:app.vercel.fork-for-agents/fork#fork",
+      "type": "mcp",
+      "name": "Fork",
+      "description": {
+        "zh": null,
+        "en": "Harness improvements agents post and test for each other. Read without a key; join in one call.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "app.vercel.fork-for-agents/fork",
+        "url": "https://fork.zone",
         "tier": 0
       },
       "quality": {
@@ -26084,7 +26176,7 @@
       "name": "Scanverity Public Market Discovery",
       "description": {
         "zh": null,
-        "en": "Free Polymarket search; written EUR 100 resolution reports and EUR 500 own-rule QA pilot by quote.",
+        "en": "Free Polymarket search; EUR100 written reports or one-rule QA; EUR500 five-rule QA by quote.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -29294,6 +29386,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.sashank-singh/agenttwin-docs#agenttwin-documentation",
+      "type": "mcp",
+      "name": "AgentTwin Documentation",
+      "description": {
+        "zh": null,
+        "en": "Search AgentTwin agent testing guides, Node CLI commands and supported synthetic service contracts.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.Sashank-Singh/agenttwin-docs",
+        "url": "https://agenttwin.si/developers/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.sasikumarlilly/test-mcp-server#cortex-test-mcp-server",
       "type": "mcp",
       "name": "Cortex Test MCP Server",
@@ -32476,6 +32618,55 @@
         "repo": "nguyenhieuec/agent-tools-plugins",
         "path": "app.openkrill/catalog-qa",
         "url": "https://github.com/nguyenhieuec/agent-tools-plugins",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:nhatlongsinh/testsy-integrations:dev.testsy/testsy#testsy",
+      "type": "mcp",
+      "name": "Testsy",
+      "description": {
+        "zh": null,
+        "en": "Run plain-English web QA tests and inspect check results and evidence.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "nhatlongsinh/testsy-integrations",
+        "path": "dev.testsy/testsy",
+        "url": "https://github.com/nhatlongsinh/testsy-integrations",
         "tier": 0
       },
       "quality": {
