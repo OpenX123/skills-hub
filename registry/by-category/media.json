@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T21:23:46.902Z",
+  "generatedAt": "2026-10-26T23:00:49.202Z",
   "category": {
     "key": "media",
     "zh": "音视频图像",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 1303,
+  "total": 1323,
   "entries": [
     {
       "id": "skill:composiohq/awesome-claude-skills:video-downloader/skill.md#youtube-downloader",
@@ -114,7 +114,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 97,
+        "score": 96,
         "gates": {
           "security": true,
           "schema": true,
@@ -597,7 +597,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 88,
+        "score": 87,
         "gates": {
           "security": true,
           "schema": true,
@@ -647,7 +647,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 88,
+        "score": 87,
         "gates": {
           "security": true,
           "schema": true,
@@ -697,7 +697,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 88,
+        "score": 87,
         "gates": {
           "security": true,
           "schema": true,
@@ -721,9 +721,9 @@
       "curatedMentions": 5
     },
     {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/data-processing-nemo-curator/skill.md#nemo-curator",
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/data-processing-nemo-curator/skill.md#data-processing-nemo-curator",
       "type": "skill",
-      "name": "nemo-curator",
+      "name": "data-processing-nemo-curator",
       "description": {
         "zh": null,
         "en": "GPU-accelerated data curation for LLM training. Supports text/image/video/audio. Features fuzzy deduplication (16× faster), quality filtering (30+ heuristics), semantic deduplication, PII redaction, NSFW detection. Scales across GPUs with RAPIDS. Use for preparing high-quality training datasets, cleaning web data, or deduplicating large corpora.",
@@ -770,13 +770,13 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/multimodal-audiocraft/skill.md#audiocraft-audio-generation",
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/multimodal-audiocraft/skill.md#multimodal-audiocraft",
       "type": "skill",
-      "name": "audiocraft-audio-generation",
+      "name": "multimodal-audiocraft",
       "description": {
         "zh": null,
         "en": "PyTorch library for audio generation including text-to-music (MusicGen) and text-to-sound (AudioGen). Use when you need to generate music from text descriptions, create sound effects, or perform melody-conditioned music generation.",
@@ -787,7 +787,8 @@
       },
       "lang": "en",
       "categories": [
-        "media"
+        "media",
+        "coding"
       ],
       "targets": [
         "claude-code",
@@ -823,13 +824,13 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/multimodal-blip-2/skill.md#blip-2-vision-language",
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/multimodal-blip-2/skill.md#multimodal-blip-2",
       "type": "skill",
-      "name": "blip-2-vision-language",
+      "name": "multimodal-blip-2",
       "description": {
         "zh": null,
         "en": "Vision-language pre-training framework bridging frozen image encoders and LLMs. Use when you need image captioning, visual question answering, image-text retrieval, or multimodal chat with state-of-the-art zero-shot performance.",
@@ -878,13 +879,13 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/multimodal-clip/skill.md#clip",
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/multimodal-clip/skill.md#multimodal-clip",
       "type": "skill",
-      "name": "clip",
+      "name": "multimodal-clip",
       "description": {
         "zh": null,
         "en": "OpenAI's model connecting vision and language. Enables zero-shot image classification, image-text matching, and cross-modal retrieval. Trained on 400M image-text pairs. Use for image search, content moderation, or vision-language tasks without fine-tuning. Best for general-purpose image understanding.",
@@ -933,13 +934,13 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/multimodal-llava/skill.md#llava",
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/multimodal-llava/skill.md#multimodal-llava",
       "type": "skill",
-      "name": "llava",
+      "name": "multimodal-llava",
       "description": {
         "zh": null,
         "en": "Large Language and Vision Assistant. Enables visual instruction tuning and image-based conversations. Combines CLIP vision encoder with Vicuna/LLaMA language models. Supports multi-turn image chat, visual question answering, and instruction following. Use for vision-language chatbots or image understanding tasks. Best for conversational image analysis.",
@@ -988,13 +989,13 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/multimodal-segment-anything/skill.md#segment-anything-model",
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/multimodal-segment-anything/skill.md#multimodal-segment-anything",
       "type": "skill",
-      "name": "segment-anything-model",
+      "name": "multimodal-segment-anything",
       "description": {
         "zh": null,
         "en": "Foundation model for image segmentation with zero-shot transfer. Use when you need to segment any object in images using points, boxes, or masks as prompts, or automatically generate all object masks in an image.",
@@ -1043,13 +1044,13 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/multimodal-stable-diffusion/skill.md#stable-diffusion-image-generation",
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/multimodal-stable-diffusion/skill.md#multimodal-stable-diffusion",
       "type": "skill",
-      "name": "stable-diffusion-image-generation",
+      "name": "multimodal-stable-diffusion",
       "description": {
         "zh": null,
         "en": "State-of-the-art text-to-image generation with Stable Diffusion models via HuggingFace Diffusers. Use when generating images from text prompts, performing image-to-image translation, inpainting, or building custom diffusion pipelines.",
@@ -1060,7 +1061,9 @@
       },
       "lang": "en",
       "categories": [
-        "media"
+        "coding",
+        "media",
+        "research"
       ],
       "targets": [
         "claude-code",
@@ -1096,13 +1099,13 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/multimodal-whisper/skill.md#whisper",
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/multimodal-whisper/skill.md#multimodal-whisper",
       "type": "skill",
-      "name": "whisper",
+      "name": "multimodal-whisper",
       "description": {
         "zh": null,
         "en": "OpenAI's general-purpose speech recognition model. Supports 99 languages, transcription, translation to English, and language identification. Six model sizes from tiny (39M params) to large (1550M params). Use for speech-to-text, podcast transcription, or multilingual audio processing. Best for robust, multilingual ASR.",
@@ -1149,13 +1152,13 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/rag-sentence-transformers/skill.md#sentence-transformers",
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/rag-sentence-transformers/skill.md#rag-sentence-transformers",
       "type": "skill",
-      "name": "sentence-transformers",
+      "name": "rag-sentence-transformers",
       "description": {
         "zh": null,
         "en": "Framework for state-of-the-art sentence, text, and image embeddings. Provides 5000+ pre-trained models for semantic similarity, clustering, and retrieval. Supports multilingual, domain-specific, and multimodal models. Use for generating embeddings for RAG, semantic search, or similarity tasks. Best for production embedding generation.",
@@ -1204,7 +1207,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -1259,7 +1262,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -1314,7 +1317,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -1368,7 +1371,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -1422,7 +1425,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -1475,7 +1478,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -1528,7 +1531,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -1582,7 +1585,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -1637,7 +1640,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -1690,7 +1693,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -1744,7 +1747,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -1798,7 +1801,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -1851,7 +1854,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -1906,7 +1909,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -1940,7 +1943,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 70,
+        "score": 71,
         "gates": {
           "security": true,
           "schema": true,
@@ -1960,7 +1963,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -1995,7 +1998,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 70,
+        "score": 71,
         "gates": {
           "security": true,
           "schema": true,
@@ -2015,7 +2018,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -2048,7 +2051,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 70,
+        "score": 71,
         "gates": {
           "security": true,
           "schema": true,
@@ -2068,7 +2071,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -2102,7 +2105,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 70,
+        "score": 71,
         "gates": {
           "security": true,
           "schema": true,
@@ -2122,7 +2125,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -2156,7 +2159,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 70,
+        "score": 71,
         "gates": {
           "security": true,
           "schema": true,
@@ -2176,7 +2179,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -2211,7 +2214,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 70,
+        "score": 71,
         "gates": {
           "security": true,
           "schema": true,
@@ -2231,7 +2234,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -2265,7 +2268,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 70,
+        "score": 71,
         "gates": {
           "security": true,
           "schema": true,
@@ -2285,7 +2288,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -2316,7 +2319,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 70,
+        "score": 71,
         "gates": {
           "security": true,
           "schema": true,
@@ -2336,7 +2339,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -2390,7 +2393,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -2444,7 +2447,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:senior-prompt-engineer",
       "familySize": 5,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -2499,7 +2502,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10866,
+      "stars": 10891,
       "curatedMentions": 1
     },
     {
@@ -2553,7 +2556,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10866,
+      "stars": 10891,
       "curatedMentions": 1
     },
     {
@@ -2608,7 +2611,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10866,
+      "stars": 10891,
       "curatedMentions": 1
     },
     {
@@ -2661,7 +2664,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10866,
+      "stars": 10891,
       "curatedMentions": 1
     },
     {
@@ -2716,7 +2719,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10866,
+      "stars": 10891,
       "curatedMentions": 1
     },
     {
@@ -2746,7 +2749,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -2817,7 +2820,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10866,
+      "stars": 10891,
       "curatedMentions": 1
     },
     {
@@ -2868,7 +2871,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10866,
+      "stars": 10891,
       "curatedMentions": 1
     },
     {
@@ -2918,7 +2921,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10866,
+      "stars": 10891,
       "curatedMentions": 1
     },
     {
@@ -2969,7 +2972,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10866,
+      "stars": 10891,
       "curatedMentions": 1
     },
     {
@@ -3018,7 +3021,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10866,
+      "stars": 10891,
       "curatedMentions": 1
     },
     {
@@ -3047,7 +3050,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 52,
+        "score": 51,
         "gates": {
           "security": true,
           "schema": true,
@@ -3096,7 +3099,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 52,
+        "score": 51,
         "gates": {
           "security": true,
           "schema": true,
@@ -3145,7 +3148,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 52,
+        "score": 51,
         "gates": {
           "security": true,
           "schema": true,
@@ -3196,7 +3199,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 52,
+        "score": 51,
         "gates": {
           "security": true,
           "schema": true,
@@ -3245,7 +3248,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 52,
+        "score": 51,
         "gates": {
           "security": true,
           "schema": true,
@@ -3295,7 +3298,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 52,
+        "score": 51,
         "gates": {
           "security": true,
           "schema": true,
@@ -3345,7 +3348,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 52,
+        "score": 51,
         "gates": {
           "security": true,
           "schema": true,
@@ -3396,7 +3399,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 52,
+        "score": 51,
         "gates": {
           "security": true,
           "schema": true,
@@ -3446,7 +3449,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 52,
+        "score": 51,
         "gates": {
           "security": true,
           "schema": true,
@@ -5678,6 +5681,56 @@
         "repo": "InstantStudioAI/instantclips-mcp",
         "path": "ai.instantclips/instantclips",
         "url": "https://github.com/InstantStudioAI/instantclips-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:jamdotdev/skills:dev.jam/jam#jam",
+      "type": "mcp",
+      "name": "Jam",
+      "description": {
+        "zh": null,
+        "en": "Jam recordings (video, console, network, logs) as context for your coding agent.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jamdotdev/skills",
+        "path": "dev.jam/jam",
+        "url": "https://github.com/jamdotdev/skills",
         "tier": 0
       },
       "quality": {
@@ -8942,55 +8995,6 @@
         "repo": "afredzhou/image-to-layers",
         "path": "io.github.jamesknightzhou-arch/image-to-layers",
         "url": "https://github.com/afredzhou/image-to-layers",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:agent-media-ai/agent-media:io.github.yuvalsuede/agent-media#agent-media",
-      "type": "mcp",
-      "name": "agent-media",
-      "description": {
-        "zh": null,
-        "en": "Turn an app screenshot or product photo into a 10s vertical AI UGC video ad of a creator showing it.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "media"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "agent-media-ai/agent-media",
-        "path": "io.github.yuvalsuede/agent-media",
-        "url": "https://github.com/agent-media-ai/agent-media",
         "tier": 0
       },
       "quality": {
@@ -14948,6 +14952,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:emeroai/emero-mcp:io.github.emeroai/emero#emero",
+      "type": "mcp",
+      "name": "Emero",
+      "description": {
+        "zh": null,
+        "en": "Teach your AI assistant to make pro images, video, music and speech with every top model",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "EmeroAI/emero-mcp",
+        "path": "io.github.EmeroAI/emero",
+        "url": "https://github.com/EmeroAI/emero-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:engr-faizanali/text-to-speech-mcp:io.github.engr-faizanali/text-to-speech#text-to-speech",
       "type": "mcp",
       "name": "Text to Speech",
@@ -15368,6 +15421,55 @@
         "repo": "farssaadeldin7-ux/claude-plugin-suite",
         "path": "io.github.farssaadeldin7-ux/podcast-video-studio",
         "url": "https://github.com/farssaadeldin7-ux/claude-plugin-suite",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:fashiolabs/fashio-mcp:com.fashiolabs/fashio#fashio-ai",
+      "type": "mcp",
+      "name": "Fashio AI",
+      "description": {
+        "zh": null,
+        "en": "On-model and ghost-mannequin fashion photos from a product photo. Spends credits; needs an API key.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "fashiolabs/fashio-mcp",
+        "path": "com.fashiolabs/fashio",
+        "url": "https://github.com/fashiolabs/fashio-mcp",
         "tier": 0
       },
       "quality": {
@@ -18359,7 +18461,7 @@
       "name": "CraftStory",
       "description": {
         "zh": null,
-        "en": "Talking-avatar videos from a photo (CraftStory 2.0) and short clips with sound (MiniMax H3).",
+        "en": "Talking-avatar videos from a photo, short clips with sound, images and music.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -18475,56 +18577,6 @@
         "repo": "ivanaka/pondchat",
         "path": "com.pondchat/pondchat",
         "url": "https://github.com/ivanaka/pondchat",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:jamdotdev/skills:dev.jam/jam#jam",
-      "type": "mcp",
-      "name": "Jam",
-      "description": {
-        "zh": null,
-        "en": "Jam recordings (video, console, network, logs) as context for your coding agent.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding",
-        "media"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "jamdotdev/skills",
-        "path": "dev.jam/jam",
-        "url": "https://github.com/jamdotdev/skills",
         "tier": 0
       },
       "quality": {
@@ -19958,6 +20010,55 @@
         "repo": "kieransimkin/stemlab",
         "path": "io.github.kieransimkin/stemlab",
         "url": "https://github.com/kieransimkin/stemlab",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:kimny1143/mued_v2:io.github.kimny1143/hoo-mcp#hoo-mcp-—-ai-music-production-assistant",
+      "type": "mcp",
+      "name": "Hoo MCP — AI Music Production Assistant",
+      "description": {
+        "zh": null,
+        "en": "AI music production assistant — audio profiling, AI mixing sessions, and service inquiries.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "kimny1143/mued_v2",
+        "path": "io.github.kimny1143/hoo-mcp",
+        "url": "https://github.com/kimny1143/mued_v2",
         "tier": 0
       },
       "quality": {
@@ -22010,6 +22111,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mambalabsdev/mcp-podcast-guest-host-finder:com.mambabuilt/mcp-podcast-guest-host-finder#com.mambabuilt-mcp-podcast-guest-host-finder",
+      "type": "mcp",
+      "name": "com.mambabuilt/mcp-podcast-guest-host-finder",
+      "description": {
+        "zh": null,
+        "en": "Podcasts on a topic with host, feed owner email, cadence, recent guests, and guest pages.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "mambalabsdev/mcp-podcast-guest-host-finder",
+        "path": "com.mambabuilt/mcp-podcast-guest-host-finder",
+        "url": "https://github.com/mambalabsdev/mcp-podcast-guest-host-finder",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:maml/lightning-fm-mcp:io.github.maml/lightning-fm-mcp#io.github.maml-lightning-fm-mcp",
       "type": "mcp",
       "name": "io.github.maml/lightning-fm-mcp",
@@ -22873,6 +23023,55 @@
         "repo": null,
         "path": "ai.buildersinfintech/fintech-data",
         "url": "https://buildersinfintech.ai/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.cardboard/cardboard#cardboard-ai",
+      "type": "mcp",
+      "name": "Cardboard AI",
+      "description": {
+        "zh": null,
+        "en": "Edit your own videos by chatting in Claude or ChatGPT: cut, caption, add music and export.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.cardboard/cardboard",
+        "url": "https://docs.cardboard.ai/mcp",
         "tier": 0
       },
       "quality": {
@@ -25867,7 +26066,7 @@
       "name": "Veevid AI",
       "description": {
         "zh": null,
-        "en": "Generate AI videos, images and audio on Veevid with Veo 3.1, Kling 3.0, Seedance 2.5 and more.",
+        "en": "Generate AI videos, images and audio on Veevid with Kling 4.0, Seedance 2.5, Veo 3.1 and more.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -26279,6 +26478,56 @@
         "repo": null,
         "path": "ai.zarklab/zark",
         "url": "https://www.zarklab.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:app.artec/creator#artec",
+      "type": "mcp",
+      "name": "Artec",
+      "description": {
+        "zh": null,
+        "en": "Brand deals, winning example videos, video analysis and scripts for UGC creators.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "app.artec/creator",
+        "url": "https://artec.app",
         "tier": 0
       },
       "quality": {
@@ -27386,6 +27635,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:app.unmerge/unmerge#unmerge",
+      "type": "mcp",
+      "name": "Unmerge",
+      "description": {
+        "zh": null,
+        "en": "Split a flat image into separate transparent PNG layers. Pay with Unmerge credits.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "app.unmerge/unmerge",
+        "url": "https://unmerge.app/docs/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:app.vidlet/vidlet#vidlet",
       "type": "mcp",
       "name": "VidLet",
@@ -28049,6 +28347,57 @@
         "repo": null,
         "path": "co.incarn/photo-animation",
         "url": "https://www.incarn.co/developers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:co.klaivo/klaivo#klaivo",
+      "type": "mcp",
+      "name": "Klaivo",
+      "description": {
+        "zh": null,
+        "en": "Make motion-design video ads and AI videos for e-commerce products from your AI assistant.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design",
+        "business",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "co.klaivo/klaivo",
+        "url": "https://klaivo.co/mcp",
         "tier": 0
       },
       "quality": {
@@ -28845,6 +29194,55 @@
         "repo": null,
         "path": "com.abyssale/mcp",
         "url": "https://abyssale.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.adcreator-ai/generate-ad-headlines#adcreator-ai-ad-creative-maker",
+      "type": "mcp",
+      "name": "AdCreator AI: Ad Creative Maker",
+      "description": {
+        "zh": null,
+        "en": "Turn a product photo into a finished ad image with copy, or get 10 ad headlines. Free, no signup.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.adcreator-ai/generate-ad-headlines",
+        "url": "https://adcreator-ai.com/",
         "tier": 0
       },
       "quality": {
@@ -31002,9 +31400,9 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:com.dgenvisual/studio#dgen-visual-studio",
+      "id": "mcp:mcp-official:com.dgenvisual/studio#dgen-visual-studio-mcp",
       "type": "mcp",
-      "name": "dGEN Visual Studio",
+      "name": "dGEN Visual Studio MCP",
       "description": {
         "zh": null,
         "en": "Make images and video with 30+ AI models from your assistant, on your own credits and library.",
@@ -32107,6 +32505,55 @@
         "repo": null,
         "path": "com.frapea/editor",
         "url": "https://frapea.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.getintentcast/intentcast#intentcast",
+      "type": "mcp",
+      "name": "IntentCast",
+      "description": {
+        "zh": null,
+        "en": "Find live Reddit, Quora and forum threads your video, page or topic answers, with draft replies.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.getintentcast/intentcast",
+        "url": "https://getintentcast.com",
         "tier": 0
       },
       "quality": {
@@ -33811,6 +34258,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.makeitsay/makeitsay#makeitsay",
+      "type": "mcp",
+      "name": "MakeItSay",
+      "description": {
+        "zh": null,
+        "en": "Change the words in a screenshot or photo and keep the original font and layout.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.makeitsay/makeitsay",
+        "url": "https://makeitsay.com/docs/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.makerreels/makerreels#makerreels",
       "type": "mcp",
       "name": "MakerReels",
@@ -35197,7 +35694,7 @@
       "name": "Picsart GenAI",
       "description": {
         "zh": null,
-        "en": "Generate and edit images, videos, and audio with 150+ models from 20+ vendors.",
+        "en": "The official Picsart MCP server: generate and edit images, video and audio with 150+ models.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -35205,7 +35702,8 @@
       },
       "lang": "en",
       "categories": [
-        "media"
+        "media",
+        "meta"
       ],
       "targets": [
         "mcp-client"
@@ -36206,6 +36704,55 @@
         "repo": null,
         "path": "com.scribetoany/scribetoany",
         "url": "https://scribetoany.com/developers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.sfxengine/sfx-engine#sfx-engine",
+      "type": "mcp",
+      "name": "SFX Engine",
+      "description": {
+        "zh": null,
+        "en": "Generate sound effects and music from text for games, apps and videos. Returns audio file URLs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.sfxengine/sfx-engine",
+        "url": "https://sfxengine.com/mcp",
         "tier": 0
       },
       "quality": {
@@ -41515,6 +42062,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.cyan-eclipse-technologies-llc/proof#eclipse-proof-mcp",
+      "type": "mcp",
+      "name": "Eclipse Proof MCP",
+      "description": {
+        "zh": null,
+        "en": "Governed video production — Herald-signed approval pins over exact edit states, hash-pinned",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.CYAN-ECLIPSE-TECHNOLOGIES-LLC/proof",
+        "url": "https://eclipsebazaar.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.editmamei/editmamei-connect#editmamei-connect",
       "type": "mcp",
       "name": "Editmamei Connect",
@@ -43144,6 +43740,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.princezoho/tangylimes#tangy-limes",
+      "type": "mcp",
+      "name": "Tangy Limes",
+      "description": {
+        "zh": null,
+        "en": "Funny singing video ecards from a photo: search cards, get prices, buy card packs, request cards.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.princezoho/tangylimes",
+        "url": "https://tangylimes.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.qxxx5vyd77-byte/directors-lookbook#director's-lookbook",
       "type": "mcp",
       "name": "Director's Lookbook",
@@ -43560,6 +44206,56 @@
         "repo": null,
         "path": "io.github.streamloop/mcp",
         "url": "https://streamloop.app/docs/api-reference/mcp/overview",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.sumitrmardy/image-to-text-ocr#image-to-text-ocr",
+      "type": "mcp",
+      "name": "Image to Text OCR",
+      "description": {
+        "zh": null,
+        "en": "OCR text from image URLs, 30 languages, lines with boxes. One flat row per image. Billed on text.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.sumitrmardy/image-to-text-ocr",
+        "url": "https://apify.com/sumitr_mardy/image-to-text-ocr",
         "tier": 0
       },
       "quality": {
@@ -44250,6 +44946,56 @@
         "repo": null,
         "path": "io.github.zzzjy765/glint-image",
         "url": "https://registry.modelcontextprotocol.io/?q=io.github.zzzjy765%2Fglint-image",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.layernote/mcp#layernote",
+      "type": "mcp",
+      "name": "layernote",
+      "description": {
+        "zh": null,
+        "en": "Client feedback pinned on live sites, Figma frames, PDFs, images and video, for Claude and agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.layernote/mcp",
+        "url": "https://layernote.io/mcp-design-feedback",
         "tier": 0
       },
       "quality": {
@@ -45068,6 +45814,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:live.helpai/liveaihelp#liveaihelp-—-hire-a-live-human-expert",
+      "type": "mcp",
+      "name": "LIVEAIHELP — Hire a Live Human Expert",
+      "description": {
+        "zh": null,
+        "en": "Hire a vetted human expert live via chat or video when your AI agent gets stuck. $1/min.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "live.helpai/liveaihelp",
+        "url": "https://www.helpai.live",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:live.qrwall/qrwall#qr-wall",
       "type": "mcp",
       "name": "QR Wall",
@@ -45466,7 +46261,7 @@
       "name": "GrooveSheet",
       "description": {
         "zh": null,
-        "en": "Find AI-transcribed sheet music, MIDI and stems for songs, and transcribe your own via upload links.",
+        "en": "Find AI-transcribed sheet music, MIDI and stems for songs. /mcp/public needs no sign-in.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -46299,6 +47094,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:org.bibooks/bibooks#bibooks",
+      "type": "mcp",
+      "name": "Bibooks",
+      "description": {
+        "zh": null,
+        "en": "Search and read free bilingual audiobooks: aligned two-language text, CEFR levels, audio.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "research",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "org.bibooks/bibooks",
+        "url": "https://bibooks.org",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:org.cucutime/mcp#cucutime-kids-songs",
       "type": "mcp",
       "name": "Cucutime Kids Songs",
@@ -46553,7 +47398,7 @@
       "name": "Cartelera",
       "description": {
         "zh": null,
-        "en": "AI video studio: animate photos, ads, series and music videos with original songs, from chat.",
+        "en": "AI video and music studio: music videos, ads, voiceovers and audio analysis (genre, BPM, key).",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -46561,8 +47406,7 @@
       },
       "lang": "en",
       "categories": [
-        "media",
-        "business"
+        "media"
       ],
       "targets": [
         "mcp-client"
@@ -46967,6 +47811,55 @@
         "repo": null,
         "path": "si.klevo/klevo",
         "url": "https://klevo.si",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:si.revana/revana#revana",
+      "type": "mcp",
+      "name": "Revana",
+      "description": {
+        "zh": null,
+        "en": "Cheap AI video from your agent: Seedance 2.5 video and Nemesis clip restaging on prepaid credits.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "si.revana/revana",
+        "url": "https://revana.si/mcp",
         "tier": 0
       },
       "quality": {
@@ -48147,7 +49040,7 @@
       "source": {
         "repo": null,
         "path": "ws.aige/antix",
-        "url": "https://aige.ws/mcp-info/",
+        "url": "https://aige.ws/mcp/",
         "tier": 0
       },
       "quality": {
@@ -54852,7 +55745,7 @@
       "name": "VNCNT Labs Seller Tools",
       "description": {
         "zh": null,
-        "en": "Amazon products and niches, trademarks, Shopping prices, image search, upscaling. Pay per result.",
+        "en": "Amazon products, best sellers, niches, trademarks, Shopping prices, image search, upscaling.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -56252,6 +57145,55 @@
         "repo": "ripunjay-kashyap/audio-sonic-mcp",
         "path": "io.github.ripunjay-kashyap/audio-sonic-mcp",
         "url": "https://github.com/ripunjay-kashyap/audio-sonic-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:robert0303-c/screenrec-agent:io.github.robert0303-c/screenrec-agent#screen-recorder-mcp",
+      "type": "mcp",
+      "name": "Screen Recorder MCP",
+      "description": {
+        "zh": null,
+        "en": "Record a real browser page and cut it into a publishable vertical video. Local, no cloud.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Robert0303-C/screenrec-agent",
+        "path": "io.github.Robert0303-C/screenrec-agent",
+        "url": "https://github.com/Robert0303-C/screenrec-agent",
         "tier": 0
       },
       "quality": {
@@ -59846,6 +60788,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:streamlivrapp/streamlivr-x402-celo:io.github.streamlivrapp/streamlivr#streamlivr",
+      "type": "mcp",
+      "name": "Streamlivr",
+      "description": {
+        "zh": null,
+        "en": "Access African & global creator profiles, music metadata, and posts via x402 on Celo.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "StreamlivrApp/streamlivr-x402-celo",
+        "path": "io.github.StreamlivrApp/streamlivr",
+        "url": "https://github.com/StreamlivrApp/streamlivr-x402-celo",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:strontian/tidyvid:io.github.strontian/tidyvid#io.github.strontian-tidyvid",
       "type": "mcp",
       "name": "io.github.strontian/tidyvid",
@@ -61331,7 +62322,7 @@
       "name": "io.github.thestockgoatballs/clipspeed-mcp",
       "description": {
         "zh": null,
-        "en": "Turn any video or livestream into scored, captioned, ready-to-post vertical clips.",
+        "en": "AI video, images, AI influencers, character swaps and clipping from Claude or ChatGPT.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"

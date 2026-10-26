@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T21:23:46.902Z",
+  "generatedAt": "2026-10-26T23:00:49.202Z",
   "category": {
     "key": "meta",
     "zh": "Agent 基建",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 4560,
+  "total": 4599,
   "entries": [
     {
       "id": "skill:obra/superpowers:skills/brainstorming/skill.md#brainstorming",
@@ -598,7 +598,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 97,
+        "score": 96,
         "gates": {
           "security": true,
           "schema": true,
@@ -1128,7 +1128,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 88,
+        "score": 87,
         "gates": {
           "security": true,
           "schema": true,
@@ -1177,7 +1177,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 88,
+        "score": 87,
         "gates": {
           "security": true,
           "schema": true,
@@ -1227,7 +1227,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 88,
+        "score": 87,
         "gates": {
           "security": true,
           "schema": true,
@@ -1251,9 +1251,9 @@
       "curatedMentions": 5
     },
     {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/agents-crewai/skill.md#crewai-multi-agent",
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/agents-crewai/skill.md#agents-crewai",
       "type": "skill",
-      "name": "crewai-multi-agent",
+      "name": "agents-crewai",
       "description": {
         "zh": null,
         "en": "Multi-agent orchestration framework for autonomous AI collaboration. Use when building teams of specialized agents working together on complex tasks, when you need role-based agent collaboration with memory, or for production workflows requiring sequential/hierarchical execution. Built without LangChain dependencies for lean, fast execution.",
@@ -1302,13 +1302,13 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/distributed-training-ray-train/skill.md#ray-train",
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/distributed-training-ray-train/skill.md#distributed-training-ray-train",
       "type": "skill",
-      "name": "ray-train",
+      "name": "distributed-training-ray-train",
       "description": {
         "zh": null,
         "en": "Distributed training orchestration across clusters. Scales PyTorch/TensorFlow/HuggingFace from laptop to 1000s of nodes. Built-in hyperparameter tuning with Ray Tune, fault tolerance, elastic scaling. Use when training massive models across multiple machines or running distributed hyperparameter sweeps.",
@@ -1357,13 +1357,13 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/infrastructure-skypilot/skill.md#skypilot-multi-cloud-orchestration",
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/infrastructure-skypilot/skill.md#infrastructure-skypilot",
       "type": "skill",
-      "name": "skypilot-multi-cloud-orchestration",
+      "name": "infrastructure-skypilot",
       "description": {
         "zh": null,
         "en": "Multi-cloud orchestration for ML workloads with automatic cost optimization. Use when you need to run training or batch jobs across multiple clouds, leverage spot instances with auto-recovery, or optimize GPU costs across providers.",
@@ -1374,7 +1374,9 @@
       },
       "lang": "en",
       "categories": [
-        "meta"
+        "meta",
+        "coding",
+        "research"
       ],
       "targets": [
         "claude-code",
@@ -1410,13 +1412,13 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/prompt-engineering-dspy/skill.md#dspy",
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/prompt-engineering-dspy/skill.md#prompt-engineering-dspy",
       "type": "skill",
-      "name": "dspy",
+      "name": "prompt-engineering-dspy",
       "description": {
         "zh": null,
         "en": "Build complex AI systems with declarative programming, optimize prompts automatically, create modular RAG systems and agents with DSPy - Stanford NLP's framework for systematic LM programming",
@@ -1427,8 +1429,6 @@
       },
       "lang": "en",
       "categories": [
-        "coding",
-        "research",
         "meta"
       ],
       "targets": [
@@ -1465,13 +1465,68 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/prompt-engineering-instructor/skill.md#instructor",
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/prompt-engineering-guidance/skill.md#prompt-engineering-guidance",
       "type": "skill",
-      "name": "instructor",
+      "name": "prompt-engineering-guidance",
+      "description": {
+        "zh": null,
+        "en": "Control LLM output with regex and grammars, guarantee valid JSON/XML/code generation, enforce structured formats, and build multi-step workflows with Guidance - Microsoft Research's constrained generation framework",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "research",
+        "coding"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/ai-research/prompt-engineering-guidance/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/ai-research/prompt-engineering-guidance/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 75,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 32921,
+      "curatedMentions": 2
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/prompt-engineering-instructor/skill.md#prompt-engineering-instructor",
+      "type": "skill",
+      "name": "prompt-engineering-instructor",
       "description": {
         "zh": null,
         "en": "Extract structured data from LLM responses with Pydantic validation, retry failed extractions automatically, parse complex JSON with type safety, and stream partial results with Instructor - battle-tested structured output library",
@@ -1482,8 +1537,6 @@
       },
       "lang": "en",
       "categories": [
-        "coding",
-        "research",
         "meta"
       ],
       "targets": [
@@ -1520,7 +1573,61 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
+      "curatedMentions": 2
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/ai-research/prompt-engineering-outlines/skill.md#prompt-engineering-outlines",
+      "type": "skill",
+      "name": "prompt-engineering-outlines",
+      "description": {
+        "zh": null,
+        "en": "Guarantee valid JSON/XML/code structure during generation, use Pydantic models for type-safe outputs, support local models (Transformers, vLLM), and maximize inference speed with Outlines - dottxt.ai's structured generation library",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/ai-research/prompt-engineering-outlines/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/ai-research/prompt-engineering-outlines/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 75,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -1573,7 +1680,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -1626,7 +1733,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -1681,7 +1788,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -1735,7 +1842,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -1789,7 +1896,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -1843,7 +1950,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -1897,7 +2004,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -1951,7 +2058,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -2005,7 +2112,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -2059,7 +2166,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -2112,60 +2219,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
-      "curatedMentions": 2
-    },
-    {
-      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/development/skill-development/skill.md#skill-creator",
-      "type": "skill",
-      "name": "skill-creator",
-      "description": {
-        "zh": null,
-        "en": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "meta"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "davila7/claude-code-templates",
-        "path": "cli-tool/components/skills/development/skill-development/SKILL.md",
-        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/development/skill-development/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 75,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": false,
-          "alive": true
-        },
-        "passed": false,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": "skill:anthropics/skills:skills/skill-creator/skill.md#skill-creator",
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -2218,7 +2272,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -2272,7 +2326,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -2326,7 +2380,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -2380,7 +2434,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -2435,7 +2489,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -2488,7 +2542,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -2542,7 +2596,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -2597,7 +2651,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -2652,7 +2706,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -2707,7 +2761,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -2762,7 +2816,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -2797,7 +2851,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 70,
+        "score": 71,
         "gates": {
           "security": true,
           "schema": true,
@@ -2817,7 +2871,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -2851,7 +2905,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 70,
+        "score": 71,
         "gates": {
           "security": true,
           "schema": true,
@@ -2871,7 +2925,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -2906,7 +2960,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 70,
+        "score": 71,
         "gates": {
           "security": true,
           "schema": true,
@@ -2926,7 +2980,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -2961,7 +3015,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 70,
+        "score": 71,
         "gates": {
           "security": true,
           "schema": true,
@@ -2981,7 +3035,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -3016,7 +3070,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 70,
+        "score": 71,
         "gates": {
           "security": true,
           "schema": true,
@@ -3036,7 +3090,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -3071,7 +3125,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 70,
+        "score": 71,
         "gates": {
           "security": true,
           "schema": true,
@@ -3091,7 +3145,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -3126,7 +3180,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 70,
+        "score": 71,
         "gates": {
           "security": true,
           "schema": true,
@@ -3146,7 +3200,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -3181,7 +3235,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 70,
+        "score": 71,
         "gates": {
           "security": true,
           "schema": true,
@@ -3201,7 +3255,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -3234,7 +3288,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 70,
+        "score": 71,
         "gates": {
           "security": true,
           "schema": true,
@@ -3254,7 +3308,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -3289,7 +3343,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 70,
+        "score": 71,
         "gates": {
           "security": true,
           "schema": true,
@@ -3309,7 +3363,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -3344,7 +3398,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 70,
+        "score": 71,
         "gates": {
           "security": true,
           "schema": true,
@@ -3364,7 +3418,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -3399,7 +3453,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 70,
+        "score": 71,
         "gates": {
           "security": true,
           "schema": true,
@@ -3419,7 +3473,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -3454,7 +3508,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 70,
+        "score": 71,
         "gates": {
           "security": true,
           "schema": true,
@@ -3474,7 +3528,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -3509,7 +3563,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 70,
+        "score": 71,
         "gates": {
           "security": true,
           "schema": true,
@@ -3529,7 +3583,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -3564,7 +3618,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 70,
+        "score": 71,
         "gates": {
           "security": true,
           "schema": true,
@@ -3584,7 +3638,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -3619,7 +3673,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 70,
+        "score": 71,
         "gates": {
           "security": true,
           "schema": true,
@@ -3639,7 +3693,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -3674,7 +3728,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 70,
+        "score": 71,
         "gates": {
           "security": true,
           "schema": true,
@@ -3694,7 +3748,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -3729,7 +3783,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 70,
+        "score": 71,
         "gates": {
           "security": true,
           "schema": true,
@@ -3749,7 +3803,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -3783,7 +3837,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 70,
+        "score": 71,
         "gates": {
           "security": true,
           "schema": true,
@@ -3803,7 +3857,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -3837,7 +3891,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 70,
+        "score": 71,
         "gates": {
           "security": true,
           "schema": true,
@@ -3857,7 +3911,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -3891,7 +3945,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 70,
+        "score": 71,
         "gates": {
           "security": true,
           "schema": true,
@@ -3911,7 +3965,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -3941,7 +3995,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 70,
+        "score": 71,
         "gates": {
           "security": true,
           "schema": true,
@@ -3961,7 +4015,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -3992,7 +4046,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 70,
+        "score": 71,
         "gates": {
           "security": true,
           "schema": true,
@@ -4012,7 +4066,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -4043,7 +4097,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 70,
+        "score": 71,
         "gates": {
           "security": true,
           "schema": true,
@@ -4063,7 +4117,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -4118,7 +4172,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -4168,7 +4222,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -4219,7 +4273,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -4274,7 +4328,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:senior-prompt-engineer",
       "familySize": 5,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -4329,7 +4383,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:senior-prompt-engineer",
       "familySize": 5,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -4359,7 +4413,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 67,
+        "score": 68,
         "gates": {
           "security": true,
           "schema": true,
@@ -4379,7 +4433,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -4409,7 +4463,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 67,
+        "score": 68,
         "gates": {
           "security": true,
           "schema": true,
@@ -4429,7 +4483,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -4479,7 +4533,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -4529,7 +4583,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -4579,7 +4633,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -4630,7 +4684,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -4680,7 +4734,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -4730,7 +4784,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -4780,7 +4834,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -4830,7 +4884,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -4880,7 +4934,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -4930,7 +4984,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -4980,7 +5034,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -5031,7 +5085,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -5081,7 +5135,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -5131,7 +5185,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -5181,7 +5235,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -5232,7 +5286,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -5281,7 +5335,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -5331,7 +5385,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -5380,7 +5434,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -5431,7 +5485,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -5482,7 +5536,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -5533,7 +5587,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -5583,7 +5637,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -5634,7 +5688,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -5684,7 +5738,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -5734,7 +5788,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -5784,7 +5838,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -5834,7 +5888,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -5884,7 +5938,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -5934,7 +5988,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -5984,7 +6038,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -6034,7 +6088,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -6088,7 +6142,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10866,
+      "stars": 10891,
       "curatedMentions": 1
     },
     {
@@ -6141,7 +6195,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10866,
+      "stars": 10891,
       "curatedMentions": 1
     },
     {
@@ -6195,7 +6249,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10866,
+      "stars": 10891,
       "curatedMentions": 1
     },
     {
@@ -6245,7 +6299,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:pong",
       "familySize": 5,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -6295,7 +6349,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:pong",
       "familySize": 5,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -6345,7 +6399,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:pong",
       "familySize": 5,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -6395,7 +6449,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:pong",
       "familySize": 5,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -6445,7 +6499,7 @@
       "variantCount": 0,
       "templateFamily": "davila7/claude-code-templates:pong",
       "familySize": 5,
-      "stars": 32893,
+      "stars": 32921,
       "curatedMentions": 2
     },
     {
@@ -6476,7 +6530,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -6526,7 +6580,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -6577,7 +6631,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -6627,7 +6681,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -6677,7 +6731,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -6727,7 +6781,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -6777,7 +6831,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -6827,7 +6881,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -6877,7 +6931,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -6927,7 +6981,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -6977,7 +7031,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -7027,7 +7081,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -7077,7 +7131,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -7127,7 +7181,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -7177,7 +7231,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -7227,7 +7281,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -7277,7 +7331,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -7327,7 +7381,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -7377,7 +7431,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -7427,7 +7481,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -7477,7 +7531,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -7527,7 +7581,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -7577,7 +7631,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -7627,7 +7681,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -7677,7 +7731,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -7727,7 +7781,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -7777,7 +7831,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -7827,7 +7881,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -7877,7 +7931,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -7927,7 +7981,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -7977,7 +8031,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -8027,7 +8081,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -8077,7 +8131,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -8127,7 +8181,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -8177,7 +8231,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -8227,7 +8281,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -8277,7 +8331,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -8327,7 +8381,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -8377,7 +8431,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -8427,7 +8481,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -8477,7 +8531,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -8527,7 +8581,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -8577,7 +8631,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -8627,7 +8681,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -8677,7 +8731,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -8727,7 +8781,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -8777,7 +8831,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -8827,7 +8881,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -8878,7 +8932,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -8928,7 +8982,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -8978,7 +9032,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -9028,7 +9082,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -9078,7 +9132,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -9128,7 +9182,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -9178,7 +9232,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -9228,7 +9282,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -9278,7 +9332,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -9329,7 +9383,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -9379,7 +9433,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -9429,7 +9483,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -9479,7 +9533,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -9530,7 +9584,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -9580,7 +9634,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -9630,7 +9684,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -9680,7 +9734,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -9730,7 +9784,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -9780,7 +9834,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -9830,7 +9884,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -9880,7 +9934,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -9930,7 +9984,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -9980,7 +10034,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -10030,7 +10084,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -10080,7 +10134,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -10130,7 +10184,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -10180,7 +10234,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -10230,7 +10284,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -10280,7 +10334,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -10330,7 +10384,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -10380,7 +10434,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -10430,7 +10484,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -10480,7 +10534,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -10531,7 +10585,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -10581,7 +10635,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -10631,7 +10685,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -10682,7 +10736,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -10732,7 +10786,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -10782,7 +10836,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -10833,7 +10887,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -10883,7 +10937,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -10933,7 +10987,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -10984,7 +11038,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -11034,7 +11088,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -11084,7 +11138,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -11134,7 +11188,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -11184,7 +11238,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -11234,7 +11288,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -11284,7 +11338,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -11334,7 +11388,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -11385,7 +11439,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -11436,7 +11490,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -11487,7 +11541,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -11537,7 +11591,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -11587,7 +11641,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -11637,7 +11691,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -11687,7 +11741,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -11737,7 +11791,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -11787,7 +11841,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -11837,7 +11891,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -11887,7 +11941,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -11938,7 +11992,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -11989,7 +12043,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -12039,7 +12093,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -12089,7 +12143,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -12139,7 +12193,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -12189,7 +12243,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -12239,7 +12293,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -12289,7 +12343,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -12340,7 +12394,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -12390,7 +12444,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -12440,7 +12494,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -12490,7 +12544,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -12539,7 +12593,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -12589,7 +12643,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 58,
+        "score": 57,
         "gates": {
           "security": true,
           "schema": true,
@@ -12710,7 +12764,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10866,
+      "stars": 10891,
       "curatedMentions": 1
     },
     {
@@ -12760,7 +12814,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10866,
+      "stars": 10891,
       "curatedMentions": 1
     },
     {
@@ -12809,7 +12863,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10866,
+      "stars": 10891,
       "curatedMentions": 1
     },
     {
@@ -12859,7 +12913,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 10866,
+      "stars": 10891,
       "curatedMentions": 1
     },
     {
@@ -12913,206 +12967,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 893,
-      "curatedMentions": 1
-    },
-    {
-      "id": "rules:sanjeed5/awesome-cursor-rules-mdc:rules-mdc/openai.mdc#openai",
-      "type": "rules",
-      "name": "openai",
-      "description": {
-        "zh": null,
-        "en": "This guide provides definitive, actionable best practices for developing with the OpenAI API, covering prompt engineering, robust client usage, agent design, and testing.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "testing",
-        "meta",
-        "design"
-      ],
-      "targets": [
-        "cursor"
-      ],
-      "source": {
-        "repo": "sanjeed5/awesome-cursor-rules-mdc",
-        "path": "rules-mdc/openai.mdc",
-        "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/HEAD/rules-mdc/openai.mdc",
-        "tier": 2
-      },
-      "quality": {
-        "score": 52,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 3557,
-      "curatedMentions": 1
-    },
-    {
-      "id": "rules:sanjeed5/awesome-cursor-rules-mdc:rules-v0-deprecated/python-llm-ml-workflow-cursorrules-prompt-file/llm-prompt-engineering.mdc#llm-prompt-engineering",
-      "type": "rules",
-      "name": "llm-prompt-engineering",
-      "description": {
-        "zh": null,
-        "en": "Dedicates a module or files for managing Prompt templates with version control for LLM applications.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "meta"
-      ],
-      "targets": [
-        "cursor"
-      ],
-      "source": {
-        "repo": "sanjeed5/awesome-cursor-rules-mdc",
-        "path": "rules-v0-deprecated/python-llm-ml-workflow-cursorrules-prompt-file/llm-prompt-engineering.mdc",
-        "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/HEAD/rules-v0-deprecated/python-llm-ml-workflow-cursorrules-prompt-file/llm-prompt-engineering.mdc",
-        "tier": 2
-      },
-      "quality": {
-        "score": 52,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 3557,
-      "curatedMentions": 1
-    },
-    {
-      "id": "rules:sanjeed5/awesome-cursor-rules-mdc:rules-v0-deprecated/react-graphql-apollo-client-cursorrules-prompt-file/apollo-custom-hooks.mdc#apollo-custom-hooks",
-      "type": "rules",
-      "name": "apollo-custom-hooks",
-      "description": {
-        "zh": null,
-        "en": "Instructs to implement custom hooks for Apollo operations.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "meta"
-      ],
-      "targets": [
-        "cursor"
-      ],
-      "source": {
-        "repo": "sanjeed5/awesome-cursor-rules-mdc",
-        "path": "rules-v0-deprecated/react-graphql-apollo-client-cursorrules-prompt-file/apollo-custom-hooks.mdc",
-        "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/HEAD/rules-v0-deprecated/react-graphql-apollo-client-cursorrules-prompt-file/apollo-custom-hooks.mdc",
-        "tier": 2
-      },
-      "quality": {
-        "score": 52,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 3557,
-      "curatedMentions": 1
-    },
-    {
-      "id": "rules:sanjeed5/awesome-cursor-rules-mdc:rules-v0-deprecated/react-query-cursorrules-prompt-file/react-query-hooks-directory-guidelines.mdc#react-query-hooks-directory-guidelines",
-      "type": "rules",
-      "name": "react-query-hooks-directory-guidelines",
-      "description": {
-        "zh": null,
-        "en": "This rule specifies the folder structure and purpose for placing React Query custom hooks in dedicated subdirectories.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding",
-        "meta"
-      ],
-      "targets": [
-        "cursor"
-      ],
-      "source": {
-        "repo": "sanjeed5/awesome-cursor-rules-mdc",
-        "path": "rules-v0-deprecated/react-query-cursorrules-prompt-file/react-query-hooks-directory-guidelines.mdc",
-        "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/HEAD/rules-v0-deprecated/react-query-cursorrules-prompt-file/react-query-hooks-directory-guidelines.mdc",
-        "tier": 2
-      },
-      "quality": {
-        "score": 52,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 3557,
+      "stars": 897,
       "curatedMentions": 1
     },
     {
@@ -13336,6 +13191,205 @@
       "curatedMentions": 1
     },
     {
+      "id": "rules:sanjeed5/awesome-cursor-rules-mdc:rules-mdc/openai.mdc#openai",
+      "type": "rules",
+      "name": "openai",
+      "description": {
+        "zh": null,
+        "en": "This guide provides definitive, actionable best practices for developing with the OpenAI API, covering prompt engineering, robust client usage, agent design, and testing.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "meta",
+        "design"
+      ],
+      "targets": [
+        "cursor"
+      ],
+      "source": {
+        "repo": "sanjeed5/awesome-cursor-rules-mdc",
+        "path": "rules-mdc/openai.mdc",
+        "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/HEAD/rules-mdc/openai.mdc",
+        "tier": 2
+      },
+      "quality": {
+        "score": 51,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 3557,
+      "curatedMentions": 1
+    },
+    {
+      "id": "rules:sanjeed5/awesome-cursor-rules-mdc:rules-v0-deprecated/python-llm-ml-workflow-cursorrules-prompt-file/llm-prompt-engineering.mdc#llm-prompt-engineering",
+      "type": "rules",
+      "name": "llm-prompt-engineering",
+      "description": {
+        "zh": null,
+        "en": "Dedicates a module or files for managing Prompt templates with version control for LLM applications.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "cursor"
+      ],
+      "source": {
+        "repo": "sanjeed5/awesome-cursor-rules-mdc",
+        "path": "rules-v0-deprecated/python-llm-ml-workflow-cursorrules-prompt-file/llm-prompt-engineering.mdc",
+        "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/HEAD/rules-v0-deprecated/python-llm-ml-workflow-cursorrules-prompt-file/llm-prompt-engineering.mdc",
+        "tier": 2
+      },
+      "quality": {
+        "score": 51,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 3557,
+      "curatedMentions": 1
+    },
+    {
+      "id": "rules:sanjeed5/awesome-cursor-rules-mdc:rules-v0-deprecated/react-graphql-apollo-client-cursorrules-prompt-file/apollo-custom-hooks.mdc#apollo-custom-hooks",
+      "type": "rules",
+      "name": "apollo-custom-hooks",
+      "description": {
+        "zh": null,
+        "en": "Instructs to implement custom hooks for Apollo operations.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "cursor"
+      ],
+      "source": {
+        "repo": "sanjeed5/awesome-cursor-rules-mdc",
+        "path": "rules-v0-deprecated/react-graphql-apollo-client-cursorrules-prompt-file/apollo-custom-hooks.mdc",
+        "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/HEAD/rules-v0-deprecated/react-graphql-apollo-client-cursorrules-prompt-file/apollo-custom-hooks.mdc",
+        "tier": 2
+      },
+      "quality": {
+        "score": 51,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 3557,
+      "curatedMentions": 1
+    },
+    {
+      "id": "rules:sanjeed5/awesome-cursor-rules-mdc:rules-v0-deprecated/react-query-cursorrules-prompt-file/react-query-hooks-directory-guidelines.mdc#react-query-hooks-directory-guidelines",
+      "type": "rules",
+      "name": "react-query-hooks-directory-guidelines",
+      "description": {
+        "zh": null,
+        "en": "This rule specifies the folder structure and purpose for placing React Query custom hooks in dedicated subdirectories.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "meta"
+      ],
+      "targets": [
+        "cursor"
+      ],
+      "source": {
+        "repo": "sanjeed5/awesome-cursor-rules-mdc",
+        "path": "rules-v0-deprecated/react-query-cursorrules-prompt-file/react-query-hooks-directory-guidelines.mdc",
+        "url": "https://github.com/sanjeed5/awesome-cursor-rules-mdc/blob/HEAD/rules-v0-deprecated/react-query-cursorrules-prompt-file/react-query-hooks-directory-guidelines.mdc",
+        "tier": 2
+      },
+      "quality": {
+        "score": 51,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 3557,
+      "curatedMentions": 1
+    },
+    {
       "id": "rules:patrickjs/awesome-cursorrules:rules/semiotic-react-dataviz-cursorrules-prompt-file.mdc#semiotic-react-dataviz-cursorrules-prompt-file",
       "type": "rules",
       "name": "semiotic-react-dataviz-cursorrules-prompt-file",
@@ -13413,7 +13467,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 49,
+        "score": 48,
         "gates": {
           "security": true,
           "schema": true,
@@ -23025,6 +23079,156 @@
         "repo": "eliottreich/taskbounty-mcp-server",
         "path": "io.github.eliottreich/taskbounty-mcp-server",
         "url": "https://github.com/eliottreich/taskbounty-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:ellmos-ai/ellmos-codecommander-mcp:io.github.ellmos-ai/ellmos-codecommander-mcp#ellmos-codecommander",
+      "type": "mcp",
+      "name": "ellmos CodeCommander",
+      "description": {
+        "zh": null,
+        "en": "Developer MCP server: code analysis, JSON repair, imports, diffs, regex, format conversion.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ellmos-ai/ellmos-codecommander-mcp",
+        "path": "io.github.ellmos-ai/ellmos-codecommander-mcp",
+        "url": "https://github.com/ellmos-ai/ellmos-codecommander-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:ellmos-ai/ellmos-filecommander-mcp:io.github.ellmos-ai/ellmos-filecommander-mcp#ellmos-filecommander",
+      "type": "mcp",
+      "name": "ellmos FileCommander",
+      "description": {
+        "zh": null,
+        "en": "Filesystem MCP server: files, previews, search, processes, OCR, archives, safe delete, web fetch.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "document",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ellmos-ai/ellmos-filecommander-mcp",
+        "path": "io.github.ellmos-ai/ellmos-filecommander-mcp",
+        "url": "https://github.com/ellmos-ai/ellmos-filecommander-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:ellmos-ai/n8n-manager-mcp:io.github.ellmos-ai/n8n-manager-mcp#n8n-manager-mcp",
+      "type": "mcp",
+      "name": "n8n Manager MCP",
+      "description": {
+        "zh": null,
+        "en": "MCP server for n8n workflow management -- view, create, sync and manage workflows via AI.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ellmos-ai/n8n-manager-mcp",
+        "path": "io.github.ellmos-ai/n8n-manager-mcp",
+        "url": "https://github.com/ellmos-ai/n8n-manager-mcp",
         "tier": 0
       },
       "quality": {
@@ -43482,12 +43686,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:alexxanddr/italian-bus-search:io.github.alexxanddr/italian-bus-search#italian-bus-search-mcp-server",
+      "id": "mcp:alexxanddr/italian-bus-search:io.github.alexxanddr/italian-bus-search#italian-bus-and-rail-search-mcp-server",
       "type": "mcp",
-      "name": "Italian Bus Search MCP Server",
+      "name": "Italian Bus and Rail Search MCP Server",
       "description": {
         "zh": null,
-        "en": "Read-only bus journey searches across Itabus, Salemi, Federico, MarinoBus, and FlixBus.",
+        "en": "Read-only Italian bus searches and local NeTEx rail schedules.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -43505,6 +43709,56 @@
         "repo": "Alexxanddr/italian-bus-search",
         "path": "io.github.Alexxanddr/italian-bus-search",
         "url": "https://github.com/Alexxanddr/italian-bus-search",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:alexxanddr/italian-travel-search:io.github.alexxanddr/italian-travel-search#italian-travel-search-mcp-server",
+      "type": "mcp",
+      "name": "Italian Travel Search MCP Server",
+      "description": {
+        "zh": null,
+        "en": "Read-only Italian bus searches and local NeTEx rail schedules.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Alexxanddr/italian-travel-search",
+        "path": "io.github.Alexxanddr/italian-travel-search",
+        "url": "https://github.com/Alexxanddr/italian-travel-search",
         "tier": 0
       },
       "quality": {
@@ -46843,6 +47097,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:apiverve/mcp-server:com.apiverve/mcp-server#apiverve",
+      "type": "mcp",
+      "name": "APIVerve",
+      "description": {
+        "zh": null,
+        "en": "380+ live data, validation and utility APIs in one MCP server: IP, DNS, email, FX, weather and more.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "apiverve/mcp-server",
+        "path": "com.apiverve/mcp-server",
+        "url": "https://github.com/apiverve/mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:apocdata/apocdata-mcp-server:io.github.apocdata/mcp-server#io.github.apocdata-mcp-server",
       "type": "mcp",
       "name": "io.github.ApocData/mcp-server",
@@ -48824,6 +49127,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:atomadictech/atomadic-mcp:io.github.atomadictech/aaaa-nexus#aaaa-nexus-verified-ai-safety-apis",
+      "type": "mcp",
+      "name": "aaaa-nexus - Verified AI Safety APIs",
+      "description": {
+        "zh": null,
+        "en": "44-tool MCP server for AI compliance and trust checks. Pay-per-call, no signup.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "atomadictech/atomadic-mcp",
+        "path": "io.github.atomadictech/aaaa-nexus",
+        "url": "https://github.com/atomadictech/atomadic-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:atono-io/atono-mcp-server:io.atono/atono-mcp-server#atono",
       "type": "mcp",
       "name": "Atono",
@@ -49843,6 +50195,55 @@
         "repo": "b1ff/atlassian-dc-mcp",
         "path": "io.github.b1ff/atlassian-dc-mcp-jira",
         "url": "https://github.com/b1ff/atlassian-dc-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:b84330808/mcp-server-for-bambu:io.github.b84330808/mcp-server-for-bambu#bambu-lab-printer-(lan)",
+      "type": "mcp",
+      "name": "Bambu Lab Printer (LAN)",
+      "description": {
+        "zh": null,
+        "en": "Unofficial. Status, AMS filament, print control and maintenance for Bambu Lab 3D printers via LAN",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "b84330808/mcp-server-for-bambu",
+        "path": "io.github.b84330808/mcp-server-for-bambu",
+        "url": "https://github.com/b84330808/mcp-server-for-bambu",
         "tier": 0
       },
       "quality": {
@@ -50905,12 +51306,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:bersimao/b1-mcp-server:io.github.bersimao/b1-mcp-server#sap-business-one-(b1-mcp)",
+      "id": "mcp:bersimao/b1-mcp-server:io.github.bersimao/b1-mcp-server#b1-mcp-server-for-sap-b1",
       "type": "mcp",
-      "name": "SAP Business One (b1-mcp)",
+      "name": "b1-mcp-server for SAP B1",
       "description": {
         "zh": null,
-        "en": "Secure MCP server for SAP Business One database (HANA / MS SQL) and Service Layer operations",
+        "en": "MCP server for SAP Business One database (HANA / MS SQL) and Service Layer operations",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -68380,7 +68781,7 @@
       "name": "io.github.cyanheads/epa-drinking-water-mcp-server",
       "description": {
         "zh": null,
-        "en": "Query EPA drinking water systems, violations, and contaminant records.",
+        "en": "Search EPA drinking water systems, violations, enforcement, and contaminant measurements.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -73934,7 +74335,7 @@
       "name": "io.github.cyanheads/who-gho-mcp-server",
       "description": {
         "zh": null,
-        "en": "WHO Global Health Observatory — 3,059 indicators across 194 member states.",
+        "en": "WHO Global Health Observatory — 3,102 indicators across 194 member states.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -74920,7 +75321,7 @@
       "name": "gosidian",
       "description": {
         "zh": null,
-        "en": "Self-hosted Obsidian-compatible markdown vault with a web UI and a 63-tool MCP server for AI agents",
+        "en": "Self-hosted Obsidian-compatible markdown vault with a web UI and a 71-tool MCP server for AI agents",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -79061,6 +79462,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:docuqueue/docuqueue-mcp:io.github.dvcoolarun/docuqueue-mcp#docuqueue-mcp",
+      "type": "mcp",
+      "name": "DocuQueue MCP",
+      "description": {
+        "zh": null,
+        "en": "MCP server for PDF generation, form filling, batch invoices and contracts. MIT, free tier, hosted.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "docuqueue/docuqueue-mcp",
+        "path": "io.github.dvcoolarun/docuqueue-mcp",
+        "url": "https://github.com/docuqueue/docuqueue-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:dokku-mcp/dokku-mcp:io.github.dokku-mcp/dokku-mcp#dokku-mcp-server",
       "type": "mcp",
       "name": "Dokku MCP Server",
@@ -81137,7 +81588,7 @@
       "name": "AIquila — Nextcloud MCP Server",
       "description": {
         "zh": null,
-        "en": "Nextcloud MCP server — files, calendar, contacts, mail, maps, notes, tasks & 120+ more tools",
+        "en": "Nextcloud MCP server — 345 tools: files, calendar, contacts, mail, Talk, Deck, photos, maps, notes",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -81254,6 +81705,104 @@
         "repo": "EllisMorrow/OmniClip-RAG",
         "path": "io.github.EllisMorrow/omniclip-rag-mcp",
         "url": "https://github.com/EllisMorrow/OmniClip-RAG",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:ellmos-ai/ellmos-clatcher-mcp:io.github.ellmos-ai/ellmos-clatcher-mcp#ellmos-clatcher-mcp",
+      "type": "mcp",
+      "name": "Ellmos Clatcher MCP",
+      "description": {
+        "zh": null,
+        "en": "Utility MCP server: JSON repair, encoding fixes, conversion, duplicates, batch rename, archives.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ellmos-ai/ellmos-clatcher-mcp",
+        "path": "io.github.ellmos-ai/ellmos-clatcher-mcp",
+        "url": "https://github.com/ellmos-ai/ellmos-clatcher-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:ellmos-ai/ellmos-homebase-mcp:io.github.ellmos-ai/ellmos-homebase-mcp#ellmos-homebase",
+      "type": "mcp",
+      "name": "ellmos Homebase",
+      "description": {
+        "zh": null,
+        "en": "Local-first LLM orchestration: memory, knowledge, state, routing, swarm, API discovery, plugins.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ellmos-ai/ellmos-homebase-mcp",
+        "path": "io.github.ellmos-ai/ellmos-homebase-mcp",
+        "url": "https://github.com/ellmos-ai/ellmos-homebase-mcp",
         "tier": 0
       },
       "quality": {
@@ -81846,6 +82395,55 @@
         "repo": "equicirco/JCGEAgentInterface.jl",
         "path": "io.github.equicirco/JCGEAgentInterface.jl",
         "url": "https://github.com/equicirco/JCGEAgentInterface.jl",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:ericlottman/clientportal:com.clientfoyer/clientfoyer#clientfoyer-mcp",
+      "type": "mcp",
+      "name": "ClientFoyer MCP",
+      "description": {
+        "zh": null,
+        "en": "ClientFoyer MCP server for a freelancer client portal - projects, updates, files, invoices.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "EricLottman/ClientPortal",
+        "path": "com.clientfoyer/clientfoyer",
+        "url": "https://github.com/EricLottman/ClientPortal",
         "tier": 0
       },
       "quality": {
@@ -83215,7 +83813,7 @@
       "name": "Cowboy MCP",
       "description": {
         "zh": null,
-        "en": "Self-hosted WordPress MCP server with per-change undo and 203 tools. Free, no relay, no Pro tier.",
+        "en": "Self-hosted WordPress MCP server with 203 tools and per-change undo. OAuth sign-in or API key. Free.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -84173,6 +84771,55 @@
         "repo": "fliptheweb/yazio-mcp",
         "path": "io.github.fliptheweb/yazio-mcp",
         "url": "https://github.com/fliptheweb/yazio-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:flowboxx/agent-card-starter:io.github.flowboxx/agent-card-starter#agent-card-starter",
+      "type": "mcp",
+      "name": "Agent Card Starter",
+      "description": {
+        "zh": null,
+        "en": "Starter kit for small businesses: A2A agent card, MCP server card, example MCP server, validator.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "flowboxx/agent-card-starter",
+        "path": "io.github.flowboxx/agent-card-starter",
+        "url": "https://github.com/flowboxx/agent-card-starter",
         "tier": 0
       },
       "quality": {
@@ -88802,7 +89449,7 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:gosswerner1-max/lazyrelay:io.github.gosswerner1-max/lazyrelay-mcp-server#io.github.gosswerner1-max-lazyrelay-mcp-server",
+      "id": "mcp:gosswerner1-max/lazyrelay-integrations:io.github.gosswerner1-max/lazyrelay-mcp-server#io.github.gosswerner1-max-lazyrelay-mcp-server",
       "type": "mcp",
       "name": "io.github.gosswerner1-max/lazyrelay-mcp-server",
       "description": {
@@ -88822,9 +89469,9 @@
         "mcp-client"
       ],
       "source": {
-        "repo": "gosswerner1-max/lazyrelay",
+        "repo": "gosswerner1-max/lazyrelay-integrations",
         "path": "io.github.gosswerner1-max/lazyrelay-mcp-server",
-        "url": "https://github.com/gosswerner1-max/lazyrelay",
+        "url": "https://github.com/gosswerner1-max/lazyrelay-integrations",
         "tier": 0
       },
       "quality": {
@@ -91667,6 +92314,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:hoya25/mcp-server:io.github.hoya25/nctr-mcp-server#io.github.hoya25-nctr-mcp-server",
+      "type": "mcp",
+      "name": "io.github.Hoya25/nctr-mcp-server",
+      "description": {
+        "zh": null,
+        "en": "NCTR Alliance rewards — search bounties, check earning rates, and discover communities.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Hoya25/mcp-server",
+        "path": "io.github.Hoya25/nctr-mcp-server",
+        "url": "https://github.com/Hoya25/mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:hqkh4nh/dejared-mcp:io.github.hqkh4nh/dejared#io.github.hqkh4nh-dejared",
       "type": "mcp",
       "name": "io.github.hqkh4nh/dejared",
@@ -93003,6 +93699,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:ichbinmeraj/abb-rws-mcp:io.github.ichbinmeraj/abb-rws-mcp#abb-rws-mcp",
+      "type": "mcp",
+      "name": "abb-rws-mcp",
+      "description": {
+        "zh": null,
+        "en": "Read-only MCP server for ABB robot controllers, through abb-rws-daemon on 127.0.0.1.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ichbinmeraj/abb-rws-mcp",
+        "path": "io.github.ichbinmeraj/abb-rws-mcp",
+        "url": "https://github.com/ichbinmeraj/abb-rws-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:icloud-calendar-mcp/icloud-calendar-mcp:org.onekash/icloud-calendar-mcp#org.onekash-icloud-calendar-mcp",
       "type": "mcp",
       "name": "org.onekash/icloud-calendar-mcp",
@@ -93222,6 +93967,104 @@
         "repo": "IDNSIDNS/tenderapi-mcp",
         "path": "io.github.IDNSIDNS/tenderapi-mcp",
         "url": "https://github.com/IDNSIDNS/tenderapi-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:idoo/app-store-connect-mcp:io.github.idoo/app-store-connect-mcp#app-store-connect-mcp",
+      "type": "mcp",
+      "name": "App Store Connect MCP",
+      "description": {
+        "zh": null,
+        "en": "MCP server for App Store Connect: releases, TestFlight, reviews, reports. Read-only by default.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "idoo/app-store-connect-mcp",
+        "path": "io.github.idoo/app-store-connect-mcp",
+        "url": "https://github.com/idoo/app-store-connect-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:idoo/hamn:io.github.idoo/hamn#hamn",
+      "type": "mcp",
+      "name": "Hamn",
+      "description": {
+        "zh": null,
+        "en": "MCP server for App Store Connect: releases, TestFlight, reviews, reports. Read-only by default.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "idoo/hamn",
+        "path": "io.github.idoo/hamn",
+        "url": "https://github.com/idoo/hamn",
         "tier": 0
       },
       "quality": {
@@ -97196,6 +98039,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:isonips/trnch-mcp:fun.trnch/trnch#trnch",
+      "type": "mcp",
+      "name": "TRNCH",
+      "description": {
+        "zh": null,
+        "en": "Robinhood Chain MCP server: memecoin trading for AI agents, rug and honeypot checks, best route.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "isonips/trnch-mcp",
+        "path": "fun.trnch/trnch",
+        "url": "https://github.com/isonips/trnch-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:issmirnov/ynab-mcp-server:com.smirnovlabs/ynab-mcp-server#com.smirnovlabs-ynab-mcp-server",
       "type": "mcp",
       "name": "com.smirnovlabs/ynab-mcp-server",
@@ -98056,55 +98948,6 @@
         "repo": "jamesmontemagno/ohmyposh-configurator",
         "path": "io.github.jamesmontemagno/ohmyposh-configurator",
         "url": "https://github.com/jamesmontemagno/ohmyposh-configurator",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:jamhimself/robinx-mcp:io.github.jamhimself/robinx-mcp#io.github.jamhimself-robinx-mcp",
-      "type": "mcp",
-      "name": "io.github.jamhimself/robinx-mcp",
-      "description": {
-        "zh": null,
-        "en": "Robinhood Chain MCP server: rug checks, deployer records, measured X callers. For agents and bots.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "meta"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "jamhimself/robinx-mcp",
-        "path": "io.github.jamhimself/robinx-mcp",
-        "url": "https://github.com/jamhimself/robinx-mcp",
         "tier": 0
       },
       "quality": {
@@ -101855,7 +102698,7 @@
       "name": "io.github.JoernBerkefeld/mcp-server-mcdev",
       "description": {
         "zh": null,
-        "en": "mcdev MCP: wiki search, .mcdevrc help, journey checklists, metadata types via mcdev.",
+        "en": "Native mcdev through AI: retrieve, build, deploy, command discovery and offline docs.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -105486,6 +106329,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:kder974/aurifex:io.github.kder974/aurifex-mcp#io.github.kder974-aurifex-mcp",
+      "type": "mcp",
+      "name": "io.github.Kder974/aurifex-mcp",
+      "description": {
+        "zh": null,
+        "en": "Aurifex x402 macro data MCP server for trading agents and AI frameworks.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Kder974/aurifex",
+        "path": "io.github.Kder974/aurifex-mcp",
+        "url": "https://github.com/Kder974/aurifex",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:keiranhaax/mcp-retriever:io.github.keiranhaax/mcp-retriever#mcp-retriever",
       "type": "mcp",
       "name": "mcp-retriever",
@@ -107371,6 +108263,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:kshivam1177/android-mcp-framwork:io.github.kshivam1177/androidmcp-framework#androidmcp-framework",
+      "type": "mcp",
+      "name": "AndroidMCP Framework",
+      "description": {
+        "zh": null,
+        "en": "MCP server and CLI for Android development and change-aware Android and Flutter testing workflows.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "kshivam1177/android-mcp-framwork",
+        "path": "io.github.kshivam1177/androidmcp-framework",
+        "url": "https://github.com/kshivam1177/android-mcp-framwork",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:kstreak/kstreak-mcp:io.github.kstreak2026/mcp-server#io.github.kstreak2026-mcp-server",
       "type": "mcp",
       "name": "io.github.KStreak2026/mcp-server",
@@ -107443,6 +108385,55 @@
         "repo": "Kta41/mcp-bruno",
         "path": "io.github.kta41/mcp-bruno",
         "url": "https://github.com/Kta41/mcp-bruno",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:ktgeek/ruby-band-mcp-server:io.github.ktgeek/band-mcp-server#band",
+      "type": "mcp",
+      "name": "BAND",
+      "description": {
+        "zh": null,
+        "en": "List bands and read, post, and comment on BAND posts through the BAND Open API.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ktgeek/ruby-band-mcp-server",
+        "path": "io.github.ktgeek/band-mcp-server",
+        "url": "https://github.com/ktgeek/ruby-band-mcp-server",
         "tier": 0
       },
       "quality": {
@@ -128628,6 +129619,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.iridiumhqmcp/linkedin-mcp#iridium-linkedin-mcp-server",
+      "type": "mcp",
+      "name": "Iridium: LinkedIn MCP Server",
+      "description": {
+        "zh": null,
+        "en": "LinkedIn MCP for Claude, ChatGPT, Grok, Hermes: triage inbox, comment, find people, live profiles",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.iridiumhqmcp/linkedin-mcp",
+        "url": "https://iridiumhqmcp.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.issafu/site#com.issafu-site",
       "type": "mcp",
       "name": "com.issafu/site",
@@ -131352,6 +132392,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.meowapps/ai-engine#ai-engine-for-wordpress",
+      "type": "mcp",
+      "name": "AI Engine for WordPress",
+      "description": {
+        "zh": null,
+        "en": "Free MCP server for WordPress: Claude and ChatGPT connect with OAuth. No account, cap or API key.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.meowapps/ai-engine",
+        "url": "https://meowapps.com/ai-engine/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.mesh-01/aethelon-nexus#mesh-01-aethelon-nexus",
       "type": "mcp",
       "name": "mesh-01 / aethelon-nexus",
@@ -132888,6 +133977,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.pathista/pathista#pathista",
+      "type": "mcp",
+      "name": "Pathista",
+      "description": {
+        "zh": null,
+        "en": "Step-by-step workflows for ChatGPT, Claude and Claude Code: the AI gets one step at a time.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.pathista/pathista",
+        "url": "https://pathista.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.patientvo/site#com.patientvo-site",
       "type": "mcp",
       "name": "com.patientvo/site",
@@ -133260,6 +134399,56 @@
         "repo": null,
         "path": "com.pickpathly/site",
         "url": "https://pickpathly.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.picsart.api/gen-ai#picsart-genai",
+      "type": "mcp",
+      "name": "Picsart GenAI",
+      "description": {
+        "zh": null,
+        "en": "The official Picsart MCP server: generate and edit images, video and audio with 150+ models.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.picsart.api/gen-ai",
+        "url": "https://registry.modelcontextprotocol.io/?q=com.picsart.api%2Fgen-ai",
         "tier": 0
       },
       "quality": {
@@ -141062,6 +142251,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.bitbucket.markedet/agent-economy-data#io.bitbucket.markedet-agent-economy-data",
+      "type": "mcp",
+      "name": "io.bitbucket.markedet/agent-economy-data",
+      "description": {
+        "zh": null,
+        "en": "MCP server counts from the official registry, new servers per day, and MCP/A2A spec changes. As is.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.bitbucket.markedet/agent-economy-data",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.bitbucket.markedet%2Fagent-economy-data",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.brainfile/brainfile#io.brainfile-brainfile",
       "type": "mcp",
       "name": "io.brainfile/brainfile",
@@ -142719,6 +143957,56 @@
         "repo": null,
         "path": "io.github.CSOAI-ORG/optometry-ai-safety-mcp",
         "url": "https://registry.modelcontextprotocol.io/?q=io.github.CSOAI-ORG%2Foptometry-ai-safety-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.cyan-eclipse-technologies-llc/health-check#eclipse-health-check-mcp",
+      "type": "mcp",
+      "name": "Eclipse Health Check MCP",
+      "description": {
+        "zh": null,
+        "en": "Scan an MCP server or agent configuration for security posture — evidence-bound findings",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.CYAN-ECLIPSE-TECHNOLOGIES-LLC/health-check",
+        "url": "https://eclipsebazaar.com",
         "tier": 0
       },
       "quality": {
@@ -146673,6 +147961,55 @@
         "repo": null,
         "path": "io.github.sasikumarlilly/test-mcp-server",
         "url": "https://registry.modelcontextprotocol.io/?q=io.github.sasikumarlilly%2Ftest-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.screenrig/screenrig#screenrig-free-digital-signage-for-ai-agents",
+      "type": "mcp",
+      "name": "screenRIG: free digital signage for AI agents",
+      "description": {
+        "zh": null,
+        "en": "Free digital signage MCP server: publish to TVs, schedule, verify with screenshots. OAuth sign-in.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.screenrig/screenrig",
+        "url": "https://screenrig.ai/developers",
         "tier": 0
       },
       "quality": {
@@ -163558,6 +164895,104 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:meteosource/meteosource-weather-mcp:com.meteosource/weather#weather-mcp-server-by-meteosource",
+      "type": "mcp",
+      "name": "Weather MCP Server by Meteosource",
+      "description": {
+        "zh": null,
+        "en": "Forecasts, severe-weather alerts, air quality, 20-year weather history, solar and wind production.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Meteosource/meteosource-weather-mcp",
+        "path": "com.meteosource/weather",
+        "url": "https://github.com/Meteosource/meteosource-weather-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mguttmann/action1-mcp:io.github.mguttmann/action1-mcp#action1-rmm-(unofficial)",
+      "type": "mcp",
+      "name": "Action1 RMM (unofficial)",
+      "description": {
+        "zh": null,
+        "en": "Unofficial MCP server for the Action1 RMM API: fleet queries, scripts, updates, guarded changes.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "mguttmann/action1-mcp",
+        "path": "io.github.mguttmann/action1-mcp",
+        "url": "https://github.com/mguttmann/action1-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mhajder/ghostfolio-mcp:io.github.mhajder/ghostfolio-mcp#ghostfolio-mcp",
       "type": "mcp",
       "name": "Ghostfolio MCP",
@@ -163580,6 +165015,55 @@
         "repo": "mhajder/ghostfolio-mcp",
         "path": "io.github.mhajder/ghostfolio-mcp",
         "url": "https://github.com/mhajder/ghostfolio-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mhajder/glpi-mcp:io.github.mhajder/glpi-mcp#glpi-mcp",
+      "type": "mcp",
+      "name": "GLPI MCP",
+      "description": {
+        "zh": null,
+        "en": "MCP server for GLPI IT service management (tickets, assets, users, knowledge base)",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "mhajder/glpi-mcp",
+        "path": "io.github.mhajder/glpi-mcp",
+        "url": "https://github.com/mhajder/glpi-mcp",
         "tier": 0
       },
       "quality": {
@@ -181523,6 +183007,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:oddessentials/agent-guild:ai.oddessentials/agent-guild#agent-guild",
+      "type": "mcp",
+      "name": "Agent Guild",
+      "description": {
+        "zh": null,
+        "en": "See and steer Claude Code, Codex, Antigravity, Grok, Docker Agent and shell sessions in Agent Guild.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding",
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "oddessentials/agent-guild",
+        "path": "ai.oddessentials/agent-guild",
+        "url": "https://github.com/oddessentials/agent-guild",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:oddwood-x/barcode-tool:io.github.oddwood-x/barcode-tool#oddwood-barcode-tool",
       "type": "mcp",
       "name": "ODDWOOD Barcode Tool",
@@ -181844,6 +183379,57 @@
         "repo": "oito2/mcp-build82",
         "path": "io.github.oito2/mcp-build82",
         "url": "https://github.com/oito2/mcp-build82",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:olbrain/alchemist-plugin:com.olbrain/alchemist#olbrain-alchemist",
+      "type": "mcp",
+      "name": "Olbrain Alchemist",
+      "description": {
+        "zh": null,
+        "en": "Build, test and publish Olbrain AI agents from Claude Code, Codex or Claude.ai.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding",
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Olbrain/alchemist-plugin",
+        "path": "com.olbrain/alchemist",
+        "url": "https://github.com/Olbrain/alchemist-plugin",
         "tier": 0
       },
       "quality": {
@@ -184168,6 +185754,57 @@
         "repo": "paoloricciuti/letmediff",
         "path": "it.letmediff/mcp",
         "url": "https://github.com/paoloricciuti/letmediff",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:paprika3d/paprika3d:io.github.paprika3d/paprika3d#paprika3d-(the-three.js-toolset-for-coding-agents)",
+      "type": "mcp",
+      "name": "paprika3d (the three.js toolset for coding agents)",
+      "description": {
+        "zh": null,
+        "en": "Three.js MCP server: see, play, test and profile the three.js and WebGL pages your agent builds",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "meta",
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "paprika3d/paprika3d",
+        "path": "io.github.paprika3d/paprika3d",
+        "url": "https://github.com/paprika3d/paprika3d",
         "tier": 0
       },
       "quality": {
@@ -188099,6 +189736,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:prospectapis/prospectapis-mcp:com.prospectapis/prospectapis-mcp#prospectapis",
+      "type": "mcp",
+      "name": "ProspectAPIs",
+      "description": {
+        "zh": null,
+        "en": "MCP server for prospectapis.com: funding rounds, email verification and cited research briefs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "research",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ProspectAPIs/prospectapis-mcp",
+        "path": "com.prospectapis/prospectapis-mcp",
+        "url": "https://github.com/ProspectAPIs/prospectapis-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:prospectapis/prospectapis-mcp:io.github.prospectapis/prospectapis-mcp#prospectapis",
       "type": "mcp",
       "name": "ProspectAPIs",
@@ -191164,7 +192851,7 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:quincygb/token-verdict-tools:io.github.quincygb/list-smith-mcp#listsmith",
+      "id": "mcp:quincygb/list-smith-mcp:io.github.quincygb/list-smith-mcp#listsmith",
       "type": "mcp",
       "name": "ListSmith",
       "description": {
@@ -191183,9 +192870,9 @@
         "mcp-client"
       ],
       "source": {
-        "repo": "QuincyGB/token-verdict-tools",
+        "repo": "QuincyGB/list-smith-mcp",
         "path": "io.github.QuincyGB/list-smith-mcp",
-        "url": "https://github.com/QuincyGB/token-verdict-tools",
+        "url": "https://github.com/QuincyGB/list-smith-mcp",
         "tier": 0
       },
       "quality": {
@@ -191213,7 +192900,7 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:quincygb/token-verdict-tools:io.github.quincygb/route-verdict-mcp#routeverdict",
+      "id": "mcp:quincygb/route-verdict-mcp:io.github.quincygb/route-verdict-mcp#routeverdict",
       "type": "mcp",
       "name": "RouteVerdict",
       "description": {
@@ -191232,9 +192919,9 @@
         "mcp-client"
       ],
       "source": {
-        "repo": "QuincyGB/token-verdict-tools",
+        "repo": "QuincyGB/route-verdict-mcp",
         "path": "io.github.QuincyGB/route-verdict-mcp",
-        "url": "https://github.com/QuincyGB/token-verdict-tools",
+        "url": "https://github.com/QuincyGB/route-verdict-mcp",
         "tier": 0
       },
       "quality": {
@@ -191262,7 +192949,7 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:quincygb/token-verdict-tools:io.github.quincygb/token-verdict-mcp#token-verdict",
+      "id": "mcp:quincygb/token-verdict-mcp:io.github.quincygb/token-verdict-mcp#token-verdict",
       "type": "mcp",
       "name": "Token Verdict",
       "description": {
@@ -191281,9 +192968,9 @@
         "mcp-client"
       ],
       "source": {
-        "repo": "QuincyGB/token-verdict-tools",
+        "repo": "QuincyGB/token-verdict-mcp",
         "path": "io.github.QuincyGB/token-verdict-mcp",
-        "url": "https://github.com/QuincyGB/token-verdict-tools",
+        "url": "https://github.com/QuincyGB/token-verdict-mcp",
         "tier": 0
       },
       "quality": {
@@ -198399,6 +200086,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:sculptdotfun/viberank:io.github.sculptdotfun/viberank#viberank",
+      "type": "mcp",
+      "name": "viberank",
+      "description": {
+        "zh": null,
+        "en": "Submit your AI coding usage (Claude Code, Codex, Gemini CLI) to viberank and read the leaderboard.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "sculptdotfun/viberank",
+        "path": "io.github.sculptdotfun/viberank",
+        "url": "https://github.com/sculptdotfun/viberank",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:sdamarketing/tracker_mcp:io.github.sdamarketing/tracker-mcp#yandex-tracker",
       "type": "mcp",
       "name": "Yandex Tracker",
@@ -202247,6 +203984,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:simple-commenter/mcp-server:io.github.simple-commenter/mcp-server#simple-commenter",
+      "type": "mcp",
+      "name": "Simple Commenter",
+      "description": {
+        "zh": null,
+        "en": "Search, export, triage, and manage authorized website and asset feedback in Simple Commenter.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "research",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "simple-commenter/mcp-server",
+        "path": "io.github.simple-commenter/mcp-server",
+        "url": "https://github.com/simple-commenter/mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:simplifier-ag/simplifier-mcp:io.github.simplifier-ag/simplifier-mcp#io.github.simplifier-ag-simplifier-mcp",
       "type": "mcp",
       "name": "io.github.simplifier-ag/simplifier-mcp",
@@ -203458,6 +205245,55 @@
         "repo": "smurfy92/openclaw-control-mcp",
         "path": "io.github.smurfy92/openclaw-control-mcp",
         "url": "https://github.com/smurfy92/openclaw-control-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:snoozelieb/coach-mcp:io.github.snoozelieb/coach-mcp#io.github.snoozelieb-coach-mcp",
+      "type": "mcp",
+      "name": "io.github.snoozelieb/coach-mcp",
+      "description": {
+        "zh": null,
+        "en": "Adaptive AI training coach MCP server backed by Garmin Connect",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "snoozelieb/coach-mcp",
+        "path": "io.github.snoozelieb/coach-mcp",
+        "url": "https://github.com/snoozelieb/coach-mcp",
         "tier": 0
       },
       "quality": {
@@ -207491,6 +209327,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:swswordholy-tech/agentschatprotocol:io.github.swswordholy-tech/agentschat-mcp#agentschat-—-shared-mcp-rooms-for-ai-coding-agents",
+      "type": "mcp",
+      "name": "AgentsChat — Shared MCP Rooms for AI Coding Agents",
+      "description": {
+        "zh": null,
+        "en": "Bring Claude Code, Codex, Cursor, OpenClaw, and Hermes into shared rooms over MCP to collaborate.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "swswordholy-tech/AgentsChatProtocol",
+        "path": "io.github.swswordholy-tech/agentschat-mcp",
+        "url": "https://github.com/swswordholy-tech/AgentsChatProtocol",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:synergyflowlabs/notion-arena:io.github.imgul/notion-arena#io.github.imgul-notion-arena",
       "type": "mcp",
       "name": "io.github.imgul/notion-arena",
@@ -207761,6 +209647,56 @@
         "repo": "taasky/taasky",
         "path": "ai.taasky/common-ground",
         "url": "https://github.com/taasky/taasky",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:table-bro/table-bro:io.github.table-bro/table-bro#table,-bro",
+      "type": "mcp",
+      "name": "Table, Bro",
+      "description": {
+        "zh": null,
+        "en": "Pixel-perfect Material (M3) data tables for your app in one prompt: Claude Code, Cursor, Codex.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "table-bro/table-bro",
+        "path": "io.github.table-bro/table-bro",
+        "url": "https://github.com/table-bro/table-bro",
         "tier": 0
       },
       "quality": {
@@ -209070,105 +211006,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:theluckystrike/mcp-servers:io.github.theluckystrike/office-suite-time-invoice-expense-excel-price#io.github.theluckystrike-office-suite-time-invoice-expense-e",
-      "type": "mcp",
-      "name": "io.github.theluckystrike/office-suite-time-invoice-expense-excel-price",
-      "description": {
-        "zh": null,
-        "en": "One MCP server for the whole freelancer office: time tracking, price watching, spreadsheets and",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "document",
-        "meta"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "theluckystrike/mcp-servers",
-        "path": "io.github.theluckystrike/office-suite-time-invoice-expense-excel-price",
-        "url": "https://github.com/theluckystrike/mcp-servers",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:theluckystrike/mcp-servers:io.github.theluckystrike/office-suite#io.github.theluckystrike-office-suite",
-      "type": "mcp",
-      "name": "io.github.theluckystrike/office-suite",
-      "description": {
-        "zh": null,
-        "en": "Whole freelancer office in one MCP server: time tracking, price watching, spreadsheets, invoicing.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "meta"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "theluckystrike/mcp-servers",
-        "path": "io.github.theluckystrike/office-suite",
-        "url": "https://github.com/theluckystrike/mcp-servers",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:theoddden/terradev:io.github.theoddden/terradev#terradev",
       "type": "mcp",
       "name": "Terradev",
@@ -209960,12 +211797,110 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:tokenzero-ai/tokenzero:io.github.tokenzero-ai/tokenzero#tokenzero",
+      "type": "mcp",
+      "name": "TokenZero",
+      "description": {
+        "zh": null,
+        "en": "LLM cost optimization gateway, repo token-waste auditor & model arbitrage MCP server.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "tokenzero-ai/tokenzero",
+        "path": "io.github.tokenzero-ai/tokenzero",
+        "url": "https://github.com/tokenzero-ai/tokenzero",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:tokenzero-ai/tokenzero:sh.tokenzero/mcp#tokenzero",
+      "type": "mcp",
+      "name": "TokenZero",
+      "description": {
+        "zh": null,
+        "en": "LLM cost optimization gateway, repo token-waste auditor & model arbitrage MCP server.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "tokenzero-ai/tokenzero",
+        "path": "sh.tokenzero/mcp",
+        "url": "https://github.com/tokenzero-ai/tokenzero",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:tolboy/telegram-mcp-tdlib:io.github.tolboy/telegram-mcp-tdlib#telegram-mcp-server",
       "type": "mcp",
       "name": "Telegram MCP Server",
       "description": {
         "zh": null,
-        "en": "Local-first TDLib Telegram MCP server with 115 tools, account isolation and production guardrails.",
+        "en": "Local-first TDLib Telegram MCP server with 116 tools, account isolation and production guardrails.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -210578,6 +212513,55 @@
         "repo": "TrackingTime/mcp",
         "path": "io.github.TrackingTime/mcp-server",
         "url": "https://github.com/TrackingTime/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:trags-garden/poppy:ai.trags/poppy#ai.trags-poppy",
+      "type": "mcp",
+      "name": "ai.trags/poppy",
+      "description": {
+        "zh": null,
+        "en": "Developer memory CLI and MCP server. Remember decisions, preferences, and lessons locally.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "trags-garden/poppy",
+        "path": "ai.trags/poppy",
+        "url": "https://github.com/trags-garden/poppy",
         "tier": 0
       },
       "quality": {
@@ -211611,57 +213595,6 @@
         "repo": "uindow/uindow",
         "path": "io.github.uindow/uindow",
         "url": "https://github.com/uindow/uindow",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:uiverify/uiverify:io.github.igrlk/uiverify#ui-verify",
-      "type": "mcp",
-      "name": "UI Verify",
-      "description": {
-        "zh": null,
-        "en": "MCP server for visual regression testing: triage a PR's UI diffs from your coding agent.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "design",
-        "testing",
-        "meta"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "uiverify/uiverify",
-        "path": "io.github.igrlk/uiverify",
-        "url": "https://github.com/uiverify/uiverify",
         "tier": 0
       },
       "quality": {
@@ -214089,6 +216022,56 @@
         "repo": "Vosikkk/google-search-console-mcp",
         "path": "io.github.Vosikkk/google-search-console-mcp",
         "url": "https://github.com/Vosikkk/google-search-console-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:voxnode-ux/nullwire-mcp:io.github.voxnode-ux/nullwire-mcp#nullwire-mcp",
+      "type": "mcp",
+      "name": "NullWire-MCP",
+      "description": {
+        "zh": null,
+        "en": "RAM-only HTTP debugging proxy and MCP server in Go. AI agents see salted tags, never secrets.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "VoxNode-ux/nullwire-mcp",
+        "path": "io.github.VoxNode-ux/nullwire-mcp",
+        "url": "https://github.com/VoxNode-ux/nullwire-mcp",
         "tier": 0
       },
       "quality": {
@@ -224403,56 +226386,6 @@
         "repo": "yourimageshare/yourimageshare",
         "path": "io.github.yourimageshare/yourimageshare",
         "url": "https://github.com/yourimageshare/yourimageshare",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:yt6363/job-search-mcp:click.findyourrolefirst/jobfeed#find-your-role-first",
-      "type": "mcp",
-      "name": "Find your role first",
-      "description": {
-        "zh": null,
-        "en": "New jobs from 15,000+ company career sites, newest first, for Claude Code, Codex and any agent.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "meta",
-        "coding"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "yt6363/job-search-mcp",
-        "path": "click.findyourrolefirst/jobfeed",
-        "url": "https://github.com/yt6363/job-search-mcp",
         "tier": 0
       },
       "quality": {
