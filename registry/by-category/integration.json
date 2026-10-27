@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T23:00:49.202Z",
+  "generatedAt": "2026-10-27T22:50:49.702Z",
   "category": {
     "key": "integration",
     "zh": "三方集成",
@@ -85,7 +85,7 @@
       }
     ]
   },
-  "total": 515,
+  "total": 529,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/slack-gif-creator/skill.md#slack-gif-creator",
@@ -1302,7 +1302,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -1356,7 +1356,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -1410,7 +1410,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -1464,7 +1464,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -1517,7 +1517,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -1570,7 +1570,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -1623,7 +1623,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -1677,7 +1677,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -1731,7 +1731,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -1784,7 +1784,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -1838,7 +1838,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -1892,7 +1892,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -1945,7 +1945,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -1999,7 +1999,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -2052,7 +2052,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -2103,7 +2103,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -3786,12 +3786,12 @@
       "curatedMentions": 1
     },
     {
-      "id": "mcp:geiserx/telegram-archive-mcp:io.github.geiserx/telegram-archive-mcp#io.github.geiserx-telegram-archive-mcp",
+      "id": "mcp:geiserx/telegram-archive-mcp:io.github.geiserx/telegram-archive-mcp#telegram-archive",
       "type": "mcp",
-      "name": "io.github.GeiserX/telegram-archive-mcp",
+      "name": "Telegram Archive",
       "description": {
         "zh": null,
-        "en": "MCP server for Telegram Archive — search messages, browse chats, and access history",
+        "en": "Search and read your archived Telegram chats and messages",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -5474,7 +5474,7 @@
       "name": "Telegram Bridge",
       "description": {
         "zh": null,
-        "en": "Stdio MCP bridge to Telegram Bot API with scrubbing and chat allowlist.",
+        "en": "Stdio MCP bridge to Telegram with scrubbing and a fail-closed allowlist.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -7154,6 +7154,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:egor-fedorov/telegram-mcp:io.github.egor-fedorov/telegram-mcp#telegram-context-mcp",
+      "type": "mcp",
+      "name": "Telegram Context MCP",
+      "description": {
+        "zh": null,
+        "en": "Read permitted Telegram chats, retrieve original posts and files, and track changes locally.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "egor-fedorov/telegram-mcp",
+        "path": "io.github.egor-fedorov/telegram-mcp",
+        "url": "https://github.com/egor-fedorov/telegram-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:ehtyn/acrium-mcp:com.acriumautomated/acrium#acrium",
       "type": "mcp",
       "name": "Acrium",
@@ -7902,7 +7951,7 @@
       "name": "ListSignal",
       "description": {
         "zh": null,
-        "en": "B2B sales intelligence: tech stack, Shopify apps, revenue, hiring and contacts for 25M+ firms",
+        "en": "B2B sales intelligence: tech stack, Shopify apps, revenue, hiring, contacts and change signals",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -8514,6 +8563,55 @@
         "repo": "inity13/digital-stores",
         "path": "dev.pages.datanest-stores/store",
         "url": "https://github.com/inity13/digital-stores",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:insanedevhq/apify-mcp-servers:io.github.insanedevhq/shopify-store-leads#shopify-store-leads",
+      "type": "mcp",
+      "name": "Shopify Store Leads",
+      "description": {
+        "zh": null,
+        "en": "Find Shopify stores by country, installed apps, theme or brand, with public e-mails and socials.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "insanedevhq/apify-mcp-servers",
+        "path": "io.github.insanedevhq/shopify-store-leads",
+        "url": "https://github.com/insanedevhq/apify-mcp-servers",
         "tier": 0
       },
       "quality": {
@@ -9702,6 +9800,55 @@
         "repo": "kisasa/shopify-mcp",
         "path": "io.github.kisasa/shopify-mcp",
         "url": "https://github.com/kisasa/shopify-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:kryptoscan/email-deliverability-mcp:io.github.kryptoscan/email-deliverability-mcp#email-deliverability-checker",
+      "type": "mcp",
+      "name": "Email Deliverability Checker",
+      "description": {
+        "zh": null,
+        "en": "Check SPF, DKIM, DMARC, blocklists, reverse DNS and email headers against Gmail/Yahoo sender rules.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "kryptoscan/email-deliverability-mcp",
+        "path": "io.github.kryptoscan/email-deliverability-mcp",
+        "url": "https://github.com/kryptoscan/email-deliverability-mcp",
         "tier": 0
       },
       "quality": {
@@ -11017,6 +11164,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:ai.chipp/chipp-channels#chipp-channels",
+      "type": "mcp",
+      "name": "Chipp Channels",
+      "description": {
+        "zh": null,
+        "en": "Chipp: Slack, email, WhatsApp, GitHub, Discord and voice deployments, and heartbeat schedules",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.chipp/chipp-channels",
+        "url": "https://chipp.ai/docs/guides/mcp/sub-mcps",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:ai.context-link/context-link#context-link",
       "type": "mcp",
       "name": "Context Link",
@@ -12257,6 +12453,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:cc.secondpage/secondpage#secondpage",
+      "type": "mcp",
+      "name": "SecondPage",
+      "description": {
+        "zh": null,
+        "en": "Dashboards, websites, and apps: the Google Drive for everything your AI makes. Edit it together.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "cc.secondpage/secondpage",
+        "url": "https://secondpage.cc",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:click.myagents/google-drive#google-drive",
       "type": "mcp",
       "name": "Google Drive",
@@ -12802,12 +13047,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:com.86hc/hongkong-company#hong-kong-company",
+      "id": "mcp:mcp-official:com.86hc/hongkong-company#hong-kong-company-registry-&-due-diligence-(86hc.com)",
       "type": "mcp",
-      "name": "Hong Kong Company",
+      "name": "Hong Kong Company Registry & Due Diligence (86hc.com)",
       "description": {
         "zh": null,
-        "en": "Query 3.9M+ HK companies (3 free/day no key) & order official filings via Stripe. Data: 86hc.com.",
+        "en": "Search 3.9M+ HK companies (CR, BRN, UBO, status) & order NAR1/NNC1 filings via Stripe. Free trial.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -12815,6 +13060,7 @@
       },
       "lang": "en",
       "categories": [
+        "research",
         "integration"
       ],
       "targets": [
@@ -12824,6 +13070,57 @@
         "repo": null,
         "path": "com.86hc/hongkong-company",
         "url": "https://www.86hc.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.agentfieldkit/kits#agent-field-kit",
+      "type": "mcp",
+      "name": "Agent Field Kit",
+      "description": {
+        "zh": null,
+        "en": "Search, price and buy field-tested agent-ops kits (evals, security, runbooks) via Stripe checkout.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "research",
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.agentfieldkit/kits",
+        "url": "https://agentfieldkit.com",
         "tier": 0
       },
       "quality": {
@@ -16909,7 +17206,7 @@
       "name": "SandboxAPIs",
       "description": {
         "zh": null,
-        "en": "Drop-in read-only replicas of GitHub, Jira, Slack and 18 more, preloaded with one fake company.",
+        "en": "Drop-in read-only replicas of GitHub, Jira, Slack and 22 more, preloaded with one fake company.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -19728,6 +20025,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:merlinfuchs/kite:onl.kite/kite#kite",
+      "type": "mcp",
+      "name": "Kite",
+      "description": {
+        "zh": null,
+        "en": "Build and fix Discord bots hosted on Kite: commands, events, messages and Discord API requests.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "merlinfuchs/kite",
+        "path": "onl.kite/kite",
+        "url": "https://github.com/merlinfuchs/kite",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mesteriis/tg-account-mcp:io.github.mesteriis/tg-account-mcp#tg-multi-account-mcp",
       "type": "mcp",
       "name": "TG multi-account MCP",
@@ -20370,12 +20716,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:n24q02m/better-notion-mcp:io.github.n24q02m/better-notion-mcp#io.github.n24q02m-better-notion-mcp",
+      "id": "mcp:n24q02m/notion:io.github.n24q02m/better-notion-mcp#io.github.n24q02m-better-notion-mcp",
       "type": "mcp",
       "name": "io.github.n24q02m/better-notion-mcp",
       "description": {
         "zh": null,
-        "en": "Markdown-first MCP server for Notion API with 8 composite tools and 39 actions.",
+        "en": "Markdown-first Notion for AI agents -- pages, databases, blocks, and comments in one call.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -20384,16 +20730,15 @@
       "lang": "en",
       "categories": [
         "integration",
-        "document",
-        "meta"
+        "document"
       ],
       "targets": [
         "mcp-client"
       ],
       "source": {
-        "repo": "n24q02m/better-notion-mcp",
+        "repo": "n24q02m/notion",
         "path": "io.github.n24q02m/better-notion-mcp",
-        "url": "https://github.com/n24q02m/better-notion-mcp.git",
+        "url": "https://github.com/n24q02m/notion.git",
         "tier": 0
       },
       "quality": {
@@ -20421,9 +20766,9 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:n24q02m/better-telegram-mcp:io.github.n24q02m/better-telegram-mcp#better-telegram-mcp",
+      "id": "mcp:n24q02m/telegram:io.github.n24q02m/better-telegram-mcp#telegram-mcp",
       "type": "mcp",
-      "name": "Better Telegram MCP",
+      "name": "Telegram MCP",
       "description": {
         "zh": null,
         "en": "Telegram for AI agents: messages, chats, media, and contacts in bot and user-account modes.",
@@ -20440,9 +20785,9 @@
         "mcp-client"
       ],
       "source": {
-        "repo": "n24q02m/better-telegram-mcp",
+        "repo": "n24q02m/telegram",
         "path": "io.github.n24q02m/better-telegram-mcp",
-        "url": "https://github.com/n24q02m/better-telegram-mcp.git",
+        "url": "https://github.com/n24q02m/telegram.git",
         "tier": 0
       },
       "quality": {
@@ -20470,7 +20815,7 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:n24q02m/better-workspace-mcp:io.github.n24q02m/better-workspace-mcp#io.github.n24q02m-better-workspace-mcp",
+      "id": "mcp:n24q02m/workspace:io.github.n24q02m/better-workspace-mcp#io.github.n24q02m-better-workspace-mcp",
       "type": "mcp",
       "name": "io.github.n24q02m/better-workspace-mcp",
       "description": {
@@ -20489,9 +20834,58 @@
         "mcp-client"
       ],
       "source": {
-        "repo": "n24q02m/better-workspace-mcp",
+        "repo": "n24q02m/workspace",
         "path": "io.github.n24q02m/better-workspace-mcp",
-        "url": "https://github.com/n24q02m/better-workspace-mcp",
+        "url": "https://github.com/n24q02m/workspace",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:narwhalthepong/seller-fees-mcp:io.github.narwhalthepong/seller-fees-mcp#seller-fees-calculator",
+      "type": "mcp",
+      "name": "Seller Fees Calculator",
+      "description": {
+        "zh": null,
+        "en": "Gumroad, Stripe, PayPal and Etsy seller fees, payouts and break-even prices. Local, no API key.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "NarwhalThePong/seller-fees-mcp",
+        "path": "io.github.NarwhalThePong/seller-fees-mcp",
+        "url": "https://github.com/NarwhalThePong/seller-fees-mcp",
         "tier": 0
       },
       "quality": {
@@ -20590,6 +20984,56 @@
         "repo": "neilberkman/clippy",
         "path": "io.github.neilberkman/clippy",
         "url": "https://github.com/neilberkman/clippy",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:netrun-io/netrun-mcp:io.netrun/netrun#netrun",
+      "type": "mcp",
+      "name": "Netrun",
+      "description": {
+        "zh": null,
+        "en": "Publish websites and Telegram bots to Netrun — upload a folder from your editor, get a URL",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration",
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "netrun-io/netrun-mcp",
+        "path": "io.netrun/netrun",
+        "url": "https://github.com/netrun-io/netrun-mcp",
         "tier": 0
       },
       "quality": {
@@ -20836,6 +21280,107 @@
         "repo": "nivethaug/dreamagent-mcp-server",
         "path": "io.github.nivethaug/dreamagent",
         "url": "https://github.com/nivethaug/dreamagent-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:ohad6k/viberaven:io.github.ohad6k/viberaven-guides#viberaven",
+      "type": "mcp",
+      "name": "VibeRaven",
+      "description": {
+        "zh": null,
+        "en": "Check Supabase migrations for RLS and grant gaps; fixes for Supabase, Vercel, Stripe errors.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops",
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ohad6k/VibeRaven",
+        "path": "io.github.ohad6k/viberaven-guides",
+        "url": "https://github.com/ohad6k/VibeRaven",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:ohad6k/viberaven:io.github.ohad6k/viberaven#viberaven-(local)",
+      "type": "mcp",
+      "name": "VibeRaven (local)",
+      "description": {
+        "zh": null,
+        "en": "Repo launch checks for Vercel + Supabase apps: RLS, keys in client code, env vars, Stripe webhooks.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "devops",
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ohad6k/VibeRaven",
+        "path": "io.github.ohad6k/viberaven",
+        "url": "https://github.com/ohad6k/VibeRaven",
         "tier": 0
       },
       "quality": {
@@ -24632,6 +25177,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:topy-ai-ltd/topy-ai-cfo-skills:ai.topy/cfo#topy.ai-·-ai-cfo",
+      "type": "mcp",
+      "name": "TOPY.AI · AI CFO",
+      "description": {
+        "zh": null,
+        "en": "Founders' AI CFO: cash and runway, month-end close, Stripe in QuickBooks, reports, UK deadlines.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "TOPY-AI-LTD/TOPY-AI-CFO-Skills",
+        "path": "ai.topy/cfo",
+        "url": "https://github.com/TOPY-AI-LTD/TOPY-AI-CFO-Skills",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:totesmagotes/expensebot-mcp:io.github.totesmagotes/mcp-server-auth#expensebot",
       "type": "mcp",
       "name": "ExpenseBot",
@@ -25204,6 +25798,104 @@
         "repo": "willuhmjs/discord-mcp",
         "path": "io.github.willuhmjs/discord-mcp",
         "url": "https://github.com/willuhmjs/discord-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:wirecatlabs/drive-cli:dev.wirecat/drive-cli#wirecat-google-drive",
+      "type": "mcp",
+      "name": "WireCat Google Drive",
+      "description": {
+        "zh": null,
+        "en": "Google Drive and Docs for agents: search, read and write a local copy. Sign in with drive first.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "WireCatLabs/drive-cli",
+        "path": "dev.wirecat/drive-cli",
+        "url": "https://github.com/WireCatLabs/drive-cli",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:wirecatlabs/tg-cli:dev.wirecat/tg-cli#wirecat-telegram",
+      "type": "mcp",
+      "name": "WireCat Telegram",
+      "description": {
+        "zh": null,
+        "en": "Your Telegram account for agents: read, search and send messages. Sign in with the tg CLI first.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "WireCatLabs/tg-cli",
+        "path": "dev.wirecat/tg-cli",
+        "url": "https://github.com/WireCatLabs/tg-cli",
         "tier": 0
       },
       "quality": {

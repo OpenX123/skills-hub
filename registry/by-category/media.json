@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T23:00:49.202Z",
+  "generatedAt": "2026-10-27T22:50:49.702Z",
   "category": {
     "key": "media",
     "zh": "音视频图像",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 1323,
+  "total": 1346,
   "entries": [
     {
       "id": "skill:composiohq/awesome-claude-skills:video-downloader/skill.md#youtube-downloader",
@@ -1943,7 +1943,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -1998,7 +1998,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -2051,7 +2051,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -2105,7 +2105,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -2159,7 +2159,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -2214,7 +2214,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -2268,7 +2268,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -2319,7 +2319,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 71,
+        "score": 70,
         "gates": {
           "security": true,
           "schema": true,
@@ -3795,55 +3795,6 @@
         "repo": "AceDataCloud/SunoMCP",
         "path": "io.github.AceDataCloud/mcp-suno",
         "url": "https://github.com/AceDataCloud/SunoMCP",
-        "tier": 0
-      },
-      "quality": {
-        "score": 24,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 1
-    },
-    {
-      "id": "mcp:afmontoya/baconservices-mcp:io.github.afmontoya/baconservices-mcp#bacon-services",
-      "type": "mcp",
-      "name": "Bacon Services",
-      "description": {
-        "zh": null,
-        "en": "Pay-per-call image tools for agents: remove backgrounds, optimize for web. USDC on Base via x402.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "media"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "afmontoya/baconservices-mcp",
-        "path": "io.github.afmontoya/baconservices-mcp",
-        "url": "https://github.com/afmontoya/baconservices-mcp",
         "tier": 0
       },
       "quality": {
@@ -7190,6 +7141,55 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:spicyapi-ai/spicy-mcp:io.github.spicyapi-ai/mcp#spicyapi-mcp",
+      "type": "mcp",
+      "name": "SpicyAPI MCP",
+      "description": {
+        "zh": null,
+        "en": "Image, video and audio generation APIs with USD quotes and confirmation before paid requests.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "spicyapi-ai/spicy-mcp",
+        "path": "io.github.spicyapi-ai/mcp",
+        "url": "https://github.com/spicyapi-ai/spicy-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
       "id": "mcp:spokenmd/spoken:io.github.spokenmd/spoken#spoken",
       "type": "mcp",
       "name": "Spoken",
@@ -7984,7 +7984,7 @@
       "name": "abox.tools",
       "description": {
         "zh": null,
-        "en": "Process images and PDFs, inspect or remove image metadata, and calculate local file checksums.",
+        "en": "Local image, PDF, audio, video, OCR, DICOM, code and text tools, passwords and checksums.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -7992,7 +7992,8 @@
       },
       "lang": "en",
       "categories": [
-        "media"
+        "media",
+        "document"
       ],
       "targets": [
         "mcp-client"
@@ -9172,6 +9173,104 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:airdropfi/autoshort-mcp:org.autoshort/autoshort#autoshort",
+      "type": "mcp",
+      "name": "AutoShort",
+      "description": {
+        "zh": null,
+        "en": "Make faceless AI short videos from a topic, product page or image: script, voiceover, captions.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "airdropfi/autoshort-mcp",
+        "path": "org.autoshort/autoshort",
+        "url": "https://github.com/airdropfi/autoshort-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:aistlabs-ai/aistlabs-mcp:ai.aistlabs/aistlabs#aistlabs",
+      "type": "mcp",
+      "name": "AISTLabs",
+      "description": {
+        "zh": null,
+        "en": "Video, image and audio generation on top AI models for agents, with an AI director built in.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "aistlabs-ai/aistlabs-mcp",
+        "path": "ai.aistlabs/aistlabs",
+        "url": "https://github.com/aistlabs-ai/aistlabs-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:aitopiaai/skills:ai.aitopia/aitopia#aitopia",
       "type": "mcp",
       "name": "AITOPIA",
@@ -9390,6 +9489,56 @@
         "repo": "alphaparkinc/genpark-audio-packet-jitter-resilience-buffer-skill",
         "path": "io.github.alphaparkinc/genpark-audio-packet-jitter-resilience-buffer-skill",
         "url": "https://github.com/alphaparkinc/genpark-audio-packet-jitter-resilience-buffer-skill",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:andriyvk/-apify-document-tools:io.github.andriyvk/apify-document-tools#document-&-media-tools-(apify)",
+      "type": "mcp",
+      "name": "Document & media tools (Apify)",
+      "description": {
+        "zh": null,
+        "en": "PDF/OCR/Office to Markdown, Office to PDF/PDF-A, PDF and image conversion, audio transcription.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "AndriyVK/-apify-document-tools",
+        "path": "io.github.AndriyVK/apify-document-tools",
+        "url": "https://github.com/AndriyVK/-apify-document-tools",
         "tier": 0
       },
       "quality": {
@@ -12382,6 +12531,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:chrp-bass/chrp-parent-sites:io.github.chrp-bass/chrp-epi-authority#chrp-epi-authority",
+      "type": "mcp",
+      "name": "CHRP EPI Authority",
+      "description": {
+        "zh": null,
+        "en": "Music-listening Emotional Performance Intelligence: definitions, states, guidance and MyCHRP.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "chrp-bass/chrp-parent-sites",
+        "path": "io.github.chrp-bass/chrp-epi-authority",
+        "url": "https://github.com/chrp-bass/chrp-parent-sites",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:clipform/mcp-server:io.github.clipform/mcp-server#clipform",
       "type": "mcp",
       "name": "Clipform",
@@ -12552,6 +12750,57 @@
         "repo": "clueso-ai/clueso-mcp",
         "path": "io.clueso/video",
         "url": "https://github.com/clueso-ai/clueso-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:codeshoel/llmtomd-mcp:com.llmtomd/llmtomd#llmtomd",
+      "type": "mcp",
+      "name": "LLMtoMD",
+      "description": {
+        "zh": null,
+        "en": "Convert PDFs, Office docs, websites and audio into AI-ready Markdown, then search and ask your docs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "research",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "codeshoel/llmtomd-mcp",
+        "path": "com.llmtomd/llmtomd",
+        "url": "https://github.com/codeshoel/llmtomd-mcp",
         "tier": 0
       },
       "quality": {
@@ -16206,6 +16455,55 @@
         "repo": "GabrieleLozupone/kokon",
         "path": "io.github.GabrieleLozupone/kokon",
         "url": "https://github.com/GabrieleLozupone/kokon",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:galatic-ai/galatic-mcp:ai.galatic/galatic#galatic.ai",
+      "type": "mcp",
+      "name": "Galatic.ai",
+      "description": {
+        "zh": null,
+        "en": "Create AI video, images, music and voice from your assistant, on your Galatic.ai plan.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "galatic-ai/galatic-mcp",
+        "path": "ai.galatic/galatic",
+        "url": "https://github.com/galatic-ai/galatic-mcp",
         "tier": 0
       },
       "quality": {
@@ -22804,55 +23102,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:ai.aistlabs/aistlabs#aistlabs",
-      "type": "mcp",
-      "name": "AISTLabs",
-      "description": {
-        "zh": null,
-        "en": "Video, image and audio generation on top AI models for agents, with an AI director built in.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "media"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "ai.aistlabs/aistlabs",
-        "url": "https://aistlabs.ai",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:mcp-official:ai.apatero/studio#apatero-studio",
       "type": "mcp",
       "name": "Apatero Studio",
@@ -23592,55 +23841,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:ai.galatic/galatic#galatic.ai",
-      "type": "mcp",
-      "name": "Galatic.ai",
-      "description": {
-        "zh": null,
-        "en": "Create AI video, images, music and voice from your assistant, on your Galatic.ai plan.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "media"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "ai.galatic/galatic",
-        "url": "https://galatic.ai/mcp",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:mcp-official:ai.gensprite/gensprite#gensprite",
       "type": "mcp",
       "name": "Gensprite",
@@ -23713,6 +23913,55 @@
         "repo": null,
         "path": "ai.gessa/mcp-server",
         "url": "https://gessa.ai/assets/for-agents/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.getimg/getimg#getimg.ai",
+      "type": "mcp",
+      "name": "getimg.ai",
+      "description": {
+        "zh": null,
+        "en": "Generate and edit images, video, music, speech and sound effects with your getimg.ai account.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.getimg/getimg",
+        "url": "https://getimg.ai/mcp",
         "tier": 0
       },
       "quality": {
@@ -26850,6 +27099,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:app.fotofoto/photo-book#foto-foto",
+      "type": "mcp",
+      "name": "foto foto",
+      "description": {
+        "zh": null,
+        "en": "Turn your photos or a public iCloud Shared Album into a printed hardcover photo book.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "app.fotofoto/photo-book",
+        "url": "https://fotofoto.app/developers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:app.fotohub/fotohub#fotohub-creative-ai",
       "type": "mcp",
       "name": "FOTOhub Creative AI",
@@ -26872,6 +27170,56 @@
         "repo": null,
         "path": "app.fotohub/fotohub",
         "url": "https://docs.fotohub.app/integrations/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:app.gamecollecting/price-guide#gamecollecting.app",
+      "type": "mcp",
+      "name": "gamecollecting.app",
+      "description": {
+        "zh": null,
+        "en": "Video game prices from completed eBay and Vinted sales, by platform, region, edition and condition.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "app.gamecollecting/price-guide",
+        "url": "https://gamecollecting.app",
         "tier": 0
       },
       "quality": {
@@ -28100,6 +28448,55 @@
         "repo": null,
         "path": "cn.meowspace/meowspace",
         "url": "https://www.meowspace.cn/agent",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:co.byondr/image-tools#image-tools",
+      "type": "mcp",
+      "name": "Image Tools",
+      "description": {
+        "zh": null,
+        "en": "Resize, compress, convert, crop, rotate and watermark images, one at a time or in a zip.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "co.byondr/image-tools",
+        "url": "https://byondr.co/image-tools",
         "tier": 0
       },
       "quality": {
@@ -35590,6 +35987,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.perfectvector/perfectvector#perfectvector",
+      "type": "mcp",
+      "name": "PerfectVector",
+      "description": {
+        "zh": null,
+        "en": "Image to SVG with a vectorization model we trained in-house. Clean, editable logos, icons, line art.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.perfectvector/perfectvector",
+        "url": "https://perfectvector.com/docs/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.petabloom/podcasts#com.petabloom-podcasts",
       "type": "mcp",
       "name": "com.petabloom/podcasts",
@@ -36062,6 +36508,56 @@
         "repo": null,
         "path": "com.promptbase/mcp",
         "url": "https://registry.modelcontextprotocol.io/?q=com.promptbase%2Fmcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.publishbuddy/publishbuddy#publishbuddy",
+      "type": "mcp",
+      "name": "PublishBuddy",
+      "description": {
+        "zh": null,
+        "en": "Schedule social posts, read analytics and make AI images and video for 10+ networks.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.publishbuddy/publishbuddy",
+        "url": "https://docs.publishbuddy.com/mcp-server/introduction",
         "tier": 0
       },
       "quality": {
@@ -37374,6 +37870,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.suumer/events#suumer",
+      "type": "mcp",
+      "name": "Suumer",
+      "description": {
+        "zh": null,
+        "en": "Local US events by town, date and kind (trivia, live music, karaoke...), each checked at its source.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.suumer/events",
+        "url": "https://suumer.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.synento/synento#synento",
       "type": "mcp",
       "name": "Synento",
@@ -38509,6 +39054,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.veyrul/media-hub#veyrul-media-knowledge-hub",
+      "type": "mcp",
+      "name": "Veyrul media knowledge hub",
+      "description": {
+        "zh": null,
+        "en": "AI video, image and tutorial knowledge for agents. Search sources, compare evidence and collaborate.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.veyrul/media-hub",
+        "url": "https://veyrul.com/docs/agent-guide",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.vibeday/vibeday#vibeday",
       "type": "mcp",
       "name": "VibeDay",
@@ -39074,6 +39669,55 @@
         "repo": null,
         "path": "com.whatsthatmodel/whats-that-model",
         "url": "https://whatsthatmodel.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.withicarus/icarus#icarus",
+      "type": "mcp",
+      "name": "Icarus",
+      "description": {
+        "zh": null,
+        "en": "Make any photo or video you can describe, right from Claude.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.withicarus/icarus",
+        "url": "https://withicarus.com/mcp",
         "tier": 0
       },
       "quality": {
@@ -42951,6 +43595,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.luciancapdefier/explainly#explainly",
+      "type": "mcp",
+      "name": "Explainly",
+      "description": {
+        "zh": null,
+        "en": "Turn a prompt into a narrated whiteboard explainer video (MP4). Pay per minute, no subscription.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.luciancapdefier/explainly",
+        "url": "https://explainly.video/blog/make-whiteboard-videos-from-chatgpt-and-claude",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.marcioyoshida/bluefin#bluefin",
       "type": "mcp",
       "name": "Bluefin",
@@ -44206,6 +44899,55 @@
         "repo": null,
         "path": "io.github.streamloop/mcp",
         "url": "https://streamloop.app/docs/api-reference/mcp/overview",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.sumitrmardy/audio-video-transcriber#audio-&-video-transcriber",
+      "type": "mcp",
+      "name": "Audio & Video Transcriber",
+      "description": {
+        "zh": null,
+        "en": "Audio, video and podcast feeds to text with Whisper. Timestamps, SRT/VTT, 99 languages. Per minute.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.sumitrmardy/audio-video-transcriber",
+        "url": "https://apify.com/sumitr_mardy/audio-video-transcriber",
         "tier": 0
       },
       "quality": {
@@ -47045,55 +47787,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:org.autoshort/autoshort#autoshort",
-      "type": "mcp",
-      "name": "AutoShort",
-      "description": {
-        "zh": null,
-        "en": "Make faceless AI short videos from a topic, product page or image: script, voiceover, captions.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "media"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "org.autoshort/autoshort",
-        "url": "https://autoshort.org/en/developers",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:mcp-official:org.bibooks/bibooks#bibooks",
       "type": "mcp",
       "name": "Bibooks",
@@ -49215,6 +49908,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:meet30997/codex-openai-image-mcp:io.github.meet30997/codex-openai-image-mcp#codex-openai-image",
+      "type": "mcp",
+      "name": "Codex / OpenAI Image",
+      "description": {
+        "zh": null,
+        "en": "Generate, edit and make matching sets of images with the Codex CLI or the OpenAI Images API",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "meet30997/codex-openai-image-mcp",
+        "path": "io.github.meet30997/codex-openai-image-mcp",
+        "url": "https://github.com/meet30997/codex-openai-image-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:meltflexdevs/techdrawai-skills:io.github.meltflexdevs/techdrawai#techdraw-ai",
       "type": "mcp",
       "name": "TechDraw AI",
@@ -50526,6 +51268,156 @@
         "repo": "mrfentmen/awesome-mcps",
         "path": "io.github.mrfentmen/placeholder-images-mcp",
         "url": "https://github.com/mrfentmen/awesome-mcps",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mrfentmen/awesome-servers:io.github.mrfentmen/demozoo-mcp#io.github.mrfentmen-demozoo-mcp",
+      "type": "mcp",
+      "name": "io.github.mrfentmen/demozoo-mcp",
+      "description": {
+        "zh": null,
+        "en": "Demoscene database: search 390k+ demos, intros, graphics and music, with group and credit data.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "research",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "mrfentmen/awesome-servers",
+        "path": "io.github.mrfentmen/demozoo-mcp",
+        "url": "https://github.com/mrfentmen/awesome-servers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mrfentmen/awesome-servers:io.github.mrfentmen/dockerhub-mcp#io.github.mrfentmen-dockerhub-mcp",
+      "type": "mcp",
+      "name": "io.github.mrfentmen/dockerhub-mcp",
+      "description": {
+        "zh": null,
+        "en": "Docker Hub: image search, details, tags with sizes and digests, and official image ranking.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops",
+        "research",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "mrfentmen/awesome-servers",
+        "path": "io.github.mrfentmen/dockerhub-mcp",
+        "url": "https://github.com/mrfentmen/awesome-servers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mrfentmen/awesome-servers:io.github.mrfentmen/meme-reference-mcp#io.github.mrfentmen-meme-reference-mcp",
+      "type": "mcp",
+      "name": "io.github.mrfentmen/meme-reference-mcp",
+      "description": {
+        "zh": null,
+        "en": "Meme template reference and image generation from the official Imgflip and memegen APIs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "mrfentmen/awesome-servers",
+        "path": "io.github.mrfentmen/meme-reference-mcp",
+        "url": "https://github.com/mrfentmen/awesome-servers",
         "tier": 0
       },
       "quality": {
@@ -52552,6 +53444,55 @@
         "repo": "neuralmint/imagepay-mcp",
         "path": "io.github.neuralmint/imagepay-mcp",
         "url": "https://github.com/neuralmint/imagepay-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:newsbubbles/ismail:io.github.newsbubbles/ismail#ismail",
+      "type": "mcp",
+      "name": "ismail",
+      "description": {
+        "zh": null,
+        "en": "Open-source DAW your agent runs itself, no AI audio model: compose, mix, hear it as text, play live.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "newsbubbles/ismail",
+        "path": "io.github.newsbubbles/ismail",
+        "url": "https://github.com/newsbubbles/ismail",
         "tier": 0
       },
       "quality": {
@@ -54855,7 +55796,7 @@
       "name": "Highlightly",
       "description": {
         "zh": null,
-        "en": "Highlightly MCP — cheap multi-sport scores, video highlights, and match",
+        "en": "Highlightly MCP — cheap multi-sport scores, video highlights, and match predictions…",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -54899,12 +55840,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:pipeworx-io/mcp-kokkai-diet:io.github.pipeworx-io/kokkai-diet#kokkai-diet",
+      "id": "mcp:pipeworx-io/mcp-igdb:io.github.pipeworx-io/igdb#igdb",
       "type": "mcp",
-      "name": "Kokkai Diet",
+      "name": "Igdb",
       "description": {
         "zh": null,
-        "en": "Kokkai Diet MCP — Japan National Diet proceedings, speech-level full-text",
+        "en": "IGDB — the Internet Game Database (Twitch/Amazon), the reference catalogue for video games.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -54912,6 +55853,56 @@
       },
       "lang": "en",
       "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "pipeworx-io/mcp-igdb",
+        "path": "io.github.pipeworx-io/igdb",
+        "url": "https://github.com/pipeworx-io/mcp-igdb",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:pipeworx-io/mcp-kokkai-diet:io.github.pipeworx-io/kokkai-diet#kokkai-diet",
+      "type": "mcp",
+      "name": "Kokkai Diet",
+      "description": {
+        "zh": null,
+        "en": "Kokkai Diet MCP — Japan National Diet proceedings, speech-level full-text search via the National…",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "research",
         "media"
       ],
       "targets": [
@@ -58864,6 +59855,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:seayniclabs/lathe:io.github.seayniclabs/lathe#lathe",
+      "type": "mcp",
+      "name": "Lathe",
+      "description": {
+        "zh": null,
+        "en": "Local file and media tools: images, PDF, audio, video, OCR, batch and metadata. Runs locally.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "seayniclabs/lathe",
+        "path": "io.github.seayniclabs/lathe",
+        "url": "https://github.com/seayniclabs/lathe",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:sequencer-media/sequencer-mcp:media.sequencer/sequencer#sequencer",
       "type": "mcp",
       "name": "Sequencer",
@@ -61234,6 +62275,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:sultanlive/1social-mcp:dev.1social/tiktok#tiktok-by-1social",
+      "type": "mcp",
+      "name": "TikTok by 1Social",
+      "description": {
+        "zh": null,
+        "en": "Publish and schedule TikTok videos and photo posts from your AI assistant.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "sultanlive/1social-mcp",
+        "path": "dev.1social/tiktok",
+        "url": "https://github.com/sultanlive/1social-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:sunbirdai/sunbird-mcp:ai.sunbird/sunbird-mcp#sunbird-ai",
       "type": "mcp",
       "name": "Sunbird AI",
@@ -62611,6 +63701,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:tong0619453646-dev/apiko-ai-api-examples:io.github.tong0619453646-dev/apiko-mcp#apiko",
+      "type": "mcp",
+      "name": "APIKO",
+      "description": {
+        "zh": null,
+        "en": "Look up APIKO image and video models, quote prices, generate media and track spend.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "tong0619453646-dev/apiko-ai-api-examples",
+        "path": "io.github.tong0619453646-dev/apiko-mcp",
+        "url": "https://github.com/tong0619453646-dev/apiko-ai-api-examples",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:tothienbao6a0/upnext:io.github.tothienbao6a0/upnext#io.github.tothienbao6a0-upnext",
       "type": "mcp",
       "name": "io.github.tothienbao6a0/upnext",
@@ -63204,12 +64343,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:velox-xr/trifit-partner-api-example:io.github.velox-xr/velox-trifit-developer#velox-trifit",
+      "id": "mcp:velox-xr/trifit-partner-api-example:io.github.velox-xr/velox-trifit-developer#velox-trifit-virtual-try-on-api",
       "type": "mcp",
-      "name": "Velox TriFit",
+      "name": "Velox TriFit: Virtual Try-On API",
       "description": {
         "zh": null,
-        "en": "DressMe API docs and SDK guidance; OAuth account/guest photo upload and virtual try-on tools.",
+        "en": "Virtual try-on (VTO) API docs and SDK examples; OAuth account/guest photo uploads and try-ons.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
