@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T23:05:23.113Z",
+  "generatedAt": "2026-10-30T22:45:54.490Z",
   "category": {
     "key": "coding",
     "zh": "编码开发",
@@ -109,7 +109,7 @@
       }
     ]
   },
-  "total": 4962,
+  "total": 4982,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/algorithmic-art/skill.md#algorithmic-art",
@@ -60441,6 +60441,61 @@
         "repo": "davila7/claude-code-templates",
         "path": "cli-tool/components/skills/productivity/requirements-clarity/SKILL.md",
         "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/productivity/requirements-clarity/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 75,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 32978,
+      "curatedMentions": 2
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/productivity/rex-claude/skill.md#rex-claude",
+      "type": "skill",
+      "name": "rex-claude",
+      "description": {
+        "zh": null,
+        "en": "Open other Claude Code sessions in Rex terminal panes or tabs and drive them: launch claude in a directory, answer the workspace trust dialog, send prompts, wait for each turn by its reported status (working, done, blocked on a permission prompt), read the screen, press keys and close the pane. Use when running inside the Rex terminal (REX_SESSION is set, TERM_PROGRAM=rex) and the user wants to start, delegate to, test in, watch or control a second Claude Code session side by side, for example to test a setting or permission in a fresh session, run a task in parallel in another pane, or check",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "meta",
+        "testing"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/productivity/rex-claude/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/productivity/rex-claude/SKILL.md",
         "tier": 2
       },
       "quality": {
@@ -152740,6 +152795,55 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:brainfoods-studio/llmgraph-agent-plugin:io.github.brainfoods-studio/llmgraph#io.github.brainfoods-studio-llmgraph",
+      "type": "mcp",
+      "name": "io.github.brainfoods-studio/llmgraph",
+      "description": {
+        "zh": null,
+        "en": "Who calls this, what breaks, which callers an edit missed: labelled answers. Windows, Python, TS/JS.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "brainfoods-studio/llmgraph-agent-plugin",
+        "path": "io.github.brainfoods-studio/llmgraph",
+        "url": "https://github.com/brainfoods-studio/llmgraph-agent-plugin",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
       "id": "mcp:brunovncs/texel-mcp:io.github.brunovncs/texel-mcp#io.github.brunovncs-texel-mcp",
       "type": "mcp",
       "name": "io.github.Brunovncs/texel-mcp",
@@ -153060,6 +153164,56 @@
         "repo": "corralimited/snapdiff-mcp",
         "path": "ai.snapdiff/mcp",
         "url": "https://github.com/corralimited/snapdiff-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:course-code-framework/coursecode:io.github.course-code-framework/coursecode#coursecode-framework",
+      "type": "mcp",
+      "name": "CourseCode Framework",
+      "description": {
+        "zh": null,
+        "en": "Preview, screenshot, lint, and test SCORM, cmi5, and LTI courses built with CourseCode Framework.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "course-code-framework/coursecode",
+        "path": "io.github.course-code-framework/coursecode",
+        "url": "https://github.com/course-code-framework/coursecode",
         "tier": 0
       },
       "quality": {
@@ -157423,6 +157577,56 @@
         "repo": "ohad6k/emulo",
         "path": "io.github.ohad6k/emulo",
         "url": "https://github.com/ohad6k/emulo",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:om-tajne/pkgdiet:io.github.om-tajne/pkgdiet#io.github.om-tajne-pkgdiet",
+      "type": "mcp",
+      "name": "io.github.om-tajne/pkgdiet",
+      "description": {
+        "zh": null,
+        "en": "Dependency policy and MCP server to stop AI coding agents from installing risky npm packages.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "om-tajne/pkgdiet",
+        "path": "io.github.om-tajne/pkgdiet",
+        "url": "https://github.com/om-tajne/pkgdiet",
         "tier": 0
       },
       "quality": {
@@ -170128,55 +170332,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:brainfoods-studio/llmgraph-agent-plugin:io.github.brainfoods-studio/llmgraph#io.github.brainfoods-studio-llmgraph",
-      "type": "mcp",
-      "name": "io.github.brainfoods-studio/llmgraph",
-      "description": {
-        "zh": null,
-        "en": "Who calls this, what breaks, which callers an edit missed: labelled answers. Windows, Python, TS/JS.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "brainfoods-studio/llmgraph-agent-plugin",
-        "path": "io.github.brainfoods-studio/llmgraph",
-        "url": "https://github.com/brainfoods-studio/llmgraph-agent-plugin",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:brechanbech/forgejo-mcp-rs:io.github.brechanbech/forgejo-mcp-rs#forgejo-codeberg-gitea",
       "type": "mcp",
       "name": "Forgejo / Codeberg / Gitea",
@@ -172395,6 +172550,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:codeledgerecf/codeledger:io.github.codeledgerecf/codeledger#io.github.codeledgerecf-codeledger",
+      "type": "mcp",
+      "name": "io.github.codeledgerECF/codeledger",
+      "description": {
+        "zh": null,
+        "en": "Local context and engineering evidence for AI coding agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "codeledgerECF/codeledger",
+        "path": "io.github.codeledgerECF/codeledger",
+        "url": "https://github.com/codeledgerECF/codeledger",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:codellyson/passalong:io.github.codellyson/passalong#io.github.codellyson-passalong",
       "type": "mcp",
       "name": "io.github.codellyson/passalong",
@@ -173207,56 +173411,6 @@
         "repo": "CoralSwarm/coralswarm-connect",
         "path": "com.coralswarm/coralswarm",
         "url": "https://github.com/CoralSwarm/coralswarm-connect",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:course-code-framework/coursecode:io.github.course-code-framework/coursecode#coursecode-framework",
-      "type": "mcp",
-      "name": "CourseCode Framework",
-      "description": {
-        "zh": null,
-        "en": "Preview, screenshot, lint, and test SCORM, cmi5, and LTI courses built with CourseCode Framework.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding",
-        "testing"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "course-code-framework/coursecode",
-        "path": "io.github.course-code-framework/coursecode",
-        "url": "https://github.com/course-code-framework/coursecode",
         "tier": 0
       },
       "quality": {
@@ -180272,6 +180426,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:flywheelstudio/ulink-mcp-server:io.github.flywheelstudio/ulink#io.github.flywheelstudio-ulink",
+      "type": "mcp",
+      "name": "io.github.FlywheelStudio/ulink",
+      "description": {
+        "zh": null,
+        "en": "Deep linking for iOS, Android, Flutter & React Native. Firebase Dynamic Links alternative.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "FlywheelStudio/ulink-mcp-server",
+        "path": "io.github.FlywheelStudio/ulink",
+        "url": "https://github.com/FlywheelStudio/ulink-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:foodnotes-org/foodex2-encoder:org.foodnotes/foodex2-encoder#foodex2-encoder",
       "type": "mcp",
       "name": "FoodEx2 Encoder",
@@ -181467,7 +181670,7 @@
       "name": "Glitchless",
       "description": {
         "zh": null,
-        "en": "Game observability for coding agents: stutters, crashes, custom metrics, dashboards, playtest bots",
+        "en": "Coding agents can build a game. They can't see anyone play it. Glitchless lets them.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -181475,7 +181678,6 @@
       },
       "lang": "en",
       "categories": [
-        "devops",
         "coding"
       ],
       "targets": [
@@ -192963,6 +193165,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:jztan/kampung-mcp:io.github.jztan/kampung-mcp#io.github.jztan-kampung-mcp",
+      "type": "mcp",
+      "name": "io.github.jztan/kampung-mcp",
+      "description": {
+        "zh": null,
+        "en": "Messaging between coding-agent sessions on different machines, through a server you host.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jztan/kampung-mcp",
+        "path": "io.github.jztan/kampung-mcp",
+        "url": "https://github.com/jztan/kampung-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:k-dense-ai/lab-instrument-mcps:io.github.k-dense-ai/labmcp-ocean-spectrometer#ocean-insight-spectrometer",
       "type": "mcp",
       "name": "Ocean Insight Spectrometer",
@@ -194998,6 +195249,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:kznlabs/labsui:io.github.kznlabs/labsui#labsui",
+      "type": "mcp",
+      "name": "labsUI",
+      "description": {
+        "zh": null,
+        "en": "Search, add, diff and update labsUI React components in your project.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "kznlabs/labsUI",
+        "path": "io.github.kznlabs/labsui",
+        "url": "https://github.com/kznlabs/labsUI",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:l1ch404/jolink-runtime:io.github.l1ch404/jolink-runtime#jolink",
       "type": "mcp",
       "name": "joLink",
@@ -195052,7 +195353,7 @@
       "name": "Godotwright",
       "description": {
         "zh": null,
-        "en": "Makes coding agents better at Godot 4: offline 4.7 API, project map, headless checks, AAA review.",
+        "en": "Godot 4.7 for coding agents: offline API, checks, review, safe edits, tests, play, 3D models.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -195716,6 +196017,56 @@
         "repo": "LearningNodes/Elen",
         "path": "com.learningnodes/elen",
         "url": "https://github.com/LearningNodes/Elen",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:ledgercrossing/quickbooks-desktop-mcp:com.ledgercrossing/quickbooks-desktop#ledgercrossing-for-quickbooks-desktop",
+      "type": "mcp",
+      "name": "LedgerCrossing for QuickBooks Desktop",
+      "description": {
+        "zh": null,
+        "en": "QuickBooks Desktop MCP server: all 240 qbXML operations for Claude, ChatGPT, Cursor and VS Code",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "LedgerCrossing/quickbooks-desktop-mcp",
+        "path": "com.ledgercrossing/quickbooks-desktop",
+        "url": "https://github.com/LedgerCrossing/quickbooks-desktop-mcp",
         "tier": 0
       },
       "quality": {
@@ -200136,6 +200487,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:ai.rewst/mcp#rewst",
+      "type": "mcp",
+      "name": "Rewst",
+      "description": {
+        "zh": null,
+        "en": "Official Rewst MCP server: build, run, and debug Rewst workflows, forms, apps, and integrations.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.rewst/mcp",
+        "url": "https://docs.rewst.help/rewst-documentation/documentation/rewst-agent/mcp-servers-and-rewst",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:ai.smartmemory/smartmemory-mcp#smartmemory",
       "type": "mcp",
       "name": "SmartMemory",
@@ -200855,6 +201256,56 @@
         "repo": null,
         "path": "app.lediv/mcp",
         "url": "https://lediv.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:app.lovable.release-ripple-roadmap/logpulse#logpulse",
+      "type": "mcp",
+      "name": "LogPulse",
+      "description": {
+        "zh": null,
+        "en": "Changelogs for coding agents: versions, breaking changes, migrations. Free changelog-to-JSON.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "pm"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "app.lovable.release-ripple-roadmap/logpulse",
+        "url": "https://release-ripple-roadmap.lovable.app/",
         "tier": 0
       },
       "quality": {
@@ -202664,6 +203115,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.bastionhelix/fab-quote#bhx-fab-quote",
+      "type": "mcp",
+      "name": "BHX Fab Quote",
+      "description": {
+        "zh": null,
+        "en": "Measure and price laser, plasma, waterjet and CNC jobs from DXF, G-code and STL files",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.bastionhelix/fab-quote",
+        "url": "https://bastionhelix.com/fabquote/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.bernuvia/marketplace#bernuvia",
       "type": "mcp",
       "name": "Bernuvia",
@@ -203896,6 +204396,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.formsmcp/formsmcp#formsmcp",
+      "type": "mcp",
+      "name": "FormsMCP",
+      "description": {
+        "zh": null,
+        "en": "Hosted form backend for coding agents: create form endpoints, verify submissions, manage webhooks.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.formsmcp/formsmcp",
+        "url": "https://formsmcp.com/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.foundry-mcp/foundry-code#foundry-mcp-code-mode",
       "type": "mcp",
       "name": "Foundry MCP code mode",
@@ -204213,6 +204762,56 @@
         "repo": null,
         "path": "com.getlinkbunny/exchange",
         "url": "https://getlinkbunny.com/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.getmikie/mikie#mikie",
+      "type": "mcp",
+      "name": "Mikie",
+      "description": {
+        "zh": null,
+        "en": "Focused repository context for Claude Code and Codex, with per-session token usage receipts.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.getmikie/mikie",
+        "url": "https://getmikie.com",
         "tier": 0
       },
       "quality": {
@@ -205773,6 +206372,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.openclawproductions/x402-tools#open-claw-x402-tools",
+      "type": "mcp",
+      "name": "Open Claw x402 Tools",
+      "description": {
+        "zh": null,
+        "en": "Paid tools for AI agents via x402 (USDC on Base): text rewrite, writing grade, code lookups.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.openclawproductions/x402-tools",
+        "url": "https://openclawproductions.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.pathista/pathista#pathista",
       "type": "mcp",
       "name": "Pathista",
@@ -206125,7 +206774,7 @@
       "name": "Prometheor",
       "description": {
         "zh": null,
-        "en": "Your AI apps as one team: hand work to Codex or Claude Code, with a shared logbook of results.",
+        "en": "Your AI apps as one team: hand work to Codex, Claude Code or Cursor on your Mac, with a logbook.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -206242,55 +206891,6 @@
         "repo": null,
         "path": "com.recipebooq/recipebooq",
         "url": "https://recipebooq.com",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:mcp-official:com.reconcileiq/mcp#reconcileiq",
-      "type": "mcp",
-      "name": "ReconcileIQ",
-      "description": {
-        "zh": null,
-        "en": "UK bookkeeping for agents: IQ Books ledger and reports, previewed changes, CodeIQ bank coding.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "com.reconcileiq/mcp",
-        "url": "https://reconcileiq.com/connectors",
         "tier": 0
       },
       "quality": {
@@ -207826,6 +208426,55 @@
         "repo": null,
         "path": "com.unlayer/mcp",
         "url": "https://docs.unlayer.com/ai/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.usgrowzones/grow-zones#us-grow-zones",
+      "type": "mcp",
+      "name": "US Grow Zones",
+      "description": {
+        "zh": null,
+        "en": "USDA hardiness zone, frost dates and vegetable planting calendar for any U.S. ZIP code.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.usgrowzones/grow-zones",
+        "url": "https://usgrowzones.com",
         "tier": 0
       },
       "quality": {
@@ -212904,6 +213553,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.dmsmaxim/memroot#memroot",
+      "type": "mcp",
+      "name": "Memroot",
+      "description": {
+        "zh": null,
+        "en": "Persistent engineering memory designed to follow developers across coding agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.dmsmaxim/memroot",
+        "url": "https://memroot.dev",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.elcharitas/replaypilot#replaypilot",
       "type": "mcp",
       "name": "ReplayPilot",
@@ -214110,6 +214808,55 @@
         "repo": null,
         "path": "io.github.MegaPanchamZ/okfshare-mcp",
         "url": "https://registry.modelcontextprotocol.io/?q=io.github.MegaPanchamZ%2Fokfshare-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.memroot/memroot#memroot",
+      "type": "mcp",
+      "name": "Memroot",
+      "description": {
+        "zh": null,
+        "en": "Persistent engineering memory designed to follow developers across coding agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.memroot/memroot",
+        "url": "https://memroot.dev",
         "tier": 0
       },
       "quality": {
@@ -224095,6 +224842,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:nithin554/code-crawler:io.github.nithin554/code-crawler#code-crawler",
+      "type": "mcp",
+      "name": "Code Crawler",
+      "description": {
+        "zh": null,
+        "en": "Static and dynamic call tracing MCP server backed by a SQLite property graph of your codebase",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "meta",
+        "database"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "nithin554/code-crawler",
+        "path": "io.github.nithin554/code-crawler",
+        "url": "https://github.com/nithin554/code-crawler",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:nntoan/figma-mcp-rust:io.github.nntoan/figma-mcp-rust#io.github.nntoan-figma-mcp-rust",
       "type": "mcp",
       "name": "io.github.nntoan/figma-mcp-rust",
@@ -225506,57 +226304,6 @@
         "repo": "OfficialTanishSharma/agentos",
         "path": "io.github.OfficialTanishSharma/agentos",
         "url": "https://github.com/OfficialTanishSharma/agentos",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:ohad6k/viberaven:io.github.ohad6k/viberaven#viberaven-(local)",
-      "type": "mcp",
-      "name": "VibeRaven (local)",
-      "description": {
-        "zh": null,
-        "en": "Repo launch checks for Vercel + Supabase apps: RLS, keys in client code, env vars, Stripe webhooks.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding",
-        "devops",
-        "integration"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "ohad6k/VibeRaven",
-        "path": "io.github.ohad6k/viberaven",
-        "url": "https://github.com/ohad6k/VibeRaven",
         "tier": 0
       },
       "quality": {
@@ -241091,6 +241838,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:spree/spree:io.github.spree/ecommerce-docs#spree-commerce-developer-docs-for-ai-agents",
+      "type": "mcp",
+      "name": "Spree Commerce developer docs for AI agents",
+      "description": {
+        "zh": null,
+        "en": "Spree Commerce docs for AI coding agents: build headless B2B and marketplace ecommerce on its APIs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "spree/spree",
+        "path": "io.github.spree/ecommerce-docs",
+        "url": "https://github.com/spree/spree",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:spuentesp/lain:io.github.spuentesp/lain#io.github.spuentesp-lain",
       "type": "mcp",
       "name": "io.github.spuentesp/lain",
@@ -241264,6 +242060,56 @@
         "repo": "sssnl-nl/scanduro",
         "path": "io.github.sssnl-nl/scanduro",
         "url": "https://github.com/sssnl-nl/scanduro",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:stackunseen/codemcp:io.github.stackunseen/codemcp#codemcp",
+      "type": "mcp",
+      "name": "codemcp",
+      "description": {
+        "zh": null,
+        "en": "Code mode for MCP: search, describe and execute over all your servers, with a sandbox and approvals.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "stackunseen/codemcp",
+        "path": "io.github.stackunseen/codemcp",
+        "url": "https://github.com/stackunseen/codemcp",
         "tier": 0
       },
       "quality": {
@@ -241887,6 +242733,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:submitator/submitator-mcp:com.submitator/mcp#submitator",
+      "type": "mcp",
+      "name": "Submitator",
+      "description": {
+        "zh": null,
+        "en": "Launch your clients' products on up to 100 directories each from Claude Code, Cursor or VS Code.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "submitator/submitator-mcp",
+        "path": "com.submitator/mcp",
+        "url": "https://github.com/submitator/submitator-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:subodhkc/mcp-tenant-isolation:io.github.subodhkc/mcp-tenant-isolation#io.github.subodhkc-mcp-tenant-isolation",
       "type": "mcp",
       "name": "io.github.subodhkc/mcp-tenant-isolation",
@@ -241910,6 +242806,55 @@
         "repo": "subodhkc/mcp-tenant-isolation",
         "path": "io.github.subodhkc/mcp-tenant-isolation",
         "url": "https://github.com/subodhkc/mcp-tenant-isolation",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:sum-eet/aiformapi-mcp:io.github.sum-eet/aiformapi-fill#ai-form-api-(fill)",
+      "type": "mcp",
+      "name": "AI Form API (fill)",
+      "description": {
+        "zh": null,
+        "en": "Read and submit one AI Form API form for a person, with a one-time fill code. No login.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "sum-eet/aiformapi-mcp",
+        "path": "io.github.sum-eet/aiformapi-fill",
+        "url": "https://github.com/sum-eet/aiformapi-mcp",
         "tier": 0
       },
       "quality": {
@@ -247233,6 +248178,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:vulinh1704/mantis:io.github.vulinh1704/mantis#mantis",
+      "type": "mcp",
+      "name": "Mantis",
+      "description": {
+        "zh": null,
+        "en": "Real-browser UI checks and speed audits for coding agents, catching fixes that only hide the bug.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "vulinh1704/mantis",
+        "path": "io.github.vulinh1704/mantis",
+        "url": "https://github.com/vulinh1704/mantis",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:vvvvking/novai-python:io.github.vvvvking/novai-python#novai-chinese-ai-models-gateway",
       "type": "mcp",
       "name": "NovAI - Chinese AI Models Gateway",
@@ -247338,7 +248333,7 @@
       "name": "Wathba",
       "description": {
         "zh": null,
-        "en": "Saudi payments, OTP/SMS, KYC, ZATCA e-invoicing and shipping for AI coding agents.",
+        "en": "Saudi payments, OTP and domains for AI coding agents.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"

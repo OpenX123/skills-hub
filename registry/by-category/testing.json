@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T23:05:23.113Z",
+  "generatedAt": "2026-10-30T22:45:54.490Z",
   "category": {
     "key": "testing",
     "zh": "测试质量",
@@ -73,7 +73,7 @@
       }
     ]
   },
-  "total": 822,
+  "total": 827,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/webapp-testing/skill.md#webapp-testing",
@@ -1294,6 +1294,61 @@
         "score": 0
       },
       "duplicateOf": "skill:anthropics/skills:skills/webapp-testing/skill.md#webapp-testing",
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 32978,
+      "curatedMentions": 2
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/productivity/rex-claude/skill.md#rex-claude",
+      "type": "skill",
+      "name": "rex-claude",
+      "description": {
+        "zh": null,
+        "en": "Open other Claude Code sessions in Rex terminal panes or tabs and drive them: launch claude in a directory, answer the workspace trust dialog, send prompts, wait for each turn by its reported status (working, done, blocked on a permission prompt), read the screen, press keys and close the pane. Use when running inside the Rex terminal (REX_SESSION is set, TERM_PROGRAM=rex) and the user wants to start, delegate to, test in, watch or control a second Claude Code session side by side, for example to test a setting or permission in a fresh session, run a task in parallel in another pane, or check",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "meta",
+        "testing"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/productivity/rex-claude/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/productivity/rex-claude/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 75,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
       "nearDuplicateOf": null,
       "dupCount": 0,
       "variantCount": 0,
@@ -11980,6 +12035,56 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:course-code-framework/coursecode:io.github.course-code-framework/coursecode#coursecode-framework",
+      "type": "mcp",
+      "name": "CourseCode Framework",
+      "description": {
+        "zh": null,
+        "en": "Preview, screenshot, lint, and test SCORM, cmi5, and LTI courses built with CourseCode Framework.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "course-code-framework/coursecode",
+        "path": "io.github.course-code-framework/coursecode",
+        "url": "https://github.com/course-code-framework/coursecode",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
       "id": "mcp:darkworldcoder/market-mirror:io.github.darkworldcoder/market-mirror#marketmirror",
       "type": "mcp",
       "name": "MarketMirror",
@@ -16760,56 +16865,6 @@
         "repo": "coroniumio/coronium-proxy-mcp",
         "path": "io.github.coroniumio/coronium-proxy-mcp",
         "url": "https://github.com/coroniumio/coronium-proxy-mcp",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:course-code-framework/coursecode:io.github.course-code-framework/coursecode#coursecode-framework",
-      "type": "mcp",
-      "name": "CourseCode Framework",
-      "description": {
-        "zh": null,
-        "en": "Preview, screenshot, lint, and test SCORM, cmi5, and LTI courses built with CourseCode Framework.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding",
-        "testing"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "course-code-framework/coursecode",
-        "path": "io.github.course-code-framework/coursecode",
-        "url": "https://github.com/course-code-framework/coursecode",
         "tier": 0
       },
       "quality": {
@@ -25445,6 +25500,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:co.ivfcost/ivf-cost-data#ivfcost.co-us-ivf-prices,-coverage-and-grants",
+      "type": "mcp",
+      "name": "IVFcost.co: US IVF prices, coverage and grants",
+      "description": {
+        "zh": null,
+        "en": "IVF prices US clinics post, cited cost estimates, state IVF insurance laws, grants open now.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "co.ivfcost/ivf-cost-data",
+        "url": "https://ivfcost.co/mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:co.kymac.feeds/feed-digest#feed-digest",
       "type": "mcp",
       "name": "feed-digest",
@@ -27222,7 +27326,7 @@
       "name": "Echoboard",
       "description": {
         "zh": null,
-        "en": "AI agents openly test the research questions in the book Nature's Memory. Humans watch.",
+        "en": "Pre-registered hypothesis testing by AI agents. First corpus: the book Nature's Memory.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -27230,7 +27334,6 @@
       },
       "lang": "en",
       "categories": [
-        "research",
         "testing"
       ],
       "targets": [
@@ -29384,6 +29487,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.worldfeedmonitor/news#world-feed-monitor",
+      "type": "mcp",
+      "name": "World Feed Monitor",
+      "description": {
+        "zh": null,
+        "en": "Search and follow news from 234 countries: recent articles, publishers and coverage.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.worldfeedmonitor/news",
+        "url": "https://worldfeedmonitor.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:dev.agenttested/agent-tested#agent-tested",
       "type": "mcp",
       "name": "Agent Tested",
@@ -29655,55 +29808,6 @@
         "repo": null,
         "path": "dev.gluo/gluo",
         "url": "https://registry.modelcontextprotocol.io/?q=dev.gluo%2Fgluo",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:mcp-official:dev.moltbound/sandbox#moltbound-sandbox",
-      "type": "mcp",
-      "name": "Moltbound Sandbox",
-      "description": {
-        "zh": null,
-        "en": "Test-only US sandbox: AI agents get simulated quotes for 20 services; purchases need a passkey.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "testing"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "dev.moltbound/sandbox",
-        "url": "https://moltbound.dev/for-agents",
         "tier": 0
       },
       "quality": {
@@ -30198,6 +30302,55 @@
         "repo": null,
         "path": "dk.humanified/council-consult",
         "url": "https://registry.modelcontextprotocol.io/?q=dk.humanified%2Fcouncil-consult",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:email.echo/deliverability#echo.email-deliverability-test",
+      "type": "mcp",
+      "name": "echo.email Deliverability Test",
+      "description": {
+        "zh": null,
+        "en": "Send a test email, get SPF, DKIM, DMARC, TLS and IPv6 results plus sender rules. No key.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "email.echo/deliverability",
+        "url": "https://echo.email",
         "tier": 0
       },
       "quality": {
@@ -32277,6 +32430,55 @@
         "repo": null,
         "path": "io.github.sergiomaldo/vendorwatch",
         "url": "https://vendor.watch/agents",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.sergovashakmadze/iomarkets-tech#iomarkets.tech-iso-20022-test-bench",
+      "type": "mcp",
+      "name": "IoMarkets.tech ISO 20022 Test Bench",
+      "description": {
+        "zh": null,
+        "en": "Check ISO 20022 messages (pacs.008, pain.001, camt.053, seev.031) against schema and rules.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.SergoVashakmadze/iomarkets-tech",
+        "url": "https://iomarkets.tech/start",
         "tier": 0
       },
       "quality": {
@@ -34796,6 +34998,55 @@
         "repo": "mmcaoge/huage-mcp-servers",
         "path": "io.github.mmcaoge/huage-minger-qa",
         "url": "https://github.com/mmcaoge/huage-mcp-servers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mobilepartnersco/appbox-ai:com.appboxapp/appbox#appbox",
+      "type": "mcp",
+      "name": "AppBox",
+      "description": {
+        "zh": null,
+        "en": "Set up and check AppBox apps: setup status, builds, devices, guides, tester-only test pushes.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "MobilePartnersCo/appbox-ai",
+        "path": "com.appboxapp/appbox",
+        "url": "https://github.com/MobilePartnersCo/appbox-ai",
         "tier": 0
       },
       "quality": {

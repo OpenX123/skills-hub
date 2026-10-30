@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-29T23:05:23.113Z",
+  "generatedAt": "2026-10-30T22:45:54.490Z",
   "type": "skill",
   "label": {
     "zh": "技能",
     "en": "Skill"
   },
-  "total": 2146,
+  "total": 2147,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/academy-guide/skill.md#academy-guide",
@@ -64005,6 +64005,61 @@
         "repo": "davila7/claude-code-templates",
         "path": "cli-tool/components/skills/productivity/requirements-clarity/SKILL.md",
         "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/productivity/requirements-clarity/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 75,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 32978,
+      "curatedMentions": 2
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/productivity/rex-claude/skill.md#rex-claude",
+      "type": "skill",
+      "name": "rex-claude",
+      "description": {
+        "zh": null,
+        "en": "Open other Claude Code sessions in Rex terminal panes or tabs and drive them: launch claude in a directory, answer the workspace trust dialog, send prompts, wait for each turn by its reported status (working, done, blocked on a permission prompt), read the screen, press keys and close the pane. Use when running inside the Rex terminal (REX_SESSION is set, TERM_PROGRAM=rex) and the user wants to start, delegate to, test in, watch or control a second Claude Code session side by side, for example to test a setting or permission in a fresh session, run a task in parallel in another pane, or check",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "meta",
+        "testing"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/productivity/rex-claude/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/productivity/rex-claude/SKILL.md",
         "tier": 2
       },
       "quality": {

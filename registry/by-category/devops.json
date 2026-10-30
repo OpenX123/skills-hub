@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T23:05:23.113Z",
+  "generatedAt": "2026-10-30T22:45:54.490Z",
   "category": {
     "key": "devops",
     "zh": "运维部署",
@@ -97,7 +97,7 @@
       }
     ]
   },
-  "total": 774,
+  "total": 779,
   "entries": [
     {
       "id": "skill:composiohq/awesome-claude-skills:composio-skills/cloudflare-api-key-automation/skill.md#cloudflare-api-key-automation",
@@ -12961,6 +12961,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:aleksskoz/kubedrive:io.github.aleksskoz/kubedrive#kubedrive",
+      "type": "mcp",
+      "name": "KubeDrive",
+      "description": {
+        "zh": null,
+        "en": "Your Kubernetes clusters for AI agents through the KubeDrive desktop app, without a kubeconfig.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "aleksskoz/kubedrive",
+        "path": "io.github.aleksskoz/kubedrive",
+        "url": "https://github.com/aleksskoz/kubedrive",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:alex-dev-web-c-de/scopeguard-mcp:io.github.alex-dev-web-c-de/scopeguard#io.github.alex-dev-web-c-de-scopeguard",
       "type": "mcp",
       "name": "io.github.Alex-Dev-Web-C-DE/scopeguard",
@@ -17234,56 +17283,6 @@
         "repo": "glassflow/rius-mcp-server",
         "path": "ai.glassflow/rius",
         "url": "https://github.com/glassflow/rius-mcp-server",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:glitchless-gg/glitchless:io.github.glitchless-gg/glitchless#glitchless",
-      "type": "mcp",
-      "name": "Glitchless",
-      "description": {
-        "zh": null,
-        "en": "Game observability for coding agents: stutters, crashes, custom metrics, dashboards, playtest bots",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "devops",
-        "coding"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "glitchless-gg/glitchless",
-        "path": "io.github.glitchless-gg/glitchless",
-        "url": "https://github.com/glitchless-gg/glitchless",
         "tier": 0
       },
       "quality": {
@@ -22233,6 +22232,55 @@
         "repo": null,
         "path": "app.vercel.axiom-risk-mcp/solana-token-risk",
         "url": "https://axiom-token-risk.vercel.app",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:app.vercel.baselens-api/baselens#baselens",
+      "type": "mcp",
+      "name": "BaseLens",
+      "description": {
+        "zh": null,
+        "en": "Base on-chain data for agents: balances, prices, transfers, Basenames, contracts. x402 pay-per-call.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "app.vercel.baselens-api/baselens",
+        "url": "https://baselens-api.vercel.app",
         "tier": 0
       },
       "quality": {
@@ -29022,6 +29070,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.ohad6k/viberaven#io.github.ohad6k-viberaven",
+      "type": "mcp",
+      "name": "io.github.ohad6k/viberaven",
+      "description": {
+        "zh": null,
+        "en": "Checks a Vercel + Supabase repo before deploy: RLS, grants, leaked keys, webhooks. Runs locally.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.ohad6k/viberaven",
+        "url": "https://viberaven.dev",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.oprych22/platform-changes#platform-changes",
       "type": "mcp",
       "name": "Platform Changes",
@@ -29491,6 +29588,153 @@
         "repo": null,
         "path": "io.github.wjabrac/xomni-market",
         "url": "https://xomnimarket.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.ygfalcon/deal-radar#deal-radar",
+      "type": "mcp",
+      "name": "Deal Radar",
+      "description": {
+        "zh": null,
+        "en": "SEC Form D deal leads, x402 USDC pay-per-call (Cloudflare host).",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.ygfalcon/deal-radar",
+        "url": "https://x.com/ygfalcon",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.ygfalcon/falcon-sol#falcon.sol-agents",
+      "type": "mcp",
+      "name": "falcon.sol agents",
+      "description": {
+        "zh": null,
+        "en": "Solana agent tools, x402 USDC pay-per-call (Cloudflare host).",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.ygfalcon/falcon-sol",
+        "url": "https://x.com/ygfalcon",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.ygfalcon/solana-wallet-intel#solana-wallet-intel",
+      "type": "mcp",
+      "name": "Solana Wallet Intel",
+      "description": {
+        "zh": null,
+        "en": "Solana wallet risk and intel, x402 USDC pay-per-call (Cloudflare host).",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.ygfalcon/solana-wallet-intel",
+        "url": "https://x.com/ygfalcon",
         "tier": 0
       },
       "quality": {
@@ -32887,57 +33131,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:ohad6k/viberaven:io.github.ohad6k/viberaven#viberaven-(local)",
-      "type": "mcp",
-      "name": "VibeRaven (local)",
-      "description": {
-        "zh": null,
-        "en": "Repo launch checks for Vercel + Supabase apps: RLS, keys in client code, env vars, Stripe webhooks.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "coding",
-        "devops",
-        "integration"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "ohad6k/VibeRaven",
-        "path": "io.github.ohad6k/viberaven",
-        "url": "https://github.com/ohad6k/VibeRaven",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:ohneben/anytype-mcp:io.github.ohneben/anytype-mcp#anytype-(self-hosted-http)",
       "type": "mcp",
       "name": "Anytype (self-hosted HTTP)",
@@ -35730,6 +35923,55 @@
         "repo": "sikandar100/orm-preflight",
         "path": "io.github.sikandar100/orm-preflight",
         "url": "https://github.com/sikandar100/orm-preflight",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:simplifyd-systems/cloud-mcp:com.simplifyd/cloud#simplifyd-cloud",
+      "type": "mcp",
+      "name": "Simplifyd Cloud",
+      "description": {
+        "zh": null,
+        "en": "Deploy and manage services, databases, domains and DNS on Simplifyd Cloud.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "simplifyd-systems/cloud-mcp",
+        "path": "com.simplifyd/cloud",
+        "url": "https://github.com/simplifyd-systems/cloud-mcp",
         "tier": 0
       },
       "quality": {
