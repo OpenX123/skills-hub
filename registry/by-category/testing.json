@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T01:27:14.921Z",
+  "generatedAt": "2026-11-03T23:52:03.815Z",
   "category": {
     "key": "testing",
     "zh": "测试质量",
@@ -73,7 +73,7 @@
       }
     ]
   },
-  "total": 859,
+  "total": 874,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/webapp-testing/skill.md#webapp-testing",
@@ -180,7 +180,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 303130,
+      "stars": 311851,
       "curatedMentions": 8
     },
     {
@@ -235,7 +235,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 303130,
+      "stars": 311851,
       "curatedMentions": 8
     },
     {
@@ -1295,6 +1295,61 @@
         "score": 0
       },
       "duplicateOf": "skill:anthropics/skills:skills/webapp-testing/skill.md#webapp-testing",
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 33075,
+      "curatedMentions": 2
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/productivity/pre-mortem/skill.md#pre-mortem",
+      "type": "skill",
+      "name": "pre-mortem",
+      "description": {
+        "zh": null,
+        "en": "Use for a pre-mortem, or before committing to a plan, launch or migration: \"what could go wrong?\", \"stress test this plan\", \"how might this fail?\", \"risks before we ship\". Assumes failure, lists causes, ranks them and sets mitigations. Skip for explaining a failure that already happened.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database",
+        "coding",
+        "testing"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/productivity/pre-mortem/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/productivity/pre-mortem/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 75,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
       "nearDuplicateOf": null,
       "dupCount": 0,
       "variantCount": 0,
@@ -4081,7 +4136,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 65,
+        "score": 64,
         "gates": {
           "security": true,
           "schema": true,
@@ -5355,55 +5410,6 @@
       "curatedMentions": 1
     },
     {
-      "id": "plugin:dontbesilent2025/dbskill:.claude-plugin/marketplace.json#dbs-skill-maker",
-      "type": "plugin",
-      "name": "dbs-skill-maker",
-      "description": {
-        "zh": "制作新 Skill，或改进已有 Skill。先按改动规模给出方案并等待确认，再生成或修改文件，并用真实任务对比改动前后的表现。用户要求做 Skill、把反复出现的问题沉淀成 Skill、修改或修复 Skill、根据失败案例改进 Skill、检查或测试 Skill 时使用；只有用户明确要求分享或发布时，才准备 GitHub 仓库并验证 `npx skills add`。",
-        "en": null,
-        "zhEngine": null,
-        "needsTranslation": [
-          "en"
-        ]
-      },
-      "lang": "zh",
-      "categories": [
-        "testing"
-      ],
-      "targets": [
-        "claude-code"
-      ],
-      "source": {
-        "repo": "dontbesilent2025/dbskill",
-        "path": ".claude-plugin/marketplace.json",
-        "url": "https://github.com/dontbesilent2025/dbskill/blob/HEAD/.claude-plugin/marketplace.json",
-        "tier": 2
-      },
-      "quality": {
-        "score": 56,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 11088,
-      "curatedMentions": 1
-    },
-    {
       "id": "rules:patrickjs/awesome-cursorrules:rules/nestjs-anti-hallucination-cursorrules-prompt-file.mdc#nestjs-anti-hallucination-cursorrules-prompt-file",
       "type": "rules",
       "name": "nestjs-anti-hallucination-cursorrules-prompt-file",
@@ -5452,6 +5458,55 @@
       "templateFamily": null,
       "familySize": 0,
       "stars": 40434,
+      "curatedMentions": 1
+    },
+    {
+      "id": "plugin:dontbesilent2025/dbskill:.claude-plugin/marketplace.json#dbs-skill-maker",
+      "type": "plugin",
+      "name": "dbs-skill-maker",
+      "description": {
+        "zh": "制作新 Skill，或改进已有 Skill。先按改动规模给出方案并等待确认，再生成或修改文件，并用真实任务对比改动前后的表现。用户要求做 Skill、把反复出现的问题沉淀成 Skill、修改或修复 Skill、根据失败案例改进 Skill、检查或测试 Skill 时使用；只有用户明确要求分享或发布时，才准备 GitHub 仓库并验证 `npx skills add`。",
+        "en": null,
+        "zhEngine": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "zh",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "dontbesilent2025/dbskill",
+        "path": ".claude-plugin/marketplace.json",
+        "url": "https://github.com/dontbesilent2025/dbskill/blob/HEAD/.claude-plugin/marketplace.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 55,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 11088,
       "curatedMentions": 1
     },
     {
@@ -8649,7 +8704,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 48,
+        "score": 47,
         "gates": {
           "security": true,
           "schema": true,
@@ -11987,6 +12042,55 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:atomno-mcp/mcp-sudact:io.github.atomno-mcp/mcp-sudact#mcp-sudact",
+      "type": "mcp",
+      "name": "mcp-sudact",
+      "description": {
+        "zh": null,
+        "en": "Court practice and FAS case cards via hosted API. Coverage depends on the connected service.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "atomno-mcp/mcp-sudact",
+        "path": "io.github.atomno-mcp/mcp-sudact",
+        "url": "https://github.com/atomno-mcp/mcp-sudact",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
       "id": "mcp:baseledgerip/realrun-mcp:com.baseledgerip.realrun/realrun#realrun",
       "type": "mcp",
       "name": "RealRun",
@@ -13581,6 +13685,55 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:testoptim-ai/testoptim-mcp:io.github.testoptim-ai/testoptim#testoptim",
+      "type": "mcp",
+      "name": "TestOptim",
+      "description": {
+        "zh": null,
+        "en": "Run AI QA test runs on your web app and read the bugs they find, with steps to reproduce.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "TestOptim-AI/testoptim-mcp",
+        "path": "io.github.TestOptim-AI/testoptim",
+        "url": "https://github.com/TestOptim-AI/testoptim-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
       "id": "mcp:tobee89/mcp-paperless-ngx:io.github.tobee89/mcp-paperless-ngx#paperless-ngx",
       "type": "mcp",
       "name": "Paperless-ngx",
@@ -13785,7 +13938,7 @@
       "name": "io.github.Wopee-io/wopee-mcp",
       "description": {
         "zh": null,
-        "en": "AI testing agents for web apps — dispatch test runs, crawls, fetch artifacts and status.",
+        "en": "Wopee.io AI testing agents: dispatch analyses and test runs, fetch artifacts and results.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -13949,6 +14102,56 @@
         "repo": "aarwitz/tapp",
         "path": "io.github.aarwitz/tapp",
         "url": "https://github.com/aarwitz/tapp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:abubakr-sanginov/expo-headless-mcp:io.github.abubakr-sanginov/expo-headless-mcp#io.github.abubakr-sanginov-expo-headless-mcp",
+      "type": "mcp",
+      "name": "io.github.Abubakr-Sanginov/expo-headless-mcp",
+      "description": {
+        "zh": null,
+        "en": "See and operate Expo / React Native apps: screenshots, taps, typing, auto-testing. No emulator.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Abubakr-Sanginov/expo-headless-mcp",
+        "path": "io.github.Abubakr-Sanginov/expo-headless-mcp",
+        "url": "https://github.com/Abubakr-Sanginov/expo-headless-mcp",
         "tier": 0
       },
       "quality": {
@@ -16055,6 +16258,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:bugbug-io/agent-plugin:io.github.bugbug-io/mcp#bugbug",
+      "type": "mcp",
+      "name": "BugBug",
+      "description": {
+        "zh": null,
+        "en": "BugBug test automation workflows for AI agents",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "bugbug-io/agent-plugin",
+        "path": "io.github.bugbug-io/mcp",
+        "url": "https://github.com/bugbug-io/agent-plugin",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:buildpulsellc/buildpulse-mcp:io.github.buildpulsellc/buildpulse-mcp#buildpulse",
       "type": "mcp",
       "name": "BuildPulse",
@@ -17392,7 +17644,7 @@
       "name": "Coronium mobile proxies",
       "description": {
         "zh": null,
-        "en": "Manage your Coronium 4G/5G mobile proxies: test, rotate, replace, plans, stock and quotes.",
+        "en": "Buy and manage Coronium 4G/5G mobile proxies: plans, stock, quotes, test, rotate and replace.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -18403,56 +18655,6 @@
         "repo": "DevMatei/stresix-mcp",
         "path": "com.stresix/stresix",
         "url": "https://github.com/DevMatei/stresix-mcp",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:devthomy/adrails-mcp:ai.adrails/adrails#adrails",
-      "type": "mcp",
-      "name": "Adrails",
-      "description": {
-        "zh": null,
-        "en": "AI agents that build, test and monitor Meta Ads and Google Ads campaigns from your real data.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "testing",
-        "business"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "devthomy/adrails-mcp",
-        "path": "ai.adrails/adrails",
-        "url": "https://github.com/devthomy/adrails-mcp",
         "tier": 0
       },
       "quality": {
@@ -19493,6 +19695,55 @@
         "repo": "fantasyce/agent-residue-evidence",
         "path": "io.github.fantasyce/agent-residue-evidence",
         "url": "https://github.com/fantasyce/agent-residue-evidence",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:farenberglord-star/orb-studio-:io.github.farenberglord-star/orb-studio#orb-studio-news-radars",
+      "type": "mcp",
+      "name": "Orb Studio news radars",
+      "description": {
+        "zh": null,
+        "en": "News radars with AI anchors, open market and network sensors, Hamburg prices, a live AI trading test",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "farenberglord-star/Orb-studio-",
+        "path": "io.github.farenberglord-star/orb-studio",
+        "url": "https://github.com/farenberglord-star/Orb-studio-",
         "tier": 0
       },
       "quality": {
@@ -23278,6 +23529,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:lexthirteen-ai/orinyx-mcp:io.github.lexthirteen-ai/orinyx-mcp#orinyx",
+      "type": "mcp",
+      "name": "Orinyx",
+      "description": {
+        "zh": null,
+        "en": "Test healthcare AI agents' medication claims against cited FDA label text. Not for clinical use.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "lexthirteen-ai/orinyx-mcp",
+        "path": "io.github.lexthirteen-ai/orinyx-mcp",
+        "url": "https://github.com/lexthirteen-ai/orinyx-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:liasoft/covdbg-mcp:com.covdbg/covdbg#covdbg",
       "type": "mcp",
       "name": "covdbg",
@@ -25991,6 +26291,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:ca.homecalc/calculators#homecalc-—-canadian-mortgage-&-tax-calculators",
+      "type": "mcp",
+      "name": "HomeCalc — Canadian Mortgage & Tax Calculators",
+      "description": {
+        "zh": null,
+        "en": "34 read-only Canadian mortgage, tax and home-buying tools, including nationwide LTT coverage.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ca.homecalc/calculators",
+        "url": "https://homecalc.ca/connector",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:ca.oathready/citizenship-test#oathready-canadian-citizenship-test",
       "type": "mcp",
       "name": "OathReady: Canadian Citizenship Test",
@@ -26013,6 +26362,55 @@
         "repo": null,
         "path": "ca.oathready/citizenship-test",
         "url": "https://oathready.ca",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:chat.zorgverzekering.mcp/zorgverzekering#zorgverzekering.chat-dutch-health-insurance",
+      "type": "mcp",
+      "name": "Zorgverzekering.chat: Dutch health insurance",
+      "description": {
+        "zh": null,
+        "en": "Dutch health insurance (zorgverzekering): premiums, coverage, providers, yearly cost. Not advice.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "chat.zorgverzekering.mcp/zorgverzekering",
+        "url": "https://www.zorgverzekering.chat/mcp",
         "tier": 0
       },
       "quality": {
@@ -26604,6 +27002,55 @@
         "repo": null,
         "path": "com.amfionhq/front-desk-setup",
         "url": "https://amfionhq.com/help/claude",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.anylocale/anylocale#anylocale",
+      "type": "mcp",
+      "name": "anylocale",
+      "description": {
+        "zh": null,
+        "en": "Localize iOS and Android apps: coverage, missing strings, glossary-aware AI drafts and file sync.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.anylocale/anylocale",
+        "url": "https://anylocale.com/mcp",
         "tier": 0
       },
       "quality": {
@@ -27961,55 +28408,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:com.getjoinable/joinable#joinable",
-      "type": "mcp",
-      "name": "Joinable",
-      "description": {
-        "zh": null,
-        "en": "Make any game joinable: pick the pattern, get the snippet, run a two-player self-test.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "testing"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "com.getjoinable/joinable",
-        "url": "https://getjoinable.com",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:mcp-official:com.getliftcompass/liftcompass#com.getliftcompass-liftcompass",
       "type": "mcp",
       "name": "com.getliftcompass/liftcompass",
@@ -28131,6 +28529,56 @@
         "repo": null,
         "path": "com.ironfang/ironfang",
         "url": "https://ironfang.com/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.jacquard.absimulate/ab-simulate#a-b-simulate-by-jacquard",
+      "type": "mcp",
+      "name": "A/B Simulate by Jacquard",
+      "description": {
+        "zh": null,
+        "en": "Simulates an A/B test between 2 to 20 drafts of marketing copy and predicts the winner.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business",
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.jacquard.absimulate/ab-simulate",
+        "url": "https://absimulate.jacquard.com",
         "tier": 0
       },
       "quality": {
@@ -29064,56 +29512,6 @@
         "repo": null,
         "path": "com.onrender.draconic21-x402-api/data-tools",
         "url": "https://draconic21-x402-api.onrender.com/llms.txt",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:mcp-official:com.paddle/mcp-sandbox#paddle-(sandbox)",
-      "type": "mcp",
-      "name": "Paddle (Sandbox)",
-      "description": {
-        "zh": null,
-        "en": "Test Paddle Billing in sandbox: pricing, subscriptions, payments, webhooks and event simulations.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "business",
-        "testing"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "com.paddle/mcp-sandbox",
-        "url": "https://sandbox-mcp.paddle.com/",
         "tier": 0
       },
       "quality": {
@@ -31266,6 +31664,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:dev.tanod/x402-check#x402-endpoint-check-(tanod)",
+      "type": "mcp",
+      "name": "x402 Endpoint Check (Tanod)",
+      "description": {
+        "zh": null,
+        "en": "Check an x402 endpoint before you pay it, then test a payment and follow it to settlement.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "dev.tanod/x402-check",
+        "url": "https://tanod.dev",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:dev.workers.boshfred.greenhouse-jobs-snapshot-sepolia/greenhouse-jobs-snapshot#greenhouse-jobs-snapshot-(base-sepolia)",
       "type": "mcp",
       "name": "Greenhouse Jobs Snapshot (Base Sepolia)",
@@ -31633,6 +32080,55 @@
         "repo": null,
         "path": "guru.packet/agent-verifier",
         "url": "https://packet.guru/agents",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:health.picardo/labs#picardo",
+      "type": "mcp",
+      "name": "Picardo",
+      "description": {
+        "zh": null,
+        "en": "Find Picardo's clinician-designed blood test panels and Labcorp tests, and get an order link.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "health.picardo/labs",
+        "url": "https://picardo.health",
         "tier": 0
       },
       "quality": {
@@ -32374,6 +32870,56 @@
         "repo": null,
         "path": "io.github.Hyhyr2/mithrandir",
         "url": "https://mithrandir-production.up.railway.app/start",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.ihubanov/squire#mcp-appium-mobile-development-and-automation-server",
+      "type": "mcp",
+      "name": "MCP Appium - Mobile Development and Automation Server",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Appium mobile automation on iOS and Android devices with test creation tools.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.ihubanov/squire",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.ihubanov%2Fsquire",
         "tier": 0
       },
       "quality": {
@@ -36111,6 +36657,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:medley/fda-data-mcp:io.github.medley/fda-data#regdatalab",
+      "type": "mcp",
+      "name": "RegDataLab",
+      "description": {
+        "zh": null,
+        "en": "Review public FDA records by company, site or product, with source dates and coverage limits.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "medley/fda-data-mcp",
+        "path": "io.github.medley/fda-data",
+        "url": "https://github.com/medley/fda-data-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mehmetnadir/cdpilot:io.github.mehmetnadir/cdpilot#io.github.mehmetnadir-cdpilot",
       "type": "mcp",
       "name": "io.github.mehmetnadir/cdpilot",
@@ -36477,6 +37072,55 @@
         "repo": "Moe03/convocore-mcp",
         "path": "io.github.Moe03/convocore",
         "url": "https://github.com/Moe03/convocore-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:momentic-ai/skills:ai.momentic/momentic#momentic",
+      "type": "mcp",
+      "name": "Momentic",
+      "description": {
+        "zh": null,
+        "en": "Bug bash apps and PRs with Mo, review findings, and list Momentic test runs and quarantines.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "momentic-ai/skills",
+        "path": "ai.momentic/momentic",
+        "url": "https://github.com/momentic-ai/skills",
         "tier": 0
       },
       "quality": {
@@ -37587,6 +38231,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:noju-io/joinable-kit:com.getjoinable/joinable#joinable",
+      "type": "mcp",
+      "name": "Joinable",
+      "description": {
+        "zh": null,
+        "en": "Make any game joinable: pick the pattern, get the snippet, run a two-player self-test.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Noju-io/joinable-kit",
+        "path": "com.getjoinable/joinable",
+        "url": "https://github.com/Noju-io/joinable-kit",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:nomenak/jev-tools:io.github.nomenak/jev-agent-tools#jev-agent-tools",
       "type": "mcp",
       "name": "Jev agent tools",
@@ -38158,6 +38851,56 @@
         "repo": "oxyvore-cyber/firmware-test-farm-mcp",
         "path": "io.github.oxyvore-cyber/firmware-test-farm-mcp",
         "url": "https://github.com/oxyvore-cyber/firmware-test-farm-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:paddlehq/paddle-remote-mcp-instructions:com.paddle/mcp-sandbox#paddle-(sandbox)",
+      "type": "mcp",
+      "name": "Paddle (Sandbox)",
+      "description": {
+        "zh": null,
+        "en": "Test Paddle Billing in sandbox: pricing, subscriptions, payments, webhooks and event simulations.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business",
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "PaddleHQ/paddle-remote-mcp-instructions",
+        "path": "com.paddle/mcp-sandbox",
+        "url": "https://github.com/PaddleHQ/paddle-remote-mcp-instructions",
         "tier": 0
       },
       "quality": {
@@ -41533,55 +42276,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:testoptim-ai/testoptim-mcp:io.github.testoptim-ai/testoptim#testoptim",
-      "type": "mcp",
-      "name": "TestOptim",
-      "description": {
-        "zh": null,
-        "en": "Run AI QA test runs on your web app and read the bugs they find, with steps to reproduce.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "testing"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "TestOptim-AI/testoptim-mcp",
-        "path": "io.github.TestOptim-AI/testoptim",
-        "url": "https://github.com/TestOptim-AI/testoptim-mcp",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:theluckystrike/ab-test-sample-size-calculator-mcp:io.github.theluckystrike/ab-test-sample-size-calculator-mcp#a-b-test-sample-size-calculator-mcp",
       "type": "mcp",
       "name": "A/B Test Sample Size Calculator MCP",
@@ -41903,6 +42597,56 @@
         "repo": "trajectiq-ai/E2E",
         "path": "io.github.trajectiq-ai/E2E",
         "url": "https://github.com/trajectiq-ai/E2E",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:translatize/integrations:com.translatize/mcp#com.translatize-mcp",
+      "type": "mcp",
+      "name": "com.translatize/mcp",
+      "description": {
+        "zh": null,
+        "en": "Read, edit, branch, translate and QA-check Translatize translation labels from AI agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Translatize/integrations",
+        "path": "com.translatize/mcp",
+        "url": "https://github.com/Translatize/integrations",
         "tier": 0
       },
       "quality": {

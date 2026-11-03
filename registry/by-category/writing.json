@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T01:27:14.921Z",
+  "generatedAt": "2026-11-03T23:52:03.815Z",
   "category": {
     "key": "writing",
     "zh": "内容写作",
@@ -85,7 +85,7 @@
       }
     ]
   },
-  "total": 1151,
+  "total": 1167,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/pptx/skill.md#pptx",
@@ -193,7 +193,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 303130,
+      "stars": 311851,
       "curatedMentions": 8
     },
     {
@@ -247,7 +247,62 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 303130,
+      "stars": 311851,
+      "curatedMentions": 8
+    },
+    {
+      "id": "skill:obra/superpowers:skills/writing-plans/skill.md#writing-plans",
+      "type": "skill",
+      "name": "writing-plans",
+      "description": {
+        "zh": null,
+        "en": "Use when you have a spec or requirements for a multi-step task, before touching code",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "coding",
+        "meta"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "obra/superpowers",
+        "path": "skills/writing-plans/SKILL.md",
+        "url": "https://github.com/obra/superpowers/blob/HEAD/skills/writing-plans/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 96,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 311851,
       "curatedMentions": 8
     },
     {
@@ -301,61 +356,6 @@
       "templateFamily": null,
       "familySize": 0,
       "stars": 184513,
-      "curatedMentions": 8
-    },
-    {
-      "id": "skill:obra/superpowers:skills/writing-plans/skill.md#writing-plans",
-      "type": "skill",
-      "name": "writing-plans",
-      "description": {
-        "zh": null,
-        "en": "Use when you have a spec or requirements for a multi-step task, before touching code",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "writing",
-        "coding",
-        "meta"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "obra/superpowers",
-        "path": "skills/writing-plans/SKILL.md",
-        "url": "https://github.com/obra/superpowers/blob/HEAD/skills/writing-plans/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 95,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 303130,
       "curatedMentions": 8
     },
     {
@@ -3407,7 +3407,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 65,
+        "score": 64,
         "gates": {
           "security": true,
           "schema": true,
@@ -3460,7 +3460,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 65,
+        "score": 64,
         "gates": {
           "security": true,
           "schema": true,
@@ -3513,7 +3513,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 65,
+        "score": 64,
         "gates": {
           "security": true,
           "schema": true,
@@ -3568,7 +3568,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 65,
+        "score": 64,
         "gates": {
           "security": true,
           "schema": true,
@@ -3621,7 +3621,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 65,
+        "score": 64,
         "gates": {
           "security": true,
           "schema": true,
@@ -3675,7 +3675,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 65,
+        "score": 64,
         "gates": {
           "security": true,
           "schema": true,
@@ -3730,7 +3730,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 65,
+        "score": 64,
         "gates": {
           "security": true,
           "schema": true,
@@ -9474,6 +9474,57 @@
       "curatedMentions": 1
     },
     {
+      "id": "rules:patrickjs/awesome-cursorrules:rules/nestjs-anti-hallucination-cursorrules-prompt-file.mdc#nestjs-anti-hallucination-cursorrules-prompt-file",
+      "type": "rules",
+      "name": "nestjs-anti-hallucination-cursorrules-prompt-file",
+      "description": {
+        "zh": null,
+        "en": "Cursor rules that block deprecated, phantom, or incorrect NestJS imports, decorators, providers, modules, and testing patterns.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "meta",
+        "writing"
+      ],
+      "targets": [
+        "cursor"
+      ],
+      "source": {
+        "repo": "PatrickJS/awesome-cursorrules",
+        "path": "rules/nestjs-anti-hallucination-cursorrules-prompt-file.mdc",
+        "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/HEAD/rules/nestjs-anti-hallucination-cursorrules-prompt-file.mdc",
+        "tier": 2
+      },
+      "quality": {
+        "score": 56,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "low",
+        "score": 4
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 40434,
+      "curatedMentions": 1
+    },
+    {
       "id": "plugin:dontbesilent2025/dbskill:.claude-plugin/marketplace.json#dbs-ai-check",
       "type": "plugin",
       "name": "dbs-ai-check",
@@ -9500,7 +9551,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -9549,7 +9600,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -9600,7 +9651,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -9649,7 +9700,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -9700,7 +9751,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -9749,7 +9800,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -9799,7 +9850,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -9850,7 +9901,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -9904,7 +9955,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -9925,57 +9976,6 @@
       "templateFamily": null,
       "familySize": 0,
       "stars": 11088,
-      "curatedMentions": 1
-    },
-    {
-      "id": "rules:patrickjs/awesome-cursorrules:rules/nestjs-anti-hallucination-cursorrules-prompt-file.mdc#nestjs-anti-hallucination-cursorrules-prompt-file",
-      "type": "rules",
-      "name": "nestjs-anti-hallucination-cursorrules-prompt-file",
-      "description": {
-        "zh": null,
-        "en": "Cursor rules that block deprecated, phantom, or incorrect NestJS imports, decorators, providers, modules, and testing patterns.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "testing",
-        "meta",
-        "writing"
-      ],
-      "targets": [
-        "cursor"
-      ],
-      "source": {
-        "repo": "PatrickJS/awesome-cursorrules",
-        "path": "rules/nestjs-anti-hallucination-cursorrules-prompt-file.mdc",
-        "url": "https://github.com/PatrickJS/awesome-cursorrules/blob/HEAD/rules/nestjs-anti-hallucination-cursorrules-prompt-file.mdc",
-        "tier": 2
-      },
-      "quality": {
-        "score": 56,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "low",
-        "score": 4
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 40434,
       "curatedMentions": 1
     },
     {
@@ -14812,7 +14812,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 48,
+        "score": 47,
         "gates": {
           "security": true,
           "schema": true,
@@ -18215,6 +18215,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:agent-blueprint/agent-blueprint-website:ai.agentblueprint/agent-blueprint#agent-blueprint",
+      "type": "mcp",
+      "name": "Agent Blueprint",
+      "description": {
+        "zh": null,
+        "en": "Measured agent costs, a one-page agent summary check, and an offline access map. No sign-in.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "agent-blueprint/agent-blueprint-website",
+        "path": "ai.agentblueprint/agent-blueprint",
+        "url": "https://github.com/agent-blueprint/agent-blueprint-website",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:ahel-technologies/ahel:ai.ahel/ahel#ahel",
       "type": "mcp",
       "name": "Ahel",
@@ -18888,6 +18937,56 @@
         "repo": "appscreenstudio/appscreenstudio-mcp",
         "path": "com.appscreenstudio/app-screen-studio",
         "url": "https://github.com/appscreenstudio/appscreenstudio-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:arclip/mcp:design.arclip/editor#arclip",
+      "type": "mcp",
+      "name": "ARClip",
+      "description": {
+        "zh": null,
+        "en": "Build, edit and publish live 3D, AR and game scenes in ARClip from your AI assistant.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design",
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "arclip/mcp",
+        "path": "design.arclip/editor",
+        "url": "https://github.com/arclip/mcp",
         "tier": 0
       },
       "quality": {
@@ -19633,6 +19732,55 @@
         "repo": "BearsCLOUD/wildberries-agent-integration",
         "path": "io.github.BearsCLOUD/wildberries-agent-integration",
         "url": "https://github.com/BearsCLOUD/wildberries-agent-integration",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:behaviortrees/behaviortrees:io.github.behaviortrees/behaviortrees#behavior-trees",
+      "type": "mcp",
+      "name": "Behavior Trees",
+      "description": {
+        "zh": null,
+        "en": "Validate, convert (behavior3 JSON, BehaviorTree.CPP XML) and open behavior trees in a visual editor",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "behaviortrees/behaviortrees",
+        "path": "io.github.behaviortrees/behaviortrees",
+        "url": "https://github.com/behaviortrees/behaviortrees",
         "tier": 0
       },
       "quality": {
@@ -24017,6 +24165,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:ffscz/nagatapress:io.github.ffscz/nagatapress#nagatapress",
+      "type": "mcp",
+      "name": "NagataPress",
+      "description": {
+        "zh": null,
+        "en": "Translate a WordPress or WooCommerce site with your AI assistant, over MCP on your own site.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ffscz/NagataPress",
+        "path": "io.github.ffscz/nagatapress",
+        "url": "https://github.com/ffscz/NagataPress",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:flockbay/flockbay-plugin:io.github.flockbay/flockbay#flockbay",
       "type": "mcp",
       "name": "Flockbay",
@@ -25162,6 +25359,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:hanshengcc/callai-seo-mcp:com.callaiapi/seo#callai-seo",
+      "type": "mcp",
+      "name": "CallAI SEO",
+      "description": {
+        "zh": null,
+        "en": "Live SEO data: Google/Bing SERP, AI Overview sources, keyword difficulty, backlinks, page audits.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "hanshengcc/callai-seo-mcp",
+        "path": "com.callaiapi/seo",
+        "url": "https://github.com/hanshengcc/callai-seo-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:honestkit/honestkit-mcp:io.github.honestkit/honestkit-mcp#io.github.honestkit-honestkit-mcp",
       "type": "mcp",
       "name": "io.github.honestkit/honestkit-mcp",
@@ -25382,6 +25628,55 @@
         "repo": "houtini-ai/seo-audit",
         "path": "io.github.houtini-ai/seo-audit-console",
         "url": "https://github.com/houtini-ai/seo-audit",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:hs85-newbie/korea-finance-factcheck:io.github.hs85-newbie/korea-finance-factcheck#korea-finance-factcheck",
+      "type": "mcp",
+      "name": "Korea Finance Factcheck",
+      "description": {
+        "zh": null,
+        "en": "Fact-checks numbers in Korean finance writing against DART, Bank of Korea ECOS and US Treasury",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "hs85-newbie/korea-finance-factcheck",
+        "path": "io.github.hs85-newbie/korea-finance-factcheck",
+        "url": "https://github.com/hs85-newbie/korea-finance-factcheck",
         "tier": 0
       },
       "quality": {
@@ -28149,6 +28444,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:lead788/apick-mcp:app.apick/convert#apick-convert",
+      "type": "mcp",
+      "name": "APICK Convert",
+      "description": {
+        "zh": null,
+        "en": "Document editing, AI writing, saved documents, DOCX downloads, PDF, STT, TTS and watermarking",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "writing",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "lead788/apick-mcp",
+        "path": "app.apick/convert",
+        "url": "https://github.com/lead788/apick-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:legalithm-org/legalithm:io.github.pedrammadani/legalithm-mcp-server#io.github.pedrammadani-legalithm-mcp-server",
       "type": "mcp",
       "name": "io.github.PedramMadani/legalithm-mcp-server",
@@ -28249,12 +28595,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:letterlyapp/letterly-mcp:app.letterly/mcp#letterly",
+      "id": "mcp:legesher/legesher:io.github.legesher/legesher-mcp#legesher",
       "type": "mcp",
-      "name": "Letterly",
+      "name": "Legesher",
       "description": {
         "zh": null,
-        "en": "Dictate anywhere with Letterly, then find, rewrite and translate your voice notes in your AI chat",
+        "en": "Translate Python between English keywords and your language, with round-trip verification.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -28262,7 +28608,58 @@
       },
       "lang": "en",
       "categories": [
-        "writing"
+        "writing",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "legesher/legesher",
+        "path": "io.github.legesher/legesher-mcp",
+        "url": "https://github.com/legesher/legesher",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:letterlyapp/letterly-mcp:app.letterly/mcp#letterly",
+      "type": "mcp",
+      "name": "Letterly",
+      "description": {
+        "zh": null,
+        "en": "Bring Letterly voice notes and meetings into your AI chat to search, rewrite, translate, and more.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "research"
       ],
       "targets": [
         "mcp-client"
@@ -30728,6 +31125,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:app.montik/editor#montik",
+      "type": "mcp",
+      "name": "Montik",
+      "description": {
+        "zh": null,
+        "en": "Edit short ads and social videos live in a browser editor, alongside your AI agent.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "app.montik/editor",
+        "url": "https://montik.app",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:app.netlify.automatom-x402/web-data-toolkit#mat-web-&-data-toolkit-(x402)",
       "type": "mcp",
       "name": "Mat Web & Data Toolkit (x402)",
@@ -32092,6 +32539,57 @@
         "repo": null,
         "path": "com.addsynapse/woocommerce",
         "url": "https://addsynapse.com/woocommerce-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.adityaarsharma.audit/sitewalk#sitewalk",
+      "type": "mcp",
+      "name": "Sitewalk",
+      "description": {
+        "zh": null,
+        "en": "Technical SEO audits from ChatGPT or the web: health score, prioritised fixes, CSV and PDF reports.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "writing",
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.adityaarsharma.audit/sitewalk",
+        "url": "https://audit.adityaarsharma.com",
         "tier": 0
       },
       "quality": {
@@ -34276,6 +34774,55 @@
         "repo": null,
         "path": "com.ghostshorts/ghostshorts",
         "url": "https://ghostshorts.com/developers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.glokki/cms#glokki-cms",
+      "type": "mcp",
+      "name": "glokki CMS",
+      "description": {
+        "zh": null,
+        "en": "Create and publish CMS pages from defineBlock() blocks. Open the editor after deploying new blocks.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.glokki/cms",
+        "url": "https://glokki.com",
         "tier": 0
       },
       "quality": {
@@ -39425,6 +39972,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:dev.getglossa/glossa#glossa",
+      "type": "mcp",
+      "name": "Glossa",
+      "description": {
+        "zh": null,
+        "en": "AI-native translation management: push translation files, translate, review and audit strings.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "dev.getglossa/glossa",
+        "url": "https://getglossa.dev",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:dev.insidetheloop/blog#inside-the-loop",
       "type": "mcp",
       "name": "Inside the Loop",
@@ -39622,12 +40219,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:dev.tanod/text#tanod-text",
+      "id": "mcp:mcp-official:dev.tanod/text#text-analysis-&-cleanup-tools-(tanod)",
       "type": "mcp",
-      "name": "Tanod Text",
+      "name": "Text Analysis & Cleanup Tools (Tanod)",
       "description": {
         "zh": null,
-        "en": "Text tools: stats, language, case, lines, replace, extract, keywords, summary, sentiment, diff.",
+        "en": "Analyse and clean up text: stats, language, keywords, summary, sentiment, PII redaction, diff.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -44355,6 +44952,55 @@
         "repo": null,
         "path": "io.hydori/hydori",
         "url": "https://hydori.io",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.irfanaslam/tools#irfan-aslam-tools",
+      "type": "mcp",
+      "name": "Irfan Aslam Tools",
+      "description": {
+        "zh": null,
+        "en": "71 free tools: Saudi salary, GOSI, VAT, zakat, Hijri dates, HSE, developer and SEO/DNS checks.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.irfanaslam/tools",
+        "url": "https://irfanaslam.io/mcp",
         "tier": 0
       },
       "quality": {
@@ -55516,6 +56162,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:terahertz-inc/frosh-mcp:org.frosh/mcp#frosh",
+      "type": "mcp",
+      "name": "Frosh",
+      "description": {
+        "zh": null,
+        "en": "Read-only Frosh MCP: search and read public frosh.org docs, blog and overview.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Terahertz-Inc/frosh-mcp",
+        "path": "org.frosh/mcp",
+        "url": "https://github.com/Terahertz-Inc/frosh-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:thatseoagent/skills:com.thatseoagent/seo#that-seo-agent",
       "type": "mcp",
       "name": "That SEO Agent",
@@ -56086,6 +56782,56 @@
         "repo": "trahloff/Aldine",
         "path": "io.github.trahloff/aldine",
         "url": "https://github.com/trahloff/Aldine",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:translatize/integrations:com.translatize/mcp#com.translatize-mcp",
+      "type": "mcp",
+      "name": "com.translatize/mcp",
+      "description": {
+        "zh": null,
+        "en": "Read, edit, branch, translate and QA-check Translatize translation labels from AI agents.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Translatize/integrations",
+        "path": "com.translatize/mcp",
+        "url": "https://github.com/Translatize/integrations",
         "tier": 0
       },
       "quality": {
@@ -57132,6 +57878,57 @@
         "repo": "woven-video/woven-mcp",
         "path": "io.github.woven-video/woven",
         "url": "https://github.com/woven-video/woven-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:wrenfielddata/wrenfield-mcp:io.github.wrenfielddata/seo-data#wrenfield-seo-data",
+      "type": "mcp",
+      "name": "Wrenfield SEO Data",
+      "description": {
+        "zh": null,
+        "en": "Keyword search volume, CPC, domain authority, organic traffic, Google Trends and competitor ads.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "research",
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "wrenfielddata/wrenfield-mcp",
+        "path": "io.github.wrenfielddata/seo-data",
+        "url": "https://github.com/wrenfielddata/wrenfield-mcp",
         "tier": 0
       },
       "quality": {

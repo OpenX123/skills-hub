@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T01:27:14.921Z",
+  "generatedAt": "2026-11-03T23:52:03.815Z",
   "category": {
     "key": "integration",
     "zh": "三方集成",
@@ -85,7 +85,7 @@
       }
     ]
   },
-  "total": 594,
+  "total": 600,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/slack-gif-creator/skill.md#slack-gif-creator",
@@ -2156,7 +2156,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 65,
+        "score": 64,
         "gates": {
           "security": true,
           "schema": true,
@@ -2169,60 +2169,6 @@
       "risk": {
         "level": "clean",
         "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 11088,
-      "curatedMentions": 1
-    },
-    {
-      "id": "skill:dontbesilent2025/dbskill:skills/dbs-wechat-html/skill.md#dbs-wechat-html",
-      "type": "skill",
-      "name": "dbs-wechat-html",
-      "description": {
-        "zh": "把 Markdown 转成可粘贴到微信公众号后台的 HTML，并提供 15 种内置风格。用户要求生成公众号 HTML、制作微信版本或排版公众号文章时使用。",
-        "en": null,
-        "zhEngine": null,
-        "needsTranslation": [
-          "en"
-        ]
-      },
-      "lang": "zh",
-      "categories": [
-        "document",
-        "integration"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "dontbesilent2025/dbskill",
-        "path": "skills/dbs-wechat-html/SKILL.md",
-        "url": "https://github.com/dontbesilent2025/dbskill/blob/HEAD/skills/dbs-wechat-html/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 62,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "low",
-        "score": 10
       },
       "duplicateOf": null,
       "nearDuplicateOf": null,
@@ -2287,6 +2233,60 @@
       "familySize": 0,
       "stars": 902,
       "curatedMentions": 2
+    },
+    {
+      "id": "skill:dontbesilent2025/dbskill:skills/dbs-wechat-html/skill.md#dbs-wechat-html",
+      "type": "skill",
+      "name": "dbs-wechat-html",
+      "description": {
+        "zh": "把 Markdown 转成可粘贴到微信公众号后台的 HTML，并提供 15 种内置风格。用户要求生成公众号 HTML、制作微信版本或排版公众号文章时使用。",
+        "en": null,
+        "zhEngine": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "zh",
+      "categories": [
+        "document",
+        "integration"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "dontbesilent2025/dbskill",
+        "path": "skills/dbs-wechat-html/SKILL.md",
+        "url": "https://github.com/dontbesilent2025/dbskill/blob/HEAD/skills/dbs-wechat-html/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 61,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "low",
+        "score": 10
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 11088,
+      "curatedMentions": 1
     },
     {
       "id": "rules:patrickjs/awesome-cursorrules:rules/cloudflare-email-telegram-cursorrules-prompt-file.mdc#cloudflare-email-telegram-cursorrules-prompt-file",
@@ -2514,7 +2514,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -6607,6 +6607,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:cloudcorprecords/grouppulse:io.github.cloudcorprecords/grouppulse#io.github.cloudcorprecords-grouppulse",
+      "type": "mcp",
+      "name": "io.github.CloudCorpRecords/grouppulse",
+      "description": {
+        "zh": null,
+        "en": "Read-only public Telegram group statistics: leaderboards, activity trends, levels and award history.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data",
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "CloudCorpRecords/grouppulse",
+        "path": "io.github.CloudCorpRecords/grouppulse",
+        "url": "https://github.com/CloudCorpRecords/grouppulse",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:cloudcorprecords/guildchat:io.github.cloudcorprecords/guildchat#io.github.cloudcorprecords-guildchat",
       "type": "mcp",
       "name": "io.github.CloudCorpRecords/guildchat",
@@ -7422,6 +7472,56 @@
         "repo": "devadflipr/cursor-plugin",
         "path": "com.adflipr/mcp",
         "url": "https://github.com/devadflipr/cursor-plugin",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:devthomy/adrails-mcp:ai.adrails/adrails#adrails",
+      "type": "mcp",
+      "name": "Adrails",
+      "description": {
+        "zh": null,
+        "en": "AI agent that runs Meta Ads and Google Ads for Shopify stores, with store revenue next to ad spend.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration",
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "devthomy/adrails-mcp",
+        "path": "ai.adrails/adrails",
+        "url": "https://github.com/devthomy/adrails-mcp",
         "tier": 0
       },
       "quality": {
@@ -15025,6 +15125,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.dataxapi/mcp#dataxapi",
+      "type": "mcp",
+      "name": "DataXAPI",
+      "description": {
+        "zh": null,
+        "en": "Market data for AI agents: Douyin, Xiaohongshu, TikTok, WeChat, X and 15 more. Pay per call.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.dataxapi/mcp",
+        "url": "https://dataxapi.com/mcp/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.debyko/mcp#debyko",
       "type": "mcp",
       "name": "DEBYKO",
@@ -15770,7 +15919,7 @@
       "name": "Goptin",
       "description": {
         "zh": null,
-        "en": "One MCP server for all your work accounts: Slack, Teams, Google Chat chats and Jira/ClickUp tickets.",
+        "en": "One MCP server for all your work accounts: Slack, Teams, Google Chat, Jira, ClickUp, digest, tasks.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -17571,6 +17720,56 @@
         "repo": null,
         "path": "com.skaidigital/shopify-speed-check",
         "url": "https://www.skaidigital.com/tools/shopify-speed-test",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.smartretry/payment-tools#smartretry-payment-tools",
+      "type": "mcp",
+      "name": "SmartRetry Payment Tools",
+      "description": {
+        "zh": null,
+        "en": "Free BIN, issuer, MCC and decline code lookups for card payments (Visa, Mastercard, Stripe, Adyen).",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.smartretry/payment-tools",
+        "url": "https://www.smartretry.com/mcp",
         "tier": 0
       },
       "quality": {
@@ -20802,55 +21001,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:io.github.miinimal/minimalai-mcp#minimal-ai",
-      "type": "mcp",
-      "name": "MINIMAL AI",
-      "description": {
-        "zh": null,
-        "en": "Task marketplace for AI agents on Telegram/TON: paid work, bids, services, held payments, receipts.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "integration"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "io.github.miinimal/minimalai-mcp",
-        "url": "https://registry.modelcontextprotocol.io/?q=io.github.miinimal%2Fminimalai-mcp",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:mcp-official:io.github.misfitmediahouse/ghosbc-safety-gate#ghosbc-safety-gate",
       "type": "mcp",
       "name": "GHOSBC Safety Gate",
@@ -22512,6 +22662,55 @@
         "repo": null,
         "path": "pro.labrica/labrica",
         "url": "https://labrica.pro/integrations/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ru.cloud-bridge/cloudbridge#cloudbridge",
+      "type": "mcp",
+      "name": "CloudBridge",
+      "description": {
+        "zh": null,
+        "en": "Transfer and sync files between 19 cloud storages (Yandex, Google, VK, Telegram, S3)",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ru.cloud-bridge/cloudbridge",
+        "url": "https://cloud-bridge.ru/mcp",
         "tier": 0
       },
       "quality": {
@@ -25653,6 +25852,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:qungtai/discord-mcp:io.github.qungtai/discord-mcp#io.github.qungtai-discord-mcp",
+      "type": "mcp",
+      "name": "io.github.qungtai/discord-mcp",
+      "description": {
+        "zh": null,
+        "en": "A community MCP server for the Discord REST API with traceable coverage",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "qungtai/discord-mcp",
+        "path": "io.github.qungtai/discord-mcp",
+        "url": "https://github.com/qungtai/discord-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:rafaelcg/stripekit:io.github.rafaelcg/stripekit#io.github.rafaelcg-stripekit",
       "type": "mcp",
       "name": "io.github.rafaelcg/stripekit",
@@ -28752,6 +29000,55 @@
         "repo": "vish288/mcp-atlassian-extended",
         "path": "io.github.vish288/mcp-atlassian-extended",
         "url": "https://github.com/vish288/mcp-atlassian-extended",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:walkover-mcp/viasocket:com.viasocket.mcp/mcp#viasocket",
+      "type": "mcp",
+      "name": "viaSocket",
+      "description": {
+        "zh": null,
+        "en": "Use your apps from your AI: Gmail, Slack, Google Sheets, HubSpot and 2,300+ more on your accounts.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "walkover-mcp/viasocket",
+        "path": "com.viasocket.mcp/mcp",
+        "url": "https://github.com/walkover-mcp/viasocket",
         "tier": 0
       },
       "quality": {

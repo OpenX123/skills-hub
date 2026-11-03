@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T01:27:14.921Z",
+  "generatedAt": "2026-11-03T23:52:03.815Z",
   "category": {
     "key": "security",
     "zh": "安全审计",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 1483,
+  "total": 1510,
   "entries": [
     {
       "id": "skill:composiohq/awesome-claude-skills:composio-skills/ahrefs-automation/skill.md#ahrefs-automation",
@@ -4269,6 +4269,57 @@
       "curatedMentions": 2
     },
     {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/security/human-gate/.claude-plugin/plugin.json#human-gate",
+      "type": "plugin",
+      "name": "human-gate",
+      "description": {
+        "zh": null,
+        "en": "Holds irreversible tool calls (deploy, publish, push to main, money, outbound messages, destructive SQL) for a person, so auto mode and allow rules cannot approve them, and lets read-only calls through without a prompt.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "devops",
+        "security"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/security/human-gate/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/security/human-gate/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 33075,
+      "curatedMentions": 2
+    },
+    {
       "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/security/jev-guardrails/.claude-plugin/plugin.json#jev-guardrails",
       "type": "plugin",
       "name": "jev-guardrails",
@@ -4554,7 +4605,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 65,
+        "score": 64,
         "gates": {
           "security": true,
           "schema": true,
@@ -5182,7 +5233,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -5233,7 +5284,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -12764,7 +12815,7 @@
       "name": "Lazaretto",
       "description": {
         "zh": null,
-        "en": "Free lockfile malware check plus paid behavioral scan of packages, agent skills and MCP tools.",
+        "en": "Supply chain security: free npm lockfile malware check, paid scan of packages, skills, MCP servers.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -16454,6 +16505,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:ai-blockchain-ventures/agentverify:io.github.ai-blockchain-ventures/agentverify#agent-verify",
+      "type": "mcp",
+      "name": "Agent Verify",
+      "description": {
+        "zh": null,
+        "en": "Security checks for AI agents and MCP configs: 124 tested checks, from your AI coding assistant.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "AI-Blockchain-Ventures/agentverify",
+        "path": "io.github.AI-Blockchain-Ventures/agentverify",
+        "url": "https://github.com/AI-Blockchain-Ventures/agentverify",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:aileron-sh/aileron:io.github.aileron-sh/aileron#aileron-journal",
       "type": "mcp",
       "name": "Aileron Journal",
@@ -18199,6 +18300,55 @@
         "repo": "apatilgtn/k8scortex-mcp",
         "path": "io.github.apatilgtn/k8scortex-mcp",
         "url": "https://github.com/apatilgtn/k8scortex-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:aporce1/sitedoctor-mcp:pro.syswp.sitedoctor/diagnosis#site-doctor-—-wordpress-diagnosis",
+      "type": "mcp",
+      "name": "Site Doctor — WordPress diagnosis",
+      "description": {
+        "zh": null,
+        "en": "Read-only WordPress diagnosis for AI: security, performance, forms and downtime, with evidence.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "aporce1/sitedoctor-mcp",
+        "path": "pro.syswp.sitedoctor/diagnosis",
+        "url": "https://github.com/aporce1/sitedoctor-mcp",
         "tier": 0
       },
       "quality": {
@@ -20206,6 +20356,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:bewary-app/bewary:app.bewary/bewary#bewary-scam,-phishing-and-fraud-detection",
+      "type": "mcp",
+      "name": "Bewary: scam, phishing and fraud detection",
+      "description": {
+        "zh": null,
+        "en": "Threat intelligence for AI agents: checks URLs, domains, phones, emails, wallets and IBANs for scams",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "bewary-app/bewary",
+        "path": "app.bewary/bewary",
+        "url": "https://github.com/bewary-app/bewary",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:blackdome-ai/blackdome-mcp:io.github.blackdome-ai/blackdome-mcp#blackdome-threat-intel",
       "type": "mcp",
       "name": "BlackDome Threat Intel",
@@ -21364,6 +21563,56 @@
         "repo": "CloudCorpRecords/mcpaudit",
         "path": "io.github.CloudCorpRecords/mcpaudit",
         "url": "https://github.com/CloudCorpRecords/mcpaudit",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:cloudcorprecords/pdfaudit:io.github.cloudcorprecords/pdfaudit#io.github.cloudcorprecords-pdfaudit",
+      "type": "mcp",
+      "name": "io.github.CloudCorpRecords/pdfaudit",
+      "description": {
+        "zh": null,
+        "en": "Audit a local PDF against the machine-checkable basics of PDF/UA accessibility. No uploads.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "CloudCorpRecords/pdfaudit",
+        "path": "io.github.CloudCorpRecords/pdfaudit",
+        "url": "https://github.com/CloudCorpRecords/pdfaudit",
         "tier": 0
       },
       "quality": {
@@ -24304,6 +24553,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:downatthebottomofthemolehole/megalinter-mcp:io.github.downatthebottomofthemolehole/megalinter#io.github.downatthebottomofthemolehole-megalinter",
+      "type": "mcp",
+      "name": "io.github.DownAtTheBottomOfTheMoleHole/megalinter",
+      "description": {
+        "zh": null,
+        "en": "MCP server for running Ox Security MegaLinter via mega-linter-runner",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "DownAtTheBottomOfTheMoleHole/megalinter-mcp",
+        "path": "io.github.DownAtTheBottomOfTheMoleHole/megalinter",
+        "url": "https://github.com/DownAtTheBottomOfTheMoleHole/megalinter-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:draugr-dev/draugr:dev.draugr/draugr#draugr",
       "type": "mcp",
       "name": "Draugr",
@@ -24672,6 +24971,55 @@
         "repo": "dvlop/mail7-mcp",
         "path": "net.mail7/email-validation",
         "url": "https://github.com/dvlop/mail7-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:dytredline/vulkill:io.github.dytredline/vulkill-security#vulkill-security",
+      "type": "mcp",
+      "name": "VulKill Security",
+      "description": {
+        "zh": null,
+        "en": "Autonomous AppSec & DAST scanner across 12 security domains (260+ controls) with 3-Layer Triage.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "dytredline/VulKill",
+        "path": "io.github.dytredline/vulkill-security",
+        "url": "https://github.com/dytredline/VulKill",
         "tier": 0
       },
       "quality": {
@@ -37593,6 +37941,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:ai.contextgate/mcp#contextgate",
+      "type": "mcp",
+      "name": "ContextGate",
+      "description": {
+        "zh": null,
+        "en": "MCP gateway: one connection for your AI apps, with tool policies, PII redaction and audit logs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.contextgate/mcp",
+        "url": "https://www.contextgate.ai/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:ai.cybret/findings#cybret-findings",
       "type": "mcp",
       "name": "Cybret findings",
@@ -38978,6 +39375,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:app.growthradar/growth-radar#growth-radar",
+      "type": "mcp",
+      "name": "Growth Radar",
+      "description": {
+        "zh": null,
+        "en": "Find what to fix on a site, check if changes worked, see how AI reads it. Free audit, no account.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "business",
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "app.growthradar/growth-radar",
+        "url": "https://growthradar.app",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:app.keyslip/keyslip#keyslip",
       "type": "mcp",
       "name": "KeySlip",
@@ -40161,6 +40608,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.adityaarsharma.audit/sitewalk#sitewalk",
+      "type": "mcp",
+      "name": "Sitewalk",
+      "description": {
+        "zh": null,
+        "en": "Technical SEO audits from ChatGPT or the web: health score, prioritised fixes, CSV and PDF reports.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "writing",
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.adityaarsharma.audit/sitewalk",
+        "url": "https://audit.adityaarsharma.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.aeoinspector/aeo-inspector#aeo-inspector",
       "type": "mcp",
       "name": "AEO Inspector",
@@ -41222,6 +41720,55 @@
         "repo": null,
         "path": "com.brainiall/nlp",
         "url": "https://brainiall.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.casco/cve-intelligence#cve-intelligence-by-casco",
+      "type": "mcp",
+      "name": "CVE Intelligence by Casco",
+      "description": {
+        "zh": null,
+        "en": "Free CVE lookup, dependency vulnerability checks, and CVE updates. No signup or API key.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.casco/cve-intelligence",
+        "url": "https://casco.com/cve/agents",
         "tier": 0
       },
       "quality": {
@@ -42929,6 +43476,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.hammermap/listings#hammermap-spanish-court,-state-and-social-security-auctions",
+      "type": "mcp",
+      "name": "HammerMap: Spanish court, State and Social Security auctions",
+      "description": {
+        "zh": null,
+        "en": "Spain's court auctions and State sales (BOE) and Social Security auctions (TGSS). Free, no key.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.hammermap/listings",
+        "url": "https://hammermap.com/en/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.helpforsupport/caisey#caisey",
       "type": "mcp",
       "name": "Caisey",
@@ -43769,6 +44365,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.llmcutover/audit#llm-cutover",
+      "type": "mcp",
+      "name": "LLM Cutover",
+      "description": {
+        "zh": null,
+        "en": "Checks if a cheaper model agrees with your GPT, Claude or Gemini outputs, and what routing saves.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.llmcutover/audit",
+        "url": "https://llmcutover.com/docs/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.lowlanddata/company-identity#lowlanddata-company-identity",
       "type": "mcp",
       "name": "LowlandData Company Identity",
@@ -44580,6 +45225,55 @@
         "repo": null,
         "path": "com.odilelabs/gate",
         "url": "https://gate.odilelabs.com/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.onrender.ghost77-agent/ghost77#ghost77-crypto-data-+-security",
+      "type": "mcp",
+      "name": "GhOsT77 crypto data + security",
+      "description": {
+        "zh": null,
+        "en": "Read-only crypto data tools paid per call via x402. GhOsT77 also does consent-only security reviews.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.onrender.ghost77-agent/ghost77",
+        "url": "https://ghost77-agent.onrender.com/",
         "tier": 0
       },
       "quality": {
@@ -45518,6 +46212,55 @@
         "repo": null,
         "path": "com.screenata/compliance",
         "url": "https://screenata.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.scriptmasterlabs/agent-safety#scriptmasterlabs-—-sml-agent-safety",
+      "type": "mcp",
+      "name": "SCRIPTMASTERLABS — SML agent-safety",
+      "description": {
+        "zh": null,
+        "en": "Three fast safety checks for agents, each with a signed hash-chained receipt: (1) prompt-injection c",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.scriptmasterlabs/agent-safety",
+        "url": "https://sml-agent-products.onrender.com/agent-safety/llms.txt",
         "tier": 0
       },
       "quality": {
@@ -47816,6 +48559,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:dev.getglossa/glossa#glossa",
+      "type": "mcp",
+      "name": "Glossa",
+      "description": {
+        "zh": null,
+        "en": "AI-native translation management: push translation files, translate, review and audit strings.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing",
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "dev.getglossa/glossa",
+        "url": "https://getglossa.dev",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:dev.greenflagged/greenflagged#greenflagged",
       "type": "mcp",
       "name": "Greenflagged",
@@ -48110,12 +48903,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:dev.tanod/security#tanod-security",
+      "id": "mcp:mcp-official:dev.tanod/security#pre-transaction-safety-checks-(tanod)",
       "type": "mcp",
-      "name": "Tanod Security",
+      "name": "Pre-transaction Safety Checks (Tanod)",
       "description": {
         "zh": null,
-        "en": "Contract and agent-package scans, phishing URL and OFAC checks, domain and header checks.",
+        "en": "Safety checks before you sign, pay or install: contract, token and package scans, phishing, OFAC.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -48506,9 +49299,9 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:dev.workers.manhliemcn4euwlu.llmrt-companion/llm-red-team-scanner#llm-red-team-scanner",
+      "id": "mcp:mcp-official:dev.workers.manhliemcn4euwlu.llmrt-companion/llm-red-team-scanner#llm-security-scanner-red-team,-jailbreak,-prompt-injection-a",
       "type": "mcp",
-      "name": "LLM Red-Team Scanner",
+      "name": "LLM Security Scanner: Red-Team, Jailbreak, Prompt Injection Audit",
       "description": {
         "zh": null,
         "en": "35-probe LLM/agent security red-team scan (injection, jailbreak, MCP abuse) with report.",
@@ -48527,6 +49320,202 @@
       "source": {
         "repo": null,
         "path": "dev.workers.manhliemcn4euwlu.llmrt-companion/llm-red-team-scanner",
+        "url": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/agent",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:dev.workers.manhliemcn4euwlu.llmrt-companion/mcp-agent-security#ai-agent-security-scanner",
+      "type": "mcp",
+      "name": "AI Agent Security Scanner",
+      "description": {
+        "zh": null,
+        "en": "Security scanner for AI agents and MCP servers: injection, jailbreak, tool abuse.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "dev.workers.manhliemcn4euwlu.llmrt-companion/mcp-agent-security",
+        "url": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/agent",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:dev.workers.manhliemcn4euwlu.llmrt-companion/mcp-audit#ai-agent-security-audit",
+      "type": "mcp",
+      "name": "AI Agent Security Audit",
+      "description": {
+        "zh": null,
+        "en": "AI agent security audit: red-team probes plus missing-guardrail review with fixes.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "dev.workers.manhliemcn4euwlu.llmrt-companion/mcp-audit",
+        "url": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/agent",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:dev.workers.manhliemcn4euwlu.llmrt-companion/mcp-prompt-injection#prompt-injection-detector",
+      "type": "mcp",
+      "name": "Prompt Injection Detector",
+      "description": {
+        "zh": null,
+        "en": "Prompt injection and system-prompt extraction testing for LLM agents. Free 8-probe sample.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "dev.workers.manhliemcn4euwlu.llmrt-companion/mcp-prompt-injection",
+        "url": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/agent",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:dev.workers.manhliemcn4euwlu.llmrt-companion/mcp-security#llm-security-scanner",
+      "type": "mcp",
+      "name": "LLM Security Scanner",
+      "description": {
+        "zh": null,
+        "en": "LLM agent security scan: injection, jailbreak, tool abuse probes plus guardrail audit.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "dev.workers.manhliemcn4euwlu.llmrt-companion/mcp-security",
         "url": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/agent",
         "tier": 0
       },
@@ -48604,12 +49593,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:dev.workers.microtools-x402.x402-dns-auth-checker/dns-auth-checker#x402-dns-email-auth-checker",
+      "id": "mcp:mcp-official:dev.workers.microtools-x402.x402-dns-auth-checker/dns-auth-checker#x402-domain-lookup-&-dns-email-auth",
       "type": "mcp",
-      "name": "x402 DNS Email Auth Checker",
+      "name": "x402 Domain Lookup & DNS Email Auth",
       "description": {
         "zh": null,
-        "en": "Audit SPF, DKIM, DMARC, MX, BIMI, MTA-STS for a domain; score + grade. $0.003 USDC/call via x402.",
+        "en": "Domain lookup (DNS records + RDAP registrar/age/expiry), bulk, and SPF/DKIM/DMARC audit via x402.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -48626,6 +49615,55 @@
         "repo": null,
         "path": "dev.workers.microtools-x402.x402-dns-auth-checker/dns-auth-checker",
         "url": "https://x402-dns-auth-checker.microtools-x402.workers.dev/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:dev.workers.microtools-x402.x402-package-advisories/package-advisories#x402-package-advisories",
+      "type": "mcp",
+      "name": "x402 Package Advisories",
+      "description": {
+        "zh": null,
+        "en": "Package vuln advisories from OSV.dev: CVEs, severity, fixes, manifest audit. Pay per call via x402.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "dev.workers.microtools-x402.x402-package-advisories/package-advisories",
+        "url": "https://x402-package-advisories.microtools-x402.workers.dev/",
         "tier": 0
       },
       "quality": {
@@ -48822,55 +49860,6 @@
         "repo": null,
         "path": "dev.workers.panda198271.tw-crypto-api/crypto-api",
         "url": "https://tw-crypto-api.panda198271.workers.dev",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:mcp-official:dev.workers.rainmaker-wells.well-011-sharescan/sharescan#well-011-sharescan",
-      "type": "mcp",
-      "name": "well-011-sharescan",
-      "description": {
-        "zh": null,
-        "en": "Pre-share scan of text for your terms and secrets/PII. x402 $0.005 USDC, Base. As is, no warranty.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "security"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "dev.workers.rainmaker-wells.well-011-sharescan/sharescan",
-        "url": "https://well-011-sharescan.rainmaker-wells.workers.dev/openapi.json",
         "tier": 0
       },
       "quality": {
@@ -51366,6 +52355,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.isipsafe/mcp#isipsafe",
+      "type": "mcp",
+      "name": "isIPSafe",
+      "description": {
+        "zh": null,
+        "en": "Look up IP reputation and threat intelligence.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.isipsafe/mcp",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.isipsafe%2Fmcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.janoliverautomation-stack/canairecommendmybusiness-com#ai-recommendation-readiness-audit-the-black-friday-agency",
       "type": "mcp",
       "name": "AI Recommendation Readiness Audit | The Black Friday Agency",
@@ -51760,6 +52798,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.kriton-dev/cve-risk-metrics#cve-vulnerability-lookup-—-cvss-scores-&-nvd-status",
+      "type": "mcp",
+      "name": "CVE Vulnerability Lookup — CVSS Scores & NVD Status",
+      "description": {
+        "zh": null,
+        "en": "Look up NVD CVE dates, status, numeric CVSS scores and severity",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.kriton-dev/cve-risk-metrics",
+        "url": "https://apify.com/hermeskd/cve-risk-metrics",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.kriton-dev/seo-page-audit#seo-audit-—-supplied-page-scores,-meta-tags-&-schema-fixes",
       "type": "mcp",
       "name": "SEO Audit — Supplied-Page Scores, Meta Tags & Schema Fixes",
@@ -51881,56 +52968,6 @@
         "repo": null,
         "path": "io.github.landfall-audit/landfall",
         "url": "https://landfall-production-74ad.up.railway.app/docs",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:mcp-official:io.github.layerzlabs/layerz#layerz",
-      "type": "mcp",
-      "name": "Layerz",
-      "description": {
-        "zh": null,
-        "en": "Structured financial modeling for AI agents: build, version, audit models, export to Excel.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "document",
-        "security"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "io.github.layerzlabs/layerz",
-        "url": "https://layerz.cc/for-agents",
         "tier": 0
       },
       "quality": {
@@ -58388,12 +59425,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mnemopay/mnemopay-sdk:com.mnemopay/sdk#com.mnemopay-sdk",
+      "id": "mcp:mnemopay/mnemopay-sdk:com.mnemopay/sdk#mnemopay",
       "type": "mcp",
-      "name": "com.mnemopay/sdk",
+      "name": "MnemoPay",
       "description": {
         "zh": null,
-        "en": "Trust OS for AI agents: governed memory, payments, reputation, approvals, and audit evidence.",
+        "en": "Governance and audit layer for AI agents: policy, approvals, tamper-evident audit chains.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -61252,6 +62289,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:oomchiller/nexus-mcp-server:io.github.oomchiller/nexus-mcp-server#sonatype-nexus",
+      "type": "mcp",
+      "name": "Sonatype Nexus",
+      "description": {
+        "zh": null,
+        "en": "Read-only-first Sonatype Nexus Repository 3 inspection, audit and documentation.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "oomchiller/nexus-mcp-server",
+        "path": "io.github.oomchiller/nexus-mcp-server",
+        "url": "https://github.com/oomchiller/nexus-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:ortamarco/domain-security-mcp-server:io.github.ortamarco/domain-security-mcp-server#domain-security",
       "type": "mcp",
       "name": "Domain Security",
@@ -61274,6 +62361,55 @@
         "repo": "OrtaMarco/domain-security-mcp-server",
         "path": "io.github.OrtaMarco/domain-security-mcp-server",
         "url": "https://github.com/OrtaMarco/domain-security-mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:pablo-ramossanchez/arquestra-audit-mcp:io.github.pablo-ramossanchez/arquestra-audit#arquestra-audit",
+      "type": "mcp",
+      "name": "Arquestra Audit",
+      "description": {
+        "zh": null,
+        "en": "Audit a data file before publishing: one light per figure. Your data never reaches the server.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "pablo-ramossanchez/arquestra-audit-mcp",
+        "path": "io.github.pablo-ramossanchez/arquestra-audit",
+        "url": "https://github.com/pablo-ramossanchez/arquestra-audit-mcp",
         "tier": 0
       },
       "quality": {
@@ -62799,6 +63935,55 @@
         "repo": "presendapp/presend-source",
         "path": "io.github.presendapp/presend-mcp",
         "url": "https://github.com/presendapp/presend-source",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:pressbridgesupport/pressbridge:io.github.pressbridgesupport/pressbridge#pressbridge",
+      "type": "mcp",
+      "name": "PressBridge",
+      "description": {
+        "zh": null,
+        "en": "Safe, audited Claude access to WordPress sites: secrets hidden, backups, undo, WP-CLI allow-list.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "pressbridgesupport/pressbridge",
+        "path": "io.github.pressbridgesupport/pressbridge",
+        "url": "https://github.com/pressbridgesupport/pressbridge",
         "tier": 0
       },
       "quality": {
@@ -64683,6 +65868,56 @@
         "repo": "rozetyp/vuln-intel-mcp",
         "path": "io.github.rozetyp/vuln-intel",
         "url": "https://github.com/rozetyp/vuln-intel-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:rozetyp/vulntel-mcp:com.vulntel/mcp#vulntel",
+      "type": "mcp",
+      "name": "vulntel",
+      "description": {
+        "zh": null,
+        "en": "Free hosted CVE intel for bug-bounty agents: CVE fact-check, attack approaches from paid H1 reports",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "research",
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "rozetyp/vulntel-mcp",
+        "path": "com.vulntel/mcp",
+        "url": "https://github.com/rozetyp/vulntel-mcp",
         "tier": 0
       },
       "quality": {
@@ -70632,6 +71867,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:veduis/pdf-a11y-audit:io.github.veduis/pdf-a11y-audit#pdf-accessibility-audit",
+      "type": "mcp",
+      "name": "PDF Accessibility Audit",
+      "description": {
+        "zh": null,
+        "en": "Local-first PDF accessibility audits with cited findings and an offline HTML report.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Veduis/pdf-a11y-audit",
+        "path": "io.github.Veduis/pdf-a11y-audit",
+        "url": "https://github.com/Veduis/pdf-a11y-audit",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:ventrova/sentinel-scan-cli:io.github.ventrova/sentinel-scan-cli#sentinel-scan",
       "type": "mcp",
       "name": "Sentinel Scan",
@@ -72197,6 +73482,55 @@
         "repo": "WYRE-AI/mimecast-mcp",
         "path": "io.github.WYRE-AI/mimecast-mcp",
         "url": "https://github.com/WYRE-AI/mimecast-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:wyre-ai/petra-mcp:io.github.wyre-ai/petra-mcp#petra-security",
+      "type": "mcp",
+      "name": "Petra Security",
+      "description": {
+        "zh": null,
+        "en": "Read-only Petra Security MCP: M365 compromise incidents, failed attacks, posture, tenants, usage.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "WYRE-AI/petra-mcp",
+        "path": "io.github.WYRE-AI/petra-mcp",
+        "url": "https://github.com/WYRE-AI/petra-mcp",
         "tier": 0
       },
       "quality": {

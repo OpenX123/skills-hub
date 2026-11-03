@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-03T01:27:14.921Z",
+  "generatedAt": "2026-11-03T23:52:03.815Z",
   "type": "plugin",
   "label": {
     "zh": "插件",
     "en": "Plugin"
   },
-  "total": 233,
+  "total": 236,
   "entries": [
     {
       "id": "plugin:anthropics/skills:.claude-plugin/marketplace.json#academy-guide",
@@ -301,7 +301,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 303130,
+      "stars": 311851,
       "curatedMentions": 8
     },
     {
@@ -351,7 +351,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 303130,
+      "stars": 311851,
       "curatedMentions": 8
     },
     {
@@ -5733,6 +5733,55 @@
       "curatedMentions": 2
     },
     {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/enterprise/policy-ceiling/.claude-plugin/plugin.json#policy-ceiling",
+      "type": "plugin",
+      "name": "policy-ceiling",
+      "description": {
+        "zh": null,
+        "en": "Makes an organization's managed limits act as ceilings and floors over each person's merged settings (retention, model, effort, permission mode, sandbox) instead of fixed values, and shows in /policy the requested value, limit and effective value for each rule.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/enterprise/policy-ceiling/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/enterprise/policy-ceiling/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 33075,
+      "curatedMentions": 2
+    },
+    {
       "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/games/cc-arcade/.claude-plugin/plugin.json#cc-arcade",
       "type": "plugin",
       "name": "cc-arcade",
@@ -7183,6 +7232,57 @@
       "curatedMentions": 2
     },
     {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/security/human-gate/.claude-plugin/plugin.json#human-gate",
+      "type": "plugin",
+      "name": "human-gate",
+      "description": {
+        "zh": null,
+        "en": "Holds irreversible tool calls (deploy, publish, push to main, money, outbound messages, destructive SQL) for a person, so auto mode and allow rules cannot approve them, and lets read-only calls through without a prompt.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "devops",
+        "security"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/security/human-gate/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/security/human-gate/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 33075,
+      "curatedMentions": 2
+    },
+    {
       "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/security/jev-auto-mode/.claude-plugin/plugin.json#jev-auto-mode",
       "type": "plugin",
       "name": "jev-auto-mode",
@@ -7556,6 +7656,55 @@
         "repo": "davila7/claude-code-templates",
         "path": "cli-tool/components/mods/ui/git-sidebar/.claude-plugin/plugin.json",
         "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/ui/git-sidebar/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 33075,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/ui/live-preview/.claude-plugin/plugin.json#live-preview",
+      "type": "plugin",
+      "name": "live-preview",
+      "description": {
+        "zh": null,
+        "en": "A pane with a real screenshot of your dev server, taken again after every turn in which Claude edits a frontend file, with a phone-sized view and a button that adds the capture to your prompt.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/ui/live-preview/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/ui/live-preview/.claude-plugin/plugin.json",
         "tier": 2
       },
       "quality": {
@@ -8061,7 +8210,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -8110,7 +8259,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -8160,7 +8309,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -8209,7 +8358,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -8258,7 +8407,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -8307,7 +8456,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -8356,7 +8505,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -8407,7 +8556,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -8456,7 +8605,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -8505,7 +8654,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -8554,7 +8703,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -8603,7 +8752,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -8652,7 +8801,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -8701,7 +8850,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -8750,7 +8899,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -8799,7 +8948,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -8849,7 +8998,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -8898,7 +9047,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -8947,7 +9096,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -8996,7 +9145,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -9045,7 +9194,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -9094,7 +9243,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -9143,7 +9292,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -9192,7 +9341,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -9241,7 +9390,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -9292,7 +9441,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -9341,7 +9490,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -9390,7 +9539,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -9439,7 +9588,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -9488,7 +9637,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -9538,7 +9687,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -9587,7 +9736,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -9638,7 +9787,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -9687,7 +9836,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -9736,7 +9885,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -9785,7 +9934,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,

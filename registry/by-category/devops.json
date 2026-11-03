@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T01:27:14.921Z",
+  "generatedAt": "2026-11-03T23:52:03.815Z",
   "category": {
     "key": "devops",
     "zh": "运维部署",
@@ -97,7 +97,7 @@
       }
     ]
   },
-  "total": 821,
+  "total": 828,
   "entries": [
     {
       "id": "skill:composiohq/awesome-claude-skills:composio-skills/cloudflare-api-key-automation/skill.md#cloudflare-api-key-automation",
@@ -3932,6 +3932,57 @@
         "repo": "davila7/claude-code-templates",
         "path": "cli-tool/components/mods/productivity/jev-model-router/.claude-plugin/plugin.json",
         "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/productivity/jev-model-router/.claude-plugin/plugin.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 66,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 33075,
+      "curatedMentions": 2
+    },
+    {
+      "id": "plugin:davila7/claude-code-templates:cli-tool/components/mods/security/human-gate/.claude-plugin/plugin.json#human-gate",
+      "type": "plugin",
+      "name": "human-gate",
+      "description": {
+        "zh": null,
+        "en": "Holds irreversible tool calls (deploy, publish, push to main, money, outbound messages, destructive SQL) for a person, so auto mode and allow rules cannot approve them, and lets read-only calls through without a prompt.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "devops",
+        "security"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/mods/security/human-gate/.claude-plugin/plugin.json",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/mods/security/human-gate/.claude-plugin/plugin.json",
         "tier": 2
       },
       "quality": {
@@ -13757,6 +13808,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:arvo-ai/lastwords:io.github.arvo-ai/lastwords#lastwords",
+      "type": "mcp",
+      "name": "lastwords",
+      "description": {
+        "zh": null,
+        "en": "Heap histograms, Go profiles, crash logs and core dumps from Kubernetes pods before they died.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Arvo-AI/lastwords",
+        "path": "io.github.Arvo-AI/lastwords",
+        "url": "https://github.com/Arvo-AI/lastwords",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:ashlrai/ashlr-stack:io.github.ashlrai/ashlr-stack#ashlr-stack",
       "type": "mcp",
       "name": "Ashlr Stack",
@@ -21567,7 +21667,7 @@
       "name": "Prometiam Company Data",
       "description": {
         "zh": null,
-        "en": "Company data and KYB API for 31 countries: monitoring, financial statements, insolvency, sanctions",
+        "en": "Company data and KYB API for 35 countries: monitoring, financial statements, insolvency, sanctions",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -25023,6 +25123,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:cloud.tenkai/tenkai#tenkai",
+      "type": "mcp",
+      "name": "Tenkai",
+      "description": {
+        "zh": null,
+        "en": "Deploy apps to servers you own: projects, deployments, logs, health and pull request previews.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "cloud.tenkai/tenkai",
+        "url": "https://tenkai.cloud/help/agent-tokens",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:co.codeways/codeways-mcp#codeways-—-ai-native-web,-mobile-&-cloudflare-studio",
       "type": "mcp",
       "name": "CodeWays — AI-Native Web, Mobile & Cloudflare Studio",
@@ -26405,6 +26554,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.hosait/hosait#hosait",
+      "type": "mcp",
+      "name": "Hosait",
+      "description": {
+        "zh": null,
+        "en": "Deploy and manage apps on Hosait (Norwegian hosting) from your AI coding agent.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.hosait/hosait",
+        "url": "https://hosait.com/docs.html#mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.hostingsurge/mcp#hostingsurge",
       "type": "mcp",
       "name": "Hostingsurge",
@@ -27217,6 +27416,55 @@
         "repo": null,
         "path": "com.repogates/repogates",
         "url": "https://repogates.com/docs/agents.html",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.rivalyse/rivalyse#rivalyse",
+      "type": "mcp",
+      "name": "Rivalyse",
+      "description": {
+        "zh": null,
+        "en": "Read-only access to your Rivalyse price monitoring: competitor price gaps, alerts and price history.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.rivalyse/rivalyse",
+        "url": "https://rivalyse.com/integrations/mcp/",
         "tier": 0
       },
       "quality": {
@@ -28281,6 +28529,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:de.firmium/firmium#firmium",
+      "type": "mcp",
+      "name": "Firmium",
+      "description": {
+        "zh": null,
+        "en": "European company, sales and visitor intelligence: profiles, financials, prospecting, VAT, monitoring",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops",
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "de.firmium/firmium",
+        "url": "https://www.firmium.de",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:de.registercheck/registercheck#registercheck",
       "type": "mcp",
       "name": "Registercheck",
@@ -28843,6 +29141,55 @@
         "repo": null,
         "path": "dev.skiffly/mcp",
         "url": "https://skiffly.dev/docs/guides/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:dev.tanod/gpu-prices#gpu-rental-prices-(tanod)",
+      "type": "mcp",
+      "name": "GPU Rental Prices (Tanod)",
+      "description": {
+        "zh": null,
+        "en": "Compare GPU rental prices per hour on AWS, Azure, Google Cloud and Akash, by chip, with free GPUs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "dev.tanod/gpu-prices",
+        "url": "https://tanod.dev",
         "tier": 0
       },
       "quality": {

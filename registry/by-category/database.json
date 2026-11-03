@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T01:27:14.921Z",
+  "generatedAt": "2026-11-03T23:52:03.815Z",
   "category": {
     "key": "database",
     "zh": "数据库",
@@ -69,7 +69,7 @@
       }
     ]
   },
-  "total": 466,
+  "total": 467,
   "entries": [
     {
       "id": "skill:composiohq/awesome-claude-skills:composio-skills/neon-automation/skill.md#neon-automation",
@@ -745,6 +745,61 @@
         "repo": "davila7/claude-code-templates",
         "path": "cli-tool/components/skills/development/senior-fullstack/SKILL.md",
         "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/development/senior-fullstack/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 75,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 33075,
+      "curatedMentions": 2
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/productivity/pre-mortem/skill.md#pre-mortem",
+      "type": "skill",
+      "name": "pre-mortem",
+      "description": {
+        "zh": null,
+        "en": "Use for a pre-mortem, or before committing to a plan, launch or migration: \"what could go wrong?\", \"stress test this plan\", \"how might this fail?\", \"risks before we ship\". Assumes failure, lists causes, ranks them and sets mitigations. Skip for explaining a failure that already happened.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "database",
+        "coding",
+        "testing"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "davila7/claude-code-templates",
+        "path": "cli-tool/components/skills/productivity/pre-mortem/SKILL.md",
+        "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/productivity/pre-mortem/SKILL.md",
         "tier": 2
       },
       "quality": {
@@ -6403,7 +6458,7 @@
       "name": "io.github.devopam/mcpg",
       "description": {
         "zh": null,
-        "en": "Production-grade PostgreSQL MCP server — 254 tools for query, tuning & ops, read-only by default.",
+        "en": "Production-grade PostgreSQL MCP server — 279 tools for query, tuning & ops, read-only by default.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -17079,7 +17134,7 @@
       "name": "Prisma Reviews",
       "description": {
         "zh": null,
-        "en": "AI reads Airbnb, Booking.com, Google Maps, App Store reviews and 30+ more; replies where allowed.",
+        "en": "AI reads Airbnb, Booking.com, Google Maps, App Store, Viator and 55+ more; replies where allowed.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -20490,9 +20545,9 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:poudel0/postgres-mcp-safe:io.github.poudel0/postgres-mcp-safe#postgres-(read-only,-safe)",
+      "id": "mcp:poudel0/postgres-mcp-safe:io.github.poudel0/postgres-mcp-safe#postgres-(read-only-transactions)",
       "type": "mcp",
-      "name": "Postgres (read-only, safe)",
+      "name": "Postgres (read-only transactions)",
       "description": {
         "zh": null,
         "en": "Drop-in replacement for @modelcontextprotocol/server-postgres that is actually read-only.",
