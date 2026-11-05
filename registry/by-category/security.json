@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T00:07:02.146Z",
+  "generatedAt": "2026-11-05T23:56:20.156Z",
   "category": {
     "key": "security",
     "zh": "安全审计",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 1525,
+  "total": 1547,
   "entries": [
     {
       "id": "skill:composiohq/awesome-claude-skills:composio-skills/ahrefs-automation/skill.md#ahrefs-automation",
@@ -10680,56 +10680,6 @@
       "curatedMentions": 1
     },
     {
-      "id": "mcp:aisenseapi/aisense-free-public-rest-apis:com.aisenseapi/free-public-tools#ai-sense-free-public-tools",
-      "type": "mcp",
-      "name": "AI SENSE Free Public Tools",
-      "description": {
-        "zh": null,
-        "en": "77 public tools: agent runs, handoffs, one-time secrets, semantic search, queues and webhooks.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "security",
-        "research"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "aisenseapi/aisense-free-public-rest-apis",
-        "path": "com.aisenseapi/free-public-tools",
-        "url": "https://github.com/aisenseapi/aisense-free-public-rest-apis",
-        "tier": 0
-      },
-      "quality": {
-        "score": 24,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 1
-    },
-    {
       "id": "mcp:aistoryhub/etincel:ai.etincel/etincel-nonfiction#ai.etincel-etincel-nonfiction",
       "type": "mcp",
       "name": "ai.etincel/etincel-nonfiction",
@@ -12814,7 +12764,7 @@
       "name": "IPGeolocation.io MCP Server",
       "description": {
         "zh": null,
-        "en": "IP geolocation, security, ASN, abuse, time zones, astronomy, and user-agent parsing over stdio.",
+        "en": "IP geolocation, company, ASN/network, security, abuse, time zones, astronomy, currency, user agents.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -14189,55 +14139,6 @@
       "curatedMentions": 1
     },
     {
-      "id": "mcp:quanttogo/quanttogo-mcp:com.quanttogo/quanttogo-mcp#quanttogo-说法百科",
-      "type": "mcp",
-      "name": "QuantToGo 说法百科",
-      "description": {
-        "zh": "QuantToGo 说法百科的 MCP 服务：A 股持仓风险读数、持有理由核对、每天替你盯着的风控单。",
-        "en": null,
-        "zhEngine": null,
-        "needsTranslation": [
-          "en"
-        ]
-      },
-      "lang": "zh",
-      "categories": [
-        "security"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "QuantToGo/quanttogo-mcp",
-        "path": "com.quanttogo/quanttogo-mcp",
-        "url": "https://github.com/QuantToGo/quanttogo-mcp",
-        "tier": 0
-      },
-      "quality": {
-        "score": 24,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 1
-    },
-    {
       "id": "mcp:rm-rf-prod/groundtruth-mcp:io.github.rm-rf-prod/groundtruth#io.github.rm-rf-prod-groundtruth",
       "type": "mcp",
       "name": "io.github.rm-rf-prod/groundtruth",
@@ -14604,6 +14505,55 @@
       "source": {
         "repo": "servosity/msp-skills",
         "path": "io.github.Servosity/fortinet-mcp",
+        "url": "https://github.com/servosity/msp-skills",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:servosity/msp-skills:io.github.servosity/keeper-mcp#keeper-security-mcp",
+      "type": "mcp",
+      "name": "Keeper Security MCP",
+      "description": {
+        "zh": null,
+        "en": "Read-only Keeper MSP posture across every client, with history, a change feed and no path to a",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "servosity/msp-skills",
+        "path": "io.github.Servosity/keeper-mcp",
         "url": "https://github.com/servosity/msp-skills",
         "tier": 0
       },
@@ -16704,6 +16654,104 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:aiops-tools/apache-aiops:io.github.aiops-tools/apache-aiops#apache-http-server-aiops",
+      "type": "mcp",
+      "name": "Apache HTTP Server AIops",
+      "description": {
+        "zh": null,
+        "en": "Governed Apache HTTP Server operations — 17 MCP tools with audit.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "AIops-tools/Apache-AIops",
+        "path": "io.github.AIops-tools/apache-aiops",
+        "url": "https://github.com/AIops-tools/Apache-AIops",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:aiops-tools/bind9-aiops:io.github.aiops-tools/bind9-aiops#bind-9-aiops",
+      "type": "mcp",
+      "name": "BIND 9 AIops",
+      "description": {
+        "zh": null,
+        "en": "Governed BIND 9 DNS operations — 23 MCP tools with audit.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "AIops-tools/BIND9-AIops",
+        "path": "io.github.AIops-tools/bind9-aiops",
+        "url": "https://github.com/AIops-tools/BIND9-AIops",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:aiops-tools/fabric-aiops:io.github.aiops-tools/fabric-aiops#fabric-aiops",
       "type": "mcp",
       "name": "Fabric AIops",
@@ -16726,6 +16774,55 @@
         "repo": "AIops-tools/Fabric-AIops",
         "path": "io.github.AIops-tools/fabric-aiops",
         "url": "https://github.com/AIops-tools/Fabric-AIops",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:aiops-tools/harbor-aiops:io.github.aiops-tools/harbor-aiops#harbor-aiops",
+      "type": "mcp",
+      "name": "Harbor AIops",
+      "description": {
+        "zh": null,
+        "en": "Governed Harbor registry operations — 39 MCP tools with audit.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "AIops-tools/Harbor-AIops",
+        "path": "io.github.AIops-tools/harbor-aiops",
+        "url": "https://github.com/AIops-tools/Harbor-AIops",
         "tier": 0
       },
       "quality": {
@@ -16873,6 +16970,55 @@
         "repo": "airowe/store-ops",
         "path": "io.github.airowe/shipaso",
         "url": "https://github.com/airowe/store-ops",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:aiscihub/cookieguard-ai:io.github.aiscihub/cookieguard#cookieguard",
+      "type": "mcp",
+      "name": "CookieGuard",
+      "description": {
+        "zh": null,
+        "en": "Audit HTTP cookie security against your local policy. Returns findings without cookie values.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "aiscihub/cookieguard-ai",
+        "path": "io.github.aiscihub/cookieguard",
+        "url": "https://github.com/aiscihub/cookieguard-ai",
         "tier": 0
       },
       "quality": {
@@ -18347,6 +18493,56 @@
         "repo": "antonio-castellon/mcp-glp-audit-proxy",
         "path": "io.github.antonio-castellon/mcp-glp-audit-proxy",
         "url": "https://github.com/antonio-castellon/mcp-glp-audit-proxy",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:antonioac1/adrails:dev.adrails/adrails#adrails",
+      "type": "mcp",
+      "name": "AdRails",
+      "description": {
+        "zh": null,
+        "en": "Guarded Google Ads MCP for AI agents: plan/validate/commit, approvals, audit log, AEO, direct mail",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "antonioac1/adrails",
+        "path": "dev.adrails/adrails",
+        "url": "https://github.com/antonioac1/adrails",
         "tier": 0
       },
       "quality": {
@@ -23983,6 +24179,55 @@
         "repo": "DataLeadsPRO/seo-audit-content",
         "path": "io.github.DataLeadsPRO/seo-audit-content",
         "url": "https://github.com/DataLeadsPRO/seo-audit-content",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:datatomcp/datatomcp-mcp:com.datatomcp/datatomcp#datatomcp",
+      "type": "mcp",
+      "name": "datatomcp",
+      "description": {
+        "zh": null,
+        "en": "AI-native data layer: sheets, databases and apps for every agent, with exact answers and audit.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "datatomcp/datatomcp-mcp",
+        "path": "com.datatomcp/datatomcp",
+        "url": "https://github.com/datatomcp/datatomcp-mcp",
         "tier": 0
       },
       "quality": {
@@ -35318,6 +35563,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:kimmawla/mcp-supply-audit:io.github.kimmawla/mcp-supply-audit#io.github.kimmawla-mcp-supply-audit",
+      "type": "mcp",
+      "name": "io.github.kimmawla/mcp-supply-audit",
+      "description": {
+        "zh": null,
+        "en": "Audits MCP servers as software artifacts: registry entries, packages, configs, tool definitions.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "kimmawla/mcp-supply-audit",
+        "path": "io.github.kimmawla/mcp-supply-audit",
+        "url": "https://github.com/kimmawla/mcp-supply-audit",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:king-of-flame/statejar-integrations:com.statejar/memory#statejar-memory",
       "type": "mcp",
       "name": "StateJar memory",
@@ -36559,6 +36853,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:lookproof/x402-examples:io.github.lookproof/lookproof-mcp#lookproof-dns-and-mail-security-checks",
+      "type": "mcp",
+      "name": "Lookproof DNS and mail security checks",
+      "description": {
+        "zh": null,
+        "en": "SPF, DKIM, DMARC, MTA-STS, DNSSEC, TLS and DNS checks for domains, paid per call in USDC (x402)",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "lookproof/x402-examples",
+        "path": "io.github.lookproof/lookproof-mcp",
+        "url": "https://github.com/lookproof/x402-examples",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:lovec-tech/lovec-mcp:io.github.lovec-tech/lovec-mcp#lovec",
       "type": "mcp",
       "name": "Lovec",
@@ -36630,6 +36973,55 @@
         "repo": "lu7897859-tech/china-sourcing-audit",
         "path": "io.github.lu7897859-tech/china-sourcing-audit",
         "url": "https://github.com/lu7897859-tech/china-sourcing-audit",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:lumen-founder/omx:io.github.lumen-founder/omx#omx-for-hyperliquid",
+      "type": "mcp",
+      "name": "OMX for Hyperliquid",
+      "description": {
+        "zh": null,
+        "en": "Non-custodial Hyperliquid execution for AI agents: pre-trade limits, kill switch, audit log.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Lumen-Founder/omx",
+        "path": "io.github.Lumen-Founder/omx",
+        "url": "https://github.com/Lumen-Founder/omx",
         "tier": 0
       },
       "quality": {
@@ -45503,7 +45895,7 @@
       "name": "GhOsT77 crypto data + security",
       "description": {
         "zh": null,
-        "en": "Read-only crypto data tools paid per call via x402. GhOsT77 also does consent-only security reviews.",
+        "en": "Read-only crypto tools via x402 (USDC/Base): Hyperliquid, DD, DeFi, rugs, bridges. +security reviews",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -47198,6 +47590,55 @@
         "repo": null,
         "path": "com.softkiln/deploy",
         "url": "https://softkiln.com/connect.html",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.solutionsbradshaw/smartsheet-audit#smartsheet-audit-(x402)",
+      "type": "mcp",
+      "name": "Smartsheet Audit (x402)",
+      "description": {
+        "zh": null,
+        "en": "Smartsheet workflow audit: free preview, full report $0.10 USDC on Base via x402.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.solutionsbradshaw/smartsheet-audit",
+        "url": "https://audit.solutionsbradshaw.com/llms.txt",
         "tier": 0
       },
       "quality": {
@@ -49219,7 +49660,7 @@
       "source": {
         "repo": null,
         "path": "dev.rosti/rosti",
-        "url": "https://rosti.dev",
+        "url": "https://rosti.dev/mcp",
         "tier": 0
       },
       "quality": {
@@ -50329,55 +50770,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:dev.workers.revenue-agent-jw.agent-utils-x402-production/agent-utils#agent-utils-(x402)",
-      "type": "mcp",
-      "name": "Agent Utils (x402)",
-      "description": {
-        "zh": null,
-        "en": "Public records + email-auth DNS audit for agents: SEC, FDA, trials, Federal Register. x402 USDC",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "security"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "dev.workers.revenue-agent-jw.agent-utils-x402-production/agent-utils",
-        "url": "https://agent-utils-x402-production.revenue-agent-jw.workers.dev/",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:mcp-official:dev.workers.rjhsignaltech.ai/licence-audit-paid#licence-audit,-page-read-and-endpoint-check-paid-over-x402-(",
       "type": "mcp",
       "name": "Licence audit, page read and endpoint check - paid over x402 (AI-operated)",
@@ -50994,6 +51386,352 @@
         "repo": null,
         "path": "io.aperturex/aperture-wallet-knowledge",
         "url": "https://aperturex.io/llms.txt",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.ceadigital/b2a-fulfillment-factory#cea-digital-b2a-fulfillment-factory",
+      "type": "mcp",
+      "name": "CEA Digital B2A Fulfillment Factory",
+      "description": {
+        "zh": null,
+        "en": "High-speed institutional API data gateway for SEC EDGAR, OSV CVE, FDIC, USGS, NPI, and GCP Catalog.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.ceadigital/b2a-fulfillment-factory",
+        "url": "https://ceadigital.io",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.ceadigital/cfpb-consumer-complaints#cfpb-consumer-financial-complaints-&-bank-audit",
+      "type": "mcp",
+      "name": "CFPB Consumer Financial Complaints & Bank Audit",
+      "description": {
+        "zh": null,
+        "en": "Search US CFPB consumer complaint records across banks, lenders, and fintech institutions.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.ceadigital/cfpb-consumer-complaints",
+        "url": "https://ceadigital.io",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.ceadigital/cisa-kev-exploited-vulns#us-cisa-known-exploited-vulnerabilities-(kev)-&-ransomware-a",
+      "type": "mcp",
+      "name": "US CISA Known Exploited Vulnerabilities (KEV) & Ransomware Audit",
+      "description": {
+        "zh": null,
+        "en": "US CISA Known Exploited Vulnerabilities (KEV) catalog & active ransomware campaign check.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.ceadigital/cisa-kev-exploited-vulns",
+        "url": "https://ceadigital.io",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.ceadigital/depsdev-openssf-scorecard#google-deps.dev-openssf-security-scorecard-&-dependency-audi",
+      "type": "mcp",
+      "name": "Google deps.dev OpenSSF Security Scorecard & Dependency Audit",
+      "description": {
+        "zh": null,
+        "en": "Google Open Source Insights (deps.dev) OpenSSF Security Scorecard & dependency tree audit.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.ceadigital/depsdev-openssf-scorecard",
+        "url": "https://ceadigital.io",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.ceadigital/dexscreener-token-audit#dexscreener-defi-token-liquidity-&-pair-security-audit",
+      "type": "mcp",
+      "name": "DexScreener DeFi Token Liquidity & Pair Security Audit",
+      "description": {
+        "zh": null,
+        "en": "Audit on-chain DEX token liquidity pairs, volume, price action, and FDV via DexScreener.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.ceadigital/dexscreener-token-audit",
+        "url": "https://ceadigital.io",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.ceadigital/epss-cve-exploit-score#first-epss-cve-exploit-score-&-osv-vulnerability-audit",
+      "type": "mcp",
+      "name": "FIRST EPSS CVE Exploit Score & OSV Vulnerability Audit",
+      "description": {
+        "zh": null,
+        "en": "Real-time FIRST.org EPSS 30-day CVE exploit probability scoring and OSV package security audit.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.ceadigital/epss-cve-exploit-score",
+        "url": "https://ceadigital.io",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.ceadigital/fdic-bank-health-audit#fdic-bankfind-institutional-financial-health-audit",
+      "type": "mcp",
+      "name": "FDIC BankFind Institutional Financial Health Audit",
+      "description": {
+        "zh": null,
+        "en": "Query official FDIC BankFind institution financial health, assets, deposits, and CERT status.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.ceadigital/fdic-bank-health-audit",
+        "url": "https://ceadigital.io",
         "tier": 0
       },
       "quality": {
@@ -52158,6 +52896,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.chusmias258-dev/omega-x402-mcp#omega-x402-security,-biomed-&-escrow-intelligence-mcp",
+      "type": "mcp",
+      "name": "Omega x402 Security, Biomed & Escrow Intelligence MCP",
+      "description": {
+        "zh": null,
+        "en": "7 x402 v2 pay-per-call MCP tools for FDA/ChEMBL, token rug scan, Base escrow & wallet forensics.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.chusmias258-dev/omega-x402-mcp",
+        "url": "https://agy-x402-gateway.omega-x402-edge.workers.dev",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.cj29d9tjjn-sudo/landfall#landfall",
       "type": "mcp",
       "name": "Landfall",
@@ -52672,6 +53459,55 @@
         "repo": null,
         "path": "io.github.ghstaking/bentcrypto-machine-payments",
         "url": "https://bentcrypto.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.hacktualiz/hackaiz#hackaiz",
+      "type": "mcp",
+      "name": "Hackaiz",
+      "description": {
+        "zh": null,
+        "en": "Analyze authorized assets and read security findings through your Hackaiz account.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.Hacktualiz/hackaiz",
+        "url": "https://registry.modelcontextprotocol.io/?q=io.github.Hacktualiz%2Fhackaiz",
         "tier": 0
       },
       "quality": {
@@ -53487,6 +54323,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.logtriage-cyber/logtriage#logtriage",
+      "type": "mcp",
+      "name": "LogTriage",
+      "description": {
+        "zh": null,
+        "en": "Security log tools: Windows/Entra error codes, log explainer, IP blocklists, attack scans",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.logtriage-cyber/logtriage",
+        "url": "https://logtriage.app/tools/mcp-server/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.manhliemcn4euwlu-source/llm-red-team-scanner#llm-red-team-scanner",
       "type": "mcp",
       "name": "LLM Red-Team Scanner",
@@ -53757,6 +54642,56 @@
         "repo": null,
         "path": "io.github.mifori/certagent",
         "url": "https://agent.mifori.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.msanchezgrice/launchbuddy#launchbuddy-builder-tools-and-launch-audits",
+      "type": "mcp",
+      "name": "LaunchBuddy: Builder Tools and Launch Audits",
+      "description": {
+        "zh": null,
+        "en": "Find builder resources, plan your next test, and audit public-site launch readiness.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.msanchezgrice/launchbuddy",
+        "url": "https://launchbuddy.com/agents",
         "tier": 0
       },
       "quality": {
@@ -54871,7 +55806,7 @@
       "name": "VerifyLite",
       "description": {
         "zh": null,
-        "en": "Pay-per-call web safety, Base on-chain data, CVE and prompt-injection checks for agents. x402 USDC.",
+        "en": "Verify before you pay or act: site, transaction, token and injection checks for agents. x402 USDC.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -59723,7 +60658,7 @@
       "name": "mlab.sh",
       "description": {
         "zh": null,
-        "en": "Threat intelligence: enrich IOCs (IP, domain, URL, hash), search CVEs and actors, scan SBOMs.",
+        "en": "Threat intel and DFIR: IOCs, CVEs, actors, SBOMs, domain scans, cases, memory, Kubernetes, Proxmox.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -59731,8 +60666,8 @@
       },
       "lang": "en",
       "categories": [
-        "security",
-        "research"
+        "devops",
+        "security"
       ],
       "targets": [
         "mcp-client"
@@ -63569,6 +64504,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:phm-audit/phm-lite-check:io.github.phm-audit/phm-lite-check#phm-physics-check",
+      "type": "mcp",
+      "name": "PHM Physics Check",
+      "description": {
+        "zh": null,
+        "en": "Deterministic physics plausibility checks for LLM outputs and robotics data. Offline, stdlib-only.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "PHM-Audit/phm-lite-check",
+        "path": "io.github.PHM-Audit/phm-lite-check",
+        "url": "https://github.com/PHM-Audit/phm-lite-check",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:piotrlitwa/anole-connector:io.github.piotrlitwa/anole#anole-ai-visibility",
       "type": "mcp",
       "name": "Anole AI Visibility",
@@ -64656,7 +65640,7 @@
       "name": "PressBridge",
       "description": {
         "zh": null,
-        "en": "Safe, audited Claude access to WordPress sites: secrets hidden, backups, undo, WP-CLI allow-list.",
+        "en": "Read-only Claude access to WordPress over MCP: secrets hidden, sandboxed, works on broken sites.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -70785,6 +71769,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:theluckystrike/social-security-cola-2027-mcp:io.github.theluckystrike/social-security-cola-2027-mcp#social-security-cola-2027-mcp",
+      "type": "mcp",
+      "name": "Social Security COLA 2027 MCP",
+      "description": {
+        "zh": null,
+        "en": "Social Security COLA 2027, full retirement age, earnings test and 2027 limits from SSA notices.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "theluckystrike/social-security-cola-2027-mcp",
+        "path": "io.github.theluckystrike/social-security-cola-2027-mcp",
+        "url": "https://github.com/theluckystrike/social-security-cola-2027-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:theone55/jfs:io.github.theone55/jfs#jfsecure",
       "type": "mcp",
       "name": "JFSecure",
@@ -72528,6 +73561,56 @@
         "repo": "vassiliylakhonin/vizier",
         "path": "io.github.vassiliylakhonin/vizier-guard",
         "url": "https://github.com/vassiliylakhonin/vizier",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:vaultcord/vaultcord-mcp-registry:com.vaultcord/vaultcord#vaultcord",
+      "type": "mcp",
+      "name": "VaultCord",
+      "description": {
+        "zh": null,
+        "en": "Manage VaultCord-protected Discord servers: members, verification, backups and security.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "VaultCord/vaultcord-mcp-registry",
+        "path": "com.vaultcord/vaultcord",
+        "url": "https://github.com/VaultCord/vaultcord-mcp-registry",
         "tier": 0
       },
       "quality": {

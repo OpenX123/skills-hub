@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T00:07:02.146Z",
+  "generatedAt": "2026-11-05T23:56:20.156Z",
   "category": {
     "key": "integration",
     "zh": "三方集成",
@@ -85,7 +85,7 @@
       }
     ]
   },
-  "total": 605,
+  "total": 613,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/slack-gif-creator/skill.md#slack-gif-creator",
@@ -4926,6 +4926,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:a19901201/mcp-telegram-agent:io.github.a19901201/mcp-telegram-agent#mcp-telegram-agent",
+      "type": "mcp",
+      "name": "mcp-telegram-agent",
+      "description": {
+        "zh": null,
+        "en": "Full Telegram Bot control for AI agents via pure Bot API: zero login risk, one Bot Token.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "a19901201/mcp-telegram-agent",
+        "path": "io.github.a19901201/mcp-telegram-agent",
+        "url": "https://github.com/a19901201/mcp-telegram-agent",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:aaronsb/google-workspace-mcp:io.github.aaronsb/google-workspace#google-workspace",
       "type": "mcp",
       "name": "Google Workspace",
@@ -8049,7 +8098,7 @@
       "name": "Telegram Context MCP",
       "description": {
         "zh": null,
-        "en": "Read permitted Telegram chats, retrieve original posts and files, and track changes locally.",
+        "en": "Read permitted Telegram chats, track changes and optionally confirm outbound actions locally.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -8264,6 +8313,55 @@
         "repo": "fadeynotchenko/netrun-mcp",
         "path": "io.github.fadeynotchenko/netrun",
         "url": "https://github.com/fadeynotchenko/netrun-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:fazal-bhinder/openclaw-discord-timestamp:com.discordtimestampgen/discord-timestamp#discord-timestamp-generator",
+      "type": "mcp",
+      "name": "Discord Timestamp Generator",
+      "description": {
+        "zh": null,
+        "en": "Make Discord <t:unix:F> timestamp codes from any date and timezone; decode Discord snowflake IDs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "fazal-bhinder/openclaw-discord-timestamp",
+        "path": "com.discordtimestampgen/discord-timestamp",
+        "url": "https://github.com/fazal-bhinder/openclaw-discord-timestamp",
         "tier": 0
       },
       "quality": {
@@ -10624,7 +10722,7 @@
       "name": "tgden — Telegram catalog & search",
       "description": {
         "zh": null,
-        "en": "Search 1.2M+ Telegram channels, 245k+ chats, 160k+ bots — no account, no key, no install.",
+        "en": "Search 1.7M+ Telegram channels, 250k+ chats, 228k+ bots, and what chats ask for. No key, no install.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -12847,6 +12945,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:ai.storerouter/merchant#storerouter-merchant",
+      "type": "mcp",
+      "name": "StoreRouter Merchant",
+      "description": {
+        "zh": null,
+        "en": "For StoreRouter merchants: search your own catalog, check catalog status, and sync Shopify.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.storerouter/merchant",
+        "url": "https://merchant.storerouter.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:ai.the-meridian/meridian#meridian",
       "type": "mcp",
       "name": "Meridian",
@@ -13265,6 +13413,56 @@
         "repo": null,
         "path": "app.roughsketch/roughsketch",
         "url": "https://roughsketch.app",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:app.shopemail/shopemail#shopemail",
+      "type": "mcp",
+      "name": "Shopemail",
+      "description": {
+        "zh": null,
+        "en": "Design, preview, and export Shopify notification emails in your authorized Shopemail theme.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design",
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "app.shopemail/shopemail",
+        "url": "https://shopemail.app/",
         "tier": 0
       },
       "quality": {
@@ -15223,6 +15421,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.clawhard/stamp#stamp",
+      "type": "mcp",
+      "name": "Stamp",
+      "description": {
+        "zh": null,
+        "en": "Check a domain's SPF, DKIM, DMARC and MX from live DNS, the Gmail/Yahoo rules, and fix records.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.clawhard/stamp",
+        "url": "https://stamp.clawhard.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.contextwindowsupply/store#context-window-supply",
       "type": "mcp",
       "name": "Context Window Supply",
@@ -15421,12 +15668,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:com.discordtimestampgen/discord-timestamp#discord-timestamp-generator",
+      "id": "mcp:mcp-official:com.eachspy/eachspy#eachspy",
       "type": "mcp",
-      "name": "Discord Timestamp Generator",
+      "name": "Eachspy",
       "description": {
         "zh": null,
-        "en": "Make Discord <t:unix:F> timestamp codes from any date and timezone; decode Discord snowflake IDs.",
+        "en": "Facebook ads library with spend estimates and advertiser stats, plus Shopify product research.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -15434,15 +15681,17 @@
       },
       "lang": "en",
       "categories": [
-        "integration"
+        "research",
+        "integration",
+        "business"
       ],
       "targets": [
         "mcp-client"
       ],
       "source": {
         "repo": null,
-        "path": "com.discordtimestampgen/discord-timestamp",
-        "url": "https://discordtimestampgen.com",
+        "path": "com.eachspy/eachspy",
+        "url": "https://www.eachspy.com/features/mcp-connector/",
         "tier": 0
       },
       "quality": {
@@ -15470,12 +15719,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:com.eachspy/eachspy#eachspy",
+      "id": "mcp:mcp-official:com.easyappsecom/ea-ecommerce-apps#ea-ecommerce-apps",
       "type": "mcp",
-      "name": "Eachspy",
+      "name": "EA Ecommerce Apps",
       "description": {
         "zh": null,
-        "en": "Facebook ads library with spend estimates and advertiser stats, plus Shopify product research.",
+        "en": "Stats, setup, drafts and opt-in publishing for the EA Shopify apps: bundles, popups, cart, bars.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -15483,17 +15732,64 @@
       },
       "lang": "en",
       "categories": [
-        "research",
-        "integration",
-        "business"
+        "integration"
       ],
       "targets": [
         "mcp-client"
       ],
       "source": {
         "repo": null,
-        "path": "com.eachspy/eachspy",
-        "url": "https://www.eachspy.com/features/mcp-connector/",
+        "path": "com.easyappsecom/ea-ecommerce-apps",
+        "url": "https://easyappsecom.com/connector",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.easyappsecom/ea-shopify-apps#ea-shopify-apps",
+      "type": "mcp",
+      "name": "EA Shopify Apps",
+      "description": {
+        "zh": null,
+        "en": "Stats, setup, drafts and opt-in publishing for the EA Shopify apps: bundles, popups, cart, bars.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.easyappsecom/ea-shopify-apps",
+        "url": "https://easyappsecom.com/connector",
         "tier": 0
       },
       "quality": {
@@ -26098,6 +26394,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:renl/proceed-mcp:io.github.renl/proceed-mcp#io.github.renl-proceed-mcp",
+      "type": "mcp",
+      "name": "io.github.renl/proceed-mcp",
+      "description": {
+        "zh": null,
+        "en": "Preview Telegram approval broker for MCP clients; live first use unverified.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "renl/proceed-mcp",
+        "path": "io.github.renl/proceed-mcp",
+        "url": "https://github.com/renl/proceed-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:revinhohq/revinho-mcp:io.github.revinhohq/revinho-mcp#revinho",
       "type": "mcp",
       "name": "Revinho",
@@ -28998,6 +29343,56 @@
         "repo": "unsoldgroup/mail-index",
         "path": "io.github.unsoldgroup/mail-index",
         "url": "https://github.com/unsoldgroup/mail-index",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:vaultcord/vaultcord-mcp-registry:com.vaultcord/vaultcord#vaultcord",
+      "type": "mcp",
+      "name": "VaultCord",
+      "description": {
+        "zh": null,
+        "en": "Manage VaultCord-protected Discord servers: members, verification, backups and security.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "security",
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "VaultCord/vaultcord-mcp-registry",
+        "path": "com.vaultcord/vaultcord",
+        "url": "https://github.com/VaultCord/vaultcord-mcp-registry",
         "tier": 0
       },
       "quality": {

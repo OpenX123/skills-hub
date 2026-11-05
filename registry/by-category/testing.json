@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T00:07:02.146Z",
+  "generatedAt": "2026-11-05T23:56:20.156Z",
   "category": {
     "key": "testing",
     "zh": "测试质量",
@@ -73,7 +73,7 @@
       }
     ]
   },
-  "total": 885,
+  "total": 895,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/webapp-testing/skill.md#webapp-testing",
@@ -13537,6 +13537,55 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:servosity/msp-skills:io.github.servosity/dropsuite-mcp#dropsuite-(ninjaone)-mcp",
+      "type": "mcp",
+      "name": "Dropsuite (NinjaOne) MCP",
+      "description": {
+        "zh": null,
+        "en": "Every Dropsuite (NinjaOne SaaS Backup) read, plus fleet-wide backup health, coverage gaps and",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "servosity/msp-skills",
+        "path": "io.github.Servosity/dropsuite-mcp",
+        "url": "https://github.com/servosity/msp-skills",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
       "id": "mcp:servosity/msp-skills:io.github.servosity/huntress-mcp#huntress-mcp",
       "type": "mcp",
       "name": "Huntress MCP",
@@ -16410,7 +16459,7 @@
       "name": "BuildPulse",
       "description": {
         "zh": null,
-        "en": "BuildPulse CI test analytics for AI agents — flaky tests, CI failures, flakiness, and code coverage.",
+        "en": "BuildPulse for AI agents: CI runner usage, cost and savings, plus flaky tests, failures, coverage.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -16418,8 +16467,7 @@
       },
       "lang": "en",
       "categories": [
-        "testing",
-        "data"
+        "testing"
       ],
       "targets": [
         "mcp-client"
@@ -16674,6 +16722,56 @@
         "repo": "ChanghuLiu/cablecert-qa",
         "path": "io.github.ChanghuLiu/cablecert-qa",
         "url": "https://github.com/ChanghuLiu/cablecert-qa",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:checkmyapp/checkmyapp-mcp:io.github.sorokinvj/checkmyapp#checkmyapp",
+      "type": "mcp",
+      "name": "CheckMyApp",
+      "description": {
+        "zh": null,
+        "en": "QA after every deploy: walks your live web app as a real user and tells your agent what broke.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "checkmyapp/checkmyapp-mcp",
+        "path": "io.github.sorokinvj/checkmyapp",
+        "url": "https://github.com/checkmyapp/checkmyapp-mcp",
         "tier": 0
       },
       "quality": {
@@ -19920,6 +20018,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:faxbeep/faxbeep-mcp:com.faxbeep/faxbeep#faxbeep",
+      "type": "mcp",
+      "name": "Faxbeep",
+      "description": {
+        "zh": null,
+        "en": "Test fax numbers for AI agents. Send a test fax or scan-to-email, then read what Faxbeep received.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "faxbeep/faxbeep-mcp",
+        "path": "com.faxbeep/faxbeep",
+        "url": "https://github.com/faxbeep/faxbeep-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:feason-com/feason-context:io.github.feason-com/context#feason-context",
       "type": "mcp",
       "name": "Feason Context",
@@ -21470,6 +21617,55 @@
         "repo": "Ifeanyiejindu/qarunbook",
         "path": "io.github.Ifeanyiejindu/qarunbook",
         "url": "https://github.com/Ifeanyiejindu/qarunbook",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:igor-vii/argus-agent-test-lab:io.github.igor-vii/argus-console#argus-console-—-ai-agent-test-lab",
+      "type": "mcp",
+      "name": "Argus Console — AI Agent Test Lab",
+      "description": {
+        "zh": null,
+        "en": "Adversarial testing for AI agents that move money: engine battery, Ed25519-sealed verdict reports.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "igor-vii/Argus-Agent-Test-Lab",
+        "path": "io.github.igor-vii/argus-console",
+        "url": "https://github.com/igor-vii/Argus-Agent-Test-Lab",
         "tier": 0
       },
       "quality": {
@@ -29989,7 +30185,7 @@
       "name": "com.postboxservices/postbox-tools",
       "description": {
         "zh": null,
-        "en": "Free email checks: 24 blacklists, spoofing/BEC grade, redirect tracing, email spam test, WHOIS.",
+        "en": "Free email checks: 24 blacklists, spoofing grade, redirects, spam test, WHOIS, BIMI, AI readiness.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -30678,7 +30874,7 @@
       "name": "Tester Exchange",
       "description": {
         "zh": null,
-        "en": "Get 12 testers for 14 days for Google Play closed testing, with verified daily use on real phones.",
+        "en": "Get the 12 testers x 14 days Google Play closed testing requires. One call: get_testers.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -30941,6 +31137,55 @@
         "repo": null,
         "path": "com.thejohnsonbros/plumbing-booking",
         "url": "https://thejohnsonbros.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.tryproofie/proofie#proofie",
+      "type": "mcp",
+      "name": "Proofie",
+      "description": {
+        "zh": null,
+        "en": "Proofie plans, a free AI visibility test, and a checkout link the user pays on. No key needed.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.tryproofie/proofie",
+        "url": "https://tryproofie.com",
         "tier": 0
       },
       "quality": {
@@ -33887,6 +34132,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.msanchezgrice/launchbuddy#launchbuddy-builder-tools-and-launch-audits",
+      "type": "mcp",
+      "name": "LaunchBuddy: Builder Tools and Launch Audits",
+      "description": {
+        "zh": null,
+        "en": "Find builder resources, plan your next test, and audit public-site launch readiness.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.msanchezgrice/launchbuddy",
+        "url": "https://launchbuddy.com/agents",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.n0t1fy/notify-sms-georgia#notify",
       "type": "mcp",
       "name": "NOTIFY",
@@ -35589,6 +35884,55 @@
         "repo": null,
         "path": "love.laboratory/laboratory-love",
         "url": "https://www.laboratory.love/developers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:markets.rizon/exchange#rizon",
+      "type": "mcp",
+      "name": "Rizon",
+      "description": {
+        "zh": null,
+        "en": "A paper-money exchange: read live order books, place practice trades, test a bot. No sign-up.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "markets.rizon/exchange",
+        "url": "https://rizon.markets",
         "tier": 0
       },
       "quality": {
@@ -38525,6 +38869,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:nikolai-shilin/iyt-test:io.github.nikolai-shilin/iyt-test#iyt-test",
+      "type": "mcp",
+      "name": "IYT Test",
+      "description": {
+        "zh": null,
+        "en": "Sailing exam practice for IYT levels and the Racing Rules: questions, mock exams, theory. EN/RU.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "nikolai-shilin/iyt-test",
+        "path": "io.github.nikolai-shilin/iyt-test",
+        "url": "https://github.com/nikolai-shilin/iyt-test",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:ninadphalak/llm-shield-proxy:io.github.ninadphalak/chunk-invariance#chunk-invariance",
       "type": "mcp",
       "name": "chunk-invariance",
@@ -39294,6 +39687,55 @@
         "repo": "OrangeproAI/orangepro-mcp",
         "path": "ai.orangepro/mcp",
         "url": "https://github.com/OrangeproAI/orangepro-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:ovata-cloud/ovata:tw.ovata/ovata#ovata",
+      "type": "mcp",
+      "name": "Ovata",
+      "description": {
+        "zh": null,
+        "en": "Build, preview and publish Ovata websites and online shops from your AI tool, test site first.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ovata-cloud/ovata",
+        "path": "tw.ovata/ovata",
+        "url": "https://github.com/ovata-cloud/ovata",
         "tier": 0
       },
       "quality": {
@@ -41734,12 +42176,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:since-dev/mcp:io.github.since-dev/mcp#since.dev",
+      "id": "mcp:sipemu/dbt-lineage-viewer:io.github.sipemu/dbt-lineage#dbt-lineage",
       "type": "mcp",
-      "name": "Since.dev",
+      "name": "dbt-lineage",
       "description": {
         "zh": null,
-        "en": "Watch dependencies, verify facts, inspect coverage, and catch up on changes with durable cursors.",
+        "en": "dbt model and column lineage, downstream impact and test proposals; no warehouse or dbt compile",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -41753,9 +42195,9 @@
         "mcp-client"
       ],
       "source": {
-        "repo": "since-dev/mcp",
-        "path": "io.github.Since-dev/mcp",
-        "url": "https://github.com/since-dev/mcp",
+        "repo": "sipemu/dbt-lineage-viewer",
+        "path": "io.github.sipemu/dbt-lineage",
+        "url": "https://github.com/sipemu/dbt-lineage-viewer",
         "tier": 0
       },
       "quality": {
@@ -43787,6 +44229,55 @@
         "repo": "WaterTian/wechat-devtools-mcp",
         "path": "io.github.WaterTian/wechat-devtools-mcp",
         "url": "https://github.com/WaterTian/wechat-devtools-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:wdlcmu/clearline-family:com.clearlinefamily/clearline-family#clearline-family",
+      "type": "mcp",
+      "name": "Clearline Family",
+      "description": {
+        "zh": null,
+        "en": "Education-only life insurance coverage-gap calculator for Washington families. Math shown.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "wdlcmu/clearline-family",
+        "path": "com.clearlinefamily/clearline-family",
+        "url": "https://github.com/wdlcmu/clearline-family",
         "tier": 0
       },
       "quality": {
