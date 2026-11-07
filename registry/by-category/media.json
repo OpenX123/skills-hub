@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T23:38:19.587Z",
+  "generatedAt": "2026-11-07T22:28:54.681Z",
   "category": {
     "key": "media",
     "zh": "音视频图像",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 1625,
+  "total": 1647,
   "entries": [
     {
       "id": "skill:composiohq/awesome-claude-skills:video-downloader/skill.md#youtube-downloader",
@@ -3473,6 +3473,56 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:screenpipe/screenpipe:io.github.screenpipe/screenpipe-mcp#screenpipe",
+      "type": "mcp",
+      "name": "screenpipe",
+      "description": {
+        "zh": null,
+        "en": "Search your local screen recordings, audio transcripts, and computer activity from screenpipe.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "research",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "screenpipe/screenpipe",
+        "path": "io.github.screenpipe/screenpipe-mcp",
+        "url": "https://github.com/screenpipe/screenpipe",
+        "tier": 0
+      },
+      "quality": {
+        "score": 40,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 3
+    },
+    {
       "id": "mcp:cassette-editor/oh-my-cassette:io.github.cassette-editor/oh-my-cassette#oh-my-cassette",
       "type": "mcp",
       "name": "Oh My Cassette",
@@ -3545,56 +3595,6 @@
         "repo": "guaardvark/guaardvark",
         "path": "io.github.guaardvark/guaardvark",
         "url": "https://github.com/guaardvark/guaardvark",
-        "tier": 0
-      },
-      "quality": {
-        "score": 32,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 2
-    },
-    {
-      "id": "mcp:screenpipe/screenpipe:io.github.screenpipe/screenpipe-mcp#screenpipe",
-      "type": "mcp",
-      "name": "screenpipe",
-      "description": {
-        "zh": null,
-        "en": "Search your local screen recordings, audio transcripts, and computer activity from screenpipe.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "research",
-        "media"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "screenpipe/screenpipe",
-        "path": "io.github.screenpipe/screenpipe-mcp",
-        "url": "https://github.com/screenpipe/screenpipe",
         "tier": 0
       },
       "quality": {
@@ -16783,6 +16783,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:descriptinc/descript-mcp:io.github.descriptinc/descript#descript",
+      "type": "mcp",
+      "name": "Descript",
+      "description": {
+        "zh": null,
+        "en": "Edit video and audio using natural language.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "descriptinc/descript-mcp",
+        "path": "io.github.descriptinc/descript",
+        "url": "https://github.com/descriptinc/descript-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:develanet/dropl-mcp:io.dropl/mcp#dropl-mcp",
       "type": "mcp",
       "name": "Dropl MCP",
@@ -22858,6 +22907,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:joaoestella/mediasense:io.github.joaoestella/mediasense#mediasense",
+      "type": "mcp",
+      "name": "mediasense",
+      "description": {
+        "zh": null,
+        "en": "Let Claude listen to audio and watch video: transcribe, summarize and edit recordings and links.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "joaoestella/mediasense",
+        "path": "io.github.joaoestella/mediasense",
+        "url": "https://github.com/joaoestella/mediasense",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:johannsenlum/is-it-ai-mcp:io.github.johannsenlum/is-it-ai-mcp#is-it-ai-mcp",
       "type": "mcp",
       "name": "Is It AI MCP",
@@ -23951,7 +24049,7 @@
       "name": "io.github.konni-arcadia/moontide",
       "description": {
         "zh": null,
-        "en": "Claude steers live music by writing Strudel code played in a browser page",
+        "en": "Early: Claude steers live music by writing Strudel code played in a browser page",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -28442,7 +28540,7 @@
       "name": "KreatorFlow",
       "description": {
         "zh": null,
-        "en": "Make AI video and images with Seedance and Seedream, plus voice, sound and edits, on your plan.",
+        "en": "AI video and images with Seedance and Seedream, plus voice, sound, edits and Stage scene planning.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -28450,6 +28548,7 @@
       },
       "lang": "en",
       "categories": [
+        "pm",
         "media"
       ],
       "targets": [
@@ -32288,6 +32387,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:app.jumponthetrend/jumponthetrend#jump-on-the-trend",
+      "type": "mcp",
+      "name": "Jump on the Trend",
+      "description": {
+        "zh": null,
+        "en": "Find viral AI video trends and templates, and put your face, a friend or your pet in them.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "app.jumponthetrend/jumponthetrend",
+        "url": "https://jumponthetrend.app",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:app.localhum/localhum#localhum",
       "type": "mcp",
       "name": "localhum",
@@ -32507,6 +32655,55 @@
         "repo": null,
         "path": "app.payperwork/images",
         "url": "https://payperwork.app",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:app.pilot0/pilotcontrol#pilotcontrol",
+      "type": "mcp",
+      "name": "PilotControl",
+      "description": {
+        "zh": null,
+        "en": "Publish one video to Instagram, TikTok, YouTube, Facebook and X; answer comments and DMs; see stats.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "app.pilot0/pilotcontrol",
+        "url": "https://control.pilot0.app/en/post-from-chatgpt",
         "tier": 0
       },
       "quality": {
@@ -37088,7 +37285,7 @@
       "name": "Cirrela AI video generator",
       "description": {
         "zh": null,
-        "en": "Make AI videos with sound and images from a sentence, with Kling, Wan, MiniMax, Gemini and more.",
+        "en": "AI videos with sound from a sentence, one free a day, and Santa video wishes that say any name.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -41668,6 +41865,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.makemidas/makemidas#makemidas",
+      "type": "mcp",
+      "name": "MakeMidas",
+      "description": {
+        "zh": null,
+        "en": "Make AI images and videos with Nano Banana, GPT Image, Veo, Kling and more, using your credits.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.makemidas/makemidas",
+        "url": "https://makemidas.com/developers",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.makerreels/makerreels#makerreels",
       "type": "mcp",
       "name": "MakerReels",
@@ -42478,6 +42724,55 @@
         "repo": null,
         "path": "com.newvsts/newvsts",
         "url": "https://newvsts.com/developers/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.nightspar/nightspar#nightspar",
+      "type": "mcp",
+      "name": "Nightspar",
+      "description": {
+        "zh": null,
+        "en": "Save words from your AI chats as spaced-repetition flashcards, with meanings, IPA and audio.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.nightspar/nightspar",
+        "url": "https://nightspar.com/features/mcp",
         "tier": 0
       },
       "quality": {
@@ -44834,6 +45129,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.shortvidapi/mcp-server#shortvidapi-—-short-form-video,-creators-&-ads-data-mcp-serv",
+      "type": "mcp",
+      "name": "ShortVidAPI — Short-Form Video, Creators & Ads Data MCP Server",
+      "description": {
+        "zh": null,
+        "en": "Real-time short-form video, creator profiles, comments, trends & ad data MCP. OAuth or API key.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "media",
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.shortvidapi/mcp-server",
+        "url": "https://shortvidapi.com/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.shortyedit/shorty#shorty-ai-video-editor",
       "type": "mcp",
       "name": "Shorty AI Video Editor",
@@ -47154,6 +47500,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.videodataapi/mcp-server#videodataapi-—-video-transcript,-captions,-search-&-comments",
+      "type": "mcp",
+      "name": "VideoDataAPI — Video Transcript, Captions, Search & Comments MCP Server",
+      "description": {
+        "zh": null,
+        "en": "Real-time video transcripts, RAG captions, metadata, search & comments MCP. OAuth or API key.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "research",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.videodataapi/mcp-server",
+        "url": "https://videodataapi.com/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.vidkraken/vidkraken#vid-kraken",
       "type": "mcp",
       "name": "Vid Kraken",
@@ -47719,6 +48116,104 @@
         "repo": null,
         "path": "com.withicarus/icarus",
         "url": "https://withicarus.com/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.woodstitch/mcp#woodstitch",
+      "type": "mcp",
+      "name": "Woodstitch",
+      "description": {
+        "zh": null,
+        "en": "Paid human listeners judge TTS audio blind: pairwise preference or human-vs-AI detection.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.woodstitch/mcp",
+        "url": "https://woodstitch.com/docs",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.woodstitch/tts-human-evaluation-listening-test#woodstitch",
+      "type": "mcp",
+      "name": "Woodstitch",
+      "description": {
+        "zh": null,
+        "en": "Paid human listeners judge TTS audio blind: pairwise preference or human-vs-AI detection.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.woodstitch/tts-human-evaluation-listening-test",
+        "url": "https://woodstitch.com/docs",
         "tier": 0
       },
       "quality": {
@@ -52342,6 +52837,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.fal-ai-community/mcp#fal.ai",
+      "type": "mcp",
+      "name": "fal.ai",
+      "description": {
+        "zh": null,
+        "en": "Generate and edit images, video, audio and 3D with fal. Discover models and check prices.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.fal-ai-community/mcp",
+        "url": "https://fal.ai/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.finddatatechnology/vaas-wanxing#io.github.finddatatechnology-vaas-wanxing",
       "type": "mcp",
       "name": "io.github.FindDataTechnology/vaas-wanxing",
@@ -52413,6 +52957,55 @@
         "repo": null,
         "path": "io.github.franzsy5/luvvoice-mcp",
         "url": "https://luvvoice.com/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.freelipsync/freelipsync#freelipsync",
+      "type": "mcp",
+      "name": "FreeLipSync",
+      "description": {
+        "zh": null,
+        "en": "Generate lip-synced talking and singing videos from images or videos and audio.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.freelipsync/freelipsync",
+        "url": "https://freelipsync.com/docs/mcp",
         "tier": 0
       },
       "quality": {
@@ -52837,6 +53430,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.johnisanerd/youtube-transcripts#io.github.johnisanerd-youtube-transcripts",
+      "type": "mcp",
+      "name": "io.github.johnisanerd/youtube-transcripts",
+      "description": {
+        "zh": null,
+        "en": "YouTube video and Shorts transcripts with timestamps. Paid, on Apify's hosted MCP.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.johnisanerd/youtube-transcripts",
+        "url": "https://alphaosint.com/mcp/youtube-transcripts/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.jqy-yo/gptimagehub#gpt-image-hub",
       "type": "mcp",
       "name": "GPT Image Hub",
@@ -53154,6 +53796,56 @@
         "repo": null,
         "path": "io.github.kriton-dev/video-frames",
         "url": "https://apify.com/hermeskd/video-frames",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.levz0r/beatseek#beatseek",
+      "type": "mcp",
+      "name": "BeatSeek",
+      "description": {
+        "zh": null,
+        "en": "SoundCloud search for DJs and AI agents, with BPM and key measured from the audio.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "research",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.levz0r/beatseek",
+        "url": "https://beatseek.io",
         "tier": 0
       },
       "quality": {
@@ -53646,6 +54338,104 @@
         "repo": null,
         "path": "io.github.Mgnlockii/reelfy",
         "url": "https://api.reelfy.online",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.miradero/armenly#armenly",
+      "type": "mcp",
+      "name": "Armenly",
+      "description": {
+        "zh": null,
+        "en": "Free Armenian music streaming: 1,800+ artists and 60,000 songs, from pop and rabiz to duduk.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.miradero/armenly",
+        "url": "https://armenly.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.miradero/bitepods#bitepods",
+      "type": "mcp",
+      "name": "BitePods",
+      "description": {
+        "zh": null,
+        "en": "Free podcast clip maker: share the exact moment of an episode from YouTube, Spotify or Apple.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.miradero/bitepods",
+        "url": "https://bitepods.com",
         "tier": 0
       },
       "quality": {
@@ -56840,7 +57630,7 @@
       "name": "YouTube Transcript, Comments & Video Data API MCP Server",
       "description": {
         "zh": null,
-        "en": "Real-time YouTube transcripts, comments, channels & video search hosted MCP. OAuth or API key.",
+        "en": "Real-time YouTube transcripts, comments, channels & video search MCP. Local npx or hosted OAuth.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -65976,7 +66766,7 @@
       "name": "Agent Data Tools: AI",
       "description": {
         "zh": null,
-        "en": "25 tools: LLM chat, summaries, translation, embeddings, speech, images. 25 free calls.",
+        "en": "33 tools: LLM chat, summaries, translation, embeddings, speech, images. 25 free calls.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -67113,7 +67903,7 @@
       "name": "Przypominamy.com SMS",
       "description": {
         "zh": null,
-        "en": "Polish SMS & voice gateway: send SMS/TTS, contacts, blacklist, tracked links, replies, reports.",
+        "en": "Polish SMS & voice gateway for AI agents: send SMS/TTS, pricing, buy credits, contacts, reports.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -67121,6 +67911,7 @@
       },
       "lang": "en",
       "categories": [
+        "business",
         "media"
       ],
       "targets": [
@@ -68693,7 +69484,7 @@
       "name": "VNCNT Labs YouTube Data",
       "description": {
         "zh": null,
-        "en": "YouTube video details, transcripts, search ranks and top comments. Pay per result.",
+        "en": "YouTube video details, transcripts, search ranks and comments. Pay per result.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -68809,6 +69600,57 @@
         "repo": "PrismPoster/creator-tools",
         "path": "com.prismposter/creator-tools",
         "url": "https://github.com/PrismPoster/creator-tools",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:productaura/productaura:co.productaura/productaura#product-aura",
+      "type": "mcp",
+      "name": "Product Aura",
+      "description": {
+        "zh": null,
+        "en": "Listing and ad images for Amazon, Etsy, Shopify, TikTok Shop and social ads, from one product photo.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration",
+        "business",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "productaura/productaura",
+        "path": "co.productaura/productaura",
+        "url": "https://github.com/productaura/productaura",
         "tier": 0
       },
       "quality": {
@@ -73244,6 +74086,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:skavio-eu/skavio-agent-tools:eu.skavio/paid-micro-apis#skavio-usdc-payment-verification-&-proof-mcp",
+      "type": "mcp",
+      "name": "Skavio USDC Payment Verification & Proof MCP",
+      "description": {
+        "zh": null,
+        "en": "USDC x402 proof/DNS and authenticated prepaid OCR, document and audio processing via card or USDC.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "skavio-eu/skavio-agent-tools",
+        "path": "eu.skavio/paid-micro-apis",
+        "url": "https://github.com/skavio-eu/skavio-agent-tools",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:sklarstad/sklarstad-storefront-mcp:io.github.emersonsklar/sklarstad-storefront#sklarstad-storefront",
       "type": "mcp",
       "name": "Sklarstad Storefront",
@@ -74435,7 +75327,7 @@
       "name": "videoFn",
       "description": {
         "zh": null,
-        "en": "Video editor for your AI assistant. Builds, checks and renders edits on your Mac.",
+        "en": "Your AI assistant edits, checks and renders video on your Mac. Needs the videoFn app: videofn.com",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -74443,7 +75335,6 @@
       },
       "lang": "en",
       "categories": [
-        "writing",
         "media"
       ],
       "targets": [
@@ -75883,6 +76774,55 @@
         "repo": "tanvoai/tanvo-mcp",
         "path": "ai.tanvo/tanvo-mcp",
         "url": "https://github.com/tanvoai/tanvo-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:tarunyadav1/murmur-cli:io.github.tarunyadav1/murmur-cli#murmur",
+      "type": "mcp",
+      "name": "Murmur",
+      "description": {
+        "zh": null,
+        "en": "Offline text to speech and voice cloning on macOS through the Murmur app.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "tarunyadav1/murmur-cli",
+        "path": "io.github.tarunyadav1/murmur-cli",
+        "url": "https://github.com/tarunyadav1/murmur-cli",
         "tier": 0
       },
       "quality": {
@@ -78715,6 +79655,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:woodstitch-llc/woodstitch-mcp:com.woodstitch/tts-human-eval#woodstitch",
+      "type": "mcp",
+      "name": "Woodstitch",
+      "description": {
+        "zh": null,
+        "en": "Paid human listeners judge TTS audio blind: pairwise preference or human-vs-AI detection.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "woodstitch-llc/woodstitch-mcp",
+        "path": "com.woodstitch/tts-human-eval",
+        "url": "https://github.com/woodstitch-llc/woodstitch-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:woowoeth/podcast:io.github.woowoeth/ourword#io.github.woowoeth-ourword",
       "type": "mcp",
       "name": "io.github.woowoeth/ourword",
@@ -78738,6 +79727,55 @@
         "repo": "woowoeth/podcast",
         "path": "io.github.woowoeth/ourword",
         "url": "https://github.com/woowoeth/podcast",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:woshiliyana/generateairapvideo:io.github.woshiliyana/generateairapvideo#ai-rap-video",
+      "type": "mcp",
+      "name": "AI Rap Video",
+      "description": {
+        "zh": null,
+        "en": "Turn one clear face photo into a $9.99 solo lip-synced music video (Bulin 47 AI, Tiny Desk AI).",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "woshiliyana/generateairapvideo",
+        "path": "io.github.woshiliyana/generateairapvideo",
+        "url": "https://github.com/woshiliyana/generateairapvideo",
         "tier": 0
       },
       "quality": {
@@ -80523,6 +81561,55 @@
         "repo": "ZhongQuinnKing/xiange",
         "path": "io.github.ZhongQuinnKing/xiange-mcp",
         "url": "https://github.com/ZhongQuinnKing/xiange",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:zocoi/goldradar.ai:io.github.zocoi/goldradar#gold-radar",
+      "type": "mcp",
+      "name": "Gold Radar",
+      "description": {
+        "zh": null,
+        "en": "Publish AI-generated video, stills, sound and 3D work to the Gold Radar archive.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "zocoi/goldradar.ai",
+        "path": "io.github.zocoi/goldradar",
+        "url": "https://github.com/zocoi/goldradar.ai",
         "tier": 0
       },
       "quality": {

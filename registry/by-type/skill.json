@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T23:38:19.587Z",
+  "generatedAt": "2026-11-07T22:28:54.681Z",
   "type": "skill",
   "label": {
     "zh": "技能",
@@ -1400,112 +1400,6 @@
       "curatedMentions": 8
     },
     {
-      "id": "skill:anthropics/skills:skills/doc-coauthoring/skill.md#doc-coauthoring",
-      "type": "skill",
-      "name": "doc-coauthoring",
-      "description": {
-        "zh": null,
-        "en": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "writing"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "anthropics/skills",
-        "path": "skills/doc-coauthoring/SKILL.md",
-        "url": "https://github.com/anthropics/skills/blob/HEAD/skills/doc-coauthoring/SKILL.md",
-        "tier": 0
-      },
-      "quality": {
-        "score": 96,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 1,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 188162,
-      "curatedMentions": 8
-    },
-    {
-      "id": "skill:anthropics/skills:template/skill.md#template-skill",
-      "type": "skill",
-      "name": "template-skill",
-      "description": {
-        "zh": null,
-        "en": "Replace with description of the skill and when Claude should use it.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "other"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "anthropics/skills",
-        "path": "template/SKILL.md",
-        "url": "https://github.com/anthropics/skills/blob/HEAD/template/SKILL.md",
-        "tier": 0
-      },
-      "quality": {
-        "score": 96,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 2,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 188162,
-      "curatedMentions": 8
-    },
-    {
       "id": "skill:composiohq/awesome-claude-skills:artifacts-builder/skill.md#artifacts-builder",
       "type": "skill",
       "name": "artifacts-builder",
@@ -2196,6 +2090,112 @@
       "familySize": 0,
       "stars": 70870,
       "curatedMentions": 5
+    },
+    {
+      "id": "skill:anthropics/skills:skills/doc-coauthoring/skill.md#doc-coauthoring",
+      "type": "skill",
+      "name": "doc-coauthoring",
+      "description": {
+        "zh": null,
+        "en": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "writing"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "anthropics/skills",
+        "path": "skills/doc-coauthoring/SKILL.md",
+        "url": "https://github.com/anthropics/skills/blob/HEAD/skills/doc-coauthoring/SKILL.md",
+        "tier": 0
+      },
+      "quality": {
+        "score": 95,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 1,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 188162,
+      "curatedMentions": 8
+    },
+    {
+      "id": "skill:anthropics/skills:template/skill.md#template-skill",
+      "type": "skill",
+      "name": "template-skill",
+      "description": {
+        "zh": null,
+        "en": "Replace with description of the skill and when Claude should use it.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "other"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "anthropics/skills",
+        "path": "template/SKILL.md",
+        "url": "https://github.com/anthropics/skills/blob/HEAD/template/SKILL.md",
+        "tier": 0
+      },
+      "quality": {
+        "score": 95,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 2,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 188162,
+      "curatedMentions": 8
     },
     {
       "id": "skill:obra/superpowers:skills/dispatching-parallel-agents/skill.md#dispatching-parallel-agents",

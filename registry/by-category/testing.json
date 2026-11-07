@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T23:38:19.587Z",
+  "generatedAt": "2026-11-07T22:28:54.681Z",
   "category": {
     "key": "testing",
     "zh": "测试质量",
@@ -73,7 +73,7 @@
       }
     ]
   },
-  "total": 903,
+  "total": 912,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/webapp-testing/skill.md#webapp-testing",
@@ -13832,6 +13832,56 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:uiverify/uiverify:io.github.igrlk/uiverify#ui-verify",
+      "type": "mcp",
+      "name": "UI Verify",
+      "description": {
+        "zh": null,
+        "en": "Visual testing for coding agents: your agent sees every UI change it makes and triages each diff.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "design",
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "uiverify/uiverify",
+        "path": "io.github.igrlk/uiverify",
+        "url": "https://github.com/uiverify/uiverify",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
       "id": "mcp:uxloom-dev/uxloom:io.github.uxloom-dev/uxloom#io.github.uxloom-dev-uxloom",
       "type": "mcp",
       "name": "io.github.uxloom-dev/uxloom",
@@ -14496,6 +14546,55 @@
         "repo": "agentsimdev/agentsim-mcp",
         "path": "dev.agentsim/mcp",
         "url": "https://github.com/agentsimdev/agentsim-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:agenttwin/agenttwin-agent-tools:io.github.agenttwin/agenttwin#agenttwin",
+      "type": "mcp",
+      "name": "AgentTwin",
+      "description": {
+        "zh": null,
+        "en": "Test AI agent workflows against service twins with injected faults. Runs locally; no source upload.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "AgentTwin/agenttwin-agent-tools",
+        "path": "io.github.AgentTwin/agenttwin",
+        "url": "https://github.com/AgentTwin/agenttwin-agent-tools",
         "tier": 0
       },
       "quality": {
@@ -15910,7 +16009,7 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:bellchain-app/bellchain:io.github.bellchain-app/mcp#bellchain",
+      "id": "mcp:bellchain-app/mcp:io.github.bellchain-app/mcp#bellchain",
       "type": "mcp",
       "name": "Bellchain",
       "description": {
@@ -15929,9 +16028,9 @@
         "mcp-client"
       ],
       "source": {
-        "repo": "bellchain-app/bellchain",
+        "repo": "bellchain-app/mcp",
         "path": "io.github.bellchain-app/mcp",
-        "url": "https://github.com/bellchain-app/bellchain",
+        "url": "https://github.com/bellchain-app/mcp",
         "tier": 0
       },
       "quality": {
@@ -20412,6 +20511,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:flytrap-qa/mcp:io.github.flytrap-qa/mcp#flytrap",
+      "type": "mcp",
+      "name": "FlyTrap",
+      "description": {
+        "zh": null,
+        "en": "FlyTrap mobile QA results for agents: bugs with evidence, screen graphs, network hosts, SDKs, diffs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "FlyTrap-QA/mcp",
+        "path": "io.github.FlyTrap-QA/mcp",
+        "url": "https://github.com/FlyTrap-QA/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:frozo-ai/edgegate-mcp:io.github.frozo-ai/edgegate-mcp#io.github.frozo-ai-edgegate-mcp",
       "type": "mcp",
       "name": "io.github.frozo-ai/edgegate-mcp",
@@ -21914,6 +22062,104 @@
         "repo": "isaachorowitz/baba-news-api",
         "path": "io.github.isaachorowitz/baba-news",
         "url": "https://github.com/isaachorowitz/baba-news-api",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:itsryanarmani/directory:io.github.itsryanarmani/sleepstudies#io.github.itsryanarmani-sleepstudies",
+      "type": "mcp",
+      "name": "io.github.itsryanarmani/sleepstudies",
+      "description": {
+        "zh": null,
+        "en": "Find a sleep study clinic or home sleep test near you.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "itsryanarmani/directory",
+        "path": "io.github.itsryanarmani/sleepstudies",
+        "url": "https://github.com/itsryanarmani/directory",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:itsryanarmani/directory:io.github.itsryanarmani/tmsclinics#io.github.itsryanarmani-tmsclinics",
+      "type": "mcp",
+      "name": "io.github.itsryanarmani/tmsclinics",
+      "description": {
+        "zh": null,
+        "en": "Compare TMS clinics, coverage and published costs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "itsryanarmani/directory",
+        "path": "io.github.itsryanarmani/tmsclinics",
+        "url": "https://github.com/itsryanarmani/directory",
         "tier": 0
       },
       "quality": {
@@ -25943,6 +26189,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:app.bioreport/bioreport#bioreport",
+      "type": "mcp",
+      "name": "BioReport",
+      "description": {
+        "zh": null,
+        "en": "Securely access and track personal blood test results.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "app.bioreport/bioreport",
+        "url": "https://registry.modelcontextprotocol.io/?q=app.bioreport%2Fbioreport",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:app.ideakiller/idea-validator#ideakiller",
       "type": "mcp",
       "name": "IdeaKiller",
@@ -29904,6 +30199,56 @@
         "repo": null,
         "path": "com.nolamechanic/booking",
         "url": "https://nolamechanic.com/for-ai-assistants",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.number7even/website-check#number7even-website-check",
+      "type": "mcp",
+      "name": "number7even website check",
+      "description": {
+        "zh": null,
+        "en": "Free website check: rebuild preview in every design, AI-readiness test, fixed price.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.number7even/website-check",
+        "url": "https://number7even.com/check/",
         "tier": 0
       },
       "quality": {
@@ -37344,6 +37689,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:top.mailbots/mailbots#mailbots",
+      "type": "mcp",
+      "name": "MailBots",
+      "description": {
+        "zh": null,
+        "en": "Read verification codes (OTP) and test email sent to your catch-all test hostnames.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "top.mailbots/mailbots",
+        "url": "https://mailbots.top/docs/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:tv.digitalexperts/hypotheses#digital-experts-hypotheses",
       "type": "mcp",
       "name": "Digital Experts Hypotheses",
@@ -37615,56 +38009,6 @@
         "repo": null,
         "path": "works.aiva/aiva",
         "url": "https://app.aiva.works/docs/how-to/connect-ai-agents-mcp",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:mcp-official:world.unclick/mcp-server#unclick",
-      "type": "mcp",
-      "name": "UnClick",
-      "description": {
-        "zh": null,
-        "en": "669 apps and 1599 actions for any MCP agent, plus cross-session memory and QA passes.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "testing",
-        "meta"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "world.unclick/mcp-server",
-        "url": "https://unclick.world",
         "tier": 0
       },
       "quality": {
@@ -41834,6 +42178,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:rubenglez/devicecloud-mcp:io.github.rubenglez/devicecloud#io.github.rubenglez-devicecloud",
+      "type": "mcp",
+      "name": "io.github.RubenGlez/devicecloud",
+      "description": {
+        "zh": null,
+        "en": "Triage failing DeviceCloud Maestro test runs: fail reasons, screenshots, flaky-flow analytics",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data",
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "RubenGlez/devicecloud-mcp",
+        "path": "io.github.RubenGlez/devicecloud",
+        "url": "https://github.com/RubenGlez/devicecloud-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:rudrendupaul/agent-eval:io.github.rudrendupaul/agent-eval#io.github.rudrendupaul-agent-eval",
       "type": "mcp",
       "name": "io.github.RudrenduPaul/agent-eval",
@@ -44103,12 +44497,12 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:uiverify/uiverify:io.github.igrlk/uiverify#ui-verify",
+      "id": "mcp:tuist/tuist:io.github.tuist/tuist#tuist",
       "type": "mcp",
-      "name": "UI Verify",
+      "name": "Tuist",
       "description": {
         "zh": null,
-        "en": "Visual testing for coding agents: your agent sees every UI change it makes and triages each diff.",
+        "en": "Build, test and cache insights for Xcode, Gradle and Bazel projects, for coding agents.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -44116,16 +44510,16 @@
       },
       "lang": "en",
       "categories": [
-        "design",
+        "coding",
         "testing"
       ],
       "targets": [
         "mcp-client"
       ],
       "source": {
-        "repo": "uiverify/uiverify",
-        "path": "io.github.igrlk/uiverify",
-        "url": "https://github.com/uiverify/uiverify",
+        "repo": "tuist/tuist",
+        "path": "io.github.tuist/tuist",
+        "url": "https://github.com/tuist/tuist",
         "tier": 0
       },
       "quality": {
@@ -45071,6 +45465,55 @@
         "repo": "ZenyaDAR/PlayGuard",
         "path": "io.github.ZenyaDAR/playguard",
         "url": "https://github.com/ZenyaDAR/PlayGuard",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:zeroclickz/agent-kit:com.zeroclickz/zeroclickz#zeroclickz",
+      "type": "mcp",
+      "name": "ZeroClickz",
+      "description": {
+        "zh": null,
+        "en": "Agents ask other agents for help: post requests, take work, rooms, signed receipts. Test USDC beta.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "zeroclickz/agent-kit",
+        "path": "com.zeroclickz/zeroclickz",
+        "url": "https://github.com/zeroclickz/agent-kit",
         "tier": 0
       },
       "quality": {

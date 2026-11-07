@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T23:38:19.587Z",
+  "generatedAt": "2026-11-07T22:28:54.681Z",
   "category": {
     "key": "devops",
     "zh": "运维部署",
@@ -97,7 +97,7 @@
       }
     ]
   },
-  "total": 861,
+  "total": 870,
   "entries": [
     {
       "id": "skill:composiohq/awesome-claude-skills:composio-skills/cloudflare-api-key-automation/skill.md#cloudflare-api-key-automation",
@@ -8069,6 +8069,55 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:fclairamb/solidping:io.github.fclairamb/solidping#solidping",
+      "type": "mcp",
+      "name": "SolidPing",
+      "description": {
+        "zh": null,
+        "en": "Self-hostable uptime monitoring: create checks, read incidents, manage status pages.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "fclairamb/solidping",
+        "path": "io.github.fclairamb/solidping",
+        "url": "https://github.com/fclairamb/solidping",
+        "tier": 0
+      },
+      "quality": {
+        "score": 32,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 2
+    },
+    {
       "id": "rules:nedcodes-ok/cursorrules-collection:rules-mdc/practices/monitoring.mdc#monitoring",
       "type": "rules",
       "name": "monitoring",
@@ -10191,55 +10240,6 @@
       "curatedMentions": 1
     },
     {
-      "id": "mcp:fclairamb/solidping:io.github.fclairamb/solidping#solidping",
-      "type": "mcp",
-      "name": "SolidPing",
-      "description": {
-        "zh": null,
-        "en": "Self-hostable uptime monitoring: create checks, read incidents, manage status pages.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "devops"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "fclairamb/solidping",
-        "path": "io.github.fclairamb/solidping",
-        "url": "https://github.com/fclairamb/solidping",
-        "tier": 0
-      },
-      "quality": {
-        "score": 24,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 1
-    },
-    {
       "id": "mcp:ganakailabs/cloudeval-cli:io.github.ganakailabs/cloudeval#cloudeval-ai",
       "type": "mcp",
       "name": "Cloudeval AI",
@@ -10262,56 +10262,6 @@
         "repo": "ganakailabs/cloudeval-cli",
         "path": "io.github.ganakailabs/cloudeval",
         "url": "https://github.com/ganakailabs/cloudeval-cli",
-        "tier": 0
-      },
-      "quality": {
-        "score": 24,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 1
-    },
-    {
-      "id": "mcp:getsentry/sentry-mcp:io.github.getsentry/sentry-mcp#io.github.getsentry-sentry-mcp",
-      "type": "mcp",
-      "name": "io.github.getsentry/sentry-mcp",
-      "description": {
-        "zh": null,
-        "en": "MCP server for Sentry - error monitoring, issue tracking, and debugging for AI assistants",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "devops",
-        "meta"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "getsentry/sentry-mcp",
-        "path": "io.github.getsentry/sentry-mcp",
-        "url": "https://github.com/getsentry/sentry-mcp",
         "tier": 0
       },
       "quality": {
@@ -17514,6 +17464,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:dobo123123/dobocache:io.github.dobo123123/dobocache#dobocache",
+      "type": "mcp",
+      "name": "DoboCache",
+      "description": {
+        "zh": null,
+        "en": "MCP server for LLM prompt-cache observability: prefix diagnostics and per-call white-box report.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "dobo123123/dobocache",
+        "path": "io.github.dobo123123/dobocache",
+        "url": "https://github.com/dobo123123/dobocache",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:dockhold/mcp:eu.dockhold/dockhold#dockhold",
       "type": "mcp",
       "name": "Dockhold",
@@ -19016,6 +19016,56 @@
         "repo": "getployz/ployz",
         "path": "dev.ployz/ployz",
         "url": "https://github.com/getployz/ployz",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:getsentry/toolkit:io.github.getsentry/sentry-mcp#sentry",
+      "type": "mcp",
+      "name": "Sentry",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Sentry - error monitoring, issue tracking, and debugging for AI assistants",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "getsentry/toolkit",
+        "path": "io.github.getsentry/sentry-mcp",
+        "url": "https://github.com/getsentry/toolkit",
         "tier": 0
       },
       "quality": {
@@ -20853,6 +20903,56 @@
         "repo": "jmshinhwa/readystack-themes",
         "path": "io.github.jmshinhwa/terraform-provider-pin-lint",
         "url": "https://github.com/jmshinhwa/readystack-themes",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:jrhite/owlabee:io.github.jrhite/web-monitoring#web-&-business-monitoring-(dmarc,-sitemaps,-shopify,-jobs)",
+      "type": "mcp",
+      "name": "Web & Business Monitoring (DMARC, sitemaps, Shopify, jobs)",
+      "description": {
+        "zh": null,
+        "en": "Monitor domain SPF/DMARC/WHOIS, website changes, Shopify prices, ATS jobs, Bluesky and podcasts.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration",
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "jrhite/owlabee",
+        "path": "io.github.jrhite/web-monitoring",
+        "url": "https://github.com/jrhite/owlabee",
         "tier": 0
       },
       "quality": {
@@ -25525,6 +25625,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:app.vercel.watchesinstock-mcp/watches-in-stock#watches-in-stock",
+      "type": "mcp",
+      "name": "Watches in Stock",
+      "description": {
+        "zh": null,
+        "en": "Live luxury watch listings from watchesinstock.com, with photos, prices and trade nicknames.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "app.vercel.watchesinstock-mcp/watches-in-stock",
+        "url": "https://watchesinstock-mcp.vercel.app",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:biz.nunchi/nunchi#눈치-(nunchi.biz)",
       "type": "mcp",
       "name": "눈치 (nunchi.biz)",
@@ -27421,55 +27570,6 @@
         "repo": null,
         "path": "com.getuptimely/uptimely",
         "url": "https://getuptimely.com",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:mcp-official:com.haechy/haechy#haechy",
-      "type": "mcp",
-      "name": "Haechy",
-      "description": {
-        "zh": null,
-        "en": "Deploy small apps you build with Claude, with a database, team sign-in and nightly backups.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "devops"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "com.haechy/haechy",
-        "url": "https://haechy.com",
         "tier": 0
       },
       "quality": {
@@ -30308,6 +30408,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:dev.springroll/springroll#springroll",
+      "type": "mcp",
+      "name": "SpringRoll",
+      "description": {
+        "zh": null,
+        "en": "Deploy apps built with Claude Code or Codex, get releases approved, share them in an App Portal.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "coding",
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "dev.springroll/springroll",
+        "url": "https://springroll.dev",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:dev.tanod/gpu-prices#gpu-rental-prices-(tanod)",
       "type": "mcp",
       "name": "GPU Rental Prices (Tanod)",
@@ -30823,6 +30974,56 @@
         "repo": null,
         "path": "eu.runlocal.wise-shrimp/gpu-prices",
         "url": "https://wise-shrimp.runlocal.eu/openapi.json",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:gs.sundo/sundogs#sundogs",
+      "type": "mcp",
+      "name": "Sundogs",
+      "description": {
+        "zh": null,
+        "en": "Mini apps your coding agent installs into your own Cloudflare site",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops",
+        "coding"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "gs.sundo/sundogs",
+        "url": "https://sundo.gs",
         "tier": 0
       },
       "quality": {
@@ -32382,6 +32583,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.miradero/ayoh#ayoh",
+      "type": "mcp",
+      "name": "Ayoh",
+      "description": {
+        "zh": null,
+        "en": "Chat, mail, boards, notes, calendar, contacts and digests in one AI app, free on your Cloudflare.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.miradero/ayoh",
+        "url": "https://ayoh.dev",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.ohad6k/viberaven#io.github.ohad6k-viberaven",
       "type": "mcp",
       "name": "io.github.ohad6k/viberaven",
@@ -33419,6 +33669,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.phare/phare#phare",
+      "type": "mcp",
+      "name": "Phare",
+      "description": {
+        "zh": null,
+        "en": "Manage the uptime monitoring, incidents and status pages of your Phare organization.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.phare/phare",
+        "url": "https://phare.io/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.pingrobot/pingrobot#pingrobot",
       "type": "mcp",
       "name": "PingRobot",
@@ -33935,6 +34234,55 @@
         "repo": null,
         "path": "online.scope/mcp",
         "url": "https://scope.online/agents",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:org.vesana/vesana#vesana",
+      "type": "mcp",
+      "name": "Vesana",
+      "description": {
+        "zh": null,
+        "en": "Self-hosted infrastructure monitoring. Ask about problems, set up hosts, every AI action audited.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "org.vesana/vesana",
+        "url": "https://vesana.org",
         "tier": 0
       },
       "quality": {
@@ -36762,6 +37110,56 @@
         "repo": "omnara-ai/omnara",
         "path": "com.omnara/omnara",
         "url": "https://github.com/omnara-ai/omnara",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:owlabee/owlabee:io.github.owlabee/web-monitoring#web-&-business-monitoring-(dmarc,-sitemaps,-shopify,-jobs)",
+      "type": "mcp",
+      "name": "Web & Business Monitoring (DMARC, sitemaps, Shopify, jobs)",
+      "description": {
+        "zh": null,
+        "en": "Monitor domain SPF/DMARC/WHOIS, website changes, Shopify prices, ATS jobs, Bluesky and podcasts.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration",
+        "devops"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "owlabee/owlabee",
+        "path": "io.github.owlabee/web-monitoring",
+        "url": "https://github.com/owlabee/owlabee",
         "tier": 0
       },
       "quality": {
@@ -40176,6 +40574,56 @@
         "repo": "stunt-double/stuntdouble-mcp",
         "path": "io.stuntdouble/mcp-server",
         "url": "https://github.com/stunt-double/stuntdouble-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:supero-platform/supero-mcp:io.github.supero-platform/supero#supero",
+      "type": "mcp",
+      "name": "Supero",
+      "description": {
+        "zh": null,
+        "en": "Build and deploy multi-tenant apps from ChatGPT, Claude or your editor. Sign in with OAuth or a key.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops",
+        "writing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "supero-platform/supero-mcp",
+        "path": "io.github.supero-platform/supero",
+        "url": "https://github.com/supero-platform/supero-mcp",
         "tier": 0
       },
       "quality": {
