@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-07T22:28:54.681Z",
+  "generatedAt": "2026-11-08T22:39:08.377Z",
   "engine": "text-baseline/v2",
-  "scanned": 50981,
-  "flagged": 143,
+  "scanned": 52385,
+  "flagged": 145,
   "byLevel": {
-    "clean": 50838,
-    "low": 106,
+    "clean": 52240,
+    "low": 107,
     "high": 2,
-    "medium": 35
+    "medium": 36
   },
   "note": "静态文本匹配基线,用于筛出需人工复核的条目,不构成终审判决",
   "entries": [
@@ -1562,6 +1562,32 @@
           "where": "script",
           "line": 5,
           "evidence": "http://127.0.0.1:11434')"
+        }
+      ]
+    },
+    {
+      "id": "skill:dontbesilent2025/dbskill:skills/dbs-sync-to-dondon/skill.md#dbs-sync-to-dondon",
+      "name": "dbs-sync-to-dondon",
+      "type": "skill",
+      "repo": "dontbesilent2025/dbskill",
+      "path": "skills/dbs-sync-to-dondon/SKILL.md",
+      "url": "https://github.com/dontbesilent2025/dbskill/blob/HEAD/skills/dbs-sync-to-dondon/SKILL.md",
+      "level": "medium",
+      "score": 15,
+      "counts": {
+        "medium": 1
+      },
+      "flags": [
+        {
+          "id": "raw-endpoint",
+          "severity": "medium",
+          "title": {
+            "zh": "裸 IP 或短链接端点",
+            "en": "Raw IP / shortener endpoint"
+          },
+          "where": "script",
+          "line": 605,
+          "evidence": "https://101.201.141.217:8443\""
         }
       ]
     },
@@ -4118,6 +4144,32 @@
           "where": "body",
           "line": 320,
           "evidence": "DROP TABLE"
+        }
+      ]
+    },
+    {
+      "id": "skill:davila7/claude-code-templates:cli-tool/components/skills/database/readonly-sql-guard/skill.md#readonly-sql-guard",
+      "name": "readonly-sql-guard",
+      "type": "skill",
+      "repo": "davila7/claude-code-templates",
+      "path": "cli-tool/components/skills/database/readonly-sql-guard/SKILL.md",
+      "url": "https://github.com/davila7/claude-code-templates/blob/HEAD/cli-tool/components/skills/database/readonly-sql-guard/SKILL.md",
+      "level": "low",
+      "score": 4,
+      "counts": {
+        "low": 1
+      },
+      "flags": [
+        {
+          "id": "sql-destructive",
+          "severity": "low",
+          "title": {
+            "zh": "SQL 破坏性语句",
+            "en": "Destructive SQL statement"
+          },
+          "where": "body",
+          "line": 17,
+          "evidence": "DROP SCHEMA"
         }
       ]
     },
