@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T01:52:18.281Z",
+  "generatedAt": "2026-11-10T23:54:16.992Z",
   "category": {
     "key": "integration",
     "zh": "三方集成",
@@ -85,7 +85,7 @@
       }
     ]
   },
-  "total": 650,
+  "total": 664,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/slack-gif-creator/skill.md#slack-gif-creator",
@@ -2909,7 +2909,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 36,
+        "score": 35,
         "gates": {
           "security": true,
           "schema": true,
@@ -2931,6 +2931,55 @@
       "familySize": 0,
       "stars": 1757,
       "curatedMentions": 0
+    },
+    {
+      "id": "mcp:orieg/gws-connector:io.github.orieg/gws-connector#io.github.orieg-gws-connector",
+      "type": "mcp",
+      "name": "io.github.orieg/gws-connector",
+      "description": {
+        "zh": null,
+        "en": "Multi-account Google Workspace MCP — Gmail, Calendar, Drive, Sheets, Docs with smart routing.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "orieg/gws-connector",
+        "path": "io.github.orieg/gws-connector",
+        "url": "https://github.com/orieg/gws-connector",
+        "tier": 0
+      },
+      "quality": {
+        "score": 32,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 2
     },
     {
       "id": "skill:joneqian/claude-skills-suite:skills/tdesign-miniprogram/skill.md#tdesign-miniprogram",
@@ -2963,7 +3012,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 33,
+        "score": 32,
         "gates": {
           "security": true,
           "schema": true,
@@ -3016,7 +3065,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 33,
+        "score": 32,
         "gates": {
           "security": true,
           "schema": true,
@@ -3038,55 +3087,6 @@
       "familySize": 0,
       "stars": 26,
       "curatedMentions": 0
-    },
-    {
-      "id": "mcp:orieg/gws-connector:io.github.orieg/gws-connector#io.github.orieg-gws-connector",
-      "type": "mcp",
-      "name": "io.github.orieg/gws-connector",
-      "description": {
-        "zh": null,
-        "en": "Multi-account Google Workspace MCP — Gmail, Calendar, Drive, Sheets, Docs with smart routing.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "integration"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "orieg/gws-connector",
-        "path": "io.github.orieg/gws-connector",
-        "url": "https://github.com/orieg/gws-connector",
-        "tier": 0
-      },
-      "quality": {
-        "score": 32,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 2
     },
     {
       "id": "rules:nedcodes-ok/cursorrules-collection:rules-mdc/tools/stripe.mdc#stripe",
@@ -6407,6 +6407,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:buildcord-dev/mcp:dev.buildcord/buildcord#buildcord",
+      "type": "mcp",
+      "name": "Buildcord",
+      "description": {
+        "zh": null,
+        "en": "Build and change Discord bots by describing them: slash commands, events, embeds, modals and data.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "buildcord-dev/mcp",
+        "path": "dev.buildcord/buildcord",
+        "url": "https://github.com/buildcord-dev/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:builderio/agent-native:io.github.builderio/agent-native-brain#agent-native-brain",
       "type": "mcp",
       "name": "Agent-Native Brain",
@@ -7148,6 +7197,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:cloudcorprecords/storedata:io.github.cloudcorprecords/storedata#io.github.cloudcorprecords-storedata",
+      "type": "mcp",
+      "name": "io.github.CloudCorpRecords/storedata",
+      "description": {
+        "zh": null,
+        "en": "Shopify storefront data as JSON: public store collections and products, with pagination.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "CloudCorpRecords/storedata",
+        "path": "io.github.CloudCorpRecords/storedata",
+        "url": "https://github.com/CloudCorpRecords/storedata",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:cloudcorprecords/storeport:io.github.cloudcorprecords/storeport#io.github.cloudcorprecords-storeport",
       "type": "mcp",
       "name": "io.github.CloudCorpRecords/storeport",
@@ -7817,6 +7915,55 @@
         "repo": "datoushiwo/wechat-writer-mcp",
         "path": "io.github.datoushiwo/wechat-writer-mcp",
         "url": "https://github.com/datoushiwo/wechat-writer-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:deanybob2020-oss/oskivo-mcp:com.oskivo/shopify#oskivo-for-shopify",
+      "type": "mcp",
+      "name": "Oskivo for Shopify",
+      "description": {
+        "zh": null,
+        "en": "Ask your AI about your Shopify shop: commissions, production, shipping, line sheets and materials.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "deanybob2020-oss/oskivo-mcp",
+        "path": "com.oskivo/shopify",
+        "url": "https://github.com/deanybob2020-oss/oskivo-mcp",
         "tier": 0
       },
       "quality": {
@@ -9157,6 +9304,55 @@
         "repo": "freema/mcp-jira-stdio",
         "path": "io.github.freema/mcp-jira-stdio",
         "url": "https://github.com/freema/mcp-jira-stdio",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:fudge-ai/fudge-plugin:ai.fudge/fudge#fudge-for-shopify",
+      "type": "mcp",
+      "name": "Fudge for Shopify",
+      "description": {
+        "zh": null,
+        "en": "Run your Shopify store with AI: drafts you approve, what to fix, and how your store is doing.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "fudge-ai/fudge-plugin",
+        "path": "ai.fudge/fudge",
+        "url": "https://github.com/fudge-ai/fudge-plugin",
         "tier": 0
       },
       "quality": {
@@ -11460,6 +11656,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:kay0k1/telegram-dev:io.github.kay0k1/telegram-dev#telegram-dev",
+      "type": "mcp",
+      "name": "Telegram Dev",
+      "description": {
+        "zh": null,
+        "en": "Current official Telegram and TON docs: Bot API, Mini Apps, MTProto, TDLib, TON Connect, Tolk",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Kay0k1/telegram-dev",
+        "path": "io.github.Kay0k1/telegram-dev",
+        "url": "https://github.com/Kay0k1/telegram-dev",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:keeploopapp/claude-plugin:app.keeploop/keeploop#keeploop",
       "type": "mcp",
       "name": "Keeploop",
@@ -11582,6 +11827,55 @@
         "repo": "kisasa/shopify-mcp",
         "path": "io.github.kisasa/shopify-mcp",
         "url": "https://github.com/kisasa/shopify-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:knchst/anymessage:io.github.knchst/anymessage#anymessage",
+      "type": "mcp",
+      "name": "AnyMessage",
+      "description": {
+        "zh": null,
+        "en": "Read-only WeChat chats and local attachments for AI on macOS. Requires SQLCipher and setup.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "knchst/AnyMessage",
+        "path": "io.github.knchst/anymessage",
+        "url": "https://github.com/knchst/AnyMessage",
         "tier": 0
       },
       "quality": {
@@ -13415,6 +13709,55 @@
         "repo": null,
         "path": "ai.kyras/kyras",
         "url": "https://kyras.ai/fonctionnalites/serveur-mcp/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.loice/telegram#agent-outbox-for-telegram",
+      "type": "mcp",
+      "name": "Agent Outbox for Telegram",
+      "description": {
+        "zh": null,
+        "en": "Post messages from any AI assistant to your Telegram chats, groups and channels (invite-only).",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.loice/telegram",
+        "url": "https://registry.modelcontextprotocol.io/?q=ai.loice%2Ftelegram",
         "tier": 0
       },
       "quality": {
@@ -16220,7 +16563,7 @@
       "name": "Chargezen Subscriptions",
       "description": {
         "zh": null,
-        "en": "Shopify subscriptions: subscribe-and-save, prepaid and build-a-box, plus rewards and invoices.",
+        "en": "Shopify subscriptions: pause, skip, swap, order now and start new ones, plus rewards and invoices.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -17648,6 +17991,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.juncts/inbox#juncts",
+      "type": "mcp",
+      "name": "Juncts",
+      "description": {
+        "zh": null,
+        "en": "Read, draft and organize LinkedIn, X, Instagram, WhatsApp and Telegram DMs in one inbox.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.juncts/inbox",
+        "url": "https://juncts.com/docs/mcp-cloud-connectors",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.ki-alternativen/kialternativen#ki-alternativen",
       "type": "mcp",
       "name": "KI Alternativen",
@@ -18309,55 +18701,6 @@
         "repo": null,
         "path": "com.onrender.surfaced-srzj/surfaced",
         "url": "https://surfaced-srzj.onrender.com/developers",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:mcp-official:com.oskivo/shopify#oskivo-for-shopify",
-      "type": "mcp",
-      "name": "Oskivo for Shopify",
-      "description": {
-        "zh": null,
-        "en": "Ask your AI about your Shopify shop: commissions, production, shipping, line sheets, materials.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "integration"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "com.oskivo/shopify",
-        "url": "https://oskivo.com/ai/",
         "tier": 0
       },
       "quality": {
@@ -20570,7 +20913,7 @@
       "name": "Discord MCP Server and API by Cotlet",
       "description": {
         "zh": null,
-        "en": "Discord MCP server: list servers and channels, read channel messages, search messages, send message.",
+        "en": "Discord community chat platform MCP server: list servers and channels, read channel messages.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -20637,6 +20980,55 @@
         "repo": null,
         "path": "dev.pages.scrapemole/social",
         "url": "https://scrapemole.pages.dev",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:dev.pages.wagner-data-services/shopify-catalog-import#wagner-data-supplier-catalogs-to-shopify",
+      "type": "mcp",
+      "name": "Wagner Data: supplier catalogs to Shopify",
+      "description": {
+        "zh": null,
+        "en": "Free Shopify product CSV checker + done-for-you supplier price list (PDF/Excel) to Shopify CSV.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "dev.pages.wagner-data-services/shopify-catalog-import",
+        "url": "https://wagner-data-services.pages.dev/agents",
         "tier": 0
       },
       "quality": {
@@ -20834,6 +21226,55 @@
         "repo": null,
         "path": "dev.sparkpay/sparkpay",
         "url": "https://sparkpay.dev",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:dev.workers.cybermax-tools.cybermax/shopify-scraper#cartlark-shopify-&-woocommerce-scraper",
+      "type": "mcp",
+      "name": "Cartlark: Shopify & WooCommerce Scraper",
+      "description": {
+        "zh": null,
+        "en": "Cartlark: products, prices, sale prices and stock from Shopify or WooCommerce stores, with alerts.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "dev.workers.cybermax-tools.cybermax/shopify-scraper",
+        "url": "https://cybermaxtools.com/store/cartlark-shopify-scraper/",
         "tier": 0
       },
       "quality": {
@@ -21129,6 +21570,55 @@
         "repo": null,
         "path": "in.nityaflow/nityaflow",
         "url": "https://app.nityaflow.in/ai.html",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:in.pratikpoddar.forms/formlume#formlume-for-google-forms",
+      "type": "mcp",
+      "name": "Formlume for Google Forms",
+      "description": {
+        "zh": null,
+        "en": "Google Forms MCP: create forms and graded quizzes in your Google Drive, then summarize responses.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "in.pratikpoddar.forms/formlume",
+        "url": "https://forms.pratikpoddar.in",
         "tier": 0
       },
       "quality": {
@@ -21749,6 +22239,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.ceadigital/shopify-store-leads-products-scraper#shopify-store-leads-&-products-scraper-—-prices,-apps-&-emai",
+      "type": "mcp",
+      "name": "Shopify Store Leads & Products Scraper — Prices, Apps & Emails",
+      "description": {
+        "zh": null,
+        "en": "Extract Shopify store leads, /products.json price bands, Klaviyo/Gorgias apps, pixels & emails.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.ceadigital/shopify-store-leads-products-scraper",
+        "url": "https://ceadigital.io/tools",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.contentforge-press/shopify-intel#shopify-change-intelligence",
       "type": "mcp",
       "name": "Shopify Change Intelligence",
@@ -22165,6 +22704,56 @@
         "repo": null,
         "path": "io.github.kevegonz-dev/momus-marketplace",
         "url": "https://market.momusdigital.com/agents",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.kizukidata/news-monitoring#kizuki-news-monitoring",
+      "type": "mcp",
+      "name": "Kizuki News Monitoring",
+      "description": {
+        "zh": null,
+        "en": "Google News by keyword plus YouTube and Telegram channels: titles, metrics, links. No full text.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops",
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.kizukidata/news-monitoring",
+        "url": "https://apify.com/kizukidata",
         "tier": 0
       },
       "quality": {
@@ -23529,9 +24118,9 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:io.roxinbox/agent-outbox#agent-outbox",
+      "id": "mcp:mcp-official:io.roxinbox/agent-outbox#agent-outbox-for-telegram",
       "type": "mcp",
-      "name": "Agent Outbox",
+      "name": "Agent Outbox for Telegram",
       "description": {
         "zh": null,
         "en": "Let AI assistants post to your Telegram chats, groups and channels. Not affiliated with Telegram.",
@@ -24048,6 +24637,55 @@
         "repo": null,
         "path": "net.agent-control/agent-control",
         "url": "https://agent-control.net/gate",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:net.bot-hosting/mcp#bot-hosting.net",
+      "type": "mcp",
+      "name": "Bot-Hosting.net",
+      "description": {
+        "zh": null,
+        "en": "Deploy and manage Discord bots, Telegram bots, websites, APIs and databases on Bot-Hosting.net",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "net.bot-hosting/mcp",
+        "url": "https://bot-hosting.net/mcp",
         "tier": 0
       },
       "quality": {
@@ -26552,7 +27190,7 @@
       "name": "Web & Business Monitoring (DMARC, sitemaps, Shopify, jobs)",
       "description": {
         "zh": null,
-        "en": "Monitor domain SPF/DMARC/WHOIS, website changes, Shopify prices, ATS jobs, Bluesky and podcasts.",
+        "en": "Monitor DMARC/WHOIS, site changes, Shopify and WooCommerce prices, ATS jobs, Bluesky, podcasts.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -31730,6 +32368,55 @@
         "repo": "wsender-io/api",
         "path": "io.wsender/wsender",
         "url": "https://github.com/wsender-io/api",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:wulfcare/scrapers:io.github.wulfcare/shopify-app-reviews#shopify-app-store-reviews",
+      "type": "mcp",
+      "name": "Shopify App Store Reviews",
+      "description": {
+        "zh": null,
+        "en": "Every review of any Shopify App Store app: stars, text, date, merchant store, replies.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "wulfcare/scrapers",
+        "path": "io.github.wulfcare/shopify-app-reviews",
+        "url": "https://github.com/wulfcare/scrapers",
         "tier": 0
       },
       "quality": {

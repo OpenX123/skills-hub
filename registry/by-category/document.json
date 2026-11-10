@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T01:52:18.281Z",
+  "generatedAt": "2026-11-10T23:54:16.992Z",
   "category": {
     "key": "document",
     "zh": "文档处理",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 1604,
+  "total": 1624,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/docx/skill.md#docx",
@@ -4627,7 +4627,7 @@
       "type": "skill",
       "name": "dbs-speak-human",
       "description": {
-        "zh": "说人话：把要发给真人看的中文，例如微信消息、群聊开场、顾客回复、私信和 Agent 回给用户的话，写成或改成像本人随口说的样子，去掉书面腔、客服腔和 AI 味，保留原意、事实和用户锁定的文字；调用后，本次对话里 Agent 的回复也按这套标准写。用户说「说人话」「太 AI 了」「改得口语一点」「帮我写条微信」时使用；不用于产品说明文和公众号长文，也不出 AI 痕迹检测报告。",
+        "zh": "说人话：把要发给真人看的中文，例如微信消息、群聊开场、顾客回复、私信和 Agent 回给用户的话，写成或改成像真人随口说的口语，用户提供本人写过的话时参照其口吻，去掉书面腔、客服腔和 AI 味，保留原意、事实和用户锁定的文字；调用后，本次对话里 Agent 的回复也按这套标准写。用户说「说人话」「太 AI 了」「改得口语一点」「帮我写条微信」时使用；不用于产品说明文和公众号长文，也不出 AI 痕迹检测报告。",
         "en": null,
         "zhEngine": null,
         "needsTranslation": [
@@ -4997,7 +4997,7 @@
       "type": "plugin",
       "name": "dbs-speak-human",
       "description": {
-        "zh": "说人话：把要发给真人看的中文，例如微信消息、群聊开场、顾客回复、私信和 Agent 回给用户的话，写成或改成像本人随口说的样子，去掉书面腔、客服腔和 AI 味，保留原意、事实和用户锁定的文字。用户说「说人话」「太 AI 了」「改得口语一点」「帮我写条微信」时使用；不用于产品说明文和公众号长文，也不出 AI 痕迹检测报告。",
+        "zh": "说人话：把要发给真人看的中文，例如微信消息、群聊开场、顾客回复、私信和 Agent 回给用户的话，写成或改成像真人随口说的口语，用户提供本人写过的话时参照其口吻，去掉书面腔、客服腔和 AI 味，保留原意、事实和用户锁定的文字；调用后，本次对话里 Agent 的回复也按这套标准写。用户说「说人话」「太 AI 了」「改得口语一点」「帮我写条微信」时使用；不用于产品说明文和公众号长文，也不出 AI 痕迹检测报告。",
         "en": null,
         "zhEngine": null,
         "needsTranslation": [
@@ -6296,7 +6296,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 39,
+        "score": 38,
         "gates": {
           "security": true,
           "schema": true,
@@ -6349,7 +6349,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 39,
+        "score": 38,
         "gates": {
           "security": true,
           "schema": true,
@@ -6402,7 +6402,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 39,
+        "score": 38,
         "gates": {
           "security": true,
           "schema": true,
@@ -6456,7 +6456,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 39,
+        "score": 38,
         "gates": {
           "security": true,
           "schema": true,
@@ -6509,7 +6509,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 39,
+        "score": 38,
         "gates": {
           "security": true,
           "schema": true,
@@ -6559,7 +6559,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 36,
+        "score": 35,
         "gates": {
           "security": true,
           "schema": true,
@@ -6580,59 +6580,6 @@
       "templateFamily": null,
       "familySize": 0,
       "stars": 1757,
-      "curatedMentions": 0
-    },
-    {
-      "id": "skill:joneqian/claude-skills-suite:skills/process-faq/skill.md#process-faq",
-      "type": "skill",
-      "name": "process-faq",
-      "description": {
-        "zh": null,
-        "en": "Process and transform FAQ documents (xlsx, word, pdf, txt) into RAG-optimized format. Use when working with FAQ files, knowledge base documents, or when the user needs to analyze and restructure FAQ content for RAG systems.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "document"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "joneqian/claude-skills-suite",
-        "path": "skills/process-faq/SKILL.md",
-        "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/skills/process-faq/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 33,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 26,
       "curatedMentions": 0
     },
     {
@@ -6781,6 +6728,59 @@
       "familySize": 0,
       "stars": null,
       "curatedMentions": 2
+    },
+    {
+      "id": "skill:joneqian/claude-skills-suite:skills/process-faq/skill.md#process-faq",
+      "type": "skill",
+      "name": "process-faq",
+      "description": {
+        "zh": null,
+        "en": "Process and transform FAQ documents (xlsx, word, pdf, txt) into RAG-optimized format. Use when working with FAQ files, knowledge base documents, or when the user needs to analyze and restructure FAQ content for RAG systems.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "joneqian/claude-skills-suite",
+        "path": "skills/process-faq/SKILL.md",
+        "url": "https://github.com/joneqian/claude-skills-suite/blob/HEAD/skills/process-faq/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 32,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 26,
+      "curatedMentions": 0
     },
     {
       "id": "skill:beshkenadze/claude-skills-marketplace:skills/creative/markdown-formatter/skill.md#markdown-formatter",
@@ -12259,6 +12259,57 @@
         "repo": "AeroSpark-ai/hidden-content-service",
         "path": "ai.hiddencontent/mcp",
         "url": "https://github.com/AeroSpark-ai/hidden-content-service",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:agentdrive-sh/agentdrive-mcp:sh.agentdrive/agentdrive#agentdrive",
+      "type": "mcp",
+      "name": "AgentDrive",
+      "description": {
+        "zh": null,
+        "en": "Capture coding-agent sessions and resume them in any other agent: Claude Code, Codex, Cursor, more.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "meta",
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "agentdrive-sh/agentdrive-mcp",
+        "path": "sh.agentdrive/agentdrive",
+        "url": "https://github.com/agentdrive-sh/agentdrive-mcp",
         "tier": 0
       },
       "quality": {
@@ -17826,6 +17877,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:cloudcorprecords/chatdata:io.github.cloudcorprecords/chatdata#io.github.cloudcorprecords-chatdata",
+      "type": "mcp",
+      "name": "io.github.CloudCorpRecords/chatdata",
+      "description": {
+        "zh": null,
+        "en": "Ask ChatGPT anonymously: answers as markdown with the web sources it consulted.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "CloudCorpRecords/chatdata",
+        "path": "io.github.CloudCorpRecords/chatdata",
+        "url": "https://github.com/CloudCorpRecords/chatdata",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:cloudcorprecords/docmark:io.github.cloudcorprecords/docmark#io.github.cloudcorprecords-docmark",
       "type": "mcp",
       "name": "io.github.CloudCorpRecords/docmark",
@@ -17995,6 +18095,57 @@
         "repo": "CloudCorpRecords/formfill",
         "path": "io.github.CloudCorpRecords/formfill",
         "url": "https://github.com/CloudCorpRecords/formfill",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:cloudcorprecords/imgpage:io.github.cloudcorprecords/imgpage#io.github.cloudcorprecords-imgpage",
+      "type": "mcp",
+      "name": "io.github.CloudCorpRecords/imgpage",
+      "description": {
+        "zh": null,
+        "en": "Render HTML and CSS to a PNG image or PDF, or screenshot a live web page by URL.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "design",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "CloudCorpRecords/imgpage",
+        "path": "io.github.CloudCorpRecords/imgpage",
+        "url": "https://github.com/CloudCorpRecords/imgpage",
         "tier": 0
       },
       "quality": {
@@ -20826,6 +20977,55 @@
         "repo": "diyaluo/pdf-extract-mcp",
         "path": "io.github.diyaluo/pdf-extract-mcp",
         "url": "https://github.com/diyaluo/pdf-extract-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:dmitry-kov/ooxml-integrity:io.github.dmitry-kov/ooxml-integrity#ooxml-integrity",
+      "type": "mcp",
+      "name": "ooxml-integrity",
+      "description": {
+        "zh": null,
+        "en": "Checks .docx and .pptx files after automated editing for lost comments, tracked changes and notes.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Dmitry-Kov/ooxml-integrity",
+        "path": "io.github.Dmitry-Kov/ooxml-integrity",
+        "url": "https://github.com/Dmitry-Kov/ooxml-integrity",
         "tier": 0
       },
       "quality": {
@@ -30245,6 +30445,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:leogaudin/opencaptions:io.github.leogaudin/opencaptions#opencaptions",
+      "type": "mcp",
+      "name": "OpenCaptions",
+      "description": {
+        "zh": null,
+        "en": "Animated word-by-word captions for your videos, made on your own OpenCaptions server",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "leogaudin/opencaptions",
+        "path": "io.github.leogaudin/opencaptions",
+        "url": "https://github.com/leogaudin/opencaptions",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:lickfeng88888/transpic.ai:ai.transpic/transpic#transpic-image-translator",
       "type": "mcp",
       "name": "Transpic Image Translator",
@@ -31353,6 +31602,55 @@
         "repo": "majrdotapp/majr-services",
         "path": "io.github.majrdotapp/dispatch",
         "url": "https://github.com/majrdotapp/majr-services",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mambalabsdev/mcp-business-pdf-field-extractor:com.mambabuilt/mcp-business-pdf-field-extractor#com.mambabuilt-mcp-business-pdf-field-extractor",
+      "type": "mcp",
+      "name": "com.mambabuilt/mcp-business-pdf-field-extractor",
+      "description": {
+        "zh": null,
+        "en": "Fixed fields and line items from invoice, purchase order, and contract PDFs, with OCR, no AI",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "mambalabsdev/mcp-business-pdf-field-extractor",
+        "path": "com.mambabuilt/mcp-business-pdf-field-extractor",
+        "url": "https://github.com/mambalabsdev/mcp-business-pdf-field-extractor",
         "tier": 0
       },
       "quality": {
@@ -32758,6 +33056,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:ai.datasnack/datasnack#datasnack",
+      "type": "mcp",
+      "name": "DataSnack",
+      "description": {
+        "zh": null,
+        "en": "Seven-day forecasts of real-world numbers, linked and graded daily; sign-in adds Excel exports.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.datasnack/datasnack",
+        "url": "https://datasnack.ai/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:ai.filedone/filedone#filedone",
       "type": "mcp",
       "name": "filedone",
@@ -32880,6 +33227,55 @@
         "repo": null,
         "path": "ai.fonzi/talent",
         "url": "https://talent.fonzi.ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ai.kwekuanansi/akan-proverbs#akan-proverbs",
+      "type": "mcp",
+      "name": "Akan Proverbs",
+      "description": {
+        "zh": null,
+        "en": "Akan proverbs in Twi and English, by topic, by word, or one for the day.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.kwekuanansi/akan-proverbs",
+        "url": "https://kwekuanansi.ai/plugins",
         "tier": 0
       },
       "quality": {
@@ -37944,6 +38340,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.convertapi/mcp#convertapi",
+      "type": "mcp",
+      "name": "ConvertAPI",
+      "description": {
+        "zh": null,
+        "en": "Convert files between 200+ formats and merge, compress, OCR, watermark or redact PDFs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.convertapi/mcp",
+        "url": "https://www.convertapi.com/integrations/mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.crawio/mcp#crawio",
       "type": "mcp",
       "name": "Crawio",
@@ -37966,6 +38411,55 @@
         "repo": null,
         "path": "com.crawio/mcp",
         "url": "https://crawio.com/docs/#mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.ctriolab/pdf-text-extractor#pdf-text-extractor-(ctrio-lab)",
+      "type": "mcp",
+      "name": "PDF Text Extractor (Ctrio Lab)",
+      "description": {
+        "zh": null,
+        "en": "Extract text, Markdown and metadata from PDF URLs or uploads via Apify, per document or per page.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.ctriolab/pdf-text-extractor",
+        "url": "https://apify.com/ctriolab/pdf-text-extractor",
         "tier": 0
       },
       "quality": {
@@ -39224,6 +39718,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.gotsimplified/markdown-to-html#markdown-to-html-got-simplified",
+      "type": "mcp",
+      "name": "Markdown to HTML Got Simplified",
+      "description": {
+        "zh": null,
+        "en": "Convert Markdown to safe HTML.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.gotsimplified/markdown-to-html",
+        "url": "https://gotsimplified.com/apps/markdown-to-html",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.gptshopltd/web-files#web-files-to-text",
       "type": "mcp",
       "name": "Web Files to Text",
@@ -39694,6 +40237,55 @@
         "repo": null,
         "path": "com.johnsessentials/johns-essentials",
         "url": "https://johnsessentials.com/docs/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.kizupi/kizupi#kizupi",
+      "type": "mcp",
+      "name": "Kizupi",
+      "description": {
+        "zh": null,
+        "en": "The math tutor that asks why, for grades 1 to 6, with free printable word-problem worksheets.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.kizupi/kizupi",
+        "url": "https://kizupi.com",
         "tier": 0
       },
       "quality": {
@@ -41937,6 +42529,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.pdfstork/pdf#pdfstork-—-pdf-generation",
+      "type": "mcp",
+      "name": "pdfstork — PDF generation",
+      "description": {
+        "zh": null,
+        "en": "Generate invoices, quotes and certificates as PDFs from your pdfstork templates.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.pdfstork/pdf",
+        "url": "https://pdfstork.com/docs/guides/mcp?utm_source=mcpregistry&utm_medium=listing&utm_campaign=launch-2026-11",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.phantasyx/kempt-horizon-data-toolkit#kempt-horizon-data-toolkit",
       "type": "mcp",
       "name": "Kempt Horizon Data Toolkit",
@@ -42599,6 +43240,56 @@
         "repo": null,
         "path": "com.rendlet/pdf",
         "url": "https://rendlet.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.resumonk/resumonk#resumonk",
+      "type": "mcp",
+      "name": "Resumonk",
+      "description": {
+        "zh": null,
+        "en": "Build, improve and share your resume, and run your job search, from your AI assistant.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.resumonk/resumonk",
+        "url": "https://www.resumonk.com/mcp",
         "tier": 0
       },
       "quality": {
@@ -46526,55 +47217,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:dev.mobilebox/mobilebox#mobilebox",
-      "type": "mcp",
-      "name": "Mobilebox",
-      "description": {
-        "zh": null,
-        "en": "Cloud Android phones for AI agents: read the screen, tap, type, install APKs, park and resume.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "document"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "dev.mobilebox/mobilebox",
-        "url": "https://mobilebox.dev",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:mcp-official:dev.oakstack/oakstack#oakstack",
       "type": "mcp",
       "name": "Oakstack",
@@ -47783,6 +48425,55 @@
         "repo": null,
         "path": "dev.workers.cybermax-tools.cybermax/article-extract",
         "url": "https://cybermaxtools.com/store/inkpluck-article-extract/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:dev.workers.cybermax-tools.cybermax/website-to-markdown#docsieve-website-to-markdown-for-rag",
+      "type": "mcp",
+      "name": "Docsieve: Website to Markdown for RAG",
+      "description": {
+        "zh": null,
+        "en": "Docsieve: crawl a website into clean Markdown, RAG chunks and llms.txt; re-runs only changed pages.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "dev.workers.cybermax-tools.cybermax/website-to-markdown",
+        "url": "https://cybermaxtools.com/store/docsieve-website-to-markdown/",
         "tier": 0
       },
       "quality": {
@@ -49157,6 +49848,55 @@
         "repo": null,
         "path": "dev.workers.toolschemaforge.agent-read/agent-read",
         "url": "https://agent-read.toolschemaforge.workers.dev/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:dev.workers.w0arvg81zlgf.x402-exp/agent-utilities#x402-agent-utilities",
+      "type": "mcp",
+      "name": "x402 Agent Utilities",
+      "description": {
+        "zh": null,
+        "en": "Pay-per-call x402 tools (USDC on Base): token facts, web-to-Markdown, x402 precheck.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "dev.workers.w0arvg81zlgf.x402-exp/agent-utilities",
+        "url": "https://x402-exp.w0arvg81zlgf.workers.dev/",
         "tier": 0
       },
       "quality": {
@@ -50685,6 +51425,56 @@
         "repo": null,
         "path": "io.github.BUPTLdy/scidraw-ai",
         "url": "https://sci-draw.com/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.ceadigital/instagram-tiktok-youtube-transcript-scraper#instagram,-tiktok-&-youtube-transcript-scraper-—-hooks-&-ocr",
+      "type": "mcp",
+      "name": "Instagram, TikTok & YouTube Transcript Scraper — Hooks & OCR",
+      "description": {
+        "zh": null,
+        "en": "Extract time-coded spoken transcripts, 0-3s viral hooks, visual OCR captions & UGC clone briefs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.ceadigital/instagram-tiktok-youtube-transcript-scraper",
+        "url": "https://ceadigital.io/tools",
         "tier": 0
       },
       "quality": {
@@ -52286,6 +53076,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.karansharma1732/agentsafe#agentsafe",
+      "type": "mcp",
+      "name": "AgentSafe",
+      "description": {
+        "zh": null,
+        "en": "Scan a URL before your agent reads it: hidden prompt injection, phishing, clean markdown.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.karansharma1732/agentsafe",
+        "url": "https://agentsafe.dev",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.khalid-hasan/portfolio#khalid-ibne-hasan-·-portfolio",
       "type": "mcp",
       "name": "Khalid Ibne Hasan · Portfolio",
@@ -52309,6 +53149,55 @@
         "repo": null,
         "path": "io.github.khalid-hasan/portfolio",
         "url": "https://www.khalidibnehasan.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.kizukidata/rag-ingest#kizuki-rag-ingest",
+      "type": "mcp",
+      "name": "Kizuki RAG Ingest",
+      "description": {
+        "zh": null,
+        "en": "YouTube captions (chunks, timestamps), PDFs (page numbers) and web pages as clean Markdown.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.kizukidata/rag-ingest",
+        "url": "https://apify.com/kizukidata",
         "tier": 0
       },
       "quality": {
@@ -54181,6 +55070,55 @@
         "repo": null,
         "path": "io.github.smeltworks-labs/peek",
         "url": "https://smeltworks.com/peek",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.sparkel-io/sparkel#sparkel",
+      "type": "mcp",
+      "name": "Sparkel",
+      "description": {
+        "zh": null,
+        "en": "Quantity takeoff from PDF drawings and BIM/IFC: room areas, symbol counts, roof zones.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.Sparkel-io/sparkel",
+        "url": "https://www.sparkel.ai/mcp?utm_source=mcp-registry&utm_medium=directory&utm_campaign=agent-discovery",
         "tier": 0
       },
       "quality": {
@@ -63240,6 +64178,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:noju-io/docmint-mcp:io.github.noju-io/docmint#docmint",
+      "type": "mcp",
+      "name": "Docmint",
+      "description": {
+        "zh": null,
+        "en": "PDF and image tools for AI agents: compress, merge, split, OCR, sign. Runs locally, never uploads.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "media"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Noju-io/docmint-mcp",
+        "path": "io.github.Noju-io/docmint",
+        "url": "https://github.com/Noju-io/docmint-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:nshipster/sosumi.ai:ai.sosumi/sosumi#sosumi",
       "type": "mcp",
       "name": "Sosumi",
@@ -63393,7 +64381,7 @@
       "name": "Agent Data Tools",
       "description": {
         "zh": null,
-        "en": "655 agent tools: chain data, prices, sanctions, web, PDF. 25 free calls, then from $0.002.",
+        "en": "682 agent tools: chain data, prices, sanctions, web, PDF. 25 free calls, then from $0.002.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -64053,6 +65041,56 @@
         "repo": "Omniwot/section-anything",
         "path": "io.github.Omniwot/section-anything",
         "url": "https://github.com/Omniwot/section-anything",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:onemira-space/onemira-mcp:io.github.onemira-space/onemira-mcp#onemira-c1-local-ai-voice-recorder-&-wiki",
+      "type": "mcp",
+      "name": "OneMira C1 Local AI Voice Recorder & Wiki",
+      "description": {
+        "zh": null,
+        "en": "Local AI voice recorder & OKF Markdown Living Wiki MCP server ($0/mo, 99-lang speaker ID).",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "onemira-space/onemira-mcp",
+        "path": "io.github.onemira-space/onemira-mcp",
+        "url": "https://github.com/onemira-space/onemira-mcp",
         "tier": 0
       },
       "quality": {
@@ -64849,6 +65887,55 @@
         "repo": "pdfrender-dev/pdfrender",
         "path": "dev.pdfrender/pdfrender",
         "url": "https://github.com/pdfrender-dev/pdfrender",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:pdfvera/pdfvera-mcp:com.pdfvera/pdfvera#pdfvera",
+      "type": "mcp",
+      "name": "pdfvera",
+      "description": {
+        "zh": null,
+        "en": "PDF invoices to XRechnung/ZUGFeRD; Brazilian bank statement PDFs to OFX, CSV and Excel.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "pdfvera/pdfvera-mcp",
+        "path": "com.pdfvera/pdfvera",
+        "url": "https://github.com/pdfvera/pdfvera-mcp",
         "tier": 0
       },
       "quality": {
@@ -66997,57 +68084,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:rahulk644/appflowy-mcp-server:io.github.rahulk644/appflowy-mcp-server#appflowy-workspace-mcp",
-      "type": "mcp",
-      "name": "AppFlowy Workspace MCP",
-      "description": {
-        "zh": null,
-        "en": "Edit AppFlowy documents and typed rows, search workspaces, and import/export Markdown.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "document",
-        "research",
-        "meta"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "Rahulk644/Appflowy-MCP-Server",
-        "path": "io.github.Rahulk644/appflowy-mcp-server",
-        "url": "https://github.com/Rahulk644/Appflowy-MCP-Server",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:random00000000/makevideo:io.github.random00000000/makevideo#makevideo",
       "type": "mcp",
       "name": "makevideo",
@@ -67794,7 +68830,7 @@
       "name": "Tisty",
       "description": {
         "zh": null,
-        "en": "Agents plan in Markdown and work in tasks with steps, where you can follow and audit every stage.",
+        "en": "Local tasks, todo lists and notes as Markdown on your disk, where agents track work you can audit.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -78220,56 +79256,6 @@
         "repo": "writulos/writulos-mcp",
         "path": "com.writulos/scribe",
         "url": "https://github.com/writulos/writulos-mcp",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:wrpbr/editalmd:com.editalmd/editalmd#com.editalmd-editalmd",
-      "type": "mcp",
-      "name": "com.editalmd/editalmd",
-      "description": {
-        "zh": null,
-        "en": "Brazilian public procurement (PNCP): search, deadlines, tender markdown, alerts and watches.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "document",
-        "research"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "wrpbr/editalmd",
-        "path": "com.editalmd/editalmd",
-        "url": "https://github.com/wrpbr/editalmd",
         "tier": 0
       },
       "quality": {
