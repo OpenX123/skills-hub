@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:39:08.377Z",
+  "generatedAt": "2026-11-10T01:52:18.281Z",
   "category": {
     "key": "document",
     "zh": "文档处理",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "total": 1588,
+  "total": 1604,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/docx/skill.md#docx",
@@ -510,6 +510,55 @@
       "curatedMentions": 5
     },
     {
+      "id": "plugin:anthropics/skills:.claude-plugin/marketplace.json#document-skills",
+      "type": "plugin",
+      "name": "document-skills",
+      "description": {
+        "zh": null,
+        "en": "Collection of document processing suite including Excel, Word, PowerPoint, and PDF capabilities",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "anthropics/skills",
+        "path": ".claude-plugin/marketplace.json",
+        "url": "https://github.com/anthropics/skills/blob/HEAD/.claude-plugin/marketplace.json",
+        "tier": 0
+      },
+      "quality": {
+        "score": 91,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 188162,
+      "curatedMentions": 8
+    },
+    {
       "id": "skill:composiohq/awesome-claude-skills:composio-skills/excel-automation/skill.md#excel-automation",
       "type": "skill",
       "name": "Excel Automation",
@@ -539,7 +588,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 92,
+        "score": 91,
         "gates": {
           "security": true,
           "schema": true,
@@ -594,7 +643,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 92,
+        "score": 91,
         "gates": {
           "security": true,
           "schema": true,
@@ -648,7 +697,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 92,
+        "score": 91,
         "gates": {
           "security": true,
           "schema": true,
@@ -701,7 +750,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 92,
+        "score": 91,
         "gates": {
           "security": true,
           "schema": true,
@@ -755,7 +804,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 92,
+        "score": 91,
         "gates": {
           "security": true,
           "schema": true,
@@ -777,55 +826,6 @@
       "familySize": 0,
       "stars": 70870,
       "curatedMentions": 5
-    },
-    {
-      "id": "plugin:anthropics/skills:.claude-plugin/marketplace.json#document-skills",
-      "type": "plugin",
-      "name": "document-skills",
-      "description": {
-        "zh": null,
-        "en": "Collection of document processing suite including Excel, Word, PowerPoint, and PDF capabilities",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "document"
-      ],
-      "targets": [
-        "claude-code"
-      ],
-      "source": {
-        "repo": "anthropics/skills",
-        "path": ".claude-plugin/marketplace.json",
-        "url": "https://github.com/anthropics/skills/blob/HEAD/.claude-plugin/marketplace.json",
-        "tier": 0
-      },
-      "quality": {
-        "score": 91,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 188162,
-      "curatedMentions": 8
     },
     {
       "id": "plugin:composiohq/awesome-claude-skills:composio-skills/.claude-plugin/marketplace.json#document-skills-docx",
@@ -1103,7 +1103,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 80,
+        "score": 79,
         "gates": {
           "security": true,
           "schema": true,
@@ -1156,7 +1156,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 80,
+        "score": 79,
         "gates": {
           "security": true,
           "schema": true,
@@ -1209,7 +1209,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 80,
+        "score": 79,
         "gates": {
           "security": true,
           "schema": true,
@@ -1284,7 +1284,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -1338,7 +1338,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -1392,7 +1392,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -1447,7 +1447,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -1500,7 +1500,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -1553,7 +1553,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -1608,7 +1608,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -1661,7 +1661,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -1714,7 +1714,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -1767,7 +1767,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -1820,7 +1820,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -1873,7 +1873,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -1926,7 +1926,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -1979,7 +1979,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -2033,7 +2033,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -2087,7 +2087,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -2142,7 +2142,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -2195,7 +2195,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -2248,7 +2248,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -2303,7 +2303,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -2357,7 +2357,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -2410,7 +2410,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -2463,7 +2463,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -2516,7 +2516,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -2570,7 +2570,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -2625,7 +2625,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -2680,7 +2680,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -2735,7 +2735,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -2789,7 +2789,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -2844,7 +2844,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -2899,7 +2899,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -2954,7 +2954,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -3008,7 +3008,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -3063,7 +3063,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -3116,7 +3116,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -3170,7 +3170,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -3224,7 +3224,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -3277,7 +3277,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -3330,7 +3330,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -3384,7 +3384,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -3437,7 +3437,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -3491,7 +3491,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -3544,7 +3544,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -3597,7 +3597,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -3652,7 +3652,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -3707,7 +3707,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -3760,7 +3760,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -3813,7 +3813,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -3866,7 +3866,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -3921,7 +3921,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -3975,7 +3975,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -4030,7 +4030,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -4084,7 +4084,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -4139,7 +4139,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -4194,7 +4194,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -4247,7 +4247,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -4301,7 +4301,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -4355,7 +4355,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -4410,7 +4410,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -4461,7 +4461,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -4512,7 +4512,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 33215,
+      "stars": 33242,
       "curatedMentions": 2
     },
     {
@@ -4520,7 +4520,7 @@
       "type": "skill",
       "name": "dbs-ai-check",
       "description": {
-        "zh": "扫描文案中的 AI 写作特征并输出检测报告，默认只诊断不改写；用户看完报告说「我想改」后，逐条追问写法背后的意图并给出修改方向。用户要求检查 AI 味、AI 痕迹或机器化表达时使用。",
+        "zh": "扫描公众号长文、短视频文稿、推文等文案中的 AI 写作特征并输出检测报告，默认只诊断不改写；用户看完报告说「我想改」后，逐条追问写法背后的意图并给出修改方向。用户要求检查 AI 味、AI 痕迹或机器化表达时使用。",
         "en": null,
         "zhEngine": null,
         "needsTranslation": [
@@ -4566,7 +4566,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 11333,
+      "stars": 11353,
       "curatedMentions": 1
     },
     {
@@ -4619,7 +4619,60 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 11333,
+      "stars": 11353,
+      "curatedMentions": 1
+    },
+    {
+      "id": "skill:dontbesilent2025/dbskill:skills/dbs-speak-human/skill.md#dbs-speak-human",
+      "type": "skill",
+      "name": "dbs-speak-human",
+      "description": {
+        "zh": "说人话：把要发给真人看的中文，例如微信消息、群聊开场、顾客回复、私信和 Agent 回给用户的话，写成或改成像本人随口说的样子，去掉书面腔、客服腔和 AI 味，保留原意、事实和用户锁定的文字；调用后，本次对话里 Agent 的回复也按这套标准写。用户说「说人话」「太 AI 了」「改得口语一点」「帮我写条微信」时使用；不用于产品说明文和公众号长文，也不出 AI 痕迹检测报告。",
+        "en": null,
+        "zhEngine": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "zh",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "dontbesilent2025/dbskill",
+        "path": "skills/dbs-speak-human/SKILL.md",
+        "url": "https://github.com/dontbesilent2025/dbskill/blob/HEAD/skills/dbs-speak-human/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 65,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 11353,
       "curatedMentions": 1
     },
     {
@@ -4674,7 +4727,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 11333,
+      "stars": 11353,
       "curatedMentions": 1
     },
     {
@@ -4728,7 +4781,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 11333,
+      "stars": 11353,
       "curatedMentions": 1
     },
     {
@@ -4782,7 +4835,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 904,
+      "stars": 906,
       "curatedMentions": 2
     },
     {
@@ -4790,7 +4843,7 @@
       "type": "skill",
       "name": "dbs-sync-to-dondon",
       "description": {
-        "zh": "同步给 dondon：读取本机 Claude Code、Codex、WorkBuddy、Grok 最近的聊天记录，在本地隐去敏感信息后写成 800 字以内的工作近况，并找出聊天里用到的文档；用户确认后推给 dondon bot（未配置推送的复制给用户粘贴），让它的早报和提醒贴着用户手上的事；用户同意后可每天自动同步。用户说「同步给 dondon」「把近况发给 bot」「开启/停止自动同步」「sync to dondon」时使用；不上传聊天记录原文和密钥密码。",
+        "zh": "同步给 dondon：读取本机 Claude Code、Codex、WorkBuddy、Grok 最近的聊天记录，在本地隐去敏感信息后写成 800 字以内的工作近况，并找出聊天里用到的文档；用户确认后推给 dondon bot（未配置推送的复制给用户粘贴），让它的早报和提醒贴着用户手上的事；用户同意后可每天自动同步（由 bot 那边写近况，本机不需要 Agent 在场）。用户说「同步给 dondon」「把近况发给 bot」「开启/停止自动同步」「sync to dondon」时使用；不上传密钥密码，聊天摘录只在用户同意的自动同步里上传。",
         "en": null,
         "zhEngine": null,
         "needsTranslation": [
@@ -4837,7 +4890,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 11333,
+      "stars": 11353,
       "curatedMentions": 1
     },
     {
@@ -4845,7 +4898,7 @@
       "type": "plugin",
       "name": "dbs-ai-check",
       "description": {
-        "zh": "扫描文案中的 AI 写作特征并输出检测报告，默认只诊断不改写；用户看完报告说「我想改」后，逐条追问写法背后的意图并给出修改方向。用户要求检查 AI 味、AI 痕迹或机器化表达时使用。",
+        "zh": "扫描公众号长文、短视频文稿、推文等文案中的 AI 写作特征并输出检测报告，默认只诊断不改写；用户看完报告说「我想改」后，逐条追问写法背后的意图并给出修改方向。用户要求检查 AI 味、AI 痕迹或机器化表达时使用。",
         "en": null,
         "zhEngine": null,
         "needsTranslation": [
@@ -4887,7 +4940,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 11333,
+      "stars": 11353,
       "curatedMentions": 1
     },
     {
@@ -4936,7 +4989,56 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 11333,
+      "stars": 11353,
+      "curatedMentions": 1
+    },
+    {
+      "id": "plugin:dontbesilent2025/dbskill:.claude-plugin/marketplace.json#dbs-speak-human",
+      "type": "plugin",
+      "name": "dbs-speak-human",
+      "description": {
+        "zh": "说人话：把要发给真人看的中文，例如微信消息、群聊开场、顾客回复、私信和 Agent 回给用户的话，写成或改成像本人随口说的样子，去掉书面腔、客服腔和 AI 味，保留原意、事实和用户锁定的文字。用户说「说人话」「太 AI 了」「改得口语一点」「帮我写条微信」时使用；不用于产品说明文和公众号长文，也不出 AI 痕迹检测报告。",
+        "en": null,
+        "zhEngine": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "zh",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "dontbesilent2025/dbskill",
+        "path": ".claude-plugin/marketplace.json",
+        "url": "https://github.com/dontbesilent2025/dbskill/blob/HEAD/.claude-plugin/marketplace.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 56,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 11353,
       "curatedMentions": 1
     },
     {
@@ -4944,7 +5046,7 @@
       "type": "plugin",
       "name": "dbs-sync-to-dondon",
       "description": {
-        "zh": "同步给 dondon：读取本机 Claude Code、Codex、WorkBuddy、Grok 最近的聊天记录，在本地隐去敏感信息后写成 800 字以内的工作近况，并找出聊天里用到的文档；用户确认后推给 dondon bot（未配置推送的复制给用户粘贴），让它的早报和提醒贴着用户手上的事；用户同意后可每天自动同步。用户说「同步给 dondon」「把近况发给 bot」「开启/停止自动同步」「sync to dondon」时使用；不上传聊天记录原文和密钥密码。",
+        "zh": "同步给 dondon：读取本机 Claude Code、Codex、WorkBuddy、Grok 最近的聊天记录，在本地隐去敏感信息后写成 800 字以内的工作近况，并找出聊天里用到的文档；用户确认后推给 dondon bot（未配置推送的复制给用户粘贴），让它的早报和提醒贴着用户手上的事；用户同意后可每天自动同步（由 bot 那边写近况，本机不需要 Agent 在场）。用户说「同步给 dondon」「把近况发给 bot」「开启/停止自动同步」「sync to dondon」时使用；不上传密钥密码，聊天摘录只在用户同意的自动同步里上传。",
         "en": null,
         "zhEngine": null,
         "needsTranslation": [
@@ -4987,7 +5089,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 11333,
+      "stars": 11353,
       "curatedMentions": 1
     },
     {
@@ -5038,7 +5140,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 11333,
+      "stars": 11353,
       "curatedMentions": 1
     },
     {
@@ -5087,7 +5189,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 11333,
+      "stars": 11353,
       "curatedMentions": 1
     },
     {
@@ -5141,7 +5243,7 @@
       "variantCount": 0,
       "templateFamily": null,
       "familySize": 0,
-      "stars": 11333,
+      "stars": 11353,
       "curatedMentions": 1
     },
     {
@@ -6734,55 +6836,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "plugin:beshkenadze/claude-skills-marketplace:.claude-plugin/marketplace.json#markdown-formatter",
-      "type": "plugin",
-      "name": "markdown-formatter",
-      "description": {
-        "zh": null,
-        "en": "Format and structure content as clean, well-organized Markdown. Use when asked to create documentation, format text, or generate Markdown output.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "document"
-      ],
-      "targets": [
-        "claude-code"
-      ],
-      "source": {
-        "repo": "beshkenadze/claude-skills-marketplace",
-        "path": ".claude-plugin/marketplace.json",
-        "url": "https://github.com/beshkenadze/claude-skills-marketplace/blob/HEAD/.claude-plugin/marketplace.json",
-        "tier": 2
-      },
-      "quality": {
-        "score": 25,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 3,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:77777r7/octocrawl:io.github.77777r7/octocrawl#octocrawl",
       "type": "mcp",
       "name": "Octocrawl",
@@ -7745,6 +7798,56 @@
         "repo": "docmancer/docmancer",
         "path": "dev.docmancer/docmancer",
         "url": "https://github.com/docmancer/docmancer",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:drolosoft/go-docs-mcp:io.github.drolosoft/go-docs-mcp#go-docs-mcp",
+      "type": "mcp",
+      "name": "go-docs-mcp",
+      "description": {
+        "zh": null,
+        "en": "Lets your AI read PDF, Office files, EPUB, HTML, Jupyter and images, with OCR, search and paging.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "drolosoft/go-docs-mcp",
+        "path": "io.github.drolosoft/go-docs-mcp",
+        "url": "https://github.com/drolosoft/go-docs-mcp",
         "tier": 0
       },
       "quality": {
@@ -11494,6 +11597,55 @@
       "curatedMentions": 1
     },
     {
+      "id": "plugin:beshkenadze/claude-skills-marketplace:.claude-plugin/marketplace.json#markdown-formatter",
+      "type": "plugin",
+      "name": "markdown-formatter",
+      "description": {
+        "zh": null,
+        "en": "Format and structure content as clean, well-organized Markdown. Use when asked to create documentation, format text, or generate Markdown output.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "beshkenadze/claude-skills-marketplace",
+        "path": ".claude-plugin/marketplace.json",
+        "url": "https://github.com/beshkenadze/claude-skills-marketplace/blob/HEAD/.claude-plugin/marketplace.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 3,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:18boys/matchcv-mcp:io.github.18boys/matchcv#io.github.18boys-matchcv",
       "type": "mcp",
       "name": "io.github.18boys/matchcv",
@@ -14779,6 +14931,55 @@
         "repo": "B-C-Software/doconda-mcp",
         "path": "com.doconda/mcp",
         "url": "https://github.com/B-C-Software/doconda-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:bada-sistemas/badabun-mcp:com.badabun/mcp#badabun",
+      "type": "mcp",
+      "name": "Badabun",
+      "description": {
+        "zh": null,
+        "en": "Notas de Badabun (medio digital mexicano): últimas, búsqueda, lectura en Markdown y secciones.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "bada-sistemas/badabun-mcp",
+        "path": "com.badabun/mcp",
+        "url": "https://github.com/bada-sistemas/badabun-mcp",
         "tier": 0
       },
       "quality": {
@@ -19711,7 +19912,7 @@
       "name": "gosidian",
       "description": {
         "zh": null,
-        "en": "Self-hosted Obsidian-compatible markdown vault with a web UI and a 71-tool MCP server for AI agents",
+        "en": "Self-hosted Obsidian-compatible markdown vault with a web UI and an 81-tool MCP server for AI agents",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -22535,7 +22736,7 @@
       "name": "Tools That Don't Upload",
       "description": {
         "zh": null,
-        "en": "Search and run data, text, code, PDF and web APIs. Requests not stored. Network tools need a key.",
+        "en": "Run saved PDF/office file flows, convert HWP/HWPX to Markdown or DOCX, and call data/text APIs.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -22543,9 +22744,7 @@
       },
       "lang": "en",
       "categories": [
-        "document",
-        "coding",
-        "research"
+        "document"
       ],
       "targets": [
         "mcp-client"
@@ -22703,6 +22902,55 @@
         "repo": "fabwaseem/benchline",
         "path": "io.github.fabwaseem/benchline",
         "url": "https://github.com/fabwaseem/benchline",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:faithdrivencreator/apify-agent-tools:io.github.faithdrivencreator/pdf-to-markdown-tables#pdf-to-markdown-with-tables-for-ai-agents",
+      "type": "mcp",
+      "name": "PDF to Markdown with Tables for AI Agents",
+      "description": {
+        "zh": null,
+        "en": "PDF, Word, PowerPoint and Excel to clean Markdown plus every table as JSON rows, OCR for scans.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "faithdrivencreator/apify-agent-tools",
+        "path": "io.github.faithdrivencreator/pdf-to-markdown-tables",
+        "url": "https://github.com/faithdrivencreator/apify-agent-tools",
         "tier": 0
       },
       "quality": {
@@ -26946,55 +27194,6 @@
         "repo": "jakubro/folio",
         "path": "io.github.jakubro/folio",
         "url": "https://github.com/jakubro/folio",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:japanverify/jpverify-mcp:com.jpverify/jpverify#jpverify",
-      "type": "mcp",
-      "name": "JPVerify",
-      "description": {
-        "zh": null,
-        "en": "Japan company, T-number, address and invoice/receipt/card OCR checks, paid per call via x402.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "document"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "japanverify/jpverify-mcp",
-        "path": "com.jpverify/jpverify",
-        "url": "https://github.com/japanverify/jpverify-mcp",
         "tier": 0
       },
       "quality": {
@@ -33101,6 +33300,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:ai.strategic-innovations/apis#strategic-innovations-apis",
+      "type": "mcp",
+      "name": "Strategic Innovations APIs",
+      "description": {
+        "zh": null,
+        "en": "Fetch web pages as Markdown, judged real or not first, and check sites for AI-agent readiness.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.strategic-innovations/apis",
+        "url": "https://strategic-innovations.ai/apis",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:ai.subpay/document-reader#subpay-document-reader",
       "type": "mcp",
       "name": "Subpay Document Reader",
@@ -34486,7 +34734,7 @@
       "name": "Word of Agent",
       "description": {
         "zh": null,
-        "en": "Find out whether search engines and AI assistants recommend a business, and what to change.",
+        "en": "Checks if search engines and AI assistants can find, read and recommend a site, and what to change.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -35246,6 +35494,106 @@
         "repo": null,
         "path": "cloud.markbase/markbase",
         "url": "https://bench47.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:cn.pianam/handict-mcp#cn.pianam-handict-mcp",
+      "type": "mcp",
+      "name": "cn.pianam/handict-mcp",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Chinese dictionary lookup: character definitions, pinyin, stroke order and word",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "cn.pianam/handict-mcp",
+        "url": "https://registry.modelcontextprotocol.io/?q=cn.pianam%2Fhandict-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:cn.pianam/idiom-mcp#cn.pianam-idiom-mcp",
+      "type": "mcp",
+      "name": "cn.pianam/idiom-mcp",
+      "description": {
+        "zh": null,
+        "en": "MCP server for Chinese idioms (chengyu): lookup by word, pinyin or meaning with explanation and",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "cn.pianam/idiom-mcp",
+        "url": "https://registry.modelcontextprotocol.io/?q=cn.pianam%2Fidiom-mcp",
         "tier": 0
       },
       "quality": {
@@ -38237,57 +38585,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:com.featureloom/featureloom#featureloom",
-      "type": "mcp",
-      "name": "featureloom",
-      "description": {
-        "zh": null,
-        "en": "Requirements and backlog as living markdown plans, handed whole to your coding agent over MCP.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "document",
-        "pm",
-        "coding"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "com.featureloom/featureloom",
-        "url": "https://featureloom.com",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:mcp-official:com.fetchdelta/agent-tools#fetchdelta",
       "type": "mcp",
       "name": "FetchDelta",
@@ -39397,6 +39694,55 @@
         "repo": null,
         "path": "com.johnsessentials/johns-essentials",
         "url": "https://johnsessentials.com/docs/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.lamplightverse/daily-verse#lamplight-daily-verse",
+      "type": "mcp",
+      "name": "Lamplight Daily Verse",
+      "description": {
+        "zh": null,
+        "en": "Today's Bible verse and any verse lookup in the KJV and World English Bible, word for word.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.lamplightverse/daily-verse",
+        "url": "https://lamplightverse.com",
         "tier": 0
       },
       "quality": {
@@ -43811,6 +44157,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.thejunix.moc/laser-studio#moc-laser-studio",
+      "type": "mcp",
+      "name": "Moc Laser Studio",
+      "description": {
+        "zh": null,
+        "en": "Laser cut files (SVG, DXF, PDF) from a prompt or a picture, plus SVG checks. Run by an AI agent.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.thejunix.moc/laser-studio",
+        "url": "https://moc.thejunix.com/en/laser-studio",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.themachinerentalscam/rental-quotes#tmrs-rental-quotes",
       "type": "mcp",
       "name": "TMRS Rental Quotes",
@@ -44030,6 +44425,56 @@
         "repo": null,
         "path": "com.tidewellsoftware/website-screenshot-pdf",
         "url": "https://apify.com/tidewell/website-screenshot-pdf",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.tidyfetch/mcp#tidyfetch",
+      "type": "mcp",
+      "name": "TidyFetch",
+      "description": {
+        "zh": null,
+        "en": "Web pages to markdown, site crawls, company contacts, app reviews, ATS jobs and Shopify products.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.tidyfetch/mcp",
+        "url": "https://mcp.tidyfetch.com/",
         "tier": 0
       },
       "quality": {
@@ -45587,6 +46032,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:de.relayted/api#relayted-api",
+      "type": "mcp",
+      "name": "relayted API",
+      "description": {
+        "zh": null,
+        "en": "Screenshots in real browsers, web page to Markdown or PDF, Nostr relay tests. Prepaid per request.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "de.relayted/api",
+        "url": "https://api.relayted.de/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:de.sofortfax/fax#sofortfax-–-faxen-mit-ki",
       "type": "mcp",
       "name": "SofortFax – Faxen mit KI",
@@ -46822,55 +47316,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:dev.shotlane/shotlane#shotlane",
-      "type": "mcp",
-      "name": "Shotlane",
-      "description": {
-        "zh": null,
-        "en": "Screenshot web pages, read them as clean Markdown (JS rendered), and render HTML to PDF.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "document"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "dev.shotlane/shotlane",
-        "url": "https://shotlane.dev",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:mcp-official:dev.shveik/agdata#agdata",
       "type": "mcp",
       "name": "agdata",
@@ -47166,301 +47611,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:mcp-official:dev.tanod/docs#pdf-&-office-tools-(tanod)",
-      "type": "mcp",
-      "name": "PDF & Office Tools (Tanod)",
-      "description": {
-        "zh": null,
-        "en": "Bank statement PDF to CSV, OCR, Office to PDF, PDF to Word, any file to Markdown, merge and split.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "document"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "dev.tanod/docs",
-        "url": "https://tanod.dev",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:mcp-official:dev.tanod/document-to-markdown#document-to-markdown-(tanod)",
-      "type": "mcp",
-      "name": "Document to Markdown (Tanod)",
-      "description": {
-        "zh": null,
-        "en": "Document to Markdown: convert Word, Excel, PowerPoint and PDF files to Markdown for an LLM.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "document"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "dev.tanod/document-to-markdown",
-        "url": "https://tanod.dev",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:mcp-official:dev.tanod/html-to-markdown#web-page-to-markdown-(tanod)",
-      "type": "mcp",
-      "name": "Web Page to Markdown (Tanod)",
-      "description": {
-        "zh": null,
-        "en": "Turn any web page URL or HTML into clean Markdown or plain text for an LLM to read.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "document"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "dev.tanod/html-to-markdown",
-        "url": "https://tanod.dev",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:mcp-official:dev.tanod/images#image-resize-&-convert-tools-(tanod)",
-      "type": "mcp",
-      "name": "Image Resize & Convert Tools (Tanod)",
-      "description": {
-        "zh": null,
-        "en": "Edit images in one call: resize, convert, compress, crop, metadata, favicons, QR codes, OCR.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "media",
-        "document"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "dev.tanod/images",
-        "url": "https://tanod.dev",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:mcp-official:dev.tanod/pdf-tables#pdf-table-extractor-(tanod)",
-      "type": "mcp",
-      "name": "PDF Table Extractor (Tanod)",
-      "description": {
-        "zh": null,
-        "en": "Pull tables out of a PDF as rows and cells, ready for a spreadsheet or a data pipeline.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "document"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "dev.tanod/pdf-tables",
-        "url": "https://tanod.dev",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:mcp-official:dev.tanod/pdf-to-word#pdf-to-word-converter-(tanod)",
-      "type": "mcp",
-      "name": "PDF to Word Converter (Tanod)",
-      "description": {
-        "zh": null,
-        "en": "PDF in, editable Word (.docx) out, with a download link for the converted file.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "document"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "dev.tanod/pdf-to-word",
-        "url": "https://tanod.dev",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:mcp-official:dev.tanod/tanod#tanod",
       "type": "mcp",
       "name": "Tanod",
@@ -47484,105 +47634,6 @@
         "repo": null,
         "path": "dev.tanod/tanod",
         "url": "https://tanod.dev",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:mcp-official:dev.tanod/web#web-reader-&-search-(tanod)",
-      "type": "mcp",
-      "name": "Web Reader & Search (Tanod)",
-      "description": {
-        "zh": null,
-        "en": "Web search for agents: page to Markdown, screenshots, news search, metadata, sitemaps and RDAP.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "research",
-        "document"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "dev.tanod/web",
-        "url": "https://tanod.dev",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:mcp-official:dev.webextract/extract#webextract",
-      "type": "mcp",
-      "name": "WebExtract",
-      "description": {
-        "zh": null,
-        "en": "Web page to clean Markdown or fixed-schema JSON (product/price, tables). Free 20 calls/day.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "document"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": null,
-        "path": "dev.webextract/extract",
-        "url": "https://webextract.dev",
         "tier": 0
       },
       "quality": {
@@ -58495,6 +58546,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:org.mykidsbook/mykidsbook#kidstoryai-mykidsbook",
+      "type": "mcp",
+      "name": "KidStoryAI / MyKidsBook",
+      "description": {
+        "zh": null,
+        "en": "Create a one-of-a-kind story with your child as the hero. Free sample, printable PDF, share with fam",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "org.mykidsbook/mykidsbook",
+        "url": "https://mykidsbook.org/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:org.textclean/textclean#textclean-mcp",
       "type": "mcp",
       "name": "TextClean MCP",
@@ -59335,6 +59435,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:tech.careerpro/careerpro#careerproai",
+      "type": "mcp",
+      "name": "CareerProAI",
+      "description": {
+        "zh": null,
+        "en": "Tailor your resume to any job, score it against the ATS, and practice interviews. 7-day free trial;",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "tech.careerpro/careerpro",
+        "url": "https://careerpro.tech/",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:tech.neurodynamic/audio-llm#neurodynamic-audio,-captions,-documents-and-llm-apis",
       "type": "mcp",
       "name": "NeuroDynamic Audio, Captions, Documents and LLM APIs",
@@ -60147,6 +60296,57 @@
         "repo": "meta-taro/md-business",
         "path": "io.github.meta-taro/md-business",
         "url": "https://github.com/meta-taro/md-business",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:michaelw-pr/presentr-analyze-mcp:io.github.michaelw-pr/presentr-analyze#presentr-analyze",
+      "type": "mcp",
+      "name": "Presentr Analyze",
+      "description": {
+        "zh": null,
+        "en": "Read text aloud in 48 languages, transcribe audio, extract and translate PDF text, dub video.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media",
+        "writing",
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "michaelw-pr/presentr-analyze-mcp",
+        "path": "io.github.michaelw-pr/presentr-analyze",
+        "url": "https://github.com/michaelw-pr/presentr-analyze-mcp",
         "tier": 0
       },
       "quality": {
@@ -62299,6 +62499,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:newmannn91/memdrive-:io.github.newmannn91/memdrive-mcp#io.github.newmannn91-memdrive-mcp",
+      "type": "mcp",
+      "name": "io.github.Newmannn91/memdrive-mcp",
+      "description": {
+        "zh": null,
+        "en": "Local-first MCP memory: Markdown notes and images with full-text search for Claude and Cursor.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Newmannn91/MemDrive-",
+        "path": "io.github.Newmannn91/memdrive-mcp",
+        "url": "https://github.com/Newmannn91/MemDrive-",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:nexus-mcp-infra/document-conversion-api:io.github.nexus-mcp-infra/document-conversion-api#io.github.nexus-mcp-infra-document-conversion-api",
       "type": "mcp",
       "name": "io.github.nexus-mcp-infra/document-conversion-api",
@@ -62667,6 +62917,56 @@
         "repo": "nicoletterankin/word-orb",
         "path": "io.github.nicoletterankin/orb-platform",
         "url": "https://github.com/nicoletterankin/word-orb",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:nifetency/mcp-excel:com.nifetency/mcp-excel#mcp-excel",
+      "type": "mcp",
+      "name": "MCP-Excel",
+      "description": {
+        "zh": null,
+        "en": "Turn any Google Sheet into a CRM (leads, organizations, contacts, activities) from MCP clients.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "nifetency/mcp-excel",
+        "path": "com.nifetency/mcp-excel",
+        "url": "https://github.com/nifetency/mcp-excel",
         "tier": 0
       },
       "quality": {
@@ -63093,7 +63393,7 @@
       "name": "Agent Data Tools",
       "description": {
         "zh": null,
-        "en": "641 agent tools: chain data, prices, sanctions, web, PDF. 25 free calls, then from $0.002.",
+        "en": "655 agent tools: chain data, prices, sanctions, web, PDF. 25 free calls, then from $0.002.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -63952,55 +64252,6 @@
         "repo": "owlabee/owlabee",
         "path": "io.github.owlabee/documents-to-data",
         "url": "https://github.com/owlabee/owlabee",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:oyadotai/oya-browser:io.github.oyadotai/oya-browser#oya-browser",
-      "type": "mcp",
-      "name": "Oya Browser",
-      "description": {
-        "zh": null,
-        "en": "Real Chrome for agents: start a browser, read pages as numbered markdown, click, type, hand off.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "document"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "OyadotAI/oya-browser",
-        "path": "io.github.OyadotAI/oya-browser",
-        "url": "https://github.com/OyadotAI/oya-browser",
         "tier": 0
       },
       "quality": {
@@ -65189,6 +65440,55 @@
         "repo": "plutext/docx4j-mcp",
         "path": "io.github.plutext/docx4j-mcp",
         "url": "https://github.com/plutext/docx4j-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:polign/recall:io.github.polign/recall#recall",
+      "type": "mcp",
+      "name": "Recall",
+      "description": {
+        "zh": null,
+        "en": "Memory and state for AI agents: every correction kept with its history, and resume after a crash.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Polign/recall",
+        "path": "io.github.Polign/recall",
+        "url": "https://github.com/Polign/recall",
         "tier": 0
       },
       "quality": {
@@ -66670,6 +66970,57 @@
         "repo": "rahnas/wizeb",
         "path": "com.wizeb/ai-native-index",
         "url": "https://github.com/rahnas/wizeb",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:rahulk644/appflowy-mcp-server:io.github.rahulk644/appflowy-mcp-server#appflowy-workspace-mcp",
+      "type": "mcp",
+      "name": "AppFlowy Workspace MCP",
+      "description": {
+        "zh": null,
+        "en": "Edit AppFlowy documents and typed rows, search workspaces, and import/export Markdown.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "research",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Rahulk644/Appflowy-MCP-Server",
+        "path": "io.github.Rahulk644/appflowy-mcp-server",
+        "url": "https://github.com/Rahulk644/Appflowy-MCP-Server",
         "tier": 0
       },
       "quality": {
@@ -70306,6 +70657,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:shotlane/shotlane:dev.shotlane/shotlane#shotlane",
+      "type": "mcp",
+      "name": "Shotlane",
+      "description": {
+        "zh": null,
+        "en": "A real browser for your agent: screenshots, page checks, Markdown and PDFs.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "shotlane/shotlane",
+        "path": "dev.shotlane/shotlane",
+        "url": "https://github.com/shotlane/shotlane",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:shuji-bonji/pdf-reader-mcp:io.github.shuji-bonji/pdf-reader-mcp#pdf-reader-(pdf-agent-stack)",
       "type": "mcp",
       "name": "PDF Reader (PDF Agent Stack)",
@@ -70824,6 +71224,55 @@
         "repo": "skavio-eu/skavio-processing-api",
         "path": "io.github.skavio-eu/processing",
         "url": "https://github.com/skavio-eu/skavio-processing-api",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:skyblue3925-svg/geo-figure-mcp:io.github.skyblue3925-svg/geo-figure-mcp#geo-figure-(지리-시험-지도·그래프)",
+      "type": "mcp",
+      "name": "Geo Figure (지리 시험 지도·그래프)",
+      "description": {
+        "zh": null,
+        "en": "지리 시험용 지도·그래프를 실제 통계로, 도형 하나하나 고칠 수 있는 PPTX·HWPX로 만든다.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "skyblue3925-svg/geo-figure-mcp",
+        "path": "io.github.skyblue3925-svg/geo-figure-mcp",
+        "url": "https://github.com/skyblue3925-svg/geo-figure-mcp",
         "tier": 0
       },
       "quality": {
@@ -72157,6 +72606,351 @@
         "repo": "Tactic-Systems/leafwright",
         "path": "co.leafwright/leafwright",
         "url": "https://github.com/Tactic-Systems/leafwright",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:tanod-labs/tanod-mcp:dev.tanod/docs#pdf-&-office-tools-(tanod)",
+      "type": "mcp",
+      "name": "PDF & Office Tools (Tanod)",
+      "description": {
+        "zh": null,
+        "en": "Bank statement PDF to CSV, OCR, Office to PDF, PDF to Word, any file to Markdown, merge and split.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "tanod-labs/tanod-mcp",
+        "path": "dev.tanod/docs",
+        "url": "https://github.com/tanod-labs/tanod-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:tanod-labs/tanod-mcp:dev.tanod/document-to-markdown#document-to-markdown-(tanod)",
+      "type": "mcp",
+      "name": "Document to Markdown (Tanod)",
+      "description": {
+        "zh": null,
+        "en": "Document to Markdown: convert Word, Excel, PowerPoint and PDF files to Markdown for an LLM.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "tanod-labs/tanod-mcp",
+        "path": "dev.tanod/document-to-markdown",
+        "url": "https://github.com/tanod-labs/tanod-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:tanod-labs/tanod-mcp:dev.tanod/html-to-markdown#web-page-to-markdown-(tanod)",
+      "type": "mcp",
+      "name": "Web Page to Markdown (Tanod)",
+      "description": {
+        "zh": null,
+        "en": "Turn any web page URL or HTML into clean Markdown or plain text for an LLM to read.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "tanod-labs/tanod-mcp",
+        "path": "dev.tanod/html-to-markdown",
+        "url": "https://github.com/tanod-labs/tanod-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:tanod-labs/tanod-mcp:dev.tanod/images#image-resize-&-convert-tools-(tanod)",
+      "type": "mcp",
+      "name": "Image Resize & Convert Tools (Tanod)",
+      "description": {
+        "zh": null,
+        "en": "Edit images in one call: resize, convert, compress, crop, metadata, favicons, QR codes, OCR.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "media",
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "tanod-labs/tanod-mcp",
+        "path": "dev.tanod/images",
+        "url": "https://github.com/tanod-labs/tanod-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:tanod-labs/tanod-mcp:dev.tanod/pdf-tables#pdf-table-extractor-(tanod)",
+      "type": "mcp",
+      "name": "PDF Table Extractor (Tanod)",
+      "description": {
+        "zh": null,
+        "en": "Pull tables out of a PDF as rows and cells, ready for a spreadsheet or a data pipeline.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "tanod-labs/tanod-mcp",
+        "path": "dev.tanod/pdf-tables",
+        "url": "https://github.com/tanod-labs/tanod-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:tanod-labs/tanod-mcp:dev.tanod/pdf-to-word#pdf-to-word-converter-(tanod)",
+      "type": "mcp",
+      "name": "PDF to Word Converter (Tanod)",
+      "description": {
+        "zh": null,
+        "en": "PDF in, editable Word (.docx) out, with a download link for the converted file.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "tanod-labs/tanod-mcp",
+        "path": "dev.tanod/pdf-to-word",
+        "url": "https://github.com/tanod-labs/tanod-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:tanod-labs/tanod-mcp:dev.tanod/web#web-reader-&-search-(tanod)",
+      "type": "mcp",
+      "name": "Web Reader & Search (Tanod)",
+      "description": {
+        "zh": null,
+        "en": "Web search for agents: page to Markdown, screenshots, news search, metadata, sitemaps and RDAP.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "research",
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "tanod-labs/tanod-mcp",
+        "path": "dev.tanod/web",
+        "url": "https://github.com/tanod-labs/tanod-mcp",
         "tier": 0
       },
       "quality": {
