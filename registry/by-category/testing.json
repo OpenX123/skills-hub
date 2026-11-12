@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T01:16:41.952Z",
+  "generatedAt": "2026-11-12T23:57:37.410Z",
   "category": {
     "key": "testing",
     "zh": "测试质量",
@@ -73,7 +73,7 @@
       }
     ]
   },
-  "total": 970,
+  "total": 983,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/webapp-testing/skill.md#webapp-testing",
@@ -4189,7 +4189,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 65,
+        "score": 64,
         "gates": {
           "security": true,
           "schema": true,
@@ -5410,55 +5410,6 @@
       "curatedMentions": 1
     },
     {
-      "id": "plugin:dontbesilent2025/dbskill:.claude-plugin/marketplace.json#dbs-skill-maker",
-      "type": "plugin",
-      "name": "dbs-skill-maker",
-      "description": {
-        "zh": "制作新 Skill，或改进已有 Skill。先按改动规模给出方案并等待确认，再生成或修改文件，并用真实任务对比改动前后的表现。用户要求做 Skill、把反复出现的问题沉淀成 Skill、修改或修复 Skill、根据失败案例改进 Skill、检查或测试 Skill 时使用；只有用户明确要求分享或发布时，才准备 GitHub 仓库并验证 `npx skills add`。",
-        "en": null,
-        "zhEngine": null,
-        "needsTranslation": [
-          "en"
-        ]
-      },
-      "lang": "zh",
-      "categories": [
-        "testing"
-      ],
-      "targets": [
-        "claude-code"
-      ],
-      "source": {
-        "repo": "dontbesilent2025/dbskill",
-        "path": ".claude-plugin/marketplace.json",
-        "url": "https://github.com/dontbesilent2025/dbskill/blob/HEAD/.claude-plugin/marketplace.json",
-        "tier": 2
-      },
-      "quality": {
-        "score": 56,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 11353,
-      "curatedMentions": 1
-    },
-    {
       "id": "rules:patrickjs/awesome-cursorrules:rules/nestjs-anti-hallucination-cursorrules-prompt-file.mdc#nestjs-anti-hallucination-cursorrules-prompt-file",
       "type": "rules",
       "name": "nestjs-anti-hallucination-cursorrules-prompt-file",
@@ -5507,6 +5458,55 @@
       "templateFamily": null,
       "familySize": 0,
       "stars": 40434,
+      "curatedMentions": 1
+    },
+    {
+      "id": "plugin:dontbesilent2025/dbskill:.claude-plugin/marketplace.json#dbs-skill-maker",
+      "type": "plugin",
+      "name": "dbs-skill-maker",
+      "description": {
+        "zh": "制作新 Skill，或改进已有 Skill。先按改动规模给出方案并等待确认，再生成或修改文件，并用真实任务对比改动前后的表现。用户要求做 Skill、把反复出现的问题沉淀成 Skill、修改或修复 Skill、根据失败案例改进 Skill、检查或测试 Skill 时使用；只有用户明确要求分享或发布时，才准备 GitHub 仓库并验证 `npx skills add`。",
+        "en": null,
+        "zhEngine": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "zh",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "claude-code"
+      ],
+      "source": {
+        "repo": "dontbesilent2025/dbskill",
+        "path": ".claude-plugin/marketplace.json",
+        "url": "https://github.com/dontbesilent2025/dbskill/blob/HEAD/.claude-plugin/marketplace.json",
+        "tier": 2
+      },
+      "quality": {
+        "score": 55,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 11353,
       "curatedMentions": 1
     },
     {
@@ -14033,6 +14033,104 @@
       "curatedMentions": 1
     },
     {
+      "id": "mcp:xyver/daedal-map:com.daedalmap/boundaries#daedalmap-administrative-boundaries-(loc_id-to-polygon)",
+      "type": "mcp",
+      "name": "DaedalMap Administrative Boundaries (loc_id to polygon)",
+      "description": {
+        "zh": null,
+        "en": "Inspect loc_id boundaries, retrieve bounded shapes, and compare places and coverage.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "xyver/daedal-map",
+        "path": "com.daedalmap/boundaries",
+        "url": "https://github.com/xyver/daedal-map",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
+      "id": "mcp:xyver/daedal-map:com.daedalmap/geocoding#daedalmap-geography-tools-(loc_id)",
+      "type": "mcp",
+      "name": "DaedalMap Geography Tools (loc_id)",
+      "description": {
+        "zh": null,
+        "en": "Resolve coordinates, map boxes, and geographic IDs to loc_id; inspect coverage and shapes.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "xyver/daedal-map",
+        "path": "com.daedalmap/geocoding",
+        "url": "https://github.com/xyver/daedal-map",
+        "tier": 0
+      },
+      "quality": {
+        "score": 24,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 1
+    },
+    {
       "id": "plugin:beshkenadze/claude-skills-marketplace:.claude-plugin/marketplace.json#omni-bench-run",
       "type": "plugin",
       "name": "omni-bench-run",
@@ -14744,6 +14842,55 @@
         "repo": "Agenzax/agenzax-mcp",
         "path": "io.github.Agenzax/agenzax-mcp",
         "url": "https://github.com/Agenzax/agenzax-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:ai-guard-dev/eslint-plugin-ai-guard:io.github.ai-guard-dev/ai-guard#ai-guard",
+      "type": "mcp",
+      "name": "AI Guard",
+      "description": {
+        "zh": null,
+        "en": "Guardrails for AI-written JS/TS: scans, weakened-test checks, package checks, verify before done.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ai-guard-dev/eslint-plugin-ai-guard",
+        "path": "io.github.ai-guard-dev/ai-guard",
+        "url": "https://github.com/ai-guard-dev/eslint-plugin-ai-guard",
         "tier": 0
       },
       "quality": {
@@ -18826,6 +18973,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:david-porto-baraldes/viveka_web:ai.homouniversalis/cryptography-merkle-tree-rfc6962-jws-ed25519-es256-zero-knowledge-python-ast-code-audit-formal-verification-mutation-testing-reed-muller-multi-agent-deep-think-crucible-barycenter#homo-universalis-—-hu-diamond-v1.1-cryptographic-verifier,-w",
+      "type": "mcp",
+      "name": "Homo Universalis — HU-DIAMOND v1.1 Cryptographic Verifier, W3C VC 2.0 & AST Kintsugi MCP",
+      "description": {
+        "zh": null,
+        "en": "Zero-auth Notary & AST: RM(1,3), RFC 6962, W3C VC 2.0, ROS 2 Humanoid & 3-Level Consciousness.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "testing",
+        "security"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "David-Porto-Baraldes/Viveka_Web",
+        "path": "ai.homouniversalis/cryptography-merkle-tree-rfc6962-jws-ed25519-es256-zero-knowledge-python-ast-code-audit-formal-verification-mutation-testing-reed-muller-multi-agent-deep-think-crucible-barycenter",
+        "url": "https://github.com/David-Porto-Baraldes/Viveka_Web",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:davidscotttufts/tracegate-ci:io.github.davidscotttufts/tracegate-ci#tracegate-ci",
       "type": "mcp",
       "name": "Tracegate CI",
@@ -19493,6 +19691,55 @@
         "repo": "doublespeed-main/mcp",
         "path": "ai.doublespeed/mcp",
         "url": "https://github.com/doublespeed-main/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:e2e-inc/cli:io.github.e2e-inc/testerarmy#testerarmy",
+      "type": "mcp",
+      "name": "TesterArmy",
+      "description": {
+        "zh": null,
+        "en": "Agents that test your web and mobile app like real users, on every pull request.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "e2e-inc/cli",
+        "path": "io.github.e2e-inc/testerarmy",
+        "url": "https://github.com/e2e-inc/cli",
         "tier": 0
       },
       "quality": {
@@ -20263,57 +20510,6 @@
       "curatedMentions": 0
     },
     {
-      "id": "mcp:excession-labs/mcp-servers:ai.excessionlabs/site#excession-labs-site-search-and-security-test-requests",
-      "type": "mcp",
-      "name": "Excession Labs: site search and security test requests",
-      "description": {
-        "zh": null,
-        "en": "Search excessionlabs.ai, the site of Excession Labs, a security lab, and request a security test.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "security",
-        "testing",
-        "research"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "Excession-Labs/mcp-servers",
-        "path": "ai.excessionlabs/site",
-        "url": "https://github.com/Excession-Labs/mcp-servers",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
       "id": "mcp:excession-labs/mcp-servers:com.pentestcompare/site#pentestcompare-pentest-provider-data",
       "type": "mcp",
       "name": "PentestCompare: pentest provider data",
@@ -20660,6 +20856,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:fatihcimen/appdyno:io.github.fatihcimen/appdyno#appdyno",
+      "type": "mcp",
+      "name": "appdyno",
+      "description": {
+        "zh": null,
+        "en": "Test, drive and measure iOS and Android apps on simulators, emulators and real phones, from a Mac.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "fatihcimen/appdyno",
+        "path": "io.github.fatihcimen/appdyno",
+        "url": "https://github.com/fatihcimen/appdyno",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:faxbeep/faxbeep-mcp:com.faxbeep/faxbeep#faxbeep",
       "type": "mcp",
       "name": "Faxbeep",
@@ -20732,6 +20977,56 @@
         "repo": "Feason-com/feason-context",
         "path": "io.github.Feason-com/context",
         "url": "https://github.com/Feason-com/feason-context",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:ffnnkk/suuq-market-mcp:io.github.ffnnkk/suuq-market-mcp#io.github.ffnnkk-suuq-market-mcp",
+      "type": "mcp",
+      "name": "io.github.ffnnkk/suuq-market-mcp",
+      "description": {
+        "zh": null,
+        "en": "A2A marketplace SUUQ.market (alpha, test mode): search listings, check reputation, test purchases",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "ffnnkk/suuq-market-mcp",
+        "path": "io.github.ffnnkk/suuq-market-mcp",
+        "url": "https://github.com/ffnnkk/suuq-market-mcp",
         "tier": 0
       },
       "quality": {
@@ -26334,6 +26629,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:ai.contentsweep/airflow-dag-doctor#airflow-dag-doctor",
+      "type": "mcp",
+      "name": "Airflow DAG Doctor",
+      "description": {
+        "zh": null,
+        "en": "Diagnose exported Airflow DAG source and task incidents with evidence and explicit coverage gaps.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ai.contentsweep/airflow-dag-doctor",
+        "url": "https://mcp.contentsweep.ai/dag-doctor",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:ai.divinci/divinci#divinci-ai",
       "type": "mcp",
       "name": "Divinci AI",
@@ -28705,6 +29049,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.aiappsthatwork/tools#ai-apps-that-work-free-tools",
+      "type": "mcp",
+      "name": "AI Apps That Work free tools",
+      "description": {
+        "zh": null,
+        "en": "Real cost per AI result, LLM prices, switch costs, shutdown dates, A/B test sizes and judge checks.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.aiappsthatwork/tools",
+        "url": "https://aiappsthatwork.com/connect",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.amfionhq/front-desk-setup#amfion-front-desk-setup",
       "type": "mcp",
       "name": "Amfion front desk setup",
@@ -28759,7 +29152,7 @@
       "name": "Amperis catalogue",
       "description": {
         "zh": null,
-        "en": "Search the Amperis catalogue of electrical test equipment: products, specs and datasheets.",
+        "en": "Amperis electrical test equipment catalogue: search, specs, comparison and engineering calculators.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -32991,6 +33384,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.testorchestrator/testorchestrator#testorchestrator",
+      "type": "mcp",
+      "name": "TestOrchestrator",
+      "description": {
+        "zh": null,
+        "en": "Test management for AI agents: cases, runs, results, cycles and traceability.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.testorchestrator/testorchestrator",
+        "url": "https://testorchestrator.com/docs/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.textforagents/burstproof-parallel-burst-abuse-testing#com.textforagents-burstproof-parallel-burst-abuse-testing",
       "type": "mcp",
       "name": "com.textforagents/burstproof-parallel-burst-abuse-testing",
@@ -34596,6 +35038,55 @@
         "repo": null,
         "path": "email.echo/deliverability",
         "url": "https://echo.email",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:es.argohub.www/reposicion-stock#argo-hub-reposición-de-stock",
+      "type": "mcp",
+      "name": "Argo Hub Reposición de Stock",
+      "description": {
+        "zh": null,
+        "en": "Calculate a SKU reorder point, stock coverage and replenishment quantity from your own assumptions.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "es.argohub.www/reposicion-stock",
+        "url": "https://www.argohub.es/calculadora-reposicion-stock",
         "tier": 0
       },
       "quality": {
@@ -37517,6 +38008,56 @@
         "repo": null,
         "path": "io.github.SunRainSnow/labtestsuperstore",
         "url": "https://labtestsuperstore.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.superlabs-x/bitpal#io.github.superlabs-x-bitpal",
+      "type": "mcp",
+      "name": "io.github.superlabs-x/bitpal",
+      "description": {
+        "zh": null,
+        "en": "Non-custodial stablecoin checkout: search BitPal docs, API spec, webhooks and errors; test payments",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.superlabs-x/bitpal",
+        "url": "https://bitpal.io/docs/",
         "tier": 0
       },
       "quality": {
@@ -41291,6 +41832,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mrw0r57/apex-mcp-disclosure-canary-968cf160:io.github.ssjcorpsec/apex-disclosure-test-968cf160#apex-disclosure-test-(temporary,-will-be-deleted)",
+      "type": "mcp",
+      "name": "APEX disclosure test (temporary, will be deleted)",
+      "description": {
+        "zh": null,
+        "en": "Temporary authorized security research probe. Safe to ignore. Will be removed shortly.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "testing",
+        "security",
+        "research"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "MrW0r57/apex-mcp-disclosure-canary-968cf160",
+        "path": "io.github.SSJCorpSec/apex-disclosure-test-968cf160",
+        "url": "https://github.com/MrW0r57/apex-mcp-disclosure-canary-968cf160",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mshegolev/allure-testops-mcp:io.github.mshegolev/allure-testops-mcp#io.github.mshegolev-allure-testops-mcp",
       "type": "mcp",
       "name": "io.github.mshegolev/allure-testops-mcp",
@@ -41362,6 +41954,56 @@
       "source": {
         "repo": "multiplex-ai/muggle-ai-works",
         "path": "io.github.multiplex-ai/muggle",
+        "url": "https://github.com/multiplex-ai/muggle-ai-works",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:multiplex-ai/muggle-ai-works:io.github.multiplex-ai/muggleai#muggle-works",
+      "type": "mcp",
+      "name": "Muggle Works",
+      "description": {
+        "zh": null,
+        "en": "Acceptance test agent for coding agents: real-browser tests, with screenshots on the PR.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "coding",
+        "testing"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "multiplex-ai/muggle-ai-works",
+        "path": "io.github.multiplex-ai/muggleai",
         "url": "https://github.com/multiplex-ai/muggle-ai-works",
         "tier": 0
       },
@@ -43667,7 +44309,7 @@
       "name": "EA Trade Tester by TrueTest",
       "description": {
         "zh": null,
-        "en": "FREE first read, no sign-up: test an EA, trading bot, indicator or MT5 report for luck and costs",
+        "en": "FREE first read, no sign-up: test an EA, trading bot, indicator or MT4/MT5 report for luck and costs",
         "zhEngine": null,
         "needsTranslation": [
           "zh"

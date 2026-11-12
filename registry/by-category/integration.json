@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T01:16:41.952Z",
+  "generatedAt": "2026-11-12T23:57:37.410Z",
   "category": {
     "key": "integration",
     "zh": "三方集成",
@@ -85,7 +85,7 @@
       }
     ]
   },
-  "total": 675,
+  "total": 698,
   "entries": [
     {
       "id": "skill:anthropics/skills:skills/slack-gif-creator/skill.md#slack-gif-creator",
@@ -2156,7 +2156,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 65,
+        "score": 64,
         "gates": {
           "security": true,
           "schema": true,
@@ -2169,60 +2169,6 @@
       "risk": {
         "level": "clean",
         "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": 11353,
-      "curatedMentions": 1
-    },
-    {
-      "id": "skill:dontbesilent2025/dbskill:skills/dbs-wechat-html/skill.md#dbs-wechat-html",
-      "type": "skill",
-      "name": "dbs-wechat-html",
-      "description": {
-        "zh": "把 Markdown 转成可粘贴到微信公众号后台的 HTML，并提供 15 种内置风格。用户要求生成公众号 HTML、制作微信版本或排版公众号文章时使用。",
-        "en": null,
-        "zhEngine": null,
-        "needsTranslation": [
-          "en"
-        ]
-      },
-      "lang": "zh",
-      "categories": [
-        "document",
-        "integration"
-      ],
-      "targets": [
-        "claude-code",
-        "claude-ai",
-        "codex",
-        "cursor",
-        "agents"
-      ],
-      "source": {
-        "repo": "dontbesilent2025/dbskill",
-        "path": "skills/dbs-wechat-html/SKILL.md",
-        "url": "https://github.com/dontbesilent2025/dbskill/blob/HEAD/skills/dbs-wechat-html/SKILL.md",
-        "tier": 2
-      },
-      "quality": {
-        "score": 62,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": true
-      },
-      "risk": {
-        "level": "low",
-        "score": 10
       },
       "duplicateOf": null,
       "nearDuplicateOf": null,
@@ -2287,6 +2233,60 @@
       "familySize": 0,
       "stars": 907,
       "curatedMentions": 2
+    },
+    {
+      "id": "skill:dontbesilent2025/dbskill:skills/dbs-wechat-html/skill.md#dbs-wechat-html",
+      "type": "skill",
+      "name": "dbs-wechat-html",
+      "description": {
+        "zh": "把 Markdown 转成可粘贴到微信公众号后台的 HTML，并提供 15 种内置风格。用户要求生成公众号 HTML、制作微信版本或排版公众号文章时使用。",
+        "en": null,
+        "zhEngine": null,
+        "needsTranslation": [
+          "en"
+        ]
+      },
+      "lang": "zh",
+      "categories": [
+        "document",
+        "integration"
+      ],
+      "targets": [
+        "claude-code",
+        "claude-ai",
+        "codex",
+        "cursor",
+        "agents"
+      ],
+      "source": {
+        "repo": "dontbesilent2025/dbskill",
+        "path": "skills/dbs-wechat-html/SKILL.md",
+        "url": "https://github.com/dontbesilent2025/dbskill/blob/HEAD/skills/dbs-wechat-html/SKILL.md",
+        "tier": 2
+      },
+      "quality": {
+        "score": 61,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": true
+      },
+      "risk": {
+        "level": "low",
+        "score": 10
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": 11353,
+      "curatedMentions": 1
     },
     {
       "id": "rules:patrickjs/awesome-cursorrules:rules/cloudflare-email-telegram-cursorrules-prompt-file.mdc#cloudflare-email-telegram-cursorrules-prompt-file",
@@ -2514,7 +2514,7 @@
         "tier": 2
       },
       "quality": {
-        "score": 56,
+        "score": 55,
         "gates": {
           "security": true,
           "schema": true,
@@ -6554,6 +6554,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:callobuzz/cob-shopify-mcp:io.github.callobuzz/cob-shopify-mcp#cob-shopify-mcp",
+      "type": "mcp",
+      "name": "cob-shopify-mcp",
+      "description": {
+        "zh": null,
+        "en": "Run a Shopify store from any MCP client: products, orders, customers, stock and analytics.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "callobuzz/cob-shopify-mcp",
+        "path": "io.github.callobuzz/cob-shopify-mcp",
+        "url": "https://github.com/callobuzz/cob-shopify-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:cappyeo/discord-mcp:io.github.cappyeo/discord-mcp#discord-mcp",
       "type": "mcp",
       "name": "Discord MCP",
@@ -9599,6 +9648,55 @@
         "repo": "gege-mn/ray-mcp",
         "path": "io.github.gege-mn/ray-mcp",
         "url": "https://github.com/gege-mn/ray-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:geornaden/finops-studio:io.github.geornaden/datev-buchungsstapel-extf-mcp#german-datev-buchungsstapel-extf-csv-generator",
+      "type": "mcp",
+      "name": "German DATEV Buchungsstapel EXTF CSV Generator",
+      "description": {
+        "zh": null,
+        "en": "Convert Stripe, Shopify & ERP bookings into German DATEV EXTF v700 CSV with SKR03 & SKR04 accounts",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "Geornaden/finops-studio",
+        "path": "io.github.Geornaden/datev-buchungsstapel-extf-mcp",
+        "url": "https://github.com/Geornaden/finops-studio",
         "tier": 0
       },
       "quality": {
@@ -12849,7 +12947,7 @@
       "name": "Multi Mail",
       "description": {
         "zh": null,
-        "en": "Gmail, Outlook, Hotmail, Microsoft 365, iCloud, Fastmail, other IMAP mailboxes: search, read, send.",
+        "en": "Gmail, Outlook, Hotmail, Microsoft 365, Yahoo, iCloud and other IMAP mailboxes: search, read, send.",
         "zhEngine": null,
         "needsTranslation": [
           "zh"
@@ -13607,6 +13705,56 @@
         "repo": null,
         "path": "ad.inside/inside-ads",
         "url": "https://inside.ad",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:ae.framerfy/store-builder#framerfy",
+      "type": "mcp",
+      "name": "Framerfy",
+      "description": {
+        "zh": null,
+        "en": "Build a Shopify-backed Framer store: sync products, theme, cart, checkout, publish and verify.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration",
+        "design"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "ae.framerfy/store-builder",
+        "url": "https://docs.framerfy.ae/ai-builder",
         "tier": 0
       },
       "quality": {
@@ -15024,6 +15172,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:app.tgstudio/tgstudio#tgstudio",
+      "type": "mcp",
+      "name": "TGStudio",
+      "description": {
+        "zh": null,
+        "en": "Schedule posts, read analytics and manage Telegram channels in TGStudio from any MCP client.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data",
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "app.tgstudio/tgstudio",
+        "url": "https://tgstudio.app/en/features/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:app.toolaby/toolaby#toolaby",
       "type": "mcp",
       "name": "Toolaby",
@@ -16111,6 +16309,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.adtrendlab/mcp#adtrendlab",
+      "type": "mcp",
+      "name": "AdTrendLab",
+      "description": {
+        "zh": null,
+        "en": "Shopify store and Meta ad intelligence: search stores, traffic, live ads, products, competitors.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration",
+        "research",
+        "business"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.adtrendlab/mcp",
+        "url": "https://adtrendlab.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.agentfieldkit/kits#agent-field-kit",
       "type": "mcp",
       "name": "Agent Field Kit",
@@ -16902,6 +17151,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.commerceforai/mcp#commerceforai",
+      "type": "mcp",
+      "name": "CommerceForAI",
+      "description": {
+        "zh": null,
+        "en": "Run a store on your own Stripe account: products, orders, shipping, returns, print-on-demand.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.commerceforai/mcp",
+        "url": "https://commerceforai.com/docs/guides/agents",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.contextwindowsupply/store#context-window-supply",
       "type": "mcp",
       "name": "Context Window Supply",
@@ -17517,6 +17815,55 @@
         "repo": null,
         "path": "com.fadehost/mcp",
         "url": "https://fadehost.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.fezola.app/fezola#fezola",
+      "type": "mcp",
+      "name": "Fezola",
+      "description": {
+        "zh": null,
+        "en": "Shared Memory, mail, chat, Calendar, Notion and ad accounts (Google, Microsoft, OpenAI) in one MCP.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.fezola.app/fezola",
+        "url": "https://app.fezola.com",
         "tier": 0
       },
       "quality": {
@@ -19574,6 +19921,155 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:com.renzojohnson/gmail-mcp#gmail-mcp",
+      "type": "mcp",
+      "name": "Gmail MCP",
+      "description": {
+        "zh": null,
+        "en": "Gmail MCP server: list, read, search and send email, manage drafts and labels.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration",
+        "meta"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.renzojohnson/gmail-mcp",
+        "url": "https://renzojohnson.com/contributions/gmail-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.renzojohnson/google-drive-mcp#google-drive-mcp",
+      "type": "mcp",
+      "name": "Google Drive MCP",
+      "description": {
+        "zh": null,
+        "en": "Google Drive MCP server: search files, organise folders and manage sharing.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.renzojohnson/google-drive-mcp",
+        "url": "https://renzojohnson.com/contributions/google-drive-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.renzojohnson/google-workspace-mcp#google-workspace-mcp",
+      "type": "mcp",
+      "name": "Google Workspace MCP",
+      "description": {
+        "zh": null,
+        "en": "Google Workspace MCP server: Gmail, Calendar, Drive, Docs and Sheets tools in one server.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "meta",
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.renzojohnson/google-workspace-mcp",
+        "url": "https://renzojohnson.com/contributions/google-workspace-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:com.rrrfirstchat/uxen#uxen",
       "type": "mcp",
       "name": "Uxen",
@@ -20187,6 +20683,55 @@
         "repo": null,
         "path": "com.theaitoolsindex/aitoolsindex",
         "url": "https://theaitoolsindex.com",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:com.thebdk/bdk-native#bdk-native",
+      "type": "mcp",
+      "name": "BDK Native",
+      "description": {
+        "zh": null,
+        "en": "Preview, configure and check BDK Native iOS/Android apps; start Stripe checkout and request builds.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "com.thebdk/bdk-native",
+        "url": "https://thebdk.com/agent",
         "tier": 0
       },
       "quality": {
@@ -22240,6 +22785,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.docquery/docquery#docquery",
+      "type": "mcp",
+      "name": "DocQuery",
+      "description": {
+        "zh": null,
+        "en": "Read-only MCP over your Excel or Airtable plus the PDFs beside it, joined as one relational dataset.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data",
+        "integration",
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.docquery/docquery",
+        "url": "https://docquery.io/mcp-server",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.forthcast/inventory#forthcast-inventory",
       "type": "mcp",
       "name": "Forthcast Inventory",
@@ -22559,6 +23155,55 @@
         "repo": null,
         "path": "io.github.Beer-of-Satoshi-GmbH/shop",
         "url": "https://beerofsatoshi.com/pages/shop-with-ai",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.bepolabs/shopify-products#shopify-scraper-products,-prices,-variants-and-stock",
+      "type": "mcp",
+      "name": "Shopify Scraper: products, prices, variants and stock",
+      "description": {
+        "zh": null,
+        "en": "Paste a link, get a spreadsheet-ready list of everything for sale on any Shopify site.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.bepolabs/shopify-products",
+        "url": "https://apify.com/bepolabs/shopify-products",
         "tier": 0
       },
       "quality": {
@@ -23198,6 +23843,56 @@
       "source": {
         "repo": null,
         "path": "io.github.kizukidata/news-monitoring",
+        "url": "https://apify.com/kizukidata",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.kizukidata/social-monitoring#kizuki-social-monitoring",
+      "type": "mcp",
+      "name": "Kizuki Social Monitoring",
+      "description": {
+        "zh": null,
+        "en": "Bluesky posts, Telegram channel posts, note.com and WeChat Official Account articles. No login.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "devops",
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.kizukidata/social-monitoring",
         "url": "https://apify.com/kizukidata",
         "tier": 0
       },
@@ -24314,6 +25009,57 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:io.github.truthtrail/truthtrail#truthtrail",
+      "type": "mcp",
+      "name": "TruthTrail",
+      "description": {
+        "zh": null,
+        "en": "Record the decisions your AI coding agent makes, in the repo and on the Jira or GitHub ticket.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "pm",
+        "coding",
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.truthtrail/truthtrail",
+        "url": "https://truthtrail.pages.dev",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:io.github.workhard1011/ai-commerce-intelligence#ai-commerce-intelligence",
       "type": "mcp",
       "name": "AI Commerce Intelligence",
@@ -24336,6 +25082,55 @@
         "repo": null,
         "path": "io.github.workhard1011/ai-commerce-intelligence",
         "url": "https://registry.modelcontextprotocol.io/?q=io.github.workhard1011%2Fai-commerce-intelligence",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:mcp-official:io.github.yasaiiko/vetto#vetto",
+      "type": "mcp",
+      "name": "Vetto",
+      "description": {
+        "zh": null,
+        "en": "Check signup emails for disposable or dead domains, typos and Gmail aliases; block fake signups.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "io.github.yasaiiko/vetto",
+        "url": "https://usevetto.com/mcp-server",
         "tier": 0
       },
       "quality": {
@@ -25604,6 +26399,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:mcp-official:xyz.communitystudios/ceejay#ceejay",
+      "type": "mcp",
+      "name": "CEEJAY",
+      "description": {
+        "zh": null,
+        "en": "Let AI agents read your Discord community's analytics, members and tickets, and save drafts.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "data",
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": null,
+        "path": "xyz.communitystudios/ceejay",
+        "url": "https://docs.communitystudios.xyz/docs/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:mcp-official:xyz.forsale/offers#forsale.xyz-offers",
       "type": "mcp",
       "name": "forsale.xyz offers",
@@ -25823,56 +26668,6 @@
         "repo": "MediaZione/AwrAiter",
         "path": "ai.awraiter/telegram",
         "url": "https://github.com/MediaZione/AwrAiter",
-        "tier": 0
-      },
-      "quality": {
-        "score": 16,
-        "gates": {
-          "security": true,
-          "schema": true,
-          "unique": true,
-          "alive": true
-        },
-        "passed": true,
-        "recommended": false
-      },
-      "risk": {
-        "level": "clean",
-        "score": 0
-      },
-      "duplicateOf": null,
-      "nearDuplicateOf": null,
-      "dupCount": 0,
-      "variantCount": 0,
-      "templateFamily": null,
-      "familySize": 0,
-      "stars": null,
-      "curatedMentions": 0
-    },
-    {
-      "id": "mcp:mehdis34/fezola-mcp:com.fezola.app/fezola#fezola",
-      "type": "mcp",
-      "name": "Fezola",
-      "description": {
-        "zh": null,
-        "en": "Read, search and draft replies across all your mailboxes, Google Chat and Telegram.",
-        "zhEngine": null,
-        "needsTranslation": [
-          "zh"
-        ]
-      },
-      "lang": "en",
-      "categories": [
-        "integration",
-        "research"
-      ],
-      "targets": [
-        "mcp-client"
-      ],
-      "source": {
-        "repo": "mehdis34/fezola-mcp",
-        "path": "com.fezola.app/fezola",
-        "url": "https://github.com/mehdis34/fezola-mcp",
         "tier": 0
       },
       "quality": {
@@ -26740,6 +27535,56 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:n24q02m/notion:io.github.n24q02m/notion#io.github.n24q02m-notion",
+      "type": "mcp",
+      "name": "io.github.n24q02m/notion",
+      "description": {
+        "zh": null,
+        "en": "Markdown-first Notion for AI agents -- pages, databases, blocks, and comments in one call.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration",
+        "document"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "n24q02m/notion",
+        "path": "io.github.n24q02m/notion",
+        "url": "https://github.com/n24q02m/notion.git",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:n24q02m/telegram:io.github.n24q02m/better-telegram-mcp#telegram-mcp",
       "type": "mcp",
       "name": "Telegram MCP",
@@ -26789,6 +27634,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:n24q02m/telegram:io.github.n24q02m/telegram#telegram-mcp",
+      "type": "mcp",
+      "name": "Telegram MCP",
+      "description": {
+        "zh": null,
+        "en": "Telegram for AI agents: messages, chats, media, and contacts in bot and user-account modes.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "n24q02m/telegram",
+        "path": "io.github.n24q02m/telegram",
+        "url": "https://github.com/n24q02m/telegram.git",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:n24q02m/workspace:io.github.n24q02m/better-workspace-mcp#io.github.n24q02m-better-workspace-mcp",
       "type": "mcp",
       "name": "io.github.n24q02m/better-workspace-mcp",
@@ -26810,6 +27704,55 @@
       "source": {
         "repo": "n24q02m/workspace",
         "path": "io.github.n24q02m/better-workspace-mcp",
+        "url": "https://github.com/n24q02m/workspace",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:n24q02m/workspace:io.github.n24q02m/workspace#io.github.n24q02m-workspace",
+      "type": "mcp",
+      "name": "io.github.n24q02m/workspace",
+      "description": {
+        "zh": null,
+        "en": "Google Workspace MCP — Docs, Drive, Calendar, Gmail, Sheets, Slides, Tasks, Chat, People, Forms",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "n24q02m/workspace",
+        "path": "io.github.n24q02m/workspace",
         "url": "https://github.com/n24q02m/workspace",
         "tier": 0
       },
@@ -27134,6 +28077,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:nikoskalyvas/vayancy-mcp:io.github.nikoskalyvas/vayancy-travelos#vayancy-travelos",
+      "type": "mcp",
+      "name": "Vayancy TravelOS",
+      "description": {
+        "zh": null,
+        "en": "Mediterranean luxury villa booking rail with real-time PMS inventory & direct Stripe holds.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "nikoskalyvas/vayancy-mcp",
+        "path": "io.github.nikoskalyvas/vayancy-travelos",
+        "url": "https://github.com/nikoskalyvas/vayancy-mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:nileshpatil6/telegram-slack-mcp:io.github.nileshpatil6/telegram-slack-mcp#io.github.nileshpatil6-telegram-slack-mcp",
       "type": "mcp",
       "name": "io.github.nileshpatil6/telegram-slack-mcp",
@@ -27381,6 +28373,55 @@
       "curatedMentions": 0
     },
     {
+      "id": "mcp:okdataapi/okdata:online.okdata/mcp#okdata",
+      "type": "mcp",
+      "name": "okdata",
+      "description": {
+        "zh": null,
+        "en": "Social data for AI agents: Douyin, Xiaohongshu, WeChat, TikTok, X, YouTube, more. Pay per call.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "okdataapi/okdata",
+        "path": "online.okdata/mcp",
+        "url": "https://github.com/okdataapi/okdata",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
       "id": "mcp:olegnickeshin/telegram-business-mcp:io.github.olegnickeshin/telegram-business-mcp#telegram-business-mcp",
       "type": "mcp",
       "name": "Telegram Business MCP",
@@ -27554,6 +28595,55 @@
         "repo": "openmailsh/mcp",
         "path": "sh.openmail/openmail",
         "url": "https://github.com/openmailsh/mcp",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:orygnscode/discord-mcp:io.github.orygnscode/discord-mcp#discord-mcp",
+      "type": "mcp",
+      "name": "Discord MCP",
+      "description": {
+        "zh": null,
+        "en": "Discord server management MCP for AI agents: chat, moderation, admin, and full server building.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "OrygnsCode/discord-mcp",
+        "path": "io.github.OrygnsCode/discord-mcp",
+        "url": "https://github.com/OrygnsCode/discord-mcp",
         "tier": 0
       },
       "quality": {
@@ -31071,6 +32161,56 @@
         "repo": "SynergyFlowLabs/notion-arena",
         "path": "io.github.imgul/notion-arena",
         "url": "https://github.com/SynergyFlowLabs/notion-arena",
+        "tier": 0
+      },
+      "quality": {
+        "score": 16,
+        "gates": {
+          "security": true,
+          "schema": true,
+          "unique": true,
+          "alive": true
+        },
+        "passed": true,
+        "recommended": false
+      },
+      "risk": {
+        "level": "clean",
+        "score": 0
+      },
+      "duplicateOf": null,
+      "nearDuplicateOf": null,
+      "dupCount": 0,
+      "variantCount": 0,
+      "templateFamily": null,
+      "familySize": 0,
+      "stars": null,
+      "curatedMentions": 0
+    },
+    {
+      "id": "mcp:tapirro/orivale-agent-mcp:io.github.tapirro/orivale-agent-mcp#orivale-agent-intelligence",
+      "type": "mcp",
+      "name": "Orivale Agent Intelligence",
+      "description": {
+        "zh": null,
+        "en": "Clean RAG Markdown, B2B domain enrichment, Shopify intel, and Base audits via x402 or free tier.",
+        "zhEngine": null,
+        "needsTranslation": [
+          "zh"
+        ]
+      },
+      "lang": "en",
+      "categories": [
+        "document",
+        "integration"
+      ],
+      "targets": [
+        "mcp-client"
+      ],
+      "source": {
+        "repo": "tapirro/orivale-agent-mcp",
+        "path": "io.github.tapirro/orivale-agent-mcp",
+        "url": "https://github.com/tapirro/orivale-agent-mcp",
         "tier": 0
       },
       "quality": {
